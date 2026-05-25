@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pick a time</title>
+    <meta name="description" content="Pick a date and time for a surprise date night.">
+    <link rel="preload" as="image" href="assets/cute-booking.png">
+    <link rel="stylesheet" href="styles.css?v=5">
+  </head>
+  <body class="booking-page">
+    <main class="booking-shell" aria-labelledby="booking-title">
+      <a class="back-link" href="index.html">Back</a>
+
+      <section class="booking-panel">
+        <div class="booking-copy">
+          <p class="eyebrow">She said yes</p>
+          <h1 id="booking-title">Pick a time</h1>
+          <p class="lead">
+            The plan is a surprise. You just pick the time, and I will handle the rest.
+          </p>
+        </div>
+
+        <img class="booking-image" src="assets/cute-booking.png" alt="A cute pastel date-planning scene with flowers, a calendar, and tapas">
+
+        <form id="dateForm" class="date-form">
+          <input type="hidden" name="_subject" value="Jessie picked a date">
+          <input type="hidden" name="plan" value="Surprise date night">
+
+          <label>
+            Your name
+            <input name="name" type="text" autocomplete="name" value="Jessie" required>
+          </label>
+
+          <div class="form-grid">
+            <label>
+              Date
+              <input name="date" type="date" required>
+            </label>
+
+            <label>
+              Time
+              <input name="time" type="time" required>
+            </label>
+          </div>
+
+          <label>
+            Anything I should know?
+            <textarea name="notes" rows="3" placeholder="Outfit vibe, food mood, tiny requests."></textarea>
+          </label>
+
+          <button class="button button--submit" type="submit">Send it</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js?v=5"></script>
+  </body>
+</html>
