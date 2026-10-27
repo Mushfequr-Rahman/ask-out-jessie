@@ -31,9 +31,9 @@ The last two designs draw on the user's second, open-deck airship reference. The
 - `city-street.png`: an inhabited street powered by green energy conduits.
 - `mining-dock.png`: extraction, unloading, and control of trade.
 - `ducal-assembly.png`: the former mining magnates ruling together.
-- `magneton-types.png`: Type A bronze, Type B green polarity specimens, and a conceptual Type C forging sample. Type C's colour is not established.
+- `magneton-types.png`: Type A bronze, Type B green polarity specimens, and a conceptual Type C forging sample. Type C is now established as silvery.
 
-The eighteen `.panel-art` images in `index.html` must have distinct source files and distinct file contents. The retired amber/green engine illustration has been replaced so both Type B cores are green.
+The twenty-seven `.panel-art` images in `index.html` must have distinct source files and distinct file contents. The retired amber/green engine illustration has been replaced so both Type B cores are green.
 
 The original ore carrier, city schooner, passenger trader, and ducal man-of-war designs have been removed. The prologue now uses the Mole mining ship.
 
@@ -47,4 +47,18 @@ The original ore carrier, city schooner, passenger trader, and ducal man-of-war 
 - `soldiers-cheer.png`: soldiers cheer while the sailors remain silent.
 - `shattered-earth-atlas.png`: large-scale map backdrop for eight editable duchy labels in the glossary.
 
-Character appearances are working designs. Map labels are HTML so names and locations can be refined without repainting the geography. All eighteen comic panels retain unique image sources and contents.
+Character appearances are working designs. Map labels are HTML so names and locations can be refined without repainting the geography. All twenty-seven comic panels retain unique image sources and contents.
+
+## His Own Future
+
+- `rovan-future.png`: Rovan declares he will define his own future.
+- `recruit-drill.png`: experienced veterans train recruits with seized resources.
+- `single-bastion-departure.png`: departure with exactly one capital ship.
+- `auric-raid.png`: the first organised inter-duchy invasion since the Fracture.
+- `ships-confiscated.png`: ships seized at the captured docks.
+- `city-captured.png`: the baron's city surrenders to the trained force.
+- `secret-type-c-forge.png`: Rovan privately crafts the stolen silver metal.
+- `five-honour-guards.png`: exactly five complete silver armour-and-sword sets, shown without cropping the group.
+- `magnetic-boarding.png`: two of the five guards demonstrate field drifting between ships; their armour is not penetrated by weapons.
+
+All twenty-seven comic panels must use distinct source images and file hashes. The five-guard line-up must show exactly five guards, not Rovan or the general as a sixth figure. The initial city capture uses bronze-armoured veterans, before the silver sets exist.

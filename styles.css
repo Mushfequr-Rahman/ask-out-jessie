@@ -703,3 +703,11 @@ h1 { font-size: clamp(48px, 11.8vw, 146px); }
  .chapter-panel, .chapter-panel.wide { min-height: 560px; }
  .duchy-list { grid-template-columns: 1fr; }
 }
+
+/* Keep the complete five-person line-up visible rather than cropping it. */
+.world-panel.guard-lineup, .world-panel.guard-lineup.wide { min-height: 0; }
+.guard-art-link { display: block; }
+.guard-lineup .panel-art { position: static; display: block; width: 100%; height: auto; object-fit: contain; }
+.guard-lineup .world-note { position: relative; left: auto; right: auto; bottom: auto; margin: 12px 16px; }
+/* The generated line-up has an empty lower margin; frame it below the boots. */
+.guard-art-link { aspect-ratio: 1.93; overflow: hidden; }

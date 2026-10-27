@@ -1,35 +1,40 @@
-# The Duke’s Due — current storyboard and next-scene proposals
+# Current storyboard — Rovan’s campaign
 
-## Selected story
+This records selected author directions. The earlier manifest dispute, return-by-dawn ultimatum, and mining-worker opening were not selected.
 
-The author chose Duke Rovan Vey's story in place of the earlier mining-worker opening. Rovan's title was earned by protecting other cities from pirates, but his own fleet is depleted and he cannot pay his soldiers. Other rulers grew rich through the trade his protection enabled. His right-hand man is General Grievous.
+## Prologue — pages 1–4
 
-### Page 5 — A duke in name
+Earth fractures; humanity adapts; Magneton technology supports floating cities; mining wealth creates a new feudal order.
 
-1. Rovan and Grievous overlook the small island city of Veymarch and its battered fleet.
-2. Grievous presents the unpaid soldiers' accounts and the nearly empty pay chest.
-3. Watching a wealthy Caravan pass, Rovan voices his resentment: other dukes traded and grew while his men protected their mining ships.
+## Chapter One: The Duke’s Due — pages 5–6
 
-### Page 6 — The Duke’s Due
+1. Rovan and General Grievous overlook the small city and depleted fleet.
+2. The accounts reveal he cannot pay the soldiers who protected the trade routes.
+3. Rovan resents the rulers who became wealthy while his men sacrificed.
+4. Armoured soldiers board an Auric Reach Caravan with Tesla guns aimed at its sailors.
+5. Rovan announces seizure for unpaid protection fees owed to his soldiers.
+6. His soldiers cheer.
 
-1. Fully armoured soldiers board a twin-hull Caravan belonging to nearby Auric Reach. Their Tesla guns are aimed at the unarmed sailors; no shots are fired.
-2. Rovan announces that he seizes the vessel against unpaid protection fees owed to his soldiers.
-3. The soldiers cheer. The merchants remain silent. Grievous watches both sides.
+## Chapter Two: His Own Future — pages 7–9
 
-## Recommended next scene — The Manifest (proposal, not established events)
+### Page 7 — His Own Future
 
-Begin immediately after the cheers, when the captain asks to speak.
+1. Rovan: “I will define my own future. We sail for Auric Reach. I will take what is mine.”
+2. Seized resources fund recruits and equipment. Experienced veterans drill the new soldiers.
+3. His force departs with exactly one capital ship, a Bastion; the seized Caravan is a merchant vessel.
 
-1. **The challenge:** “That cargo doesn't belong to the duke. It belongs to the people who paid to put it aboard.”
-2. **The evidence:** the captain lays out a manifest of wages, supplies, and replacement machinery paid for by ordinary mining settlements. The exact cargo should be chosen by the author.
-3. **The distinction:** Rovan orders that no sailor be harmed and that every seized item be recorded. He wants a debt collected, not an indiscriminate raid.
-4. **The warning:** Grievous privately points out that Auric Reach can call this piracy—the very thing Rovan built his reputation fighting.
-5. **The turn:** a message arrives from Auric Reach demanding the ship's return. End before Rovan answers.
+### Page 8 — The First War
 
-This puts Rovan's grievance against the consequences of his chosen method, without declaring him a villain or granting anyone new powers.
+1. Rovan attacks an Auric Reach baron's city. This begins the first organised inter-duchy war since the Fracture.
+2. His well-trained veterans secure the docks and seize ships.
+3. The city falls easily to the more disciplined force. No silver honour guard is involved yet.
 
-## Other possible continuations (proposals)
+### Page 9 — The Five
 
-- **The First Pay:** soldiers finally receive wages, while the ship's captain seeks a public hearing. The city celebrates before the political cost becomes clear.
-- **The Counterclaim:** Auric Reach disputes the fees and produces a conflicting agreement. The confrontation becomes a battle over whose account of the protection is believed.
-- **The Empty Route:** news of the seizure spreads; merchants avoid Veymarch's protection. Rovan must find a way to fund his men without destroying the trade they depend on.
+1. Rovan privately forges the silvery Type C found aboard the seized Caravan, using knowledge acquired through his own experience.
+2. Exactly five complete armour-and-sword sets equip five honour guards. There is no metal for a sixth set. Type C is impervious to weapons.
+3. The guard drifts along magnetic fields, leaping from ship to ship. Rovan's unique crafting knowledge gives his forces an unfair advantage.
+
+## Open decisions
+
+The honour guards' names, individual personalities, the captured city's name, and rival rulers' responses remain to be developed. No additional Type C supply, sixth suit, or weapon that can penetrate Type C is established.
