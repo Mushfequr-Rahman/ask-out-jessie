@@ -1,6 +1,6 @@
 # Asset catalogue
 
-All **42 current illustrations** in the repository, grouped below. The Prologue retains 27 unique panel images; one ship illustration also appears in the comic.
+All **45 current illustrations** in the repository, grouped below. The comic uses 30 unique panel images; one ship illustration also appears in the comic.
 
 [Browse the hosted asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html) · [World reference JSON](world.json)
 
@@ -21,21 +21,24 @@ Select a preview or filename to open the original. Dimensions and sizes refer to
 | [<img src="assets/city-street.png" alt="Life in the city" width="110">](assets/city-street.png) | **Life in the city**<br>[assets/city-street.png](assets/city-street.png) | 1536 × 1024 · 3.5 MB | Page 3, panel 3 |
 | [<img src="assets/mining-dock.png" alt="Mining and trade" width="110">](assets/mining-dock.png) | **Mining and trade**<br>[assets/mining-dock.png](assets/mining-dock.png) | 1536 × 1024 · 3.4 MB | Page 4, panel 2 |
 | [<img src="assets/ducal-assembly.png" alt="The mining barons" width="110">](assets/ducal-assembly.png) | **The mining barons**<br>[assets/ducal-assembly.png](assets/ducal-assembly.png) | 1536 × 1024 · 2.9 MB | Page 4, panel 3 |
-| [<img src="assets/rovan-city.png" alt="Rovan’s island city" width="110">](assets/rovan-city.png) | **Rovan’s island city**<br>[assets/rovan-city.png](assets/rovan-city.png) | 1536 × 1024 · 3.0 MB | Page 5, panel 1 |
-| [<img src="assets/unpaid-ledger.png" alt="The unpaid soldiers" width="110">](assets/unpaid-ledger.png) | **The unpaid soldiers**<br>[assets/unpaid-ledger.png](assets/unpaid-ledger.png) | 1536 × 1024 · 2.9 MB | Page 5, panel 2 |
-| [<img src="assets/duke-resolve.png" alt="Rovan’s resolve" width="110">](assets/duke-resolve.png) | **Rovan’s resolve**<br>[assets/duke-resolve.png](assets/duke-resolve.png) | 1536 × 1024 · 2.9 MB | Page 5, panel 3 |
-| [<img src="assets/caravan-boarding.png" alt="Boarding the Caravan" width="110">](assets/caravan-boarding.png) | **Boarding the Caravan**<br>[assets/caravan-boarding.png](assets/caravan-boarding.png) | 1536 × 1024 · 3.0 MB | Page 6, panel 1 |
-| [<img src="assets/duke-seizure.png" alt="The duke’s claim" width="110">](assets/duke-seizure.png) | **The duke’s claim**<br>[assets/duke-seizure.png](assets/duke-seizure.png) | 1536 × 1024 · 2.7 MB | Page 6, panel 2 |
-| [<img src="assets/soldiers-cheer.png" alt="The soldiers cheer" width="110">](assets/soldiers-cheer.png) | **The soldiers cheer**<br>[assets/soldiers-cheer.png](assets/soldiers-cheer.png) | 1536 × 1024 · 2.9 MB | Page 6, panel 3 |
-| [<img src="assets/rovan-future.png" alt="His own future" width="110">](assets/rovan-future.png) | **His own future**<br>[assets/rovan-future.png](assets/rovan-future.png) | 1536 × 1024 · 2.9 MB | Page 7, panel 1 |
-| [<img src="assets/recruit-drill.png" alt="Training the recruits" width="110">](assets/recruit-drill.png) | **Training the recruits**<br>[assets/recruit-drill.png](assets/recruit-drill.png) | 1536 × 1024 · 2.8 MB | Page 7, panel 2 |
+| [<img src="assets/rovan-city-crimson.png" alt="Rovan’s island city" width="110">](assets/rovan-city-crimson.png) | **Rovan’s island city**<br>[assets/rovan-city-crimson.png](assets/rovan-city-crimson.png) | 1536 × 1024 · 2.7 MB | Page 5, panel 1 |
+| [<img src="assets/unpaid-ledger-crimson.png" alt="The unpaid soldiers" width="110">](assets/unpaid-ledger-crimson.png) | **The unpaid soldiers**<br>[assets/unpaid-ledger-crimson.png](assets/unpaid-ledger-crimson.png) | 1536 × 1024 · 2.7 MB | Page 5, panel 2 |
+| [<img src="assets/duke-resolve-crimson.png" alt="Rovan’s resolve" width="110">](assets/duke-resolve-crimson.png) | **Rovan’s resolve**<br>[assets/duke-resolve-crimson.png](assets/duke-resolve-crimson.png) | 1536 × 1024 · 2.6 MB | Page 5, panel 3 |
+| [<img src="assets/caravan-boarding-crimson.png" alt="Boarding the Caravan" width="110">](assets/caravan-boarding-crimson.png) | **Boarding the Caravan**<br>[assets/caravan-boarding-crimson.png](assets/caravan-boarding-crimson.png) | 1536 × 1024 · 2.8 MB | Page 6, panel 1 |
+| [<img src="assets/duke-seizure-crimson.png" alt="The duke’s claim" width="110">](assets/duke-seizure-crimson.png) | **The duke’s claim**<br>[assets/duke-seizure-crimson.png](assets/duke-seizure-crimson.png) | 1536 × 1024 · 2.4 MB | Page 6, panel 2 |
+| [<img src="assets/soldiers-cheer-crimson.png" alt="The soldiers cheer" width="110">](assets/soldiers-cheer-crimson.png) | **The soldiers cheer**<br>[assets/soldiers-cheer-crimson.png](assets/soldiers-cheer-crimson.png) | 1536 × 1024 · 2.6 MB | Page 6, panel 3 |
+| [<img src="assets/rovan-future-crimson.png" alt="His own future" width="110">](assets/rovan-future-crimson.png) | **His own future**<br>[assets/rovan-future-crimson.png](assets/rovan-future-crimson.png) | 1536 × 1024 · 2.6 MB | Page 7, panel 1 |
+| [<img src="assets/recruit-drill-crimson.png" alt="Training the recruits" width="110">](assets/recruit-drill-crimson.png) | **Training the recruits**<br>[assets/recruit-drill-crimson.png](assets/recruit-drill-crimson.png) | 1536 × 1024 · 2.6 MB | Page 7, panel 2 |
 | [<img src="assets/single-bastion-departure.png" alt="One Bastion departs" width="110">](assets/single-bastion-departure.png) | **One Bastion departs**<br>[assets/single-bastion-departure.png](assets/single-bastion-departure.png) | 1536 × 1024 · 2.9 MB | Page 7, panel 3 |
-| [<img src="assets/auric-raid.png" alt="The raid on Auric Reach" width="110">](assets/auric-raid.png) | **The raid on Auric Reach**<br>[assets/auric-raid.png](assets/auric-raid.png) | 1536 × 1024 · 2.9 MB | Page 8, panel 1 |
-| [<img src="assets/ships-confiscated.png" alt="Seizing the ships" width="110">](assets/ships-confiscated.png) | **Seizing the ships**<br>[assets/ships-confiscated.png](assets/ships-confiscated.png) | 1536 × 1024 · 3.0 MB | Page 8, panel 2 |
-| [<img src="assets/city-captured.png" alt="The captured city" width="110">](assets/city-captured.png) | **The captured city**<br>[assets/city-captured.png](assets/city-captured.png) | 1536 × 1024 · 3.0 MB | Page 8, panel 3 |
-| [<img src="assets/secret-type-c-forge.png" alt="The secret forge" width="110">](assets/secret-type-c-forge.png) | **The secret forge**<br>[assets/secret-type-c-forge.png](assets/secret-type-c-forge.png) | 1536 × 1024 · 3.0 MB | Page 9, panel 1 |
-| [<img src="assets/five-honour-guards.png" alt="The five honour guards" width="110">](assets/five-honour-guards.png) | **The five honour guards**<br>[assets/five-honour-guards.png](assets/five-honour-guards.png) | 1536 × 1024 · 2.9 MB | Page 9, panel 2 |
-| [<img src="assets/magnetic-boarding.png" alt="Magnetic-field drifting" width="110">](assets/magnetic-boarding.png) | **Magnetic-field drifting**<br>[assets/magnetic-boarding.png](assets/magnetic-boarding.png) | 1536 × 1024 · 3.1 MB | Page 9, panel 3 |
+| [<img src="assets/auric-raid-crimson.png" alt="The raid on Auric Reach" width="110">](assets/auric-raid-crimson.png) | **The raid on Auric Reach**<br>[assets/auric-raid-crimson.png](assets/auric-raid-crimson.png) | 1536 × 1024 · 2.6 MB | Page 8, panel 1 |
+| [<img src="assets/ships-confiscated-crimson.png" alt="Seizing the ships" width="110">](assets/ships-confiscated-crimson.png) | **Seizing the ships**<br>[assets/ships-confiscated-crimson.png](assets/ships-confiscated-crimson.png) | 1536 × 1024 · 2.7 MB | Page 8, panel 2 |
+| [<img src="assets/city-captured-crimson.png" alt="The captured city" width="110">](assets/city-captured-crimson.png) | **The captured city**<br>[assets/city-captured-crimson.png](assets/city-captured-crimson.png) | 1536 × 1024 · 2.7 MB | Page 8, panel 3 |
+| [<img src="assets/secret-type-c-forge-crimson.png" alt="The secret forge" width="110">](assets/secret-type-c-forge-crimson.png) | **The secret forge**<br>[assets/secret-type-c-forge-crimson.png](assets/secret-type-c-forge-crimson.png) | 1536 × 1024 · 2.7 MB | Page 9, panel 1 |
+| [<img src="assets/five-honour-guards-crimson.png" alt="The five honour guards" width="110">](assets/five-honour-guards-crimson.png) | **The five honour guards**<br>[assets/five-honour-guards-crimson.png](assets/five-honour-guards-crimson.png) | 1536 × 1024 · 2.6 MB | Page 9, panel 2 |
+| [<img src="assets/magnetic-boarding-crimson.png" alt="Magnetic-field drifting" width="110">](assets/magnetic-boarding-crimson.png) | **Magnetic-field drifting**<br>[assets/magnetic-boarding-crimson.png](assets/magnetic-boarding-crimson.png) | 1536 × 1024 · 2.8 MB | Page 9, panel 3 |
+| [<img src="assets/council-next-steps.png" alt="Rovan and Grievous plan ahead" width="110">](assets/council-next-steps.png) | **Rovan and Grievous plan ahead**<br>[assets/council-next-steps.png](assets/council-next-steps.png) | 1536 × 1024 · 2.7 MB | Page 10, panel 1 |
+| [<img src="assets/auric-counterorder.png" alt="Auric Reach issues its orders" width="110">](assets/auric-counterorder.png) | **Auric Reach issues its orders**<br>[assets/auric-counterorder.png](assets/auric-counterorder.png) | 1536 × 1024 · 3.1 MB | Page 10, panel 2 |
+| [<img src="assets/three-capital-ships.png" alt="Three capital ships depart" width="110">](assets/three-capital-ships.png) | **Three capital ships depart**<br>[assets/three-capital-ships.png](assets/three-capital-ships.png) | 1536 × 1024 · 3.0 MB | Page 10, panel 3 |
 
 ## Ships
 

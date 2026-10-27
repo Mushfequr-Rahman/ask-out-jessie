@@ -83,7 +83,15 @@
       "routes": "Cities and duchies depend on ships moving between settlements and Magneton mining sites."
     },
     "protection_and_wealth": "While Rovan protected merchant and mining ships from pirates, other rulers traded and grew wealthier. His own fleet and resources dwindled.",
-    "formal_duke_baron_relationship": null
+    "formal_duke_baron_relationship": null,
+    "current_conflict": {
+      "opponent_duchy_id": "auric-reach",
+      "target_character_id": "rovan-vey",
+      "capital_ships_dispatched": 3,
+      "status": "departed toward Rovan",
+      "battle_outcome": null,
+      "opponent_total_capital_ship_count": null
+    }
   },
   "metals": [
     {
@@ -320,8 +328,8 @@
         "y_percent": 36,
         "meaning": "region of influence; not surveyed borders"
       },
-      "ruler_id": null,
-      "political_history": "A wealthy neighbouring trading duchy. Rovan seizes its Caravan and captures one of its barons’ cities.",
+      "ruler_id": "auric-ruler",
+      "political_history": "A wealthy neighbouring trading duchy. Rovan seizes its Caravan and captures one of its barons’ cities. Its ruler dispatches three capital ships toward Rovan.",
       "other_details_status": "Unspecified unless explicitly recorded here."
     },
     {
@@ -486,7 +494,8 @@
       "visual_concept": {
         "status": "provisional artwork, not established biography",
         "appearance": "Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf"
-      }
+      },
+      "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
     },
     {
       "id": "general-grievous",
@@ -497,7 +506,8 @@
       "visual_concept": {
         "status": "provisional project artwork, not established species or biography",
         "appearance": "Older bald human officer with a grey moustache, dark olive coat and bronze epaulettes"
-      }
+      },
+      "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
     },
     {
       "id": "honour-guard",
@@ -511,7 +521,20 @@
         "weapon_protection": "Impenetrable and impervious to weapons"
       },
       "mobility": "Drift along magnetic fields and leap between ships",
-      "source_asset_id": "five-honour-guards"
+      "source_asset_id": "five-honour-guards-crimson",
+      "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+    },
+    {
+      "id": "auric-ruler",
+      "name": null,
+      "title": "Ruler of Auric Reach",
+      "duchy_id": "auric-reach",
+      "role": "Rovan’s opponent",
+      "current_action": "Dispatches three capital ships toward Rovan",
+      "visual_concept": {
+        "status": "provisional artwork; name and biography are unestablished",
+        "appearance": "An adult ruler in gold and navy, partly shadowed, beneath the Auric Reach balance banner"
+      }
     }
   ],
   "story_timeline": [
@@ -562,6 +585,17 @@
       "order": 11,
       "event": "The five honour guards reveal weapon-impervious armour and magnetic-field drifting for ship-to-ship leaps.",
       "published_visual_interpretation": "The first trial shows Tesla fire failing to penetrate the armour."
+    },
+    {
+      "order": 12,
+      "event": "Rovan and General Grievous discuss holding the captured city, repairing seized ships, and training recruits."
+    },
+    {
+      "order": 13,
+      "event": "Meanwhile the unnamed ruler of Auric Reach orders and dispatches three capital ships toward Rovan.",
+      "time_relation": "Parallel cutaway to the command-room discussion",
+      "capital_ship_count": 3,
+      "battle_outcome": null
     }
   ],
   "publication": {
@@ -578,8 +612,8 @@
         "title": "Prologue",
         "status": "available",
         "reader": "prologue.html",
-        "page_count": 9,
-        "panel_count": 27,
+        "page_count": 10,
+        "panel_count": 30,
         "pages": [
           {
             "number": 1,
@@ -695,24 +729,24 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "rovan-city",
+                "asset_id": "rovan-city-crimson",
                 "caption": "VEYMARCH. A DUKE IN NAME.",
                 "narration": "Duke Rovan Vey overlooks the small city his fleet can barely afford to protect.",
-                "image_description": "Rovan and his general look over a small island city with battered ships"
+                "image_description": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 2,
-                "asset_id": "unpaid-ledger",
+                "asset_id": "unpaid-ledger-crimson",
                 "caption": "THE COST OF KEEPING THE ROUTES OPEN.",
                 "narration": "General Grievous: “The soldiers’ pay is overdue. The repair yards are waiting too.”",
-                "image_description": "General Grievous presents the fleet accounts and an almost empty pay chest"
+                "image_description": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 3,
-                "asset_id": "duke-resolve",
+                "asset_id": "duke-resolve-crimson",
                 "caption": "OTHER DUKES GREW RICH. HIS FLEET GREW SMALLER.",
                 "narration": "Rovan: “We bled keeping pirates from their mining ships. They traded. They grew. And now I cannot pay the soldiers who made it possible.”",
-                "image_description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape"
+                "image_description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson"
               }
             ]
           },
@@ -722,24 +756,24 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "caravan-boarding",
+                "asset_id": "caravan-boarding-crimson",
                 "caption": "A CARAVAN FROM THE NEARBY DUCHY OF AURIC REACH.",
                 "narration": "Armoured soldiers board the trading ship. Charged Tesla guns hold the unarmed sailors at a standstill.",
-                "image_description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors"
+                "image_description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 2,
-                "asset_id": "duke-seizure",
+                "asset_id": "duke-seizure-crimson",
                 "caption": "THE DUKE PRESENTS HIS CLAIM.",
                 "narration": "Rovan: “I seize this vessel of Auric Reach against the unpaid protection fees owed to my soldiers.”",
-                "image_description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors"
+                "image_description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 3,
-                "asset_id": "soldiers-cheer",
+                "asset_id": "soldiers-cheer-crimson",
                 "caption": "THE SOLDIERS ANSWER WITH A CHEER.",
                 "narration": "The cheers roll across the deck. The sailors remain silent. Grievous watches both sides.",
-                "image_description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent"
+                "image_description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson"
               }
             ]
           },
@@ -749,17 +783,17 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "rovan-future",
+                "asset_id": "rovan-future-crimson",
                 "caption": "ROVAN WILL NO LONGER WAIT FOR ANOTHER DUKE’S PERMISSION.",
                 "narration": "Rovan: “I will define my own future. We sail for Auric Reach. I will take what is mine.”",
-                "image_description": "Rovan declares his own future at the seized Caravan’s chart table"
+                "image_description": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 2,
-                "asset_id": "recruit-drill",
+                "asset_id": "recruit-drill-crimson",
                 "caption": "THE SEIZED RESOURCES BECOME PAY, EQUIPMENT, AND NEW RECRUITS.",
                 "narration": "His veterans are exceptionally well trained. Now they put that experience into drilling the new soldiers.",
-                "image_description": "Bronze-armoured veterans train new recruits equipped from seized resources"
+                "image_description": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 3,
@@ -776,24 +810,24 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "auric-raid",
+                "asset_id": "auric-raid-crimson",
                 "caption": "THE FIRST WAR BETWEEN DUCHIES SINCE THE FRACTURE.",
                 "narration": "They have fought pirates. They have never faced an organised invasion. Rovan strikes at one of Auric Reach’s barons.",
-                "image_description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks"
+                "image_description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 2,
-                "asset_id": "ships-confiscated",
+                "asset_id": "ships-confiscated-crimson",
                 "caption": "THE DOCKS FALL. THE SHIPS ARE SEIZED.",
                 "narration": "His veterans move with a discipline the defenders cannot match. The baron loses control of the harbour.",
-                "image_description": "Veteran troops secure captured merchant airships at the baron’s harbour"
+                "image_description": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 3,
-                "asset_id": "city-captured",
+                "asset_id": "city-captured-crimson",
                 "caption": "THEN THE CITY FALLS WITH SURPRISING EASE.",
                 "narration": "Superior training gives Rovan his victory. The captured city and ships become the foundation of his growing power.",
-                "image_description": "Rovan receives the surrender of the captured city alongside disciplined troops"
+                "image_description": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson"
               }
             ]
           },
@@ -803,24 +837,51 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "secret-type-c-forge",
+                "asset_id": "secret-type-c-forge-crimson",
                 "caption": "THE CARAVAN CARRIED SOMETHING RARER THAN WEALTH.",
                 "narration": "Silvery Type C Magneton. From his own experience, Rovan alone knows the secret of crafting it into armour and swords.",
-                "image_description": "Rovan privately forges silver Type C taken from the seized Caravan"
+                "image_description": "Rovan privately forges silver Type C taken from the seized Caravan. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 2,
-                "asset_id": "five-honour-guards",
+                "asset_id": "five-honour-guards-crimson",
                 "caption": "FIVE SUITS OF ARMOUR. FIVE SWORDS. NO METAL FOR A SIXTH SET.",
                 "narration": "He equips five members of his honour guard. Their silver Type C armour is impenetrable and impervious to weapons.",
-                "image_description": "Exactly five honour guards stand together in silver Type C armour, each carrying a sword"
+                "image_description": "Exactly five honour guards stand together in silver Type C armour, each carrying a sword. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 3,
-                "asset_id": "magnetic-boarding",
+                "asset_id": "magnetic-boarding-crimson",
                 "caption": "THE SILVER GUARD CAN DRIFT ALONG THE MAGNETIC FIELDS.",
                 "narration": "In their first trial, Tesla fire cannot pierce the silver. They drift from ship to ship across the void—an advantage no rival possesses.",
-                "image_description": "Silver honour guards drift along magnetic fields between airships while weapons fail to penetrate their armour"
+                "image_description": "Silver honour guards drift along magnetic fields between airships while weapons fail to penetrate their armour. Veymarch military cloth base layers are crimson"
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "title": "The next move",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "council-next-steps",
+                "caption": "IN THE CAPTURED CITY, ROVAN MEETS HIS GENERAL.",
+                "narration": "Grievous: “We have taken a city. Now we have to hold it.”Rovan: “Repair the seized ships. Train the recruits. We decide what comes next.”",
+                "image_description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room"
+              },
+              {
+                "number": 2,
+                "asset_id": "auric-counterorder",
+                "caption": "MEANWHILE, IN AURIC REACH.",
+                "narration": "The ruler of Auric Reach: “Dispatch three capital ships. Set course for Rovan.”",
+                "image_description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner"
+              },
+              {
+                "number": 3,
+                "asset_id": "three-capital-ships",
+                "caption": "THREE CAPITAL SHIPS DEPART.",
+                "narration": "Gold standards rise above three armoured hulls. While Rovan makes his plans, Auric Reach’s ships are already on their way.",
+                "image_description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan"
               }
             ]
           }
@@ -828,7 +889,8 @@
       }
     ],
     "asset_catalogue": "assets.html",
-    "repository_asset_catalogue": "ASSETS.md"
+    "repository_asset_catalogue": "ASSETS.md",
+    "site_version": "crimson-next-1"
   },
   "terms": {
     "Magneton": "Family of metals formed from nuclear materials after the Fracture.",
@@ -846,29 +908,51 @@
     "The captured city’s name and its baron’s name",
     "Honour guard names and personalities",
     "Ship dimensions, crews, cargo tonnages and armaments",
-    "The other duchies’ response to Rovan",
+    "Other duchies’ responses beyond Auric Reach’s three dispatched capital ships",
     "Any further Type C supply or technical crafting details"
   ],
   "assets": [
     {
-      "id": "auric-raid",
-      "file": "assets/auric-raid.png",
+      "id": "auric-counterorder",
+      "file": "assets/auric-counterorder.png",
+      "title": "Auric Reach issues its orders",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3208315,
+      "sha256": "c684a314c28250772ca40a016a8138fba4a28ac22156f6d200885b7c32b138b0",
+      "status": "current",
+      "origin": "Generated for the next Prologue section.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 2,
+          "description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner"
+        }
+      ]
+    },
+    {
+      "id": "auric-raid-crimson",
+      "file": "assets/auric-raid-crimson.png",
       "title": "The raid on Auric Reach",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3053480,
-      "sha256": "69b6dc5fc27bb34b6f41a4248faf98cb4a11dbc245d727dd37efa3b9b0203e0f",
+      "byte_size": 2768472,
+      "sha256": "32c06547425dd76f131b82c01eb4cfd040814fc75a78f32b0738fa94fe68c996",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 8,
           "panel": 1,
-          "description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks"
+          "description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson"
         }
       ]
     },
@@ -1008,46 +1092,46 @@
       "comic_usage": []
     },
     {
-      "id": "caravan-boarding",
-      "file": "assets/caravan-boarding.png",
+      "id": "caravan-boarding-crimson",
+      "file": "assets/caravan-boarding-crimson.png",
       "title": "Boarding the Caravan",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3177412,
-      "sha256": "9e949a8e62b3faca72f38fb15c182dba7437a111ba4fb5fb772162c16084e4d2",
+      "byte_size": 2962805,
+      "sha256": "8679db7b3c09e9cf84892e34dfb0c6807406fa0561dbe1122048e1b06025cd83",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 6,
           "panel": 1,
-          "description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors"
+          "description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson"
         }
       ]
     },
     {
-      "id": "city-captured",
-      "file": "assets/city-captured.png",
+      "id": "city-captured-crimson",
+      "file": "assets/city-captured-crimson.png",
       "title": "The captured city",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3138877,
-      "sha256": "969ea811df37cecd0e1d881975bb3bb107d2166b4a0d34fc837adad7b60b05df",
+      "byte_size": 2804940,
+      "sha256": "5de8ff3fd5004a98c344934c270143135176a66603f70aad1a4a0cd5fc5f7a3a",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 8,
           "panel": 3,
-          "description": "Rovan receives the surrender of the captured city alongside disciplined troops"
+          "description": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson"
         }
       ]
     },
@@ -1096,6 +1180,28 @@
       ]
     },
     {
+      "id": "council-next-steps",
+      "file": "assets/council-next-steps.png",
+      "title": "Rovan and Grievous plan ahead",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2872269,
+      "sha256": "9fee81de70094c26e1252b5d21f04e7c42b591b01e730e48cc80cdde3c5ee88c",
+      "status": "current",
+      "origin": "Generated for the next Prologue section.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 1,
+          "description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room"
+        }
+      ]
+    },
+    {
       "id": "ducal-assembly",
       "file": "assets/ducal-assembly.png",
       "title": "The mining barons",
@@ -1118,68 +1224,68 @@
       ]
     },
     {
-      "id": "duke-resolve",
-      "file": "assets/duke-resolve.png",
+      "id": "duke-resolve-crimson",
+      "file": "assets/duke-resolve-crimson.png",
       "title": "Rovan’s resolve",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3002512,
-      "sha256": "063e270ee70a69a6e53c1c7b22ae21447a218d07a5b2e665bdac35d5fbc177d5",
+      "byte_size": 2759029,
+      "sha256": "84eeef1bee7bc5a67bfbcaeb1bee3ecadf3229b2f1e7aa37956d8984347a3e89",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 5,
           "panel": 3,
-          "description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape"
+          "description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson"
         }
       ]
     },
     {
-      "id": "duke-seizure",
-      "file": "assets/duke-seizure.png",
+      "id": "duke-seizure-crimson",
+      "file": "assets/duke-seizure-crimson.png",
       "title": "The duke’s claim",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 2831004,
-      "sha256": "8fa3bf2116617aa3fceeca4482bb762a37b3fc028bcff62ae2e6226a0abd0446",
+      "byte_size": 2564319,
+      "sha256": "a99f42ef8138f70fca9b39f9b4a2165203ea3d7a608ebf00406039667c7531a6",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 6,
           "panel": 2,
-          "description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors"
+          "description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson"
         }
       ]
     },
     {
-      "id": "five-honour-guards",
-      "file": "assets/five-honour-guards.png",
+      "id": "five-honour-guards-crimson",
+      "file": "assets/five-honour-guards-crimson.png",
       "title": "The five honour guards",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3056339,
-      "sha256": "525a09a72272c8138718ca41521fabcd512bee118a4313a1655d8099594ede87",
+      "byte_size": 2701847,
+      "sha256": "6845b42eeb6e581da37a15794762fdefff11d163f6ed29fe3e2221b215a86e23",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 9,
           "panel": 2,
-          "description": "Exactly five honour guards stand together in silver Type C armour, each carrying a sword"
+          "description": "Exactly five honour guards stand together in silver Type C armour, each carrying a sword. Veymarch military cloth base layers are crimson"
         }
       ]
     },
@@ -1250,24 +1356,24 @@
       ]
     },
     {
-      "id": "magnetic-boarding",
-      "file": "assets/magnetic-boarding.png",
+      "id": "magnetic-boarding-crimson",
+      "file": "assets/magnetic-boarding-crimson.png",
       "title": "Magnetic-field drifting",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3259778,
-      "sha256": "bf169f9ec78359949bb6cba88f9b874241deade27c8bb643cb0c1672ea24fb7d",
+      "byte_size": 2900349,
+      "sha256": "b8516d5d05c33c20c3545f97bf46138bf3690e0c3a6b180156e98249a8ef3c3f",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 9,
           "panel": 3,
-          "description": "Silver honour guards drift along magnetic fields between airships while weapons fail to penetrate their armour"
+          "description": "Silver honour guards drift along magnetic fields between airships while weapons fail to penetrate their armour. Veymarch military cloth base layers are crimson"
         }
       ]
     },
@@ -1397,68 +1503,68 @@
       ]
     },
     {
-      "id": "recruit-drill",
-      "file": "assets/recruit-drill.png",
+      "id": "recruit-drill-crimson",
+      "file": "assets/recruit-drill-crimson.png",
       "title": "Training the recruits",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 2972802,
-      "sha256": "91ac8630b1ab49d6fb8ca94b26fdd4e359de009bfc5825ae2054f4c14e183f92",
+      "byte_size": 2700733,
+      "sha256": "dd88125a3d5f2287e61ef58f758577474095019d8dc52e58b4b982d0c4be347c",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 7,
           "panel": 2,
-          "description": "Bronze-armoured veterans train new recruits equipped from seized resources"
+          "description": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson"
         }
       ]
     },
     {
-      "id": "rovan-city",
-      "file": "assets/rovan-city.png",
+      "id": "rovan-city-crimson",
+      "file": "assets/rovan-city-crimson.png",
       "title": "Rovan’s island city",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3120302,
-      "sha256": "c580f9d2f21a39ac0a3b68b9dbb091644176dcf3c179ca5fd37c98300c40c3c5",
+      "byte_size": 2813118,
+      "sha256": "002030fef9b64fb19e80692a42f0f11f6dad749a4e582663e941d96d2263b321",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 5,
           "panel": 1,
-          "description": "Rovan and his general look over a small island city with battered ships"
+          "description": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson"
         }
       ]
     },
     {
-      "id": "rovan-future",
-      "file": "assets/rovan-future.png",
+      "id": "rovan-future-crimson",
+      "file": "assets/rovan-future-crimson.png",
       "title": "His own future",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 2995027,
-      "sha256": "8f7055c4de6e958b95fb6166a07fe206cca12055e78c89116644bfe98f72040b",
+      "byte_size": 2732613,
+      "sha256": "bf58f139acd5ad8d6c68feecaa6aea8d467295857cf53374bd102c5152d05427",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 7,
           "panel": 1,
-          "description": "Rovan declares his own future at the seized Caravan’s chart table"
+          "description": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson"
         }
       ]
     },
@@ -1493,24 +1599,24 @@
       "comic_usage": []
     },
     {
-      "id": "secret-type-c-forge",
-      "file": "assets/secret-type-c-forge.png",
+      "id": "secret-type-c-forge-crimson",
+      "file": "assets/secret-type-c-forge-crimson.png",
       "title": "The secret forge",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3133688,
-      "sha256": "941635c15cce1fa69362a772b391815ea09b32d8487bf5f082016646ae818c6f",
+      "byte_size": 2845659,
+      "sha256": "9d6d8f3a82378738834fb29e2eb4c240d0f06e96686b458696975c422ca4d2a4",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 9,
           "panel": 1,
-          "description": "Rovan privately forges silver Type C taken from the seized Caravan"
+          "description": "Rovan privately forges silver Type C taken from the seized Caravan. Veymarch military cloth base layers are crimson"
         }
       ]
     },
@@ -1530,24 +1636,24 @@
       "comic_usage": []
     },
     {
-      "id": "ships-confiscated",
-      "file": "assets/ships-confiscated.png",
+      "id": "ships-confiscated-crimson",
+      "file": "assets/ships-confiscated-crimson.png",
       "title": "Seizing the ships",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3191683,
-      "sha256": "7337bc13621aecd821554bf3db564b1185e1af414261a2e1d0929c6721837b48",
+      "byte_size": 2863593,
+      "sha256": "8517ce0534e665b1ccac688347b8065cf1d216249adb4608e5e10595856b8cef",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 8,
           "panel": 2,
-          "description": "Veteran troops secure captured merchant airships at the baron’s harbour"
+          "description": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson"
         }
       ]
     },
@@ -1574,24 +1680,24 @@
       ]
     },
     {
-      "id": "soldiers-cheer",
-      "file": "assets/soldiers-cheer.png",
+      "id": "soldiers-cheer-crimson",
+      "file": "assets/soldiers-cheer-crimson.png",
       "title": "The soldiers cheer",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3026921,
-      "sha256": "805b9ca21e9007bb66047eaec944af137f4ea9dfecaf6154c92c0f831cb586fd",
+      "byte_size": 2747636,
+      "sha256": "d4a488f632fca958200f13744062e24402225cd9c2ebb4b9146dee1bfecf2917",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 6,
           "panel": 3,
-          "description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent"
+          "description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson"
         }
       ]
     },
@@ -1614,6 +1720,28 @@
           "page": 1,
           "panel": 3,
           "description": "A small human silhouette standing on a floating island"
+        }
+      ]
+    },
+    {
+      "id": "three-capital-ships",
+      "file": "assets/three-capital-ships.png",
+      "title": "Three capital ships depart",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3102424,
+      "sha256": "909f58f096d771142aba09e4953930fe65f5a4e25a11d8064e1972eba9914acc",
+      "status": "current",
+      "origin": "Generated for the next Prologue section.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 3,
+          "description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan"
         }
       ]
     },
@@ -1648,35 +1776,54 @@
       "comic_usage": []
     },
     {
-      "id": "unpaid-ledger",
-      "file": "assets/unpaid-ledger.png",
+      "id": "unpaid-ledger-crimson",
+      "file": "assets/unpaid-ledger-crimson.png",
       "title": "The unpaid soldiers",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3060032,
-      "sha256": "b13a98501e3afaad9c6c1441dfadf67df5197a371fe036dd75785f581f237207",
+      "byte_size": 2812669,
+      "sha256": "de13d8901393b32b1b8024480b9e72697e8b47570e31e2eed572e39ade393612",
       "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 5,
           "panel": 2,
-          "description": "General Grievous presents the fleet accounts and an almost empty pay chest"
+          "description": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson"
         }
       ]
     }
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with nine pages and 27 distinct panel images.",
+    "There is one available story entry, Prologue, with ten pages and 30 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
     "There are exactly five complete Type C armour-and-sword sets and no material for a sixth.",
     "Type C is impervious to any weapons; no weapon vulnerability or armour-piercing exception is established.",
-    "Only Rovan knows the crafting secret through his experience."
-  ]
+    "Only Rovan knows the crafting secret through his experience.",
+    "Veymarch soldiers wear crimson red cloth base layers under bronze or silver armour.",
+    "The three newly dispatched capital ships belong to Auric Reach, not Rovan. No result of their encounter is established."
+  ],
+  "military_livery": {
+    "veymarch": {
+      "base_layer": "crimson red",
+      "duchy_id": "veymarch",
+      "ordinary_armour": "bronze",
+      "honour_guard_armour": "silver Type C",
+      "honour_guard_count": 5,
+      "officer_outer_coats": "Rovan navy; General Grievous dark olive"
+    },
+    "auric-reach": {
+      "identity_colours": [
+        "gold",
+        "navy"
+      ],
+      "capital_ships_in_dispatched_force": 3
+    }
+  }
 }

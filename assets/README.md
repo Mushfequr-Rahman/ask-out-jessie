@@ -33,35 +33,35 @@ The last two designs draw on the user's second, open-deck airship reference. The
 - `ducal-assembly.png`: the former mining magnates ruling together.
 - `magneton-types.png`: Type A bronze, Type B green polarity specimens, and a conceptual Type C forging sample. Type C is now established as silvery.
 
-The twenty-seven `.panel-art` images in `prologue.html` must have distinct source files and distinct file contents. The retired amber/green engine illustration has been replaced so both Type B cores are green.
+The thirty `.panel-art` images in `prologue.html` must have distinct source files and distinct file contents. The retired amber/green engine illustration has been replaced so both Type B cores are green.
 
 The original ore carrier, city schooner, passenger trader, and ducal man-of-war designs have been removed. The prologue now uses the Mole mining ship.
 
 ## The Duke’s Due and world atlas
 
-- `rovan-city.png`: Rovan Vey and General Grievous overlooking the small city.
-- `unpaid-ledger.png`: the unpaid soldiers' accounts and pay chest.
-- `duke-resolve.png`: Rovan's resentment becomes a decision.
-- `caravan-boarding.png`: armoured Tesla-gun soldiers boarding an Auric Reach Caravan.
-- `duke-seizure.png`: Rovan announces seizure for unpaid protection fees.
-- `soldiers-cheer.png`: soldiers cheer while the sailors remain silent.
+- `rovan-city-crimson.png`: Rovan Vey and General Grievous overlooking the small city.
+- `unpaid-ledger-crimson.png`: the unpaid soldiers' accounts and pay chest.
+- `duke-resolve-crimson.png`: Rovan's resentment becomes a decision.
+- `caravan-boarding-crimson.png`: armoured Tesla-gun soldiers boarding an Auric Reach Caravan.
+- `duke-seizure-crimson.png`: Rovan announces seizure for unpaid protection fees.
+- `soldiers-cheer-crimson.png`: soldiers cheer while the sailors remain silent.
 - `shattered-earth-atlas.png`: large-scale map backdrop for eight editable duchy labels in the glossary.
 
-Character appearances are working designs. Map labels are HTML so names and locations can be refined without repainting the geography. All twenty-seven comic panels retain unique image sources and contents.
+Character appearances are working designs. Map labels are HTML so names and locations can be refined without repainting the geography. All thirty comic panels retain unique image sources and contents.
 
 ## His Own Future
 
-- `rovan-future.png`: Rovan declares he will define his own future.
-- `recruit-drill.png`: experienced veterans train recruits with seized resources.
+- `rovan-future-crimson.png`: Rovan declares he will define his own future.
+- `recruit-drill-crimson.png`: experienced veterans train recruits with seized resources.
 - `single-bastion-departure.png`: departure with exactly one capital ship.
-- `auric-raid.png`: the first organised inter-duchy invasion since the Fracture.
-- `ships-confiscated.png`: ships seized at the captured docks.
-- `city-captured.png`: the baron's city surrenders to the trained force.
-- `secret-type-c-forge.png`: Rovan privately crafts the stolen silver metal.
-- `five-honour-guards.png`: exactly five complete silver armour-and-sword sets, shown without cropping the group.
-- `magnetic-boarding.png`: two of the five guards demonstrate field drifting between ships; their armour is not penetrated by weapons.
+- `auric-raid-crimson.png`: the first organised inter-duchy invasion since the Fracture.
+- `ships-confiscated-crimson.png`: ships seized at the captured docks.
+- `city-captured-crimson.png`: the baron's city surrenders to the trained force.
+- `secret-type-c-forge-crimson.png`: Rovan privately crafts the stolen silver metal.
+- `five-honour-guards-crimson.png`: exactly five complete silver armour-and-sword sets, shown without cropping the group.
+- `magnetic-boarding-crimson.png`: two of the five guards demonstrate field drifting between ships; their armour is not penetrated by weapons.
 
-All twenty-seven comic panels must use distinct source images and file hashes. The five-guard line-up must show exactly five guards, not Rovan or the general as a sixth figure. The initial city capture uses bronze-armoured veterans, before the silver sets exist.
+All thirty comic panels must use distinct source images and file hashes. The five-guard line-up must show exactly five guards, not Rovan or the general as a sixth figure. The initial city capture uses bronze-armoured veterans, before the silver sets exist.
 
 ## Duchy banners
 
@@ -81,3 +81,11 @@ The atlas background remains the same geography; heraldic colours, names, and ba
 ## Complete inventory
 
 See [ASSETS.md](../ASSETS.md) for the full repository catalogue, [assets.html](../assets.html) for the visual library, and [world.json](../world.json) for structured world facts and image metadata. Refresh the inventory with `python3 scripts/build_assets.py`, then shared layout with `python3 scripts/sync_layout.py`.
+
+## Crimson uniform correction and next move
+
+The Rovan scenes on pages 5–9 now use `-crimson.png` replacements. Their military cloth underlayers, capes, and tabards match Veymarch crimson; bronze and silver armour retain their metal colours. The departure panorama has no legible soldier base layers and is unchanged. Retired teal-cloth files are removed from the current catalogue.
+
+- `council-next-steps.png`: Rovan and General Grievous discuss what comes next.
+- `auric-counterorder.png`: Auric Reach’s unnamed ruler dispatches three capital ships.
+- `three-capital-ships.png`: exactly three enemy capital ships depart, with no battle outcome shown.

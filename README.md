@@ -5,12 +5,12 @@ A dependency-free HTML comic project featuring **Magneton**.
 ## Read online
 
 - [Chapters](https://mushfequr-rahman.github.io/ask-out-jessie/chapters.html): one available story, **Prologue**.
-- [Read Prologue](https://mushfequr-rahman.github.io/ask-out-jessie/prologue.html): all nine existing illustrated pages, including Rovan's rise and the five silver honour guards.
+- [Read Prologue](https://mushfequr-rahman.github.io/ask-out-jessie/prologue.html): all ten existing illustrated pages, including Rovan's rise, the five silver honour guards, and Auric Reach's response on page 10.
 - [Glossary](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html): metals, ships, eight duchies and banners, people, and world terms.
-- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 42 original artwork files; linked from the glossary.
+- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 45 original artwork files; linked from the glossary.
 - [Repository asset catalogue](ASSETS.md) and [world.json](world.json): artwork inventory and structured world reference.
 
-Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's nine pages retain all 27 unique panel illustrations.
+Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's ten pages retain all 30 unique panel illustrations.
 
 ## Run locally
 
@@ -41,7 +41,7 @@ The map and banner key use the same colour assignments, with names and numbers s
 
 - `index.html`: home alias of the Chapters menu, with support for old reader links.
 - `chapters.html`: story menu; only Prologue is available.
-- `prologue.html`: nine-page reader with a page selector, previous/next controls, and keyboard navigation.
+- `prologue.html`: ten-page reader with a page selector, previous/next controls, and keyboard navigation.
 - `glossary.html`: the consolidated reference page and all eight duchy banners.
 - `magneton.html`: legacy link forwarding to the metals section of the glossary.
 - `assets.html` / `ASSETS.md`: browsable website and repository artwork catalogues.
@@ -63,11 +63,11 @@ The generated HTML is checked in, so serving or publishing does not require this
 
 ## Verification
 
-Check the two shared navigation links and active states on all pages, the single Prologue entry, all nine reader pages, the page selector, all 27 unique panel images, glossary section links and ship filters, eight distinct colours and banners, and mobile layouts. Old `index.html?page=7#reader`, `index.html#fleet`, and `magneton.html#type-c` bookmarks should forward to the new structure.
+Check the two shared navigation links and active states on all pages, the single Prologue entry, all ten reader pages, the page selector, all 30 unique panel images, glossary section links and ship filters, eight distinct colours and banners, and mobile layouts. Old `index.html?page=7#reader`, `index.html#fleet`, and `magneton.html#type-c` bookmarks should forward to the new structure.
 
 ## World and asset maintenance
 
-Keep `world.json` current when author-established lore changes. It separates established facts from provisional visual designs and explicitly records unknown details. It includes all nine story pages, their captions and narration, and asset references. The glossary remains checked-in HTML; lore edits should also be reflected there and in `STORY.md`.
+Keep `world.json` current when author-established lore changes. It separates established facts from provisional visual designs and explicitly records unknown details. It includes all ten story pages, their captions and narration, and asset references. The glossary remains checked-in HTML; lore edits should also be reflected there and in `STORY.md`.
 
 After changing artwork, refresh the metadata and catalogues:
 

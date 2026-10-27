@@ -38,3 +38,11 @@ Earth fractures; humanity adapts; Magneton technology supports floating cities; 
 ## Open decisions
 
 The honour guards' names, individual personalities, the captured city's name, and rival rulers' responses remain to be developed. No additional Type C supply, sixth suit, or weapon that can penetrate Type C is established.
+
+## Prologue: The next move — page 10
+
+1. Rovan and General Grievous discuss holding the captured city and preparing their forces.
+2. Cut to the unnamed ruler of Auric Reach ordering three capital ships toward Rovan.
+3. Exactly three Auric Reach capital ships depart. Stop before their arrival or any battle outcome.
+
+All Veymarch military fabric under armour is crimson, including the silver honour guards’ cloth layers and capes. Their metal armour colours do not change.

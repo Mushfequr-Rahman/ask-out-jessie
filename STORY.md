@@ -112,7 +112,7 @@ The city capture does not yet establish that Rovan controls all of Auric Reach. 
 
 ## Publication structure and duchy heraldry
 
-There is currently one published story entry, **Prologue**, containing all nine existing pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
+There is currently one published story entry, **Prologue**, containing all ten existing pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
 
 | Duchy | Colour | Banner emblem |
 | --- | --- | --- |
@@ -127,4 +127,10 @@ There is currently one published story entry, **Prologue**, containing all nine 
 
 ## Structured reference and artwork catalogue
 
-`world.json` contains the structured version of all current lore, open details, the nine published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.
+`world.json` contains the structured version of all current lore, open details, the ten published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.
+
+## Current uniforms and the next move
+
+Veymarch military cloth base layers are crimson red. This includes visible tunics, sleeves, cloth skirts, tabards and capes beneath armour. Bronze armour stays bronze; the five Type C sets stay silver. Rovan’s navy outer officer coat and Grievous’s dark olive outer coat remain recognisable.
+
+After the silver-guard trial, Rovan talks with General Grievous about holding the captured city, repairing seized ships, and training recruits. Meanwhile Auric Reach’s unnamed ruler dispatches **three capital ships toward Rovan**. They are enemy ships: Rovan’s own initial capital-ship count remains one. The coming encounter, its timing, and its outcome have not yet been established.
