@@ -43,3 +43,16 @@ The fleet illustrations explore these silhouettes. Exact dimensions, crew counts
 - Characters, viewpoint, names, timeline, and the main story conflict.
 
 The fracture and magnetic gravity are fictional rules of this setting. No real-world scientific explanation has been imposed on them.
+
+## Proposed ship variants
+
+The glossary extends the four established classes with design studies. These names and layouts are proposals for development, not additional story events or numerical specifications.
+
+- **Mole**: squat mining ship with a deep ore cassette and drill.
+- **Needle**: light, highly agile commuter schooner.
+- **Caravan**: twin-hull freight and passenger trader.
+- **Bastion**: broad armored capital ship with multiple keels.
+- **Kestrel**: small open-deck commuter inspired by the second reference.
+- **Terrace**: large merchant with terraced passenger decks and an aft bridge, also inspired by the second reference.
+
+The newer reference introduces open decks, a swept lower hull, aft superstructures, and hull-edge machinery as alternative silhouettes alongside rigid Zeppelins. Magnetic field rings remain the shared propulsion language. The capital-ship scarcity applies to the entire class: variants do not each receive a separate three-ship allowance.

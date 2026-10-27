@@ -592,3 +592,56 @@ h1 { font-size: clamp(48px, 11.8vw, 146px); }
   .masthead { flex-wrap: wrap; gap: 20px; }
   .site-nav { width: 100%; justify-content: space-between; }
 }
+
+/* Standalone fleet glossary */
+.text-link { color: var(--orange); font-size: 13px; line-height: 1.6; text-decoration: underline; text-underline-offset: 5px; }
+.fleet-glossary-link { margin: 0 0 24px; }
+.glossary-main { padding: 0 40px 60px; }
+.glossary-intro { padding: 55px 0 45px; border-bottom: 1px solid #ffffff26; }
+.glossary-intro h1 { font-size: clamp(44px, 7.5vw, 90px); line-height: 1.05; letter-spacing: -4px; margin: 25px 0 20px; }
+.glossary-intro h1 span { color: var(--orange); }
+.glossary-intro > p:first-of-type { font: italic 23px/1.5 Georgia, serif; }
+.glossary-note { color: var(--muted); font-size: 13px; line-height: 1.8; max-width: 800px; }
+.glossary-section-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-top: 20px; }
+.glossary-main h2 { font-size: clamp(27px, 3vw, 36px); letter-spacing: -1px; }
+#design-count { color: var(--muted); font: 11px monospace; }
+.fleet-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 25px; }
+.fleet-filters button { padding: 10px 14px; font-size: 12px; background: transparent; color: var(--paper); border: 1px solid #66695e; cursor: pointer; }
+.fleet-filters button[aria-pressed="true"] { background: var(--orange); color: var(--ink); border-color: var(--orange); }
+.comparison-board { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.comparison-ship { margin: 0; background: #1d2221; border: 1px solid #ffffff26; }
+.comparison-ship > a { display: block; background: #e6e1d1; }
+.comparison-ship img { width: 100%; aspect-ratio: 3 / 2; object-fit: contain; display: block; }
+.comparison-ship figcaption { padding: 15px; }
+.comparison-ship figcaption span { color: var(--muted); display: block; font: 10px monospace; margin-bottom: 8px; }
+.comparison-ship figcaption a { font-size: 16px; font-weight: bold; }
+.comparison-ship figcaption a:hover { color: var(--orange); }
+.table-scroll { overflow-x: auto; margin: 30px 0 14px; border: 1px solid #ffffff26; }
+.ship-table { width: 100%; border-collapse: collapse; text-align: left; font-size: 12px; min-width: 760px; }
+.ship-table caption { text-align: left; padding: 18px; font-weight: bold; font-size: 14px; }
+.ship-table th, .ship-table td { padding: 14px 16px; border-top: 1px solid #ffffff26; line-height: 1.6; }
+.ship-table thead th { color: var(--orange); background: #202624; font: 10px monospace; }
+.ship-table td { color: var(--muted); }
+.ship-table a { text-decoration: underline; text-underline-offset: 3px; }
+.glossary-entries, .glossary-terms { margin-top: 50px; padding-top: 20px; border-top: 1px solid #ffffff26; }
+.entry-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.glossary-entry { padding: 24px; border: 1px solid #ffffff26; scroll-margin-top: 24px; }
+.glossary-entry h3 { font-size: 24px; margin: 12px 0; letter-spacing: -.5px; }
+.glossary-entry p, .glossary-terms dd { font-size: 14px; line-height: 1.8; color: var(--muted); }
+.glossary-terms dl { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+.glossary-terms dt { color: var(--orange); font-weight: bold; margin-bottom: 8px; }
+.glossary-terms dd { margin: 0; }
+@media (max-width: 900px) {
+  .comparison-board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 650px) {
+  .glossary-main { padding: 0 20px 40px; }
+  .glossary-intro { padding: 35px 0; }
+  .glossary-intro h1 { letter-spacing: -2px; }
+  .entry-grid, .glossary-terms dl { grid-template-columns: 1fr; }
+}
+@media (max-width: 380px) {
+  .comparison-board { grid-template-columns: 1fr; }
+}
+.reading-help { color: var(--muted); font-size: 12px; line-height: 1.8; margin: 0 0 18px; }
+.reading-help strong { color: var(--paper); }
