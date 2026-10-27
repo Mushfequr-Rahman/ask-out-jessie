@@ -1,30 +1,32 @@
-# Jessie Date Invitation
+# comicbook
 
-A static GitHub Pages site for asking Jessie out, with cute generated imagery, a moving "No" button, and a separate booking page.
+An HTML comic project featuring **Magneton** (working story title).
 
-## Free Notification Setup
+A dependency-free HTML comic book starter. Includes a responsive four-page world-building prologue, generated panel illustrations, accessible reader controls, and keyboard navigation. No build tools, accounts, API keys, or external services are required.
 
-Use Formspree's free tier:
+## Run locally
 
-1. Go to <https://formspree.io>.
-2. Create a free form and verify your email.
-3. Copy the form endpoint. It looks like `https://formspree.io/f/xabcwxyz`.
-4. Open `script.js` and paste it into `CONFIG.formEndpoint`.
+From the repository root:
 
-Optional fallback: put your email in `CONFIG.fallbackEmail`. If no Formspree endpoint is set, the form opens an email draft instead. Formspree is better for GitHub Pages because it sends the details without needing a backend.
+```sh
+python3 -m http.server 8000 --bind 127.0.0.1
+```
 
-## GitHub Pages
+Open the site in your local browser on port 8000. Any static hosting service can serve this folder, including GitHub Pages (select the branch containing this project and the root folder).
 
-1. Push this folder to a GitHub repository.
-2. In GitHub, open Settings > Pages.
-3. Set the source to the main branch and root folder.
-4. Visit the Pages URL after it finishes deploying.
+## Make it your comic
 
-## Files
+- `index.html`: comic title, description, story panels, and page articles.
+- `styles.css`: colors, typography, responsive layout, and artwork presentation.
+- `script.js`: previous/next controls and arrow-key navigation.
+- `assets/`: place your own artwork here and reference it with relative image paths. Include descriptive alt text.
 
-- `index.html`: page structure and form fields.
-- `booking.html`: date and time form.
-- `styles.css`: responsive visual design.
-- `script.js`: yes/no behavior and form submission.
-- `assets/cute-hero.png`: generated landing image.
-- `assets/cute-booking.png`: generated booking image.
+To add a page, add another `article.comic-page` before the reader controls with a unique ID, a heading connected with `aria-labelledby`, and the `hidden` attribute. Update the initial page count in the HTML; JavaScript calculates subsequent counts automatically. Keep the first page visible so the comic remains readable without JavaScript.
+
+## Verify changes
+
+Serve the root folder and check all four comic pages, boundary button states, keyboard navigation, and a narrow mobile viewport. Check the browser console for errors. This starter has no package installation, build command, or test runner.
+
+## Story reference
+
+See [STORY.md](STORY.md) for the world premise and details still to develop. The panels use six generated illustrations in a consistent graphic novel style, with selected scenes reused across the four-page prologue. Captions stay in HTML so they remain readable and editable. See [assets/README.md](assets/README.md) for the artwork inventory.

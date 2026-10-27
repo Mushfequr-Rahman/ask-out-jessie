@@ -1,36 +1,107 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jessie, dinner?</title>
-    <meta
-      name="description"
-      content="A cute invitation for Jessie to pick a time for a date night."
-    >
-    <link rel="preload" as="image" href="assets/cute-hero.png">
-    <link rel="stylesheet" href="styles.css?v=5">
-  </head>
-  <body class="landing-page">
-    <main class="landing-shell" aria-labelledby="hero-title">
-      <img class="landing-image" src="assets/cute-hero.png" alt="">
-      <div class="landing-glow"></div>
-
-      <section class="invite-card">
-        
-        <h1 id="hero-title">Jessie, will you go out with me?</h1>
-        <p class="lead">
-          I had a greatime last time and I was thinking we could go out again; A little surprise,
-          lots of new food, and fun drinks afterwards!
-        </p>
-
-        <div class="choice-panel" aria-label="Date invitation choices">
-          <a class="button button--yes" href="booking.html">Yes</a>
-          <button class="button button--no" id="noButton" type="button">No</button>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A shattered Earth. Floating cities. A civilization built on Magneton. Read the opening of this post-apocalyptic comic.">
+  <title>Magneton · Prologue</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="index.html" aria-label="Magneton home"><span class="brand-icon">✦</span> MAGNETON <small>COMICS</small></a>
+    <a class="issue-link" href="#reader">READ THE PROLOGUE <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="title">
+      <div class="issue-meta"><span class="tag">AN ORIGINAL WEB COMIC</span><span>PROLOGUE / THE SHATTERED EARTH</span></div>
+      <h1 id="title">MAGNETON<span class="title-period">.</span></h1>
+      <div class="intro-bottom"><p>The Earth broke.<br>Humanity built above the ruins.</p><a class="start" href="#reader">ENTER THE NEW WORLD <span aria-hidden="true">↓</span></a></div>
+    </section>
+    <section id="reader" class="reader" aria-label="Comic reader">
+      <div class="reader-heading"><span>PROLOGUE <b>THE SHATTERED EARTH</b></span><span class="edition">A WORLD HELD TOGETHER BY MAGNETON</span></div>
+      <article class="comic-page" id="page-1" aria-labelledby="page-1-title">
+        <h2 class="sr-only" id="page-1-title">Page 1: The fracture</h2>
+        <div class="panel world-panel fracture wide">
+          <img class="panel-art" src="assets/fracture.png" alt="Fractured landmasses suspended in a glowing magnetic field" loading="eager" decoding="async">
+          <p class="caption">THE NUCLEAR WAR DID NOT END WITH RUINS.</p>
+          <p class="world-note">The Earth itself shattered.</p>
         </div>
-      </section>
-    </main>
-
-    <script src="script.js?v=5"></script>
-  </body>
+        <div class="panel world-panel islands">
+          <img class="panel-art" src="assets/fracture.png" alt="Floating rock islands linked by curving magnetic field lines" loading="lazy" decoding="async">
+          <p class="caption">CONTINENTS BECAME ISLANDS IN THE VOID.</p>
+          <p class="world-note">Turbulent magnetic waves held the fragments together.<br>Violent in motion. Predictable in their patterns.</p>
+        </div>
+        <div class="panel world-panel survivors">
+          <img class="panel-art" src="assets/survivors.png" alt="A small human silhouette standing on a floating island" loading="lazy" decoding="async">
+          <p class="caption">HUMANITY WAS ALMOST WIPED OUT.</p>
+          <p class="world-note">Those who survived learned to live<br>on the pieces of their old world.</p>
+        </div>
+        <div class="page-foot"><span>MAGNETON · THE FRACTURE</span><span>01</span></div>
+      </article>
+      <article class="comic-page" id="page-2" aria-labelledby="page-2-title" hidden>
+        <h2 class="sr-only" id="page-2-title">Page 2: Adaptation</h2>
+        <div class="panel world-panel survivors wide">
+          <img class="panel-art" src="assets/survivors.png" alt="A human figure surrounded by arcs of magnetic energy" loading="lazy" decoding="async">
+          <p class="caption">GENERATIONS PASSED IN THE MAGNETIC FIELDS.</p>
+          <p class="world-note">Humanity slowly evolved.<br>New attributes emerged in a changed world.</p>
+        </div>
+        <div class="panel world-panel ore">
+          <img class="panel-art" src="assets/ore.png" alt="Luminous Magneton ore embedded in fractured rock" loading="lazy" decoding="async">
+          <p class="caption">NUCLEAR MATERIALS FUSED INTO SOMETHING NEW.</p>
+          <p class="world-note">A metal with extraordinary magnetic properties.</p>
+        </div>
+        <div class="panel world-panel core">
+          <img class="panel-art" src="assets/engine.png" alt="Two oppositely polarized Magneton cores suspended inside a circular engine" loading="lazy" decoding="async">
+          <p class="caption">THEY CALLED IT MAGNETON.</p>
+          <p class="world-note">What began as a discovery<br>became the foundation of civilization.</p>
+        </div>
+        <div class="page-foot"><span>MAGNETON · ADAPTATION</span><span>02</span></div>
+      </article>
+      <article class="comic-page" id="page-3" aria-labelledby="page-3-title" hidden>
+        <h2 class="sr-only" id="page-3-title">Page 3: The cities</h2>
+        <div class="panel world-panel city wide">
+          <img class="panel-art" src="assets/city.png" alt="A floating city built above a glowing Magneton engine" loading="lazy" decoding="async">
+          <p class="caption">OPPOSITE POLARITIES. CONSTANT MOTION.</p>
+          <p class="world-note">Paired Magneton cores drove magnetic motors.<br>The motors powered a new age.</p>
+        </div>
+        <div class="panel world-panel core">
+          <img class="panel-art" src="assets/engine.png" alt="A Magneton gravity engine with concentric field rings" loading="lazy" decoding="async">
+          <p class="caption">THE ENGINES DID MORE THAN KEEP THE LIGHTS ON.</p>
+          <p class="world-note">They stabilized the islands and generated<br>a field that restored the feel of the old gravity.</p>
+        </div>
+        <div class="panel world-panel city">
+          <img class="panel-art" src="assets/city.png" alt="A city skyline carried on a floating rock island" loading="lazy" decoding="async">
+          <p class="caption">CITIES ROSE ABOVE THE BROKEN EARTH.</p>
+          <p class="world-note">Magneton kept them afloat.<br>Every city depended on its supply.</p>
+        </div>
+        <div class="page-foot"><span>MAGNETON · THE CITIES</span><span>03</span></div>
+      </article>
+      <article class="comic-page" id="page-4" aria-labelledby="page-4-title" hidden>
+        <h2 class="sr-only" id="page-4-title">Page 4: The barons</h2>
+        <div class="panel world-panel ship wide">
+          <img class="panel-art" src="assets/ship.png" alt="A Magneton mining ship navigating between floating islands" loading="lazy" decoding="async">
+          <p class="caption">THE FIRST BARONS WERE MINERS.</p>
+          <p class="world-note">They extracted Magneton and built ships from it.<br>Magnetic motors carried them between the islands.</p>
+        </div>
+        <div class="panel world-panel ore">
+          <img class="panel-art" src="assets/ore.png" alt="A miner holding luminous Magneton ore inside a rocky excavation" loading="lazy" decoding="async">
+          <p class="caption">TRADE ROUTES LED TO CITIES. MINING ROUTES LED TO POWER.</p>
+          <p class="world-note">Those who controlled the mines and the fleets<br>became the new ruling class.</p>
+        </div>
+        <div class="panel world-panel city">
+          <img class="panel-art" src="assets/city.png" alt="Floating cities joined by magnetic routes under the rule of mining barons" loading="lazy" decoding="async">
+          <p class="caption">THE CITIES GATHERED INTO DUCHIES.</p>
+          <p class="world-note">Civilization returned to feudal rule.<br>Its foundations were no longer land alone, but Magneton.</p>
+        </div>
+        <div class="page-foot"><span>MAGNETON · THE BARONS</span><span>04</span></div>
+      </article>
+      <nav class="reader-controls" aria-label="Comic pages"><button id="previous" type="button" disabled>← PREVIOUS</button><span id="page-status" role="status" aria-live="polite">PAGE 01 OF 04</span><button id="next" type="button">NEXT PAGE →</button></nav>
+      <p class="keyboard-hint" id="keyboard-hint" hidden>Use ← and → to turn the page</p>
+    </section>
+    <section class="about"><span class="tag">THE WORLD OF MAGNETON</span><h2>A shattered planet.<br>A new feudal age.</h2><p>Humanity survived the nuclear fracture and adapted to its magnetic fields. Now floating cities, mining fleets, and ruling barons depend on one resource: Magneton. This prologue introduces the world before the main story begins.</p></section>
+  </main>
+  <footer><a class="brand" href="#title">MAGNETON <small>COMICS</small></a><span>INDEPENDENT STORIES. INFINITE POSSIBILITIES.</span><a href="#title">BACK TO TOP ↑</a></footer>
+</body>
 </html>
