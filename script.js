@@ -26,3 +26,12 @@ document.addEventListener('keydown', (event) => {
   }
 });
 document.querySelector('#keyboard-hint').hidden = false;
+
+// Chapter links open the requested page before the reader anchor is followed.
+document.querySelectorAll('[data-reader-page]').forEach((link) => {
+  link.addEventListener('click', () => showPage(Number(link.dataset.readerPage)));
+});
+const requestedPage = Number(new URLSearchParams(window.location.search).get('page'));
+if (Number.isInteger(requestedPage) && requestedPage >= 1 && requestedPage <= pages.length) {
+  showPage(requestedPage - 1);
+}

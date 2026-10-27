@@ -677,3 +677,29 @@ h1 { font-size: clamp(48px, 11.8vw, 146px); }
 .metals-next { margin: 40px 0; }
 @media (max-width: 900px) { .material-grid { grid-template-columns: 1fr; } }
 @media (max-width: 650px) { .site-nav { width: 100%; } .discovery-links { grid-template-columns: 1fr; } }
+
+/* Story chapters and editable world atlas labels. */
+.chapter-links { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 18px; }
+.chapter-links a { padding: 12px 15px; border: 1px solid #ffffff36; font-size: 12px; line-height: 1.5; }
+.chapter-links a[data-reader-page="4"] { background: var(--orange); color: var(--ink); border-color: var(--orange); font-weight: bold; }
+.chapter-panel { min-height: 540px; }
+.chapter-panel.wide { min-height: 600px; }
+.chapter-panel .world-note { font-size: 15px; line-height: 1.7; }
+.chapter-panel .world-note strong { color: #eeb98c; }
+.world-atlas { padding: 20px 0 40px; border-bottom: 1px solid #ffffff26; }
+.atlas-scroll { overflow-x: auto; border: 1px solid #ffffff36; }
+.atlas-map { position: relative; min-width: 880px; margin: 0; background: #192c35; }
+.atlas-map > img { display: block; width: 100%; height: auto; }
+.atlas-pin { position: absolute; left: var(--x); top: var(--y); transform: translate(-50%, -50%); padding: 7px 10px; background: #142026ed; border: 1px solid #eeb98c; font-size: 12px; font-weight: bold; white-space: nowrap; box-shadow: 0 3px 12px #0008; }
+.atlas-pin span { color: var(--orange); margin-right: 7px; font: 10px monospace; }
+.atlas-pin:hover { background: var(--orange); color: var(--ink); }
+.atlas-pin:hover span { color: var(--ink); }
+.duchy-list { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 40px; padding-left: 22px; margin-top: 30px; }
+.duchy-list li { padding-left: 5px; scroll-margin-top: 30px; }
+.duchy-list li::marker { color: var(--orange); }
+.duchy-list h3 { font-size: 18px; margin-bottom: 7px; }
+.duchy-list p { font-size: 13px; color: var(--muted); line-height: 1.8; margin-top: 0; }
+@media (max-width: 650px) {
+ .chapter-panel, .chapter-panel.wide { min-height: 560px; }
+ .duchy-list { grid-template-columns: 1fr; }
+}

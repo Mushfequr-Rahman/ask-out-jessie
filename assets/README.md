@@ -33,6 +33,18 @@ The last two designs draw on the user's second, open-deck airship reference. The
 - `ducal-assembly.png`: the former mining magnates ruling together.
 - `magneton-types.png`: Type A bronze, Type B green polarity specimens, and a conceptual Type C forging sample. Type C's colour is not established.
 
-The twelve `.panel-art` images in `index.html` must have distinct source files and distinct file contents. The retired amber/green engine illustration has been replaced so both Type B cores are green.
+The eighteen `.panel-art` images in `index.html` must have distinct source files and distinct file contents. The retired amber/green engine illustration has been replaced so both Type B cores are green.
 
 The original ore carrier, city schooner, passenger trader, and ducal man-of-war designs have been removed. The prologue now uses the Mole mining ship.
+
+## The Duke’s Due and world atlas
+
+- `rovan-city.png`: Rovan Vey and General Grievous overlooking the small city.
+- `unpaid-ledger.png`: the unpaid soldiers' accounts and pay chest.
+- `duke-resolve.png`: Rovan's resentment becomes a decision.
+- `caravan-boarding.png`: armoured Tesla-gun soldiers boarding an Auric Reach Caravan.
+- `duke-seizure.png`: Rovan announces seizure for unpaid protection fees.
+- `soldiers-cheer.png`: soldiers cheer while the sailors remain silent.
+- `shattered-earth-atlas.png`: large-scale map backdrop for eight editable duchy labels in the glossary.
+
+Character appearances are working designs. Map labels are HTML so names and locations can be refined without repainting the geography. All eighteen comic panels retain unique image sources and contents.

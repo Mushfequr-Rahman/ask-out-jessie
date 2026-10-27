@@ -2,7 +2,7 @@
 
 An HTML comic project featuring **Magneton** (working story title).
 
-A dependency-free HTML comic book starter. Includes a responsive four-page world-building prologue, twelve unique comic panel illustrations, all six ships visible on the home page, a comparison glossary, and a Magneton materials guide, accessible reader controls, and keyboard navigation. No build tools, accounts, API keys, or external services are required.
+A dependency-free HTML comic book starter. Includes a responsive four-page world-building prologue plus a two-page Duke Rovan Vey chapter, eighteen unique comic panel illustrations, all six ships visible on the home page, a comparison glossary, and a Magneton materials guide, accessible reader controls, and keyboard navigation. No build tools, accounts, API keys, or external services are required.
 
 ## Run locally
 
@@ -22,7 +22,7 @@ GitHub Pages publishes the `master` branch from the repository root. The `.nojek
 
 [Compare all six ship designs in the glossary](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html).
 
-To read the comic, select **Read the Prologue** (or open the hosted site at `#reader`), scroll through the panels, then select **Next Page** at the bottom. Previous and arrow keys work too.
+To read the comic, select **Read the Comic** (or open the hosted site at `#reader`), scroll through the panels, then select **Next Page** at the bottom. Previous and arrow keys work too.
 
 The fleet section links each ship image to its full-resolution, GitHub-hosted PNG. Images can also be viewed directly from the repository's `assets/` folder.
 
@@ -44,9 +44,13 @@ The four original ship designs have been retired. The six current designs are:
 
 [Browse all six designs together](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html).
 
-## Next chapter ideas
+## Story and world atlas
 
-[STORYBOARD-IDEAS.md](STORYBOARD-IDEAS.md) contains optional directions and a proposed six-panel opening. These are draft ideas, not established story events.
+[Read Chapter One: The Duke’s Due](https://mushfequr-rahman.github.io/ask-out-jessie/?page=5#reader).
+
+[Explore the eight-duchy atlas](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html#world-atlas).
+
+[STORYBOARD-IDEAS.md](STORYBOARD-IDEAS.md) records the selected Rovan opening and optional next scenes. Proposals beyond the seizure are not yet established story events.
 
 ## Make it your comic
 
@@ -62,8 +66,8 @@ To add a page, add another `article.comic-page` before the reader controls with 
 
 ## Verify changes
 
-Serve the root folder and check all four comic pages, boundary button states, keyboard navigation, and a narrow mobile viewport. Check the browser console for errors. This starter has no package installation, build command, or test runner.
+Serve the root folder and check all six comic pages, boundary button states, keyboard navigation, and a narrow mobile viewport. Check the browser console for errors. This starter has no package installation, build command, or test runner.
 
 ## Story reference
 
-See [STORY.md](STORY.md) for the world premise and details still to develop. Each of the twelve comic panels has its own image. The asset collection also includes the other ship designs and a materials specimen illustration; ship images are intentionally shared between the home gallery and glossary for comparison. Captions stay in HTML so they remain readable and editable. See [assets/README.md](assets/README.md) for the artwork inventory.
+See [STORY.md](STORY.md) for the world premise and details still to develop. Each of the eighteen comic panels has its own image. The asset collection also includes the other ship designs and a materials specimen illustration; ship images are intentionally shared between the home gallery and glossary for comparison. Captions stay in HTML so they remain readable and editable. See [assets/README.md](assets/README.md) for the artwork inventory.

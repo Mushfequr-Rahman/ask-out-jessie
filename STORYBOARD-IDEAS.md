@@ -1,32 +1,35 @@
-# Next storyboard — optional directions
+# The Duke’s Due — current storyboard and next-scene proposals
 
-These are proposals for discussion, not established events or new material powers.
+## Selected story
 
-## Recommended: The Sealed Hold
+The author chose Duke Rovan Vey's story in place of the earlier mining-worker opening. Rovan's title was earned by protecting other cities from pirates, but his own fleet is depleted and he cannot pay his soldiers. Other rulers grew rich through the trade his protection enabled. His right-hand man is General Grievous.
 
-Follow a young worker aboard a Mole mining ship on what should be an ordinary ore delivery. A newly found Type C sample changes the value of the cargo. The baron's inspectors demand the whole load, and the workers learn they will not be allowed to leave with it.
+### Page 5 — A duke in name
 
-This introduces a viewpoint character through work, shows the three metals in use, and makes the mining barons' power personal. The central question: who owns a discovery—the people who risked their lives extracting it, or the ruler who controls the mine?
+1. Rovan and Grievous overlook the small island city of Veymarch and its battered fleet.
+2. Grievous presents the unpaid soldiers' accounts and the nearly empty pay chest.
+3. Watching a wealthy Caravan pass, Rovan voices his resentment: other dukes traded and grew while his men protected their mining ships.
 
-### Six-panel opening
+### Page 6 — The Duke’s Due
 
-1. **Wide establishing shot:** a Mole hangs beneath a fractured island. A mining worker rides the loading arm toward the ore face. Give the reader the scale and danger before dialogue.
-2. **Close detail:** the worker patches a battered bronze Type A hull plate. Beside it, a Type B pair glows green inside the exposed motor housing. Show the materials through the job.
-3. **Discovery:** a hammer flattens a newly recovered metal sample unusually readily. The foreman brings out an assay slip identifying it as the recently discovered Type C. Its colour remains unspecified.
-4. **Arrival:** a customs schooner blocks the dock. An inspector presents the baron's claim over the entire shipment; the crew's pay is suddenly in doubt.
-5. **Human conflict:** the foreman says to surrender the cargo. The young worker points out that the baron already owns the ship, the mine, and the homes their families live in.
-6. **Page-turn reveal:** a Bastion emerges behind the dock towers. Caption: “They hadn't sent a warship for an ordinary inspection.”
+1. Fully armoured soldiers board a twin-hull Caravan belonging to nearby Auric Reach. Their Tesla guns are aimed at the unarmed sailors; no shots are fired.
+2. Rovan announces that he seizes the vessel against unpaid protection fees owed to his soldiers.
+3. The soldiers cheer. The merchants remain silent. Grievous watches both sides.
 
-Keep the protagonist's name, age, gender, and background open for the author to choose. Later pages can follow negotiation, escape, or a reluctant bargain; this opening does not require giving Type C additional powers.
+## Recommended next scene — The Manifest (proposal, not established events)
 
-## Alternative: The Third Warship
+Begin immediately after the cheers, when the captain asks to speak.
 
-A duchy publicly owns two Bastions. A courier aboard a Needle discovers orders preparing its third for a departure that does not appear on the trade charts. Follow the courier through the city as rival factions try to obtain the dispatch.
+1. **The challenge:** “That cargo doesn't belong to the duke. It belongs to the people who paid to put it aboard.”
+2. **The evidence:** the captain lays out a manifest of wages, supplies, and replacement machinery paid for by ordinary mining settlements. The exact cargo should be chosen by the author.
+3. **The distinction:** Rovan orders that no sailor be harmed and that every seized item be recorded. He wants a debt collected, not an indiscriminate raid.
+4. **The warning:** Grievous privately points out that Auric Reach can call this piracy—the very thing Rovan built his reputation fighting.
+5. **The turn:** a message arrives from Auric Reach demanding the ship's return. End before Rovan answers.
 
-Focus: political mystery, city life, and the consequences of concentrating so much power in a few capital ships. Avoid declaring the ship's mission until the author chooses the conflict.
+This puts Rovan's grievance against the consequences of his chosen method, without declaring him a villain or granting anyone new powers.
 
-## Alternative: The Last Departure
+## Other possible continuations (proposals)
 
-A heavily loaded Caravan is about to miss a predictable safe passage through the magnetic currents. Its captain must choose between accepting a baron's lucrative private cargo and the passengers already promised passage.
-
-Focus: an ensemble cast, passenger stories, class conflict, and the difficulty of handling a large trader. The route's timing can be dangerous without making the field patterns suddenly unpredictable.
+- **The First Pay:** soldiers finally receive wages, while the ship's captain seeks a public hearing. The city celebrates before the political cost becomes clear.
+- **The Counterclaim:** Auric Reach disputes the fees and produces a conflicting agreement. The confrontation becomes a battle over whose account of the protection is believed.
+- **The Empty Route:** news of the seizure spreads; merchants avoid Veymarch's protection. Rovan must find a way to fund his men without destroying the trade they depend on.

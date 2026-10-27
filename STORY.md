@@ -1,6 +1,6 @@
 # Magneton — world reference
 
-Magneton is a working title taken from the central resource. This document records the world premise; it does not establish a protagonist or main plot.
+Magneton is a working title taken from the central resource. This document records the world premise and the opening of Duke Rovan Vey’s story.
 
 ## Established premise
 
@@ -40,7 +40,7 @@ The fleet illustrations explore these silhouettes. Exact dimensions, crew counts
 - The fictional energy source, operating limits, and failure modes of the engines.
 - How the predictable field patterns vary, and what makes a route dangerous.
 - The relationship between dukes, barons, and individual cities.
-- Characters, viewpoint, names, timeline, and the main story conflict.
+- The detailed timeline, the other rulers, and how Rovan’s seizure changes his relationship with the neighbouring duchies.
 
 The fracture and magnetic gravity are fictional rules of this setting. No real-world scientific explanation has been imposed on them.
 
@@ -70,3 +70,26 @@ Type B's hull-component use is retained from the user's description; the exact d
 ## Current visual fleet
 
 The original ore carrier, city schooner, passenger trader, and ducal man-of-war designs have been retired. Retain Mole, Needle, Kestrel, Caravan, Terrace, and Bastion. The four ship classes and capital-ship scarcity remain unchanged. Storyboard proposals are kept separately in STORYBOARD-IDEAS.md until a direction is chosen.
+
+## Duke Rovan Vey — Chapter One: The Duke’s Due
+
+Rovan Vey replaces the earlier placeholder duke name. He is a duke in name only: his seat is a small island city in Veymarch. He gained his position by protecting other cities and mining ships from pirates. Those protected rulers traded and grew rich while his own fleet dwindled. He lacks the resources to repair ships and pay the soldiers who made the trade routes safe.
+
+His right-hand man is General Grievous. The chapter opens with the two discussing the fleet's accounts while looking over the city. Rovan then boards a Caravan belonging to the nearby Duchy of Auric Reach. His fully armoured soldiers aim Tesla guns at the unarmed sailors. Rovan announces seizure of the vessel against unpaid protection fees owed to his soldiers. The soldiers cheer; the sailors' response and the consequences remain to be developed.
+
+The images use a provisional visual design for Rovan and his general; no additional character history is established by their appearance. Tesla guns are fictional electrical weapons. No shots are fired in the seizure scene.
+
+## Eight duchies — world atlas
+
+The map is a fictional large-scale atlas of Earth's fragments. Labels mark regions of influence, not surveyed borders. Names and geography were created for the requested eight-duchy overview.
+
+1. **Veymarch:** Rovan Vey’s small island seat and depleted protective fleet.
+2. **Auric Reach:** the nearby wealthy trading duchy to which the seized Caravan belongs.
+3. **Ironveil:** northern western fragments.
+4. **Glassmere:** southern western fragments.
+5. **Stormholt:** far northern eastern fragments.
+6. **Emberfall:** central southern fragments.
+7. **Verdant Crown:** southeastern island chains.
+8. **Pale Meridian:** far southern fragments.
+
+Only Veymarch and Auric Reach have roles in the current chapter. The other rulers, economies, alliances, and political histories are not yet established.
