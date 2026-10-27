@@ -36,7 +36,7 @@ The fleet illustrations explore these silhouettes. Exact dimensions, crew counts
 ## Details still to develop
 
 - The specific human attributes and their limitations.
-- Whether the motor uses two forms of Magneton or Magneton paired with a different metal.
+- The detailed engineering of Type B polarity pairs and how they interact with Type A structures.
 - The fictional energy source, operating limits, and failure modes of the engines.
 - How the predictable field patterns vary, and what makes a route dangerous.
 - The relationship between dukes, barons, and individual cities.
@@ -56,3 +56,13 @@ The glossary extends the four established classes with design studies. These nam
 - **Terrace**: large merchant with terraced passenger decks and an aft bridge, also inspired by the second reference.
 
 The newer reference introduces open decks, a swept lower hull, aft superstructures, and hull-edge machinery as alternative silhouettes alongside rigid Zeppelins. Magnetic field rings remain the shared propulsion language. The capital-ship scarcity applies to the entire class: variants do not each receive a separate three-ship allowance.
+
+## Magneton types — established material lore
+
+| Type | Appearance | Properties and availability | Uses |
+| --- | --- | --- | --- |
+| A | Bronze-like metal | Very durable; the most common type | Ship hulls |
+| B | Glowing green, in both opposing polarities | Opposite-polarity forms; availability not yet specified | Delicate machinery and hull components |
+| C | Colour not specified | Most malleable; most difficult to find; recently discovered | Armour and swords |
+
+Type B's hull-component use is retained from the user's description; the exact division between Type A hull structure and Type B components is not yet defined. Type C has no established colour or additional supernatural properties. The two opposing Type B cores should both appear green, not as different-coloured metals.

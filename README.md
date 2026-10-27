@@ -2,7 +2,7 @@
 
 An HTML comic project featuring **Magneton** (working story title).
 
-A dependency-free HTML comic book starter. Includes a responsive four-page world-building prologue, generated panel illustrations, a four-class fleet gallery and ten-design ship glossary, accessible reader controls, and keyboard navigation. No build tools, accounts, API keys, or external services are required.
+A dependency-free HTML comic book starter. Includes a responsive four-page world-building prologue, twelve unique comic panel illustrations, all ten ships visible on the home page, a comparison glossary, and a Magneton materials guide, accessible reader controls, and keyboard navigation. No build tools, accounts, API keys, or external services are required.
 
 ## Run locally
 
@@ -26,6 +26,14 @@ To read the comic, select **Read the Prologue** (or open the hosted site at `#re
 
 The fleet section links each ship image to its full-resolution, GitHub-hosted PNG. Images can also be viewed directly from the repository's `assets/` folder.
 
+## Magneton materials
+
+[Explore Types A, B and C](https://mushfequr-rahman.github.io/ask-out-jessie/magneton.html).
+
+- **Type A:** common, durable, bronze-like metal used for ship hulls.
+- **Type B:** glowing green metal in opposing polarities, used in delicate machinery and hull components.
+- **Type C:** recently discovered, most malleable, and hardest to find; used for armour and swords.
+
 ## Zeppelin fleet
 
 | Mining ship | Schooner |
@@ -47,6 +55,7 @@ Select an image for the full-size artwork, or use **The Fleet** in the hosted co
 - `script.js`: previous/next controls and arrow-key navigation.
 - `glossary.html`: all ten ship designs, comparison table, and design notes.
 - `glossary.js`: optional ship-class filters; all designs remain visible without JavaScript.
+- `magneton.html`: Types A, B, and C, material specimens, properties, and uses.
 - `assets/`: place your own artwork here and reference it with relative image paths. Include descriptive alt text.
 
 To add a page, add another `article.comic-page` before the reader controls with a unique ID, a heading connected with `aria-labelledby`, and the `hidden` attribute. Update the initial page count in the HTML; JavaScript calculates subsequent counts automatically. Keep the first page visible so the comic remains readable without JavaScript.
@@ -57,4 +66,4 @@ Serve the root folder and check all four comic pages, boundary button states, ke
 
 ## Story reference
 
-See [STORY.md](STORY.md) for the world premise and details still to develop. The panels use fifteen generated illustrations in a consistent graphic novel style, with selected scenes reused across the four-page prologue and ten ship designs across the fleet guide and glossary. Captions stay in HTML so they remain readable and editable. See [assets/README.md](assets/README.md) for the artwork inventory.
+See [STORY.md](STORY.md) for the world premise and details still to develop. Each of the twelve comic panels has its own image. The asset collection also includes the other ship designs and a materials specimen illustration; ship images are intentionally shared between the home gallery and glossary for comparison. Captions stay in HTML so they remain readable and editable. See [assets/README.md](assets/README.md) for the artwork inventory.
