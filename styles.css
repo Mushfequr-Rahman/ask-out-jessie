@@ -608,7 +608,7 @@ h1 { font-size: clamp(48px, 11.8vw, 146px); }
 .fleet-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 25px; }
 .fleet-filters button { padding: 10px 14px; font-size: 12px; background: transparent; color: var(--paper); border: 1px solid #66695e; cursor: pointer; }
 .fleet-filters button[aria-pressed="true"] { background: var(--orange); color: var(--ink); border-color: var(--orange); }
-.comparison-board { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.comparison-board { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .comparison-ship { margin: 0; background: #1d2221; border: 1px solid #ffffff26; }
 .comparison-ship > a { display: block; background: #e6e1d1; }
 .comparison-ship img { width: 100%; aspect-ratio: 3 / 2; object-fit: contain; display: block; }

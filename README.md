@@ -2,7 +2,7 @@
 
 An HTML comic project featuring **Magneton** (working story title).
 
-A dependency-free HTML comic book starter. Includes a responsive four-page world-building prologue, twelve unique comic panel illustrations, all ten ships visible on the home page, a comparison glossary, and a Magneton materials guide, accessible reader controls, and keyboard navigation. No build tools, accounts, API keys, or external services are required.
+A dependency-free HTML comic book starter. Includes a responsive four-page world-building prologue, twelve unique comic panel illustrations, all six ships visible on the home page, a comparison glossary, and a Magneton materials guide, accessible reader controls, and keyboard navigation. No build tools, accounts, API keys, or external services are required.
 
 ## Run locally
 
@@ -20,7 +20,7 @@ Open the site in your local browser on port 8000.
 
 GitHub Pages publishes the `master` branch from the repository root. The `.nojekyll` file serves the HTML and assets directly, with no build tools. Pushing to `master` triggers GitHub's Pages deployment. In repository Settings → Pages, keep **Deploy from a branch**, **master**, and **/ (root)** selected. If the repository is renamed, update this link to the new repository path.
 
-[Compare all ten ship designs in the glossary](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html).
+[Compare all six ship designs in the glossary](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html).
 
 To read the comic, select **Read the Prologue** (or open the hosted site at `#reader`), scroll through the panels, then select **Next Page** at the bottom. Previous and arrow keys work too.
 
@@ -34,26 +34,26 @@ The fleet section links each ship image to its full-resolution, GitHub-hosted PN
 - **Type B:** glowing green metal in opposing polarities, used in delicate machinery and hull components.
 - **Type C:** recently discovered, most malleable, and hardest to find; used for armour and swords.
 
-## Zeppelin fleet
+## Current fleet
 
-| Mining ship | Schooner |
-| --- | --- |
-| [![Mining ship with a large ore hold](assets/mining-ship.png)](assets/mining-ship.png) | [![Agile commuter schooner](assets/schooner.png)](assets/schooner.png) |
-| Small ore carrier with a large hold. | Small, highly mobile city and duchy transport. |
+The four original ship designs have been retired. The six current designs are:
 
-| Trading ship | Man-of-war |
-| --- | --- |
-| [![Large freight and passenger airship](assets/trading-ship.png)](assets/trading-ship.png) | [![Rare armored capital airship](assets/man-of-war.png)](assets/man-of-war.png) |
-| Large freight and passenger vessel; difficult to navigate. | The rarest and most expensive class; many duchies have at most three. |
+| Mining | Commuter schooners | Traders | Capital |
+| --- | --- | --- | --- |
+| [Mole](assets/mining-mole.png) | [Needle](assets/schooner-needle.png), [Kestrel](assets/schooner-kestrel.png) | [Caravan](assets/trader-caravan.png), [Terrace](assets/trader-terrace.png) | [Bastion](assets/capital-bastion.png) |
 
-Select an image for the full-size artwork, or use **The Fleet** in the hosted comic.
+[Browse all six designs together](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html).
+
+## Next chapter ideas
+
+[STORYBOARD-IDEAS.md](STORYBOARD-IDEAS.md) contains optional directions and a proposed six-panel opening. These are draft ideas, not established story events.
 
 ## Make it your comic
 
 - `index.html`: comic title, description, story panels, and page articles.
 - `styles.css`: colors, typography, responsive layout, and artwork presentation.
 - `script.js`: previous/next controls and arrow-key navigation.
-- `glossary.html`: all ten ship designs, comparison table, and design notes.
+- `glossary.html`: all six ship designs, comparison table, and design notes.
 - `glossary.js`: optional ship-class filters; all designs remain visible without JavaScript.
 - `magneton.html`: Types A, B, and C, material specimens, properties, and uses.
 - `assets/`: place your own artwork here and reference it with relative image paths. Include descriptive alt text.

@@ -66,3 +66,7 @@ The newer reference introduces open decks, a swept lower hull, aft superstructur
 | C | Colour not specified | Most malleable; most difficult to find; recently discovered | Armour and swords |
 
 Type B's hull-component use is retained from the user's description; the exact division between Type A hull structure and Type B components is not yet defined. Type C has no established colour or additional supernatural properties. The two opposing Type B cores should both appear green, not as different-coloured metals.
+
+## Current visual fleet
+
+The original ore carrier, city schooner, passenger trader, and ducal man-of-war designs have been retired. Retain Mole, Needle, Kestrel, Caravan, Terrace, and Bastion. The four ship classes and capital-ship scarcity remain unchanged. Storyboard proposals are kept separately in STORYBOARD-IDEAS.md until a direction is chosen.

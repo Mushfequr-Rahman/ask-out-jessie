@@ -17,5 +17,5 @@ function filterShips(type) {
 filters.forEach((button) => {
   button.addEventListener('click', () => filterShips(button.dataset.filter));
 });
-// All ten designs remain visible when JavaScript is unavailable.
+// All six designs remain visible when JavaScript is unavailable.
 document.querySelector('.fleet-filters').hidden = false;
