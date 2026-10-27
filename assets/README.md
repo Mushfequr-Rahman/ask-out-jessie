@@ -33,7 +33,7 @@ The last two designs draw on the user's second, open-deck airship reference. The
 - `ducal-assembly.png`: the former mining magnates ruling together.
 - `magneton-types.png`: Type A bronze, Type B green polarity specimens, and a conceptual Type C forging sample. Type C is now established as silvery.
 
-The twenty-seven `.panel-art` images in `index.html` must have distinct source files and distinct file contents. The retired amber/green engine illustration has been replaced so both Type B cores are green.
+The twenty-seven `.panel-art` images in `prologue.html` must have distinct source files and distinct file contents. The retired amber/green engine illustration has been replaced so both Type B cores are green.
 
 The original ore carrier, city schooner, passenger trader, and ducal man-of-war designs have been removed. The prologue now uses the Mole mining ship.
 
@@ -62,3 +62,18 @@ Character appearances are working designs. Map labels are HTML so names and loca
 - `magnetic-boarding.png`: two of the five guards demonstrate field drifting between ships; their armour is not penetrated by weapons.
 
 All twenty-seven comic panels must use distinct source images and file hashes. The five-guard line-up must show exactly five guards, not Rovan or the general as a sixth figure. The initial city capture uses bronze-armoured veterans, before the silver sets exist.
+
+## Duchy banners
+
+Eight individual heraldic banner images match the colour key and atlas labels in the consolidated glossary.
+
+- `banner-veymarch.png`: Veymarch, crimson, silver broken shield and star.
+- `banner-auric-reach.png`: Auric Reach, gold, merchant’s balance within a coin.
+- `banner-ironveil.png`: Ironveil, steel, silver hammer and anvil.
+- `banner-glassmere.png`: Glassmere, cyan, white crystal prism.
+- `banner-stormholt.png`: Stormholt, violet, silver lightning bolt and ring.
+- `banner-emberfall.png`: Emberfall, orange, dark flame and golden ember.
+- `banner-verdant-crown.png`: Verdant Crown, emerald, golden crown of leaves.
+- `banner-pale-meridian.png`: Pale Meridian, ivory, midnight compass star.
+
+The atlas background remains the same geography; heraldic colours, names, and banner links are editable HTML. No ninth or tenth duchy was added.

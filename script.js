@@ -9,6 +9,8 @@ function showPage(index) {
   pages.forEach((page, number) => { page.hidden = number !== currentPage; });
   previous.disabled = currentPage === 0;
   next.disabled = currentPage === pages.length - 1;
+  const selector = document.querySelector('#page-select');
+  if (selector) selector.value = String(currentPage);
   status.textContent = `PAGE ${String(currentPage + 1).padStart(2, '0')} OF ${String(pages.length).padStart(2, '0')}`;
 }
 
@@ -27,9 +29,10 @@ document.addEventListener('keydown', (event) => {
 });
 document.querySelector('#keyboard-hint').hidden = false;
 
-// Chapter links open the requested page before the reader anchor is followed.
-document.querySelectorAll('[data-reader-page]').forEach((link) => {
-  link.addEventListener('click', () => showPage(Number(link.dataset.readerPage)));
+const pageSelect = document.querySelector('#page-select');
+pageSelect.addEventListener('change', () => {
+  showPage(Number(pageSelect.value));
+  document.querySelector('#reader').scrollIntoView({ block: 'start' });
 });
 const requestedPage = Number(new URLSearchParams(window.location.search).get('page'));
 if (Number.isInteger(requestedPage) && requestedPage >= 1 && requestedPage <= pages.length) {

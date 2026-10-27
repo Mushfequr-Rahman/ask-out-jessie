@@ -711,3 +711,78 @@ h1 { font-size: clamp(48px, 11.8vw, 146px); }
 .guard-lineup .world-note { position: relative; left: auto; right: auto; bottom: auto; margin: 12px 16px; }
 /* The generated line-up has an empty lower margin; frame it below the boots. */
 .guard-art-link { aspect-ratio: 1.93; overflow: hidden; }
+
+/* Shared two-destination navigation and consistent page layout. */
+.site-nav { gap: 4px; padding: 4px; border: 1px solid #ffffff26; }
+.nav-tab { padding: 12px 22px; color: var(--muted); font-size: 14px; font-weight: 700; text-align: center; }
+.nav-tab:hover { background: #ffffff0d; color: var(--paper); }
+.nav-tab[aria-current="page"] { color: var(--ink); background: var(--orange); }
+.site-footer p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.site-footer .brand small { margin-left: 0; }
+.library-main { padding: 0 40px 70px; }
+.page-intro { padding: 52px 0 36px; }
+.page-intro h1 { margin: 25px 0 20px; font-size: clamp(44px, 7vw, 88px); line-height: 1; letter-spacing: -3px; }
+.page-intro h1 span { color: var(--orange); }
+.page-intro > p { max-width: 720px; color: var(--muted); font-size: 17px; line-height: 1.8; }
+.library-section-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 22px; }
+.library-section-heading h2 { margin: 0; font-size: 25px; letter-spacing: -.7px; }
+.library-section-heading > span { font: 12px monospace; color: var(--muted); }
+.story-card { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid #ffffff26; background: #1d2221; }
+.story-cover { display: block; background: #192c35; }
+.story-cover img { display: block; width: 100%; height: 100%; min-height: 360px; object-fit: cover; }
+.story-summary { align-self: center; padding: 40px; }
+.story-summary h3 { margin: 25px 0 14px; font-size: clamp(36px, 5vw, 58px); letter-spacing: -2px; }
+.story-summary p { color: var(--muted); font-size: 15px; line-height: 1.9; margin-bottom: 28px; }
+.primary-link { display: inline-block; background: var(--orange); color: var(--ink); padding: 14px 22px; font-size: 14px; line-height: 1.6; font-weight: bold; }
+.primary-link:hover { background: #ff885f; }
+.library-note { color: var(--muted); font-size: 13px; line-height: 1.8; margin-top: 25px; }
+.story-intro { margin: 0 40px; }
+.story-main { padding-bottom: 60px; }
+.reader-tools { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin: 0 0 18px; }
+.reader-tools label { color: var(--muted); font-size: 12px; }
+.reader-tools select { padding: 11px 14px; background: #202624; color: var(--paper); border: 1px solid #ffffff36; font: 13px Arial, sans-serif; max-width: 100%; }
+.reader-tools select:focus-visible { outline: 3px solid var(--orange); outline-offset: 3px; }
+.section-index { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 25px; }
+.section-index a { padding: 10px 14px; border: 1px solid #ffffff36; font-size: 12px; }
+.section-index a:hover { border-color: var(--orange); color: var(--orange); }
+.reference-section { border-top: 1px solid #ffffff26; padding: 40px 0; scroll-margin-top: 20px; }
+.reference-section > h2 { font-size: clamp(28px, 3vw, 38px); margin: 16px 0; }
+.reference-section h3 { line-height: 1.4; }
+.reference-section > section > h3 { font-size: 24px; }
+.unified-glossary .material-specimens { margin-bottom: 35px; }
+.unified-glossary .world-atlas { border-bottom: 0; }
+.atlas-pin { border-color: var(--duchy-color); border-left: 6px solid var(--duchy-color); }
+.atlas-pin span { color: var(--duchy-color); }
+.atlas-pin:hover { background: #263a3f; color: var(--paper); }
+.atlas-pin:hover span { color: var(--duchy-color); }
+.duchy-list { list-style: decimal; gap: 24px 35px; margin-top: 35px; }
+.duchy-list li { border-top: 3px solid var(--duchy-color); }
+.duchy-list li::marker { color: var(--duchy-color); font-weight: bold; }
+.duchy-entry { display: grid; grid-template-columns: 130px 1fr; gap: 20px; padding: 20px 0 0; }
+.duchy-entry h3 { margin: 0 0 10px; }
+.duchy-banner-link { display: block; align-self: start; }
+.duchy-banner { display: block; width: 130px; height: 200px; object-fit: contain; background: #171918; }
+.duchy-colour { display: flex; align-items: center; gap: 8px; font-weight: bold; color: var(--duchy-color) !important; }
+.colour-swatch { display: inline-block; width: 15px; height: 15px; background: var(--duchy-color); border: 1px solid #ffffff55; flex-shrink: 0; }
+.duchy-entry .banner-emblem { color: var(--muted); font-size: 11px; }
+@media (max-width: 900px) {
+ .story-summary { padding: 28px; }
+ .duchy-list { grid-template-columns: 1fr; }
+}
+@media (max-width: 650px) {
+ .library-main { padding: 0 20px 45px; }
+ .story-intro { margin: 0 12px; }
+ .page-intro { padding: 35px 0 25px; }
+ .page-intro h1 { letter-spacing: -2px; }
+ .site-nav { width: 100%; }
+ .nav-tab { flex: 1; padding: 11px 16px; }
+ .story-card { grid-template-columns: 1fr; }
+ .story-cover img { min-height: 0; aspect-ratio: 3 / 2; height: auto; }
+ .story-summary { padding: 25px; }
+ .duchy-entry { grid-template-columns: 95px 1fr; gap: 15px; }
+ .duchy-banner { width: 95px; height: 155px; }
+ .reference-section { padding: 30px 0; }
+}
+.duchy-list { list-style: none; padding-left: 0; }
+.duchy-list > li { position: relative; padding-left: 0; }
+.duchy-number { position: absolute; right: 0; top: 7px; color: var(--duchy-color); font: 11px monospace; }

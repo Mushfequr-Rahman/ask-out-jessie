@@ -6,7 +6,7 @@ This records selected author directions. The earlier manifest dispute, return-by
 
 Earth fractures; humanity adapts; Magneton technology supports floating cities; mining wealth creates a new feudal order.
 
-## Chapter One: The Duke’s Due — pages 5–6
+## Prologue: The Duke’s Due — pages 5–6
 
 1. Rovan and General Grievous overlook the small city and depleted fleet.
 2. The accounts reveal he cannot pay the soldiers who protected the trade routes.
@@ -15,7 +15,7 @@ Earth fractures; humanity adapts; Magneton technology supports floating cities; 
 5. Rovan announces seizure for unpaid protection fees owed to his soldiers.
 6. His soldiers cheer.
 
-## Chapter Two: His Own Future — pages 7–9
+## Prologue: His Own Future — pages 7–9
 
 ### Page 7 — His Own Future
 

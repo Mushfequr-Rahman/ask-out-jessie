@@ -71,7 +71,7 @@ Type B's hull-component use is retained from the user's description; the exact d
 
 The original ore carrier, city schooner, passenger trader, and ducal man-of-war designs have been retired. Retain Mole, Needle, Kestrel, Caravan, Terrace, and Bastion. The four ship classes and capital-ship scarcity remain unchanged. Storyboard proposals are kept separately in STORYBOARD-IDEAS.md until a direction is chosen.
 
-## Duke Rovan Vey — Chapter One: The Duke’s Due
+## Prologue — The Duke’s Due
 
 Rovan Vey replaces the earlier placeholder duke name. He is a duke in name only: his seat is a small island city in Veymarch. He gained his position by protecting other cities and mining ships from pirates. Those protected rulers traded and grew rich while his own fleet dwindled. He lacks the resources to repair ships and pay the soldiers who made the trade routes safe.
 
@@ -94,7 +94,7 @@ The map is a fictional large-scale atlas of Earth's fragments. Labels mark regio
 
 Only Veymarch and Auric Reach have roles in the current chapter. The other rulers, economies, alliances, and political histories are not yet established.
 
-## Chapter Two — His Own Future
+## Prologue — His Own Future
 
 The author chose Rovan's campaign over the earlier proposed manifest dispute or return-by-dawn ultimatum. Those alternatives are not story events.
 
@@ -109,3 +109,18 @@ The author chose Rovan's campaign over the earlier proposed manifest dispute or 
 - The silver guard can drift along magnetic fields and leap between airships, giving Rovan an unfair advantage. The first city's capture happened before this new equipment was made.
 
 The city capture does not yet establish that Rovan controls all of Auric Reach. The other duchies' responses remain open.
+
+## Publication structure and duchy heraldry
+
+There is currently one published story entry, **Prologue**, containing all nine existing pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
+
+| Duchy | Colour | Banner emblem |
+| --- | --- | --- |
+| Veymarch | Crimson | Silver broken shield and star |
+| Auric Reach | Gold | Merchant’s balance within a coin |
+| Ironveil | Steel | Silver hammer and anvil |
+| Glassmere | Cyan | White crystal prism |
+| Stormholt | Violet | Silver lightning bolt and ring |
+| Emberfall | Orange | Dark flame and golden ember |
+| Verdant Crown | Emerald | Golden crown of leaves |
+| Pale Meridian | Ivory | Midnight compass star |

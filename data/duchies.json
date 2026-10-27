@@ -1,0 +1,82 @@
+[
+  {
+    "id": "veymarch",
+    "name": "Veymarch",
+    "x": 49,
+    "y": 27,
+    "color": "#E56B73",
+    "colour": "Crimson",
+    "emblem": "Silver broken shield and star",
+    "description": "Rovan Vey’s small island seat. His fleet begins the campaign with one capital ship."
+  },
+  {
+    "id": "auric-reach",
+    "name": "Auric Reach",
+    "x": 64,
+    "y": 36,
+    "color": "#E8BE57",
+    "colour": "Gold",
+    "emblem": "Merchant’s balance within a coin",
+    "description": "A wealthy neighbouring trading duchy. Rovan seizes its Caravan and captures one of its barons’ cities."
+  },
+  {
+    "id": "ironveil",
+    "name": "Ironveil",
+    "x": 20,
+    "y": 27,
+    "color": "#99ACBE",
+    "colour": "Steel",
+    "emblem": "Silver hammer and anvil",
+    "description": "A duchy among the northern western fragments."
+  },
+  {
+    "id": "glassmere",
+    "name": "Glassmere",
+    "x": 31,
+    "y": 64,
+    "color": "#57CDD5",
+    "colour": "Cyan",
+    "emblem": "White crystal prism",
+    "description": "A duchy spread across the southern western fragments."
+  },
+  {
+    "id": "stormholt",
+    "name": "Stormholt",
+    "x": 76,
+    "y": 19,
+    "color": "#B099EF",
+    "colour": "Violet",
+    "emblem": "Silver lightning bolt and ring",
+    "description": "A duchy among the far northern eastern fragments."
+  },
+  {
+    "id": "emberfall",
+    "name": "Emberfall",
+    "x": 52,
+    "y": 61,
+    "color": "#EE965B",
+    "colour": "Orange",
+    "emblem": "Dark flame and golden ember",
+    "description": "A duchy among the central southern fragments."
+  },
+  {
+    "id": "verdant-crown",
+    "name": "Verdant Crown",
+    "x": 85,
+    "y": 67,
+    "color": "#79C792",
+    "colour": "Emerald",
+    "emblem": "Golden crown of leaves",
+    "description": "A duchy across the southeastern island chains."
+  },
+  {
+    "id": "pale-meridian",
+    "name": "Pale Meridian",
+    "x": 58,
+    "y": 88,
+    "color": "#E7E1CF",
+    "colour": "Ivory",
+    "emblem": "Midnight compass star",
+    "description": "A duchy among the far southern fragments."
+  }
+]
