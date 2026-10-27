@@ -11,7 +11,7 @@
 <body>
   <header class="masthead">
     <a class="brand" href="index.html" aria-label="Magneton home"><span class="brand-icon">✦</span> MAGNETON <small>COMICS</small></a>
-    <a class="issue-link" href="#reader">READ THE PROLOGUE <span aria-hidden="true">↗</span></a>
+    <nav class="site-nav" aria-label="Main navigation"><a class="issue-link" href="#fleet">THE FLEET</a><a class="issue-link" href="#reader">READ THE PROLOGUE <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main>
     <section class="intro" aria-labelledby="title">
@@ -81,7 +81,7 @@
       <article class="comic-page" id="page-4" aria-labelledby="page-4-title" hidden>
         <h2 class="sr-only" id="page-4-title">Page 4: The barons</h2>
         <div class="panel world-panel ship wide">
-          <img class="panel-art" src="assets/ship.png" alt="A Magneton mining ship navigating between floating islands" loading="lazy" decoding="async">
+          <img class="panel-art" src="assets/mining-ship.png" alt="A compact metal Zeppelin mining ship with a large ore hold and magnetic engines" loading="lazy" decoding="async">
           <p class="caption">THE FIRST BARONS WERE MINERS.</p>
           <p class="world-note">They extracted Magneton and built ships from it.<br>Magnetic motors carried them between the islands.</p>
         </div>
@@ -99,6 +99,30 @@
       </article>
       <nav class="reader-controls" aria-label="Comic pages"><button id="previous" type="button" disabled>← PREVIOUS</button><span id="page-status" role="status" aria-live="polite">PAGE 01 OF 04</span><button id="next" type="button">NEXT PAGE →</button></nav>
       <p class="keyboard-hint" id="keyboard-hint" hidden>Use ← and → to turn the page</p>
+    </section>
+    <section id="fleet" class="fleet" aria-labelledby="fleet-title">
+      <div class="fleet-heading">
+        <div><span class="tag">A FIELD GUIDE TO THE SKIES</span><h2 id="fleet-title">The fleets of<br>the fractured world.</h2></div>
+        <p>Rigid metal hulls. Magnetic hearts. From a city's narrow passages to the trade routes between duchies, every vessel has a purpose.</p>
+      </div>
+      <div class="fleet-grid">
+        <article class="ship-card" aria-labelledby="mining-ship-title">
+          <a class="ship-art-link" href="assets/mining-ship.png" target="_blank" rel="noopener" aria-label="View full-size mining ships illustration (opens a new tab)"><img src="assets/mining-ship.png" alt="A compact copper Zeppelin mining ship with loading equipment and an oversized ore hold" loading="lazy" decoding="async"><span class="art-expand" aria-hidden="true">VIEW ARTWORK ↗</span></a>
+          <div class="ship-copy"><span class="ship-kicker">01 / EXTRACTION</span><h3 id="mining-ship-title">Mining ships</h3><p class="ship-lead">Small hull. Deep hold.</p><p>Compact, rugged Zeppelins built around an outsized ore hold. They haul Magneton from mining sites to the cities that depend on it.</p><dl class="ship-specs"><div><dt>CLASS</dt><dd>Small</dd></div><div><dt>ROLE</dt><dd>Ore transport</dd></div></dl></div>
+        </article>
+        <article class="ship-card" aria-labelledby="schooner-title">
+          <a class="ship-art-link" href="assets/schooner.png" target="_blank" rel="noopener" aria-label="View full-size schooners illustration (opens a new tab)"><img src="assets/schooner.png" alt="A slender metal Zeppelin schooner with a compact passenger cabin and maneuvering engines" loading="lazy" decoding="async"><span class="art-expand" aria-hidden="true">VIEW ARTWORK ↗</span></a>
+          <div class="ship-copy"><span class="ship-kicker">02 / LOCAL PASSAGE</span><h3 id="schooner-title">Schooners</h3><p class="ship-lead">Small, swift, and mobile.</p><p>Agile commuter ships that thread through different parts of a city or duchy. Their compact hulls and responsive magnetic motors make maneuverability their greatest asset.</p><dl class="ship-specs"><div><dt>CLASS</dt><dd>Small</dd></div><div><dt>ROLE</dt><dd>City & duchy travel</dd></div></dl></div>
+        </article>
+        <article class="ship-card" aria-labelledby="trading-ship-title">
+          <a class="ship-art-link" href="assets/trading-ship.png" target="_blank" rel="noopener" aria-label="View full-size trading ships illustration (opens a new tab)"><img src="assets/trading-ship.png" alt="A large copper Zeppelin trading liner with cargo holds, cranes, and passenger decks" loading="lazy" decoding="async"><span class="art-expand" aria-hidden="true">VIEW ARTWORK ↗</span></a>
+          <div class="ship-copy"><span class="ship-kicker">03 / COMMERCE</span><h3 id="trading-ship-title">Trading ships</h3><p class="ship-lead">Cargo below. Passengers above.</p><p>Large vessels carrying freight and passengers between cities and duchies. Their carrying capacity comes at a cost: they are cumbersome and difficult to navigate.</p><dl class="ship-specs"><div><dt>CLASS</dt><dd>Large</dd></div><div><dt>ROLE</dt><dd>Freight & passengers</dd></div></dl></div>
+        </article>
+        <article class="ship-card" aria-labelledby="man-of-war-title">
+          <a class="ship-art-link" href="assets/man-of-war.png" target="_blank" rel="noopener" aria-label="View full-size men-of-war illustration (opens a new tab)"><img src="assets/man-of-war.png" alt="An immense armored metal Zeppelin man-of-war with gun decks and massive magnetic engines" loading="lazy" decoding="async"><span class="art-expand" aria-hidden="true">VIEW ARTWORK ↗</span></a>
+          <div class="ship-copy"><span class="ship-kicker">04 / DUCAL POWER</span><h3 id="man-of-war-title">Men-of-war</h3><p class="ship-lead">A duchy’s rarest possession.</p><p>Capital ships of extraordinary cost and rarity. Many duchies possess no more than three. Their presence represents a concentration of wealth, Magneton, and military power.</p><dl class="ship-specs"><div><dt>CLASS</dt><dd>Capital</dd></div><div><dt>ROLE</dt><dd>Duchy capital fleet</dd></div></dl></div>
+        </article>
+      </div>
     </section>
     <section class="about"><span class="tag">THE WORLD OF MAGNETON</span><h2>A shattered planet.<br>A new feudal age.</h2><p>Humanity survived the nuclear fracture and adapted to its magnetic fields. Now floating cities, mining fleets, and ruling barons depend on one resource: Magneton. This prologue introduces the world before the main story begins.</p></section>
   </main>

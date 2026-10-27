@@ -2,7 +2,7 @@
 
 An HTML comic project featuring **Magneton** (working story title).
 
-A dependency-free HTML comic book starter. Includes a responsive four-page world-building prologue, generated panel illustrations, accessible reader controls, and keyboard navigation. No build tools, accounts, API keys, or external services are required.
+A dependency-free HTML comic book starter. Includes a responsive four-page world-building prologue, generated panel illustrations, a four-class Zeppelin fleet gallery, accessible reader controls, and keyboard navigation. No build tools, accounts, API keys, or external services are required.
 
 ## Run locally
 
@@ -12,7 +12,29 @@ From the repository root:
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open the site in your local browser on port 8000. Any static hosting service can serve this folder, including GitHub Pages (select the branch containing this project and the root folder).
+Open the site in your local browser on port 8000.
+
+## GitHub hosting
+
+[Read the comic on GitHub Pages](https://mushfequr-rahman.github.io/ask-out-jessie/).
+
+GitHub Pages publishes the `master` branch from the repository root. The `.nojekyll` file serves the HTML and assets directly, with no build tools. Pushing to `master` triggers GitHub's Pages deployment. In repository Settings → Pages, keep **Deploy from a branch**, **master**, and **/ (root)** selected. If the repository is renamed, update this link to the new repository path.
+
+The fleet section links each ship image to its full-resolution, GitHub-hosted PNG. Images can also be viewed directly from the repository's `assets/` folder.
+
+## Zeppelin fleet
+
+| Mining ship | Schooner |
+| --- | --- |
+| [![Mining ship with a large ore hold](assets/mining-ship.png)](assets/mining-ship.png) | [![Agile commuter schooner](assets/schooner.png)](assets/schooner.png) |
+| Small ore carrier with a large hold. | Small, highly mobile city and duchy transport. |
+
+| Trading ship | Man-of-war |
+| --- | --- |
+| [![Large freight and passenger airship](assets/trading-ship.png)](assets/trading-ship.png) | [![Rare armored capital airship](assets/man-of-war.png)](assets/man-of-war.png) |
+| Large freight and passenger vessel; difficult to navigate. | The rarest and most expensive class; many duchies have at most three. |
+
+Select an image for the full-size artwork, or use **The Fleet** in the hosted comic.
 
 ## Make it your comic
 
@@ -29,4 +51,4 @@ Serve the root folder and check all four comic pages, boundary button states, ke
 
 ## Story reference
 
-See [STORY.md](STORY.md) for the world premise and details still to develop. The panels use six generated illustrations in a consistent graphic novel style, with selected scenes reused across the four-page prologue. Captions stay in HTML so they remain readable and editable. See [assets/README.md](assets/README.md) for the artwork inventory.
+See [STORY.md](STORY.md) for the world premise and details still to develop. The panels use nine generated illustrations in a consistent graphic novel style, with selected scenes reused across the four-page prologue and four dedicated Zeppelin ship designs in the fleet guide. Captions stay in HTML so they remain readable and editable. See [assets/README.md](assets/README.md) for the artwork inventory.

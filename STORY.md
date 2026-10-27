@@ -20,6 +20,19 @@ Magneton is a working title taken from the central resource. This document recor
 3. The cities: motors, power, flotation, and restored local gravity.
 4. The barons: mining fleets, resource control, and duchies.
 
+## Ship design and classes
+
+Ships follow a Zeppelin silhouette: elongated rigid metal hulls, rounded noses, structural ribs, tail fins, portholes, exposed machinery, and Magneton-powered motors. The user's visual reference establishes an industrial copper-and-iron design language. These are magnetically powered craft; their shape does not establish balloon lift as a world rule.
+
+| Class | Scale | Purpose and limits |
+| --- | --- | --- |
+| Mining ships | Small | Compact working ships with large holds for storing and transporting ore. |
+| Schooners | Small | Highly mobile commuter vessels for travel within different parts of a city or duchy. |
+| Trading ships | Large | Carry freight and passengers; difficult to navigate because of their size and bulk. |
+| Men-of-war | Capital | The most expensive and rarest ships. Many duchies may have no more than three. |
+
+The fleet illustrations explore these silhouettes. Exact dimensions, crew counts, armaments, and engine specifications remain open.
+
 ## Details still to develop
 
 - The specific human attributes and their limitations.

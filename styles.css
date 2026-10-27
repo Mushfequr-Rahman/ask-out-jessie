@@ -559,3 +559,36 @@ h1 { font-size: clamp(48px, 11.8vw, 146px); }
   .world-panel, .world-panel.wide { min-height: 430px; }
   .world-note { font-size: 15px; }
 }
+
+/* Ship reference gallery */
+.site-nav { display: flex; align-items: center; gap: 28px; }
+.fleet { margin: 80px 40px 0; border-top: 1px solid #ffffff26; padding-top: 40px; }
+.fleet-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: end; margin-bottom: 30px; }
+.fleet h2 { font-size: clamp(32px, 4vw, 52px); line-height: 1.05; letter-spacing: -2px; margin: 20px 0 0; }
+.fleet-heading > p { color: var(--muted); max-width: 430px; line-height: 1.8; font-size: 15px; margin: 0; }
+.fleet-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.ship-card { border: 1px solid #ffffff26; background: #1d2221; }
+.ship-art-link { position: relative; display: block; overflow: hidden; background: #e6e1d1; }
+.ship-art-link img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: contain; }
+.art-expand { position: absolute; bottom: 12px; right: 12px; background: var(--ink); color: var(--paper); padding: 8px 10px; font: 9px monospace; letter-spacing: 1px; }
+.ship-art-link:hover .art-expand { background: var(--orange); color: var(--ink); }
+.ship-copy { padding: 25px; }
+.ship-kicker { color: var(--orange); font: 10px monospace; letter-spacing: 1px; }
+.ship-copy h3 { margin: 14px 0 8px; font-size: 29px; letter-spacing: -1px; }
+.ship-copy p { color: var(--muted); line-height: 1.8; font-size: 14px; }
+.ship-copy .ship-lead { color: var(--paper); font: italic 18px/1.5 Georgia, serif; }
+.ship-specs { display: flex; flex-wrap: wrap; gap: 28px; border-top: 1px solid #ffffff26; padding-top: 18px; margin: 20px 0 0; }
+.ship-specs dt { color: var(--muted); font: 9px monospace; letter-spacing: 1px; }
+.ship-specs dd { margin: 7px 0 0; font-size: 12px; }
+@media (max-width: 650px) {
+  .site-nav { gap: 16px; }
+  .site-nav .issue-link { font-size: 9px; letter-spacing: 0; }
+  .site-nav .issue-link span { margin-left: 4px; }
+  .fleet { margin: 50px 20px 0; padding-top: 30px; }
+  .fleet-heading, .fleet-grid { grid-template-columns: 1fr; gap: 24px; }
+  .ship-copy { padding: 20px; }
+}
+@media (max-width: 400px) {
+  .masthead { flex-wrap: wrap; gap: 20px; }
+  .site-nav { width: 100%; justify-content: space-between; }
+}
