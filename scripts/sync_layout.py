@@ -5,7 +5,7 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = {"index.html": "chapters", "chapters.html": "chapters",
          "prologue.html": "chapters", "glossary.html": "glossary",
-         "magneton.html": "glossary"}
+         "magneton.html": "glossary", "assets.html": "glossary"}
 header = (ROOT / "partials/header.html").read_text().strip()
 footer = (ROOT / "partials/footer.html").read_text().strip()
 for filename, active in PAGES.items():

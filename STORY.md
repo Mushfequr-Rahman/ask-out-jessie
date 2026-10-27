@@ -124,3 +124,7 @@ There is currently one published story entry, **Prologue**, containing all nine 
 | Emberfall | Orange | Dark flame and golden ember |
 | Verdant Crown | Emerald | Golden crown of leaves |
 | Pale Meridian | Ivory | Midnight compass star |
+
+## Structured reference and artwork catalogue
+
+`world.json` contains the structured version of all current lore, open details, the nine published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.

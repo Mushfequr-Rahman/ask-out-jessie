@@ -7,6 +7,8 @@ A dependency-free HTML comic project featuring **Magneton**.
 - [Chapters](https://mushfequr-rahman.github.io/ask-out-jessie/chapters.html): one available story, **Prologue**.
 - [Read Prologue](https://mushfequr-rahman.github.io/ask-out-jessie/prologue.html): all nine existing illustrated pages, including Rovan's rise and the five silver honour guards.
 - [Glossary](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html): metals, ships, eight duchies and banners, people, and world terms.
+- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 42 original artwork files; linked from the glossary.
+- [Repository asset catalogue](ASSETS.md) and [world.json](world.json): artwork inventory and structured world reference.
 
 Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's nine pages retain all 27 unique panel illustrations.
 
@@ -42,6 +44,9 @@ The map and banner key use the same colour assignments, with names and numbers s
 - `prologue.html`: nine-page reader with a page selector, previous/next controls, and keyboard navigation.
 - `glossary.html`: the consolidated reference page and all eight duchy banners.
 - `magneton.html`: legacy link forwarding to the metals section of the glossary.
+- `assets.html` / `ASSETS.md`: browsable website and repository artwork catalogues.
+- `world.json`: all current lore, metals, ships, duchies, characters, chronology, story panels, unknown details, and asset metadata.
+- `scripts/build_assets.py`: refreshes asset metadata and both catalogues without changing artwork.
 - `partials/header.html` and `partials/footer.html`: shared site navigation and footer.
 - `scripts/sync_layout.py`: refreshes shared layout in the checked-in static HTML.
 - `site.js`: preserves old bookmarks; `script.js`: comic reader; `glossary.js`: ship-class filters.
@@ -59,3 +64,17 @@ The generated HTML is checked in, so serving or publishing does not require this
 ## Verification
 
 Check the two shared navigation links and active states on all pages, the single Prologue entry, all nine reader pages, the page selector, all 27 unique panel images, glossary section links and ship filters, eight distinct colours and banners, and mobile layouts. Old `index.html?page=7#reader`, `index.html#fleet`, and `magneton.html#type-c` bookmarks should forward to the new structure.
+
+## World and asset maintenance
+
+Keep `world.json` current when author-established lore changes. It separates established facts from provisional visual designs and explicitly records unknown details. It includes all nine story pages, their captions and narration, and asset references. The glossary remains checked-in HTML; lore edits should also be reflected there and in `STORY.md`.
+
+After changing artwork, refresh the metadata and catalogues:
+
+```sh
+python3 scripts/build_assets.py
+python3 scripts/sync_layout.py
+python3 scripts/validate_world.py
+```
+
+The asset script inventories the actual files and records dimensions, file sizes, SHA-256 hashes, and comic usage in `world.json`. It also writes `ASSETS.md` and `assets.html`. Regeneration is optional for serving because the generated files are committed. It never changes image contents. The asset library uses the same two-tab header and is reached from the Glossary tab.

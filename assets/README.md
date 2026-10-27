@@ -77,3 +77,7 @@ Eight individual heraldic banner images match the colour key and atlas labels in
 - `banner-pale-meridian.png`: Pale Meridian, ivory, midnight compass star.
 
 The atlas background remains the same geography; heraldic colours, names, and banner links are editable HTML. No ninth or tenth duchy was added.
+
+## Complete inventory
+
+See [ASSETS.md](../ASSETS.md) for the full repository catalogue, [assets.html](../assets.html) for the visual library, and [world.json](../world.json) for structured world facts and image metadata. Refresh the inventory with `python3 scripts/build_assets.py`, then shared layout with `python3 scripts/sync_layout.py`.
