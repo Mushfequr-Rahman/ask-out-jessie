@@ -4,7 +4,7 @@
   function arrangements(count, row = [], result = []) {
     if (!count) result.push(row);
     else if (row.length < 4) {
-      for (let size = 1; size <= Math.min(3, count); size++) arrangements(count - size, [...row, size], result);
+      for (let size = 1; size <= Math.min(2, count); size++) arrangements(count - size, [...row, size], result);
     }
     return result;
   }
@@ -25,7 +25,7 @@
     return values;
   }
   function fitPanels(panels, width, height, measureText, gap = 10) {
-    if (!panels.length || panels.length > 7) throw Error('A comic page needs 1–7 panels');
+    if (!panels.length || panels.length > 5) throw Error('A comic page needs 1–5 panels');
     const priorities = panels.map(panel => panel.priority ?? 3);
     if (priorities.some(p => !Number.isInteger(p) || p < 1 || p > 5)) throw Error('Priority must be 1–5');
     const weights = priorities.map(priority => Math.pow(priority, 1.65));
@@ -35,10 +35,10 @@
       let offset = 0;
       const groups = rows.map(size => {
         const indexes = Array.from({length: size}, (_, i) => offset + i);
-        const widths = distribute(width - gap * (size - 1), indexes.map(() => 215), indexes.map(i => weights[i]));
+        const widths = distribute(width - gap * (size - 1), indexes.map(() => 280), indexes.map(i => weights[i]));
         const texts = widths.map((w, i) => measureText(offset + i, w));
         const row = {indexes, widths, texts, weight: indexes.reduce((sum, i) => sum + weights[i], 0),
-          minimum: Math.max(185, ...texts.map(h => h + 92))};
+          minimum: Math.max(185, ...texts.map(h => h + 148))};
         offset += size;
         return row;
       });
@@ -60,8 +60,8 @@
         const share = box.width * box.height / area, target = weights[box.index] / totalWeight;
         // The story's priority drives area, rather than fitting every image into equal cards.
         score += 14 * (share - target) ** 2 / target;
-        const aspect = panels[box.index].aspectRatio || 1.5, frame = box.width / box.height;
-        score += 2.4 * target * (1 - Math.min(aspect / frame, frame / aspect));
+        const aspect = panels[box.index].aspectRatio || 1.5, frame = (box.width - 6) / Math.max(1, box.height - box.copyHeight - 38);
+        score += 8 * target * (1 - Math.min(aspect / frame, frame / aspect));
         score += Math.max(0, 235 - box.width) / width;
         for (const other of boxes) {
           if (priorities[box.index] > priorities[other.index] && box.width * box.height < other.width * other.height) {
@@ -73,6 +73,15 @@
     }
     return best ?? null;
   }
-  root.ComicLayout = {fitPanels};
-  if (typeof module !== 'undefined' && module.exports) module.exports = {fitPanels};
+  // Uniform scale and translation: contain the whole source within its assigned box.
+  function fitImage(sourceWidth, sourceHeight, boxWidth, boxHeight) {
+    if (![sourceWidth, sourceHeight, boxWidth, boxHeight].every(n => Number.isFinite(n) && n > 0)) {
+      throw Error('Image and box dimensions must be positive');
+    }
+    const scale = Math.min(boxWidth / sourceWidth, boxHeight / sourceHeight);
+    const width = sourceWidth * scale, height = sourceHeight * scale;
+    return {scale, width, height, x: (boxWidth - width) / 2, y: (boxHeight - height) / 2};
+  }
+  root.ComicLayout = {fitPanels, fitImage};
+  if (typeof module !== 'undefined' && module.exports) module.exports = {fitPanels, fitImage};
 })(typeof window === 'undefined' ? globalThis : window);

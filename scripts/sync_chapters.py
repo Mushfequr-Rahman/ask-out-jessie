@@ -14,14 +14,14 @@ def validate_chapter(chapter):
         assert isinstance(page, dict), 'Page must be an object'
         assert type(page.get('Page Number')) is int and page['Page Number'] == number, 'Page numbers must start at 1 and be consecutive'
         assert isinstance(page.get('Title'), str) and page['Title'].strip(), 'Page needs a Title'
-        assert isinstance(page.get('panels'), list) and 1 <= len(page['panels']) <= 7, 'Each page needs 1–7 panels'
+        assert isinstance(page.get('panels'), list) and 1 <= len(page['panels']) <= 5, 'Each page needs 1–5 panels'
         assert 'footer' not in page or isinstance(page['footer'], str), 'Invalid footer'
         for panel in page['panels']:
             assert isinstance(panel, dict), 'Panel must be an object'
             assert isinstance(panel.get('image_src'), str) and re.fullmatch(r'assets/[a-zA-Z0-9_/-]+\.(png|jpe?g|webp|svg)', panel['image_src']), 'Invalid image_src'
             assert isinstance(panel.get('caption'), str), 'Panel needs a caption string (may be empty)'
             assert 'priority' not in panel or type(panel['priority']) is int and 1 <= panel['priority'] <= 5, 'Priority must be 1–5'
-            assert 'image_fit' not in panel or panel['image_fit'] in ['cover', 'contain'], 'Invalid image fit'
+            assert 'image_fit' not in panel or panel['image_fit'] == 'contain', 'Invalid image fit'
             for field in ['narration', 'image_alt']:
                 assert field not in panel or isinstance(panel[field], str), f'Invalid {field}'
             if 'layout' in panel:

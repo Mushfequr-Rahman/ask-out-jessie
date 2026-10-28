@@ -25,14 +25,14 @@ function validateChapter(chapter) {
   chapter.pages.forEach((page, index) => {
     if (!page || page['Page Number'] !== index + 1 || typeof page.Title !== 'string' ||
         !page.Title.trim() || !Array.isArray(page.panels) ||
-        page.panels.length < 1 || page.panels.length > 7) throw Error('Invalid page');
+        page.panels.length < 1 || page.panels.length > 5) throw Error('Invalid page');
     if (page.footer !== undefined && typeof page.footer !== 'string') throw Error('Invalid footer');
     page.panels.forEach(panel => {
       if (!panel || typeof panel.image_src !== 'string' ||
           !/^assets\/[a-zA-Z0-9_/-]+\.(png|jpe?g|webp|svg)$/.test(panel.image_src) ||
           typeof panel.caption !== 'string') throw Error('Invalid panel');
       if (panel.priority !== undefined && (!Number.isInteger(panel.priority) || panel.priority < 1 || panel.priority > 5)) throw Error('Priority must be 1–5');
-      if (panel.image_fit !== undefined && !['cover', 'contain'].includes(panel.image_fit)) throw Error('Invalid image fit');
+      if (panel.image_fit !== undefined && panel.image_fit !== 'contain') throw Error('Invalid image fit');
       for (const field of ['narration', 'image_alt']) {
         if (panel[field] !== undefined && typeof panel[field] !== 'string') throw Error('Invalid panel text');
       }
@@ -63,7 +63,7 @@ function renderChapter(chapter) {
       const image = element('img', 'panel-art');
       image.src = panel.image_src;
       image.alt = panel.image_alt ?? panel.caption;
-      image.style.objectFit = panel.image_fit ?? 'cover';
+      image.style.objectFit = 'contain';
       image.loading = index === 0 ? 'eager' : 'lazy';
       image.decoding = 'async';
       image.addEventListener('load', () => {
@@ -167,9 +167,25 @@ function layoutPage(article) {
     const box = boxes[index];
     Object.assign(box.style, {left: `${x}px`, top: `${y}px`, width: `${width}px`, height: `${height}px`});
     box.querySelector('.panel-copy').style.maxHeight = `${height - 28}px`;
+    fitPanelImage(box);
   });
   article.dataset.rows = plan.rows.join('-');
   scalePage(article);
+}
+
+function fitPanelImage(box) {
+  const image = box.querySelector('img');
+  const illustration = box.querySelector('.panel-illustration');
+  const caption = box.querySelector('.panel-caption');
+  const story = box.querySelector('.panel-story');
+  // Leave the text overlays in the panel, but keep them off the actual artwork.
+  const top = caption ? caption.offsetHeight + 20 : 8;
+  const bottom = story ? story.offsetHeight + 24 : 8;
+  const fitted = ComicLayout.fitImage(image.naturalWidth || 1500, image.naturalHeight || 1000,
+    Math.max(1, illustration.clientWidth - 16), Math.max(1, illustration.clientHeight - top - bottom));
+  Object.assign(image.style, {width: `${fitted.width}px`, height: `${fitted.height}px`,
+    transform: `translate(${fitted.x + 8}px, ${fitted.y + top}px)`});
+  image.dataset.fitScale = String(fitted.scale);
 }
 
 function currentScale(article) {

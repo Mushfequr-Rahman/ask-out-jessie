@@ -1042,19 +1042,20 @@
     ],
     "asset_catalogue": "assets.html",
     "repository_asset_catalogue": "ASSETS.md",
-    "site_version": "priority-heraldry-1",
+    "site_version": "fit-five-1",
     "page_canvas": {
       "width": 1000,
       "height": 1400,
       "units": "logical pixels",
-      "layout": "Priority-weighted ordered comic rows. Priority 1–5 assigns page area to story beats; full-bleed art and inset captions/dialogue replace photo-card text strips. The five-person introduction contains whole images."
+      "layout": "Priority-weighted ordered comic rows with a maximum of five images. Each image is uniformly scaled and translated into the space between the text overlays, preserving its aspect ratio without cropping or distortion."
     },
     "panel_priority": {
       "minimum": 1,
       "maximum": 5,
       "default": 3,
       "meaning": "Higher values request larger panels. Reading order remains the JSON order."
-    }
+    },
+    "max_panels_per_page": 5
   },
   "terms": {
     "Magneton": "Family of metals formed from nuclear materials after the Fracture.",
@@ -2130,7 +2131,7 @@
     "Each captain has one distinct loadout: magnetic lance, field broadsword, twin wind swords, shield war hammer or magnetic scythe.",
     "Page 11 shows a second Auric Reach town seized after Type C is crafted; page 8’s first capture still occurs before the crafting.",
     "Page 9 introduces the five Silver Guard captains; page 10 shows ordinary troops running into the town; page 11 shows the captains’ assault and capture.",
-    "All comic pages use the same 1000 by 1400 logical canvas and a maximum of seven panels.",
+    "All comic pages use the same 1000 by 1400 logical canvas and a maximum of five panels.",
     "The Silver Guard wear Veymarch’s established broken-shield-and-star crest; restrained brass trim does not replace the silver Type C material."
   ],
   "military_livery": {

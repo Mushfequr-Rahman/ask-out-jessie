@@ -42,7 +42,7 @@ The map and banner key use the same colour assignments, with names and numbers s
 - `index.html`: home alias of the Chapters menu, with support for old reader links.
 - `chapters.html`: story menu; only Prologue is available.
 - `prologue.html`: reader shell that loads `chapters/prologue.json`, with a page selector, previous/next controls, and keyboard navigation.
-- `chapters/*.json`: one source per chapter; page number, title and up to seven panels per page. See [chapter format](chapters/README.md).
+- `chapters/*.json`: one source per chapter; page number, title and up to five panels per page. See [chapter format](chapters/README.md).
 - `scripts/sync_chapters.py`: validates chapter JSON and syncs its derived story records into `world.json`.
 - `glossary.html`: the consolidated reference page and all eight duchy banners.
 - `magneton.html`: legacy link forwarding to the metals section of the glossary.
@@ -70,7 +70,7 @@ Check the two shared navigation links and active states on all pages, the single
 
 ## World and asset maintenance
 
-Edit comic pages in `chapters/prologue.json`; `script.js` renders their images and text at runtime. Both the browser and repository checks reject pages containing more than seven panels. Keep `world.json` current when author-established lore changes. It separates established facts from provisional visual designs and explicitly records unknown details. Its story pages, captions, narration and asset references are derived from chapter JSON by the asset script. The glossary remains checked-in HTML; lore edits should also be reflected there and in `STORY.md`.
+Edit comic pages in `chapters/prologue.json`; `script.js` renders their images and text at runtime. Both the browser and repository checks reject pages containing more than five panels. Keep `world.json` current when author-established lore changes. It separates established facts from provisional visual designs and explicitly records unknown details. Its story pages, captions, narration and asset references are derived from chapter JSON by the asset script. The glossary remains checked-in HTML; lore edits should also be reflected there and in `STORY.md`.
 
 After changing artwork, refresh the metadata and catalogues:
 
@@ -84,9 +84,9 @@ The asset script first validates and syncs each chapter JSON into the world refe
 
 ## Fixed comic pages
 
-Every page has a 1,000 × 1,400 logical canvas. Each panel in chapter JSON has a `priority` from 1 to 5. `panel-layout.js` evaluates ordered row arrangements, allocates space by priority, measures the story text, and balances image proportions against the requested emphasis. Major reveals and action shots receive more area; smaller beats connect them without changing reading order. The algorithm supports up to seven images on a page.
+Every page has a 1,000 × 1,400 logical canvas. Each panel in chapter JSON has a `priority` from 1 to 5. `panel-layout.js` evaluates ordered row arrangements, allocates space by priority, measures the story text, and balances image proportions against the requested emphasis. Major reveals and action shots receive more area; smaller beats connect them without changing reading order. The algorithm supports up to five images on a page.
 
-Artwork fills the panels, with cream narration boxes and dialogue balloons over it. The group introduction uses `image_fit: "contain"` to keep all five captains visible. **Full size** shows the native canvas in a scrollable viewport; **Read page text** provides the complete story at normal text sizes. Click any panel image to open its uncropped original.
+Every image is proportionally resized and centred within its assigned panel, with space left for cream narration boxes and dialogue balloons. A uniform scale-and-translate transform preserves the entire illustration without cropping or stretching. **Full size** shows the native canvas in a scrollable viewport; **Read page text** provides the complete story at normal text sizes. Click any panel image to open its uncropped original.
 
 The Silver Guard have their own introduction on page 9. Page 10 follows the troops entering town, page 11 shows the captains’ assault, and page 12 contains the rival’s response.
 

@@ -103,12 +103,12 @@ html = f'''<!doctype html>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Browse all {len(assets)} Magneton illustrations, ship designs, world references, and duchy banners.">
   <title>Magneton · Asset Library</title>
-  <link rel="stylesheet" href="styles.css?v=priority-heraldry-1">
-  <script src="site.js?v=priority-heraldry-1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=fit-five-1">
+  <script src="site.js?v=fit-five-1" defer></script>
 </head>
 <body>
 <!-- site-header --><!-- /site-header -->
-  <main class="glossary-main asset-library"><section class="page-intro" aria-labelledby="page-title"><a class="text-link" href="glossary.html?v=priority-heraldry-1">← Glossary</a><h1 id="page-title">Asset library<span>.</span></h1><p>{len(assets)} illustrations from the fractured world.</p><p class="glossary-note">Browse the original artwork, see where each image appears in the comic, and download full-resolution files.</p><div class="data-links"><a class="primary-link" href="world.json" download>Download world.json ↓</a><a class="text-link" href="world.json">View world reference ↗</a><a class="text-link" href="https://github.com/Mushfequr-Rahman/ask-out-jessie/blob/master/ASSETS.md" target="_blank" rel="noopener">Repository catalogue ↗</a></div><div class="section-index" aria-label="Asset categories">{contents}</div></section>{''.join(sections)}</main>
+  <main class="glossary-main asset-library"><section class="page-intro" aria-labelledby="page-title"><a class="text-link" href="glossary.html?v=fit-five-1">← Glossary</a><h1 id="page-title">Asset library<span>.</span></h1><p>{len(assets)} illustrations from the fractured world.</p><p class="glossary-note">Browse the original artwork, see where each image appears in the comic, and download full-resolution files.</p><div class="data-links"><a class="primary-link" href="world.json" download>Download world.json ↓</a><a class="text-link" href="world.json">View world reference ↗</a><a class="text-link" href="https://github.com/Mushfequr-Rahman/ask-out-jessie/blob/master/ASSETS.md" target="_blank" rel="noopener">Repository catalogue ↗</a></div><div class="section-index" aria-label="Asset categories">{contents}</div></section>{''.join(sections)}</main>
 <!-- site-footer --><!-- /site-footer -->
 </body>
 </html>
