@@ -1,0 +1,189 @@
+{
+  "requests": [
+    {
+      "id": "prologue-p01-panel01",
+      "request_file": "generation/drafts/prologue-p01-panel01.json",
+      "output_file": "assets/panels/prologue-p01-panel01.png"
+    },
+    {
+      "id": "prologue-p01-panel02",
+      "request_file": "generation/drafts/prologue-p01-panel02.json",
+      "output_file": "assets/panels/prologue-p01-panel02.png"
+    },
+    {
+      "id": "prologue-p01-panel03",
+      "request_file": "generation/drafts/prologue-p01-panel03.json",
+      "output_file": "assets/panels/prologue-p01-panel03.png"
+    },
+    {
+      "id": "prologue-p02-panel01",
+      "request_file": "generation/drafts/prologue-p02-panel01.json",
+      "output_file": "assets/panels/prologue-p02-panel01.png"
+    },
+    {
+      "id": "prologue-p02-panel02",
+      "request_file": "generation/drafts/prologue-p02-panel02.json",
+      "output_file": "assets/panels/prologue-p02-panel02.png"
+    },
+    {
+      "id": "prologue-p02-panel03",
+      "request_file": "generation/drafts/prologue-p02-panel03.json",
+      "output_file": "assets/panels/prologue-p02-panel03.png"
+    },
+    {
+      "id": "prologue-p03-panel01",
+      "request_file": "generation/drafts/prologue-p03-panel01.json",
+      "output_file": "assets/panels/prologue-p03-panel01.png"
+    },
+    {
+      "id": "prologue-p03-panel02",
+      "request_file": "generation/drafts/prologue-p03-panel02.json",
+      "output_file": "assets/panels/prologue-p03-panel02.png"
+    },
+    {
+      "id": "prologue-p03-panel03",
+      "request_file": "generation/drafts/prologue-p03-panel03.json",
+      "output_file": "assets/panels/prologue-p03-panel03.png"
+    },
+    {
+      "id": "prologue-p04-panel01",
+      "request_file": "generation/drafts/prologue-p04-panel01.json",
+      "output_file": "assets/panels/prologue-p04-panel01.png"
+    },
+    {
+      "id": "prologue-p04-panel02",
+      "request_file": "generation/drafts/prologue-p04-panel02.json",
+      "output_file": "assets/panels/prologue-p04-panel02.png"
+    },
+    {
+      "id": "prologue-p04-panel03",
+      "request_file": "generation/drafts/prologue-p04-panel03.json",
+      "output_file": "assets/panels/prologue-p04-panel03.png"
+    },
+    {
+      "id": "prologue-p05-panel01",
+      "request_file": "generation/drafts/prologue-p05-panel01.json",
+      "output_file": "assets/panels/prologue-p05-panel01.png"
+    },
+    {
+      "id": "prologue-p05-panel02",
+      "request_file": "generation/drafts/prologue-p05-panel02.json",
+      "output_file": "assets/panels/prologue-p05-panel02.png"
+    },
+    {
+      "id": "prologue-p05-panel03",
+      "request_file": "generation/drafts/prologue-p05-panel03.json",
+      "output_file": "assets/panels/prologue-p05-panel03.png"
+    },
+    {
+      "id": "prologue-p06-panel01",
+      "request_file": "generation/drafts/prologue-p06-panel01.json",
+      "output_file": "assets/panels/prologue-p06-panel01.png"
+    },
+    {
+      "id": "prologue-p06-panel02",
+      "request_file": "generation/drafts/prologue-p06-panel02.json",
+      "output_file": "assets/panels/prologue-p06-panel02.png"
+    },
+    {
+      "id": "prologue-p06-panel03",
+      "request_file": "generation/drafts/prologue-p06-panel03.json",
+      "output_file": "assets/panels/prologue-p06-panel03.png"
+    },
+    {
+      "id": "prologue-p07-panel01",
+      "request_file": "generation/drafts/prologue-p07-panel01.json",
+      "output_file": "assets/panels/prologue-p07-panel01.png"
+    },
+    {
+      "id": "prologue-p07-panel02",
+      "request_file": "generation/drafts/prologue-p07-panel02.json",
+      "output_file": "assets/panels/prologue-p07-panel02.png"
+    },
+    {
+      "id": "prologue-p07-panel03",
+      "request_file": "generation/drafts/prologue-p07-panel03.json",
+      "output_file": "assets/panels/prologue-p07-panel03.png"
+    },
+    {
+      "id": "prologue-p08-panel01",
+      "request_file": "generation/drafts/prologue-p08-panel01.json",
+      "output_file": "assets/panels/prologue-p08-panel01.png"
+    },
+    {
+      "id": "prologue-p08-panel02",
+      "request_file": "generation/drafts/prologue-p08-panel02.json",
+      "output_file": "assets/panels/prologue-p08-panel02.png"
+    },
+    {
+      "id": "prologue-p08-panel03",
+      "request_file": "generation/drafts/prologue-p08-panel03.json",
+      "output_file": "assets/panels/prologue-p08-panel03.png"
+    },
+    {
+      "id": "prologue-p09-panel01",
+      "request_file": "generation/drafts/prologue-p09-panel01.json",
+      "output_file": "assets/panels/prologue-p09-panel01.png"
+    },
+    {
+      "id": "prologue-p09-panel02",
+      "request_file": "generation/drafts/prologue-p09-panel02.json",
+      "output_file": "assets/panels/prologue-p09-panel02.png"
+    },
+    {
+      "id": "prologue-p10-panel01",
+      "request_file": "generation/drafts/prologue-p10-panel01.json",
+      "output_file": "assets/panels/prologue-p10-panel01.png"
+    },
+    {
+      "id": "prologue-p10-panel02",
+      "request_file": "generation/drafts/prologue-p10-panel02.json",
+      "output_file": "assets/panels/prologue-p10-panel02.png"
+    },
+    {
+      "id": "prologue-p10-panel03",
+      "request_file": "generation/drafts/prologue-p10-panel03.json",
+      "output_file": "assets/panels/prologue-p10-panel03.png"
+    },
+    {
+      "id": "prologue-p11-panel01",
+      "request_file": "generation/drafts/prologue-p11-panel01.json",
+      "output_file": "assets/panels/prologue-p11-panel01.png"
+    },
+    {
+      "id": "prologue-p11-panel02",
+      "request_file": "generation/drafts/prologue-p11-panel02.json",
+      "output_file": "assets/panels/prologue-p11-panel02.png"
+    },
+    {
+      "id": "prologue-p11-panel03",
+      "request_file": "generation/drafts/prologue-p11-panel03.json",
+      "output_file": "assets/panels/prologue-p11-panel03.png"
+    },
+    {
+      "id": "prologue-p11-panel04",
+      "request_file": "generation/drafts/prologue-p11-panel04.json",
+      "output_file": "assets/panels/prologue-p11-panel04.png"
+    },
+    {
+      "id": "prologue-p11-panel05",
+      "request_file": "generation/drafts/prologue-p11-panel05.json",
+      "output_file": "assets/panels/prologue-p11-panel05.png"
+    },
+    {
+      "id": "prologue-p12-panel01",
+      "request_file": "generation/drafts/prologue-p12-panel01.json",
+      "output_file": "assets/panels/prologue-p12-panel01.png"
+    },
+    {
+      "id": "prologue-p12-panel02",
+      "request_file": "generation/drafts/prologue-p12-panel02.json",
+      "output_file": "assets/panels/prologue-p12-panel02.png"
+    },
+    {
+      "id": "prologue-p12-panel03",
+      "request_file": "generation/drafts/prologue-p12-panel03.json",
+      "output_file": "assets/panels/prologue-p12-panel03.png"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+:root { color-scheme: light; font: 16px/1.5 system-ui, sans-serif; color: #1c2528; background: #f1ecdd; }
+body { margin: 0; } main { max-width: 1440px; padding: 24px; margin: auto; }
+a { color: #224f70; } h1, h2, h3 { line-height: 1.2; }
+section { border-top: 2px solid #b6ad97; margin-top: 36px; padding-top: 12px; }
+.comparison { display: grid; grid-template-columns: minmax(210px, 280px) 1fr; gap: 24px; align-items: start; }
+aside { position: sticky; top: 20px; } aside ul { list-style: none; padding: 0; }
+.reference { display: block; width: 100%; height: 360px; object-fit: contain; background: #181c1d; }
+.swatch { display: inline-block; width: 24px; height: 24px; border: 1px solid #555; vertical-align: middle; margin-right: 8px; }
+.candidates { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.review-card { background: #fffaf0; border: 1px solid #b6ad97; padding: 16px; min-width: 0; }
+.review-card img { width: 100%; height: 300px; object-fit: contain; background: #19262b; }
+label { display: block; margin-top: 10px; } select, textarea, button { font: inherit; padding: 8px; }
+select, textarea { display: block; width: 100%; box-sizing: border-box; } button { cursor: pointer; }
+.toolbar { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.review-card[data-decision="fix"] { border: 3px solid #a21f2c; }
+.review-card[data-decision="pass"] { border: 3px solid #286944; }
+@media(max-width: 650px) { main { padding: 16px; } .comparison { grid-template-columns: 1fr; } aside { position: static; } .reference { height: 240px; } .candidates { grid-template-columns: 1fr; } }

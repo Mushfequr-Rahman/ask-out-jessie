@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "chapter": "prologue",
+  "houses": [
+    {
+      "id": "banner-veymarch",
+      "name": "Veymarch banner",
+      "reference": "assets/banner-veymarch.png",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Crimson",
+          "hex": "#991B1B"
+        },
+        "emblem": {
+          "name": "Aged silver",
+          "hex": "#C8C2B0"
+        },
+        "trim": {
+          "name": "Antique silver trim",
+          "hex": "#A89978"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      },
+      "panels": [
+        {
+          "id": "prologue-p04-panel03",
+          "page": 4,
+          "panel": 3,
+          "file": "assets/panels/prologue-p04-panel03.png",
+          "sha256": "c19e5bb365405d27d030abcc40a0a6f7e1ad3e5eef0d383fa127f934aa0d1d45"
+        },
+        {
+          "id": "prologue-p05-panel01",
+          "page": 5,
+          "panel": 1,
+          "file": "assets/panels/prologue-p05-panel01.png",
+          "sha256": "4110094fae4a134c9d107d0afbe33e6b403a79c1d62bc9fb8aea3db337c65276"
+        },
+        {
+          "id": "prologue-p05-panel02",
+          "page": 5,
+          "panel": 2,
+          "file": "assets/panels/prologue-p05-panel02.png",
+          "sha256": "f1ad68479f892a7df95233cee7619d6ed75e941b5bb9dcf4998172e00c763b30"
+        },
+        {
+          "id": "prologue-p05-panel03",
+          "page": 5,
+          "panel": 3,
+          "file": "assets/panels/prologue-p05-panel03.png",
+          "sha256": "f5a9d460a6ee32ef5d9325327e726f1964489992f68f1c526998ff89e7e1c726"
+        },
+        {
+          "id": "prologue-p06-panel01",
+          "page": 6,
+          "panel": 1,
+          "file": "assets/panels/prologue-p06-panel01.png",
+          "sha256": "02cede6337b8e9a8b8690b956702ba13c0544357e6fde7505fe42e836562e67a"
+        },
+        {
+          "id": "prologue-p06-panel02",
+          "page": 6,
+          "panel": 2,
+          "file": "assets/panels/prologue-p06-panel02.png",
+          "sha256": "35c77166a7381d3a4be28f60c2524f58d21be56c5bc0c0bb977b5b9982c80130"
+        },
+        {
+          "id": "prologue-p06-panel03",
+          "page": 6,
+          "panel": 3,
+          "file": "assets/panels/prologue-p06-panel03.png",
+          "sha256": "67578d4176294578f46fcc1eea6073cd87241e77a625067ffeed32ba8a19e6f1"
+        },
+        {
+          "id": "prologue-p07-panel01",
+          "page": 7,
+          "panel": 1,
+          "file": "assets/panels/prologue-p07-panel01.png",
+          "sha256": "3176d05106083385b68b5a1d8803d2a6d4050f4a992a980df793dea0d0d7c0d6"
+        },
+        {
+          "id": "prologue-p07-panel02",
+          "page": 7,
+          "panel": 2,
+          "file": "assets/panels/prologue-p07-panel02.png",
+          "sha256": "3e59fa5d107402531d9c8e7ac3a9dfcd2ea6ef61c648b3fbce60162f8862a955"
+        },
+        {
+          "id": "prologue-p08-panel01",
+          "page": 8,
+          "panel": 1,
+          "file": "assets/panels/prologue-p08-panel01.png",
+          "sha256": "5732162a3e973e4d15225837c7de4c65bf8b77691475bcc850f298518756928e"
+        },
+        {
+          "id": "prologue-p08-panel02",
+          "page": 8,
+          "panel": 2,
+          "file": "assets/panels/prologue-p08-panel02.png",
+          "sha256": "be0975aa044c5345a82c790cdd9abeb3cedc25d6e7c26850b552ae53a82f378d"
+        },
+        {
+          "id": "prologue-p08-panel03",
+          "page": 8,
+          "panel": 3,
+          "file": "assets/panels/prologue-p08-panel03.png",
+          "sha256": "a2e927ce4bfb416aa8831f631d93237749bef66d041c71d28b97873194964633"
+        },
+        {
+          "id": "prologue-p09-panel01",
+          "page": 9,
+          "panel": 1,
+          "file": "assets/panels/prologue-p09-panel01.png",
+          "sha256": "82fac74f870a13fd6768279219c4ce2c3bdf9b625501a823601c612f4df80352"
+        },
+        {
+          "id": "prologue-p09-panel02",
+          "page": 9,
+          "panel": 2,
+          "file": "assets/panels/prologue-p09-panel02.png",
+          "sha256": "574c46c4e04b6ad1ea532b98ce1d707e27af5350ec8daace87367ed2a7bab846"
+        },
+        {
+          "id": "prologue-p10-panel01",
+          "page": 10,
+          "panel": 1,
+          "file": "assets/panels/prologue-p10-panel01.png",
+          "sha256": "e50b9ae5ab08d9e3e0ec631337b1a4dc5d3cc5a5b799e12b28ad86a34042c87b"
+        },
+        {
+          "id": "prologue-p10-panel02",
+          "page": 10,
+          "panel": 2,
+          "file": "assets/panels/prologue-p10-panel02.png",
+          "sha256": "060bcd9b740e5b6721032ff71901d7feea539079d85fe5f0e34cc8625fa3fb93"
+        },
+        {
+          "id": "prologue-p10-panel03",
+          "page": 10,
+          "panel": 3,
+          "file": "assets/panels/prologue-p10-panel03.png",
+          "sha256": "c49eff4ef887f96b20071bf02965cf5d7c525cdb1b1dd97dedc9123c5a7a2e2f"
+        },
+        {
+          "id": "prologue-p11-panel01",
+          "page": 11,
+          "panel": 1,
+          "file": "assets/panels/prologue-p11-panel01.png",
+          "sha256": "91355ec0eb4e4f3c22662745cad784792662f8879fda3e3cf4c2235746f83fe9"
+        },
+        {
+          "id": "prologue-p11-panel02",
+          "page": 11,
+          "panel": 2,
+          "file": "assets/panels/prologue-p11-panel02.png",
+          "sha256": "2e5db5ab182e1159ff18f66c8eba02e6140552ae0eeac8e6e7a3049ac8f84cf8"
+        },
+        {
+          "id": "prologue-p11-panel03",
+          "page": 11,
+          "panel": 3,
+          "file": "assets/panels/prologue-p11-panel03.png",
+          "sha256": "3073e3645788d67c5494cbf0fe5710bf47c093ce8918fae2948b8777ea3a1ead"
+        },
+        {
+          "id": "prologue-p11-panel04",
+          "page": 11,
+          "panel": 4,
+          "file": "assets/panels/prologue-p11-panel04.png",
+          "sha256": "3aa357148fee9271bbee87ca06c04979922c44a033272b3e3a31e2f68159b384"
+        },
+        {
+          "id": "prologue-p11-panel05",
+          "page": 11,
+          "panel": 5,
+          "file": "assets/panels/prologue-p11-panel05.png",
+          "sha256": "767b3801cad59af07c3aed6320fbb5b2eb369ae3a4e31c893171f24141d1d548"
+        },
+        {
+          "id": "prologue-p12-panel01",
+          "page": 12,
+          "panel": 1,
+          "file": "assets/panels/prologue-p12-panel01.png",
+          "sha256": "0a81fba53eb3aa23d10380afc7cbb97e191f094a36c39bb7dd69f7ef81a7d1c9"
+        }
+      ]
+    },
+    {
+      "id": "banner-auric-reach",
+      "name": "Auric Reach banner",
+      "reference": "assets/banner-auric-reach.png",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Golden yellow",
+          "hex": "#EDB916"
+        },
+        "emblem": {
+          "name": "Navy blue",
+          "hex": "#142A49"
+        },
+        "trim": {
+          "name": "Antique gold",
+          "hex": "#AA8951"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      },
+      "panels": [
+        {
+          "id": "prologue-p04-panel03",
+          "page": 4,
+          "panel": 3,
+          "file": "assets/panels/prologue-p04-panel03.png",
+          "sha256": "c19e5bb365405d27d030abcc40a0a6f7e1ad3e5eef0d383fa127f934aa0d1d45"
+        },
+        {
+          "id": "prologue-p08-panel01",
+          "page": 8,
+          "panel": 1,
+          "file": "assets/panels/prologue-p08-panel01.png",
+          "sha256": "5732162a3e973e4d15225837c7de4c65bf8b77691475bcc850f298518756928e"
+        },
+        {
+          "id": "prologue-p08-panel03",
+          "page": 8,
+          "panel": 3,
+          "file": "assets/panels/prologue-p08-panel03.png",
+          "sha256": "a2e927ce4bfb416aa8831f631d93237749bef66d041c71d28b97873194964633"
+        },
+        {
+          "id": "prologue-p10-panel01",
+          "page": 10,
+          "panel": 1,
+          "file": "assets/panels/prologue-p10-panel01.png",
+          "sha256": "e50b9ae5ab08d9e3e0ec631337b1a4dc5d3cc5a5b799e12b28ad86a34042c87b"
+        },
+        {
+          "id": "prologue-p10-panel02",
+          "page": 10,
+          "panel": 2,
+          "file": "assets/panels/prologue-p10-panel02.png",
+          "sha256": "060bcd9b740e5b6721032ff71901d7feea539079d85fe5f0e34cc8625fa3fb93"
+        },
+        {
+          "id": "prologue-p10-panel03",
+          "page": 10,
+          "panel": 3,
+          "file": "assets/panels/prologue-p10-panel03.png",
+          "sha256": "c49eff4ef887f96b20071bf02965cf5d7c525cdb1b1dd97dedc9123c5a7a2e2f"
+        },
+        {
+          "id": "prologue-p11-panel01",
+          "page": 11,
+          "panel": 1,
+          "file": "assets/panels/prologue-p11-panel01.png",
+          "sha256": "91355ec0eb4e4f3c22662745cad784792662f8879fda3e3cf4c2235746f83fe9"
+        },
+        {
+          "id": "prologue-p11-panel02",
+          "page": 11,
+          "panel": 2,
+          "file": "assets/panels/prologue-p11-panel02.png",
+          "sha256": "2e5db5ab182e1159ff18f66c8eba02e6140552ae0eeac8e6e7a3049ac8f84cf8"
+        },
+        {
+          "id": "prologue-p11-panel03",
+          "page": 11,
+          "panel": 3,
+          "file": "assets/panels/prologue-p11-panel03.png",
+          "sha256": "3073e3645788d67c5494cbf0fe5710bf47c093ce8918fae2948b8777ea3a1ead"
+        },
+        {
+          "id": "prologue-p11-panel04",
+          "page": 11,
+          "panel": 4,
+          "file": "assets/panels/prologue-p11-panel04.png",
+          "sha256": "3aa357148fee9271bbee87ca06c04979922c44a033272b3e3a31e2f68159b384"
+        },
+        {
+          "id": "prologue-p11-panel05",
+          "page": 11,
+          "panel": 5,
+          "file": "assets/panels/prologue-p11-panel05.png",
+          "sha256": "767b3801cad59af07c3aed6320fbb5b2eb369ae3a4e31c893171f24141d1d548"
+        },
+        {
+          "id": "prologue-p12-panel02",
+          "page": 12,
+          "panel": 2,
+          "file": "assets/panels/prologue-p12-panel02.png",
+          "sha256": "1a2042c28c1b26981b81520c038d7212c5e61774664c777d2c9279d5d4f12f8e"
+        },
+        {
+          "id": "prologue-p12-panel03",
+          "page": 12,
+          "panel": 3,
+          "file": "assets/panels/prologue-p12-panel03.png",
+          "sha256": "e70a630eb34776d444c3987c1ad3719a63b8d83fd59cf4b8721830b641e283d9"
+        }
+      ]
+    },
+    {
+      "id": "banner-ironveil",
+      "name": "Ironveil banner",
+      "reference": "assets/banner-ironveil.png",
+      "reference_sha256": "a7eb764a17b18535904eb26ec04ffb36c2b3ce5deb9c08ca2e5d4149a199f7d4",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Steel blue-grey",
+          "hex": "#455867"
+        },
+        "emblem": {
+          "name": "Aged silver",
+          "hex": "#C8C2B0"
+        },
+        "trim": {
+          "name": "Antique silver trim",
+          "hex": "#A89978"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      },
+      "panels": []
+    },
+    {
+      "id": "banner-glassmere",
+      "name": "Glassmere banner",
+      "reference": "assets/banner-glassmere.png",
+      "reference_sha256": "d2baeaf6472880b93bd61b66e7f46c377a73d84bb5947792df563b1306e7919b",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Cyan",
+          "hex": "#129EB3"
+        },
+        "emblem": {
+          "name": "Ivory white",
+          "hex": "#EAE5D6"
+        },
+        "trim": {
+          "name": "Antique silver trim",
+          "hex": "#A89978"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      },
+      "panels": []
+    },
+    {
+      "id": "banner-stormholt",
+      "name": "Stormholt banner",
+      "reference": "assets/banner-stormholt.png",
+      "reference_sha256": "a4f6c28ce85e39155753c23cb1729998bd139febc2362b6eccd0221fd0c97210",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Violet",
+          "hex": "#542C79"
+        },
+        "emblem": {
+          "name": "Aged silver",
+          "hex": "#C8C2B0"
+        },
+        "trim": {
+          "name": "Antique silver trim",
+          "hex": "#A89978"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      },
+      "panels": []
+    },
+    {
+      "id": "banner-emberfall",
+      "name": "Emberfall banner",
+      "reference": "assets/banner-emberfall.png",
+      "reference_sha256": "a3c07ee15c9919d1bc45819bd79eaed2186dd494c2410cf098f5a43b17c7f5ad",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Burnt orange",
+          "hex": "#D16717"
+        },
+        "emblem": {
+          "name": "Charcoal",
+          "hex": "#292C29"
+        },
+        "trim": {
+          "name": "Antique gold",
+          "hex": "#AA8951"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette.",
+        "accents": [
+          {
+            "name": "Golden ember",
+            "hex": "#D3B464"
+          }
+        ]
+      },
+      "panels": []
+    },
+    {
+      "id": "banner-verdant-crown",
+      "name": "Verdant Crown banner",
+      "reference": "assets/banner-verdant-crown.png",
+      "reference_sha256": "e9a0784dbb380b9ecfcb2b0483a0a3168fbcc482285bba24a77862a4c012a81d",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Emerald green",
+          "hex": "#086044"
+        },
+        "emblem": {
+          "name": "Gold",
+          "hex": "#D3B464"
+        },
+        "trim": {
+          "name": "Antique gold",
+          "hex": "#AA8951"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      },
+      "panels": []
+    },
+    {
+      "id": "banner-pale-meridian",
+      "name": "Pale Meridian banner",
+      "reference": "assets/banner-pale-meridian.png",
+      "reference_sha256": "7a971f23908e0e861a557803d2cd6a54a133dbbb6ef049b5e3710f928677c0da",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Ivory",
+          "hex": "#E6DBC0"
+        },
+        "emblem": {
+          "name": "Midnight blue",
+          "hex": "#1E3445"
+        },
+        "trim": {
+          "name": "Antique gold",
+          "hex": "#AA8951"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      },
+      "panels": []
+    }
+  ],
+  "checks": [
+    "Compare every visible banner with its canonical house reference side by side",
+    "Check cloth hue, emblem and trim separately under the scene lighting",
+    "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+  ],
+  "revision": "09183390f893514675a2021994e8fb61f0eafe256fe0a9ce1159b0e6109bd8be"
+}

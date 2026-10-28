@@ -5,6 +5,7 @@ import hashlib
 import json
 import math
 import re
+from heraldry import scene_banners
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -26,6 +27,8 @@ def build_request(scene, world, characters, objects, template, files):
     object_map = {o['id']: o for o in objects['objects']}
     selected_chars = [char_map[c] for c in scene['character_ids']]
     selected_objects = [object_map[o] for o in scene['object_ids']]
+    banners = scene_banners(scene, characters, objects)
+    selected_objects += [b for b in banners if b['id'] not in scene['object_ids']]
     holder = scene['holder']; ratio = holder['width'] / holder['height']
     target = resolution(ratio)
     refs = []
@@ -33,7 +36,11 @@ def build_request(scene, world, characters, objects, template, files):
         assert (ROOT / path).is_file(), f'Missing reference: {path}'
         if not any(r['path'] == path for r in refs) and len(refs) < 4:
             refs.append({'path': path, 'role': role, 'index': len(refs) + 1})
-    for ref in scene['reference_images']: add_ref(ref['path'], ref['role'])
+    assert len(banners) <= 2, 'At most two house anchors per request; split larger casts into shots or author a combined reference sheet'
+    for banner in banners:
+        add_ref(banner['canonical_reference'], 'AUTHORITATIVE banner colours, emblem and trim for '+banner['duchy_id']+'. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.')
+    for ref in scene['reference_images']:
+        add_ref(ref['path'], ref['role']+' Composition/action reference only for heraldry: its banner colours and symbols are NOT authoritative; follow the canonical house anchors and palettes.')
     for c in selected_chars:
         for path in c.get('reference_images', []): add_ref(path, 'Character identity/wardrobe anchor for '+c['id']+'; not extra people to insert.')
     # House markings and ship silhouettes need stronger visual anchors than generic metal specimens.
@@ -58,7 +65,7 @@ def build_request(scene, world, characters, objects, template, files):
         n=block['normalized_bounds']
         block['source_bounds']={'x':round(visible['x']+n['x']*visible['width'],4),'y':round(visible['y']+n['y']*visible['height'],4),'width':round(n['width']*visible['width'],4),'height':round(n['height']*visible['height'],4)}
     char_context = [{k:c[k] for k in ['id','name','visual_concept','uniform_standard','visual_profiles','equipment'] if k in c} for c in selected_chars]
-    object_context = [{k:o[k] for k in ['id','name','description','constraints'] if k in o} for o in selected_objects]
+    object_context = [{k:o[k] for k in ['id','name','description','constraints','canonical_reference','palette'] if k in o} for o in selected_objects]
     if scene['silver_guard_weapon_id']:
         group=next(c for c in char_context if c['id']=='honour-guard')
         group['visual_profiles']=[p for p in group.get('visual_profiles',[]) if p['weapon_id']==scene['silver_guard_weapon_id']]
@@ -77,7 +84,8 @@ def build_request(scene, world, characters, objects, template, files):
     if not early_era:
         rules += ['All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions.']
     duchy_ids={c.get('duchy_id') for c in selected_chars}|{o.get('duchy_id') for o in selected_objects}
-    world_context={'setting':world['setting'], 'metals':[{k:m[k] for k in ['id','appearance','properties']} for m in world['metals']], 'duchies':[{k:d[k] for k in ['id','name','color','emblem']} for d in world['duchies'] if d['id'] in duchy_ids]}
+    world_context={'setting':world['setting'], 'metals':[{k:m[k] for k in ['id','appearance','properties']} for m in world['metals']], 'duchies':[{k:d[k] for k in ['id','name','emblem']} for d in world['duchies'] if d['id'] in duchy_ids]}
+    banner_policy = template['heraldry']
     compact=lambda value:json.dumps(value,ensure_ascii=False,separators=(',',':'))
     prompt='\n\n'.join([
       f'PURPOSE: Regenerate ONE comic illustration for FIXED holder {holder["width"]:.2f} by {holder["height"]:.2f} logical pixels, aspect {ratio:.4f}:1. {orientation}. Requested output {target["size"]}. Do NOT resize or redesign the holder. Paint a NEW composition for it, not a framed photo.',
@@ -87,11 +95,12 @@ def build_request(scene, world, characters, objects, template, files):
       'CHARACTERS (immutable identity and costume): '+compact(char_context),
       'OBJECTS (only those belonging in this scene): '+compact(object_context),
       'REFERENCES: '+compact(refs),
+      'BANNER AUTHORITY: '+compact(banner_policy)+' Dedicated objects.json palettes describe neutral-light materials. Map/UI colours from world.json are not fabric colours. Canonical banner images control heraldic geometry; palette swatches control intended material hues. Older scene/character palettes never override these. Apply the palette lighting rule, keeping each house recognisable. Palette hex values are targets, not a guarantee of identical generated pixels.',
       'LETTERING: Draw the speech balloons, cream caption/narration boxes and ALL their text directly INTO the artwork. Use a professional clear comic lettering font, dark ink on pale cream/white, readable contrast. Reproduce each render_text EXACTLY, preserving punctuation; do not print speaker labels or JSON keys. Speech tails point to the speaking person. No other words, labels, signs or gibberish. The visible crop-safe aperture in FULL SOURCE coordinates is '+compact(visible)+'. Place ALL text wholly inside it. The following bounding boxes are normalized to the FULL SOURCE image (not to the holder); use these adjusted positions exactly: '+compact([{'type':b['type'],'render_text':b['render_text'],'bounds_in_full_source_image':b['source_bounds']} for b in blocks]),
       'INVARIANTS: '+' '.join(rules),
       'DELIVERY: Edge-to-edge painted scene with finished comic lettering, no blank borders, no letterboxing, no collage. If native output ratio differs from the holder, keep ALL important content inside its central crop-safe aperture; only expendable background may extend beyond. For a wide strip, put the main figures and action in the central horizontal band, leaving substantial sky/floor outside that band.'
     ])
-    return {'schema_version':1,'id':scene['id'],'parameters':{'scene':scene['id'],**files},'holder':holder,'target':target,'output_file':scene['output_file'],'reference_images':refs,'lettering':{'mode':'baked','render_in_image':True,'blocks':blocks},'resolved_context':{'world':world_context,'characters':char_context,'objects':object_context,'world_constraints':rules},'prompt':prompt,'review_checks':['Holder dimensions unchanged','Faces, costume, metals and heraldry match anchors','Correct number of ships and silver captains','No essential content cut by the holder or covered by lettering','Generated lettering matches every requested render_text exactly; transcript retains source wording']}
+    return {'schema_version':2,'id':scene['id'],'parameters':{'scene':scene['id'],**files},'holder':holder,'target':target,'output_file':scene['output_file'],'reference_images':refs,'lettering':{'mode':'baked','render_in_image':True,'blocks':blocks},'resolved_context':{'world':world_context,'characters':char_context,'objects':object_context,'world_constraints':rules},'heraldry':{'banner_ids':[b['id'] for b in banners],'policy':banner_policy},'prompt':prompt,'review_checks':['Holder dimensions unchanged','Faces, costume, metals and heraldry match anchors','Correct number of ships and silver captains','No essential content cut by the holder or covered by lettering','Generated lettering matches every requested render_text exactly; transcript retains source wording',*banner_policy['review_checks']]}
 
 
 def main():
@@ -101,7 +110,7 @@ def main():
     parser.add_argument('--characters',default='character.json')
     parser.add_argument('--objects',default='objects.json')
     parser.add_argument('--template',default='templates/image-request.json')
-    parser.add_argument('--output',default='generation/requests')
+    parser.add_argument('--output',default='generation/drafts')
     args=parser.parse_args()
     files={'world.json':args.world,'character.json':args.characters,'objects.json':args.objects}
     world,characters,objects,template=[read(ROOT/p) for p in [args.world,args.characters,args.objects,args.template]]

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "input_parameters": [
     "scene",
     "world.json",
@@ -39,5 +39,18 @@
     "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
     "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
     "No unsupported new lore, extra Type C suits, extra capital ships or invented character names."
-  ]
+  ],
+  "heraldry": {
+    "reference_precedence": [
+      "Canonical banner reference for emblem geometry and colour placement",
+      "Dedicated material palette in objects.json for neutral-light hues",
+      "Scene and character references for composition and identity only"
+    ],
+    "review_checks": [
+      "Compare every visible banner with its canonical house reference side by side",
+      "Check cloth hue, emblem and trim separately under the scene lighting",
+      "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+    ],
+    "review_required": true
+  }
 }

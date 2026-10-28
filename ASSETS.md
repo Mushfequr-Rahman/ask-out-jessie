@@ -2,7 +2,7 @@
 
 All **53 current illustrations** in the repository, grouped below. The comic uses 37 unique panel images, generated for fixed holders with lettering inside the artwork. Earlier visual anchors live separately in references/.
 
-[Browse the hosted asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html) · [World reference JSON](world.json)
+[Browse the hosted asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html) · [World reference JSON](world.json) · [Banner comparison review](generation/banner-review.html)
 
 Select a preview or filename to open the original. Dimensions and sizes refer to the full-resolution files. All artwork was generated for this project; the original user-supplied inspiration images are not included in this catalogue.
 

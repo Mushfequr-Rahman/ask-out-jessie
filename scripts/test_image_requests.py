@@ -60,5 +60,35 @@ class RequestTests(unittest.TestCase):
             self.assertGreaterEqual(w*h,655360)
             self.assertLessEqual(w*h,8294400)
 
+    def test_both_house_anchors_survive_reference_limit(self):
+        scene=next(s for s in self.scenes if s['id']=='prologue-p11-panel01')
+        q=self.request(scene)
+        self.assertEqual([r['path'] for r in q['reference_images'][:2]], ['assets/banner-veymarch.png','assets/banner-auric-reach.png'])
+        self.assertEqual(len(q['reference_images']),4)
+        self.assertIn('Overrides banners in ALL older',q['reference_images'][0]['role'])
+        self.assertIn('NOT authoritative',q['reference_images'][2]['role'])
+
+    def test_material_palette_is_independent_of_map_colour(self):
+        scene=next(s for s in self.scenes if s['id']=='prologue-p05-panel01')
+        first=self.request(scene)
+        self.world['duchies'][0]['color']='#123456'
+        self.assertEqual(first['prompt'],self.request(scene)['prompt'])
+        banner=next(o for o in self.objects['objects'] if o['id']=='banner-veymarch')
+        banner['palette']['cloth']['hex']='#AA1122'
+        self.assertIn('#AA1122',self.request(scene)['prompt'])
+        self.assertNotEqual(first['prompt'],self.request(scene)['prompt'])
+
+    def test_no_house_invented_in_early_era(self):
+        self.assertEqual(self.request(self.scenes[0])['heraldry']['banner_ids'],[])
+
+    def test_missing_palette_and_reference_fail_before_generation(self):
+        scene=next(s for s in self.scenes if s['id']=='prologue-p05-panel01')
+        banner=next(o for o in self.objects['objects'] if o['id']=='banner-veymarch')
+        original=copy.deepcopy(banner)
+        banner.pop('palette')
+        with self.assertRaises(AssertionError):self.request(scene)
+        banner.update(original);banner['canonical_reference']='missing.png'
+        with self.assertRaises(AssertionError):self.request(scene)
+
 
 if __name__=='__main__':unittest.main()

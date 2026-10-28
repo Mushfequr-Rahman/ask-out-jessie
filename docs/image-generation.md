@@ -70,3 +70,23 @@ If a shared editor or generation queue is added, MongoDB would be a reasonable a
 | `generation_jobs` | Scene/version, request and source hashes, status, image path and review result. |
 
 Use unique IDs per world, a unique scene/version or request-hash key for jobs, and an index on job status/update time for a worker queue. Store image files in object storage/CDN, with their paths and hashes in MongoDB. Publish a validated static JSON snapshot to this repository so reading the comic does not depend on the authoring database. This is a future architecture recommendation; no database service has been provisioned for the static site.
+
+## Banner consistency framework
+
+Future requests use schema version 2. Published requests and their historical source snapshots remain intact; new requests default to `generation/drafts/`.
+
+1. **Reference precedence.** The builder resolves house affiliations from explicit banner objects, characters and uniform objects. It reserves the first image slots for every relevant canonical banner, before scene, character and ship references. Each input has an explicit role: canonical banners override older scene/character heraldry. The four-reference budget supports two houses plus scene and character anchors; a larger house cast fails with instructions to split the shot or author a combined reference sheet, rather than silently dropping a banner. A house reference does not instruct the model to insert a flag into an unrelated shot.
+2. **Material palettes.** All eight banner objects in `objects.json` have `canonical_reference` and `palette`: sRGB cloth, emblem and trim swatches, named colours, and a lighting rule. Emberfall also has a golden-ember accent. These are neutral-light art-direction targets chosen to match the existing banner designs, not sampled pixel measurements. Map/UI `color` values stay in `world.json` and are excluded from the generation duchy context. Highlights and shadows are allowed; changing a house's hue family or emblem is not. Hex values guide generation but cannot enforce exact output pixels.
+3. **Side-by-side review.** Run `python3 scripts/build_banner_review.py`, serve the site, and open [`generation/banner-review.html`](../generation/banner-review.html). It puts the canonical banner and swatches beside every candidate panel associated with that house, with links to full-size art. Review cloth hue, emblem, trim and scene lighting. Choose Matches reference, Needs correction, or No visible house marking and add notes. Pending is the default; nothing is automatically approved. Houses without scenes still show their reference and palette.
+
+Decisions save in browser-local storage and can be exported as JSON. The review revision includes output-image hashes, canonical-reference hashes, palettes, candidate assignments and review criteria. Replacing an image or reference, editing a palette, or changing assignments invalidates the previous version's decisions. Rebuild the comparison after those changes. This is manual visual review, not an automated colour detector; a hidden banner requires an explanatory note.
+
+```sh
+python3 scripts/build_image_requests.py
+python3 scripts/build_banner_review.py
+# Review in the browser; export banner-review-decisions.json.
+python3 scripts/validate_banner_review.py /path/to/banner-review-decisions.json
+python3 scripts/validate_generation.py --require-outputs --banner-review /path/to/banner-review-decisions.json
+```
+
+Validation rejects unresolved, missing, duplicate or stale decisions. A newly selected output whose generation request uses schema 2 and house references requires the exported banner review in `validate_generation.py --require-outputs`. Previously published schema-1 artwork remains readable and unchanged; it is not retroactively labelled as passing the new banner review. The generated comparison starts with the current images for reference, including any existing inconsistencies. The review tool does not itself publish or modify artwork.

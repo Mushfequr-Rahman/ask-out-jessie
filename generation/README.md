@@ -15,3 +15,7 @@ python3 scripts/build_image_requests.py --output generation/drafts
 ```
 
 See [the workflow and research](../docs/image-generation.md).
+
+## House colours and comparisons
+
+New requests default to `drafts/` and reserve canonical house references first. Palette values in `objects.json` are separate from map/UI colours. Use the [banner comparison page](banner-review.html) to review current images beside their house reference and swatches. Rebuild it with `python3 scripts/build_banner_review.py` after changing candidate images, scene affiliations, references or palettes. Export decisions and validate them using `scripts/validate_banner_review.py`; pending and stale decisions cannot pass. No current images were regenerated or automatically marked as matching. See the workflow for the schema-2 publication check.

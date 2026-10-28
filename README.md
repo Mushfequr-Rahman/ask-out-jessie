@@ -110,3 +110,7 @@ python3 scripts/validate_generation.py --require-outputs
 ```
 
 The request builder takes scene + world.json + character.json + objects.json. It writes prompts rather than calling a paid API. All 37 selected outputs are already committed under `assets/panels/`. Earlier anchors are retained under `references/`; generation requests and run metadata record provenance. See [the generation workflow and official research sources](docs/image-generation.md) for reference conditioning, exact lettering, fixed apertures and the MongoDB assessment. JSON remains the storage layer for this static site.
+
+## Banner consistency
+
+The generation builder gives canonical house banners precedence over older scene references and uses dedicated cloth/emblem/trim palettes from `objects.json`. The map/UI colours remain separate. [Compare banners and panels side by side](generation/banner-review.html); the review tool saves decisions locally and exports versioned JSON. Regenerate the comparison with `python3 scripts/build_banner_review.py`. Future schema-2 artwork with house references requires a complete exported review during output validation. See [the workflow](docs/image-generation.md#banner-consistency-framework) for commands and review rules. Existing artwork is unchanged.

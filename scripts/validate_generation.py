@@ -6,6 +6,7 @@ import json
 import math
 import struct
 from sync_chapters import validate_chapter
+from heraldry import validate_banner
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -26,12 +27,13 @@ def pointer(document,path):
     return value
 
 
-def validate(require_outputs=False):
+def validate(require_outputs=False, banner_review=None):
     world=load('world.json');chars=load('character.json')['characters'];objects=load('objects.json')['objects']
     assert world['objects_file']=='objects.json'
     char_ids={c['id'] for c in chars};object_ids={o['id'] for o in objects}
     assert len(object_ids)==len(objects), 'Duplicate visual object IDs'
     for record in [*chars,*objects]:
+        if record.get('kind')=='heraldry':validate_banner(record)
         for ref in record.get('reference_images',[]):local_file(ref)
         if 'world_reference' in record:assert pointer(world,record['world_reference']) is not None
     chapter=load('chapters/prologue.json');validate_chapter(chapter)
@@ -64,14 +66,26 @@ def validate(require_outputs=False):
         assert len({hashlib.sha256(local_file(s['output_file']).read_bytes()).hexdigest() for s in scenes})==len(scenes), 'Repeated generated image'
         reviewed=load('generation/review.json')['selected_outputs']
         assert {r['id'] for r in reviewed}=={s['id'] for s in scenes}, 'Incomplete publication review'
+        new_banner_review_required=False
         for record in reviewed:
             raw=local_file(record['output_file']).read_bytes()
             assert hashlib.sha256(raw).hexdigest()==record['sha256'], 'Changed artwork after review'
             assert struct.unpack('>II',raw[16:24])==(record['dimensions']['width'],record['dimensions']['height'])
             selected=load(record['selected_run'])
             assert selected['status']=='visually_reviewed' and selected['output_file']==record['output_file']
+            selected_request=load(selected['request_file'])
+            if selected_request.get('schema_version',1)>=2 and selected_request.get('heraldry',{}).get('banner_ids'):
+                new_banner_review_required=True
+        assert not new_banner_review_required or banner_review, 'New heraldry-aware artwork requires --banner-review with exported decisions'
+    if banner_review:
+        from build_banner_review import manifest
+        from validate_banner_review import validate_report
+        validate_report(json.loads(Path(banner_review).read_text()),manifest())
     print(f'Validated {len(objects)} visual objects, {len(scenes)} locked holders and baked-lettering requests'+(' with selected outputs.' if require_outputs else '.'))
 
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--require-outputs',action='store_true');validate(p.parse_args().require_outputs)
+    p=argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--require-outputs',action='store_true')
+    p.add_argument('--banner-review',help='Exported decisions for current artwork/palette versions')
+    args=p.parse_args();validate(args.require_outputs,args.banner_review)
