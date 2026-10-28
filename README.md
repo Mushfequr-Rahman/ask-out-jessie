@@ -41,7 +41,9 @@ The map and banner key use the same colour assignments, with names and numbers s
 
 - `index.html`: home alias of the Chapters menu, with support for old reader links.
 - `chapters.html`: story menu; only Prologue is available.
-- `prologue.html`: ten-page reader with a page selector, previous/next controls, and keyboard navigation.
+- `prologue.html`: reader shell that loads `chapters/prologue.json`, with a page selector, previous/next controls, and keyboard navigation.
+- `chapters/*.json`: one source per chapter; page number, title and up to seven panels per page. See [chapter format](chapters/README.md).
+- `scripts/sync_chapters.py`: validates chapter JSON and syncs its derived story records into `world.json`.
 - `glossary.html`: the consolidated reference page and all eight duchy banners.
 - `magneton.html`: legacy link forwarding to the metals section of the glossary.
 - `assets.html` / `ASSETS.md`: browsable website and repository artwork catalogues.
@@ -59,7 +61,7 @@ After editing a shared layout partial, run:
 python3 scripts/sync_layout.py
 ```
 
-The generated HTML is checked in, so serving or publishing does not require this command. Add future stories to the Chapters menu only when they are ready to read.
+The shared layout is checked in; chapter content is rendered in the browser from its JSON. Serving or publishing needs no build step. Add future stories to the Chapters menu only when they are ready to read.
 
 ## Verification
 
@@ -67,7 +69,7 @@ Check the two shared navigation links and active states on all pages, the single
 
 ## World and asset maintenance
 
-Keep `world.json` current when author-established lore changes. It separates established facts from provisional visual designs and explicitly records unknown details. It includes all ten story pages, their captions and narration, and asset references. The glossary remains checked-in HTML; lore edits should also be reflected there and in `STORY.md`.
+Edit comic pages in `chapters/prologue.json`; `script.js` renders their images and text at runtime. Both the browser and repository checks reject pages containing more than seven panels. Keep `world.json` current when author-established lore changes. It separates established facts from provisional visual designs and explicitly records unknown details. Its story pages, captions, narration and asset references are derived from chapter JSON by the asset script. The glossary remains checked-in HTML; lore edits should also be reflected there and in `STORY.md`.
 
 After changing artwork, refresh the metadata and catalogues:
 
@@ -77,4 +79,4 @@ python3 scripts/sync_layout.py
 python3 scripts/validate_world.py
 ```
 
-The asset script inventories the actual files and records dimensions, file sizes, SHA-256 hashes, and comic usage in `world.json`. It also writes `ASSETS.md` and `assets.html`. Regeneration is optional for serving because the generated files are committed. It never changes image contents. The asset library uses the same two-tab header and is reached from the Glossary tab.
+The asset script first validates and syncs each chapter JSON into the world reference, then inventories the actual files and records dimensions, file sizes, SHA-256 hashes, and comic usage in `world.json`. It also writes `ASSETS.md` and `assets.html`. Regeneration is optional for serving because the generated files are committed. It never changes image contents. The asset library uses the same two-tab header and is reached from the Glossary tab.

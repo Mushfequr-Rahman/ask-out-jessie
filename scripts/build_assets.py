@@ -5,10 +5,11 @@ import hashlib
 import json
 import re
 import struct
+from sync_chapters import sync_chapters
 
 ROOT = Path(__file__).resolve().parents[1]
 world_path = ROOT / 'world.json'
-world = json.loads(world_path.read_text())
+world = sync_chapters(json.loads(world_path.read_text()))
 existing = {asset['id']: asset for asset in world.get('assets', [])}
 ship_ids = {ship['asset_id'] for ship in world['ship_designs']}
 usage = {}

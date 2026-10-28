@@ -630,14 +630,14 @@
                 "number": 2,
                 "asset_id": "magnetic-islands",
                 "caption": "CONTINENTS BECAME ISLANDS IN THE VOID.",
-                "narration": "Turbulent magnetic waves held the fragments together.Violent in motion. Predictable in their patterns.",
+                "narration": "Turbulent magnetic waves held the fragments together.\nViolent in motion. Predictable in their patterns.",
                 "image_description": "Magnetic currents arc between the exposed undersides of floating islands"
               },
               {
                 "number": 3,
                 "asset_id": "survivors",
                 "caption": "HUMANITY WAS ALMOST WIPED OUT.",
-                "narration": "Those who survived learned to liveon the pieces of their old world.",
+                "narration": "Those who survived learned to live\non the pieces of their old world.",
                 "image_description": "A small human silhouette standing on a floating island"
               }
             ]
@@ -650,7 +650,7 @@
                 "number": 1,
                 "asset_id": "human-adaptation",
                 "caption": "GENERATIONS PASSED IN THE MAGNETIC FIELDS.",
-                "narration": "Humanity slowly evolved.New attributes emerged in a changed world.",
+                "narration": "Humanity slowly evolved.\nNew attributes emerged in a changed world.",
                 "image_description": "Three generations of survivors study a magnetic sensing instrument in their settlement"
               },
               {
@@ -664,7 +664,7 @@
                 "number": 3,
                 "asset_id": "polarity-engine",
                 "caption": "THEY CALLED IT MAGNETON.",
-                "narration": "What began as a discoverybecame the foundation of civilization.",
+                "narration": "What began as a discovery\nbecame the foundation of civilization.",
                 "image_description": "Two glowing green Type B Magneton cores of opposite polarity inside a precision motor"
               }
             ]
@@ -677,21 +677,21 @@
                 "number": 1,
                 "asset_id": "city",
                 "caption": "OPPOSITE POLARITIES. CONSTANT MOTION.",
-                "narration": "Oppositely polarized Type B cores drove magnetic motors.The motors powered a new age.",
+                "narration": "Oppositely polarized Type B cores drove magnetic motors.\nThe motors powered a new age.",
                 "image_description": "A floating city built above a glowing Magneton engine"
               },
               {
                 "number": 2,
                 "asset_id": "gravity-chamber",
                 "caption": "THE ENGINES DID MORE THAN KEEP THE LIGHTS ON.",
-                "narration": "They stabilized the islands and generateda field that restored the feel of the old gravity.",
+                "narration": "They stabilized the islands and generated\na field that restored the feel of the old gravity.",
                 "image_description": "People stand upright inside a city gravity-control chamber while fragments float outside"
               },
               {
                 "number": 3,
                 "asset_id": "city-street",
                 "caption": "CITIES ROSE ABOVE THE BROKEN EARTH.",
-                "narration": "Magneton kept them afloat.Every city depended on its supply.",
+                "narration": "Magneton kept them afloat.\nEvery city depended on its supply.",
                 "image_description": "A market street powered by green conduits beneath the floating city’s towers"
               }
             ]
@@ -704,21 +704,21 @@
                 "number": 1,
                 "asset_id": "mining-mole",
                 "caption": "THE FIRST BARONS WERE MINERS.",
-                "narration": "They extracted Magneton and built ships from it.Magnetic motors carried them between the islands.",
+                "narration": "They extracted Magneton and built ships from it.\nMagnetic motors carried them between the islands.",
                 "image_description": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines"
               },
               {
                 "number": 2,
                 "asset_id": "mining-dock",
                 "caption": "TRADE ROUTES LED TO CITIES. MINING ROUTES LED TO POWER.",
-                "narration": "Those who controlled the mines and the fleetsbecame the new ruling class.",
+                "narration": "Those who controlled the mines and the fleets\nbecame the new ruling class.",
                 "image_description": "Ore is unloaded at a mining dock as a proprietor oversees trade"
               },
               {
                 "number": 3,
                 "asset_id": "ducal-assembly",
                 "caption": "THE CITIES GATHERED INTO DUCHIES.",
-                "narration": "Civilization returned to feudal rule.Its foundations were no longer land alone, but Magneton.",
+                "narration": "Civilization returned to feudal rule.\nIts foundations were no longer land alone, but Magneton.",
                 "image_description": "Mining barons gather in a council chamber overlooking floating cities"
               }
             ]
@@ -866,7 +866,7 @@
                 "number": 1,
                 "asset_id": "council-next-steps",
                 "caption": "IN THE CAPTURED CITY, ROVAN MEETS HIS GENERAL.",
-                "narration": "Grievous: “We have taken a city. Now we have to hold it.”Rovan: “Repair the seized ships. Train the recruits. We decide what comes next.”",
+                "narration": "Grievous: “We have taken a city. Now we have to hold it.”\nRovan: “Repair the seized ships. Train the recruits. We decide what comes next.”",
                 "image_description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room"
               },
               {
@@ -885,12 +885,13 @@
               }
             ]
           }
-        ]
+        ],
+        "json_file": "chapters/prologue.json"
       }
     ],
     "asset_catalogue": "assets.html",
     "repository_asset_catalogue": "ASSETS.md",
-    "site_version": "crimson-next-1"
+    "site_version": "chapter-json-1"
   },
   "terms": {
     "Magneton": "Family of metals formed from nuclear materials after the Fracture.",

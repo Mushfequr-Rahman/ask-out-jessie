@@ -3,6 +3,7 @@ from pathlib import Path
 import hashlib
 import json
 import re
+from sync_chapters import chapter_pages
 
 ROOT = Path(__file__).resolve().parents[1]
 world = json.loads((ROOT / 'world.json').read_text())
@@ -50,6 +51,11 @@ for story in stories:
     assert all(panel['asset_id'] in assets for panel in panels), 'Unknown comic asset'
     assert len({assets[p['asset_id']]['sha256'] for p in panels}) == len(panels), 'Comic repeats image contents'
     reader = (ROOT / story['reader']).read_text()
-    reader_sources = re.findall(r'class="panel-art" src="([^"]+)"', reader)
-    assert reader_sources == [assets[p['asset_id']]['file'] for p in panels], 'Story JSON and reader images differ'
+    chapter = json.loads((ROOT / story['json_file']).read_text())
+    assert chapter_pages(chapter) == story['pages'], 'Chapter JSON and world.json differ; run scripts/build_assets.py'
+    assert f'data-chapter-src="{story["json_file"]}"' in reader, 'Reader does not load chapter source'
+    assert 'class="comic-page"' not in reader, 'Reader contains hardcoded story pages'
+    sources = [panel['image_src'] for page in chapter['pages'] for panel in page['panels']]
+    assert sources == [assets[p['asset_id']]['file'] for p in panels], 'Chapter and world image paths differ'
+
 print(f"Validated {len(stories)} story, {len(duchies)} duchies, {len(world['ship_designs'])} ship designs and {len(assets)} assets.")

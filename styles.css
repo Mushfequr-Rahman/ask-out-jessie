@@ -802,3 +802,6 @@ h1 { font-size: clamp(48px, 11.8vw, 146px); }
 @media (max-width: 550px) { .asset-grid { grid-template-columns: 1fr; } }
 /* Keep faces and every hull visible throughout the next-move section. */
 #page-10 .panel-art { object-fit: contain; background: #171918; }
+
+/* Narration is plain text in the chapter JSON; preserve authored line breaks. */
+.world-note { white-space: pre-line; }
