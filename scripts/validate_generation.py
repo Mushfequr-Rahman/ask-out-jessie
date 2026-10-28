@@ -62,6 +62,8 @@ def validate(require_outputs=False, banner_review=None):
             path=local_file(scene['output_file']);raw=path.read_bytes();assert raw.startswith(b'\x89PNG\r\n\x1a\n')
             width,height=struct.unpack('>II',raw[16:24]);assert width>0 and height>0
             assert panel['image_src']==scene['output_file'] and panel['lettering_mode']=='baked'
+            if panel.get('image_revision'):
+                assert hashlib.sha256(raw).hexdigest().startswith(panel['image_revision']), 'Stale image cache revision'
     if require_outputs:
         assert len({hashlib.sha256(local_file(s['output_file']).read_bytes()).hexdigest() for s in scenes})==len(scenes), 'Repeated generated image'
         reviewed=load('generation/review.json')['selected_outputs']

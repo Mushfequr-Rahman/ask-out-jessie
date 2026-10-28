@@ -33,6 +33,7 @@ def validate_chapter(chapter):
             assert 'lettering_mode' not in panel or panel['lettering_mode'] in ['baked','editable_html'], 'Invalid lettering mode'
             assert 'priority' not in panel or type(panel['priority']) is int and 1 <= panel['priority'] <= 5, 'Priority must be 1–5'
             assert 'image_fit' not in panel or panel['image_fit'] == 'contain', 'Invalid image fit'
+            assert 'image_revision' not in panel or isinstance(panel['image_revision'], str) and re.fullmatch(r'[a-fA-F0-9]{8,64}', panel['image_revision']), 'Invalid image revision'
             for field in ['narration', 'image_alt']:
                 assert field not in panel or isinstance(panel[field], str), f'Invalid {field}'
             if 'layout' in panel:

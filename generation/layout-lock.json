@@ -251,19 +251,49 @@
       "width": 952,
       "height": 288.688
     },
-    "prologue-p14-panel01": {
+    "prologue-p15-panel01": {
       "x": 0,
       "y": 0,
       "width": 952,
       "height": 288.688
     },
-    "prologue-p14-panel02": {
+    "prologue-p15-panel02": {
       "x": 0,
       "y": 298.688,
       "width": 952,
       "height": 670.624
     },
-    "prologue-p14-panel03": {
+    "prologue-p15-panel03": {
+      "x": 0,
+      "y": 979.312,
+      "width": 952,
+      "height": 288.688
+    },
+    "prologue-p14-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 629
+    },
+    "prologue-p14-panel02": {
+      "x": 0,
+      "y": 639,
+      "width": 952,
+      "height": 629
+    },
+    "prologue-p16-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 288.688
+    },
+    "prologue-p16-panel02": {
+      "x": 0,
+      "y": 298.688,
+      "width": 952,
+      "height": 670.624
+    },
+    "prologue-p16-panel03": {
       "x": 0,
       "y": 979.312,
       "width": 952,
@@ -280,6 +310,15 @@
       "page": 14,
       "source_commit": "38a0a64",
       "method": "Reuse priority-driven 3/5/3 three-row plan; frozen before generation."
+    },
+    {
+      "pages": [
+        14,
+        15,
+        16
+      ],
+      "source_commit": "feb711c",
+      "method": "Insert two fixed 629px rows on new page14; old page14 moves unchanged to15; page16 uses priority-driven3/5/3 plan. All holders frozen before generation."
     }
   ]
 }

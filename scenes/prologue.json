@@ -2150,7 +2150,131 @@
       "chapter_id": "prologue",
       "page_number": 14,
       "panel_number": 1,
-      "description": "A new wide departure shot from the quay of the small recently conquered Auric Reach floating island city. Exactly ONE large bronze Zeppelin capital ship, Rovan’s Argonaut, is moving away from the dock into open sky, stern engines glowing green, visible whole hull and command citadel. This is a Bastion-design ship, not a sailing boat. Foreground left: THREE unarmed civilian adults in plain work coats and scarves watch it leave; one speaks the quoted pessimistic line to the other two. No officers, no silver captains, no soldiers among these civilians. Show their worried or dismissive expressions. The ship is under Veymarch crimson flags with a SILVER broken shield and eight-point star. This is Rovan’s recently conquered city, not his original home seat. No enemy capital ships visible. The Argonaut is now refitted with Rovan’s newly acquired wealth: replace the generic old Bastion silhouette with the distinctive wedge-prowed crimson-and-bronze Argonaut shown in the canonical refit reference. Preserve the scene’s existing civilians or rock terrain. No cranes or workshop workers are present in this scene.",
+      "description": "Rovan and his chief engineer plan the Argonaut’s refit amid captured supplies. TECHNICAL: New dockside workshop scene. Exactly two foreground people: Rovan, black hair/silver streak, short beard, navy/crimson, and the chief engineer, grey-haired human woman with goggles, crimson work shirt and leather apron. Around them are bronze Type A ingots, crates of trade silver, glowing green Type B engine parts, cannon barrel blanks, tools and a simple unlabeled ship sketch. The old Argonaut on scaffolds is distant background, not a second ship. Rovan points to the cannon sketch; the engineer answers, practical and confident. No silver Type C plates, no honour guard. Dialogue tails point to the correct speaker.",
+      "character_ids": [
+        "rovan-vey",
+        "veymarch-engineers"
+      ],
+      "object_ids": [
+        "argonaut",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 629
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The first day.",
+          "bounds": {
+            "x": 20,
+            "y": 20,
+            "width": 360,
+            "height": 48
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “Use what we took. Armour, engines—and bigger guns.”",
+          "bounds": {
+            "x": 280,
+            "y": 453,
+            "width": 648,
+            "height": 64
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Engineer: “Fourteen days. Keep the docks supplied.”",
+          "bounds": {
+            "x": 24,
+            "y": 529,
+            "width": 648,
+            "height": 64
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/iterations/argonaut-refit-before-heavy-cannons.png",
+          "role": "Dock and ship ancestry only; new workbench foreground."
+        }
+      ],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p14-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "No silver Type C hull or extra capital ship. The fleet battle has no outcome yet.",
+        "Veymarch cloth and plating are CRIMSON with SILVER shield/star; Auric cloth is GOLD with NAVY balance scales."
+      ]
+    },
+    {
+      "id": "prologue-p14-panel02",
+      "chapter_id": "prologue",
+      "page_number": 14,
+      "panel_number": 2,
+      "description": "The Argonaut emerges from a legendary fourteen-day refit with huge new cannons. TECHNICAL: Exactly ONE upgraded Argonaut in a scaffolded dry dock, full ship silhouette visible in a landscape frame. Preserve wedge bronze prow, broad crimson armour plates, green stern stabilisers and vectoring pods from the refit reference. Make the TWO FOREDECK HEAVY TWIN CANNON TURRETS much bigger: FOUR thick long bronze-and-black barrels with reinforced recoil cradles, unmistakably larger than the old little deck guns, but industrial and believable. Rovan and engineers may be small figures on the quay; not a second ship. Work crews remove final scaffolds. Canonical crimson banners with SILVER broken shield/star. No invulnerable silver hull, no magical new weapons. Ship and huge guns stay fully inside frame, clear of lettering.",
+      "character_ids": [
+        "rovan-vey",
+        "veymarch-engineers"
+      ],
+      "object_ids": [
+        "argonaut",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 639,
+        "width": 952,
+        "height": 629
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Fourteen days.",
+          "bounds": {
+            "x": 20,
+            "y": 20,
+            "width": 360,
+            "height": 48
+          }
+        },
+        {
+          "type": "narration",
+          "text": "In fourteen days, they rebuilt the Argonaut. The dockworkers would tell that story for years.",
+          "bounds": {
+            "x": 280,
+            "y": 529,
+            "width": 648,
+            "height": 64
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/iterations/argonaut-refit-before-heavy-cannons.png",
+          "role": "Refit silhouette to retain; ENLARGE foredeck cannons dramatically and replace the old lettering with new fourteen-day text."
+        }
+      ],
+      "priority": 4,
+      "output_file": "assets/argonaut-refit.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "No silver Type C hull or extra capital ship. The fleet battle has no outcome yet.",
+        "Veymarch cloth and plating are CRIMSON with SILVER shield/star; Auric cloth is GOLD with NAVY balance scales."
+      ]
+    },
+    {
+      "id": "prologue-p15-panel01",
+      "chapter_id": "prologue",
+      "page_number": 15,
+      "panel_number": 1,
+      "description": "A new wide departure shot from the quay of the small recently conquered Auric Reach floating island city. Exactly ONE large bronze Zeppelin capital ship, Rovan’s Argonaut, is moving away from the dock into open sky, stern engines glowing green, visible whole hull and command citadel. This is a Bastion-design ship, not a sailing boat. Foreground left: THREE unarmed civilian adults in plain work coats and scarves watch it leave; one speaks the quoted pessimistic line to the other two. No officers, no silver captains, no soldiers among these civilians. Show their worried or dismissive expressions. The ship is under Veymarch crimson flags with a SILVER broken shield and eight-point star. This is Rovan’s recently conquered city, not his original home seat. No enemy capital ships visible. The Argonaut is now refitted with Rovan’s newly acquired wealth: replace the generic old Bastion silhouette with the distinctive wedge-prowed crimson-and-bronze Argonaut shown in the canonical refit reference. Preserve the scene’s existing civilians or rock terrain. No cranes or workshop workers are present in this scene. HEAVY-GUN UPDATE: use the completed fourteen-day refit reference. The two upper foredeck twin turrets have FOUR conspicuously huge long barrels and reinforced recoil mounts. Preserve all old target scenery, civilians or magnetic rocks, exact speech/caption text, and panel dimensions. This is the same Argonaut with bigger cannons, not a different ship.",
       "character_ids": [
         "auric-city-onlookers"
       ],
@@ -2189,15 +2313,15 @@
       "reference_images": [
         {
           "path": "assets/argonaut-refit.png",
-          "role": "CANONICAL completed Argonaut refit design. Its wedge prow, crimson armour panels, green stern rings and articulated pods control SHIP GEOMETRY. Do not copy its dry-dock background, workers or text."
+          "role": "CANONICAL completed fourteen-day Argonaut refit: retain wedge prow, crimson armour and now VERY LARGE twin heavy-cannon turrets. Do not copy dockyard workers or lettering."
         },
         {
-          "path": "references/iterations/prologue-p14-panel01-before-refit.png",
-          "role": "TARGET EXISTING COMIC PANEL: preserve its people, scenery, composition and lettering except the specified updated first caption. Replace ONLY the old generic capital ship with the canonical refitted Argonaut."
+          "path": "references/iterations/prologue-p15-panel01-before-heavy-cannons.png",
+          "role": "Target existing exterior panel. Preserve composition, people, scenery and all lettering. Replace only the ship’s small guns with the canonical huge heavy cannon turrets."
         }
       ],
       "priority": 3,
-      "output_file": "assets/panels/prologue-p14-panel01.png",
+      "output_file": "assets/panels/prologue-p15-panel01.png",
       "silver_guard_count": 0,
       "silver_guard_weapon_id": null,
       "visual_constraints": [
@@ -2206,15 +2330,16 @@
         "The strategy forces the enemy to separate in difficult terrain; no battle result or enemy destruction is shown.",
         "Any Veymarch emblem is SILVER on crimson, never gold.",
         "Preserve the target panel’s composition, people, background, magnetic fields and exact lettering. Change only the ship to its canonical refit design, plus the specified first caption on the departure shot.",
-        "Use the canonical refit as the final silhouette. The older target image is NOT authoritative for ship geometry."
+        "Use the canonical refit as the final silhouette. The older target image is NOT authoritative for ship geometry.",
+        "Canonical refit image controls huge cannon sizes; old exterior reference shows obsolete small deck guns. Keep heavy barrels readable and visible in the same shot."
       ]
     },
     {
-      "id": "prologue-p14-panel02",
+      "id": "prologue-p15-panel02",
       "chapter_id": "prologue",
-      "page_number": 14,
+      "page_number": 15,
       "panel_number": 2,
-      "description": "A fresh wide establishing view of the SHATTERED PLAINS, a stretch of sky filled with enormous bare floating boulders, jagged rock slabs and cliff-like fragments at different heights. These are mostly BARE ROCK, not inhabited islands or cities. Powerful green magnetic currents arc and bend between the rocks, visibly deflecting dust and tugging at the Argonaut’s flight wake. Exactly ONE bronze Zeppelin capital ship, the ARGONAUT, enters a tight gap between towering rocks, small enough to show the huge scale but its full silhouette still readable. Foreground massive rocks and tangled currents make navigation visibly difficult. Veymarch crimson banner with SILVER emblem on the Argonaut. No other vessels, no enemy fleet, no battle, no guns firing. Dramatic navigation and dangerous terrain, not a peaceful city panorama. The Argonaut is now refitted with Rovan’s newly acquired wealth: replace the generic old Bastion silhouette with the distinctive wedge-prowed crimson-and-bronze Argonaut shown in the canonical refit reference. Preserve the scene’s existing civilians or rock terrain. No cranes or workshop workers are present in this scene.",
+      "description": "A fresh wide establishing view of the SHATTERED PLAINS, a stretch of sky filled with enormous bare floating boulders, jagged rock slabs and cliff-like fragments at different heights. These are mostly BARE ROCK, not inhabited islands or cities. Powerful green magnetic currents arc and bend between the rocks, visibly deflecting dust and tugging at the Argonaut’s flight wake. Exactly ONE bronze Zeppelin capital ship, the ARGONAUT, enters a tight gap between towering rocks, small enough to show the huge scale but its full silhouette still readable. Foreground massive rocks and tangled currents make navigation visibly difficult. Veymarch crimson banner with SILVER emblem on the Argonaut. No other vessels, no enemy fleet, no battle, no guns firing. Dramatic navigation and dangerous terrain, not a peaceful city panorama. The Argonaut is now refitted with Rovan’s newly acquired wealth: replace the generic old Bastion silhouette with the distinctive wedge-prowed crimson-and-bronze Argonaut shown in the canonical refit reference. Preserve the scene’s existing civilians or rock terrain. No cranes or workshop workers are present in this scene. HEAVY-GUN UPDATE: use the completed fourteen-day refit reference. The two upper foredeck twin turrets have FOUR conspicuously huge long barrels and reinforced recoil mounts. Preserve all old target scenery, civilians or magnetic rocks, exact speech/caption text, and panel dimensions. This is the same Argonaut with bigger cannons, not a different ship.",
       "character_ids": [],
       "object_ids": [
         "argonaut",
@@ -2251,15 +2376,15 @@
       "reference_images": [
         {
           "path": "assets/argonaut-refit.png",
-          "role": "CANONICAL completed Argonaut refit design. Its wedge prow, crimson armour panels, green stern rings and articulated pods control SHIP GEOMETRY. Do not copy its dry-dock background, workers or text."
+          "role": "CANONICAL completed fourteen-day Argonaut refit: retain wedge prow, crimson armour and now VERY LARGE twin heavy-cannon turrets. Do not copy dockyard workers or lettering."
         },
         {
-          "path": "references/iterations/prologue-p14-panel02-before-refit.png",
-          "role": "TARGET EXISTING COMIC PANEL: preserve its people, scenery, composition and lettering except the specified updated first caption. Replace ONLY the old generic capital ship with the canonical refitted Argonaut."
+          "path": "references/iterations/prologue-p15-panel02-before-heavy-cannons.png",
+          "role": "Target existing exterior panel. Preserve composition, people, scenery and all lettering. Replace only the ship’s small guns with the canonical huge heavy cannon turrets."
         }
       ],
       "priority": 5,
-      "output_file": "assets/panels/prologue-p14-panel02.png",
+      "output_file": "assets/panels/prologue-p15-panel02.png",
       "silver_guard_count": 0,
       "silver_guard_weapon_id": null,
       "visual_constraints": [
@@ -2268,13 +2393,14 @@
         "The strategy forces the enemy to separate in difficult terrain; no battle result or enemy destruction is shown.",
         "Any Veymarch emblem is SILVER on crimson, never gold.",
         "Preserve the target panel’s composition, people, background, magnetic fields and exact lettering. Change only the ship to its canonical refit design, plus the specified first caption on the departure shot.",
-        "Use the canonical refit as the final silhouette. The older target image is NOT authoritative for ship geometry."
+        "Use the canonical refit as the final silhouette. The older target image is NOT authoritative for ship geometry.",
+        "Canonical refit image controls huge cannon sizes; old exterior reference shows obsolete small deck guns. Keep heavy barrels readable and visible in the same shot."
       ]
     },
     {
-      "id": "prologue-p14-panel03",
+      "id": "prologue-p15-panel03",
       "chapter_id": "prologue",
-      "page_number": 14,
+      "page_number": 15,
       "panel_number": 3,
       "description": "A NEW over-the-chart-table bridge view aboard the Argonaut. Exactly TWO foreground people: Rovan with black hair/silver streak/short beard/navy coat/crimson scarf, and older bald human General Grievous with grey moustache/olive coat/crimson base. They study a simple relief chart of THREE clearly separate rock channels, each with ONE dark enemy miniature Bastion token, and ONE friendly Argonaut token at the convergence on their side. Exactly FOUR ship TOKENS in total, not real vessels. Rovan indicates the narrow channels, explaining how the enemy will have to break formation. General answers. Through the bridge windows, show jagged bare floating rocks and strong green magnetic arcs, NO cities and NO real enemy ships. Crimson Veymarch pennant with SILVER broken shield/star if visible. No captains or additional people in this frame, no combat or outcome. No written map labels, arrows labelled with words, or extra lettering beyond the requested captions and speech.",
       "character_ids": [
@@ -2330,7 +2456,7 @@
         }
       ],
       "priority": 3,
-      "output_file": "assets/panels/prologue-p14-panel03.png",
+      "output_file": "assets/panels/prologue-p15-panel03.png",
       "silver_guard_count": 0,
       "silver_guard_weapon_id": null,
       "visual_constraints": [
@@ -2338,6 +2464,169 @@
         "Argonaut is Rovan’s ONE bronze Bastion-design capital ship; the enemy force remains three Bastions and has not arrived in view.",
         "The strategy forces the enemy to separate in difficult terrain; no battle result or enemy destruction is shown.",
         "Any Veymarch emblem is SILVER on crimson, never gold."
+      ]
+    },
+    {
+      "id": "prologue-p16-panel01",
+      "chapter_id": "prologue",
+      "page_number": 16,
+      "panel_number": 1,
+      "description": "Three Auric Reach Bastions pursue the Argonaut toward the Shattered Plains. TECHNICAL: Wide aerial pursuit shot with EXACTLY THREE large standard bronze enemy Bastions, distinct and individually countable in a staggered formation, under GOLD flags with NAVY balance-scale emblems. Ahead, far away at the entrance to a field of huge bare floating rocks, ONE smaller-in-perspective crimson-armoured wedge-prowed Argonaut with big cannons. Four real ships total: three enemy, one friendly. Distinct separation between hulls, no overlapping silhouettes that look like a fourth enemy. Green magnetic arcs grow denser ahead. No gunfire or damage yet.",
+      "character_ids": [],
+      "object_ids": [
+        "auric-bastion",
+        "argonaut",
+        "banner-auric-reach",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 288.688
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The pursuit.",
+          "bounds": {
+            "x": 20,
+            "y": 20,
+            "width": 360,
+            "height": 48
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Three Bastions followed the Argonaut’s wake.",
+          "bounds": {
+            "x": 280,
+            "y": 188.688,
+            "width": 648,
+            "height": 64
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p16-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "No silver Type C hull or extra capital ship. The fleet battle has no outcome yet.",
+        "Veymarch cloth and plating are CRIMSON with SILVER shield/star; Auric cloth is GOLD with NAVY balance scales."
+      ]
+    },
+    {
+      "id": "prologue-p16-panel02",
+      "chapter_id": "prologue",
+      "page_number": 16,
+      "panel_number": 2,
+      "description": "Admiral Joseph dismisses his sailors’ warning, imagining his own duchy. TECHNICAL: Interior Auric flagship bridge. Joseph is a broad clean-shaven human admiral with slicked-back iron-grey hair, thick brows and a brass monocle over his RIGHT eye, high navy collar and extravagant gold epaulettes. NOT Rovan and NOT bald Grievous. He stands arrogantly at the command rail, one gloved hand waving off a worried human sailor in a worn navy work jacket and simple cap. Exactly TWO prominent people; a distant helmsman may be a small background crew figure. GOLD banner with NAVY balance scales. Through windows only jagged bare floating rocks and green magnetic arcs, no cities or ships needed. Sailor speaks first, Joseph replies with greedy confidence. Dialogue tails unambiguous. No red cloth, no silver knights.",
+      "character_ids": [
+        "admiral-joseph",
+        "auric-sailors"
+      ],
+      "object_ids": [
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 298.688,
+        "width": 952,
+        "height": 670.624
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Admiral Joseph.",
+          "bounds": {
+            "x": 20,
+            "y": 20,
+            "width": 360,
+            "height": 48
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Sailor: “Admiral, those fields will break our formation.”",
+          "bounds": {
+            "x": 280,
+            "y": 494.624,
+            "width": 648,
+            "height": 64
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Joseph: “Beat Rovan and I’ll have a duchy of my own. Full speed.”",
+          "bounds": {
+            "x": 24,
+            "y": 570.624,
+            "width": 648,
+            "height": 64
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p16-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "No silver Type C hull or extra capital ship. The fleet battle has no outcome yet.",
+        "Veymarch cloth and plating are CRIMSON with SILVER shield/star; Auric cloth is GOLD with NAVY balance scales."
+      ]
+    },
+    {
+      "id": "prologue-p16-panel03",
+      "chapter_id": "prologue",
+      "page_number": 16,
+      "panel_number": 3,
+      "description": "All three enemy Bastions follow the Argonaut into the Shattered Plains. TECHNICAL: Wide rear three-quarter aerial view at the threshold of gigantic bare floating rock towers and very strong green magnetic currents. EXACTLY THREE large round-prowed bronze enemy Bastions with GOLD/NAVY standards enter three neighbouring gaps, each hull individually countable and separated by rock and open sky. Farther ahead, ONE smaller crimson wedge-prowed Argonaut with heavy foredeck cannons leads them deeper. Four ships total. The rock passages visibly force the formation to stretch and separate. No collision, no sinking, no battle outcome or firing. This is the page’s closing moment: all three enemy ships commit to the dangerous terrain.",
+      "character_ids": [],
+      "object_ids": [
+        "auric-bastion",
+        "argonaut",
+        "banner-auric-reach",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 979.312,
+        "width": 952,
+        "height": 288.688
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Into the plains.",
+          "bounds": {
+            "x": 20,
+            "y": 20,
+            "width": 360,
+            "height": 48
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The Argonaut slipped between the rocks. Joseph sent all three Bastions in after it.",
+          "bounds": {
+            "x": 280,
+            "y": 188.688,
+            "width": 648,
+            "height": 64
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p16-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "No silver Type C hull or extra capital ship. The fleet battle has no outcome yet.",
+        "Veymarch cloth and plating are CRIMSON with SILVER shield/star; Auric cloth is GOLD with NAVY balance scales."
       ]
     }
   ]

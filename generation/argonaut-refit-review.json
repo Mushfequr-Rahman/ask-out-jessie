@@ -3,17 +3,16 @@
   "id": "argonaut-refit",
   "status": "visually_reviewed",
   "output_file": "assets/argonaut-refit.png",
-  "selected_run": "generation/runs/argonaut-refit.json",
-  "sha256": "a8225cc06936ca3f31ed7cf6f7f2779ee59e929669eda5f0ca104b205aa669aa",
+  "selected_run": "generation/runs/prologue-p14-panel02-fourteen-days.json",
+  "sha256": "13f8aaaa315cfccfc30b08dad82a5be2b18b24f8093987da7a460fd0730f9545",
   "dimensions": {
-    "width": 1536,
-    "height": 1024
+    "width": 1543,
+    "height": 1019
   },
   "checks": [
-    "Single Argonaut undergoing refit in dry dock",
-    "Wedge prow, crimson plating, industrial bronze hull and green machinery",
-    "Canonical Veymarch crimson/silver heraldry",
-    "Exact caption and conquest-funded refit narration readable",
-    "No Type C hull or new fleet implied"
+    "Canonical fourteen-day refit now appears as page14 panel2",
+    "Two large twin heavy cannon turrets",
+    "Type A bronze hull, green Type B machinery, crimson/silver house markings",
+    "Caption and fourteen-day narration visually checked"
   ]
 }

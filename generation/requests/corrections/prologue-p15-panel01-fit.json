@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p15-panel01",
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch"
+    ]
+  },
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p15-panel01-heavy-cannons-first-pass.png",
+      "role": "Keep complete heavy guns inside the fixed panel"
+    }
+  ],
+  "prompt": "Precise composition correction of this finished panoramic comic panel. The Argonaut’s enormous cannon muzzles currently touch/cross the TOP edge. Uniformly SHRINK ONLY THE ENTIRE SHIP, including all its turrets, barrels, banners and engines, by about 15 percent and place it slightly LOWER in the SAME right-hand sky area. Its complete silhouette, especially ALL cannon muzzle tips, must fit wholly between 12% and 88% of full image height with sky padding. Keep the huge cannons large relative to the ship; do not shorten the barrels. Repaint exposed area with matching sky/city scenery. Preserve the THREE foreground civilian faces, poses, clothing, dock, sky/city design and ALL existing lettering EXACTLY, in the SAME positions: The Argonaut, refitted. / One ship against three? He’s not coming back. Preserve crimson plating and SILVER house emblems. Exactly ONE Argonaut, no duplicated hull. Keep native aspect ratio. The only change is fitting the complete upgraded ship and every cannon barrel inside the central vertical aperture."
+}

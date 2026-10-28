@@ -1634,10 +1634,104 @@
     },
     {
       "Page Number": 14,
-      "Title": "The Shattered Plains",
+      "Title": "Fourteen Days",
       "panels": [
         {
           "image_src": "assets/panels/prologue-p14-panel01.png",
+          "caption": "The first day.",
+          "narration": "Rovan: “Use what we took. Armour, engines—and bigger guns.”\nEngineer: “Fourteen days. Keep the docks supplied.”",
+          "image_alt": "Rovan and his chief engineer plan the Argonaut’s refit amid captured supplies.",
+          "priority": 4,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 629
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The first day.",
+              "bounds": {
+                "x": 20,
+                "y": 20,
+                "width": 360,
+                "height": 48
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “Use what we took. Armour, engines—and bigger guns.”",
+              "bounds": {
+                "x": 280,
+                "y": 453,
+                "width": 648,
+                "height": 64
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Engineer: “Fourteen days. Keep the docks supplied.”",
+              "bounds": {
+                "x": 24,
+                "y": 529,
+                "width": 648,
+                "height": 64
+              }
+            }
+          ],
+          "scene_id": "prologue-p14-panel01",
+          "lettering_mode": "baked",
+          "image_revision": "43bc6d59ae4b"
+        },
+        {
+          "image_src": "assets/argonaut-refit.png",
+          "caption": "Fourteen days.",
+          "narration": "In fourteen days, they rebuilt the Argonaut. The dockworkers would tell that story for years.",
+          "image_alt": "The Argonaut emerges from a legendary fourteen-day refit with huge new cannons.",
+          "priority": 4,
+          "holder": {
+            "x": 0,
+            "y": 639,
+            "width": 952,
+            "height": 629
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Fourteen days.",
+              "bounds": {
+                "x": 20,
+                "y": 20,
+                "width": 360,
+                "height": 48
+              }
+            },
+            {
+              "type": "narration",
+              "text": "In fourteen days, they rebuilt the Argonaut. The dockworkers would tell that story for years.",
+              "bounds": {
+                "x": 280,
+                "y": 529,
+                "width": 648,
+                "height": 64
+              }
+            }
+          ],
+          "scene_id": "prologue-p14-panel02",
+          "lettering_mode": "baked",
+          "image_revision": "13f8aaaa315c"
+        }
+      ],
+      "footer": "PROLOGUE · FOURTEEN DAYS",
+      "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 15,
+      "Title": "The Shattered Plains",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p15-panel01.png",
           "caption": "The Argonaut, refitted.",
           "narration": "Onlooker: “One ship against three? He’s not coming back.”",
           "image_alt": "Civilians watch the refitted Argonaut depart, its wedge prow and crimson armour displaying Rovan’s investment.",
@@ -1670,11 +1764,11 @@
               }
             }
           ],
-          "scene_id": "prologue-p14-panel01",
+          "scene_id": "prologue-p15-panel01",
           "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/panels/prologue-p14-panel02.png",
+          "image_src": "assets/panels/prologue-p15-panel02.png",
           "caption": "The Shattered Plains.",
           "narration": "Huge rocks crowded the sky. Between them, magnetic currents dragged at every hull.",
           "image_alt": "The refitted Argonaut threads the Shattered Plains, with crimson hull armour and upgraded green magnetic machinery.",
@@ -1707,11 +1801,11 @@
               }
             }
           ],
-          "scene_id": "prologue-p14-panel02",
+          "scene_id": "prologue-p15-panel02",
           "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/panels/prologue-p14-panel03.png",
+          "image_src": "assets/panels/prologue-p15-panel03.png",
           "caption": "His choice.",
           "narration": "Rovan: “We’ll face them here. They can’t hold formation between those rocks.”\nGrievous: “They’ll have to split up.”",
           "image_alt": "Rovan and Grievous plan to split the three enemy Bastions among separate rock channels.",
@@ -1754,11 +1848,140 @@
               }
             }
           ],
-          "scene_id": "prologue-p14-panel03",
+          "scene_id": "prologue-p15-panel03",
           "lettering_mode": "baked"
         }
       ],
       "footer": "PROLOGUE · THE SHATTERED PLAINS",
+      "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 16,
+      "Title": "Admiral Joseph",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p16-panel01.png",
+          "caption": "The pursuit.",
+          "narration": "Three Bastions followed the Argonaut’s wake.",
+          "image_alt": "Three Auric Reach Bastions pursue the Argonaut toward the Shattered Plains.",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 288.688
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The pursuit.",
+              "bounds": {
+                "x": 20,
+                "y": 20,
+                "width": 360,
+                "height": 48
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Three Bastions followed the Argonaut’s wake.",
+              "bounds": {
+                "x": 280,
+                "y": 188.688,
+                "width": 648,
+                "height": 64
+              }
+            }
+          ],
+          "scene_id": "prologue-p16-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p16-panel02.png",
+          "caption": "Admiral Joseph.",
+          "narration": "Sailor: “Admiral, those fields will break our formation.”\nJoseph: “Beat Rovan and I’ll have a duchy of my own. Full speed.”",
+          "image_alt": "Admiral Joseph dismisses his sailors’ warning, imagining his own duchy.",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 298.688,
+            "width": 952,
+            "height": 670.624
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Admiral Joseph.",
+              "bounds": {
+                "x": 20,
+                "y": 20,
+                "width": 360,
+                "height": 48
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Sailor: “Admiral, those fields will break our formation.”",
+              "bounds": {
+                "x": 280,
+                "y": 494.624,
+                "width": 648,
+                "height": 64
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Joseph: “Beat Rovan and I’ll have a duchy of my own. Full speed.”",
+              "bounds": {
+                "x": 24,
+                "y": 570.624,
+                "width": 648,
+                "height": 64
+              }
+            }
+          ],
+          "scene_id": "prologue-p16-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p16-panel03.png",
+          "caption": "Into the plains.",
+          "narration": "The Argonaut slipped between the rocks. Joseph sent all three Bastions in after it.",
+          "image_alt": "All three enemy Bastions follow the Argonaut into the Shattered Plains.",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 979.312,
+            "width": 952,
+            "height": 288.688
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Into the plains.",
+              "bounds": {
+                "x": 20,
+                "y": 20,
+                "width": 360,
+                "height": 48
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The Argonaut slipped between the rocks. Joseph sent all three Bastions in after it.",
+              "bounds": {
+                "x": 280,
+                "y": 188.688,
+                "width": 648,
+                "height": 64
+              }
+            }
+          ],
+          "scene_id": "prologue-p16-panel03",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · ADMIRAL JOSEPH",
       "layout_mode": "fixed"
     }
   ]

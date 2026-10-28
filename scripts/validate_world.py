@@ -61,6 +61,8 @@ for duchy in duchies:
 conflict = world['society'].get('current_conflict', {})
 if 'target_character_id' in conflict:
     assert conflict['target_character_id'] in character_ids, 'Unknown conflict target'
+if 'opponent_commander_id' in conflict:
+    assert conflict['opponent_commander_id'] in character_ids, 'Unknown opposing commander'
 if 'planned_battlefield_id' in conflict:
     assert conflict['planned_battlefield_id'] in location_ids, 'Unknown battlefield'
 if 'friendly_capital_ship_id' in conflict:

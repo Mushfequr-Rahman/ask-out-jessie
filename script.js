@@ -36,6 +36,7 @@ function validateChapter(chapter) {
       if (page.layout_mode === 'fixed' && !panel.holder) throw Error('Fixed page needs holders');
       if (panel.priority !== undefined && (!Number.isInteger(panel.priority) || panel.priority < 1 || panel.priority > 5)) throw Error('Priority must be 1–5');
       if (panel.image_fit !== undefined && panel.image_fit !== 'contain') throw Error('Invalid image fit');
+      if (panel.image_revision !== undefined && (typeof panel.image_revision !== 'string' || !/^[a-f0-9]{8,64}$/i.test(panel.image_revision))) throw Error('Invalid image revision');
       for (const field of ['narration', 'image_alt']) {
         if (panel[field] !== undefined && typeof panel[field] !== 'string') throw Error('Invalid panel text');
       }
@@ -66,7 +67,8 @@ function renderChapter(chapter) {
       box.dataset.lettering = panel.lettering_mode ?? 'editable_html';
       if (panel.holder) box.dataset.holder = JSON.stringify(panel.holder);
       const image = element('img', 'panel-art');
-      image.src = panel.image_src;
+      const imageUrl = panel.image_revision ? `${panel.image_src}?v=${panel.image_revision}` : panel.image_src;
+      image.src = imageUrl;
       image.alt = panel.image_alt ?? panel.caption;
       image.style.objectFit = 'contain';
       image.loading = index === 0 ? 'eager' : 'lazy';
@@ -75,7 +77,7 @@ function renderChapter(chapter) {
         if (!article.hidden) layoutPage(article);
       });
       const link = element('a', 'panel-illustration');
-      link.href = panel.image_src;
+      link.href = imageUrl;
       link.target = '_blank';
       link.rel = 'noopener';
       link.setAttribute('aria-label', `Open full-size illustration: ${image.alt} (opens a new tab)`);

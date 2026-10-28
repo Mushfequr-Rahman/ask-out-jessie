@@ -88,11 +88,12 @@
       "opponent_duchy_id": "auric-reach",
       "target_character_id": "rovan-vey",
       "capital_ships_dispatched": 3,
-      "status": "Rovan leaves the conquered city aboard the Argonaut and chooses the Shattered Plains to force the three enemy Bastions to separate.",
+      "status": "Joseph ignores the warnings and leads three Bastions into the Shattered Plains after the Argonaut.",
       "battle_outcome": null,
       "opponent_total_capital_ship_count": null,
       "planned_battlefield_id": "shattered-plains",
-      "friendly_capital_ship_id": "argonaut"
+      "friendly_capital_ship_id": "argonaut",
+      "opponent_commander_id": "admiral-joseph"
     }
   },
   "metals": [
@@ -574,14 +575,21 @@
     },
     {
       "order": 16,
-      "event": "Rovan invests his newly captured wealth in an Argonaut refit: reinforced bronze armour, upgraded engines and magnetic stabilisers.",
-      "time_relation": "After the city conquests and before the departure on page 14.",
-      "ship_id": "argonaut"
+      "event": "Rovan and his engineers refit the Argonaut in a legendary fourteen days using captured resources, including much larger heavy cannons.",
+      "time_relation": "After the city conquests; the refit occupies page14, before the departure on page15.",
+      "ship_id": "argonaut",
+      "page": 14
     },
     {
       "order": 17,
       "event": "The Argonaut leaves the recently conquered city. Its inhabitants expect Rovan to lose. He chooses the Shattered Plains, where floating rocks and strong magnetic fields will force the three enemy Bastions to separate.",
-      "page": 14,
+      "page": 15,
+      "battle_outcome": null
+    },
+    {
+      "order": 18,
+      "page": 16,
+      "event": "Admiral Joseph pursues the Argonaut with three Auric Reach Bastions. Driven by his ambition to gain his own duchy, he ignores sailors’ warnings and follows Rovan into the Shattered Plains.",
       "battle_outcome": null
     }
   ],
@@ -599,8 +607,8 @@
         "title": "Prologue",
         "status": "available",
         "reader": "prologue.html",
-        "page_count": 14,
-        "panel_count": 43,
+        "page_count": 16,
+        "panel_count": 48,
         "pages": [
           {
             "number": 1,
@@ -1322,11 +1330,49 @@
           },
           {
             "number": 14,
-            "title": "The Shattered Plains",
+            "title": "Fourteen Days",
             "panels": [
               {
                 "number": 1,
                 "asset_id": "prologue-p14-panel01",
+                "caption": "The first day.",
+                "narration": "Rovan: “Use what we took. Armour, engines—and bigger guns.”\nEngineer: “Fourteen days. Keep the docks supplied.”",
+                "priority": 4,
+                "image_description": "Rovan and his chief engineer plan the Argonaut’s refit amid captured supplies.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 629
+                },
+                "scene_id": "prologue-p14-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "argonaut-refit",
+                "caption": "Fourteen days.",
+                "narration": "In fourteen days, they rebuilt the Argonaut. The dockworkers would tell that story for years.",
+                "priority": 4,
+                "image_description": "The Argonaut emerges from a legendary fourteen-day refit with huge new cannons.",
+                "holder": {
+                  "x": 0,
+                  "y": 639,
+                  "width": 952,
+                  "height": 629
+                },
+                "scene_id": "prologue-p14-panel02",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 15,
+            "title": "The Shattered Plains",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p15-panel01",
                 "caption": "The Argonaut, refitted.",
                 "narration": "Onlooker: “One ship against three? He’s not coming back.”",
                 "priority": 3,
@@ -1337,12 +1383,12 @@
                   "width": 952,
                   "height": 288.688
                 },
-                "scene_id": "prologue-p14-panel01",
+                "scene_id": "prologue-p15-panel01",
                 "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "prologue-p14-panel02",
+                "asset_id": "prologue-p15-panel02",
                 "caption": "The Shattered Plains.",
                 "narration": "Huge rocks crowded the sky. Between them, magnetic currents dragged at every hull.",
                 "priority": 5,
@@ -1353,12 +1399,12 @@
                   "width": 952,
                   "height": 670.624
                 },
-                "scene_id": "prologue-p14-panel02",
+                "scene_id": "prologue-p15-panel02",
                 "lettering_mode": "baked"
               },
               {
                 "number": 3,
-                "asset_id": "prologue-p14-panel03",
+                "asset_id": "prologue-p15-panel03",
                 "caption": "His choice.",
                 "narration": "Rovan: “We’ll face them here. They can’t hold formation between those rocks.”\nGrievous: “They’ll have to split up.”",
                 "priority": 3,
@@ -1369,7 +1415,61 @@
                   "width": 952,
                   "height": 288.688
                 },
-                "scene_id": "prologue-p14-panel03",
+                "scene_id": "prologue-p15-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 16,
+            "title": "Admiral Joseph",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p16-panel01",
+                "caption": "The pursuit.",
+                "narration": "Three Bastions followed the Argonaut’s wake.",
+                "priority": 3,
+                "image_description": "Three Auric Reach Bastions pursue the Argonaut toward the Shattered Plains.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 288.688
+                },
+                "scene_id": "prologue-p16-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p16-panel02",
+                "caption": "Admiral Joseph.",
+                "narration": "Sailor: “Admiral, those fields will break our formation.”\nJoseph: “Beat Rovan and I’ll have a duchy of my own. Full speed.”",
+                "priority": 5,
+                "image_description": "Admiral Joseph dismisses his sailors’ warning, imagining his own duchy.",
+                "holder": {
+                  "x": 0,
+                  "y": 298.688,
+                  "width": 952,
+                  "height": 670.624
+                },
+                "scene_id": "prologue-p16-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p16-panel03",
+                "caption": "Into the plains.",
+                "narration": "The Argonaut slipped between the rocks. Joseph sent all three Bastions in after it.",
+                "priority": 3,
+                "image_description": "All three enemy Bastions follow the Argonaut into the Shattered Plains.",
+                "holder": {
+                  "x": 0,
+                  "y": 979.312,
+                  "width": 952,
+                  "height": 288.688
+                },
+                "scene_id": "prologue-p16-panel03",
                 "lettering_mode": "baked"
               }
             ]
@@ -1419,7 +1519,7 @@
     "The other six duchies’ rulers, economies and alliances",
     "The captured cities’ names and their barons’ names",
     "Honour guard names and personalities",
-    "Ship dimensions, crews, cargo tonnages and armaments",
+    "Exact ship dimensions, crews, cargo tonnages and armaments beyond the Argonaut’s established enlarged heavy cannons",
     "Other duchies’ responses beyond Auric Reach’s three dispatched capital ships",
     "Any further Type C supply or technical crafting details"
   ],
@@ -1428,16 +1528,23 @@
       "id": "argonaut-refit",
       "file": "assets/argonaut-refit.png",
       "title": "The Argonaut refit",
-      "category": "world",
+      "category": "comic",
       "dimensions": {
-        "width": 1536,
-        "height": 1024
+        "width": 1543,
+        "height": 1019
       },
-      "byte_size": 3884852,
-      "sha256": "a8225cc06936ca3f31ed7cf6f7f2779ee59e929669eda5f0ca104b205aa669aa",
+      "byte_size": 3769778,
+      "sha256": "13f8aaaa315cfccfc30b08dad82a5be2b18b24f8093987da7a460fd0730f9545",
       "status": "current",
       "origin": "Generated illustration of Rovan investing captured wealth in an industrial Type A/Type B refit.",
-      "comic_usage": []
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 14,
+          "panel": 2,
+          "description": "The Argonaut emerges from a legendary fourteen-day refit with huge new cannons."
+        }
+      ]
     },
     {
       "id": "banner-auric-reach",
@@ -2490,11 +2597,11 @@
       "title": "Prologue P14 Panel01",
       "category": "comic",
       "dimensions": {
-        "width": 2172,
-        "height": 724
+        "width": 1544,
+        "height": 1018
       },
-      "byte_size": 3364806,
-      "sha256": "b54e7ad86a058576c6a063c487caccc9bcb4721d72c9f8bc34aaa1d6b733f559",
+      "byte_size": 3497259,
+      "sha256": "43bc6d59ae4b77b823489d44a5493a7c327ec6a642bec467716f2bf83ddd19f8",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
@@ -2502,36 +2609,58 @@
           "story_id": "prologue",
           "page": 14,
           "panel": 1,
-          "description": "Civilians watch the refitted Argonaut depart, its wedge prow and crimson armour displaying Rovan’s investment."
+          "description": "Rovan and his chief engineer plan the Argonaut’s refit amid captured supplies."
         }
       ]
     },
     {
-      "id": "prologue-p14-panel02",
-      "file": "assets/panels/prologue-p14-panel02.png",
-      "title": "Prologue P14 Panel02",
+      "id": "prologue-p15-panel01",
+      "file": "assets/panels/prologue-p15-panel01.png",
+      "title": "Prologue P15 Panel01",
       "category": "comic",
       "dimensions": {
-        "width": 1487,
-        "height": 1058
+        "width": 2169,
+        "height": 725
       },
-      "byte_size": 3962909,
-      "sha256": "f4f79f82070982105882594743840f7b974139a6ab4fb92ad2ccb5d4a2c923f2",
+      "byte_size": 3063281,
+      "sha256": "9e340d08b3a8dc05b61d253baff908bd231b7520bf93de1610aaa52d276a1d4e",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
         {
           "story_id": "prologue",
-          "page": 14,
+          "page": 15,
+          "panel": 1,
+          "description": "Civilians watch the refitted Argonaut depart, its wedge prow and crimson armour displaying Rovan’s investment."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p15-panel02",
+      "file": "assets/panels/prologue-p15-panel02.png",
+      "title": "Prologue P15 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1487,
+        "height": 1058
+      },
+      "byte_size": 3972976,
+      "sha256": "aa53714d48622594632db7f84c01fee590f0a5ca80d07943d7459ff0d8bf923c",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 15,
           "panel": 2,
           "description": "The refitted Argonaut threads the Shattered Plains, with crimson hull armour and upgraded green magnetic machinery."
         }
       ]
     },
     {
-      "id": "prologue-p14-panel03",
-      "file": "assets/panels/prologue-p14-panel03.png",
-      "title": "Prologue P14 Panel03",
+      "id": "prologue-p15-panel03",
+      "file": "assets/panels/prologue-p15-panel03.png",
+      "title": "Prologue P15 Panel03",
       "category": "comic",
       "dimensions": {
         "width": 2172,
@@ -2544,9 +2673,75 @@
       "comic_usage": [
         {
           "story_id": "prologue",
-          "page": 14,
+          "page": 15,
           "panel": 3,
           "description": "Rovan and Grievous plan to split the three enemy Bastions among separate rock channels."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p16-panel01",
+      "file": "assets/panels/prologue-p16-panel01.png",
+      "title": "Prologue P16 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3145853,
+      "sha256": "7fa56a856a0b195d174a2c31d084edbd29f37e248887ee7e4aeb8eb6787efefc",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 16,
+          "panel": 1,
+          "description": "Three Auric Reach Bastions pursue the Argonaut toward the Shattered Plains."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p16-panel02",
+      "file": "assets/panels/prologue-p16-panel02.png",
+      "title": "Prologue P16 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1487,
+        "height": 1058
+      },
+      "byte_size": 2853755,
+      "sha256": "b974c10d948b482bdc41a8bbf43d5666c9d0c7629e18048f77904e83565f24b5",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 16,
+          "panel": 2,
+          "description": "Admiral Joseph dismisses his sailors’ warning, imagining his own duchy."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p16-panel03",
+      "file": "assets/panels/prologue-p16-panel03.png",
+      "title": "Prologue P16 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3507546,
+      "sha256": "8e6fa93a5846c3efabb8124e16ffced3fed767cb953c12e3a3484ac427bd2c37",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 16,
+          "panel": 3,
+          "description": "All three enemy Bastions follow the Argonaut into the Shattered Plains."
         }
       ]
     },
@@ -2628,7 +2823,7 @@
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with fourteen pages and 43 distinct panel images.",
+    "There is one available story entry, Prologue, with sixteen pages and 48 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
     "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
@@ -2644,7 +2839,9 @@
     "The Silver Guard wear Veymarch’s established broken-shield-and-star crest; restrained brass trim does not replace the silver Type C material.",
     "Rovan’s single capital ship is named Argonaut; Bastion remains a capital-ship design, not its personal name.",
     "Rovan chooses the Shattered Plains to force the three enemy Bastions to separate; no result of the fleet battle is established.",
-    "The Argonaut is refitted using Rovan’s newfound wealth; its upgraded hull remains Type A bronze and its machinery uses Type B. Type C is reserved for the five honour guards."
+    "The Argonaut is refitted using Rovan’s newfound wealth; its upgraded hull remains Type A bronze and its machinery uses Type B. Type C is reserved for the five honour guards.",
+    "The Argonaut’s refit takes fourteen days and adds enlarged heavy cannons.",
+    "Admiral Joseph leads exactly three Auric Reach Bastions and greedily hopes to gain a duchy by defeating Rovan; no reward or battle outcome has been established."
   ],
   "military_livery": {
     "veymarch": {
@@ -2709,17 +2906,19 @@
       "departure_location_id": "auric-latest-captured-city",
       "refit": {
         "funding": "Rovan uses his newfound wealth from conquest to upgrade his existing capital ship.",
-        "timing": "After the conquests and before the page-14 departure.",
+        "timing": "Shown on page 14; completed before the departure on page 15.",
         "hull_material": "Magneton Type A; reinforced bronze armour, not Type C.",
         "upgrades": [
           "Wedge-shaped armoured ram prow with a reinforced lower keel",
           "Crimson lacquered side armour panels with bronze ribs",
           "Two exposed green magnetic stabiliser rings near the stern",
           "Four articulated vectoring thruster pods using green Type B machinery",
-          "Rebuilt gun positions and a low protected command citadel"
+          "Rebuilt gun positions and a low protected command citadel",
+          "Two twin-barrel heavy cannon turrets with enlarged barrels, reinforced recoil mounts and mechanical breeches"
         ],
         "visual_identity": "One elongated central Zeppelin hull with two shorter side gun hulls; industrial bronze and crimson, restrained silver Veymarch emblems.",
-        "limits": "A refit of the same single capital ship, not a second ship or an invulnerable Type C hull. No new weapon abilities or performance statistics established."
+        "limits": "A refit of the same single capital ship, not a second ship or an invulnerable Type C hull. No new weapon abilities or performance statistics established.",
+        "duration_days": 14
       },
       "refit_asset_id": "argonaut-refit"
     }

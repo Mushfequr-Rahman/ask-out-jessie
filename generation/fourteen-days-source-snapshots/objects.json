@@ -1,0 +1,480 @@
+{
+  "schema_version": 1,
+  "purpose": "Reusable visual object bible; world_reference points to authoritative world lore.",
+  "objects": [
+    {
+      "id": "type-a",
+      "kind": "material",
+      "name": "Magneton Type A",
+      "description": "Bronze-like metal. Very durable",
+      "reference_images": [
+        "assets/magneton-types.png"
+      ],
+      "world_reference": "/metals/0"
+    },
+    {
+      "id": "type-b",
+      "kind": "material",
+      "name": "Magneton Type B",
+      "description": "Glowing green in both polarities. Found in opposite magnetic polarities",
+      "reference_images": [
+        "assets/magneton-types.png"
+      ],
+      "world_reference": "/metals/1"
+    },
+    {
+      "id": "type-c",
+      "kind": "material",
+      "name": "Magneton Type C",
+      "description": "Silvery metal. Most malleable of the Magneton types; Impenetrable and impervious to any weapons; Can drift along magnetic fields",
+      "reference_images": [
+        "assets/magneton-types.png"
+      ],
+      "world_reference": "/metals/2"
+    },
+    {
+      "id": "mining-mole",
+      "kind": "ship",
+      "name": "Mole",
+      "description": "Squat mining tug with detachable deep ore cassette, loading arms, and forward drill. Close-site positioning",
+      "reference_images": [
+        "assets/mining-mole.png"
+      ],
+      "world_reference": "/ship_designs/0",
+      "constraints": [
+        "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+      ]
+    },
+    {
+      "id": "schooner-needle",
+      "kind": "ship",
+      "name": "Needle",
+      "description": "Light teardrop commuter hull, compact cockpit, and articulated engine outriggers. Very high mobility",
+      "reference_images": [
+        "assets/schooner-needle.png"
+      ],
+      "world_reference": "/ship_designs/1",
+      "constraints": [
+        "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+      ]
+    },
+    {
+      "id": "schooner-kestrel",
+      "kind": "ship",
+      "name": "Kestrel",
+      "description": "Small swept open-deck commuter with glass forward cabin, boarding deck, and hull-edge magnetic rings. High mobility",
+      "reference_images": [
+        "assets/schooner-kestrel.png"
+      ],
+      "world_reference": "/ship_designs/2",
+      "constraints": [
+        "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+      ]
+    },
+    {
+      "id": "trader-caravan",
+      "kind": "ship",
+      "name": "Caravan",
+      "description": "Large twin parallel Zeppelin hulls connected by cargo bridges, freight modules and passenger space. Cumbersome turns",
+      "reference_images": [
+        "assets/trader-caravan.png"
+      ],
+      "world_reference": "/ship_designs/3",
+      "constraints": [
+        "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+      ]
+    },
+    {
+      "id": "trader-terrace",
+      "kind": "ship",
+      "name": "Terrace",
+      "description": "Broad trader with terraced passenger decks, forward saloon, enclosed freight holds, and raised aft bridge. Slow and cumbersome",
+      "reference_images": [
+        "assets/trader-terrace.png"
+      ],
+      "world_reference": "/ship_designs/4",
+      "constraints": [
+        "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+      ]
+    },
+    {
+      "id": "capital-bastion",
+      "kind": "ship",
+      "name": "Bastion",
+      "description": "Broad armoured three-keel fortress with command citadel, gun decks, and large magnetic engines. Limited maneuverability",
+      "reference_images": [
+        "assets/capital-bastion.png"
+      ],
+      "world_reference": "/ship_designs/5",
+      "constraints": [
+        "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+      ]
+    },
+    {
+      "id": "condenser-lance",
+      "kind": "weapon",
+      "name": "Magnetic lance",
+      "description": "Condenses magnetic fields and fires the concentrated energy like a cannon.",
+      "reference_images": [
+        "references/panels/type-c-lance-assault-heraldic.png"
+      ],
+      "world_reference": "/weapons/0"
+    },
+    {
+      "id": "field-broadsword",
+      "kind": "weapon",
+      "name": "Field broadsword",
+      "description": "Condenses magnetic fields into a larger blade capable of cutting through a ship’s hull.",
+      "reference_images": [
+        "references/panels/type-c-broadsword-breach-heraldic.png"
+      ],
+      "world_reference": "/weapons/1"
+    },
+    {
+      "id": "wind-twin-swords",
+      "kind": "weapon",
+      "name": "Twin wind swords",
+      "description": "A pair of wind-like swords that lets the wielder fly like a bird.",
+      "reference_images": [
+        "references/panels/type-c-twin-sword-flight-heraldic.png"
+      ],
+      "world_reference": "/weapons/2"
+    },
+    {
+      "id": "shield-warhammer",
+      "kind": "weapon",
+      "name": "Shield war hammer",
+      "description": "Creates its own magnetic field when slammed down, forming a shield against Tesla guns.",
+      "reference_images": [
+        "references/panels/type-c-warhammer-shield-heraldic.png"
+      ],
+      "world_reference": "/weapons/3"
+    },
+    {
+      "id": "point-scythe",
+      "kind": "weapon",
+      "name": "Magnetic scythe",
+      "description": "Lets the wielder jump between two concentrated points of magnetic energy.",
+      "reference_images": [
+        "references/panels/type-c-scythe-city-seized-heraldic.png"
+      ],
+      "world_reference": "/weapons/4"
+    },
+    {
+      "id": "tesla-gun",
+      "kind": "weapon",
+      "name": "Tesla gun",
+      "description": "Copper-coiled fictional electrical rifle with green-lit charge. Cannot pierce silver Type C.",
+      "reference_images": [],
+      "world_reference": "/technology/tesla_guns"
+    },
+    {
+      "id": "magnetic-motor",
+      "kind": "machine",
+      "name": "Magneton motor",
+      "description": "Opposite-polarity glowing GREEN Type B cores in a mechanical motor; powers the floating cities and ships. Both polarities are GREEN.",
+      "reference_images": [
+        "references/panels/polarity-engine.png"
+      ],
+      "world_reference": "/technology/magnetic_motors"
+    },
+    {
+      "id": "veymarch-infantry",
+      "kind": "uniform",
+      "name": "Veymarch infantry kit",
+      "description": "BRONZE armour over crimson cloth and red capes; green Tesla rifles. Ordinary troops are never silver Type C.",
+      "reference_images": [],
+      "duchy_id": "veymarch"
+    },
+    {
+      "id": "auric-town-guard",
+      "kind": "uniform",
+      "name": "Auric Reach town guard kit",
+      "description": "Navy-and-gold cloth, BRASS helmets, green Tesla guns. No silver armour.",
+      "reference_images": [],
+      "duchy_id": "auric-reach"
+    },
+    {
+      "id": "banner-veymarch",
+      "kind": "heraldry",
+      "name": "Veymarch banner",
+      "description": "Crimson field; Silver broken shield and star",
+      "reference_images": [
+        "assets/banner-veymarch.png"
+      ],
+      "duchy_id": "veymarch",
+      "world_reference": "/duchies/0",
+      "canonical_reference": "assets/banner-veymarch.png",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Crimson",
+          "hex": "#991B1B"
+        },
+        "emblem": {
+          "name": "Aged silver",
+          "hex": "#C8C2B0"
+        },
+        "trim": {
+          "name": "Antique silver trim",
+          "hex": "#A89978"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      }
+    },
+    {
+      "id": "banner-auric-reach",
+      "kind": "heraldry",
+      "name": "Auric Reach banner",
+      "description": "Gold field; Merchant’s balance within a coin",
+      "reference_images": [
+        "assets/banner-auric-reach.png"
+      ],
+      "duchy_id": "auric-reach",
+      "world_reference": "/duchies/1",
+      "canonical_reference": "assets/banner-auric-reach.png",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Golden yellow",
+          "hex": "#EDB916"
+        },
+        "emblem": {
+          "name": "Navy blue",
+          "hex": "#142A49"
+        },
+        "trim": {
+          "name": "Antique gold",
+          "hex": "#AA8951"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      }
+    },
+    {
+      "id": "banner-ironveil",
+      "kind": "heraldry",
+      "name": "Ironveil banner",
+      "description": "Steel field; Silver hammer and anvil",
+      "reference_images": [
+        "assets/banner-ironveil.png"
+      ],
+      "duchy_id": "ironveil",
+      "world_reference": "/duchies/2",
+      "canonical_reference": "assets/banner-ironveil.png",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Steel blue-grey",
+          "hex": "#455867"
+        },
+        "emblem": {
+          "name": "Aged silver",
+          "hex": "#C8C2B0"
+        },
+        "trim": {
+          "name": "Antique silver trim",
+          "hex": "#A89978"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      }
+    },
+    {
+      "id": "banner-glassmere",
+      "kind": "heraldry",
+      "name": "Glassmere banner",
+      "description": "Cyan field; White crystal prism",
+      "reference_images": [
+        "assets/banner-glassmere.png"
+      ],
+      "duchy_id": "glassmere",
+      "world_reference": "/duchies/3",
+      "canonical_reference": "assets/banner-glassmere.png",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Cyan",
+          "hex": "#129EB3"
+        },
+        "emblem": {
+          "name": "Ivory white",
+          "hex": "#EAE5D6"
+        },
+        "trim": {
+          "name": "Antique silver trim",
+          "hex": "#A89978"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      }
+    },
+    {
+      "id": "banner-stormholt",
+      "kind": "heraldry",
+      "name": "Stormholt banner",
+      "description": "Violet field; Silver lightning bolt and ring",
+      "reference_images": [
+        "assets/banner-stormholt.png"
+      ],
+      "duchy_id": "stormholt",
+      "world_reference": "/duchies/4",
+      "canonical_reference": "assets/banner-stormholt.png",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Violet",
+          "hex": "#542C79"
+        },
+        "emblem": {
+          "name": "Aged silver",
+          "hex": "#C8C2B0"
+        },
+        "trim": {
+          "name": "Antique silver trim",
+          "hex": "#A89978"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      }
+    },
+    {
+      "id": "banner-emberfall",
+      "kind": "heraldry",
+      "name": "Emberfall banner",
+      "description": "Orange field; Dark flame and golden ember",
+      "reference_images": [
+        "assets/banner-emberfall.png"
+      ],
+      "duchy_id": "emberfall",
+      "world_reference": "/duchies/5",
+      "canonical_reference": "assets/banner-emberfall.png",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Burnt orange",
+          "hex": "#D16717"
+        },
+        "emblem": {
+          "name": "Charcoal",
+          "hex": "#292C29"
+        },
+        "trim": {
+          "name": "Antique gold",
+          "hex": "#AA8951"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette.",
+        "accents": [
+          {
+            "name": "Golden ember",
+            "hex": "#D3B464"
+          }
+        ]
+      }
+    },
+    {
+      "id": "banner-verdant-crown",
+      "kind": "heraldry",
+      "name": "Verdant Crown banner",
+      "description": "Emerald field; Golden crown of leaves",
+      "reference_images": [
+        "assets/banner-verdant-crown.png"
+      ],
+      "duchy_id": "verdant-crown",
+      "world_reference": "/duchies/6",
+      "canonical_reference": "assets/banner-verdant-crown.png",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Emerald green",
+          "hex": "#086044"
+        },
+        "emblem": {
+          "name": "Gold",
+          "hex": "#D3B464"
+        },
+        "trim": {
+          "name": "Antique gold",
+          "hex": "#AA8951"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      }
+    },
+    {
+      "id": "banner-pale-meridian",
+      "kind": "heraldry",
+      "name": "Pale Meridian banner",
+      "description": "Ivory field; Midnight compass star",
+      "reference_images": [
+        "assets/banner-pale-meridian.png"
+      ],
+      "duchy_id": "pale-meridian",
+      "world_reference": "/duchies/7",
+      "canonical_reference": "assets/banner-pale-meridian.png",
+      "palette": {
+        "color_space": "sRGB",
+        "basis": "neutral-light art direction",
+        "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+        "cloth": {
+          "name": "Ivory",
+          "hex": "#E6DBC0"
+        },
+        "emblem": {
+          "name": "Midnight blue",
+          "hex": "#1E3445"
+        },
+        "trim": {
+          "name": "Antique gold",
+          "hex": "#AA8951"
+        },
+        "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+      }
+    },
+    {
+      "id": "argonaut",
+      "kind": "ship",
+      "name": "Argonaut",
+      "description": "Rovan’s ONE Bastion-derived Argonaut, refitted with his newfound wealth. UNIQUE silhouette: elongated rigid bronze Zeppelin central hull, two shorter side gun hulls, wedge-shaped armoured ram prow and reinforced lower keel; crimson lacquer side armour between bronze ribs, low protected command citadel, TWO exposed green magnetic stabiliser rings near the stern, FOUR articulated bronze vectoring thruster pods with green Type B glow, rebuilt gun positions. Veymarch SILVER broken shield/eight-point star on crimson banners. Workshop-built industrial machinery, not ornate fantasy gold or a generic round-nosed Bastion. HEAVY CANNON UPGRADE: two prominent twin-barrel heavy gun turrets on the upper foredeck, four huge long bronze-and-black cannon barrels, much thicker and longer than standard Bastion deck guns, with reinforced recoil cradles and visible mechanical breeches. Keep the wedge prow and crimson plating. These are conventional heavy cannons, not new magical weapons.",
+      "reference_images": [
+        "references/iterations/argonaut-refit-before-heavy-cannons.png"
+      ],
+      "world_reference": "/named_ships/0",
+      "duchy_id": "veymarch",
+      "constraints": [
+        "Exactly one Argonaut. No extra friendly capital ship. Do not add wooden hulls, sails, balloons or other vessels from references.",
+        "Same ship after a refit, never an additional capital ship.",
+        "All hull armour is bronze Type A; machinery is green Type B. No silver Type C hull or invulnerability.",
+        "Canonical Argonaut refit design controls hull geometry; older generic Bastion art supplies ancestry only.",
+        "Keep the wedge prow, crimson side armour, paired green stern stabiliser rings and vectoring pods recognisable in every new exterior view.",
+        "The enlarged heavy cannons must be conspicuous in exterior views; do not shrink them to decorative small deck guns.",
+        "The refit takes a legendary FOURTEEN DAYS, using captured resources; it is the same existing ship."
+      ],
+      "canonical_reference": "references/iterations/argonaut-refit-before-heavy-cannons.png"
+    },
+    {
+      "id": "auric-bastion",
+      "kind": "ship",
+      "name": "Auric Reach Bastion",
+      "duchy_id": "auric-reach",
+      "description": "Standard bronze round-prowed Bastion capital airship with three keels, command citadel and green magnetic engines. Auric Reach GOLD cloth with NAVY balance-scale emblem. No crimson hull plating or wedge prow; those distinguish Rovan’s Argonaut. Joseph commands exactly THREE of these ships.",
+      "canonical_reference": "assets/panels/prologue-p12-panel03.png",
+      "reference_images": [
+        "assets/panels/prologue-p12-panel03.png"
+      ],
+      "world_reference": "/ship_designs/5",
+      "constraints": [
+        "Exactly three enemy Bastions. Never a fourth enemy ship. No Veymarch banners on enemy ships."
+      ]
+    }
+  ]
+}

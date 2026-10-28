@@ -1,0 +1,22 @@
+{
+  "id": "prologue-p15-panel02",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/archives/prologue-p15-panel02-before-heavy-cannons.json",
+  "output_file": "assets/panels/prologue-p15-panel02.png",
+  "generated_original": "/workspace/generated_images/exec-59ba11e3-30c2-4fd8-9216-77ccb14165f0.png",
+  "source_hashes": {
+    "world.json": "760e44ab66b9fe07349f7ec8a5cf2c2b365b9e089918bb8f2344c96229ed7216",
+    "character.json": "45f132316dfb958d8675988dda786c2073a1a1639d20b9c2e282802bd7fda7f4",
+    "objects.json": "d520ef234315306ccb82c9e064b09e80377fe265547501d98dae2ffa516c4e9e",
+    "scene": "4082d0af3d0b2c6dcaa15b07fac719e443bdfd54ae8bf502770d10b0640ef0d2"
+  },
+  "holder": {
+    "x": 0,
+    "y": 298.688,
+    "width": 952,
+    "height": 670.624
+  },
+  "reason": "Use canonical Argonaut wealth-funded refit design.",
+  "operation": "Page renumber; source artwork unchanged",
+  "source_run": "generation/runs/prologue-p14-panel02-refit.json"
+}

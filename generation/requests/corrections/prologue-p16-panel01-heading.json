@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p16-panel01",
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch",
+      "banner-auric-reach"
+    ]
+  },
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p16-panel01-direction-first-pass.png",
+      "role": "Correct pursuit heading only"
+    }
+  ],
+  "prompt": "Correct the flight direction in this finished pursuit panel. All FOUR ships must travel LEFT TO RIGHT toward the rocks and the distant red Argonaut at the RIGHT. The distant crimson Argonaut is already facing right; preserve it. Rotate/repaint EACH of the THREE bronze/gold enemy Bastions so its rounded BOW and forward guns face RIGHT and its GREEN engine rings are at its LEFT stern. They must CHASE the red ship, not fly away in the opposite direction. Preserve exactly THREE enemy Bastions in the same staggered left/centre positions, separate and fully countable, and ONE distant red Argonaut at far right: four vessels total. Preserve each enemy GOLD flag with NAVY balance scales. Do not mirror lettering or symbols. Preserve all scenery, sky and rocks and ALL existing cream caption/narration boxes and their exact text: The pursuit. / Three Bastions followed the Argonaut’s wake. Keep exact native aspect ratio and text positions; only correct the three enemy hull orientations so the pursuit reads clearly left-to-right."
+}

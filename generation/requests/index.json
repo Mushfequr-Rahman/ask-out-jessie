@@ -208,12 +208,37 @@
     {
       "id": "prologue-p14-panel02",
       "request_file": "generation/requests/prologue-p14-panel02.json",
-      "output_file": "assets/panels/prologue-p14-panel02.png"
+      "output_file": "assets/argonaut-refit.png"
     },
     {
-      "id": "prologue-p14-panel03",
-      "request_file": "generation/requests/prologue-p14-panel03.json",
-      "output_file": "assets/panels/prologue-p14-panel03.png"
+      "id": "prologue-p15-panel01",
+      "request_file": "generation/requests/prologue-p15-panel01.json",
+      "output_file": "assets/panels/prologue-p15-panel01.png"
+    },
+    {
+      "id": "prologue-p15-panel02",
+      "request_file": "generation/requests/prologue-p15-panel02.json",
+      "output_file": "assets/panels/prologue-p15-panel02.png"
+    },
+    {
+      "id": "prologue-p15-panel03",
+      "request_file": "generation/requests/prologue-p15-panel03.json",
+      "output_file": "assets/panels/prologue-p15-panel03.png"
+    },
+    {
+      "id": "prologue-p16-panel01",
+      "request_file": "generation/requests/prologue-p16-panel01.json",
+      "output_file": "assets/panels/prologue-p16-panel01.png"
+    },
+    {
+      "id": "prologue-p16-panel02",
+      "request_file": "generation/requests/prologue-p16-panel02.json",
+      "output_file": "assets/panels/prologue-p16-panel02.png"
+    },
+    {
+      "id": "prologue-p16-panel03",
+      "request_file": "generation/requests/prologue-p16-panel03.json",
+      "output_file": "assets/panels/prologue-p16-panel03.png"
     }
   ]
 }

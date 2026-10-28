@@ -134,6 +134,42 @@
         "appearance": "A small mixed group of adult civilians in plain worn work coats, wool scarves and everyday clothes; no military uniforms or silver armour."
       },
       "reference_images": []
+    },
+    {
+      "id": "veymarch-engineers",
+      "name": "Rovan’s engineers",
+      "role": "The engineers and dockworkers who refit the Argonaut in fourteen days using the new resources.",
+      "duchy_id": "veymarch",
+      "visual_concept": {
+        "appearance": "Chief engineer: middle-aged human woman, grey hair tied back, round goggles on forehead, crimson work shirt, brown leather apron, practical gloves. Other engineers wear simple workshop clothes, no silver armour."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "admiral-joseph",
+      "name": "Admiral Joseph",
+      "title": "Admiral",
+      "role": "Arrogant Auric Reach fleet commander pursuing Rovan with three Bastions.",
+      "duchy_id": "auric-reach",
+      "motivation": "Greed: he expects a duchy of his own if he defeats Rovan. This is his ambition, not an established promise by the ruler.",
+      "conduct": "Ignores his sailors’ warnings about the strong magnetic fields and difficult rock passages.",
+      "visual_concept": {
+        "appearance": "Broad, clean-shaven middle-aged human officer with a square jaw, slicked-back iron-grey hair, thick grey eyebrows, a brass monocle over his right eye and a high-collared navy uniform with ornate gold epaulettes. NOT bald, no beard, distinct from Rovan and Grievous."
+      },
+      "uniform_standard": "Auric Reach navy coat and gold trim; no crimson Veymarch clothing.",
+      "reference_images": [
+        "assets/panels/prologue-p16-panel02.png"
+      ]
+    },
+    {
+      "id": "auric-sailors",
+      "name": "Auric Reach sailors",
+      "role": "Unnamed crew who warn Admiral Joseph that the Shattered Plains will break their formation.",
+      "duchy_id": "auric-reach",
+      "visual_concept": {
+        "appearance": "Practical human deck crew in worn navy work jackets, muted gold piping and simple caps. No ceremonial officer epaulettes or silver armour."
+      },
+      "reference_images": []
     }
   ]
 }

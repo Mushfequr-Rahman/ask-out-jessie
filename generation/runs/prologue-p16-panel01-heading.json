@@ -1,0 +1,8 @@
+{
+  "id": "prologue-p16-panel01",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/corrections/prologue-p16-panel01-heading.json",
+  "output_file": "assets/panels/prologue-p16-panel01.png",
+  "generated_original": "/workspace/generated_images/exec-f6f18fec-cfdb-4239-a1c3-031b9e3fca70.png",
+  "reason": "Make all pursuit ships travel toward the Argonaut."
+}

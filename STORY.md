@@ -112,7 +112,7 @@ The city capture does not yet establish that Rovan controls all of Auric Reach. 
 
 ## Publication structure and duchy heraldry
 
-There is currently one published story entry, **Prologue**, containing all fourteen published pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
+There is currently one published story entry, **Prologue**, containing all sixteen published pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
 
 | Duchy | Colour | Banner emblem |
 | --- | --- | --- |
@@ -127,7 +127,7 @@ There is currently one published story entry, **Prologue**, containing all fourt
 
 ## Structured reference and artwork catalogue
 
-`world.json` contains the structured world reference; character records live in `character.json`. The world reference includes open details, the fourteen published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.
+`world.json` contains the structured world reference; character records live in `character.json`. The world reference includes open details, the sixteen published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.
 
 ## Current uniforms and the next move
 
@@ -161,10 +161,16 @@ The silver armour now has narrow aged-brass edging, small mechanical fittings an
 
 A Veymarch schooner brings an unnamed courier to Rovan with news of three approaching Bastions. Rovan calls General Grievous and his five silver captains to the planning table. They decide to face the three enemy capital ships head-on. The page ends with orders to ready Rovan’s single Bastion; no battle or outcome is shown yet.
 
-## The Shattered Plains — page 14
+## The Shattered Plains — page 15
 
 Rovan’s one capital ship is named **Argonaut**; it uses the Bastion design. It leaves the recently conquered city while its people expect him to lose against three enemy capitals. He chooses the Shattered Plains, a stretch of sky blotted with huge floating rocks and very strong magnetic fields. The terrain makes navigation difficult and forces the enemy Bastions to separate to engage him. The page reveals the plan; it does not establish the battle’s outcome.
 
 ## The Argonaut’s refit
 
-Rovan uses his newfound wealth to upgrade his single capital ship before the page-14 departure. Its distinctive wedge prow, crimson Type A armour panels, rebuilt gun positions, green Type B engine upgrades and magnetic stabilisers distinguish it from the standard Bastion. The hull is not Type C or invulnerable. A dedicated dockside illustration shows the work; page 14 uses the completed design.
+Rovan uses his newfound wealth to upgrade his single capital ship before the page-15 departure. Its distinctive wedge prow, crimson Type A armour panels, rebuilt gun positions, green Type B engine upgrades and magnetic stabilisers distinguish it from the standard Bastion. The hull is not Type C or invulnerable. A dedicated dockside illustration shows the work; page 15 uses the completed design.
+
+## Fourteen Days and Admiral Joseph — pages 14–16
+
+Page 14 shows Rovan and his engineers refitting the Argonaut with captured ore, trade silver and machinery. The legendary work takes fourteen days and adds two twin heavy-cannon turrets with enormous barrels. The departure and choice of terrain move to page 15.
+
+Page 16 introduces Admiral Joseph, the arrogant Auric Reach officer commanding the three enemy Bastions. He covets a duchy of his own if he defeats Rovan and ignores his sailors’ warning about the fields breaking formation. The page closes with all three Bastions following the Argonaut into the Shattered Plains. No battle result or reward has yet been established.

@@ -1,0 +1,8 @@
+{
+  "id": "prologue-p15-panel01",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/corrections/prologue-p15-panel01-fit.json",
+  "output_file": "assets/panels/prologue-p15-panel01.png",
+  "generated_original": "/workspace/generated_images/exec-406723e2-0126-4181-98ed-74e6a8a92471.png",
+  "reason": "Keep full heavy-cannon silhouette inside fixed panel aperture."
+}

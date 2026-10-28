@@ -62,7 +62,7 @@ def build_request(scene, world, characters, objects, template, files):
         render_text = render_text.strip('“”\"') if block['type']=='speech' else render_text
         speaker=re.match(r'^([^:\n]{1,35}):\s*',block['text']) if block['type']=='speech' else None
         speaker_name=speaker[1] if speaker else None
-        speaker_id={'Rovan':'rovan-vey','Grievous':'general-grievous','Courier':'veymarch-courier','The ruler of Auric Reach':'auric-ruler'}.get(speaker_name)
+        speaker_id={'Rovan':'rovan-vey','Grievous':'general-grievous','Courier':'veymarch-courier','Engineer':'veymarch-engineers','Joseph':'admiral-joseph','Sailor':'auric-sailors','The ruler of Auric Reach':'auric-ruler'}.get(speaker_name)
         blocks.append({**block,'speaker_name':speaker_name,'speaker_id':speaker_id,'render_text':render_text,'normalized_bounds':{k:round(bounds[k]/holder['width' if k in ['x','width'] else 'height'],4) for k in bounds}})
     for block in blocks:
         n=block['normalized_bounds']

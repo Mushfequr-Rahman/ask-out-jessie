@@ -53,3 +53,5 @@ For a future chapter, copy the Prologue HTML shell, update its title/description
 Serve the site over HTTP (for example, `python3 -m http.server 8000`). Fetching chapter JSON requires HTTP; opening the HTML directly from disk is unsupported. GitHub Pages serves these JSON files without a build step.
 
 Each page uses the same 1,000 × 1,400 canvas. The priority algorithm can author 1–5 holders; the current chapter locks those rectangles before artwork generation. Runtime uses the saved geometry, independent of image dimensions. New art includes lettering and is composed for the holder aperture. See [the generation workflow](../docs/image-generation.md). The canvas scales uniformly in **Fit width** mode; **Full size** enables native-size scrolling. The separate **Read page text** transcript always uses normal readable text sizes.
+
+Optional `image_revision` is an 8–64-character hex content revision appended to image and original-image URLs. Use it when replacing artwork at a previously published path, so readers fetch the new image. The chapter’s `image_src` remains the plain local asset path.

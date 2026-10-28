@@ -89,7 +89,7 @@ for category, label in labels.items():
     for asset in items:
         file, title = asset['file'], asset['title']
         used = ', '.join(f"Page {u['page']}, panel {u['panel']}" for u in asset['comic_usage']) or 'Reference artwork'
-        cards.append(f'''<article class="asset-card" data-asset-id="{escape(asset['id'])}"><a href="{escape(file)}" target="_blank" rel="noopener" aria-label="Open {escape(title)} original (opens a new tab)"><img src="{escape(file)}" alt="{escape(title)}" loading="lazy" decoding="async"></a><div><h3>{escape(title)}</h3><p>{escape(size_label(asset))}</p><p>{escape(used)}</p><a class="text-link" href="{escape(file)}" download>Download original ↓</a></div></article>''')
+        cards.append(f'''<article class="asset-card" data-asset-id="{escape(asset['id'])}"><a href="{escape(file)}" target="_blank" rel="noopener" aria-label="Open {escape(title)} original (opens a new tab)"><img src="{escape(file)}?v={asset['sha256'][:12]}" alt="{escape(title)}" loading="lazy" decoding="async"></a><div><h3>{escape(title)}</h3><p>{escape(size_label(asset))}</p><p>{escape(used)}</p><a class="text-link" href="{escape(file)}" download>Download original ↓</a></div></article>''')
         markdown.append(f'| [<img src="{file}" alt="{escape(title)}" width="110">]({file}) | **{title}**<br>[{file}]({file}) | {size_label(asset)} | {used} |')
     markdown.append('')
     sections.append(f'<section id="assets-{category}" class="reference-section" aria-labelledby="assets-{category}-title"><h2 id="assets-{category}-title">{label} <span class="asset-count">{len(items)}</span></h2><div class="asset-grid">'+''.join(cards)+'</div></section>')
