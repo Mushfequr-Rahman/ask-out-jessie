@@ -17,7 +17,8 @@
         "veterans": "Exceptionally well trained",
         "recruitment": "Funded and equipped from seized resources; veterans drill recruits",
         "total_soldier_count": null,
-        "captured_ship_count": null
+        "captured_ship_count": null,
+        "flagship_id": "argonaut"
       },
       "exclusive_knowledge": "Secret Type C crafting knowledge gained through experience",
       "visual_concept": {
@@ -123,6 +124,15 @@
         "appearance": "Young adult human messenger with short brown hair, flying goggles pushed onto forehead, worn bronze flight jacket over a crimson base layer; no silver armour."
       },
       "uniform_standard": "Practical bronze and leather flight gear over crimson cloth; Veymarch affiliation.",
+      "reference_images": []
+    },
+    {
+      "id": "auric-city-onlookers",
+      "name": "The conquered city’s onlookers",
+      "role": "Unnamed civilian inhabitants who watch the Argonaut depart and assume Rovan will lose.",
+      "visual_concept": {
+        "appearance": "A small mixed group of adult civilians in plain worn work coats, wool scarves and everyday clothes; no military uniforms or silver armour."
+      },
       "reference_images": []
     }
   ]

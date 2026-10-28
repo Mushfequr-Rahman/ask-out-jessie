@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "revision": "649dce8a581750e4d84db3ff0fffb4b827b95829a916f57bcf70a4c7126c63fa",
+  "review_scope": [
+    "prologue-p13-panel01",
+    "prologue-p13-panel02",
+    "prologue-p13-panel03",
+    "prologue-p14-panel01",
+    "prologue-p14-panel02",
+    "prologue-p14-panel03"
+  ],
+  "reviewer": "Codex visual inspection; unchanged page-13 results carried forward by exact image/reference hash",
+  "entries": [
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p04-panel03",
+      "image_sha256": "c19e5bb365405d27d030abcc40a0a6f7e1ad3e5eef0d383fa127f934aa0d1d45",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p05-panel01",
+      "image_sha256": "4110094fae4a134c9d107d0afbe33e6b403a79c1d62bc9fb8aea3db337c65276",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p05-panel02",
+      "image_sha256": "f1ad68479f892a7df95233cee7619d6ed75e941b5bb9dcf4998172e00c763b30",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p05-panel03",
+      "image_sha256": "f5a9d460a6ee32ef5d9325327e726f1964489992f68f1c526998ff89e7e1c726",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p06-panel01",
+      "image_sha256": "02cede6337b8e9a8b8690b956702ba13c0544357e6fde7505fe42e836562e67a",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p06-panel02",
+      "image_sha256": "35c77166a7381d3a4be28f60c2524f58d21be56c5bc0c0bb977b5b9982c80130",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p06-panel03",
+      "image_sha256": "67578d4176294578f46fcc1eea6073cd87241e77a625067ffeed32ba8a19e6f1",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p07-panel01",
+      "image_sha256": "3176d05106083385b68b5a1d8803d2a6d4050f4a992a980df793dea0d0d7c0d6",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p07-panel02",
+      "image_sha256": "3e59fa5d107402531d9c8e7ac3a9dfcd2ea6ef61c648b3fbce60162f8862a955",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p08-panel01",
+      "image_sha256": "5732162a3e973e4d15225837c7de4c65bf8b77691475bcc850f298518756928e",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p08-panel02",
+      "image_sha256": "be0975aa044c5345a82c790cdd9abeb3cedc25d6e7c26850b552ae53a82f378d",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p08-panel03",
+      "image_sha256": "a2e927ce4bfb416aa8831f631d93237749bef66d041c71d28b97873194964633",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p09-panel01",
+      "image_sha256": "82fac74f870a13fd6768279219c4ce2c3bdf9b625501a823601c612f4df80352",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p09-panel02",
+      "image_sha256": "574c46c4e04b6ad1ea532b98ce1d707e27af5350ec8daace87367ed2a7bab846",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p10-panel01",
+      "image_sha256": "e50b9ae5ab08d9e3e0ec631337b1a4dc5d3cc5a5b799e12b28ad86a34042c87b",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p10-panel02",
+      "image_sha256": "060bcd9b740e5b6721032ff71901d7feea539079d85fe5f0e34cc8625fa3fb93",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p10-panel03",
+      "image_sha256": "c49eff4ef887f96b20071bf02965cf5d7c525cdb1b1dd97dedc9123c5a7a2e2f",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p11-panel01",
+      "image_sha256": "91355ec0eb4e4f3c22662745cad784792662f8879fda3e3cf4c2235746f83fe9",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p11-panel02",
+      "image_sha256": "2e5db5ab182e1159ff18f66c8eba02e6140552ae0eeac8e6e7a3049ac8f84cf8",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p11-panel03",
+      "image_sha256": "3073e3645788d67c5494cbf0fe5710bf47c093ce8918fae2948b8777ea3a1ead",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p11-panel04",
+      "image_sha256": "3aa357148fee9271bbee87ca06c04979922c44a033272b3e3a31e2f68159b384",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p11-panel05",
+      "image_sha256": "767b3801cad59af07c3aed6320fbb5b2eb369ae3a4e31c893171f24141d1d548",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p12-panel01",
+      "image_sha256": "0a81fba53eb3aa23d10380afc7cbb97e191f094a36c39bb7dd69f7ef81a7d1c9",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p13-panel01",
+      "image_sha256": "ecb0c5f9e66358e950027f936c1e381a8538148b3c991b23af82a0fd7e5611cf",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually compared canonical crimson cloth, silver broken shield/star and trim with final full-size and rendered panel. All lettering fits."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p13-panel02",
+      "image_sha256": "f762740457e03c1484ea3bf5d7db8d9200685a46f93ab10902230e1151f8f346",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually compared canonical crimson cloth, silver broken shield/star and trim with final full-size and rendered panel. All lettering fits."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p13-panel03",
+      "image_sha256": "fcb4f2d22a63042b843f6784623c5508c04d8c4470fd6456199c8d0ac2109263",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually compared canonical crimson cloth, silver broken shield/star and trim with final full-size and rendered panel. All lettering fits."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p14-panel01",
+      "image_sha256": "58ee1a58b804b4effddbd65f2e79f6433e5be447b206af5ce90f98df3fa360c2",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually compared final full-size banner to the canonical reference: crimson cloth, silver broken shield and star, muted trim. No swapped house colours."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p14-panel02",
+      "image_sha256": "c68914633d9cf070f362bbbd35f040739a9fa3153e8a61d366073a3f062e8703",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually compared final full-size banner to the canonical reference: crimson cloth, silver broken shield and star, muted trim. No swapped house colours."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p14-panel03",
+      "image_sha256": "286656a02ad3cd7b110dfd04da43872a5607fdeae98057d59084783f6a3c1132",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually compared final full-size banner to the canonical reference: crimson cloth, silver broken shield and star, muted trim. No swapped house colours."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p04-panel03",
+      "image_sha256": "c19e5bb365405d27d030abcc40a0a6f7e1ad3e5eef0d383fa127f934aa0d1d45",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p08-panel01",
+      "image_sha256": "5732162a3e973e4d15225837c7de4c65bf8b77691475bcc850f298518756928e",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p08-panel03",
+      "image_sha256": "a2e927ce4bfb416aa8831f631d93237749bef66d041c71d28b97873194964633",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p10-panel01",
+      "image_sha256": "e50b9ae5ab08d9e3e0ec631337b1a4dc5d3cc5a5b799e12b28ad86a34042c87b",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p10-panel02",
+      "image_sha256": "060bcd9b740e5b6721032ff71901d7feea539079d85fe5f0e34cc8625fa3fb93",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p10-panel03",
+      "image_sha256": "c49eff4ef887f96b20071bf02965cf5d7c525cdb1b1dd97dedc9123c5a7a2e2f",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p11-panel01",
+      "image_sha256": "91355ec0eb4e4f3c22662745cad784792662f8879fda3e3cf4c2235746f83fe9",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p11-panel02",
+      "image_sha256": "2e5db5ab182e1159ff18f66c8eba02e6140552ae0eeac8e6e7a3049ac8f84cf8",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p11-panel03",
+      "image_sha256": "3073e3645788d67c5494cbf0fe5710bf47c093ce8918fae2948b8777ea3a1ead",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p11-panel04",
+      "image_sha256": "3aa357148fee9271bbee87ca06c04979922c44a033272b3e3a31e2f68159b384",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p11-panel05",
+      "image_sha256": "767b3801cad59af07c3aed6320fbb5b2eb369ae3a4e31c893171f24141d1d548",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p12-panel02",
+      "image_sha256": "1a2042c28c1b26981b81520c038d7212c5e61774664c777d2c9279d5d4f12f8e",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p12-panel03",
+      "image_sha256": "e70a630eb34776d444c3987c1ad3719a63b8d83fd59cf4b8721830b641e283d9",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Previously published artwork; unchanged and not assessed by this review."
+    }
+  ]
+}

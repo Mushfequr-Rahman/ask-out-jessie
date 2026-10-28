@@ -1631,6 +1631,135 @@
       ],
       "footer": "PROLOGUE · THREE BASTIONS",
       "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 14,
+      "Title": "The Shattered Plains",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p14-panel01.png",
+          "caption": "The Argonaut.",
+          "narration": "Onlooker: “One ship against three? He’s not coming back.”",
+          "image_alt": "Civilians watch Rovan’s Argonaut leave the conquered city and predict his defeat.",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 288.688
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The Argonaut.",
+              "bounds": {
+                "x": 20,
+                "y": 20,
+                "width": 280,
+                "height": 42
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Onlooker: “One ship against three? He’s not coming back.”",
+              "bounds": {
+                "x": 280,
+                "y": 192.688,
+                "width": 648,
+                "height": 60
+              }
+            }
+          ],
+          "scene_id": "prologue-p14-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p14-panel02.png",
+          "caption": "The Shattered Plains.",
+          "narration": "Huge rocks crowded the sky. Between them, magnetic currents dragged at every hull.",
+          "image_alt": "The Argonaut enters the Shattered Plains amid huge floating rocks and violent magnetic currents.",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 298.688,
+            "width": 952,
+            "height": 670.624
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The Shattered Plains.",
+              "bounds": {
+                "x": 20,
+                "y": 20,
+                "width": 280,
+                "height": 42
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Huge rocks crowded the sky. Between them, magnetic currents dragged at every hull.",
+              "bounds": {
+                "x": 280,
+                "y": 574.624,
+                "width": 648,
+                "height": 60
+              }
+            }
+          ],
+          "scene_id": "prologue-p14-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p14-panel03.png",
+          "caption": "His choice.",
+          "narration": "Rovan: “We’ll face them here. They can’t hold formation between those rocks.”\nGrievous: “They’ll have to split up.”",
+          "image_alt": "Rovan and Grievous plan to split the three enemy Bastions among separate rock channels.",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 979.312,
+            "width": 952,
+            "height": 288.688
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "His choice.",
+              "bounds": {
+                "x": 20,
+                "y": 20,
+                "width": 280,
+                "height": 42
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “We’ll face them here. They can’t hold formation between those rocks.”",
+              "bounds": {
+                "x": 280,
+                "y": 120.688,
+                "width": 648,
+                "height": 60
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Grievous: “They’ll have to split up.”",
+              "bounds": {
+                "x": 24,
+                "y": 192.688,
+                "width": 648,
+                "height": 60
+              }
+            }
+          ],
+          "scene_id": "prologue-p14-panel03",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · THE SHATTERED PLAINS",
+      "layout_mode": "fixed"
     }
   ]
 }

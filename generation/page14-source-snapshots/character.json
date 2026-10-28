@@ -1,0 +1,139 @@
+{
+  "characters": [
+    {
+      "id": "rovan-vey",
+      "name": "Rovan Vey",
+      "title": "Duke",
+      "duchy_id": "veymarch",
+      "status": "A duke in name only at the opening",
+      "rise_to_power": "Protected other cities and their ships from pirates.",
+      "initial_condition": "Depleted fleet, few resources, unable to pay his soldiers despite their sacrifices.",
+      "motivation": "Resents wealthy rulers who benefited from his protection and declares he will define his own future and take what is his.",
+      "key_quote": "I will define my own future. We sail for Auric Reach. I will take what is mine.",
+      "military": {
+        "initial_capital_ship_count": 1,
+        "capital_design_id": "capital-bastion",
+        "seized_merchant_design_id": "trader-caravan",
+        "veterans": "Exceptionally well trained",
+        "recruitment": "Funded and equipped from seized resources; veterans drill recruits",
+        "total_soldier_count": null,
+        "captured_ship_count": null,
+        "flagship_id": "argonaut"
+      },
+      "exclusive_knowledge": "Secret Type C crafting knowledge gained through experience",
+      "visual_concept": {
+        "status": "provisional artwork, not established biography",
+        "appearance": "Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf"
+      },
+      "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.",
+      "reference_images": [
+        "references/panels/duke-seizure-crimson.png"
+      ]
+    },
+    {
+      "id": "general-grievous",
+      "name": "General Grievous",
+      "role": "Rovan’s right-hand man",
+      "relationship_to_rovan": "Shares the fleet accounts, hears his frustration, and accompanies his seizure and campaign.",
+      "origin_and_history": null,
+      "visual_concept": {
+        "status": "provisional project artwork, not established species or biography",
+        "appearance": "Older bald human officer with a grey moustache, dark olive coat and bronze epaulettes"
+      },
+      "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.",
+      "reference_images": [
+        "references/panels/duke-seizure-crimson.png"
+      ]
+    },
+    {
+      "id": "honour-guard",
+      "name": "Rovan’s five honour-guard captains",
+      "member_count": 5,
+      "individual_names": null,
+      "equipment": {
+        "metal_id": "type-c",
+        "armour_colour": "silvery",
+        "weapon_protection": "Impenetrable and impervious to weapons",
+        "complete_armour_and_weapon_sets": 5,
+        "armour_construction": "Practical man-made brushed silver with tool marks and restrained machined details; sealed continuous coverage with no joints or gaps.",
+        "weapon_ids": [
+          "condenser-lance",
+          "field-broadsword",
+          "wind-twin-swords",
+          "shield-warhammer",
+          "point-scythe"
+        ],
+        "armour_detail": "Brushed silver shells with narrow aged brass edging, small fittings and chased geometric details. Crimson enamel badges show Veymarch’s silver broken shield and eight-point star.",
+        "house_badge_duchy_id": "veymarch"
+      },
+      "mobility": "Drift along magnetic fields and leap between ships",
+      "source_asset_id": "prologue-p09-panel02",
+      "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal.",
+      "visual_profiles": [
+        {
+          "weapon_id": "condenser-lance",
+          "build": "Tall and lean",
+          "helmet": "Narrow, round-topped closed welding-mask shape"
+        },
+        {
+          "weapon_id": "field-broadsword",
+          "build": "Broad and stocky",
+          "helmet": "Blunt rectangular closed helmet"
+        },
+        {
+          "weapon_id": "wind-twin-swords",
+          "build": "Slight and agile",
+          "helmet": "Streamlined closed flight helmet"
+        },
+        {
+          "weapon_id": "shield-warhammer",
+          "build": "Heavy, barrel-chested",
+          "helmet": "Low rounded closed dome"
+        },
+        {
+          "weapon_id": "point-scythe",
+          "build": "Tall and slender",
+          "helmet": "Elongated plain closed hood-like shell"
+        }
+      ],
+      "reference_images": [
+        "references/panels/type-c-seamless-five-heraldic.png"
+      ]
+    },
+    {
+      "id": "auric-ruler",
+      "name": null,
+      "title": "Ruler of Auric Reach",
+      "duchy_id": "auric-reach",
+      "role": "Rovan’s opponent",
+      "current_action": "Dispatches three capital ships toward Rovan",
+      "visual_concept": {
+        "status": "provisional artwork; name and biography are unestablished",
+        "appearance": "An adult ruler in gold and navy, partly shadowed, beneath the Auric Reach balance banner"
+      },
+      "reference_images": [
+        "references/panels/auric-counterorder.png"
+      ]
+    },
+    {
+      "id": "veymarch-courier",
+      "name": "The schooner courier",
+      "role": "Unnamed Veymarch messenger who warns Rovan that three Auric Reach Bastions are approaching.",
+      "duchy_id": "veymarch",
+      "visual_concept": {
+        "appearance": "Young adult human messenger with short brown hair, flying goggles pushed onto forehead, worn bronze flight jacket over a crimson base layer; no silver armour."
+      },
+      "uniform_standard": "Practical bronze and leather flight gear over crimson cloth; Veymarch affiliation.",
+      "reference_images": []
+    },
+    {
+      "id": "auric-city-onlookers",
+      "name": "The conquered city’s onlookers",
+      "role": "Unnamed civilian inhabitants who watch the Argonaut depart and assume Rovan will lose.",
+      "visual_concept": {
+        "appearance": "A small mixed group of adult civilians in plain worn work coats, wool scarves and everyday clothes; no military uniforms or silver armour."
+      },
+      "reference_images": []
+    }
+  ]
+}

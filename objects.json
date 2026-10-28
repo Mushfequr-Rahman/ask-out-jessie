@@ -439,6 +439,20 @@
         },
         "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
       }
+    },
+    {
+      "id": "argonaut",
+      "kind": "ship",
+      "name": "Argonaut",
+      "description": "Rovan’s ONE personal capital ship, using the Bastion design: rigid bronze mechanical Zeppelin fortress with three keels, command citadel, gun decks and green magnetic engines. Veymarch crimson banners with SILVER broken shield and star. Argonaut is a specific ship, not another fleet or a new ship class.",
+      "reference_images": [
+        "assets/capital-bastion.png"
+      ],
+      "world_reference": "/named_ships/0",
+      "duchy_id": "veymarch",
+      "constraints": [
+        "Exactly one Argonaut. No extra friendly capital ship. Do not add wooden hulls, sails, balloons or other vessels from references."
+      ]
     }
   ]
 }

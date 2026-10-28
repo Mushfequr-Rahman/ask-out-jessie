@@ -41,12 +41,28 @@ assert isinstance(characters, list) and characters, 'Character source must conta
 character_ids = {character['id'] for character in characters}
 assert len(character_ids) == len(characters), 'Duplicate character IDs'
 assert all(isinstance(identifier, str) and identifier for identifier in character_ids), 'Invalid character ID'
+named_ships=world.get('named_ships', [])
+named_ship_ids={ship['id'] for ship in named_ships}
+assert len(named_ship_ids)==len(named_ships), 'Duplicate named ships'
+designs={ship['id']:ship for ship in world['ship_designs']}
+for ship in named_ships:
+    assert ship['design_id'] in designs and ship['class_id']==designs[ship['design_id']]['class_id'], 'Unknown named ship design/class'
+    assert ship['commander_id'] in character_ids and ship['duchy_id'] in {d['id'] for d in duchies}, 'Unknown named ship commander/house'
+for character in characters:
+    if 'flagship_id' in character.get('military', {}):
+        assert character['military']['flagship_id'] in named_ship_ids, 'Unknown flagship'
+location_ids={location['id'] for location in world['locations']}
+assert len(location_ids)==len(world['locations']), 'Duplicate location IDs'
 for duchy in duchies:
     if duchy.get('ruler_id') is not None:
         assert duchy['ruler_id'] in character_ids, 'Unknown duchy ruler'
 conflict = world['society'].get('current_conflict', {})
 if 'target_character_id' in conflict:
     assert conflict['target_character_id'] in character_ids, 'Unknown conflict target'
+if 'planned_battlefield_id' in conflict:
+    assert conflict['planned_battlefield_id'] in location_ids, 'Unknown battlefield'
+if 'friendly_capital_ship_id' in conflict:
+    assert conflict['friendly_capital_ship_id'] in named_ship_ids, 'Unknown friendly capital ship'
 for metal in world['metals']:
     for field in ['specimen_asset_id', 'core_asset_id']:
         if field in metal:

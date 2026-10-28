@@ -1,0 +1,8 @@
+{
+  "id": "prologue-p14-panel03",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/corrections/prologue-p14-panel03.json",
+  "output_file": "assets/panels/prologue-p14-panel03.png",
+  "generated_original": "/workspace/generated_images/exec-2ec08332-90ca-4912-965e-11d1c9146987.png",
+  "reason": "Match bridge-window background to bare Shattered Plains rock field."
+}

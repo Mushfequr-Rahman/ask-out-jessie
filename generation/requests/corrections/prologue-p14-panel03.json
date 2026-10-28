@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p14-panel03",
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch"
+    ]
+  },
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p14-panel03-first-pass.png",
+      "role": "Remove buildings from rock-field background only"
+    }
+  ],
+  "prompt": "Precise background-only continuity edit. Preserve Rovan and General Grievous, both faces, coats, hands, the chart table and ALL FOUR ship tokens, every speech balloon and ALL text EXACTLY unchanged. Preserve the crimson banner with SILVER broken shield and star. Through the bridge windows, REMOVE EVERY BUILDING, tower, skyline, wall, city or settlement from the floating rock surfaces. Replace these distant city-topped islands with BARE jagged floating boulders and rock slabs in the SAME positions, some obstructing the skyline. Add strong green magnetic arcs between those BARE ROCKS outside the windows. This is the dangerous Shattered Plains: rocks and magnetic currents, no inhabited islands or cities here. Keep framing, aspect ratio, lighting, all foreground machinery and all lettering positions unchanged. Do not add ships or people. Only repaint the scenery visible through the windows as bare floating rock and magnetic currents."
+}
