@@ -31,6 +31,8 @@ function validateChapter(chapter) {
       if (!panel || typeof panel.image_src !== 'string' ||
           !/^assets\/[a-zA-Z0-9_/-]+\.(png|jpe?g|webp|svg)$/.test(panel.image_src) ||
           typeof panel.caption !== 'string') throw Error('Invalid panel');
+      if (panel.priority !== undefined && (!Number.isInteger(panel.priority) || panel.priority < 1 || panel.priority > 5)) throw Error('Priority must be 1–5');
+      if (panel.image_fit !== undefined && !['cover', 'contain'].includes(panel.image_fit)) throw Error('Invalid image fit');
       for (const field of ['narration', 'image_alt']) {
         if (panel[field] !== undefined && typeof panel[field] !== 'string') throw Error('Invalid panel text');
       }
@@ -57,9 +59,11 @@ function renderChapter(chapter) {
     const grid = element('div', 'panel-grid');
     page.panels.forEach(panel => {
       const box = element('div', 'page-panel');
+      box.dataset.priority = String(panel.priority ?? 3);
       const image = element('img', 'panel-art');
       image.src = panel.image_src;
       image.alt = panel.image_alt ?? panel.caption;
+      image.style.objectFit = panel.image_fit ?? 'cover';
       image.loading = index === 0 ? 'eager' : 'lazy';
       image.decoding = 'async';
       image.addEventListener('load', () => {
@@ -73,7 +77,15 @@ function renderChapter(chapter) {
       link.append(image);
       const copy = element('div', 'panel-copy');
       if (panel.caption) copy.append(element('p', 'panel-caption', panel.caption));
-      if (panel.narration) copy.append(element('p', 'panel-narration', panel.narration));
+      if (panel.narration) {
+        const story = element('div', 'panel-story');
+        panel.narration.split('\n').filter(Boolean).forEach(line => {
+          const narration = element('p', 'panel-narration', line);
+          if (/^[^:\n]{1,35}: [“"]/.test(line) || /^“/.test(line)) narration.classList.add('dialogue-bubble');
+          story.append(narration);
+        });
+        copy.append(story);
+      }
       box.append(link, copy);
       grid.append(box);
     });
@@ -126,7 +138,7 @@ function layoutPage(article) {
   const boxes = [...article.querySelectorAll('.page-panel')];
   const panels = boxes.map(box => {
     const img = box.querySelector('img');
-    return {aspectRatio: img.naturalWidth && img.naturalHeight ? img.naturalWidth / img.naturalHeight : 1.5};
+    return {aspectRatio: img.naturalWidth && img.naturalHeight ? img.naturalWidth / img.naturalHeight : 1.5, priority: Number(box.dataset.priority)};
   });
   let plan;
   for (const fontSize of [16, 15, 14, 13, 12]) {
@@ -137,7 +149,7 @@ function layoutPage(article) {
       if (!cache.has(key)) {
         const copy = boxes[index].querySelector('.panel-copy').cloneNode(true);
         copy.classList.add('copy-measure');
-        copy.style.width = `${width - 4}px`;
+        copy.style.width = `${width - 28}px`;
         copy.style.maxHeight = 'none';
         article.append(copy);
         cache.set(key, Math.ceil(copy.getBoundingClientRect().height / currentScale(article)));
@@ -151,10 +163,10 @@ function layoutPage(article) {
     // Extremely long author text remains available in the page transcript.
     plan = ComicLayout.fitPanels(panels, CANVAS.panelWidth, CANVAS.panelHeight, () => 220);
   }
-  plan.boxes.forEach(({index, x, y, width, height, copyHeight}) => {
+  plan.boxes.forEach(({index, x, y, width, height}) => {
     const box = boxes[index];
     Object.assign(box.style, {left: `${x}px`, top: `${y}px`, width: `${width}px`, height: `${height}px`});
-    box.querySelector('.panel-copy').style.maxHeight = `${copyHeight}px`;
+    box.querySelector('.panel-copy').style.maxHeight = `${height - 28}px`;
   });
   article.dataset.rows = plan.rows.join('-');
   scalePage(article);

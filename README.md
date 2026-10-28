@@ -84,6 +84,10 @@ The asset script first validates and syncs each chapter JSON into the world refe
 
 ## Fixed comic pages
 
-Every page has a 1,000 × 1,400 logical canvas. `panel-layout.js` examines ordered arrangements of up to three panels per row and four rows per page, measures each caption/narration block, reserves room for text, and scores how much image area is visible. Images use `contain`, so no illustration is cropped. All supported 1–7-panel pages retain reading order. The browser scales the complete canvas to the available width; **Full size** shows its native dimensions in a scrollable viewport, and **Read page text** provides readable captions/narration outside the scaled page.
+Every page has a 1,000 × 1,400 logical canvas. Each panel in chapter JSON has a `priority` from 1 to 5. `panel-layout.js` evaluates ordered row arrangements, allocates space by priority, measures the story text, and balances image proportions against the requested emphasis. Major reveals and action shots receive more area; smaller beats connect them without changing reading order. The algorithm supports up to seven images on a page.
+
+Artwork fills the panels, with cream narration boxes and dialogue balloons over it. The group introduction uses `image_fit: "contain"` to keep all five captains visible. **Full size** shows the native canvas in a scrollable viewport; **Read page text** provides the complete story at normal text sizes. Click any panel image to open its uncropped original.
 
 The Silver Guard have their own introduction on page 9. Page 10 follows the troops entering town, page 11 shows the captains’ assault, and page 12 contains the rival’s response.
+
+The Silver Guard’s current armour includes restrained brass fittings and Veymarch’s silver broken-shield-and-star badge on crimson enamel. Chapter prose is edited for scene progression and natural dialogue; all lore and asset references remain in `world.json`.

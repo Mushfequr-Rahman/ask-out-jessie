@@ -57,8 +57,8 @@ Character appearances are working designs. Map labels are HTML so names and loca
 - `auric-raid-crimson.png`: the first organised inter-duchy invasion since the Fracture.
 - `ships-confiscated-crimson.png`: ships seized at the captured docks.
 - `city-captured-crimson.png`: the baron's city surrenders to the trained force.
-- `type-c-seamless-forge-industrial.png`: Rovan privately crafts the stolen silver metal.
-- `type-c-seamless-five-industrial.png`: exactly five seamless silver captains with a lance, broadsword, twin swords, war hammer and scythe, shown in full.
+- `type-c-seamless-forge-heraldic.png`: Rovan privately crafts the stolen silver metal.
+- `type-c-seamless-five-heraldic.png`: exactly five seamless silver captains with a lance, broadsword, twin swords, war hammer and scythe, shown in full.
 - Retired magnetic-boarding illustration: two of the five guards demonstrate field drifting between ships; their armour is not penetrated by weapons.
 
 All thirty-seven comic panels must use distinct source images and file hashes. The five-guard line-up must show exactly five guards, not Rovan or the general as a sixth figure. The initial city capture uses bronze-armoured veterans, before the silver sets exist.
@@ -92,8 +92,12 @@ The Rovan scenes on pages 5–8 use `-crimson.png` replacements. Their military 
 
 ## Seamless Type C redesign
 
-Pages 9 and 11 use seven unique illustrations: `type-c-seamless-forge-industrial.png`, `type-c-seamless-five-industrial.png`, `type-c-lance-assault-industrial.png`, `type-c-broadsword-breach-industrial.png`, `type-c-twin-sword-flight-industrial.png`, `type-c-warhammer-shield-industrial.png` and `type-c-scythe-city-seized-industrial.png`. The previous three page-9 illustrations are retired. The silver armour has continuous coverage, with brushed metal and restrained machined details and external crimson cloth. Each captain has a different magnetic weapon.
+Pages 9 and 11 use seven unique illustrations: `type-c-seamless-forge-heraldic.png`, `type-c-seamless-five-heraldic.png`, `type-c-lance-assault-heraldic.png`, `type-c-broadsword-breach-heraldic.png`, `type-c-twin-sword-flight-heraldic.png`, `type-c-warhammer-shield-heraldic.png` and `type-c-scythe-city-seized-heraldic.png`. The previous three page-9 illustrations are retired. The silver armour has continuous coverage, with brushed metal and restrained machined details and external crimson cloth. Each captain has a different magnetic weapon.
 
 ## Practical Silver Guard and the troop advance
 
-The current Type C artwork uses the `-industrial.png` variants: restrained brushed silver, tool marks, simple closed helmets and distinct body silhouettes. The earlier grand armour concepts are retired. Page 10 adds `troops-dock-run.png`, `troops-gate-charge.png` and `troops-street-advance.png`. The Prologue has 12 fixed-size pages and 37 unique comic illustrations; all 52 current assets are catalogued in `ASSETS.md` and `assets.html`.
+The current Type C artwork uses the `-heraldic.png` variants: restrained brushed silver, tool marks, simple closed helmets and distinct body silhouettes. The earlier grand armour concepts are retired. Page 10 adds `troops-dock-run.png`, `troops-gate-charge.png` and `troops-street-advance.png`. The Prologue has 12 fixed-size pages and 37 unique comic illustrations; all 52 current assets are catalogued in `ASSETS.md` and `assets.html`.
+
+## House insignia and comic presentation
+
+The silver armour now has narrow aged-brass edging, small mechanical fittings and crimson enamel badges bearing Veymarch’s silver broken shield and eight-point star. The five distinct helmet/body silhouettes and weapon abilities remain unchanged. Each published panel has a priority from 1 to 5; the comic layout gives larger story beats more space and overlays narration/dialogue on the artwork. All 37 panels have revised prose and dialogue.

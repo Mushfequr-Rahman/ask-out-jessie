@@ -152,3 +152,7 @@ Rovan’s one-capital-ship fleet and the five captains attack another small Auri
 The Silver Guard wear practical man-made brushed silver armour with tool marks and restrained engineering details. Their builds and closed helmet shapes distinguish them; elaborate crests, gilding and ceremonial filigree are removed. Sealed Type C coverage, external crimson cloth and the five established weapon abilities are retained.
 
 Page 9 introduces the five captains in the workshop. Page 10 follows ordinary bronze-and-crimson troops running from the fleet into the town. Page 11 shows the Silver Guard fighting its guards and seizing the town. Page 12 returns to Rovan’s council and Auric Reach’s three-ship response.
+
+## House insignia and comic presentation
+
+The silver armour now has narrow aged-brass edging, small mechanical fittings and crimson enamel badges bearing Veymarch’s silver broken shield and eight-point star. The five distinct helmet/body silhouettes and weapon abilities remain unchanged. Each published panel has a priority from 1 to 5; the comic layout gives larger story beats more space and overlays narration/dialogue on the artwork. All 37 panels have revised prose and dialogue.

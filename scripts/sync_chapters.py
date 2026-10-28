@@ -20,6 +20,8 @@ def validate_chapter(chapter):
             assert isinstance(panel, dict), 'Panel must be an object'
             assert isinstance(panel.get('image_src'), str) and re.fullmatch(r'assets/[a-zA-Z0-9_/-]+\.(png|jpe?g|webp|svg)', panel['image_src']), 'Invalid image_src'
             assert isinstance(panel.get('caption'), str), 'Panel needs a caption string (may be empty)'
+            assert 'priority' not in panel or type(panel['priority']) is int and 1 <= panel['priority'] <= 5, 'Priority must be 1–5'
+            assert 'image_fit' not in panel or panel['image_fit'] in ['cover', 'contain'], 'Invalid image fit'
             for field in ['narration', 'image_alt']:
                 assert field not in panel or isinstance(panel[field], str), f'Invalid {field}'
             if 'layout' in panel:
@@ -34,6 +36,7 @@ def chapter_pages(chapter):
         {'number': page['Page Number'], 'title': page['Title'], 'panels': [
             {'number': number, 'asset_id': Path(panel['image_src']).stem,
              'caption': panel['caption'], 'narration': panel.get('narration', ''),
+             'priority': panel.get('priority', 3),
              'image_description': panel.get('image_alt', panel['caption'])}
             for number, panel in enumerate(page['panels'], 1)]}
         for page in chapter['pages']]

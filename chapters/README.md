@@ -12,7 +12,8 @@ Each published chapter has one JSON file. `prologue.json` is the source for all 
       "panels": [
         {
           "image_src": "assets/fracture.png",
-          "caption": "THE NUCLEAR WAR DID NOT END WITH RUINS."
+          "caption": "The last war.",
+          "priority": 5
         }
       ]
     }
@@ -22,9 +23,12 @@ Each published chapter has one JSON file. `prologue.json` is the source for all 
 
 Page numbers must start at 1 and run consecutively. Every page must have **1–7 panels**. `image_src` and `caption` are required; captions may be empty. The reader and repository validator enforce this limit. All text is rendered as text, so HTML tags in captions are displayed literally.
 
+Every current panel declares a `priority` integer from **1 to 5**: 1 is a small connective beat, 3 is a normal story beat, and 5 is the page’s main reveal or action. Higher priorities receive more page area, not a new reading position. Older files without the field default to 3; invalid values are rejected.
+
 Optional panel fields:
 
-- `narration`: text below the caption; use `\n` for a line break.
+- `narration`: story prose or dialogue inset over the artwork; use `\n` for a paragraph or a change of speaker. Lines such as `Rovan: “Hold the line.”` render as dialogue balloons.
+- `image_fit`: `cover` (default) fills the comic panel and crops to its shape; `contain` preserves a complete group shot, such as the five captains’ introduction. Clicking an image always opens the full original.
 - `image_alt`: accessible image description (defaults to the caption).
 - Legacy `layout` values are accepted for compatibility but no longer position panels. The automatic fixed-canvas algorithm uses image proportions and measured text instead.
 - Legacy `full_size_link` is accepted; every illustration now links to its original for full-size viewing.
@@ -45,4 +49,4 @@ For a future chapter, copy the Prologue HTML shell, update its title/description
 
 Serve the site over HTTP (for example, `python3 -m http.server 8000`). Fetching chapter JSON requires HTTP; opening the HTML directly from disk is unsupported. GitHub Pages serves these JSON files without a build step.
 
-Each page uses the same 1,000 × 1,400 canvas. The renderer packs 1–7 panels dynamically in reading order, reserves text space, and contains each whole image. The canvas scales uniformly in **Fit width** mode; **Full size** enables native-size scrolling. The separate **Read page text** transcript always uses normal readable text sizes.
+Each page uses the same 1,000 × 1,400 canvas. The renderer packs 1–7 panels dynamically in reading order, allocating area by priority and reserving room for inset narration/dialogue. Full-bleed artwork fills the panels. The canvas scales uniformly in **Fit width** mode; **Full size** enables native-size scrolling. The separate **Read page text** transcript always uses normal readable text sizes.

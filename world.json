@@ -538,10 +538,12 @@
           "wind-twin-swords",
           "shield-warhammer",
           "point-scythe"
-        ]
+        ],
+        "armour_detail": "Brushed silver shells with narrow aged brass edging, small fittings and chased geometric details. Crimson enamel badges show Veymarch’s silver broken shield and eight-point star.",
+        "house_badge_duchy_id": "veymarch"
       },
       "mobility": "Drift along magnetic fields and leap between ships",
-      "source_asset_id": "type-c-seamless-five-industrial",
+      "source_asset_id": "type-c-seamless-five-heraldic",
       "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal.",
       "visual_profiles": [
         {
@@ -673,22 +675,25 @@
               {
                 "number": 1,
                 "asset_id": "fracture",
-                "caption": "THE NUCLEAR WAR DID NOT END WITH RUINS.",
-                "narration": "The Earth itself shattered.",
+                "caption": "The last war.",
+                "narration": "By the time the guns fell silent, the Earth had broken apart.",
+                "priority": 5,
                 "image_description": "Fractured landmasses suspended in a glowing magnetic field"
               },
               {
                 "number": 2,
                 "asset_id": "magnetic-islands",
-                "caption": "CONTINENTS BECAME ISLANDS IN THE VOID.",
-                "narration": "Turbulent magnetic waves held the fragments together.\nViolent in motion. Predictable in their patterns.",
+                "caption": "Fragments of home.",
+                "narration": "Continents hung in pieces. Magnetic storms lashed the gaps, but beneath the violence ran patterns the survivors could learn.",
+                "priority": 3,
                 "image_description": "Magnetic currents arc between the exposed undersides of floating islands"
               },
               {
                 "number": 3,
                 "asset_id": "survivors",
-                "caption": "HUMANITY WAS ALMOST WIPED OUT.",
-                "narration": "Those who survived learned to live\non the pieces of their old world.",
+                "caption": "The people who remained.",
+                "narration": "They made their homes on whatever ground was left, and learned to watch the sky.",
+                "priority": 2,
                 "image_description": "A small human silhouette standing on a floating island"
               }
             ]
@@ -700,22 +705,25 @@
               {
                 "number": 1,
                 "asset_id": "human-adaptation",
-                "caption": "GENERATIONS PASSED IN THE MAGNETIC FIELDS.",
-                "narration": "Humanity slowly evolved.\nNew attributes emerged in a changed world.",
+                "caption": "Generations later.",
+                "narration": "Children grew up inside the magnetic fields. Their children did too. Slowly, the fields changed them.",
+                "priority": 2,
                 "image_description": "Three generations of survivors study a magnetic sensing instrument in their settlement"
               },
               {
                 "number": 2,
                 "asset_id": "ore",
-                "caption": "NUCLEAR MATERIALS FUSED INTO SOMETHING NEW.",
-                "narration": "A family of metals unlike anything from the old world.",
+                "caption": "Something in the wreckage.",
+                "narration": "Nuclear materials had fused into a metal no one had seen before.",
+                "priority": 3,
                 "image_description": "Luminous Magneton ore embedded in fractured rock"
               },
               {
                 "number": 3,
                 "asset_id": "polarity-engine",
-                "caption": "THEY CALLED IT MAGNETON.",
-                "narration": "What began as a discovery\nbecame the foundation of civilization.",
+                "caption": "Magneton.",
+                "narration": "At first it was a discovery. In time, it would become the one thing no city could live without.",
+                "priority": 5,
                 "image_description": "Two glowing green Type B Magneton cores of opposite polarity inside a precision motor"
               }
             ]
@@ -727,22 +735,25 @@
               {
                 "number": 1,
                 "asset_id": "city",
-                "caption": "OPPOSITE POLARITIES. CONSTANT MOTION.",
-                "narration": "Oppositely polarized Type B cores drove magnetic motors.\nThe motors powered a new age.",
+                "caption": "A way to keep going.",
+                "narration": "Opposite-polarity Type B cores drove the new motors. For the first time in generations, there was power to spare.",
+                "priority": 3,
                 "image_description": "A floating city built above a glowing Magneton engine"
               },
               {
                 "number": 2,
                 "asset_id": "gravity-chamber",
-                "caption": "THE ENGINES DID MORE THAN KEEP THE LIGHTS ON.",
-                "narration": "They stabilized the islands and generated\na field that restored the feel of the old gravity.",
+                "caption": "Under the city.",
+                "narration": "The engines steadied the islands and restored a familiar pull beneath people’s feet.",
+                "priority": 2,
                 "image_description": "People stand upright inside a city gravity-control chamber while fragments float outside"
               },
               {
                 "number": 3,
                 "asset_id": "city-street",
-                "caption": "CITIES ROSE ABOVE THE BROKEN EARTH.",
-                "narration": "Magneton kept them afloat.\nEvery city depended on its supply.",
+                "caption": "Home, above the clouds.",
+                "narration": "Streets filled again. Workshops opened. Somewhere below every city, Magneton kept the engines turning.",
+                "priority": 5,
                 "image_description": "A market street powered by green conduits beneath the floating city’s towers"
               }
             ]
@@ -754,22 +765,25 @@
               {
                 "number": 1,
                 "asset_id": "mining-mole",
-                "caption": "THE FIRST BARONS WERE MINERS.",
-                "narration": "They extracted Magneton and built ships from it.\nMagnetic motors carried them between the islands.",
+                "caption": "The men who found the metal.",
+                "narration": "The first barons were miners. They dug out Magneton, built ships and carried it across the broken world.",
+                "priority": 3,
                 "image_description": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines"
               },
               {
                 "number": 2,
                 "asset_id": "mining-dock",
-                "caption": "TRADE ROUTES LED TO CITIES. MINING ROUTES LED TO POWER.",
-                "narration": "Those who controlled the mines and the fleets\nbecame the new ruling class.",
+                "caption": "Routes worth owning.",
+                "narration": "Trade made them wealthy. Control of the mines made them powerful.",
+                "priority": 5,
                 "image_description": "Ore is unloaded at a mining dock as a proprietor oversees trade"
               },
               {
                 "number": 3,
                 "asset_id": "ducal-assembly",
-                "caption": "THE CITIES GATHERED INTO DUCHIES.",
-                "narration": "Civilization returned to feudal rule.\nIts foundations were no longer land alone, but Magneton.",
+                "caption": "Eight duchies.",
+                "narration": "Cities gathered under their banners. The old world was gone, but people had found their way back to lords and subjects.",
+                "priority": 2,
                 "image_description": "Mining barons gather in a council chamber overlooking floating cities"
               }
             ]
@@ -781,22 +795,25 @@
               {
                 "number": 1,
                 "asset_id": "rovan-city-crimson",
-                "caption": "VEYMARCH. A DUKE IN NAME.",
-                "narration": "Duke Rovan Vey overlooks the small city his fleet can barely afford to protect.",
+                "caption": "Veymarch.",
+                "narration": "From above, Rovan’s city looked peaceful. He knew how little it would take to lose it.",
+                "priority": 3,
                 "image_description": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 2,
                 "asset_id": "unpaid-ledger-crimson",
-                "caption": "THE COST OF KEEPING THE ROUTES OPEN.",
-                "narration": "General Grievous: “The soldiers’ pay is overdue. The repair yards are waiting too.”",
+                "caption": "The accounts.",
+                "narration": "Grievous: “The soldiers’ pay is overdue, Your Grace. The repair yards are still waiting too.”",
+                "priority": 2,
                 "image_description": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 3,
                 "asset_id": "duke-resolve-crimson",
-                "caption": "OTHER DUKES GREW RICH. HIS FLEET GREW SMALLER.",
-                "narration": "Rovan: “We bled keeping pirates from their mining ships. They traded. They grew. And now I cannot pay the soldiers who made it possible.”",
+                "caption": "What protection had cost him.",
+                "narration": "Rovan: “Their ships got through because ours stood in the way. Now they have full vaults, and I have men waiting for their pay.”",
+                "priority": 5,
                 "image_description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson"
               }
             ]
@@ -808,22 +825,25 @@
               {
                 "number": 1,
                 "asset_id": "caravan-boarding-crimson",
-                "caption": "A CARAVAN FROM THE NEARBY DUCHY OF AURIC REACH.",
-                "narration": "Armoured soldiers board the trading ship. Charged Tesla guns hold the unarmed sailors at a standstill.",
+                "caption": "An Auric Reach Caravan.",
+                "narration": "The sailors stopped where they stood. Across the deck, green light gathered in the soldiers’ Tesla guns.",
+                "priority": 3,
                 "image_description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 2,
                 "asset_id": "duke-seizure-crimson",
-                "caption": "THE DUKE PRESENTS HIS CLAIM.",
-                "narration": "Rovan: “I seize this vessel of Auric Reach against the unpaid protection fees owed to my soldiers.”",
+                "caption": "A debt comes due.",
+                "narration": "Rovan: “You sailed under our protection. My soldiers are still waiting to be paid. Until that debt is settled, this ship is mine.”",
+                "priority": 5,
                 "image_description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 3,
                 "asset_id": "soldiers-cheer-crimson",
-                "caption": "THE SOLDIERS ANSWER WITH A CHEER.",
-                "narration": "The cheers roll across the deck. The sailors remain silent. Grievous watches both sides.",
+                "caption": "The answer.",
+                "narration": "His soldiers cheered. The sailors said nothing. Grievous watched both sides of the deck.",
+                "priority": 2,
                 "image_description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson"
               }
             ]
@@ -835,22 +855,25 @@
               {
                 "number": 1,
                 "asset_id": "rovan-future-crimson",
-                "caption": "ROVAN WILL NO LONGER WAIT FOR ANOTHER DUKE’S PERMISSION.",
-                "narration": "Rovan: “I will define my own future. We sail for Auric Reach. I will take what is mine.”",
+                "caption": "His own future.",
+                "narration": "Rovan: “I’ll define my own future. Set a course for Auric Reach. I’m done waiting for what we’re owed.”",
+                "priority": 5,
                 "image_description": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 2,
                 "asset_id": "recruit-drill-crimson",
-                "caption": "THE SEIZED RESOURCES BECOME PAY, EQUIPMENT, AND NEW RECRUITS.",
-                "narration": "His veterans are exceptionally well trained. Now they put that experience into drilling the new soldiers.",
+                "caption": "Pay. Equipment. Recruits.",
+                "narration": "The seized cargo gave Rovan something he had been running out of: time. His veterans put it to work on the drill ground.",
+                "priority": 2,
                 "image_description": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 3,
                 "asset_id": "single-bastion-departure",
-                "caption": "ONE CAPITAL SHIP. A SMALL FLEET. AN ARMY WITH PURPOSE.",
-                "narration": "Rovan takes his army toward Auric Reach. His fleet has only one capital ship: a Bastion.",
+                "caption": "One capital ship.",
+                "narration": "The Bastion led them out. Beside it sailed the seized Caravan, still a merchant vessel, now carrying Rovan’s supplies.",
+                "priority": 3,
                 "image_description": "A single Bastion capital ship departs with the seized merchant Caravan nearby"
               }
             ]
@@ -862,22 +885,25 @@
               {
                 "number": 1,
                 "asset_id": "auric-raid-crimson",
-                "caption": "THE FIRST WAR BETWEEN DUCHIES SINCE THE FRACTURE.",
-                "narration": "They have fought pirates. They have never faced an organised invasion. Rovan strikes at one of Auric Reach’s barons.",
+                "caption": "They had fought pirates before.",
+                "narration": "An army was different. Since the Fracture, no duchy had faced an organised invasion from another.",
+                "priority": 3,
                 "image_description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 2,
                 "asset_id": "ships-confiscated-crimson",
-                "caption": "THE DOCKS FALL. THE SHIPS ARE SEIZED.",
-                "narration": "His veterans move with a discipline the defenders cannot match. The baron loses control of the harbour.",
+                "caption": "The harbour.",
+                "narration": "Rovan’s veterans moved before the defenders could settle into their positions. One dock after another changed hands.",
+                "priority": 2,
                 "image_description": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson"
               },
               {
                 "number": 3,
                 "asset_id": "city-captured-crimson",
-                "caption": "THEN THE CITY FALLS WITH SURPRISING EASE.",
-                "narration": "Superior training gives Rovan his victory. The captured city and ships become the foundation of his growing power.",
+                "caption": "The first city.",
+                "narration": "It fell faster than Rovan had expected. Training and surprise had won him a harbour, ships and a foothold in Auric Reach.",
+                "priority": 5,
                 "image_description": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson"
               }
             ]
@@ -888,17 +914,19 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "type-c-seamless-forge-industrial",
-                "caption": "FIVE SUITS. BUILT BY HAND.",
-                "narration": "Rovan works the stolen Type C in his workshop. Tool marks remain on the brushed silver, but the metal forms a sealed, continuous shell without joints or gaps. There is no material for a sixth set.",
-                "image_description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts."
+                "asset_id": "type-c-seamless-forge-heraldic",
+                "caption": "In the workshop.",
+                "narration": "Rovan worked the stolen silver himself. When he finished, there were five sealed suits, five weapon sets, and no metal left for a sixth.",
+                "priority": 3,
+                "image_description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
               },
               {
                 "number": 2,
-                "asset_id": "type-c-seamless-five-industrial",
-                "caption": "MEET THE SILVER GUARD.",
-                "narration": "Five captains, five distinct silhouettes. The lean lancer. The broad swordsman. The agile twin-blade flyer. The heavy hammer bearer. The slender scythe wielder. Their practical helmets and builds differ; their sealed Type C protection is the same. Crimson cloth is worn over the metal.",
-                "image_description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe."
+                "asset_id": "type-c-seamless-five-heraldic",
+                "caption": "The Silver Guard.",
+                "narration": "A lance. A broadsword. Twin blades. A hammer. A scythe. The five captains wore Veymarch’s broken shield over their silver. They were still his soldiers; now they could cross a battlefield as no soldiers ever had.",
+                "priority": 5,
+                "image_description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
               }
             ]
           },
@@ -909,22 +937,25 @@
               {
                 "number": 1,
                 "asset_id": "troops-dock-run",
-                "caption": "THE FLEET CLOSES ON ANOTHER SMALL AURIC REACH CITY.",
-                "narration": "Bronze-armoured soldiers run from the ships onto the mooring docks. Their crimson cloth marks them as Rovan’s troops.",
+                "caption": "Another town ahead.",
+                "narration": "The gangway struck the dock. Boots hammered across it, and the first squad ran for the gate.",
+                "priority": 3,
                 "image_description": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks."
               },
               {
                 "number": 2,
                 "asset_id": "troops-gate-charge",
-                "caption": "THROUGH THE GATE. KEEP MOVING.",
-                "narration": "The veterans lead the charge into town. The guards fire from the stairs as the advancing soldiers cover one another.",
+                "caption": "Through the arch.",
+                "narration": "“Keep moving! Cover the stairs!”\nTesla fire snapped against the stone as the veterans pulled the rest of the squad through.",
+                "priority": 5,
                 "image_description": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs."
               },
               {
                 "number": 3,
                 "asset_id": "troops-street-advance",
-                "caption": "THE STREETS LEAD UPHILL TO THE GUARD’S LINE.",
-                "narration": "Squads run between the houses and fan out around the fountain. Ahead, the town guard holds its barricade.",
+                "caption": "Uphill.",
+                "narration": "At the fountain, the squads split. Beyond the next bend, the town guard was waiting behind a barricade.",
+                "priority": 2,
                 "image_description": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade."
               }
             ]
@@ -935,38 +966,43 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "type-c-lance-assault-industrial",
-                "caption": "THE LANCE BREAKS THE TOWN GUARD’S LINE.",
-                "narration": "Above the advancing troops, the lance captain condenses magnetic fields at the weapon’s tip and fires them like a cannon, breaking a defended position. Rovan’s single capital ship covers the assault.",
-                "image_description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city."
+                "asset_id": "type-c-lance-assault-heraldic",
+                "caption": "The lance fired first.",
+                "narration": "Magnetic lines tightened around its tip. Then the gathered force struck the guard’s position like a cannon shot.",
+                "priority": 3,
+                "image_description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
               },
               {
                 "number": 2,
-                "asset_id": "type-c-broadsword-breach-industrial",
-                "caption": "THE BROADSWORD OPENS THE HARBOUR.",
-                "narration": "Condensed fields make the blade immense. It cuts through a defending ship’s hull, opening a way for Rovan’s soldiers to board while the town guard falls back.",
-                "image_description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks."
+                "asset_id": "type-c-broadsword-breach-heraldic",
+                "caption": "Steel gave way.",
+                "narration": "The broadsword’s field swelled beyond its blade. One swing opened the ship’s hull, and Rovan’s soldiers rushed the breach.",
+                "priority": 5,
+                "image_description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
               },
               {
                 "number": 3,
-                "asset_id": "type-c-twin-sword-flight-industrial",
-                "caption": "ABOVE THE STREETS, THE TWIN BLADES RIDE THE WIND.",
-                "narration": "Their captain flies like a bird over the town guard, striking from above as bronze-armoured soldiers push through the streets below.",
-                "image_description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets."
+                "asset_id": "type-c-twin-sword-flight-heraldic",
+                "caption": "Above the streets.",
+                "narration": "The twin-blade captain climbed on the magnetic wind, turned in the air, and swept down over the guards.",
+                "priority": 2,
+                "image_description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
               },
               {
                 "number": 4,
-                "asset_id": "type-c-warhammer-shield-industrial",
-                "caption": "THE HAMMER FALLS. A SHIELD RISES.",
-                "narration": "The captain slams the war hammer into the paving. Its own magnetic field shields the advancing soldiers from the town guard’s Tesla guns.",
-                "image_description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire."
+                "asset_id": "type-c-warhammer-shield-heraldic",
+                "caption": "Behind the hammer.",
+                "narration": "The hammer hit the paving. A field rose around the advancing troops, and the guards’ Tesla fire broke against it.",
+                "priority": 3,
+                "image_description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
               },
               {
                 "number": 5,
-                "asset_id": "type-c-scythe-city-seized-industrial",
-                "caption": "TWO CONCENTRATED POINTS. ONE FINAL LEAP.",
-                "narration": "The scythe captain jumps between two points of magnetic energy into the command terrace. With the docks breached and the streets lost, the town guard lays down its guns. Rovan’s soldiers seize the city.",
-                "image_description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control."
+                "asset_id": "type-c-scythe-city-seized-heraldic",
+                "caption": "The last leap.",
+                "narration": "Two points of magnetic energy flared. The scythe captain stepped between them and stood on the command terrace. Below, the guards began laying down their guns. The town was Rovan’s.",
+                "priority": 4,
+                "image_description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
               }
             ]
           },
@@ -977,22 +1013,25 @@
               {
                 "number": 1,
                 "asset_id": "council-next-steps",
-                "caption": "IN THE CAPTURED CITY, ROVAN MEETS HIS GENERAL.",
-                "narration": "Grievous: “We have taken a city. Now we have to hold it.”\nRovan: “Repair the seized ships. Train the recruits. We decide what comes next.”",
+                "caption": "After the fighting.",
+                "narration": "Grievous: “We’ve taken the town. Holding it will be another matter.”\nRovan: “Then get the repair yards working. Keep the recruits training. We start there.”",
+                "priority": 3,
                 "image_description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room"
               },
               {
                 "number": 2,
                 "asset_id": "auric-counterorder",
-                "caption": "MEANWHILE, IN AURIC REACH.",
-                "narration": "The ruler of Auric Reach: “Dispatch three capital ships. Set course for Rovan.”",
+                "caption": "In Auric Reach.",
+                "narration": "The ruler of Auric Reach: “Three capital ships. Send them after Rovan.”",
+                "priority": 2,
                 "image_description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner"
               },
               {
                 "number": 3,
                 "asset_id": "three-capital-ships",
-                "caption": "THREE CAPITAL SHIPS DEPART.",
-                "narration": "Gold standards rise above three armoured hulls. While Rovan makes his plans, Auric Reach’s ships are already on their way.",
+                "caption": "Orders already given.",
+                "narration": "Three great hulls slipped their moorings. While Rovan planned his next move, the ships sent to stop him were already on their way.",
+                "priority": 5,
                 "image_description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan"
               }
             ]
@@ -1003,12 +1042,18 @@
     ],
     "asset_catalogue": "assets.html",
     "repository_asset_catalogue": "ASSETS.md",
-    "site_version": "fixed-industrial-1",
+    "site_version": "priority-heraldry-1",
     "page_canvas": {
       "width": 1000,
       "height": 1400,
       "units": "logical pixels",
-      "layout": "Ordered row packing scored by image aspect, text height and useful image area; scaled uniformly to fit width."
+      "layout": "Priority-weighted ordered comic rows. Priority 1–5 assigns page area to story beats; full-bleed art and inset captions/dialogue replace photo-card text strips. The five-person introduction contains whole images."
+    },
+    "panel_priority": {
+      "minimum": 1,
+      "maximum": 5,
+      "default": 3,
+      "meaning": "Higher values request larger panels. Reading order remains the JSON order."
     }
   },
   "terms": {
@@ -1895,156 +1940,156 @@
       ]
     },
     {
-      "id": "type-c-broadsword-breach-industrial",
-      "file": "assets/type-c-broadsword-breach-industrial.png",
-      "title": "The broadsword opens the harbour.",
+      "id": "type-c-broadsword-breach-heraldic",
+      "file": "assets/type-c-broadsword-breach-heraldic.png",
+      "title": "Steel gave way.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3366672,
-      "sha256": "df46bad6c517f699f3664a33bb1670a8c4031579980d1d8baa022f4267102d78",
+      "byte_size": 3252775,
+      "sha256": "618aa4e7ac5dda018419955e45d339dd0ad0f2177c86166094d7aaeb309305b6",
       "status": "current",
-      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 11,
           "panel": 2,
-          "description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks."
+          "description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
         }
       ]
     },
     {
-      "id": "type-c-lance-assault-industrial",
-      "file": "assets/type-c-lance-assault-industrial.png",
-      "title": "The lance breaks the town guard’s line.",
+      "id": "type-c-lance-assault-heraldic",
+      "file": "assets/type-c-lance-assault-heraldic.png",
+      "title": "The lance fired first.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3483714,
-      "sha256": "636f90cdb11b3584b00cdb82522b5edfcfb22357f46aba1221d89385a725a25b",
+      "byte_size": 3289118,
+      "sha256": "0fc5ecf0fcf7e9d32bcc5a6579fa10fc63a00277e1500260e39c9e428dde3595",
       "status": "current",
-      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 11,
           "panel": 1,
-          "description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city."
+          "description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
         }
       ]
     },
     {
-      "id": "type-c-scythe-city-seized-industrial",
-      "file": "assets/type-c-scythe-city-seized-industrial.png",
-      "title": "Two concentrated points. one final leap.",
+      "id": "type-c-scythe-city-seized-heraldic",
+      "file": "assets/type-c-scythe-city-seized-heraldic.png",
+      "title": "The last leap.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3420659,
-      "sha256": "4a297382392861c3e20315581181aeef2b2ff5a2fbb66710e1d7b250f8d0dfed",
+      "byte_size": 3244863,
+      "sha256": "797051c33a257fe4cb7ed88db580590ea7d8def42d05f52d2aadc90fb2a4c085",
       "status": "current",
-      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 11,
           "panel": 5,
-          "description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control."
+          "description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
         }
       ]
     },
     {
-      "id": "type-c-seamless-five-industrial",
-      "file": "assets/type-c-seamless-five-industrial.png",
-      "title": "Meet the silver guard.",
+      "id": "type-c-seamless-five-heraldic",
+      "file": "assets/type-c-seamless-five-heraldic.png",
+      "title": "The Silver Guard.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3009886,
-      "sha256": "de6f894b45a1c45f8edd0ccca0809d37a688c3ef9dd7ac48bdae5fa9b5efb825",
+      "byte_size": 3083046,
+      "sha256": "78a6d2164515a5c864c6cbe69d13c5827c4caca316faef8c96fa97707bf7d034",
       "status": "current",
-      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 9,
           "panel": 2,
-          "description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe."
+          "description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
         }
       ]
     },
     {
-      "id": "type-c-seamless-forge-industrial",
-      "file": "assets/type-c-seamless-forge-industrial.png",
-      "title": "Five suits. built by hand.",
+      "id": "type-c-seamless-forge-heraldic",
+      "file": "assets/type-c-seamless-forge-heraldic.png",
+      "title": "In the workshop.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3061148,
-      "sha256": "d23ac86432a2984c4bc3fd75e70008ce05f5598d36a350dfcb3739fa1f44b1c1",
+      "byte_size": 3008879,
+      "sha256": "aa28a59a988d90e56b8ee1ff72fabaf2dc126868dc6356b0beb4dd026b882a51",
       "status": "current",
-      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 9,
           "panel": 1,
-          "description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts."
+          "description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
         }
       ]
     },
     {
-      "id": "type-c-twin-sword-flight-industrial",
-      "file": "assets/type-c-twin-sword-flight-industrial.png",
-      "title": "Above the streets, the twin blades ride the wind.",
+      "id": "type-c-twin-sword-flight-heraldic",
+      "file": "assets/type-c-twin-sword-flight-heraldic.png",
+      "title": "Above the streets.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3441352,
-      "sha256": "5755a1ce84a17988fe1a32becbbf36a5b24f35265fd33de92c4da26a86e655f5",
+      "byte_size": 3308161,
+      "sha256": "89700fe6cf78a8f6c412a7e8272b0d51483beed6a6432238afe466e482e3a1ee",
       "status": "current",
-      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 11,
           "panel": 3,
-          "description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets."
+          "description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
         }
       ]
     },
     {
-      "id": "type-c-warhammer-shield-industrial",
-      "file": "assets/type-c-warhammer-shield-industrial.png",
-      "title": "The hammer falls. a shield rises.",
+      "id": "type-c-warhammer-shield-heraldic",
+      "file": "assets/type-c-warhammer-shield-heraldic.png",
+      "title": "Behind the hammer.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3250686,
-      "sha256": "cc4e95d1573cf4fb79072d26dc71cc463fe6a5f6e3dd13d624858a4557143d6d",
+      "byte_size": 3200960,
+      "sha256": "08358bf45f4da2acf27e4eb6d35316a5034dd1587823f423dcf64f2a5781bc96",
       "status": "current",
-      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 11,
           "panel": 4,
-          "description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire."
+          "description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
         }
       ]
     },
@@ -2085,7 +2130,8 @@
     "Each captain has one distinct loadout: magnetic lance, field broadsword, twin wind swords, shield war hammer or magnetic scythe.",
     "Page 11 shows a second Auric Reach town seized after Type C is crafted; page 8’s first capture still occurs before the crafting.",
     "Page 9 introduces the five Silver Guard captains; page 10 shows ordinary troops running into the town; page 11 shows the captains’ assault and capture.",
-    "All comic pages use the same 1000 by 1400 logical canvas and a maximum of seven panels."
+    "All comic pages use the same 1000 by 1400 logical canvas and a maximum of seven panels.",
+    "The Silver Guard wear Veymarch’s established broken-shield-and-star crest; restrained brass trim does not replace the silver Type C material."
   ],
   "military_livery": {
     "veymarch": {
@@ -2094,7 +2140,8 @@
       "ordinary_armour": "bronze",
       "honour_guard_armour": "Practical man-made brushed silver Type C, distinct helmet/body silhouettes, sealed without joints or gaps, external crimson cloth",
       "honour_guard_count": 5,
-      "officer_outer_coats": "Rovan navy; General Grievous dark olive"
+      "officer_outer_coats": "Rovan navy; General Grievous dark olive",
+      "honour_guard_badge": "Crimson enamel bearing the silver broken shield and eight-point star, on chest and visible shoulder cloth."
     },
     "auric-reach": {
       "identity_colours": [
@@ -2109,31 +2156,31 @@
       "id": "condenser-lance",
       "name": "Magnetic lance",
       "ability": "Condenses magnetic fields and fires the concentrated energy like a cannon.",
-      "asset_id": "type-c-lance-assault-industrial"
+      "asset_id": "type-c-lance-assault-heraldic"
     },
     {
       "id": "field-broadsword",
       "name": "Field broadsword",
       "ability": "Condenses magnetic fields into a larger blade capable of cutting through a ship’s hull.",
-      "asset_id": "type-c-broadsword-breach-industrial"
+      "asset_id": "type-c-broadsword-breach-heraldic"
     },
     {
       "id": "wind-twin-swords",
       "name": "Twin wind swords",
       "ability": "A pair of wind-like swords that lets the wielder fly like a bird.",
-      "asset_id": "type-c-twin-sword-flight-industrial"
+      "asset_id": "type-c-twin-sword-flight-heraldic"
     },
     {
       "id": "shield-warhammer",
       "name": "Shield war hammer",
       "ability": "Creates its own magnetic field when slammed down, forming a shield against Tesla guns.",
-      "asset_id": "type-c-warhammer-shield-industrial"
+      "asset_id": "type-c-warhammer-shield-heraldic"
     },
     {
       "id": "point-scythe",
       "name": "Magnetic scythe",
       "ability": "Lets the wielder jump between two concentrated points of magnetic energy.",
-      "asset_id": "type-c-scythe-city-seized-industrial"
+      "asset_id": "type-c-scythe-city-seized-heraldic"
     }
   ]
 }

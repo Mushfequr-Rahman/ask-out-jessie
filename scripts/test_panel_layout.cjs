@@ -21,3 +21,14 @@ for (let count = 1; count <= 7; count++) {
 assert.throws(() => fitPanels([], 952, 1268, () => 0), /1–7/);
 assert.throws(() => fitPanels(Array(8).fill({}), 952, 1268, () => 0), /1–7/);
 console.log('PASS: ordered 1–7-panel layouts across mixed image ratios; canvas bounds, text space and no overlaps.');
+
+// A seven-image page gives its decisive beat substantially more space.
+const priorities = [1, 1, 5, 1, 2, 1, 1];
+const priorityPlan = fitPanels(priorities.map(priority => ({priority, aspectRatio: 1.5})), 952, 1268, () => 90);
+const areas = priorityPlan.boxes.map(box => box.width * box.height);
+assert(areas.every((area, i) => i === 2 || areas[2] > area * 1.5), 'Hero priority must visibly change area');
+assert.deepEqual(priorityPlan.boxes.map(box => box.index), [0, 1, 2, 3, 4, 5, 6], 'Priority must preserve reading order');
+const equalPlan = fitPanels(priorities.map(() => ({priority: 1, aspectRatio: 1.5})), 952, 1268, () => 90);
+assert(areas[2] > equalPlan.boxes[2].width * equalPlan.boxes[2].height * 1.5, 'Increasing priority must enlarge the panel');
+for (const priority of [0, 6, 1.5, '5', true]) assert.throws(() => fitPanels([{priority}], 952, 1268, () => 90), /1–5/);
+console.log('PASS: seven-image hero emphasis, priority-driven resizing, stable reading order and invalid priorities.');
