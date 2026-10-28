@@ -156,7 +156,7 @@
         "weapon_vulnerability": null,
         "weapon_vulnerability_status": "None established; the author specifies imperviousness to any weapons.",
         "complete_armour_and_weapon_sets": 5,
-        "armour_construction": "Intricate continuous silver armour with no joints or gaps; crimson cloth is external to the sealed metal.",
+        "armour_construction": "Practical workshop-made brushed silver armour with tool marks, no ceremonial filigree. Continuous coverage without joints or gaps; crimson cloth worn externally.",
         "weapon_ids": [
           "condenser-lance",
           "field-broadsword",
@@ -531,7 +531,7 @@
         "armour_colour": "silvery",
         "weapon_protection": "Impenetrable and impervious to weapons",
         "complete_armour_and_weapon_sets": 5,
-        "armour_construction": "Intricate and seamless, without joints or gaps",
+        "armour_construction": "Practical man-made brushed silver with tool marks and restrained machined details; sealed continuous coverage with no joints or gaps.",
         "weapon_ids": [
           "condenser-lance",
           "field-broadsword",
@@ -541,8 +541,35 @@
         ]
       },
       "mobility": "Drift along magnetic fields and leap between ships",
-      "source_asset_id": "type-c-seamless-five",
-      "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal."
+      "source_asset_id": "type-c-seamless-five-industrial",
+      "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal.",
+      "visual_profiles": [
+        {
+          "weapon_id": "condenser-lance",
+          "build": "Tall and lean",
+          "helmet": "Narrow, round-topped closed welding-mask shape"
+        },
+        {
+          "weapon_id": "field-broadsword",
+          "build": "Broad and stocky",
+          "helmet": "Blunt rectangular closed helmet"
+        },
+        {
+          "weapon_id": "wind-twin-swords",
+          "build": "Slight and agile",
+          "helmet": "Streamlined closed flight helmet"
+        },
+        {
+          "weapon_id": "shield-warhammer",
+          "build": "Heavy, barrel-chested",
+          "helmet": "Low rounded closed dome"
+        },
+        {
+          "weapon_id": "point-scythe",
+          "build": "Tall and slender",
+          "helmet": "Elongated plain closed hood-like shell"
+        }
+      ]
     },
     {
       "id": "auric-ruler",
@@ -599,19 +626,23 @@
     },
     {
       "order": 10,
-      "event": "Rovan privately crafts exactly five intricate, seamless Type C armour-and-weapon sets: lance, broadsword, twin swords, war hammer and scythe."
+      "event": "Rovan crafts exactly five practical man-made Type C armour-and-weapon sets with distinct helmet shapes and builds, without joints or gaps."
     },
     {
       "order": 11,
+      "event": "Bronze-armoured troops with crimson base layers run from the fleet onto the docks, through the gate and into the town streets."
+    },
+    {
+      "order": 12,
       "event": "Rovan’s fleet and five silver captains attack another small Auric Reach city, fight the town guard with their distinct magnetic weapons and seize the town.",
       "first_capture_is_separate": true
     },
     {
-      "order": 12,
+      "order": 13,
       "event": "Rovan and General Grievous discuss holding the captured city, repairing seized ships, and training recruits."
     },
     {
-      "order": 13,
+      "order": 14,
       "event": "Meanwhile the unnamed ruler of Auric Reach orders and dispatches three capital ships toward Rovan.",
       "time_relation": "Parallel cutaway to the command-room discussion",
       "capital_ship_count": 3,
@@ -632,8 +663,8 @@
         "title": "Prologue",
         "status": "available",
         "reader": "prologue.html",
-        "page_count": 10,
-        "panel_count": 34,
+        "page_count": 12,
+        "panel_count": 37,
         "pages": [
           {
             "number": 1,
@@ -853,53 +884,86 @@
           },
           {
             "number": 9,
+            "title": "Meet the Silver Guard",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "type-c-seamless-forge-industrial",
+                "caption": "FIVE SUITS. BUILT BY HAND.",
+                "narration": "Rovan works the stolen Type C in his workshop. Tool marks remain on the brushed silver, but the metal forms a sealed, continuous shell without joints or gaps. There is no material for a sixth set.",
+                "image_description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts."
+              },
+              {
+                "number": 2,
+                "asset_id": "type-c-seamless-five-industrial",
+                "caption": "MEET THE SILVER GUARD.",
+                "narration": "Five captains, five distinct silhouettes. The lean lancer. The broad swordsman. The agile twin-blade flyer. The heavy hammer bearer. The slender scythe wielder. Their practical helmets and builds differ; their sealed Type C protection is the same. Crimson cloth is worn over the metal.",
+                "image_description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe."
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "title": "Into the Town",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "troops-dock-run",
+                "caption": "THE FLEET CLOSES ON ANOTHER SMALL AURIC REACH CITY.",
+                "narration": "Bronze-armoured soldiers run from the ships onto the mooring docks. Their crimson cloth marks them as Rovan’s troops.",
+                "image_description": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks."
+              },
+              {
+                "number": 2,
+                "asset_id": "troops-gate-charge",
+                "caption": "THROUGH THE GATE. KEEP MOVING.",
+                "narration": "The veterans lead the charge into town. The guards fire from the stairs as the advancing soldiers cover one another.",
+                "image_description": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs."
+              },
+              {
+                "number": 3,
+                "asset_id": "troops-street-advance",
+                "caption": "THE STREETS LEAD UPHILL TO THE GUARD’S LINE.",
+                "narration": "Squads run between the houses and fan out around the fountain. Ahead, the town guard holds its barricade.",
+                "image_description": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade."
+              }
+            ]
+          },
+          {
+            "number": 11,
             "title": "The Five Take the City",
             "panels": [
               {
                 "number": 1,
-                "asset_id": "type-c-seamless-forge",
-                "caption": "FIVE SUITS. FIVE DIFFERENT WEAPONS.",
-                "narration": "Rovan works the stolen Type C in secret. The intricate silver flows into continuous armour, without joints or gaps. There is no material for a sixth set.",
-                "image_description": "Rovan privately crafts intricate seamless silver Type C armour and the captains’ five different weapon loadouts."
-              },
-              {
-                "number": 2,
-                "asset_id": "type-c-seamless-five",
-                "caption": "THE FIVE CAPTAINS OF THE SILVER GUARD.",
-                "narration": "A lance. A broadsword. Twin swords. A war hammer. A scythe. Each captain wears sealed, weapon-impervious Type C armour; crimson cloth rests over the silver.",
-                "image_description": "Exactly five captains in intricate, fully sealed silver armour with crimson capes; their weapons are a lance, broadsword, twin swords, war hammer and scythe."
-              },
-              {
-                "number": 3,
-                "asset_id": "type-c-lance-assault",
-                "caption": "THE FLEET STRIKES ANOTHER SMALL CITY IN AURIC REACH.",
-                "narration": "Rovan’s single capital ship leads the assault. The lance captain condenses magnetic fields at the weapon’s tip and fires them like a cannon, breaking the town guard’s position.",
+                "asset_id": "type-c-lance-assault-industrial",
+                "caption": "THE LANCE BREAKS THE TOWN GUARD’S LINE.",
+                "narration": "Above the advancing troops, the lance captain condenses magnetic fields at the weapon’s tip and fires them like a cannon, breaking a defended position. Rovan’s single capital ship covers the assault.",
                 "image_description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city."
               },
               {
-                "number": 4,
-                "asset_id": "type-c-broadsword-breach",
+                "number": 2,
+                "asset_id": "type-c-broadsword-breach-industrial",
                 "caption": "THE BROADSWORD OPENS THE HARBOUR.",
                 "narration": "Condensed fields make the blade immense. It cuts through a defending ship’s hull, opening a way for Rovan’s soldiers to board while the town guard falls back.",
-                "image_description": "A seamless silver knight enlarges an ornate broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks."
+                "image_description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks."
               },
               {
-                "number": 5,
-                "asset_id": "type-c-twin-sword-flight",
+                "number": 3,
+                "asset_id": "type-c-twin-sword-flight-industrial",
                 "caption": "ABOVE THE STREETS, THE TWIN BLADES RIDE THE WIND.",
                 "narration": "Their captain flies like a bird over the town guard, striking from above as bronze-armoured soldiers push through the streets below.",
                 "image_description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets."
               },
               {
-                "number": 6,
-                "asset_id": "type-c-warhammer-shield",
+                "number": 4,
+                "asset_id": "type-c-warhammer-shield-industrial",
                 "caption": "THE HAMMER FALLS. A SHIELD RISES.",
                 "narration": "The captain slams the war hammer into the paving. Its own magnetic field shields the advancing soldiers from the town guard’s Tesla guns.",
                 "image_description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire."
               },
               {
-                "number": 7,
-                "asset_id": "type-c-scythe-city-seized",
+                "number": 5,
+                "asset_id": "type-c-scythe-city-seized-industrial",
                 "caption": "TWO CONCENTRATED POINTS. ONE FINAL LEAP.",
                 "narration": "The scythe captain jumps between two points of magnetic energy into the command terrace. With the docks breached and the streets lost, the town guard lays down its guns. Rovan’s soldiers seize the city.",
                 "image_description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control."
@@ -907,7 +971,7 @@
             ]
           },
           {
-            "number": 10,
+            "number": 12,
             "title": "The next move",
             "panels": [
               {
@@ -939,7 +1003,13 @@
     ],
     "asset_catalogue": "assets.html",
     "repository_asset_catalogue": "ASSETS.md",
-    "site_version": "seamless-five-1"
+    "site_version": "fixed-industrial-1",
+    "page_canvas": {
+      "width": 1000,
+      "height": 1400,
+      "units": "logical pixels",
+      "layout": "Ordered row packing scored by image aspect, text height and useful image area; scaled uniformly to fit width."
+    }
   },
   "terms": {
     "Magneton": "Family of metals formed from nuclear materials after the Fracture.",
@@ -977,7 +1047,7 @@
       "comic_usage": [
         {
           "story_id": "prologue",
-          "page": 10,
+          "page": 12,
           "panel": 2,
           "description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner"
         }
@@ -1244,7 +1314,7 @@
       "comic_usage": [
         {
           "story_id": "prologue",
-          "page": 10,
+          "page": 12,
           "panel": 1,
           "description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room"
         }
@@ -1722,7 +1792,7 @@
       "comic_usage": [
         {
           "story_id": "prologue",
-          "page": 10,
+          "page": 12,
           "panel": 3,
           "description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan"
         }
@@ -1759,155 +1829,221 @@
       "comic_usage": []
     },
     {
-      "id": "type-c-broadsword-breach",
-      "file": "assets/type-c-broadsword-breach.png",
+      "id": "troops-dock-run",
+      "file": "assets/troops-dock-run.png",
+      "title": "The fleet closes on another small auric reach city.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3567028,
+      "sha256": "537dc2c29984fae0d4fc9d76be3ff53651aad2e39d0c09bc88665f508a0f9677",
+      "status": "current",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 1,
+          "description": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks."
+        }
+      ]
+    },
+    {
+      "id": "troops-gate-charge",
+      "file": "assets/troops-gate-charge.png",
+      "title": "Through the gate. keep moving.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3700097,
+      "sha256": "fe30d2e5e11da1ce4b3864cca346f307758229ec20c1f5aec5d106e71a51f7e8",
+      "status": "current",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 2,
+          "description": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs."
+        }
+      ]
+    },
+    {
+      "id": "troops-street-advance",
+      "file": "assets/troops-street-advance.png",
+      "title": "The streets lead uphill to the guard’s line.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3700893,
+      "sha256": "39fa71acf0139f8eb6bac31b995fa4a460684b726a29a50495d6365240b4ab3a",
+      "status": "current",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 3,
+          "description": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade."
+        }
+      ]
+    },
+    {
+      "id": "type-c-broadsword-breach-industrial",
+      "file": "assets/type-c-broadsword-breach-industrial.png",
       "title": "The broadsword opens the harbour.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3740406,
-      "sha256": "f242c67299dd5b427c81f0d4d0a557735f94335cff622195243df68ea4123401",
+      "byte_size": 3366672,
+      "sha256": "df46bad6c517f699f3664a33bb1670a8c4031579980d1d8baa022f4267102d78",
       "status": "current",
-      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
       "comic_usage": [
         {
           "story_id": "prologue",
-          "page": 9,
-          "panel": 4,
-          "description": "A seamless silver knight enlarges an ornate broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks."
+          "page": 11,
+          "panel": 2,
+          "description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks."
         }
       ]
     },
     {
-      "id": "type-c-lance-assault",
-      "file": "assets/type-c-lance-assault.png",
-      "title": "The fleet strikes another small city in auric reach.",
+      "id": "type-c-lance-assault-industrial",
+      "file": "assets/type-c-lance-assault-industrial.png",
+      "title": "The lance breaks the town guard’s line.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3830381,
-      "sha256": "638aeb9abb8ee4a78c5ce27227ba27078bcb8c0f9b7de51250019abcd09e173c",
+      "byte_size": 3483714,
+      "sha256": "636f90cdb11b3584b00cdb82522b5edfcfb22357f46aba1221d89385a725a25b",
       "status": "current",
-      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
       "comic_usage": [
         {
           "story_id": "prologue",
-          "page": 9,
-          "panel": 3,
+          "page": 11,
+          "panel": 1,
           "description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city."
         }
       ]
     },
     {
-      "id": "type-c-scythe-city-seized",
-      "file": "assets/type-c-scythe-city-seized.png",
+      "id": "type-c-scythe-city-seized-industrial",
+      "file": "assets/type-c-scythe-city-seized-industrial.png",
       "title": "Two concentrated points. one final leap.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3733936,
-      "sha256": "5b127f42b98b42a6ace9f80059c71dc4cb97c11972a80288258da5254fba1682",
+      "byte_size": 3420659,
+      "sha256": "4a297382392861c3e20315581181aeef2b2ff5a2fbb66710e1d7b250f8d0dfed",
       "status": "current",
-      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
       "comic_usage": [
         {
           "story_id": "prologue",
-          "page": 9,
-          "panel": 7,
+          "page": 11,
+          "panel": 5,
           "description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control."
         }
       ]
     },
     {
-      "id": "type-c-seamless-five",
-      "file": "assets/type-c-seamless-five.png",
-      "title": "The five captains of the silver guard.",
+      "id": "type-c-seamless-five-industrial",
+      "file": "assets/type-c-seamless-five-industrial.png",
+      "title": "Meet the silver guard.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3320097,
-      "sha256": "b4479352cd03ce6c691eb8c9115f37081d817f3e24507d8b850af73694c43bde",
+      "byte_size": 3009886,
+      "sha256": "de6f894b45a1c45f8edd0ccca0809d37a688c3ef9dd7ac48bdae5fa9b5efb825",
       "status": "current",
-      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 9,
           "panel": 2,
-          "description": "Exactly five captains in intricate, fully sealed silver armour with crimson capes; their weapons are a lance, broadsword, twin swords, war hammer and scythe."
+          "description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe."
         }
       ]
     },
     {
-      "id": "type-c-seamless-forge",
-      "file": "assets/type-c-seamless-forge.png",
-      "title": "Five suits. five different weapons.",
+      "id": "type-c-seamless-forge-industrial",
+      "file": "assets/type-c-seamless-forge-industrial.png",
+      "title": "Five suits. built by hand.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3319324,
-      "sha256": "77e7ce4c1301d8999918c936152ad6130174fd7b10af86188955fec4b405d6be",
+      "byte_size": 3061148,
+      "sha256": "d23ac86432a2984c4bc3fd75e70008ce05f5598d36a350dfcb3739fa1f44b1c1",
       "status": "current",
-      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 9,
           "panel": 1,
-          "description": "Rovan privately crafts intricate seamless silver Type C armour and the captains’ five different weapon loadouts."
+          "description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts."
         }
       ]
     },
     {
-      "id": "type-c-twin-sword-flight",
-      "file": "assets/type-c-twin-sword-flight.png",
+      "id": "type-c-twin-sword-flight-industrial",
+      "file": "assets/type-c-twin-sword-flight-industrial.png",
       "title": "Above the streets, the twin blades ride the wind.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3831663,
-      "sha256": "df5a2cf8ef561ab84a6528a7074fecd54267c3895b249a7907de0a7d1758b61d",
+      "byte_size": 3441352,
+      "sha256": "5755a1ce84a17988fe1a32becbbf36a5b24f35265fd33de92c4da26a86e655f5",
       "status": "current",
-      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
       "comic_usage": [
         {
           "story_id": "prologue",
-          "page": 9,
-          "panel": 5,
+          "page": 11,
+          "panel": 3,
           "description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets."
         }
       ]
     },
     {
-      "id": "type-c-warhammer-shield",
-      "file": "assets/type-c-warhammer-shield.png",
+      "id": "type-c-warhammer-shield-industrial",
+      "file": "assets/type-c-warhammer-shield-industrial.png",
       "title": "The hammer falls. a shield rises.",
       "category": "comic",
       "dimensions": {
         "width": 1536,
         "height": 1024
       },
-      "byte_size": 3663813,
-      "sha256": "c6cdb9cc78a89a86c31c2a186d91189f727d97eef52c04e04e2b1b1ed3ff52b2",
+      "byte_size": 3250686,
+      "sha256": "cc4e95d1573cf4fb79072d26dc71cc463fe6a5f6e3dd13d624858a4557143d6d",
       "status": "current",
-      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
       "comic_usage": [
         {
           "story_id": "prologue",
-          "page": 9,
-          "panel": 6,
+          "page": 11,
+          "panel": 4,
           "description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire."
         }
       ]
@@ -1937,7 +2073,7 @@
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with ten pages and 34 distinct panel images.",
+    "There is one available story entry, Prologue, with twelve pages and 37 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
     "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
@@ -1945,16 +2081,18 @@
     "Only Rovan knows the crafting secret through his experience.",
     "Veymarch soldiers wear crimson red cloth base layers under bronze or silver armour.",
     "The three newly dispatched capital ships belong to Auric Reach, not Rovan. No result of their encounter is established.",
-    "The five honour-guard captains have intricate continuous silver armour with no joints or gaps. Crimson cloth rests over the sealed metal.",
+    "The five honour-guard captains have practical, man-made continuous silver armour with no joints or gaps. Crimson cloth rests over the sealed metal.",
     "Each captain has one distinct loadout: magnetic lance, field broadsword, twin wind swords, shield war hammer or magnetic scythe.",
-    "Page 9 shows a second Auric Reach town seized after Type C is crafted; page 8’s first capture still occurs before the crafting."
+    "Page 11 shows a second Auric Reach town seized after Type C is crafted; page 8’s first capture still occurs before the crafting.",
+    "Page 9 introduces the five Silver Guard captains; page 10 shows ordinary troops running into the town; page 11 shows the captains’ assault and capture.",
+    "All comic pages use the same 1000 by 1400 logical canvas and a maximum of seven panels."
   ],
   "military_livery": {
     "veymarch": {
       "base_layer": "crimson red",
       "duchy_id": "veymarch",
       "ordinary_armour": "bronze",
-      "honour_guard_armour": "Intricate seamless silver Type C, no joints or gaps, crimson cloth worn externally",
+      "honour_guard_armour": "Practical man-made brushed silver Type C, distinct helmet/body silhouettes, sealed without joints or gaps, external crimson cloth",
       "honour_guard_count": 5,
       "officer_outer_coats": "Rovan navy; General Grievous dark olive"
     },
@@ -1971,31 +2109,31 @@
       "id": "condenser-lance",
       "name": "Magnetic lance",
       "ability": "Condenses magnetic fields and fires the concentrated energy like a cannon.",
-      "asset_id": "type-c-lance-assault"
+      "asset_id": "type-c-lance-assault-industrial"
     },
     {
       "id": "field-broadsword",
       "name": "Field broadsword",
       "ability": "Condenses magnetic fields into a larger blade capable of cutting through a ship’s hull.",
-      "asset_id": "type-c-broadsword-breach"
+      "asset_id": "type-c-broadsword-breach-industrial"
     },
     {
       "id": "wind-twin-swords",
       "name": "Twin wind swords",
       "ability": "A pair of wind-like swords that lets the wielder fly like a bird.",
-      "asset_id": "type-c-twin-sword-flight"
+      "asset_id": "type-c-twin-sword-flight-industrial"
     },
     {
       "id": "shield-warhammer",
       "name": "Shield war hammer",
       "ability": "Creates its own magnetic field when slammed down, forming a shield against Tesla guns.",
-      "asset_id": "type-c-warhammer-shield"
+      "asset_id": "type-c-warhammer-shield-industrial"
     },
     {
       "id": "point-scythe",
       "name": "Magnetic scythe",
       "ability": "Lets the wielder jump between two concentrated points of magnetic energy.",
-      "asset_id": "type-c-scythe-city-seized"
+      "asset_id": "type-c-scythe-city-seized-industrial"
     }
   ]
 }

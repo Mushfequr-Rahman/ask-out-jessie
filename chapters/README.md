@@ -26,8 +26,8 @@ Optional panel fields:
 
 - `narration`: text below the caption; use `\n` for a line break.
 - `image_alt`: accessible image description (defaults to the caption).
-- `layout`: CSS class names, such as `["chapter-panel", "wide"]`. Without it, panels use the default two-column grid; the first panel spans both columns when the count is odd.
-- `full_size_link`: `true` wraps the image in a link to the original.
+- Legacy `layout` values are accepted for compatibility but no longer position panels. The automatic fixed-canvas algorithm uses image proportions and measured text instead.
+- Legacy `full_size_link` is accepted; every illustration now links to its original for full-size viewing.
 
 Optional page field `footer` sets the printed footer label. Otherwise the reader uses the chapter and page titles.
 
@@ -44,3 +44,5 @@ The asset script automatically syncs chapter pages into `world.json` before refr
 For a future chapter, copy the Prologue HTML shell, update its title/description and `data-chapter-src`, create its JSON, and register its `json_file` and `reader` in `world.json` under `publication.stories`. Add the chapter to the Chapters menu and the shared-layout script when it is ready to publish.
 
 Serve the site over HTTP (for example, `python3 -m http.server 8000`). Fetching chapter JSON requires HTTP; opening the HTML directly from disk is unsupported. GitHub Pages serves these JSON files without a build step.
+
+Each page uses the same 1,000 × 1,400 canvas. The renderer packs 1–7 panels dynamically in reading order, reserves text space, and contains each whole image. The canvas scales uniformly in **Fit width** mode; **Full size** enables native-size scrolling. The separate **Read page text** transcript always uses normal readable text sizes.

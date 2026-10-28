@@ -3,19 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Read the ten-page Magneton Prologue, from the Fracture to Rovan’s five silver honour guards.">
+  <meta name="description" content="Read the twelve-page Magneton Prologue, from the Fracture to Rovan’s five silver honour guards.">
   <title>Magneton · Prologue</title>
-  <link rel="stylesheet" href="styles.css?v=seamless-five-1">
-  <script src="site.js?v=seamless-five-1" defer></script>
-  <script src="script.js?v=seamless-five-1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=fixed-industrial-1">
+  <script src="site.js?v=fixed-industrial-1" defer></script>
+  <script src="panel-layout.js?v=fixed-industrial-1" defer></script>
+  <script src="script.js?v=fixed-industrial-1" defer></script>
 </head>
 <body>
 <!-- site-header -->
 <header class="masthead">
-  <a class="brand" href="chapters.html?v=seamless-five-1" aria-label="Magneton chapters"><span class="brand-icon" aria-hidden="true">✦</span> MAGNETON <small>COMICS</small></a>
+  <a class="brand" href="chapters.html?v=fixed-industrial-1" aria-label="Magneton chapters"><span class="brand-icon" aria-hidden="true">✦</span> MAGNETON <small>COMICS</small></a>
   <nav class="site-nav" aria-label="Main navigation">
-    <a class="nav-tab" href="chapters.html?v=seamless-five-1" aria-current="page">Chapters</a>
-    <a class="nav-tab" href="glossary.html?v=seamless-five-1">Glossary</a>
+    <a class="nav-tab" href="chapters.html?v=fixed-industrial-1" aria-current="page">Chapters</a>
+    <a class="nav-tab" href="glossary.html?v=fixed-industrial-1">Glossary</a>
   </nav>
 </header>
 <!-- /site-header -->
@@ -23,10 +24,11 @@
     <section id="reader" class="reader" data-chapter-src="chapters/prologue.json" aria-busy="true" aria-label="Comic reader">
       <div class="reader-heading"><span>PROLOGUE</span><span class="edition">LOADING CHAPTER</span></div>
 
-      <div class="reader-tools"><label for="page-select">Jump to page</label><select id="page-select" disabled></select></div>
-      <p class="reading-help">Read down each page, then select <strong>Next Page</strong> below the panels to continue.</p>
+      <div class="reader-tools"><label for="page-select">Jump to page</label><select id="page-select" disabled></select><label for="page-view">View</label><select id="page-view"><option value="fit">Fit width</option><option value="actual">Full size</option></select></div>
+      <p class="reading-help">Read panels left to right, then down. Use <strong>Full size</strong> to zoom in, or open <strong>Read page text</strong> below the page.</p>
       <p id="reader-message" role="status">Loading chapter…</p>
       <div id="chapter-pages"></div>
+      <details id="page-transcript" class="page-transcript"><summary>Read page text</summary><div id="page-transcript-content"></div></details>
       <noscript><p>Enable JavaScript to read this chapter.</p></noscript>
       <nav class="reader-controls" aria-label="Comic pages"><button id="previous" type="button" disabled>← PREVIOUS</button><span id="page-status" role="status" aria-live="polite">LOADING…</span><button id="next" type="button" disabled>NEXT PAGE →</button></nav>
       <p class="keyboard-hint" id="keyboard-hint" hidden>Use ← and → to turn the page</p>

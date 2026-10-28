@@ -33,7 +33,7 @@ The last two designs draw on the user's second, open-deck airship reference. The
 - `ducal-assembly.png`: the former mining magnates ruling together.
 - `magneton-types.png`: Type A bronze, Type B green polarity specimens, and a conceptual Type C forging sample. Type C is now established as silvery.
 
-The thirty-four comic images in `chapters/prologue.json` must have distinct source files and distinct file contents. The retired amber/green engine illustration has been replaced so both Type B cores are green.
+The thirty-seven comic images in `chapters/prologue.json` must have distinct source files and distinct file contents. The retired amber/green engine illustration has been replaced so both Type B cores are green.
 
 The original ore carrier, city schooner, passenger trader, and ducal man-of-war designs have been removed. The prologue now uses the Mole mining ship.
 
@@ -47,7 +47,7 @@ The original ore carrier, city schooner, passenger trader, and ducal man-of-war 
 - `soldiers-cheer-crimson.png`: soldiers cheer while the sailors remain silent.
 - `shattered-earth-atlas.png`: large-scale map backdrop for eight editable duchy labels in the glossary.
 
-Character appearances are working designs. Map labels are HTML so names and locations can be refined without repainting the geography. All thirty-four comic panels retain unique image sources and contents.
+Character appearances are working designs. Map labels are HTML so names and locations can be refined without repainting the geography. All thirty-seven comic panels retain unique image sources and contents.
 
 ## His Own Future
 
@@ -57,11 +57,11 @@ Character appearances are working designs. Map labels are HTML so names and loca
 - `auric-raid-crimson.png`: the first organised inter-duchy invasion since the Fracture.
 - `ships-confiscated-crimson.png`: ships seized at the captured docks.
 - `city-captured-crimson.png`: the baron's city surrenders to the trained force.
-- `type-c-seamless-forge.png`: Rovan privately crafts the stolen silver metal.
-- `type-c-seamless-five.png`: exactly five seamless silver captains with a lance, broadsword, twin swords, war hammer and scythe, shown in full.
+- `type-c-seamless-forge-industrial.png`: Rovan privately crafts the stolen silver metal.
+- `type-c-seamless-five-industrial.png`: exactly five seamless silver captains with a lance, broadsword, twin swords, war hammer and scythe, shown in full.
 - Retired magnetic-boarding illustration: two of the five guards demonstrate field drifting between ships; their armour is not penetrated by weapons.
 
-All thirty-four comic panels must use distinct source images and file hashes. The five-guard line-up must show exactly five guards, not Rovan or the general as a sixth figure. The initial city capture uses bronze-armoured veterans, before the silver sets exist.
+All thirty-seven comic panels must use distinct source images and file hashes. The five-guard line-up must show exactly five guards, not Rovan or the general as a sixth figure. The initial city capture uses bronze-armoured veterans, before the silver sets exist.
 
 ## Duchy banners
 
@@ -92,4 +92,8 @@ The Rovan scenes on pages 5–8 use `-crimson.png` replacements. Their military 
 
 ## Seamless Type C redesign
 
-Page 9 uses seven unique illustrations: `type-c-seamless-forge.png`, `type-c-seamless-five.png`, `type-c-lance-assault.png`, `type-c-broadsword-breach.png`, `type-c-twin-sword-flight.png`, `type-c-warhammer-shield.png` and `type-c-scythe-city-seized.png`. The previous three page-9 illustrations are retired. The silver armour has continuous coverage, with intricate embossed magnetic patterns and external crimson cloth. Each captain has a different magnetic weapon.
+Pages 9 and 11 use seven unique illustrations: `type-c-seamless-forge-industrial.png`, `type-c-seamless-five-industrial.png`, `type-c-lance-assault-industrial.png`, `type-c-broadsword-breach-industrial.png`, `type-c-twin-sword-flight-industrial.png`, `type-c-warhammer-shield-industrial.png` and `type-c-scythe-city-seized-industrial.png`. The previous three page-9 illustrations are retired. The silver armour has continuous coverage, with brushed metal and restrained machined details and external crimson cloth. Each captain has a different magnetic weapon.
+
+## Practical Silver Guard and the troop advance
+
+The current Type C artwork uses the `-industrial.png` variants: restrained brushed silver, tool marks, simple closed helmets and distinct body silhouettes. The earlier grand armour concepts are retired. Page 10 adds `troops-dock-run.png`, `troops-gate-charge.png` and `troops-street-advance.png`. The Prologue has 12 fixed-size pages and 37 unique comic illustrations; all 52 current assets are catalogued in `ASSETS.md` and `assets.html`.

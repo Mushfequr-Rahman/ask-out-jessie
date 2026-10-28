@@ -9,29 +9,19 @@
           "image_src": "assets/fracture.png",
           "caption": "THE NUCLEAR WAR DID NOT END WITH RUINS.",
           "narration": "The Earth itself shattered.",
-          "image_alt": "Fractured landmasses suspended in a glowing magnetic field",
-          "layout": [
-            "fracture",
-            "wide"
-          ]
+          "image_alt": "Fractured landmasses suspended in a glowing magnetic field"
         },
         {
           "image_src": "assets/magnetic-islands.png",
           "caption": "CONTINENTS BECAME ISLANDS IN THE VOID.",
           "narration": "Turbulent magnetic waves held the fragments together.\nViolent in motion. Predictable in their patterns.",
-          "image_alt": "Magnetic currents arc between the exposed undersides of floating islands",
-          "layout": [
-            "islands"
-          ]
+          "image_alt": "Magnetic currents arc between the exposed undersides of floating islands"
         },
         {
           "image_src": "assets/survivors.png",
           "caption": "HUMANITY WAS ALMOST WIPED OUT.",
           "narration": "Those who survived learned to live\non the pieces of their old world.",
-          "image_alt": "A small human silhouette standing on a floating island",
-          "layout": [
-            "survivors"
-          ]
+          "image_alt": "A small human silhouette standing on a floating island"
         }
       ],
       "footer": "MAGNETON · THE FRACTURE"
@@ -44,29 +34,19 @@
           "image_src": "assets/human-adaptation.png",
           "caption": "GENERATIONS PASSED IN THE MAGNETIC FIELDS.",
           "narration": "Humanity slowly evolved.\nNew attributes emerged in a changed world.",
-          "image_alt": "Three generations of survivors study a magnetic sensing instrument in their settlement",
-          "layout": [
-            "survivors",
-            "wide"
-          ]
+          "image_alt": "Three generations of survivors study a magnetic sensing instrument in their settlement"
         },
         {
           "image_src": "assets/ore.png",
           "caption": "NUCLEAR MATERIALS FUSED INTO SOMETHING NEW.",
           "narration": "A family of metals unlike anything from the old world.",
-          "image_alt": "Luminous Magneton ore embedded in fractured rock",
-          "layout": [
-            "ore"
-          ]
+          "image_alt": "Luminous Magneton ore embedded in fractured rock"
         },
         {
           "image_src": "assets/polarity-engine.png",
           "caption": "THEY CALLED IT MAGNETON.",
           "narration": "What began as a discovery\nbecame the foundation of civilization.",
-          "image_alt": "Two glowing green Type B Magneton cores of opposite polarity inside a precision motor",
-          "layout": [
-            "core"
-          ]
+          "image_alt": "Two glowing green Type B Magneton cores of opposite polarity inside a precision motor"
         }
       ],
       "footer": "MAGNETON · ADAPTATION"
@@ -79,29 +59,19 @@
           "image_src": "assets/city.png",
           "caption": "OPPOSITE POLARITIES. CONSTANT MOTION.",
           "narration": "Oppositely polarized Type B cores drove magnetic motors.\nThe motors powered a new age.",
-          "image_alt": "A floating city built above a glowing Magneton engine",
-          "layout": [
-            "city",
-            "wide"
-          ]
+          "image_alt": "A floating city built above a glowing Magneton engine"
         },
         {
           "image_src": "assets/gravity-chamber.png",
           "caption": "THE ENGINES DID MORE THAN KEEP THE LIGHTS ON.",
           "narration": "They stabilized the islands and generated\na field that restored the feel of the old gravity.",
-          "image_alt": "People stand upright inside a city gravity-control chamber while fragments float outside",
-          "layout": [
-            "core"
-          ]
+          "image_alt": "People stand upright inside a city gravity-control chamber while fragments float outside"
         },
         {
           "image_src": "assets/city-street.png",
           "caption": "CITIES ROSE ABOVE THE BROKEN EARTH.",
           "narration": "Magneton kept them afloat.\nEvery city depended on its supply.",
-          "image_alt": "A market street powered by green conduits beneath the floating city’s towers",
-          "layout": [
-            "city"
-          ]
+          "image_alt": "A market street powered by green conduits beneath the floating city’s towers"
         }
       ],
       "footer": "MAGNETON · THE CITIES"
@@ -114,29 +84,19 @@
           "image_src": "assets/mining-mole.png",
           "caption": "THE FIRST BARONS WERE MINERS.",
           "narration": "They extracted Magneton and built ships from it.\nMagnetic motors carried them between the islands.",
-          "image_alt": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines",
-          "layout": [
-            "ship",
-            "wide"
-          ]
+          "image_alt": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines"
         },
         {
           "image_src": "assets/mining-dock.png",
           "caption": "TRADE ROUTES LED TO CITIES. MINING ROUTES LED TO POWER.",
           "narration": "Those who controlled the mines and the fleets\nbecame the new ruling class.",
-          "image_alt": "Ore is unloaded at a mining dock as a proprietor oversees trade",
-          "layout": [
-            "ore"
-          ]
+          "image_alt": "Ore is unloaded at a mining dock as a proprietor oversees trade"
         },
         {
           "image_src": "assets/ducal-assembly.png",
           "caption": "THE CITIES GATHERED INTO DUCHIES.",
           "narration": "Civilization returned to feudal rule.\nIts foundations were no longer land alone, but Magneton.",
-          "image_alt": "Mining barons gather in a council chamber overlooking floating cities",
-          "layout": [
-            "city"
-          ]
+          "image_alt": "Mining barons gather in a council chamber overlooking floating cities"
         }
       ],
       "footer": "MAGNETON · THE BARONS"
@@ -149,29 +109,19 @@
           "image_src": "assets/rovan-city-crimson.png",
           "caption": "VEYMARCH. A DUKE IN NAME.",
           "narration": "Duke Rovan Vey overlooks the small city his fleet can barely afford to protect.",
-          "image_alt": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson",
-          "layout": [
-            "chapter-panel",
-            "wide"
-          ]
+          "image_alt": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson"
         },
         {
           "image_src": "assets/unpaid-ledger-crimson.png",
           "caption": "THE COST OF KEEPING THE ROUTES OPEN.",
           "narration": "General Grievous: “The soldiers’ pay is overdue. The repair yards are waiting too.”",
-          "image_alt": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson",
-          "layout": [
-            "chapter-panel"
-          ]
+          "image_alt": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson"
         },
         {
           "image_src": "assets/duke-resolve-crimson.png",
           "caption": "OTHER DUKES GREW RICH. HIS FLEET GREW SMALLER.",
           "narration": "Rovan: “We bled keeping pirates from their mining ships. They traded. They grew. And now I cannot pay the soldiers who made it possible.”",
-          "image_alt": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson",
-          "layout": [
-            "chapter-panel"
-          ]
+          "image_alt": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson"
         }
       ],
       "footer": "PROLOGUE · A DUKE IN NAME"
@@ -184,29 +134,19 @@
           "image_src": "assets/caravan-boarding-crimson.png",
           "caption": "A CARAVAN FROM THE NEARBY DUCHY OF AURIC REACH.",
           "narration": "Armoured soldiers board the trading ship. Charged Tesla guns hold the unarmed sailors at a standstill.",
-          "image_alt": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson",
-          "layout": [
-            "chapter-panel",
-            "wide"
-          ]
+          "image_alt": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson"
         },
         {
           "image_src": "assets/duke-seizure-crimson.png",
           "caption": "THE DUKE PRESENTS HIS CLAIM.",
           "narration": "Rovan: “I seize this vessel of Auric Reach against the unpaid protection fees owed to my soldiers.”",
-          "image_alt": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson",
-          "layout": [
-            "chapter-panel"
-          ]
+          "image_alt": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson"
         },
         {
           "image_src": "assets/soldiers-cheer-crimson.png",
           "caption": "THE SOLDIERS ANSWER WITH A CHEER.",
           "narration": "The cheers roll across the deck. The sailors remain silent. Grievous watches both sides.",
-          "image_alt": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson",
-          "layout": [
-            "chapter-panel"
-          ]
+          "image_alt": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson"
         }
       ],
       "footer": "PROLOGUE · THE DUKE’S DUE"
@@ -219,29 +159,19 @@
           "image_src": "assets/rovan-future-crimson.png",
           "caption": "ROVAN WILL NO LONGER WAIT FOR ANOTHER DUKE’S PERMISSION.",
           "narration": "Rovan: “I will define my own future. We sail for Auric Reach. I will take what is mine.”",
-          "image_alt": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson",
-          "layout": [
-            "chapter-panel",
-            "wide"
-          ]
+          "image_alt": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson"
         },
         {
           "image_src": "assets/recruit-drill-crimson.png",
           "caption": "THE SEIZED RESOURCES BECOME PAY, EQUIPMENT, AND NEW RECRUITS.",
           "narration": "His veterans are exceptionally well trained. Now they put that experience into drilling the new soldiers.",
-          "image_alt": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson",
-          "layout": [
-            "chapter-panel"
-          ]
+          "image_alt": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson"
         },
         {
           "image_src": "assets/single-bastion-departure.png",
           "caption": "ONE CAPITAL SHIP. A SMALL FLEET. AN ARMY WITH PURPOSE.",
           "narration": "Rovan takes his army toward Auric Reach. His fleet has only one capital ship: a Bastion.",
-          "image_alt": "A single Bastion capital ship departs with the seized merchant Caravan nearby",
-          "layout": [
-            "chapter-panel"
-          ]
+          "image_alt": "A single Bastion capital ship departs with the seized merchant Caravan nearby"
         }
       ],
       "footer": "PROLOGUE · HIS OWN FUTURE"
@@ -254,158 +184,132 @@
           "image_src": "assets/auric-raid-crimson.png",
           "caption": "THE FIRST WAR BETWEEN DUCHIES SINCE THE FRACTURE.",
           "narration": "They have fought pirates. They have never faced an organised invasion. Rovan strikes at one of Auric Reach’s barons.",
-          "image_alt": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson",
-          "layout": [
-            "chapter-panel",
-            "wide"
-          ]
+          "image_alt": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson"
         },
         {
           "image_src": "assets/ships-confiscated-crimson.png",
           "caption": "THE DOCKS FALL. THE SHIPS ARE SEIZED.",
           "narration": "His veterans move with a discipline the defenders cannot match. The baron loses control of the harbour.",
-          "image_alt": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson",
-          "layout": [
-            "chapter-panel"
-          ]
+          "image_alt": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson"
         },
         {
           "image_src": "assets/city-captured-crimson.png",
           "caption": "THEN THE CITY FALLS WITH SURPRISING EASE.",
           "narration": "Superior training gives Rovan his victory. The captured city and ships become the foundation of his growing power.",
-          "image_alt": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson",
-          "layout": [
-            "chapter-panel"
-          ]
+          "image_alt": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson"
         }
       ],
       "footer": "PROLOGUE · THE FIRST WAR"
     },
     {
       "Page Number": 9,
+      "Title": "Meet the Silver Guard",
+      "panels": [
+        {
+          "image_src": "assets/type-c-seamless-forge-industrial.png",
+          "caption": "FIVE SUITS. BUILT BY HAND.",
+          "narration": "Rovan works the stolen Type C in his workshop. Tool marks remain on the brushed silver, but the metal forms a sealed, continuous shell without joints or gaps. There is no material for a sixth set.",
+          "image_alt": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts.",
+          "full_size_link": true
+        },
+        {
+          "image_src": "assets/type-c-seamless-five-industrial.png",
+          "caption": "MEET THE SILVER GUARD.",
+          "narration": "Five captains, five distinct silhouettes. The lean lancer. The broad swordsman. The agile twin-blade flyer. The heavy hammer bearer. The slender scythe wielder. Their practical helmets and builds differ; their sealed Type C protection is the same. Crimson cloth is worn over the metal.",
+          "image_alt": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe.",
+          "full_size_link": true
+        }
+      ],
+      "footer": "PROLOGUE · THE SILVER GUARD"
+    },
+    {
+      "Page Number": 10,
+      "Title": "Into the Town",
+      "panels": [
+        {
+          "image_src": "assets/troops-dock-run.png",
+          "caption": "THE FLEET CLOSES ON ANOTHER SMALL AURIC REACH CITY.",
+          "narration": "Bronze-armoured soldiers run from the ships onto the mooring docks. Their crimson cloth marks them as Rovan’s troops.",
+          "image_alt": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks."
+        },
+        {
+          "image_src": "assets/troops-gate-charge.png",
+          "caption": "THROUGH THE GATE. KEEP MOVING.",
+          "narration": "The veterans lead the charge into town. The guards fire from the stairs as the advancing soldiers cover one another.",
+          "image_alt": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs."
+        },
+        {
+          "image_src": "assets/troops-street-advance.png",
+          "caption": "THE STREETS LEAD UPHILL TO THE GUARD’S LINE.",
+          "narration": "Squads run between the houses and fan out around the fountain. Ahead, the town guard holds its barricade.",
+          "image_alt": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade."
+        }
+      ],
+      "footer": "PROLOGUE · INTO THE TOWN"
+    },
+    {
+      "Page Number": 11,
       "Title": "The Five Take the City",
       "panels": [
         {
-          "image_src": "assets/type-c-seamless-forge.png",
-          "caption": "FIVE SUITS. FIVE DIFFERENT WEAPONS.",
-          "narration": "Rovan works the stolen Type C in secret. The intricate silver flows into continuous armour, without joints or gaps. There is no material for a sixth set.",
-          "image_alt": "Rovan privately crafts intricate seamless silver Type C armour and the captains’ five different weapon loadouts.",
-          "layout": [
-            "chapter-panel",
-            "wide",
-            "type-c-scene"
-          ],
-          "full_size_link": true
-        },
-        {
-          "image_src": "assets/type-c-seamless-five.png",
-          "caption": "THE FIVE CAPTAINS OF THE SILVER GUARD.",
-          "narration": "A lance. A broadsword. Twin swords. A war hammer. A scythe. Each captain wears sealed, weapon-impervious Type C armour; crimson cloth rests over the silver.",
-          "image_alt": "Exactly five captains in intricate, fully sealed silver armour with crimson capes; their weapons are a lance, broadsword, twin swords, war hammer and scythe.",
-          "layout": [
-            "chapter-panel",
-            "wide",
-            "type-c-scene"
-          ],
-          "full_size_link": true
-        },
-        {
-          "image_src": "assets/type-c-lance-assault.png",
-          "caption": "THE FLEET STRIKES ANOTHER SMALL CITY IN AURIC REACH.",
-          "narration": "Rovan’s single capital ship leads the assault. The lance captain condenses magnetic fields at the weapon’s tip and fires them like a cannon, breaking the town guard’s position.",
+          "image_src": "assets/type-c-lance-assault-industrial.png",
+          "caption": "THE LANCE BREAKS THE TOWN GUARD’S LINE.",
+          "narration": "Above the advancing troops, the lance captain condenses magnetic fields at the weapon’s tip and fires them like a cannon, breaking a defended position. Rovan’s single capital ship covers the assault.",
           "image_alt": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city.",
-          "layout": [
-            "chapter-panel",
-            "wide",
-            "type-c-scene"
-          ],
           "full_size_link": true
         },
         {
-          "image_src": "assets/type-c-broadsword-breach.png",
+          "image_src": "assets/type-c-broadsword-breach-industrial.png",
           "caption": "THE BROADSWORD OPENS THE HARBOUR.",
           "narration": "Condensed fields make the blade immense. It cuts through a defending ship’s hull, opening a way for Rovan’s soldiers to board while the town guard falls back.",
-          "image_alt": "A seamless silver knight enlarges an ornate broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks.",
-          "layout": [
-            "chapter-panel",
-            "wide",
-            "type-c-scene"
-          ],
+          "image_alt": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks.",
           "full_size_link": true
         },
         {
-          "image_src": "assets/type-c-twin-sword-flight.png",
+          "image_src": "assets/type-c-twin-sword-flight-industrial.png",
           "caption": "ABOVE THE STREETS, THE TWIN BLADES RIDE THE WIND.",
           "narration": "Their captain flies like a bird over the town guard, striking from above as bronze-armoured soldiers push through the streets below.",
           "image_alt": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets.",
-          "layout": [
-            "chapter-panel",
-            "wide",
-            "type-c-scene"
-          ],
           "full_size_link": true
         },
         {
-          "image_src": "assets/type-c-warhammer-shield.png",
+          "image_src": "assets/type-c-warhammer-shield-industrial.png",
           "caption": "THE HAMMER FALLS. A SHIELD RISES.",
           "narration": "The captain slams the war hammer into the paving. Its own magnetic field shields the advancing soldiers from the town guard’s Tesla guns.",
           "image_alt": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire.",
-          "layout": [
-            "chapter-panel",
-            "wide",
-            "type-c-scene"
-          ],
           "full_size_link": true
         },
         {
-          "image_src": "assets/type-c-scythe-city-seized.png",
+          "image_src": "assets/type-c-scythe-city-seized-industrial.png",
           "caption": "TWO CONCENTRATED POINTS. ONE FINAL LEAP.",
           "narration": "The scythe captain jumps between two points of magnetic energy into the command terrace. With the docks breached and the streets lost, the town guard lays down its guns. Rovan’s soldiers seize the city.",
           "image_alt": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control.",
-          "layout": [
-            "chapter-panel",
-            "wide",
-            "type-c-scene"
-          ],
           "full_size_link": true
         }
       ],
       "footer": "PROLOGUE · THE FIVE TAKE THE CITY"
     },
     {
-      "Page Number": 10,
+      "Page Number": 12,
       "Title": "The next move",
       "panels": [
         {
           "image_src": "assets/council-next-steps.png",
           "caption": "IN THE CAPTURED CITY, ROVAN MEETS HIS GENERAL.",
           "narration": "Grievous: “We have taken a city. Now we have to hold it.”\nRovan: “Repair the seized ships. Train the recruits. We decide what comes next.”",
-          "image_alt": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room",
-          "layout": [
-            "chapter-panel",
-            "wide"
-          ]
+          "image_alt": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room"
         },
         {
           "image_src": "assets/auric-counterorder.png",
           "caption": "MEANWHILE, IN AURIC REACH.",
           "narration": "The ruler of Auric Reach: “Dispatch three capital ships. Set course for Rovan.”",
-          "image_alt": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner",
-          "layout": [
-            "chapter-panel",
-            "wide"
-          ]
+          "image_alt": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner"
         },
         {
           "image_src": "assets/three-capital-ships.png",
           "caption": "THREE CAPITAL SHIPS DEPART.",
           "narration": "Gold standards rise above three armoured hulls. While Rovan makes his plans, Auric Reach’s ships are already on their way.",
-          "image_alt": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan",
-          "layout": [
-            "chapter-panel",
-            "wide",
-            "fleet-reveal"
-          ]
+          "image_alt": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan"
         }
       ],
       "footer": "PROLOGUE · THE NEXT MOVE"

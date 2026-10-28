@@ -112,7 +112,7 @@ The city capture does not yet establish that Rovan controls all of Auric Reach. 
 
 ## Publication structure and duchy heraldry
 
-There is currently one published story entry, **Prologue**, containing all ten existing pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
+There is currently one published story entry, **Prologue**, containing all twelve existing pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
 
 | Duchy | Colour | Banner emblem |
 | --- | --- | --- |
@@ -127,7 +127,7 @@ There is currently one published story entry, **Prologue**, containing all ten e
 
 ## Structured reference and artwork catalogue
 
-`world.json` contains the structured version of all current lore, open details, the ten published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.
+`world.json` contains the structured version of all current lore, open details, the twelve published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.
 
 ## Current uniforms and the next move
 
@@ -135,9 +135,9 @@ Veymarch military cloth base layers are crimson red. This includes visible tunic
 
 After the silver-guard trial, Rovan talks with General Grievous about holding the captured city, repairing seized ships, and training recruits. Meanwhile Auric Reach’s unnamed ruler dispatches **three capital ships toward Rovan**. They are enemy ships: Rovan’s own initial capital-ship count remains one. The coming encounter, its timing, and its outcome have not yet been established.
 
-## The five captains and the second town — page 9
+## The five captains and the second town — pages 9–11
 
-After the first capture on page 8, Rovan secretly crafts five sets of intricate silver Type C armour. The armour is continuous, without joints or gaps; the crimson cloth is worn over it. The new differentiated arsenal replaces the earlier five-identical-swords depiction.
+After the first capture on page 8, Rovan secretly crafts five sets of practical, workshop-made silver Type C armour. The armour is continuous, without joints or gaps; the crimson cloth is worn over it. The new differentiated arsenal replaces the earlier five-identical-swords depiction.
 
 - The lance condenses magnetic fields and fires them like a cannon.
 - The broadsword condenses fields into an enlarged blade capable of cutting a ship’s hull.
@@ -145,4 +145,10 @@ After the first capture on page 8, Rovan secretly crafts five sets of intricate 
 - The war hammer creates a magnetic field when slammed down, shielding soldiers against Tesla guns.
 - The scythe lets its user jump between two concentrated points of magnetic energy.
 
-Rovan’s one-capital-ship fleet and the five captains attack another small Auric Reach city, fight its town guard and seize it. This is separate from the earlier capture before Type C crafting. The three Auric Reach capital ships dispatched on page 10 remain the opponent’s force; their encounter with Rovan is still unresolved.
+Rovan’s one-capital-ship fleet and the five captains attack another small Auric Reach city, fight its town guard and seize it. This is separate from the earlier capture before Type C crafting. The three Auric Reach capital ships dispatched on page 12 remain the opponent’s force; their encounter with Rovan is still unresolved.
+
+## Revised visual direction and pagination
+
+The Silver Guard wear practical man-made brushed silver armour with tool marks and restrained engineering details. Their builds and closed helmet shapes distinguish them; elaborate crests, gilding and ceremonial filigree are removed. Sealed Type C coverage, external crimson cloth and the five established weapon abilities are retained.
+
+Page 9 introduces the five captains in the workshop. Page 10 follows ordinary bronze-and-crimson troops running from the fleet into the town. Page 11 shows the Silver Guard fighting its guards and seizing the town. Page 12 returns to Rovan’s council and Auric Reach’s three-ship response.

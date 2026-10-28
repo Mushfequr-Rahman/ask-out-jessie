@@ -5,12 +5,12 @@ A dependency-free HTML comic project featuring **Magneton**.
 ## Read online
 
 - [Chapters](https://mushfequr-rahman.github.io/ask-out-jessie/chapters.html): one available story, **Prologue**.
-- [Read Prologue](https://mushfequr-rahman.github.io/ask-out-jessie/prologue.html): all ten existing illustrated pages, including Rovan's rise, the five silver honour guards, and Auric Reach's response on page 10.
+- [Read Prologue](https://mushfequr-rahman.github.io/ask-out-jessie/prologue.html): all twelve existing illustrated pages, including Rovan's rise, the five silver honour guards, and Auric Reach's response on page 12.
 - [Glossary](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html): metals, ships, eight duchies and banners, people, and world terms.
-- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 49 current artwork files; linked from the glossary.
+- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 52 current artwork files; linked from the glossary.
 - [Repository asset catalogue](ASSETS.md) and [world.json](world.json): artwork inventory and structured world reference.
 
-Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's ten pages retain all 34 unique panel illustrations.
+Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's twelve pages retain all 37 unique panel illustrations.
 
 ## Run locally
 
@@ -52,6 +52,7 @@ The map and banner key use the same colour assignments, with names and numbers s
 - `partials/header.html` and `partials/footer.html`: shared site navigation and footer.
 - `scripts/sync_layout.py`: refreshes shared layout in the checked-in static HTML.
 - `site.js`: preserves old bookmarks; `script.js`: comic reader; `glossary.js`: ship-class filters.
+- `panel-layout.js`: fixed-canvas panel packing algorithm; tested with `node scripts/test_panel_layout.cjs`.
 - `styles.css`: shared visual design; `assets/`: illustrations and banners.
 - `STORY.md`: current lore; `STORYBOARD-IDEAS.md`: selected story direction and open decisions.
 
@@ -65,7 +66,7 @@ The shared layout is checked in; chapter content is rendered in the browser from
 
 ## Verification
 
-Check the two shared navigation links and active states on all pages, the single Prologue entry, all ten reader pages, the page selector, all 34 unique panel images, glossary section links and ship filters, eight distinct colours and banners, and mobile layouts. Old `index.html?page=7#reader`, `index.html#fleet`, and `magneton.html#type-c` bookmarks should forward to the new structure.
+Check the two shared navigation links and active states on all pages, the single Prologue entry, all twelve reader pages, the page selector, all 37 unique panel images, glossary section links and ship filters, eight distinct colours and banners, and mobile layouts. Old `index.html?page=7#reader`, `index.html#fleet`, and `magneton.html#type-c` bookmarks should forward to the new structure.
 
 ## World and asset maintenance
 
@@ -80,3 +81,9 @@ python3 scripts/validate_world.py
 ```
 
 The asset script first validates and syncs each chapter JSON into the world reference, then inventories the actual files and records dimensions, file sizes, SHA-256 hashes, and comic usage in `world.json`. It also writes `ASSETS.md` and `assets.html`. Regeneration is optional for serving because the generated files are committed. It never changes image contents. The asset library uses the same two-tab header and is reached from the Glossary tab.
+
+## Fixed comic pages
+
+Every page has a 1,000 × 1,400 logical canvas. `panel-layout.js` examines ordered arrangements of up to three panels per row and four rows per page, measures each caption/narration block, reserves room for text, and scores how much image area is visible. Images use `contain`, so no illustration is cropped. All supported 1–7-panel pages retain reading order. The browser scales the complete canvas to the available width; **Full size** shows its native dimensions in a scrollable viewport, and **Read page text** provides readable captions/narration outside the scaled page.
+
+The Silver Guard have their own introduction on page 9. Page 10 follows the troops entering town, page 11 shows the captains’ assault, and page 12 contains the rival’s response.

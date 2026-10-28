@@ -5,6 +5,10 @@ const next = document.querySelector('#next');
 const status = document.querySelector('#page-status');
 const pageSelect = document.querySelector('#page-select');
 const message = document.querySelector('#reader-message');
+const viewSelect = document.querySelector('#page-view');
+const transcript = document.querySelector('#page-transcript-content');
+const chapterData = [];
+const CANVAS = {width: 1000, height: 1400, panelWidth: 952, panelHeight: 1268};
 let pages = [];
 let currentPage = 0;
 
@@ -48,34 +52,43 @@ function renderChapter(chapter) {
     article.setAttribute('aria-labelledby', `${article.id}-title`);
     const heading = element('h2', 'sr-only', `Page ${page['Page Number']}: ${page.Title}`);
     heading.id = `${article.id}-title`;
+    heading.className = 'canvas-title';
     article.append(heading);
-    page.panels.forEach((panel, panelIndex) => {
-      const layout = panel.layout ?? (page.panels.length % 2 && panelIndex === 0 ? ['wide'] : []);
-      const box = element('div', ['panel', 'world-panel', ...layout].join(' '));
+    const grid = element('div', 'panel-grid');
+    page.panels.forEach(panel => {
+      const box = element('div', 'page-panel');
       const image = element('img', 'panel-art');
-      // Paths are relative to the HTML shell, not the chapter JSON directory.
       image.src = panel.image_src;
       image.alt = panel.image_alt ?? panel.caption;
       image.loading = index === 0 ? 'eager' : 'lazy';
       image.decoding = 'async';
-      if (panel.full_size_link) {
-        const link = element('a', 'guard-art-link');
-        link.href = panel.image_src;
-        link.target = '_blank';
-        link.rel = 'noopener';
-        link.setAttribute('aria-label', `Open full-size illustration: ${image.alt} (opens a new tab)`);
-        link.append(image);
-        box.append(link);
-      } else box.append(image);
-      box.append(element('p', 'caption', panel.caption));
-      if (panel.narration) box.append(element('p', 'world-note', panel.narration));
-      article.append(box);
+      image.addEventListener('load', () => {
+        if (!article.hidden) layoutPage(article);
+      });
+      const link = element('a', 'panel-illustration');
+      link.href = panel.image_src;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      link.setAttribute('aria-label', `Open full-size illustration: ${image.alt} (opens a new tab)`);
+      link.append(image);
+      const copy = element('div', 'panel-copy');
+      if (panel.caption) copy.append(element('p', 'panel-caption', panel.caption));
+      if (panel.narration) copy.append(element('p', 'panel-narration', panel.narration));
+      box.append(link, copy);
+      grid.append(box);
     });
+    article.append(grid);
     const footer = element('div', 'page-foot');
     footer.append(element('span', '', page.footer ?? `${chapter.title} · ${page.Title}`),
       element('span', '', String(page['Page Number']).padStart(2, '0')));
     article.append(footer);
-    fragment.append(article);
+    const viewport = element('div', 'page-viewport');
+    const frame = element('div', 'page-frame');
+    frame.append(article);
+    viewport.append(frame);
+    viewport.hidden = true;
+    fragment.append(viewport);
+    chapterData.push(page);
     const option = element('option', '', `${page['Page Number']} — ${page.Title}`);
     option.value = String(index);
     options.append(option);
@@ -96,12 +109,85 @@ function renderChapter(chapter) {
 function showPage(index) {
   if (!pages.length) return;
   currentPage = Math.max(0, Math.min(index, pages.length - 1));
-  pages.forEach((page, number) => { page.hidden = number !== currentPage; });
+  pages.forEach((page, number) => {
+    page.hidden = number !== currentPage;
+    page.closest('.page-viewport').hidden = number !== currentPage;
+  });
+  layoutPage(pages[currentPage]);
+  renderTranscript(chapterData[currentPage]);
   previous.disabled = currentPage === 0;
   next.disabled = currentPage === pages.length - 1;
   pageSelect.value = String(currentPage);
   status.textContent = `PAGE ${String(currentPage + 1).padStart(2, '0')} OF ${String(pages.length).padStart(2, '0')}`;
 }
+
+function layoutPage(article) {
+  if (article.hidden) return;
+  const boxes = [...article.querySelectorAll('.page-panel')];
+  const panels = boxes.map(box => {
+    const img = box.querySelector('img');
+    return {aspectRatio: img.naturalWidth && img.naturalHeight ? img.naturalWidth / img.naturalHeight : 1.5};
+  });
+  let plan;
+  for (const fontSize of [16, 15, 14, 13, 12]) {
+    article.style.setProperty('--copy-size', `${fontSize}px`);
+    const cache = new Map();
+    plan = ComicLayout.fitPanels(panels, CANVAS.panelWidth, CANVAS.panelHeight, (index, width) => {
+      const key = `${index}:${width.toFixed(2)}`;
+      if (!cache.has(key)) {
+        const copy = boxes[index].querySelector('.panel-copy').cloneNode(true);
+        copy.classList.add('copy-measure');
+        copy.style.width = `${width - 4}px`;
+        copy.style.maxHeight = 'none';
+        article.append(copy);
+        cache.set(key, Math.ceil(copy.getBoundingClientRect().height / currentScale(article)));
+        copy.remove();
+      }
+      return cache.get(key);
+    });
+    if (plan) break;
+  }
+  if (!plan) {
+    // Extremely long author text remains available in the page transcript.
+    plan = ComicLayout.fitPanels(panels, CANVAS.panelWidth, CANVAS.panelHeight, () => 220);
+  }
+  plan.boxes.forEach(({index, x, y, width, height, copyHeight}) => {
+    const box = boxes[index];
+    Object.assign(box.style, {left: `${x}px`, top: `${y}px`, width: `${width}px`, height: `${height}px`});
+    box.querySelector('.panel-copy').style.maxHeight = `${copyHeight}px`;
+  });
+  article.dataset.rows = plan.rows.join('-');
+  scalePage(article);
+}
+
+function currentScale(article) {
+  return Number(article.dataset.scale || 1);
+}
+
+function scalePage(article) {
+  const viewport = article.closest('.page-viewport');
+  const scale = viewSelect.value === 'actual' ? 1 : Math.min(1, viewport.clientWidth / CANVAS.width);
+  article.dataset.scale = String(scale);
+  article.style.transform = `scale(${scale})`;
+  const frame = article.closest('.page-frame');
+  frame.style.width = `${CANVAS.width * scale}px`;
+  frame.style.height = `${CANVAS.height * scale}px`;
+}
+
+function renderTranscript(page) {
+  const fragment = document.createDocumentFragment();
+  fragment.append(element('h3', '', `Page ${page['Page Number']}: ${page.Title}`));
+  page.panels.forEach((panel, index) => {
+    const entry = element('section', 'transcript-panel');
+    entry.append(element('h4', '', `Panel ${index + 1}`));
+    if (panel.caption) entry.append(element('p', 'transcript-caption', panel.caption));
+    if (panel.narration) entry.append(element('p', '', panel.narration));
+    fragment.append(entry);
+  });
+  transcript.replaceChildren(fragment);
+}
+viewSelect.addEventListener('change', () => { if (pages.length) scalePage(pages[currentPage]); });
+new ResizeObserver(() => { if (pages.length) scalePage(pages[currentPage]); }).observe(document.querySelector('#chapter-pages'));
 
 previous.addEventListener('click', () => showPage(currentPage - 1));
 next.addEventListener('click', () => showPage(currentPage + 1));
@@ -111,7 +197,7 @@ pageSelect.addEventListener('change', () => {
 });
 document.addEventListener('keydown', event => {
   if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey ||
-      event.target.closest('input, textarea, select, button, [contenteditable="true"]')) return;
+      event.target.closest('input, textarea, select, [contenteditable="true"]')) return;
   const bounds = reader.getBoundingClientRect();
   if (bounds.bottom <= 0 || bounds.top >= window.innerHeight) return;
   if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {

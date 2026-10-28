@@ -29,17 +29,26 @@ Earth fractures; humanity adapts; Magneton technology supports floating cities; 
 2. His well-trained veterans secure the docks and seize ships.
 3. The city falls easily to the more disciplined force. No silver honour guard is involved yet.
 
-### Page 9 — The Five
+### Page 9 — Meet the Silver Guard
 
-1. Rovan privately forges the silvery Type C found aboard the seized Caravan, using knowledge acquired through his own experience.
-2. Exactly five complete armour-and-weapon sets equip five honour guards. There is no metal for a sixth set. Type C is impervious to weapons.
-3. The guard drifts along magnetic fields, leaping from ship to ship. Rovan's unique crafting knowledge gives his forces an unfair advantage.
+1. Rovan privately crafts the stolen Type C in the workshop; practical sealed armour and five distinct weapon loadouts.
+2. The five captains stand together with different builds and simple closed helmets. No material exists for a sixth set.
+
+### Page 10 — Into the Town
+
+1. Ordinary bronze-and-crimson soldiers run onto the docks.
+2. The veterans charge through the gate under town-guard fire.
+3. Squads advance uphill toward a defended barricade.
+
+### Page 11 — The Five Take the City
+
+Five action panels: magnetic lance; broadsword hull breach; twin-sword flight; war-hammer shield; scythe jump and town-guard surrender. The city is captured after Type C crafting, separate from the page-8 victory.
 
 ## Open decisions
 
 The honour guards' names, individual personalities, the captured city's name, and rival rulers' responses remain to be developed. No additional Type C supply, sixth suit, or weapon that can penetrate Type C is established.
 
-## Prologue: The next move — page 10
+## Prologue: The next move — page 12
 
 1. Rovan and General Grievous discuss holding the captured city and preparing their forces.
 2. Cut to the unnamed ruler of Auric Reach ordering three capital ships toward Rovan.
@@ -47,6 +56,11 @@ The honour guards' names, individual personalities, the captured city's name, an
 
 All Veymarch military fabric under armour is crimson, including the silver honour guards’ cloth layers and capes. Their metal armour colours do not change.
 
-## Page 9 — The Five Take the City
+## Current publication sequence — replaces the earlier page-9 composition
 
-Seven panels: secret seamless-armour forge; five captains with distinct weapons; lance bombardment and fleet assault; broadsword hull breach; twin-sword flight over the town guard; war-hammer shield against Tesla guns; scythe jump to the command terrace and the guard’s surrender. This is the second town capture, after the Type C equipment is made.
+- Page 9: workshop-made armour and the five Silver Guard captains’ introduction (2 panels).
+- Page 10: ordinary bronze-and-crimson troops run onto the docks, through the gate and uphill through town (3 panels).
+- Page 11: lance, broadsword, twin swords, hammer and scythe in action; the final scene seizes the town (5 panels).
+- Page 12: Rovan’s council; the opponent’s orders; three capital ships depart (3 panels).
+
+Armour is practical and man-made, with restrained engineering contours and distinct silhouettes; earlier ceremonial filigree is removed. All pages have the same 1,000 × 1,400 canvas.
