@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "argonaut-refit",
+  "status": "visually_reviewed",
+  "output_file": "assets/argonaut-refit.png",
+  "selected_run": "generation/runs/argonaut-refit.json",
+  "sha256": "a8225cc06936ca3f31ed7cf6f7f2779ee59e929669eda5f0ca104b205aa669aa",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "checks": [
+    "Single Argonaut undergoing refit in dry dock",
+    "Wedge prow, crimson plating, industrial bronze hull and green machinery",
+    "Canonical Veymarch crimson/silver heraldry",
+    "Exact caption and conquest-funded refit narration readable",
+    "No Type C hull or new fleet implied"
+  ]
+}

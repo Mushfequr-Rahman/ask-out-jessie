@@ -7,7 +7,7 @@ A dependency-free HTML comic project featuring **Magneton**.
 - [Chapters](https://mushfequr-rahman.github.io/ask-out-jessie/chapters.html): one available story, **Prologue**.
 - [Read Prologue](https://mushfequr-rahman.github.io/ask-out-jessie/prologue.html): all fourteen illustrated pages, including Rovan's rise, the five silver honour guards, and Auric Reach's response on page 12.
 - [Glossary](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html): metals, ships, eight duchies and banners, people, and world terms.
-- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 59 current artwork files; linked from the glossary.
+- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 60 current artwork files; linked from the glossary.
 - [Repository asset catalogue](ASSETS.md), [world.json](world.json) and [character.json](character.json): artwork inventory, world reference and character records.
 
 Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's fourteen pages contain 43 unique regenerated panel illustrations.
@@ -106,7 +106,7 @@ Run `python3 scripts/validate_world.py` after editing either file to check chara
 ```sh
 python3 scripts/build_image_requests.py
 python3 scripts/test_image_requests.py
-python3 scripts/validate_generation.py --require-outputs --banner-review generation/page14-banner-review.json
+python3 scripts/validate_generation.py --require-outputs --banner-review generation/argonaut-refit-banner-review.json
 ```
 
 The request builder takes scene + world.json + character.json + objects.json. It writes prompts rather than calling a paid API. All 43 selected outputs are already committed under `assets/panels/`. Earlier anchors are retained under `references/`; generation requests and run metadata record provenance. See [the generation workflow and official research sources](docs/image-generation.md) for reference conditioning, exact lettering, fixed apertures and the MongoDB assessment. JSON remains the storage layer for this static site.
@@ -118,3 +118,5 @@ The generation builder gives canonical house banners precedence over older scene
 Page 13, **Three Bastions**, follows a schooner courier’s warning, Rovan’s council with Grievous and all five captains, and their decision to face the approaching enemy head-on. The battle itself remains ahead.
 
 Page 14, **The Shattered Plains**, names Rovan’s capital ship the **Argonaut**, shows its departure under the city’s doubts, and reveals the difficult terrain he chooses to split the three enemy Bastions.
+
+The [Argonaut refit illustration](assets/argonaut-refit.png) shows Rovan investing captured wealth in his flagship. Its canonical ship anchor is stored in `objects.json` and reserved before older scene references in future generation requests. The [glossary](glossary.html#argonaut-refit) describes the upgrades.

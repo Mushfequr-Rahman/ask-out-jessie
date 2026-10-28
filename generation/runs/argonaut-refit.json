@@ -1,0 +1,13 @@
+{
+  "id": "argonaut-refit",
+  "status": "visually_reviewed",
+  "request_file": "generation/refit-requests/argonaut-refit.json",
+  "output_file": "assets/argonaut-refit.png",
+  "generated_original": "/workspace/generated_images/exec-64e7d82c-55c1-40bb-aee8-15c8d154e202.png",
+  "source_hashes": {
+    "world.json": "760e44ab66b9fe07349f7ec8a5cf2c2b365b9e089918bb8f2344c96229ed7216",
+    "character.json": "45f132316dfb958d8675988dda786c2073a1a1639d20b9c2e282802bd7fda7f4",
+    "objects.json": "c33ac05560cf5ca371bdfa801e9f3958621955ebbdbf0056de87ce81f087ec43",
+    "scene": "20bed9b8e5743a57f6e628cfddfcafeec7964e6a63c9840acdfdfdc27c3ec2b0"
+  }
+}

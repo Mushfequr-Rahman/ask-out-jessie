@@ -164,3 +164,7 @@ A Veymarch schooner brings an unnamed courier to Rovan with news of three approa
 ## The Shattered Plains — page 14
 
 Rovan’s one capital ship is named **Argonaut**; it uses the Bastion design. It leaves the recently conquered city while its people expect him to lose against three enemy capitals. He chooses the Shattered Plains, a stretch of sky blotted with huge floating rocks and very strong magnetic fields. The terrain makes navigation difficult and forces the enemy Bastions to separate to engage him. The page reveals the plan; it does not establish the battle’s outcome.
+
+## The Argonaut’s refit
+
+Rovan uses his newfound wealth to upgrade his single capital ship before the page-14 departure. Its distinctive wedge prow, crimson Type A armour panels, rebuilt gun positions, green Type B engine upgrades and magnetic stabilisers distinguish it from the standard Bastion. The hull is not Type C or invulnerable. A dedicated dockside illustration shows the work; page 14 uses the completed design.

@@ -1638,9 +1638,9 @@
       "panels": [
         {
           "image_src": "assets/panels/prologue-p14-panel01.png",
-          "caption": "The Argonaut.",
+          "caption": "The Argonaut, refitted.",
           "narration": "Onlooker: “One ship against three? He’s not coming back.”",
-          "image_alt": "Civilians watch Rovan’s Argonaut leave the conquered city and predict his defeat.",
+          "image_alt": "Civilians watch the refitted Argonaut depart, its wedge prow and crimson armour displaying Rovan’s investment.",
           "priority": 3,
           "holder": {
             "x": 0,
@@ -1651,11 +1651,11 @@
           "lettering": [
             {
               "type": "caption",
-              "text": "The Argonaut.",
+              "text": "The Argonaut, refitted.",
               "bounds": {
                 "x": 20,
                 "y": 20,
-                "width": 280,
+                "width": 360,
                 "height": 42
               }
             },
@@ -1677,7 +1677,7 @@
           "image_src": "assets/panels/prologue-p14-panel02.png",
           "caption": "The Shattered Plains.",
           "narration": "Huge rocks crowded the sky. Between them, magnetic currents dragged at every hull.",
-          "image_alt": "The Argonaut enters the Shattered Plains amid huge floating rocks and violent magnetic currents.",
+          "image_alt": "The refitted Argonaut threads the Shattered Plains, with crimson hull armour and upgraded green magnetic machinery.",
           "priority": 5,
           "holder": {
             "x": 0,

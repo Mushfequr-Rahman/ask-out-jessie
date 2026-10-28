@@ -39,6 +39,9 @@ def build_request(scene, world, characters, objects, template, files):
     assert len(banners) <= 2, 'At most two house anchors per request; split larger casts into shots or author a combined reference sheet'
     for banner in banners:
         add_ref(banner['canonical_reference'], 'AUTHORITATIVE banner colours, emblem and trim for '+banner['duchy_id']+'. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.')
+    for obj in selected_objects:
+        if obj['kind']=='ship' and obj.get('canonical_reference'):
+            add_ref(obj['canonical_reference'], 'AUTHORITATIVE ship geometry for '+obj['id']+'. Overrides older generic ship silhouettes in scene references; preserve this design in the new pose. Do not copy its background, people or lettering.')
     for ref in scene['reference_images']:
         add_ref(ref['path'], ref['role']+' Composition/action reference only for heraldry: its banner colours and symbols are NOT authoritative; follow the canonical house anchors and palettes.')
     for c in selected_chars:

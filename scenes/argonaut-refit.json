@@ -1,0 +1,57 @@
+{
+  "id": "argonaut-refit",
+  "chapter_id": "reference",
+  "page_number": 14,
+  "panel_number": 0,
+  "description": "A dedicated landscape illustration of Rovan’s Argonaut in a dockside REFIT WORKSHOP at the conquered floating city. Exactly ONE capital ship, its full side and three-quarter bow visible, fixed to dry-dock braces, cranes and scaffold gantries, being upgraded by small human civilian workers in practical work clothes. At lower left, Rovan in navy/crimson surveys the work, a small recognisable figure. The completed upgrades are clearly visible at once: long bronze Zeppelin central hull and two shorter side gun hulls, a sharp WEDGE-SHAPED ARMOURED RAM PROW unlike the old blunt Bastion, reinforced lower keel, broad CRIMSON side armour panels framed by bronze ribs, low protected bridge citadel, TWO exposed upright green magnetic stabiliser rings near the stern, FOUR articulated bronze vectoring thruster pods, rebuilt gun mounts. Rivets, tool marks, bolted service access and practical construction. Not a balloon, not a wooden sailboat, not a cathedral. Type A bronze armour, green Type B engines, NO silver hull or Type C plating. Crimson Veymarch banner bears a SILVER broken shield/star. Full ship silhouette stays inside canvas with space for caption and narration. This single new image shows how captured wealth pays for the refit; no combat or enemy ships.",
+  "character_ids": [
+    "rovan-vey"
+  ],
+  "object_ids": [
+    "argonaut",
+    "banner-veymarch"
+  ],
+  "holder": {
+    "x": 0,
+    "y": 0,
+    "width": 1536,
+    "height": 1024
+  },
+  "lettering": [
+    {
+      "type": "caption",
+      "text": "The Argonaut refit.",
+      "bounds": {
+        "x": 32,
+        "y": 28,
+        "width": 420,
+        "height": 64
+      }
+    },
+    {
+      "type": "narration",
+      "text": "Conquest paid for the refit: stronger armour, new engines and field stabilisers.",
+      "bounds": {
+        "x": 400,
+        "y": 900,
+        "width": 1090,
+        "height": 84
+      }
+    }
+  ],
+  "reference_images": [
+    {
+      "path": "assets/capital-bastion.png",
+      "role": "BEFORE-REFIT ancestry only. Redesign the bow, armour and engine layout according to the Argonaut specification. This is not the final Argonaut silhouette."
+    }
+  ],
+  "priority": 5,
+  "output_file": "assets/argonaut-refit.png",
+  "silver_guard_count": 0,
+  "silver_guard_weapon_id": null,
+  "visual_constraints": [
+    "Exactly ONE Argonaut, with the unique refit geometry; no second ship.",
+    "The silver house emblem must not become gold, and crimson armour panels must remain crimson.",
+    "The paired stern field rings and four vectoring pods are engine upgrades, not new supernatural weapons."
+  ]
+}

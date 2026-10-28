@@ -1,0 +1,20 @@
+{
+  "id": "prologue-p14-panel01",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/prologue-p14-panel01.json",
+  "output_file": "assets/panels/prologue-p14-panel01.png",
+  "generated_original": "/workspace/generated_images/exec-231483f7-fd79-4b8d-a869-e91381c8011e.png",
+  "source_hashes": {
+    "world.json": "760e44ab66b9fe07349f7ec8a5cf2c2b365b9e089918bb8f2344c96229ed7216",
+    "character.json": "45f132316dfb958d8675988dda786c2073a1a1639d20b9c2e282802bd7fda7f4",
+    "objects.json": "d520ef234315306ccb82c9e064b09e80377fe265547501d98dae2ffa516c4e9e",
+    "scene": "f59c70e81e850fe808f5bbe1299b942c48590bf9cb7075aebfcbbb28809ff688"
+  },
+  "holder": {
+    "x": 0,
+    "y": 0,
+    "width": 952,
+    "height": 288.688
+  },
+  "reason": "Use canonical Argonaut wealth-funded refit design."
+}

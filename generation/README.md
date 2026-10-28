@@ -23,3 +23,5 @@ New requests default to `drafts/` and reserve canonical house references first. 
 Page 13 adds three shots to the existing Prologue. Their pre-generation input bibles are archived in `page13-source-snapshots/`. The comparison report for that page records only its new images as reviewed; older panels remain pending under the newer banner-specific criteria.
 
 Page 14 adds the Argonaut’s departure and Shattered Plains strategy. Its pre-generation bibles are in `page14-source-snapshots/`; `page14-banner-review.json` carries forward the checked page-13 decisions and adds page 14.
+
+The Argonaut refit is a standalone reference scene in `scenes/argonaut-refit.json`, with its resolved request in `refit-requests/`. The page-14 before-refit images and original requests are archived under `references/iterations/` and `requests/archives/`; their historical run records point to those archived requests. New selected runs use the completed refit design.

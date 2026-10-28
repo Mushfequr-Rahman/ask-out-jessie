@@ -81,6 +81,14 @@ class RequestTests(unittest.TestCase):
     def test_no_house_invented_in_early_era(self):
         self.assertEqual(self.request(self.scenes[0])['heraldry']['banner_ids'],[])
 
+    def test_refitted_argonaut_anchor_survives_crowded_scene_references(self):
+        scene=copy.deepcopy(next(s for s in self.scenes if s['id']=='prologue-p14-panel01'))
+        scene['reference_images']=[{'path':s['reference_images'][0]['path'],'role':'Old scene'} for s in self.scenes[:4]]
+        refs=self.request(scene)['reference_images']
+        self.assertEqual(refs[0]['path'],'assets/banner-veymarch.png')
+        self.assertEqual(refs[1]['path'],'assets/argonaut-refit.png')
+        self.assertIn('AUTHORITATIVE ship geometry',refs[1]['role'])
+
     def test_missing_palette_and_reference_fail_before_generation(self):
         scene=next(s for s in self.scenes if s['id']=='prologue-p05-panel01')
         banner=next(o for o in self.objects['objects'] if o['id']=='banner-veymarch')

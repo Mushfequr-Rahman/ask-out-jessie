@@ -1,0 +1,9 @@
+{
+  "requests": [
+    {
+      "id": "argonaut-refit",
+      "request_file": "generation/refit-requests/argonaut-refit.json",
+      "output_file": "assets/argonaut-refit.png"
+    }
+  ]
+}

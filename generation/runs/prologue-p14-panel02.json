@@ -1,7 +1,7 @@
 {
   "id": "prologue-p14-panel02",
   "status": "visually_reviewed",
-  "request_file": "generation/requests/prologue-p14-panel02.json",
+  "request_file": "generation/requests/archives/prologue-p14-panel02-pre-refit.json",
   "output_file": "assets/panels/prologue-p14-panel02.png",
   "generated_original": "/workspace/generated_images/exec-6f4e40bd-b57c-42a2-a945-3b5bde4a7084.png",
   "source_hashes": {

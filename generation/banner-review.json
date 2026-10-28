@@ -213,14 +213,14 @@
           "page": 14,
           "panel": 1,
           "file": "assets/panels/prologue-p14-panel01.png",
-          "sha256": "58ee1a58b804b4effddbd65f2e79f6433e5be447b206af5ce90f98df3fa360c2"
+          "sha256": "b54e7ad86a058576c6a063c487caccc9bcb4721d72c9f8bc34aaa1d6b733f559"
         },
         {
           "id": "prologue-p14-panel02",
           "page": 14,
           "panel": 2,
           "file": "assets/panels/prologue-p14-panel02.png",
-          "sha256": "c68914633d9cf070f362bbbd35f040739a9fa3153e8a61d366073a3f062e8703"
+          "sha256": "f4f79f82070982105882594743840f7b974139a6ab4fb92ad2ccb5d4a2c923f2"
         },
         {
           "id": "prologue-p14-panel03",
@@ -510,5 +510,5 @@
     "Check cloth hue, emblem and trim separately under the scene lighting",
     "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
   ],
-  "revision": "649dce8a581750e4d84db3ff0fffb4b827b95829a916f57bcf70a4c7126c63fa"
+  "revision": "51660813b7dfecdee91b846957d8f9cf4a0fcfc431fc645474d450d3e289e9bb"
 }

@@ -574,6 +574,12 @@
     },
     {
       "order": 16,
+      "event": "Rovan invests his newly captured wealth in an Argonaut refit: reinforced bronze armour, upgraded engines and magnetic stabilisers.",
+      "time_relation": "After the city conquests and before the departure on page 14.",
+      "ship_id": "argonaut"
+    },
+    {
+      "order": 17,
       "event": "The Argonaut leaves the recently conquered city. Its inhabitants expect Rovan to lose. He chooses the Shattered Plains, where floating rocks and strong magnetic fields will force the three enemy Bastions to separate.",
       "page": 14,
       "battle_outcome": null
@@ -1321,10 +1327,10 @@
               {
                 "number": 1,
                 "asset_id": "prologue-p14-panel01",
-                "caption": "The Argonaut.",
+                "caption": "The Argonaut, refitted.",
                 "narration": "Onlooker: “One ship against three? He’s not coming back.”",
                 "priority": 3,
-                "image_description": "Civilians watch Rovan’s Argonaut leave the conquered city and predict his defeat.",
+                "image_description": "Civilians watch the refitted Argonaut depart, its wedge prow and crimson armour displaying Rovan’s investment.",
                 "holder": {
                   "x": 0,
                   "y": 0,
@@ -1340,7 +1346,7 @@
                 "caption": "The Shattered Plains.",
                 "narration": "Huge rocks crowded the sky. Between them, magnetic currents dragged at every hull.",
                 "priority": 5,
-                "image_description": "The Argonaut enters the Shattered Plains amid huge floating rocks and violent magnetic currents.",
+                "image_description": "The refitted Argonaut threads the Shattered Plains, with crimson hull armour and upgraded green magnetic machinery.",
                 "holder": {
                   "x": 0,
                   "y": 298.688,
@@ -1418,6 +1424,21 @@
     "Any further Type C supply or technical crafting details"
   ],
   "assets": [
+    {
+      "id": "argonaut-refit",
+      "file": "assets/argonaut-refit.png",
+      "title": "The Argonaut refit",
+      "category": "world",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3884852,
+      "sha256": "a8225cc06936ca3f31ed7cf6f7f2779ee59e929669eda5f0ca104b205aa669aa",
+      "status": "current",
+      "origin": "Generated illustration of Rovan investing captured wealth in an industrial Type A/Type B refit.",
+      "comic_usage": []
+    },
     {
       "id": "banner-auric-reach",
       "file": "assets/banner-auric-reach.png",
@@ -2469,11 +2490,11 @@
       "title": "Prologue P14 Panel01",
       "category": "comic",
       "dimensions": {
-        "width": 2167,
-        "height": 726
+        "width": 2172,
+        "height": 724
       },
-      "byte_size": 3444624,
-      "sha256": "58ee1a58b804b4effddbd65f2e79f6433e5be447b206af5ce90f98df3fa360c2",
+      "byte_size": 3364806,
+      "sha256": "b54e7ad86a058576c6a063c487caccc9bcb4721d72c9f8bc34aaa1d6b733f559",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
@@ -2481,7 +2502,7 @@
           "story_id": "prologue",
           "page": 14,
           "panel": 1,
-          "description": "Civilians watch Rovan’s Argonaut leave the conquered city and predict his defeat."
+          "description": "Civilians watch the refitted Argonaut depart, its wedge prow and crimson armour displaying Rovan’s investment."
         }
       ]
     },
@@ -2494,8 +2515,8 @@
         "width": 1487,
         "height": 1058
       },
-      "byte_size": 3866512,
-      "sha256": "c68914633d9cf070f362bbbd35f040739a9fa3153e8a61d366073a3f062e8703",
+      "byte_size": 3962909,
+      "sha256": "f4f79f82070982105882594743840f7b974139a6ab4fb92ad2ccb5d4a2c923f2",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
@@ -2503,7 +2524,7 @@
           "story_id": "prologue",
           "page": 14,
           "panel": 2,
-          "description": "The Argonaut enters the Shattered Plains amid huge floating rocks and violent magnetic currents."
+          "description": "The refitted Argonaut threads the Shattered Plains, with crimson hull armour and upgraded green magnetic machinery."
         }
       ]
     },
@@ -2622,7 +2643,8 @@
     "All comic pages use the same 1000 by 1400 logical canvas and a maximum of five panels.",
     "The Silver Guard wear Veymarch’s established broken-shield-and-star crest; restrained brass trim does not replace the silver Type C material.",
     "Rovan’s single capital ship is named Argonaut; Bastion remains a capital-ship design, not its personal name.",
-    "Rovan chooses the Shattered Plains to force the three enemy Bastions to separate; no result of the fleet battle is established."
+    "Rovan chooses the Shattered Plains to force the three enemy Bastions to separate; no result of the fleet battle is established.",
+    "The Argonaut is refitted using Rovan’s newfound wealth; its upgraded hull remains Type A bronze and its machinery uses Type B. Type C is reserved for the five honour guards."
   ],
   "military_livery": {
     "veymarch": {
@@ -2684,7 +2706,22 @@
       "duchy_id": "veymarch",
       "commander_id": "rovan-vey",
       "role": "Rovan’s single capital ship; departs the recently conquered Auric Reach city toward the Shattered Plains.",
-      "departure_location_id": "auric-latest-captured-city"
+      "departure_location_id": "auric-latest-captured-city",
+      "refit": {
+        "funding": "Rovan uses his newfound wealth from conquest to upgrade his existing capital ship.",
+        "timing": "After the conquests and before the page-14 departure.",
+        "hull_material": "Magneton Type A; reinforced bronze armour, not Type C.",
+        "upgrades": [
+          "Wedge-shaped armoured ram prow with a reinforced lower keel",
+          "Crimson lacquered side armour panels with bronze ribs",
+          "Two exposed green magnetic stabiliser rings near the stern",
+          "Four articulated vectoring thruster pods using green Type B machinery",
+          "Rebuilt gun positions and a low protected command citadel"
+        ],
+        "visual_identity": "One elongated central Zeppelin hull with two shorter side gun hulls; industrial bronze and crimson, restrained silver Veymarch emblems.",
+        "limits": "A refit of the same single capital ship, not a second ship or an invulnerable Type C hull. No new weapon abilities or performance statistics established."
+      },
+      "refit_asset_id": "argonaut-refit"
     }
   ]
 }

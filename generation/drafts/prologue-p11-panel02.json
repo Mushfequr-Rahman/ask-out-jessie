@@ -327,9 +327,9 @@
     "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
   ],
   "source_hashes": {
-    "world.json": "717370d6f4c44c0cb1855adff5845201e30d6f357d1b9b5bcc3a98d3a9aa1459",
+    "world.json": "97c89f881061f3e4240ca3b325e51efc3b5ef6c84ba6d0637f52a6e53ac46043",
     "character.json": "45f132316dfb958d8675988dda786c2073a1a1639d20b9c2e282802bd7fda7f4",
-    "objects.json": "7638289b4b5af9d32ccf03b5cc8982e308eb04705b5a4ca5e7df851f95465485",
+    "objects.json": "d520ef234315306ccb82c9e064b09e80377fe265547501d98dae2ffa516c4e9e",
     "scene": "c8dcb0ecba5124d918351071093ad74b7711b8e425ad53995a116ed5e86f8e72"
   }
 }

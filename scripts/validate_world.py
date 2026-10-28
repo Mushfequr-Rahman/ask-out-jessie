@@ -48,6 +48,8 @@ designs={ship['id']:ship for ship in world['ship_designs']}
 for ship in named_ships:
     assert ship['design_id'] in designs and ship['class_id']==designs[ship['design_id']]['class_id'], 'Unknown named ship design/class'
     assert ship['commander_id'] in character_ids and ship['duchy_id'] in {d['id'] for d in duchies}, 'Unknown named ship commander/house'
+    if 'refit_asset_id' in ship:
+        assert ship['refit_asset_id'] in assets, 'Missing named ship refit illustration'
 for character in characters:
     if 'flagship_id' in character.get('military', {}):
         assert character['military']['flagship_id'] in named_ship_ids, 'Unknown flagship'

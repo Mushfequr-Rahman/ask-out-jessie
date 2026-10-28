@@ -2150,7 +2150,7 @@
       "chapter_id": "prologue",
       "page_number": 14,
       "panel_number": 1,
-      "description": "A new wide departure shot from the quay of the small recently conquered Auric Reach floating island city. Exactly ONE large bronze Zeppelin capital ship, Rovan’s Argonaut, is moving away from the dock into open sky, stern engines glowing green, visible whole hull and command citadel. This is a Bastion-design ship, not a sailing boat. Foreground left: THREE unarmed civilian adults in plain work coats and scarves watch it leave; one speaks the quoted pessimistic line to the other two. No officers, no silver captains, no soldiers among these civilians. Show their worried or dismissive expressions. The ship is under Veymarch crimson flags with a SILVER broken shield and eight-point star. This is Rovan’s recently conquered city, not his original home seat. No enemy capital ships visible.",
+      "description": "A new wide departure shot from the quay of the small recently conquered Auric Reach floating island city. Exactly ONE large bronze Zeppelin capital ship, Rovan’s Argonaut, is moving away from the dock into open sky, stern engines glowing green, visible whole hull and command citadel. This is a Bastion-design ship, not a sailing boat. Foreground left: THREE unarmed civilian adults in plain work coats and scarves watch it leave; one speaks the quoted pessimistic line to the other two. No officers, no silver captains, no soldiers among these civilians. Show their worried or dismissive expressions. The ship is under Veymarch crimson flags with a SILVER broken shield and eight-point star. This is Rovan’s recently conquered city, not his original home seat. No enemy capital ships visible. The Argonaut is now refitted with Rovan’s newly acquired wealth: replace the generic old Bastion silhouette with the distinctive wedge-prowed crimson-and-bronze Argonaut shown in the canonical refit reference. Preserve the scene’s existing civilians or rock terrain. No cranes or workshop workers are present in this scene.",
       "character_ids": [
         "auric-city-onlookers"
       ],
@@ -2167,11 +2167,11 @@
       "lettering": [
         {
           "type": "caption",
-          "text": "The Argonaut.",
+          "text": "The Argonaut, refitted.",
           "bounds": {
             "x": 20,
             "y": 20,
-            "width": 280,
+            "width": 360,
             "height": 42
           }
         },
@@ -2188,8 +2188,12 @@
       ],
       "reference_images": [
         {
-          "path": "assets/capital-bastion.png",
-          "role": "Design reference only for this NEW scene; do not copy existing text, background people or extra vessels."
+          "path": "assets/argonaut-refit.png",
+          "role": "CANONICAL completed Argonaut refit design. Its wedge prow, crimson armour panels, green stern rings and articulated pods control SHIP GEOMETRY. Do not copy its dry-dock background, workers or text."
+        },
+        {
+          "path": "references/iterations/prologue-p14-panel01-before-refit.png",
+          "role": "TARGET EXISTING COMIC PANEL: preserve its people, scenery, composition and lettering except the specified updated first caption. Replace ONLY the old generic capital ship with the canonical refitted Argonaut."
         }
       ],
       "priority": 3,
@@ -2200,7 +2204,9 @@
         "No silver captains visible in this shot.",
         "Argonaut is Rovan’s ONE bronze Bastion-design capital ship; the enemy force remains three Bastions and has not arrived in view.",
         "The strategy forces the enemy to separate in difficult terrain; no battle result or enemy destruction is shown.",
-        "Any Veymarch emblem is SILVER on crimson, never gold."
+        "Any Veymarch emblem is SILVER on crimson, never gold.",
+        "Preserve the target panel’s composition, people, background, magnetic fields and exact lettering. Change only the ship to its canonical refit design, plus the specified first caption on the departure shot.",
+        "Use the canonical refit as the final silhouette. The older target image is NOT authoritative for ship geometry."
       ]
     },
     {
@@ -2208,7 +2214,7 @@
       "chapter_id": "prologue",
       "page_number": 14,
       "panel_number": 2,
-      "description": "A fresh wide establishing view of the SHATTERED PLAINS, a stretch of sky filled with enormous bare floating boulders, jagged rock slabs and cliff-like fragments at different heights. These are mostly BARE ROCK, not inhabited islands or cities. Powerful green magnetic currents arc and bend between the rocks, visibly deflecting dust and tugging at the Argonaut’s flight wake. Exactly ONE bronze Zeppelin capital ship, the ARGONAUT, enters a tight gap between towering rocks, small enough to show the huge scale but its full silhouette still readable. Foreground massive rocks and tangled currents make navigation visibly difficult. Veymarch crimson banner with SILVER emblem on the Argonaut. No other vessels, no enemy fleet, no battle, no guns firing. Dramatic navigation and dangerous terrain, not a peaceful city panorama.",
+      "description": "A fresh wide establishing view of the SHATTERED PLAINS, a stretch of sky filled with enormous bare floating boulders, jagged rock slabs and cliff-like fragments at different heights. These are mostly BARE ROCK, not inhabited islands or cities. Powerful green magnetic currents arc and bend between the rocks, visibly deflecting dust and tugging at the Argonaut’s flight wake. Exactly ONE bronze Zeppelin capital ship, the ARGONAUT, enters a tight gap between towering rocks, small enough to show the huge scale but its full silhouette still readable. Foreground massive rocks and tangled currents make navigation visibly difficult. Veymarch crimson banner with SILVER emblem on the Argonaut. No other vessels, no enemy fleet, no battle, no guns firing. Dramatic navigation and dangerous terrain, not a peaceful city panorama. The Argonaut is now refitted with Rovan’s newly acquired wealth: replace the generic old Bastion silhouette with the distinctive wedge-prowed crimson-and-bronze Argonaut shown in the canonical refit reference. Preserve the scene’s existing civilians or rock terrain. No cranes or workshop workers are present in this scene.",
       "character_ids": [],
       "object_ids": [
         "argonaut",
@@ -2244,12 +2250,12 @@
       ],
       "reference_images": [
         {
-          "path": "assets/capital-bastion.png",
-          "role": "Design reference only for this NEW scene; do not copy existing text, background people or extra vessels."
+          "path": "assets/argonaut-refit.png",
+          "role": "CANONICAL completed Argonaut refit design. Its wedge prow, crimson armour panels, green stern rings and articulated pods control SHIP GEOMETRY. Do not copy its dry-dock background, workers or text."
         },
         {
-          "path": "references/panels/magnetic-islands.png",
-          "role": "Design reference only for this NEW scene; do not copy existing text, background people or extra vessels."
+          "path": "references/iterations/prologue-p14-panel02-before-refit.png",
+          "role": "TARGET EXISTING COMIC PANEL: preserve its people, scenery, composition and lettering except the specified updated first caption. Replace ONLY the old generic capital ship with the canonical refitted Argonaut."
         }
       ],
       "priority": 5,
@@ -2260,7 +2266,9 @@
         "No silver captains visible in this shot.",
         "Argonaut is Rovan’s ONE bronze Bastion-design capital ship; the enemy force remains three Bastions and has not arrived in view.",
         "The strategy forces the enemy to separate in difficult terrain; no battle result or enemy destruction is shown.",
-        "Any Veymarch emblem is SILVER on crimson, never gold."
+        "Any Veymarch emblem is SILVER on crimson, never gold.",
+        "Preserve the target panel’s composition, people, background, magnetic fields and exact lettering. Change only the ship to its canonical refit design, plus the specified first caption on the departure shot.",
+        "Use the canonical refit as the final silhouette. The older target image is NOT authoritative for ship geometry."
       ]
     },
     {
