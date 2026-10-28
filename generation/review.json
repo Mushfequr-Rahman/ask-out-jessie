@@ -1,0 +1,635 @@
+{
+  "schema_version": 1,
+  "status": "reviewed_for_publication",
+  "selected_outputs": [
+    {
+      "id": "prologue-p01-panel01",
+      "output_file": "assets/panels/prologue-p01-panel01.png",
+      "selected_run": "generation/runs/prologue-p01-panel01-correction.json",
+      "sha256": "19e85078cf56803820f6cebe0669be4608db65de2af6c51f7a4113d578275e4f",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 761.975
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p01-panel02",
+      "output_file": "assets/panels/prologue-p01-panel02.png",
+      "selected_run": "generation/runs/prologue-p01-panel02.json",
+      "sha256": "bc672dd4c19a7207eb166142fbe097784d7caadfc923d38743616f9a0a3687b1",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "holder": {
+        "x": 0,
+        "y": 771.975,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p01-panel03",
+      "output_file": "assets/panels/prologue-p01-panel03.png",
+      "selected_run": "generation/runs/prologue-p01-panel03-correction.json",
+      "sha256": "65a599f9ee13001e9a63711cd9c0cb6b1d2f430e0ea4beea7efc10d0422ad651",
+      "dimensions": {
+        "width": 1008,
+        "height": 1560
+      },
+      "holder": {
+        "x": 632.929,
+        "y": 771.975,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p02-panel01",
+      "output_file": "assets/panels/prologue-p02-panel01.png",
+      "selected_run": "generation/runs/prologue-p02-panel01.json",
+      "sha256": "0256cfd5b2ede2d4c8c0db820d7e86e08685876fde70daeaa446aad7f80118a6",
+      "dimensions": {
+        "width": 1007,
+        "height": 1561
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p02-panel02",
+      "output_file": "assets/panels/prologue-p02-panel02.png",
+      "selected_run": "generation/runs/prologue-p02-panel02-correction.json",
+      "sha256": "dc86a5fe02415149e16eb730d3eee2d53fe867577bb7e227df4a3699c8d1392c",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "holder": {
+        "x": 329.071,
+        "y": 0,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p02-panel03",
+      "output_file": "assets/panels/prologue-p02-panel03.png",
+      "selected_run": "generation/runs/prologue-p02-panel03.json",
+      "sha256": "666e80bc08cc7b6b86e1f6347aabcc14528b18b4af956a4e2ea780a9bb93a2f0",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "holder": {
+        "x": 0,
+        "y": 506.025,
+        "width": 952,
+        "height": 761.975
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p03-panel01",
+      "output_file": "assets/panels/prologue-p03-panel01.png",
+      "selected_run": "generation/runs/prologue-p03-panel01.json",
+      "sha256": "94d71f1bab4b4420b9b2accf2ada3997689c0450ae6947a787b4afbb72275685",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p03-panel02",
+      "output_file": "assets/panels/prologue-p03-panel02.png",
+      "selected_run": "generation/runs/prologue-p03-panel02.json",
+      "sha256": "8339893c2b61534389b629e908909167de8580f7d2e8d1989c9b51708ff83ddb",
+      "dimensions": {
+        "width": 1008,
+        "height": 1561
+      },
+      "holder": {
+        "x": 632.929,
+        "y": 0,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p03-panel03",
+      "output_file": "assets/panels/prologue-p03-panel03.png",
+      "selected_run": "generation/runs/prologue-p03-panel03.json",
+      "sha256": "2a1da7993586ed6cd6a35747dc8f60c9e9e6fa671907f3cdf1013a5bd5cc7121",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "holder": {
+        "x": 0,
+        "y": 506.025,
+        "width": 952,
+        "height": 761.975
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p04-panel01",
+      "output_file": "assets/panels/prologue-p04-panel01.png",
+      "selected_run": "generation/runs/prologue-p04-panel01.json",
+      "sha256": "f1ec3d1264273d7fc8c6b05392b08a6749aa239c6c60f5c1f244746c810a2d4b",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 302.738
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p04-panel02",
+      "output_file": "assets/panels/prologue-p04-panel02.png",
+      "selected_run": "generation/runs/prologue-p04-panel02.json",
+      "sha256": "a7b0f095780b6475abc90a0cabd1ba0e1a6e28af146cbb66a89494f014c92254",
+      "dimensions": {
+        "width": 1454,
+        "height": 1082
+      },
+      "holder": {
+        "x": 0,
+        "y": 312.738,
+        "width": 952,
+        "height": 703.262
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p04-panel03",
+      "output_file": "assets/panels/prologue-p04-panel03.png",
+      "selected_run": "generation/runs/prologue-p04-panel03.json",
+      "sha256": "c19e5bb365405d27d030abcc40a0a6f7e1ad3e5eef0d383fa127f934aa0d1d45",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 1026,
+        "width": 952,
+        "height": 242
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p05-panel01",
+      "output_file": "assets/panels/prologue-p05-panel01.png",
+      "selected_run": "generation/runs/prologue-p05-panel01.json",
+      "sha256": "4110094fae4a134c9d107d0afbe33e6b403a79c1d62bc9fb8aea3db337c65276",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p05-panel02",
+      "output_file": "assets/panels/prologue-p05-panel02.png",
+      "selected_run": "generation/runs/prologue-p05-panel02.json",
+      "sha256": "f1ad68479f892a7df95233cee7619d6ed75e941b5bb9dcf4998172e00c763b30",
+      "dimensions": {
+        "width": 1008,
+        "height": 1561
+      },
+      "holder": {
+        "x": 632.929,
+        "y": 0,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p05-panel03",
+      "output_file": "assets/panels/prologue-p05-panel03.png",
+      "selected_run": "generation/runs/prologue-p05-panel03.json",
+      "sha256": "f5a9d460a6ee32ef5d9325327e726f1964489992f68f1c526998ff89e7e1c726",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "holder": {
+        "x": 0,
+        "y": 506.025,
+        "width": 952,
+        "height": 761.975
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p06-panel01",
+      "output_file": "assets/panels/prologue-p06-panel01.png",
+      "selected_run": "generation/runs/prologue-p06-panel01.json",
+      "sha256": "02cede6337b8e9a8b8690b956702ba13c0544357e6fde7505fe42e836562e67a",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 302.738
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p06-panel02",
+      "output_file": "assets/panels/prologue-p06-panel02.png",
+      "selected_run": "generation/runs/prologue-p06-panel02.json",
+      "sha256": "35c77166a7381d3a4be28f60c2524f58d21be56c5bc0c0bb977b5b9982c80130",
+      "dimensions": {
+        "width": 1454,
+        "height": 1082
+      },
+      "holder": {
+        "x": 0,
+        "y": 312.738,
+        "width": 952,
+        "height": 703.262
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p06-panel03",
+      "output_file": "assets/panels/prologue-p06-panel03.png",
+      "selected_run": "generation/runs/prologue-p06-panel03.json",
+      "sha256": "67578d4176294578f46fcc1eea6073cd87241e77a625067ffeed32ba8a19e6f1",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 1026,
+        "width": 952,
+        "height": 242
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p07-panel01",
+      "output_file": "assets/panels/prologue-p07-panel01.png",
+      "selected_run": "generation/runs/prologue-p07-panel01.json",
+      "sha256": "3176d05106083385b68b5a1d8803d2a6d4050f4a992a980df793dea0d0d7c0d6",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 761.975
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p07-panel02",
+      "output_file": "assets/panels/prologue-p07-panel02.png",
+      "selected_run": "generation/runs/prologue-p07-panel02.json",
+      "sha256": "3e59fa5d107402531d9c8e7ac3a9dfcd2ea6ef61c648b3fbce60162f8862a955",
+      "dimensions": {
+        "width": 1008,
+        "height": 1560
+      },
+      "holder": {
+        "x": 0,
+        "y": 771.975,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p07-panel03",
+      "output_file": "assets/panels/prologue-p07-panel03.png",
+      "selected_run": "generation/runs/prologue-p07-panel03.json",
+      "sha256": "827391becb737fbdbf01c1cbff741c8ed4c2e6030b79ffec44acc665fb98d509",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "holder": {
+        "x": 329.071,
+        "y": 771.975,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p08-panel01",
+      "output_file": "assets/panels/prologue-p08-panel01.png",
+      "selected_run": "generation/runs/prologue-p08-panel01.json",
+      "sha256": "5732162a3e973e4d15225837c7de4c65bf8b77691475bcc850f298518756928e",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p08-panel02",
+      "output_file": "assets/panels/prologue-p08-panel02.png",
+      "selected_run": "generation/runs/prologue-p08-panel02.json",
+      "sha256": "be0975aa044c5345a82c790cdd9abeb3cedc25d6e7c26850b552ae53a82f378d",
+      "dimensions": {
+        "width": 1008,
+        "height": 1560
+      },
+      "holder": {
+        "x": 632.929,
+        "y": 0,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p08-panel03",
+      "output_file": "assets/panels/prologue-p08-panel03.png",
+      "selected_run": "generation/runs/prologue-p08-panel03.json",
+      "sha256": "a2e927ce4bfb416aa8831f631d93237749bef66d041c71d28b97873194964633",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "holder": {
+        "x": 0,
+        "y": 506.025,
+        "width": 952,
+        "height": 761.975
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p09-panel01",
+      "output_file": "assets/panels/prologue-p09-panel01.png",
+      "selected_run": "generation/runs/prologue-p09-panel01-correction.json",
+      "sha256": "82fac74f870a13fd6768279219c4ce2c3bdf9b625501a823601c612f4df80352",
+      "dimensions": {
+        "width": 1994,
+        "height": 789
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 378.573
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p09-panel02",
+      "output_file": "assets/panels/prologue-p09-panel02.png",
+      "selected_run": "generation/runs/prologue-p09-panel02.json",
+      "sha256": "574c46c4e04b6ad1ea532b98ce1d707e27af5350ec8daace87367ed2a7bab846",
+      "dimensions": {
+        "width": 1304,
+        "height": 1206
+      },
+      "holder": {
+        "x": 0,
+        "y": 388.573,
+        "width": 952,
+        "height": 879.427
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p10-panel01",
+      "output_file": "assets/panels/prologue-p10-panel01.png",
+      "selected_run": "generation/runs/prologue-p10-panel01.json",
+      "sha256": "e50b9ae5ab08d9e3e0ec631337b1a4dc5d3cc5a5b799e12b28ad86a34042c87b",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 302.738
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p10-panel02",
+      "output_file": "assets/panels/prologue-p10-panel02.png",
+      "selected_run": "generation/runs/prologue-p10-panel02.json",
+      "sha256": "060bcd9b740e5b6721032ff71901d7feea539079d85fe5f0e34cc8625fa3fb93",
+      "dimensions": {
+        "width": 1454,
+        "height": 1082
+      },
+      "holder": {
+        "x": 0,
+        "y": 312.738,
+        "width": 952,
+        "height": 703.262
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p10-panel03",
+      "output_file": "assets/panels/prologue-p10-panel03.png",
+      "selected_run": "generation/runs/prologue-p10-panel03.json",
+      "sha256": "c49eff4ef887f96b20071bf02965cf5d7c525cdb1b1dd97dedc9123c5a7a2e2f",
+      "dimensions": {
+        "width": 2167,
+        "height": 726
+      },
+      "holder": {
+        "x": 0,
+        "y": 1026,
+        "width": 952,
+        "height": 242
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p11-panel01",
+      "output_file": "assets/panels/prologue-p11-panel01.png",
+      "selected_run": "generation/runs/prologue-p11-panel01-lettering.json",
+      "sha256": "91355ec0eb4e4f3c22662745cad784792662f8879fda3e3cf4c2235746f83fe9",
+      "dimensions": {
+        "width": 2169,
+        "height": 725
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 242
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p11-panel02",
+      "output_file": "assets/panels/prologue-p11-panel02.png",
+      "selected_run": "generation/runs/prologue-p11-panel02.json",
+      "sha256": "2e5db5ab182e1159ff18f66c8eba02e6140552ae0eeac8e6e7a3049ac8f84cf8",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "holder": {
+        "x": 0,
+        "y": 252,
+        "width": 662,
+        "height": 524.046
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p11-panel03",
+      "output_file": "assets/panels/prologue-p11-panel03.png",
+      "selected_run": "generation/runs/prologue-p11-panel03.json",
+      "sha256": "3073e3645788d67c5494cbf0fe5710bf47c093ce8918fae2948b8777ea3a1ead",
+      "dimensions": {
+        "width": 917,
+        "height": 1716
+      },
+      "holder": {
+        "x": 672,
+        "y": 252,
+        "width": 280,
+        "height": 524.046
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p11-panel04",
+      "output_file": "assets/panels/prologue-p11-panel04.png",
+      "selected_run": "generation/runs/prologue-p11-panel04.json",
+      "sha256": "3aa357148fee9271bbee87ca06c04979922c44a033272b3e3a31e2f68159b384",
+      "dimensions": {
+        "width": 1088,
+        "height": 1445
+      },
+      "holder": {
+        "x": 0,
+        "y": 786.046,
+        "width": 361.267,
+        "height": 481.954
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p11-panel05",
+      "output_file": "assets/panels/prologue-p11-panel05.png",
+      "selected_run": "generation/runs/prologue-p11-panel05.json",
+      "sha256": "767b3801cad59af07c3aed6320fbb5b2eb369ae3a4e31c893171f24141d1d548",
+      "dimensions": {
+        "width": 1378,
+        "height": 1142
+      },
+      "holder": {
+        "x": 371.267,
+        "y": 786.046,
+        "width": 580.733,
+        "height": 481.954
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p12-panel01",
+      "output_file": "assets/panels/prologue-p12-panel01.png",
+      "selected_run": "generation/runs/prologue-p12-panel01.json",
+      "sha256": "0a81fba53eb3aa23d10380afc7cbb97e191f094a36c39bb7dd69f7ef81a7d1c9",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p12-panel02",
+      "output_file": "assets/panels/prologue-p12-panel02.png",
+      "selected_run": "generation/runs/prologue-p12-panel02.json",
+      "sha256": "1a2042c28c1b26981b81520c038d7212c5e61774664c777d2c9279d5d4f12f8e",
+      "dimensions": {
+        "width": 1008,
+        "height": 1561
+      },
+      "holder": {
+        "x": 632.929,
+        "y": 0,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p12-panel03",
+      "output_file": "assets/panels/prologue-p12-panel03.png",
+      "selected_run": "generation/runs/prologue-p12-panel03-correction.json",
+      "sha256": "e70a630eb34776d444c3987c1ad3719a63b8d83fd59cf4b8721830b641e283d9",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "holder": {
+        "x": 0,
+        "y": 506.025,
+        "width": 952,
+        "height": 761.975
+      },
+      "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    }
+  ]
+}

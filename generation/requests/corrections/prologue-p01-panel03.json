@@ -1,0 +1,10 @@
+{
+  "id": "prologue-p01-panel03",
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p01-panel03-first-pass.png",
+      "role": "Focused continuity correction"
+    }
+  ],
+  "prompt": "Precise edit of this finished comic image. Preserve the exact canvas aspect ratio, composition, people, ruins, floating islands, magnetic arcs, colours and ALL lettering EXACTLY as currently drawn. REMOVE EVERY airship, Zeppelin, flying vehicle and aircraft from the sky, replacing their silhouettes with matching empty sky/clouds. This is the early survival/discovery era BEFORE flying ships exist. Do not add new machines or ships anywhere. Do not move or change any caption box or any word. Only remove all flying vehicles."
+}

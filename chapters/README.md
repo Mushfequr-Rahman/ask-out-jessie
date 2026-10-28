@@ -28,7 +28,10 @@ Every current panel declares a `priority` integer from **1 to 5**: 1 is a small 
 Optional panel fields:
 
 - `narration`: story prose or dialogue inset over the artwork; use `\n` for a paragraph or a change of speaker. Lines such as `Rovan: “Hold the line.”` render as dialogue balloons.
-- `image_fit`: only `contain` is supported. All images use proportional fitting without cropping or distortion; the current JSON declares this explicitly. Clicking an image opens the full original.
+- `holder`: fixed `{x, y, width, height}` in the 952 × 1,268 panel region. A page with `layout_mode: "fixed"` requires a holder for every panel.
+- `lettering_mode`: `baked` for lettering generated in the artwork; `editable_html` for the older text overlay mode. Baked panels hide duplicate HTML text but preserve the transcript.
+- `scene_id`: stable generation scene ID.
+- `image_fit`: legacy `contain` mode for older artwork. Clicking any image opens the full original.
 - `image_alt`: accessible image description (defaults to the caption).
 - Legacy `layout` values are accepted for compatibility but no longer position panels. The automatic fixed-canvas algorithm uses image proportions and measured text instead.
 - Legacy `full_size_link` is accepted; every illustration now links to its original for full-size viewing.
@@ -49,4 +52,4 @@ For a future chapter, copy the Prologue HTML shell, update its title/description
 
 Serve the site over HTTP (for example, `python3 -m http.server 8000`). Fetching chapter JSON requires HTTP; opening the HTML directly from disk is unsupported. GitHub Pages serves these JSON files without a build step.
 
-Each page uses the same 1,000 × 1,400 canvas. The renderer packs 1–5 panels dynamically in reading order, allocating area by priority and reserving room for inset narration/dialogue. Artwork is proportionally scaled and centred in the space between caption and narration, so text does not obscure it. The canvas scales uniformly in **Fit width** mode; **Full size** enables native-size scrolling. The separate **Read page text** transcript always uses normal readable text sizes.
+Each page uses the same 1,000 × 1,400 canvas. The priority algorithm can author 1–5 holders; the current chapter locks those rectangles before artwork generation. Runtime uses the saved geometry, independent of image dimensions. New art includes lettering and is composed for the holder aperture. See [the generation workflow](../docs/image-generation.md). The canvas scales uniformly in **Fit width** mode; **Full size** enables native-size scrolling. The separate **Read page text** transcript always uses normal readable text sizes.

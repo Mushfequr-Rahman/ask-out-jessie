@@ -1,0 +1,8 @@
+{
+  "id": "prologue-p12-panel03",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/corrections/prologue-p12-panel03.json",
+  "output_file": "assets/panels/prologue-p12-panel03.png",
+  "generated_original": "/workspace/generated_images/exec-ec7298a5-a438-4742-8ec2-468407ec1145.png",
+  "reason": "Exactly three opposing capital ships."
+}

@@ -1,0 +1,1945 @@
+{
+  "schema_version": 1,
+  "chapter_id": "prologue",
+  "lettering_mode": "baked",
+  "scenes": [
+    {
+      "id": "prologue-p01-panel01",
+      "chapter_id": "prologue",
+      "page_number": 1,
+      "panel_number": 1,
+      "description": "Fractured landmasses suspended in a glowing magnetic field",
+      "character_ids": [],
+      "object_ids": [],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 761.975
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The last war.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 114.047,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "By the time the guns fell silent, the Earth had broken apart.",
+          "bounds": {
+            "x": 533.875,
+            "y": 707.172,
+            "width": 404.125,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/fracture.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p01-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p01-panel02",
+      "chapter_id": "prologue",
+      "page_number": 1,
+      "panel_number": 2,
+      "description": "Magnetic currents arc between the exposed undersides of floating islands",
+      "character_ids": [],
+      "object_ids": [],
+      "holder": {
+        "x": 0,
+        "y": 771.975,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Fragments of home.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 167.359,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Continents hung in pieces. Magnetic storms lashed the gaps, but beneath the violence ran patterns the survivors could learn.",
+          "bounds": {
+            "x": 37.797,
+            "y": 420.422,
+            "width": 571.125,
+            "height": 61.594
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/magnetic-islands.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p01-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p01-panel03",
+      "chapter_id": "prologue",
+      "page_number": 1,
+      "panel_number": 3,
+      "description": "A small human silhouette standing on a floating island",
+      "character_ids": [],
+      "object_ids": [],
+      "holder": {
+        "x": 632.929,
+        "y": 771.975,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The people who remained.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 212.375,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "They made their homes on whatever ground was left, and learned to watch the sky.",
+          "bounds": {
+            "x": 25.656,
+            "y": 399.625,
+            "width": 279.406,
+            "height": 82.391
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/survivors.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p01-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p02-panel01",
+      "chapter_id": "prologue",
+      "page_number": 2,
+      "panel_number": 1,
+      "description": "Three generations of survivors study a magnetic sensing instrument in their settlement",
+      "character_ids": [],
+      "object_ids": [],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Generations later.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 150.719,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Children grew up inside the magnetic fields. Their children did too. Slowly, the fields changed them.",
+          "bounds": {
+            "x": 25.656,
+            "y": 399.625,
+            "width": 279.406,
+            "height": 82.391
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/human-adaptation.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p02-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p02-panel02",
+      "chapter_id": "prologue",
+      "page_number": 2,
+      "panel_number": 2,
+      "description": "Luminous Magneton ore embedded in fractured rock",
+      "character_ids": [],
+      "object_ids": [
+        "type-a",
+        "type-b",
+        "type-c"
+      ],
+      "holder": {
+        "x": 329.071,
+        "y": 0,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Something in the wreckage.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 222.391,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Nuclear materials had fused into a metal no one had seen before.",
+          "bounds": {
+            "x": 168.859,
+            "y": 441.219,
+            "width": 440.063,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/ore.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p02-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p02-panel03",
+      "chapter_id": "prologue",
+      "page_number": 2,
+      "panel_number": 3,
+      "description": "Two glowing green Type B Magneton cores of opposite polarity inside a precision motor",
+      "character_ids": [],
+      "object_ids": [
+        "type-a",
+        "type-b",
+        "type-c"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 506.025,
+        "width": 952,
+        "height": 761.975
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Magneton.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 99,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "At first it was a discovery. In time, it would become the one thing no city could live without.",
+          "bounds": {
+            "x": 319.813,
+            "y": 707.172,
+            "width": 618.188,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/polarity-engine.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p02-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p03-panel01",
+      "chapter_id": "prologue",
+      "page_number": 3,
+      "panel_number": 1,
+      "description": "A floating city built above a glowing Magneton engine",
+      "character_ids": [],
+      "object_ids": [
+        "magnetic-motor",
+        "type-b"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "A way to keep going.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 172.641,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Opposite-polarity Type B cores drove the new motors. For the first time in generations, there was power to spare.",
+          "bounds": {
+            "x": 37.797,
+            "y": 420.422,
+            "width": 571.125,
+            "height": 61.594
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/city.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p03-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p03-panel02",
+      "chapter_id": "prologue",
+      "page_number": 3,
+      "panel_number": 2,
+      "description": "People stand upright inside a city gravity-control chamber while fragments float outside",
+      "character_ids": [],
+      "object_ids": [
+        "magnetic-motor"
+      ],
+      "holder": {
+        "x": 632.929,
+        "y": 0,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Under the city.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 127.078,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The engines steadied the islands and restored a familiar pull beneath people’s feet.",
+          "bounds": {
+            "x": 25.656,
+            "y": 399.625,
+            "width": 279.406,
+            "height": 82.391
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/gravity-chamber.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p03-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p03-panel03",
+      "chapter_id": "prologue",
+      "page_number": 3,
+      "panel_number": 3,
+      "description": "A market street powered by green conduits beneath the floating city’s towers",
+      "character_ids": [],
+      "object_ids": [
+        "type-a",
+        "magnetic-motor"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 506.025,
+        "width": 952,
+        "height": 761.975
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Home, above the clouds.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 200.719,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Streets filled again. Workshops opened. Somewhere below every city, Magneton kept the engines turning.",
+          "bounds": {
+            "x": 234.344,
+            "y": 707.172,
+            "width": 703.656,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/city-street.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p03-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p04-panel01",
+      "chapter_id": "prologue",
+      "page_number": 4,
+      "panel_number": 1,
+      "description": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines",
+      "character_ids": [],
+      "object_ids": [
+        "mining-mole",
+        "type-a"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 302.738
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The men who found the metal.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 239.844,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The first barons were miners. They dug out Magneton, built ships and carried it across the broken world.",
+          "bounds": {
+            "x": 242.234,
+            "y": 247.938,
+            "width": 695.766,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/mining-mole.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p04-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p04-panel02",
+      "chapter_id": "prologue",
+      "page_number": 4,
+      "panel_number": 2,
+      "description": "Ore is unloaded at a mining dock as a proprietor oversees trade",
+      "character_ids": [],
+      "object_ids": [
+        "trader-caravan",
+        "schooner-needle"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 312.738,
+        "width": 952,
+        "height": 703.262
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Routes worth owning.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 180.656,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Trade made them wealthy. Control of the mines made them powerful.",
+          "bounds": {
+            "x": 466.625,
+            "y": 648.453,
+            "width": 471.375,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/mining-dock.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p04-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p04-panel03",
+      "chapter_id": "prologue",
+      "page_number": 4,
+      "panel_number": 3,
+      "description": "Mining barons gather in a council chamber overlooking floating cities",
+      "character_ids": [],
+      "object_ids": [
+        "banner-veymarch",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 1026,
+        "width": 952,
+        "height": 242
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Eight duchies.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 126.516,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Cities gathered under their banners. The old world was gone, but people had found their way back to lords and subjects.",
+          "bounds": {
+            "x": 144.938,
+            "y": 187.203,
+            "width": 793.063,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/ducal-assembly.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p04-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p05-panel01",
+      "chapter_id": "prologue",
+      "page_number": 5,
+      "panel_number": 1,
+      "description": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "capital-bastion",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Veymarch.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 99.063,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "From above, Rovan’s city looked peaceful. He knew how little it would take to lose it.",
+          "bounds": {
+            "x": 37.797,
+            "y": 420.422,
+            "width": 571.125,
+            "height": 61.594
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/rovan-city-crimson.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p05-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p05-panel02",
+      "chapter_id": "prologue",
+      "page_number": 5,
+      "panel_number": 2,
+      "description": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [],
+      "holder": {
+        "x": 632.929,
+        "y": 0,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The accounts.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 124.859,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Grievous: “The soldiers’ pay is overdue, Your Grace. The repair yards are still waiting too.”",
+          "bounds": {
+            "x": 25.656,
+            "y": 385.625,
+            "width": 279.406,
+            "height": 86.391
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/unpaid-ledger-crimson.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p05-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p05-panel03",
+      "chapter_id": "prologue",
+      "page_number": 5,
+      "panel_number": 3,
+      "description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 506.025,
+        "width": 952,
+        "height": 761.975
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "What protection had cost him.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 239.016,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “Their ships got through because ours stood in the way. Now they have full vaults, and I have men waiting for their pay.”",
+          "bounds": {
+            "x": 50.969,
+            "y": 672.375,
+            "width": 887.031,
+            "height": 65.594
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/duke-resolve-crimson.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p05-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p06-panel01",
+      "chapter_id": "prologue",
+      "page_number": 6,
+      "panel_number": 1,
+      "description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "trader-caravan",
+        "veymarch-infantry",
+        "tesla-gun"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 302.738
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "An Auric Reach Caravan.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 202.688,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The sailors stopped where they stood. Across the deck, green light gathered in the soldiers’ Tesla guns.",
+          "bounds": {
+            "x": 255.641,
+            "y": 247.938,
+            "width": 682.359,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/caravan-boarding-crimson.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p06-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p06-panel02",
+      "chapter_id": "prologue",
+      "page_number": 6,
+      "panel_number": 2,
+      "description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "trader-caravan",
+        "tesla-gun"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 312.738,
+        "width": 952,
+        "height": 703.262
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "A debt comes due.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 156.813,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “You sailed under our protection. My soldiers are still waiting to be paid. Until that debt is settled, this ship is mine.”",
+          "bounds": {
+            "x": 50.969,
+            "y": 613.656,
+            "width": 887.031,
+            "height": 65.594
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/duke-seizure-crimson.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p06-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p06-panel03",
+      "chapter_id": "prologue",
+      "page_number": 6,
+      "panel_number": 3,
+      "description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "veymarch-infantry",
+        "tesla-gun"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 1026,
+        "width": 952,
+        "height": 242
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The answer.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 109.875,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "His soldiers cheered. The sailors said nothing. Grievous watched both sides of the deck.",
+          "bounds": {
+            "x": 349.75,
+            "y": 187.203,
+            "width": 588.25,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/soldiers-cheer-crimson.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p06-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p07-panel01",
+      "chapter_id": "prologue",
+      "page_number": 7,
+      "panel_number": 1,
+      "description": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "trader-caravan"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 761.975
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "His own future.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 132.344,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “I’ll define my own future. Set a course for Auric Reach. I’m done waiting for what we’re owed.”",
+          "bounds": {
+            "x": 183.891,
+            "y": 693.172,
+            "width": 754.109,
+            "height": 44.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/rovan-future-crimson.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p07-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p07-panel02",
+      "chapter_id": "prologue",
+      "page_number": 7,
+      "panel_number": 2,
+      "description": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "veymarch-infantry",
+        "tesla-gun"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 771.975,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Pay. Equipment. Recruits.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 207.938,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The seized cargo gave Rovan something he had been running out of: time. His veterans put it to work on the drill ground.",
+          "bounds": {
+            "x": 25.656,
+            "y": 378.828,
+            "width": 279.406,
+            "height": 103.188
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/recruit-drill-crimson.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p07-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p07-panel03",
+      "chapter_id": "prologue",
+      "page_number": 7,
+      "panel_number": 3,
+      "description": "A single Bastion capital ship departs with the seized merchant Caravan nearby",
+      "character_ids": [],
+      "object_ids": [
+        "capital-bastion",
+        "trader-caravan"
+      ],
+      "holder": {
+        "x": 329.071,
+        "y": 771.975,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "One capital ship.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 144.031,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The Bastion led them out. Beside it sailed the seized Caravan, still a merchant vessel, now carrying Rovan’s supplies.",
+          "bounds": {
+            "x": 37.797,
+            "y": 420.422,
+            "width": 571.125,
+            "height": 61.594
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/single-bastion-departure.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p07-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p08-panel01",
+      "chapter_id": "prologue",
+      "page_number": 8,
+      "panel_number": 1,
+      "description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "veymarch-infantry",
+        "auric-town-guard",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "They had fought pirates before.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 248.188,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "An army was different. Since the Fracture, no duchy had faced an organised invasion from another.",
+          "bounds": {
+            "x": 37.797,
+            "y": 420.422,
+            "width": 571.125,
+            "height": 61.594
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/auric-raid-crimson.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p08-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p08-panel02",
+      "chapter_id": "prologue",
+      "page_number": 8,
+      "panel_number": 2,
+      "description": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "trader-caravan",
+        "veymarch-infantry"
+      ],
+      "holder": {
+        "x": 632.929,
+        "y": 0,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The harbour.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 114.844,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Rovan’s veterans moved before the defenders could settle into their positions. One dock after another changed hands.",
+          "bounds": {
+            "x": 25.656,
+            "y": 378.828,
+            "width": 279.406,
+            "height": 103.188
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/ships-confiscated-crimson.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p08-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p08-panel03",
+      "chapter_id": "prologue",
+      "page_number": 8,
+      "panel_number": 3,
+      "description": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "veymarch-infantry",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 506.025,
+        "width": 952,
+        "height": 761.975
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The first city.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 116.25,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "It fell faster than Rovan had expected. Training and surprise had won him a harbour, ships and a foothold in Auric Reach.",
+          "bounds": {
+            "x": 135.047,
+            "y": 707.172,
+            "width": 802.953,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/city-captured-crimson.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p08-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p09-panel01",
+      "chapter_id": "prologue",
+      "page_number": 9,
+      "panel_number": 1,
+      "description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts.",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "type-c",
+        "condenser-lance",
+        "field-broadsword",
+        "wind-twin-swords",
+        "shield-warhammer",
+        "point-scythe"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 378.573
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "In the workshop.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 143.188,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Rovan worked the stolen silver himself. When he finished, there were five sealed suits, five weapon sets, and no metal left for a sixth.",
+          "bounds": {
+            "x": 55.641,
+            "y": 323.766,
+            "width": 882.359,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/type-c-seamless-forge-heraldic.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p09-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p09-panel02",
+      "chapter_id": "prologue",
+      "page_number": 9,
+      "panel_number": 2,
+      "description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe.",
+      "character_ids": [
+        "honour-guard"
+      ],
+      "object_ids": [
+        "type-c",
+        "condenser-lance",
+        "field-broadsword",
+        "wind-twin-swords",
+        "shield-warhammer",
+        "point-scythe",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 388.573,
+        "width": 952,
+        "height": 879.427
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The Silver Guard.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 148.219,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "A lance. A broadsword. Twin blades. A hammer. A scythe. The five captains wore Veymarch’s broken shield over their silver. They were still his soldiers; now they could cross a battlefield as no soldiers ever had.",
+          "bounds": {
+            "x": 50.969,
+            "y": 803.828,
+            "width": 887.031,
+            "height": 61.594
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/type-c-seamless-five-heraldic.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p09-panel02.png",
+      "silver_guard_count": 5,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p10-panel01",
+      "chapter_id": "prologue",
+      "page_number": 10,
+      "panel_number": 1,
+      "description": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks.",
+      "character_ids": [],
+      "object_ids": [
+        "veymarch-infantry",
+        "auric-town-guard",
+        "capital-bastion",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 302.738
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Another town ahead.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 172.344,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The gangway struck the dock. Boots hammered across it, and the first squad ran for the gate.",
+          "bounds": {
+            "x": 318.844,
+            "y": 247.938,
+            "width": 619.156,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/troops-dock-run.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p10-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p10-panel02",
+      "chapter_id": "prologue",
+      "page_number": 10,
+      "panel_number": 2,
+      "description": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs.",
+      "character_ids": [],
+      "object_ids": [
+        "veymarch-infantry",
+        "auric-town-guard",
+        "capital-bastion",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 312.738,
+        "width": 952,
+        "height": 703.262
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Through the arch.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 151.5,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "speech",
+          "text": "“Keep moving! Cover the stairs!”",
+          "bounds": {
+            "x": 352.391,
+            "y": 585.656,
+            "width": 261.422,
+            "height": 44.797
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Tesla fire snapped against the stone as the veterans pulled the rest of the squad through.",
+          "bounds": {
+            "x": 352.391,
+            "y": 648.453,
+            "width": 585.609,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/troops-gate-charge.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p10-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p10-panel03",
+      "chapter_id": "prologue",
+      "page_number": 10,
+      "panel_number": 3,
+      "description": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade.",
+      "character_ids": [],
+      "object_ids": [
+        "veymarch-infantry",
+        "auric-town-guard",
+        "capital-bastion",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 1026,
+        "width": 952,
+        "height": 242
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Uphill.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 69.828,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "At the fountain, the squads split. Beyond the next bend, the town guard was waiting behind a barricade.",
+          "bounds": {
+            "x": 249.484,
+            "y": 187.203,
+            "width": 688.516,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/troops-street-advance.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p10-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p11-panel01",
+      "chapter_id": "prologue",
+      "page_number": 11,
+      "panel_number": 1,
+      "description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city.",
+      "character_ids": [
+        "honour-guard"
+      ],
+      "object_ids": [
+        "condenser-lance",
+        "type-c",
+        "veymarch-infantry",
+        "auric-town-guard",
+        "capital-bastion",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 242
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The lance fired first.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 166.547,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Magnetic lines tightened around its tip. Then the gathered force struck the guard’s position like a cannon shot.",
+          "bounds": {
+            "x": 208.031,
+            "y": 187.203,
+            "width": 729.969,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/type-c-lance-assault-heraldic.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p11-panel01.png",
+      "silver_guard_count": 1,
+      "silver_guard_weapon_id": "condenser-lance"
+    },
+    {
+      "id": "prologue-p11-panel02",
+      "chapter_id": "prologue",
+      "page_number": 11,
+      "panel_number": 2,
+      "description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks.",
+      "character_ids": [
+        "honour-guard"
+      ],
+      "object_ids": [
+        "field-broadsword",
+        "type-c",
+        "veymarch-infantry",
+        "auric-town-guard",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 252,
+        "width": 662,
+        "height": 524.046
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Steel gave way.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 133.797,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The broadsword’s field swelled beyond its blade. One swing opened the ship’s hull, and Rovan’s soldiers rushed the breach.",
+          "bounds": {
+            "x": 39.375,
+            "y": 448.438,
+            "width": 608.625,
+            "height": 61.594
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/type-c-broadsword-breach-heraldic.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p11-panel02.png",
+      "silver_guard_count": 1,
+      "silver_guard_weapon_id": "field-broadsword"
+    },
+    {
+      "id": "prologue-p11-panel03",
+      "chapter_id": "prologue",
+      "page_number": 11,
+      "panel_number": 3,
+      "description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets.",
+      "character_ids": [
+        "honour-guard"
+      ],
+      "object_ids": [
+        "wind-twin-swords",
+        "type-c",
+        "veymarch-infantry",
+        "auric-town-guard",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 672,
+        "y": 252,
+        "width": 280,
+        "height": 524.046
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Above the streets.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 154.047,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The twin-blade captain climbed on the magnetic wind, turned in the air, and swept down over the guards.",
+          "bounds": {
+            "x": 24.094,
+            "y": 406.844,
+            "width": 241.906,
+            "height": 103.188
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/type-c-twin-sword-flight-heraldic.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p11-panel03.png",
+      "silver_guard_count": 1,
+      "silver_guard_weapon_id": "wind-twin-swords"
+    },
+    {
+      "id": "prologue-p11-panel04",
+      "chapter_id": "prologue",
+      "page_number": 11,
+      "panel_number": 4,
+      "description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire.",
+      "character_ids": [
+        "honour-guard"
+      ],
+      "object_ids": [
+        "shield-warhammer",
+        "type-c",
+        "veymarch-infantry",
+        "auric-town-guard",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 786.046,
+        "width": 361.267,
+        "height": 481.954
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Behind the hammer.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 167.375,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The hammer hit the paving. A field rose around the advancing troops, and the guards’ Tesla fire broke against it.",
+          "bounds": {
+            "x": 27.344,
+            "y": 385.563,
+            "width": 319.922,
+            "height": 82.391
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/type-c-warhammer-shield-heraldic.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p11-panel04.png",
+      "silver_guard_count": 1,
+      "silver_guard_weapon_id": "shield-warhammer"
+    },
+    {
+      "id": "prologue-p11-panel05",
+      "chapter_id": "prologue",
+      "page_number": 11,
+      "panel_number": 5,
+      "description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control.",
+      "character_ids": [
+        "honour-guard"
+      ],
+      "object_ids": [
+        "point-scythe",
+        "type-c",
+        "veymarch-infantry",
+        "auric-town-guard",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 371.267,
+        "y": 786.046,
+        "width": 580.733,
+        "height": 481.954
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The last leap.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 119.047,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Two points of magnetic energy flared. The scythe captain stepped between them and stood on the command terrace. Below, the guards began laying down their guns. The town was Rovan’s.",
+          "bounds": {
+            "x": 36.109,
+            "y": 385.563,
+            "width": 530.609,
+            "height": 82.391
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/type-c-scythe-city-seized-heraldic.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p11-panel05.png",
+      "silver_guard_count": 1,
+      "silver_guard_weapon_id": "point-scythe"
+    },
+    {
+      "id": "prologue-p12-panel01",
+      "chapter_id": "prologue",
+      "page_number": 12,
+      "panel_number": 1,
+      "description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 622.929,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "After the fighting.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 148.984,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Grievous: “We’ve taken the town. Holding it will be another matter.”",
+          "bounds": {
+            "x": 37.797,
+            "y": 343.625,
+            "width": 504.813,
+            "height": 44.797
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “Then get the repair yards working. Keep the recruits training. We start there.”",
+          "bounds": {
+            "x": 37.797,
+            "y": 406.422,
+            "width": 571.125,
+            "height": 65.594
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/council-next-steps.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p12-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p12-panel02",
+      "chapter_id": "prologue",
+      "page_number": 12,
+      "panel_number": 2,
+      "description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner",
+      "character_ids": [
+        "auric-ruler"
+      ],
+      "object_ids": [
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 632.929,
+        "y": 0,
+        "width": 319.071,
+        "height": 496.025
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "In Auric Reach.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 132.641,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "speech",
+          "text": "The ruler of Auric Reach: “Three capital ships. Send them after Rovan.”",
+          "bounds": {
+            "x": 25.656,
+            "y": 385.625,
+            "width": 279.406,
+            "height": 86.391
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/auric-counterorder.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p12-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p12-panel03",
+      "chapter_id": "prologue",
+      "page_number": 12,
+      "panel_number": 3,
+      "description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan",
+      "character_ids": [],
+      "object_ids": [
+        "capital-bastion",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 506.025,
+        "width": 952,
+        "height": 761.975
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Orders already given.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 177.406,
+            "height": 36.594
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Three great hulls slipped their moorings. While Rovan planned his next move, the ships sent to stop him were already on their way.",
+          "bounds": {
+            "x": 71.297,
+            "y": 707.172,
+            "width": 866.703,
+            "height": 40.797
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/panels/three-capital-ships.png",
+          "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p12-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null
+    }
+  ]
+}

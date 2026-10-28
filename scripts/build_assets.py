@@ -70,7 +70,7 @@ def size_label(asset):
 
 sections, markdown = [], [
     '# Asset catalogue', '',
-    f"All **{len(assets)} current illustrations** in the repository, grouped below. The comic uses {len(usage)} unique panel images; one ship illustration also appears in the comic.", '',
+    f"All **{len(assets)} current illustrations** in the repository, grouped below. The comic uses {len(usage)} unique panel images, generated for fixed holders with lettering inside the artwork. Earlier visual anchors live separately in references/.", '',
     '[Browse the hosted asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html) · [World reference JSON](world.json)', '',
     'Select a preview or filename to open the original. Dimensions and sizes refer to the full-resolution files. All artwork was generated for this project; the original user-supplied inspiration images are not included in this catalogue.', '',
 ]
@@ -103,12 +103,12 @@ html = f'''<!doctype html>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Browse all {len(assets)} Magneton illustrations, ship designs, world references, and duchy banners.">
   <title>Magneton · Asset Library</title>
-  <link rel="stylesheet" href="styles.css?v=fit-five-1">
-  <script src="site.js?v=fit-five-1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=holder-art-1">
+  <script src="site.js?v=holder-art-1" defer></script>
 </head>
 <body>
 <!-- site-header --><!-- /site-header -->
-  <main class="glossary-main asset-library"><section class="page-intro" aria-labelledby="page-title"><a class="text-link" href="glossary.html?v=fit-five-1">← Glossary</a><h1 id="page-title">Asset library<span>.</span></h1><p>{len(assets)} illustrations from the fractured world.</p><p class="glossary-note">Browse the original artwork, see where each image appears in the comic, and download full-resolution files.</p><div class="data-links"><a class="primary-link" href="world.json" download>Download world.json ↓</a><a class="text-link" href="world.json">View world reference ↗</a><a class="text-link" href="https://github.com/Mushfequr-Rahman/ask-out-jessie/blob/master/ASSETS.md" target="_blank" rel="noopener">Repository catalogue ↗</a></div><div class="section-index" aria-label="Asset categories">{contents}</div></section>{''.join(sections)}</main>
+  <main class="glossary-main asset-library"><section class="page-intro" aria-labelledby="page-title"><a class="text-link" href="glossary.html?v=holder-art-1">← Glossary</a><h1 id="page-title">Asset library<span>.</span></h1><p>{len(assets)} illustrations from the fractured world.</p><p class="glossary-note">Browse the original artwork, see where each image appears in the comic, and download full-resolution files.</p><div class="data-links"><a class="primary-link" href="world.json" download>Download world.json ↓</a><a class="text-link" href="character.json" download>Download character.json ↓</a><a class="text-link" href="objects.json" download>Download objects.json ↓</a><a class="text-link" href="world.json">View world reference ↗</a><a class="text-link" href="https://github.com/Mushfequr-Rahman/ask-out-jessie/blob/master/ASSETS.md" target="_blank" rel="noopener">Repository catalogue ↗</a></div><div class="section-index" aria-label="Asset categories">{contents}</div></section>{''.join(sections)}</main>
 <!-- site-footer --><!-- /site-footer -->
 </body>
 </html>

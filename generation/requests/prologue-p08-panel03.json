@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "id": "prologue-p08-panel03",
+  "parameters": {
+    "scene": "prologue-p08-panel03",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 0,
+    "y": 506.025,
+    "width": 952,
+    "height": 761.975
+  },
+  "target": {
+    "width": 1152,
+    "height": 928,
+    "size": "1152x928",
+    "visible_window": {
+      "x": 0,
+      "y": 0.0032037815126050306,
+      "width": 1,
+      "height": 0.9935924369747899
+    }
+  },
+  "output_file": "assets/panels/prologue-p08-panel03.png",
+  "reference_images": [
+    {
+      "path": "references/panels/city-captured-crimson.png",
+      "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder.",
+      "index": 1
+    },
+    {
+      "path": "references/panels/duke-seizure-crimson.png",
+      "role": "Character identity/wardrobe anchor for rovan-vey; not extra people to insert.",
+      "index": 2
+    },
+    {
+      "path": "assets/banner-auric-reach.png",
+      "role": "Auric Reach banner appearance only; include only objects required by the scene.",
+      "index": 3
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "The first city.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 116.25,
+          "height": 36.594
+        },
+        "render_text": "The first city.",
+        "normalized_bounds": {
+          "x": 0.0147,
+          "y": 0.0184,
+          "width": 0.1221,
+          "height": 0.048
+        },
+        "source_bounds": {
+          "x": 0.0147,
+          "y": 0.0215,
+          "width": 0.1221,
+          "height": 0.0477
+        }
+      },
+      {
+        "type": "narration",
+        "text": "It fell faster than Rovan had expected. Training and surprise had won him a harbour, ships and a foothold in Auric Reach.",
+        "bounds": {
+          "x": 135.047,
+          "y": 707.172,
+          "width": 802.953,
+          "height": 40.797
+        },
+        "render_text": "It fell faster than Rovan had expected. Training and surprise had won him a harbour, ships and a foothold in Auric Reach.",
+        "normalized_bounds": {
+          "x": 0.1419,
+          "y": 0.9281,
+          "width": 0.8434,
+          "height": 0.0535
+        },
+        "source_bounds": {
+          "x": 0.1419,
+          "y": 0.9254,
+          "width": 0.8434,
+          "height": 0.0532
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth’s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "veymarch",
+          "name": "Veymarch",
+          "color": "#E56B73",
+          "emblem": "Silver broken shield and star"
+        },
+        {
+          "id": "auric-reach",
+          "name": "Auric Reach",
+          "color": "#E8BE57",
+          "emblem": "Merchant’s balance within a coin"
+        }
+      ]
+    },
+    "characters": [
+      {
+        "id": "rovan-vey",
+        "name": "Rovan Vey",
+        "visual_concept": {
+          "status": "provisional artwork, not established biography",
+          "appearance": "Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf"
+        },
+        "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+      },
+      {
+        "id": "general-grievous",
+        "name": "General Grievous",
+        "visual_concept": {
+          "status": "provisional project artwork, not established species or biography",
+          "appearance": "Older bald human officer with a grey moustache, dark olive coat and bronze epaulettes"
+        },
+        "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+      }
+    ],
+    "objects": [
+      {
+        "id": "veymarch-infantry",
+        "name": "Veymarch infantry kit",
+        "description": "BRONZE armour over crimson cloth and red capes; green Tesla rifles. Ordinary troops are never silver Type C."
+      },
+      {
+        "id": "banner-auric-reach",
+        "name": "Auric Reach banner",
+        "description": "Gold field; Merchant’s balance within a coin"
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Rovan has ONE capital ship, not three. The three-capital-ship formation appears only in the final Auric Reach departure scene.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "prompt": "PURPOSE: Regenerate ONE comic illustration for FIXED holder 952.00 by 761.98 logical pixels, aspect 1.2494:1. LANDSCAPE. Requested output 1152x928. Do NOT resize or redesign the holder. Paint a NEW composition for it, not a framed photo.\n\nSCENE: Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson\nCAMERA: Use a clear, tightly composed shot with the important action filling the aperture; do not copy the old wide framing.\n\nSTYLE: Magneton graphic novel: painted ink, tactile bronze machinery, silver Type C, crimson Veymarch cloth, navy/gold Auric Reach uniforms; atmospheric floating islands. Consistent with supplied scene references, not photorealistic.\n\nWORLD CONTEXT FROM world.json: {\"setting\":{\"genre\":[\"post-apocalyptic\",\"science fantasy\",\"feudal political adventure\"],\"planet\":\"Earth\",\"catastrophe\":{\"name\":\"The Fracture\",\"cause\":\"Nuclear war shattered Earth into floating islands.\",\"date\":null,\"instigators\":null},\"geography\":{\"landform\":\"Fractured continents and floating rock islands above an atmospheric void\",\"duchy_count\":8,\"atlas_asset_id\":\"shattered-earth-atlas\",\"boundaries\":\"Map labels mark regions of influence, not surveyed borders.\",\"exact_distances\":null},\"magnetic_fields\":{\"behavior\":\"Erratic and turbulent in motion, but their patterns are predictable.\",\"world_function\":\"Hold the fractured landmasses together.\",\"navigation\":\"Ships use magnetic motors to travel through the fields between cities and mining sites.\",\"safe_route_rules\":null},\"humanity\":{\"survival\":\"Humanity was nearly extinguished.\",\"adaptation\":\"Survivors evolved over generations under the influence of the magnetic fields.\",\"new_attributes_exist\":true,\"specific_attributes\":null},\"gravity_and_energy\":{\"city_support\":\"Magneton technology stabilizes floating cities and islands, preventing them from falling.\",\"local_gravity\":\"Generated local fields reproduce the experience of the old Earth’s gravity.\",\"power\":\"Oppositely polarized metal components move in magnetic motors, powering city and transport systems.\",\"fictional_physics\":\"These are rules of the setting; no real-world scientific mechanism is established.\",\"technical_limits\":null}},\"metals\":[{\"id\":\"type-a\",\"appearance\":\"Bronze-like metal\",\"properties\":[\"Very durable\"]},{\"id\":\"type-b\",\"appearance\":\"Glowing green in both polarities\",\"properties\":[\"Found in opposite magnetic polarities\"]},{\"id\":\"type-c\",\"appearance\":\"Silvery metal\",\"properties\":[\"Most malleable of the Magneton types\",\"Impenetrable and impervious to any weapons\",\"Can drift along magnetic fields\"]}],\"duchies\":[{\"id\":\"veymarch\",\"name\":\"Veymarch\",\"color\":\"#E56B73\",\"emblem\":\"Silver broken shield and star\"},{\"id\":\"auric-reach\",\"name\":\"Auric Reach\",\"color\":\"#E8BE57\",\"emblem\":\"Merchant’s balance within a coin\"}]} Preserve the source scene’s era and events; do not add unrelated world elements.\n\nCHARACTERS (immutable identity and costume): [{\"id\":\"rovan-vey\",\"name\":\"Rovan Vey\",\"visual_concept\":{\"status\":\"provisional artwork, not established biography\",\"appearance\":\"Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf\"},\"uniform_standard\":\"Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.\"},{\"id\":\"general-grievous\",\"name\":\"General Grievous\",\"visual_concept\":{\"status\":\"provisional project artwork, not established species or biography\",\"appearance\":\"Older bald human officer with a grey moustache, dark olive coat and bronze epaulettes\"},\"uniform_standard\":\"Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.\"}]\n\nOBJECTS (only those belonging in this scene): [{\"id\":\"veymarch-infantry\",\"name\":\"Veymarch infantry kit\",\"description\":\"BRONZE armour over crimson cloth and red capes; green Tesla rifles. Ordinary troops are never silver Type C.\"},{\"id\":\"banner-auric-reach\",\"name\":\"Auric Reach banner\",\"description\":\"Gold field; Merchant’s balance within a coin\"}]\n\nREFERENCES: [{\"path\":\"references/panels/city-captured-crimson.png\",\"role\":\"Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder.\",\"index\":1},{\"path\":\"references/panels/duke-seizure-crimson.png\",\"role\":\"Character identity/wardrobe anchor for rovan-vey; not extra people to insert.\",\"index\":2},{\"path\":\"assets/banner-auric-reach.png\",\"role\":\"Auric Reach banner appearance only; include only objects required by the scene.\",\"index\":3}]\n\nLETTERING: Draw the speech balloons, cream caption/narration boxes and ALL their text directly INTO the artwork. Use a professional clear comic lettering font, dark ink on pale cream/white, readable contrast. Reproduce each render_text EXACTLY, preserving punctuation; do not print speaker labels or JSON keys. Speech tails point to the speaking person. No other words, labels, signs or gibberish. The visible crop-safe aperture in FULL SOURCE coordinates is {\"x\":0,\"y\":0.0032037815126050306,\"width\":1,\"height\":0.9935924369747899}. Place ALL text wholly inside it. The following bounding boxes are normalized to the FULL SOURCE image (not to the holder); use these adjusted positions exactly: [{\"type\":\"caption\",\"render_text\":\"The first city.\",\"bounds_in_full_source_image\":{\"x\":0.0147,\"y\":0.0215,\"width\":0.1221,\"height\":0.0477}},{\"type\":\"narration\",\"render_text\":\"It fell faster than Rovan had expected. Training and surprise had won him a harbour, ships and a foothold in Auric Reach.\",\"bounds_in_full_source_image\":{\"x\":0.1419,\"y\":0.9254,\"width\":0.8434,\"height\":0.0532}}]\n\nINVARIANTS: One image per request; no multi-panel collage or embedded borders. Compose for the fixed holder. Do not letterbox or paste the old wide image. Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts. Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones. No unsupported new lore, extra Type C suits, extra capital ships or invented character names. Rovan has ONE capital ship, not three. The three-capital-ship formation appears only in the final Auric Reach departure scene. All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions.\n\nDELIVERY: Edge-to-edge painted scene with finished comic lettering, no blank borders, no letterboxing, no collage. If native output ratio differs from the holder, keep ALL important content inside its central crop-safe aperture; only expendable background may extend beyond. For a wide strip, put the main figures and action in the central horizontal band, leaving substantial sky/floor outside that band.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording"
+  ],
+  "source_hashes": {
+    "world.json": "1c8163ab3421afb731d2789b0be583bd3d3e79ef417746d6fbb1324325886193",
+    "character.json": "ee00180ba38184a31ac4753151af91b1079acb66fc56b13af625ab0c8b63d686",
+    "objects.json": "4c18256bc3c680c9442d5babc2116451f12b58ba0e318cd875c475b83b7136db",
+    "scene": "8bbdeb1306ce6bdcb5db8bf3030b978a429a15832ee216e4a887a5b5c72fee86"
+  }
+}

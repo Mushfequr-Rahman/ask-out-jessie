@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "id": "prologue-p11-panel05",
+  "parameters": {
+    "scene": "prologue-p11-panel05",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 371.267,
+    "y": 786.046,
+    "width": 580.733,
+    "height": 481.954
+  },
+  "target": {
+    "width": 1120,
+    "height": 928,
+    "size": "1120x928",
+    "visible_window": {
+      "x": 0.0008042557707048648,
+      "y": 0,
+      "width": 0.9983914884585903,
+      "height": 1
+    }
+  },
+  "output_file": "assets/panels/prologue-p11-panel05.png",
+  "reference_images": [
+    {
+      "path": "references/panels/type-c-scythe-city-seized-heraldic.png",
+      "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder.",
+      "index": 1
+    },
+    {
+      "path": "references/panels/type-c-seamless-five-heraldic.png",
+      "role": "Character identity/wardrobe anchor for honour-guard; not extra people to insert.",
+      "index": 2
+    },
+    {
+      "path": "assets/banner-veymarch.png",
+      "role": "Veymarch banner appearance only; include only objects required by the scene.",
+      "index": 3
+    },
+    {
+      "path": "assets/magneton-types.png",
+      "role": "Magneton Type C appearance only; include only objects required by the scene.",
+      "index": 4
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "The last leap.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 119.047,
+          "height": 36.594
+        },
+        "render_text": "The last leap.",
+        "normalized_bounds": {
+          "x": 0.0241,
+          "y": 0.029,
+          "width": 0.205,
+          "height": 0.0759
+        },
+        "source_bounds": {
+          "x": 0.0249,
+          "y": 0.029,
+          "width": 0.2047,
+          "height": 0.0759
+        }
+      },
+      {
+        "type": "narration",
+        "text": "Two points of magnetic energy flared. The scythe captain stepped between them and stood on the command terrace. Below, the guards began laying down their guns. The town was Rovan’s.",
+        "bounds": {
+          "x": 36.109,
+          "y": 385.563,
+          "width": 530.609,
+          "height": 82.391
+        },
+        "render_text": "Two points of magnetic energy flared. The scythe captain stepped between them and stood on the command terrace. Below, the guards began laying down their guns. The town was Rovan’s.",
+        "normalized_bounds": {
+          "x": 0.0622,
+          "y": 0.8,
+          "width": 0.9137,
+          "height": 0.171
+        },
+        "source_bounds": {
+          "x": 0.0629,
+          "y": 0.8,
+          "width": 0.9122,
+          "height": 0.171
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth’s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "veymarch",
+          "name": "Veymarch",
+          "color": "#E56B73",
+          "emblem": "Silver broken shield and star"
+        }
+      ]
+    },
+    "characters": [
+      {
+        "id": "honour-guard",
+        "name": "Rovan’s five honour-guard captains",
+        "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal.",
+        "visual_profiles": [
+          {
+            "weapon_id": "point-scythe",
+            "build": "Tall and slender",
+            "helmet": "Elongated plain closed hood-like shell"
+          }
+        ],
+        "equipment": {
+          "metal_id": "type-c",
+          "armour_colour": "silvery",
+          "weapon_protection": "Impenetrable and impervious to weapons",
+          "complete_armour_and_weapon_sets": 5,
+          "armour_construction": "Practical man-made brushed silver with tool marks and restrained machined details; sealed continuous coverage with no joints or gaps.",
+          "weapon_ids": [
+            "condenser-lance",
+            "field-broadsword",
+            "wind-twin-swords",
+            "shield-warhammer",
+            "point-scythe"
+          ],
+          "armour_detail": "Brushed silver shells with narrow aged brass edging, small fittings and chased geometric details. Crimson enamel badges show Veymarch’s silver broken shield and eight-point star.",
+          "house_badge_duchy_id": "veymarch"
+        }
+      }
+    ],
+    "objects": [
+      {
+        "id": "point-scythe",
+        "name": "Magnetic scythe",
+        "description": "Lets the wielder jump between two concentrated points of magnetic energy."
+      },
+      {
+        "id": "type-c",
+        "name": "Magneton Type C",
+        "description": "Silvery metal. Most malleable of the Magneton types; Impenetrable and impervious to any weapons; Can drift along magnetic fields"
+      },
+      {
+        "id": "veymarch-infantry",
+        "name": "Veymarch infantry kit",
+        "description": "BRONZE armour over crimson cloth and red capes; green Tesla rifles. Ordinary troops are never silver Type C."
+      },
+      {
+        "id": "auric-town-guard",
+        "name": "Auric Reach town guard kit",
+        "description": "Navy-and-gold cloth, BRASS helmets, green Tesla guns. No silver armour."
+      },
+      {
+        "id": "banner-veymarch",
+        "name": "Veymarch banner",
+        "description": "Crimson field; Silver broken shield and star"
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Rovan has ONE capital ship, not three. The three-capital-ship formation appears only in the final Auric Reach departure scene.",
+      "Exactly 1 silver Type C captain(s) visible. Do not insert other captains from the reference lineup.",
+      "All ordinary allied troops are BRONZE over crimson; enemy guards navy/gold with BRASS armour. Silver is exclusive to the named Type C captain(s).",
+      "Sealed continuous silver coverage, no open joints or gaps. Narrow brass edging, small mechanical fittings and crimson badges bearing the silver broken shield and eight-point star.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "prompt": "PURPOSE: Regenerate ONE comic illustration for FIXED holder 580.73 by 481.95 logical pixels, aspect 1.2050:1. LANDSCAPE. Requested output 1120x928. Do NOT resize or redesign the holder. Paint a NEW composition for it, not a framed photo.\n\nSCENE: A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control.\nCAMERA: Use a clear, tightly composed shot with the important action filling the aperture; do not copy the old wide framing.\n\nSTYLE: Magneton graphic novel: painted ink, tactile bronze machinery, silver Type C, crimson Veymarch cloth, navy/gold Auric Reach uniforms; atmospheric floating islands. Consistent with supplied scene references, not photorealistic.\n\nWORLD CONTEXT FROM world.json: {\"setting\":{\"genre\":[\"post-apocalyptic\",\"science fantasy\",\"feudal political adventure\"],\"planet\":\"Earth\",\"catastrophe\":{\"name\":\"The Fracture\",\"cause\":\"Nuclear war shattered Earth into floating islands.\",\"date\":null,\"instigators\":null},\"geography\":{\"landform\":\"Fractured continents and floating rock islands above an atmospheric void\",\"duchy_count\":8,\"atlas_asset_id\":\"shattered-earth-atlas\",\"boundaries\":\"Map labels mark regions of influence, not surveyed borders.\",\"exact_distances\":null},\"magnetic_fields\":{\"behavior\":\"Erratic and turbulent in motion, but their patterns are predictable.\",\"world_function\":\"Hold the fractured landmasses together.\",\"navigation\":\"Ships use magnetic motors to travel through the fields between cities and mining sites.\",\"safe_route_rules\":null},\"humanity\":{\"survival\":\"Humanity was nearly extinguished.\",\"adaptation\":\"Survivors evolved over generations under the influence of the magnetic fields.\",\"new_attributes_exist\":true,\"specific_attributes\":null},\"gravity_and_energy\":{\"city_support\":\"Magneton technology stabilizes floating cities and islands, preventing them from falling.\",\"local_gravity\":\"Generated local fields reproduce the experience of the old Earth’s gravity.\",\"power\":\"Oppositely polarized metal components move in magnetic motors, powering city and transport systems.\",\"fictional_physics\":\"These are rules of the setting; no real-world scientific mechanism is established.\",\"technical_limits\":null}},\"metals\":[{\"id\":\"type-a\",\"appearance\":\"Bronze-like metal\",\"properties\":[\"Very durable\"]},{\"id\":\"type-b\",\"appearance\":\"Glowing green in both polarities\",\"properties\":[\"Found in opposite magnetic polarities\"]},{\"id\":\"type-c\",\"appearance\":\"Silvery metal\",\"properties\":[\"Most malleable of the Magneton types\",\"Impenetrable and impervious to any weapons\",\"Can drift along magnetic fields\"]}],\"duchies\":[{\"id\":\"veymarch\",\"name\":\"Veymarch\",\"color\":\"#E56B73\",\"emblem\":\"Silver broken shield and star\"}]} Preserve the source scene’s era and events; do not add unrelated world elements.\n\nCHARACTERS (immutable identity and costume): [{\"id\":\"honour-guard\",\"name\":\"Rovan’s five honour-guard captains\",\"uniform_standard\":\"Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal.\",\"visual_profiles\":[{\"weapon_id\":\"point-scythe\",\"build\":\"Tall and slender\",\"helmet\":\"Elongated plain closed hood-like shell\"}],\"equipment\":{\"metal_id\":\"type-c\",\"armour_colour\":\"silvery\",\"weapon_protection\":\"Impenetrable and impervious to weapons\",\"complete_armour_and_weapon_sets\":5,\"armour_construction\":\"Practical man-made brushed silver with tool marks and restrained machined details; sealed continuous coverage with no joints or gaps.\",\"weapon_ids\":[\"condenser-lance\",\"field-broadsword\",\"wind-twin-swords\",\"shield-warhammer\",\"point-scythe\"],\"armour_detail\":\"Brushed silver shells with narrow aged brass edging, small fittings and chased geometric details. Crimson enamel badges show Veymarch’s silver broken shield and eight-point star.\",\"house_badge_duchy_id\":\"veymarch\"}}]\n\nOBJECTS (only those belonging in this scene): [{\"id\":\"point-scythe\",\"name\":\"Magnetic scythe\",\"description\":\"Lets the wielder jump between two concentrated points of magnetic energy.\"},{\"id\":\"type-c\",\"name\":\"Magneton Type C\",\"description\":\"Silvery metal. Most malleable of the Magneton types; Impenetrable and impervious to any weapons; Can drift along magnetic fields\"},{\"id\":\"veymarch-infantry\",\"name\":\"Veymarch infantry kit\",\"description\":\"BRONZE armour over crimson cloth and red capes; green Tesla rifles. Ordinary troops are never silver Type C.\"},{\"id\":\"auric-town-guard\",\"name\":\"Auric Reach town guard kit\",\"description\":\"Navy-and-gold cloth, BRASS helmets, green Tesla guns. No silver armour.\"},{\"id\":\"banner-veymarch\",\"name\":\"Veymarch banner\",\"description\":\"Crimson field; Silver broken shield and star\"}]\n\nREFERENCES: [{\"path\":\"references/panels/type-c-scythe-city-seized-heraldic.png\",\"role\":\"Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder.\",\"index\":1},{\"path\":\"references/panels/type-c-seamless-five-heraldic.png\",\"role\":\"Character identity/wardrobe anchor for honour-guard; not extra people to insert.\",\"index\":2},{\"path\":\"assets/banner-veymarch.png\",\"role\":\"Veymarch banner appearance only; include only objects required by the scene.\",\"index\":3},{\"path\":\"assets/magneton-types.png\",\"role\":\"Magneton Type C appearance only; include only objects required by the scene.\",\"index\":4}]\n\nLETTERING: Draw the speech balloons, cream caption/narration boxes and ALL their text directly INTO the artwork. Use a professional clear comic lettering font, dark ink on pale cream/white, readable contrast. Reproduce each render_text EXACTLY, preserving punctuation; do not print speaker labels or JSON keys. Speech tails point to the speaking person. No other words, labels, signs or gibberish. The visible crop-safe aperture in FULL SOURCE coordinates is {\"x\":0.0008042557707048648,\"y\":0,\"width\":0.9983914884585903,\"height\":1}. Place ALL text wholly inside it. The following bounding boxes are normalized to the FULL SOURCE image (not to the holder); use these adjusted positions exactly: [{\"type\":\"caption\",\"render_text\":\"The last leap.\",\"bounds_in_full_source_image\":{\"x\":0.0249,\"y\":0.029,\"width\":0.2047,\"height\":0.0759}},{\"type\":\"narration\",\"render_text\":\"Two points of magnetic energy flared. The scythe captain stepped between them and stood on the command terrace. Below, the guards began laying down their guns. The town was Rovan’s.\",\"bounds_in_full_source_image\":{\"x\":0.0629,\"y\":0.8,\"width\":0.9122,\"height\":0.171}}]\n\nINVARIANTS: One image per request; no multi-panel collage or embedded borders. Compose for the fixed holder. Do not letterbox or paste the old wide image. Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts. Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones. No unsupported new lore, extra Type C suits, extra capital ships or invented character names. Rovan has ONE capital ship, not three. The three-capital-ship formation appears only in the final Auric Reach departure scene. Exactly 1 silver Type C captain(s) visible. Do not insert other captains from the reference lineup. All ordinary allied troops are BRONZE over crimson; enemy guards navy/gold with BRASS armour. Silver is exclusive to the named Type C captain(s). Sealed continuous silver coverage, no open joints or gaps. Narrow brass edging, small mechanical fittings and crimson badges bearing the silver broken shield and eight-point star. All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions.\n\nDELIVERY: Edge-to-edge painted scene with finished comic lettering, no blank borders, no letterboxing, no collage. If native output ratio differs from the holder, keep ALL important content inside its central crop-safe aperture; only expendable background may extend beyond. For a wide strip, put the main figures and action in the central horizontal band, leaving substantial sky/floor outside that band.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording"
+  ],
+  "source_hashes": {
+    "world.json": "1c8163ab3421afb731d2789b0be583bd3d3e79ef417746d6fbb1324325886193",
+    "character.json": "ee00180ba38184a31ac4753151af91b1079acb66fc56b13af625ab0c8b63d686",
+    "objects.json": "4c18256bc3c680c9442d5babc2116451f12b58ba0e318cd875c475b83b7136db",
+    "scene": "e4f6693ec6273673d57d0700e1e125da1225b27ebfaaaec5e0eef772327f6ce3"
+  }
+}

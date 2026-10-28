@@ -6,387 +6,1492 @@
       "Title": "The fracture",
       "panels": [
         {
-          "image_src": "assets/fracture.png",
+          "image_src": "assets/panels/prologue-p01-panel01.png",
           "caption": "The last war.",
           "narration": "By the time the guns fell silent, the Earth had broken apart.",
           "image_alt": "Fractured landmasses suspended in a glowing magnetic field",
           "priority": 5,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 761.975
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The last war.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 114.047,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "By the time the guns fell silent, the Earth had broken apart.",
+              "bounds": {
+                "x": 533.875,
+                "y": 707.172,
+                "width": 404.125,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p01-panel01",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/magnetic-islands.png",
+          "image_src": "assets/panels/prologue-p01-panel02.png",
           "caption": "Fragments of home.",
           "narration": "Continents hung in pieces. Magnetic storms lashed the gaps, but beneath the violence ran patterns the survivors could learn.",
           "image_alt": "Magnetic currents arc between the exposed undersides of floating islands",
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 771.975,
+            "width": 622.929,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Fragments of home.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 167.359,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Continents hung in pieces. Magnetic storms lashed the gaps, but beneath the violence ran patterns the survivors could learn.",
+              "bounds": {
+                "x": 37.797,
+                "y": 420.422,
+                "width": 571.125,
+                "height": 61.594
+              }
+            }
+          ],
+          "scene_id": "prologue-p01-panel02",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/survivors.png",
+          "image_src": "assets/panels/prologue-p01-panel03.png",
           "caption": "The people who remained.",
           "narration": "They made their homes on whatever ground was left, and learned to watch the sky.",
           "image_alt": "A small human silhouette standing on a floating island",
           "priority": 2,
-          "image_fit": "contain"
+          "holder": {
+            "x": 632.929,
+            "y": 771.975,
+            "width": 319.071,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The people who remained.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 212.375,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "They made their homes on whatever ground was left, and learned to watch the sky.",
+              "bounds": {
+                "x": 25.656,
+                "y": 399.625,
+                "width": 279.406,
+                "height": 82.391
+              }
+            }
+          ],
+          "scene_id": "prologue-p01-panel03",
+          "lettering_mode": "baked"
         }
       ],
-      "footer": "MAGNETON · THE FRACTURE"
+      "footer": "MAGNETON · THE FRACTURE",
+      "layout_mode": "fixed"
     },
     {
       "Page Number": 2,
       "Title": "Adaptation",
       "panels": [
         {
-          "image_src": "assets/human-adaptation.png",
+          "image_src": "assets/panels/prologue-p02-panel01.png",
           "caption": "Generations later.",
           "narration": "Children grew up inside the magnetic fields. Their children did too. Slowly, the fields changed them.",
           "image_alt": "Three generations of survivors study a magnetic sensing instrument in their settlement",
           "priority": 2,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 319.071,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Generations later.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 150.719,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Children grew up inside the magnetic fields. Their children did too. Slowly, the fields changed them.",
+              "bounds": {
+                "x": 25.656,
+                "y": 399.625,
+                "width": 279.406,
+                "height": 82.391
+              }
+            }
+          ],
+          "scene_id": "prologue-p02-panel01",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/ore.png",
+          "image_src": "assets/panels/prologue-p02-panel02.png",
           "caption": "Something in the wreckage.",
           "narration": "Nuclear materials had fused into a metal no one had seen before.",
           "image_alt": "Luminous Magneton ore embedded in fractured rock",
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 329.071,
+            "y": 0,
+            "width": 622.929,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Something in the wreckage.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 222.391,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Nuclear materials had fused into a metal no one had seen before.",
+              "bounds": {
+                "x": 168.859,
+                "y": 441.219,
+                "width": 440.063,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p02-panel02",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/polarity-engine.png",
+          "image_src": "assets/panels/prologue-p02-panel03.png",
           "caption": "Magneton.",
           "narration": "At first it was a discovery. In time, it would become the one thing no city could live without.",
           "image_alt": "Two glowing green Type B Magneton cores of opposite polarity inside a precision motor",
           "priority": 5,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 506.025,
+            "width": 952,
+            "height": 761.975
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Magneton.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 99,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "At first it was a discovery. In time, it would become the one thing no city could live without.",
+              "bounds": {
+                "x": 319.813,
+                "y": 707.172,
+                "width": 618.188,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p02-panel03",
+          "lettering_mode": "baked"
         }
       ],
-      "footer": "MAGNETON · ADAPTATION"
+      "footer": "MAGNETON · ADAPTATION",
+      "layout_mode": "fixed"
     },
     {
       "Page Number": 3,
       "Title": "The cities",
       "panels": [
         {
-          "image_src": "assets/city.png",
+          "image_src": "assets/panels/prologue-p03-panel01.png",
           "caption": "A way to keep going.",
           "narration": "Opposite-polarity Type B cores drove the new motors. For the first time in generations, there was power to spare.",
           "image_alt": "A floating city built above a glowing Magneton engine",
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 622.929,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "A way to keep going.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 172.641,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Opposite-polarity Type B cores drove the new motors. For the first time in generations, there was power to spare.",
+              "bounds": {
+                "x": 37.797,
+                "y": 420.422,
+                "width": 571.125,
+                "height": 61.594
+              }
+            }
+          ],
+          "scene_id": "prologue-p03-panel01",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/gravity-chamber.png",
+          "image_src": "assets/panels/prologue-p03-panel02.png",
           "caption": "Under the city.",
           "narration": "The engines steadied the islands and restored a familiar pull beneath people’s feet.",
           "image_alt": "People stand upright inside a city gravity-control chamber while fragments float outside",
           "priority": 2,
-          "image_fit": "contain"
+          "holder": {
+            "x": 632.929,
+            "y": 0,
+            "width": 319.071,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Under the city.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 127.078,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The engines steadied the islands and restored a familiar pull beneath people’s feet.",
+              "bounds": {
+                "x": 25.656,
+                "y": 399.625,
+                "width": 279.406,
+                "height": 82.391
+              }
+            }
+          ],
+          "scene_id": "prologue-p03-panel02",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/city-street.png",
+          "image_src": "assets/panels/prologue-p03-panel03.png",
           "caption": "Home, above the clouds.",
           "narration": "Streets filled again. Workshops opened. Somewhere below every city, Magneton kept the engines turning.",
           "image_alt": "A market street powered by green conduits beneath the floating city’s towers",
           "priority": 5,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 506.025,
+            "width": 952,
+            "height": 761.975
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Home, above the clouds.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 200.719,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Streets filled again. Workshops opened. Somewhere below every city, Magneton kept the engines turning.",
+              "bounds": {
+                "x": 234.344,
+                "y": 707.172,
+                "width": 703.656,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p03-panel03",
+          "lettering_mode": "baked"
         }
       ],
-      "footer": "MAGNETON · THE CITIES"
+      "footer": "MAGNETON · THE CITIES",
+      "layout_mode": "fixed"
     },
     {
       "Page Number": 4,
       "Title": "The barons",
       "panels": [
         {
-          "image_src": "assets/mining-mole.png",
+          "image_src": "assets/panels/prologue-p04-panel01.png",
           "caption": "The men who found the metal.",
           "narration": "The first barons were miners. They dug out Magneton, built ships and carried it across the broken world.",
           "image_alt": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines",
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 302.738
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The men who found the metal.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 239.844,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The first barons were miners. They dug out Magneton, built ships and carried it across the broken world.",
+              "bounds": {
+                "x": 242.234,
+                "y": 247.938,
+                "width": 695.766,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p04-panel01",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/mining-dock.png",
+          "image_src": "assets/panels/prologue-p04-panel02.png",
           "caption": "Routes worth owning.",
           "narration": "Trade made them wealthy. Control of the mines made them powerful.",
           "image_alt": "Ore is unloaded at a mining dock as a proprietor oversees trade",
           "priority": 5,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 312.738,
+            "width": 952,
+            "height": 703.262
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Routes worth owning.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 180.656,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Trade made them wealthy. Control of the mines made them powerful.",
+              "bounds": {
+                "x": 466.625,
+                "y": 648.453,
+                "width": 471.375,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p04-panel02",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/ducal-assembly.png",
+          "image_src": "assets/panels/prologue-p04-panel03.png",
           "caption": "Eight duchies.",
           "narration": "Cities gathered under their banners. The old world was gone, but people had found their way back to lords and subjects.",
           "image_alt": "Mining barons gather in a council chamber overlooking floating cities",
           "priority": 2,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 1026,
+            "width": 952,
+            "height": 242
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Eight duchies.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 126.516,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Cities gathered under their banners. The old world was gone, but people had found their way back to lords and subjects.",
+              "bounds": {
+                "x": 144.938,
+                "y": 187.203,
+                "width": 793.063,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p04-panel03",
+          "lettering_mode": "baked"
         }
       ],
-      "footer": "MAGNETON · THE BARONS"
+      "footer": "MAGNETON · THE BARONS",
+      "layout_mode": "fixed"
     },
     {
       "Page Number": 5,
       "Title": "A duke in name",
       "panels": [
         {
-          "image_src": "assets/rovan-city-crimson.png",
+          "image_src": "assets/panels/prologue-p05-panel01.png",
           "caption": "Veymarch.",
           "narration": "From above, Rovan’s city looked peaceful. He knew how little it would take to lose it.",
           "image_alt": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson",
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 622.929,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Veymarch.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 99.063,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "From above, Rovan’s city looked peaceful. He knew how little it would take to lose it.",
+              "bounds": {
+                "x": 37.797,
+                "y": 420.422,
+                "width": 571.125,
+                "height": 61.594
+              }
+            }
+          ],
+          "scene_id": "prologue-p05-panel01",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/unpaid-ledger-crimson.png",
+          "image_src": "assets/panels/prologue-p05-panel02.png",
           "caption": "The accounts.",
           "narration": "Grievous: “The soldiers’ pay is overdue, Your Grace. The repair yards are still waiting too.”",
           "image_alt": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson",
           "priority": 2,
-          "image_fit": "contain"
+          "holder": {
+            "x": 632.929,
+            "y": 0,
+            "width": 319.071,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The accounts.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 124.859,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Grievous: “The soldiers’ pay is overdue, Your Grace. The repair yards are still waiting too.”",
+              "bounds": {
+                "x": 25.656,
+                "y": 385.625,
+                "width": 279.406,
+                "height": 86.391
+              }
+            }
+          ],
+          "scene_id": "prologue-p05-panel02",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/duke-resolve-crimson.png",
+          "image_src": "assets/panels/prologue-p05-panel03.png",
           "caption": "What protection had cost him.",
           "narration": "Rovan: “Their ships got through because ours stood in the way. Now they have full vaults, and I have men waiting for their pay.”",
           "image_alt": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson",
           "priority": 5,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 506.025,
+            "width": 952,
+            "height": 761.975
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "What protection had cost him.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 239.016,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “Their ships got through because ours stood in the way. Now they have full vaults, and I have men waiting for their pay.”",
+              "bounds": {
+                "x": 50.969,
+                "y": 672.375,
+                "width": 887.031,
+                "height": 65.594
+              }
+            }
+          ],
+          "scene_id": "prologue-p05-panel03",
+          "lettering_mode": "baked"
         }
       ],
-      "footer": "PROLOGUE · A DUKE IN NAME"
+      "footer": "PROLOGUE · A DUKE IN NAME",
+      "layout_mode": "fixed"
     },
     {
       "Page Number": 6,
       "Title": "The Duke’s Due",
       "panels": [
         {
-          "image_src": "assets/caravan-boarding-crimson.png",
+          "image_src": "assets/panels/prologue-p06-panel01.png",
           "caption": "An Auric Reach Caravan.",
           "narration": "The sailors stopped where they stood. Across the deck, green light gathered in the soldiers’ Tesla guns.",
           "image_alt": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson",
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 302.738
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "An Auric Reach Caravan.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 202.688,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The sailors stopped where they stood. Across the deck, green light gathered in the soldiers’ Tesla guns.",
+              "bounds": {
+                "x": 255.641,
+                "y": 247.938,
+                "width": 682.359,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p06-panel01",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/duke-seizure-crimson.png",
+          "image_src": "assets/panels/prologue-p06-panel02.png",
           "caption": "A debt comes due.",
           "narration": "Rovan: “You sailed under our protection. My soldiers are still waiting to be paid. Until that debt is settled, this ship is mine.”",
           "image_alt": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson",
           "priority": 5,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 312.738,
+            "width": 952,
+            "height": 703.262
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "A debt comes due.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 156.813,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “You sailed under our protection. My soldiers are still waiting to be paid. Until that debt is settled, this ship is mine.”",
+              "bounds": {
+                "x": 50.969,
+                "y": 613.656,
+                "width": 887.031,
+                "height": 65.594
+              }
+            }
+          ],
+          "scene_id": "prologue-p06-panel02",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/soldiers-cheer-crimson.png",
+          "image_src": "assets/panels/prologue-p06-panel03.png",
           "caption": "The answer.",
           "narration": "His soldiers cheered. The sailors said nothing. Grievous watched both sides of the deck.",
           "image_alt": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson",
           "priority": 2,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 1026,
+            "width": 952,
+            "height": 242
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The answer.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 109.875,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "His soldiers cheered. The sailors said nothing. Grievous watched both sides of the deck.",
+              "bounds": {
+                "x": 349.75,
+                "y": 187.203,
+                "width": 588.25,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p06-panel03",
+          "lettering_mode": "baked"
         }
       ],
-      "footer": "PROLOGUE · THE DUKE’S DUE"
+      "footer": "PROLOGUE · THE DUKE’S DUE",
+      "layout_mode": "fixed"
     },
     {
       "Page Number": 7,
       "Title": "His Own Future",
       "panels": [
         {
-          "image_src": "assets/rovan-future-crimson.png",
+          "image_src": "assets/panels/prologue-p07-panel01.png",
           "caption": "His own future.",
           "narration": "Rovan: “I’ll define my own future. Set a course for Auric Reach. I’m done waiting for what we’re owed.”",
           "image_alt": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson",
           "priority": 5,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 761.975
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "His own future.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 132.344,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “I’ll define my own future. Set a course for Auric Reach. I’m done waiting for what we’re owed.”",
+              "bounds": {
+                "x": 183.891,
+                "y": 693.172,
+                "width": 754.109,
+                "height": 44.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p07-panel01",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/recruit-drill-crimson.png",
+          "image_src": "assets/panels/prologue-p07-panel02.png",
           "caption": "Pay. Equipment. Recruits.",
           "narration": "The seized cargo gave Rovan something he had been running out of: time. His veterans put it to work on the drill ground.",
           "image_alt": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson",
           "priority": 2,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 771.975,
+            "width": 319.071,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Pay. Equipment. Recruits.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 207.938,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The seized cargo gave Rovan something he had been running out of: time. His veterans put it to work on the drill ground.",
+              "bounds": {
+                "x": 25.656,
+                "y": 378.828,
+                "width": 279.406,
+                "height": 103.188
+              }
+            }
+          ],
+          "scene_id": "prologue-p07-panel02",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/single-bastion-departure.png",
+          "image_src": "assets/panels/prologue-p07-panel03.png",
           "caption": "One capital ship.",
           "narration": "The Bastion led them out. Beside it sailed the seized Caravan, still a merchant vessel, now carrying Rovan’s supplies.",
           "image_alt": "A single Bastion capital ship departs with the seized merchant Caravan nearby",
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 329.071,
+            "y": 771.975,
+            "width": 622.929,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "One capital ship.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 144.031,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The Bastion led them out. Beside it sailed the seized Caravan, still a merchant vessel, now carrying Rovan’s supplies.",
+              "bounds": {
+                "x": 37.797,
+                "y": 420.422,
+                "width": 571.125,
+                "height": 61.594
+              }
+            }
+          ],
+          "scene_id": "prologue-p07-panel03",
+          "lettering_mode": "baked"
         }
       ],
-      "footer": "PROLOGUE · HIS OWN FUTURE"
+      "footer": "PROLOGUE · HIS OWN FUTURE",
+      "layout_mode": "fixed"
     },
     {
       "Page Number": 8,
       "Title": "The First War",
       "panels": [
         {
-          "image_src": "assets/auric-raid-crimson.png",
+          "image_src": "assets/panels/prologue-p08-panel01.png",
           "caption": "They had fought pirates before.",
           "narration": "An army was different. Since the Fracture, no duchy had faced an organised invasion from another.",
           "image_alt": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson",
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 622.929,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "They had fought pirates before.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 248.188,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "An army was different. Since the Fracture, no duchy had faced an organised invasion from another.",
+              "bounds": {
+                "x": 37.797,
+                "y": 420.422,
+                "width": 571.125,
+                "height": 61.594
+              }
+            }
+          ],
+          "scene_id": "prologue-p08-panel01",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/ships-confiscated-crimson.png",
+          "image_src": "assets/panels/prologue-p08-panel02.png",
           "caption": "The harbour.",
           "narration": "Rovan’s veterans moved before the defenders could settle into their positions. One dock after another changed hands.",
           "image_alt": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson",
           "priority": 2,
-          "image_fit": "contain"
+          "holder": {
+            "x": 632.929,
+            "y": 0,
+            "width": 319.071,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The harbour.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 114.844,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Rovan’s veterans moved before the defenders could settle into their positions. One dock after another changed hands.",
+              "bounds": {
+                "x": 25.656,
+                "y": 378.828,
+                "width": 279.406,
+                "height": 103.188
+              }
+            }
+          ],
+          "scene_id": "prologue-p08-panel02",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/city-captured-crimson.png",
+          "image_src": "assets/panels/prologue-p08-panel03.png",
           "caption": "The first city.",
           "narration": "It fell faster than Rovan had expected. Training and surprise had won him a harbour, ships and a foothold in Auric Reach.",
           "image_alt": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson",
           "priority": 5,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 506.025,
+            "width": 952,
+            "height": 761.975
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The first city.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 116.25,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "It fell faster than Rovan had expected. Training and surprise had won him a harbour, ships and a foothold in Auric Reach.",
+              "bounds": {
+                "x": 135.047,
+                "y": 707.172,
+                "width": 802.953,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p08-panel03",
+          "lettering_mode": "baked"
         }
       ],
-      "footer": "PROLOGUE · THE FIRST WAR"
+      "footer": "PROLOGUE · THE FIRST WAR",
+      "layout_mode": "fixed"
     },
     {
       "Page Number": 9,
       "Title": "Meet the Silver Guard",
       "panels": [
         {
-          "image_src": "assets/type-c-seamless-forge-heraldic.png",
+          "image_src": "assets/panels/prologue-p09-panel01.png",
           "caption": "In the workshop.",
           "narration": "Rovan worked the stolen silver himself. When he finished, there were five sealed suits, five weapon sets, and no metal left for a sixth.",
           "image_alt": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
           "full_size_link": true,
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 378.573
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "In the workshop.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 143.188,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Rovan worked the stolen silver himself. When he finished, there were five sealed suits, five weapon sets, and no metal left for a sixth.",
+              "bounds": {
+                "x": 55.641,
+                "y": 323.766,
+                "width": 882.359,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p09-panel01",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/type-c-seamless-five-heraldic.png",
+          "image_src": "assets/panels/prologue-p09-panel02.png",
           "caption": "The Silver Guard.",
           "narration": "A lance. A broadsword. Twin blades. A hammer. A scythe. The five captains wore Veymarch’s broken shield over their silver. They were still his soldiers; now they could cross a battlefield as no soldiers ever had.",
           "image_alt": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
           "full_size_link": true,
           "priority": 5,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 388.573,
+            "width": 952,
+            "height": 879.427
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The Silver Guard.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 148.219,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "A lance. A broadsword. Twin blades. A hammer. A scythe. The five captains wore Veymarch’s broken shield over their silver. They were still his soldiers; now they could cross a battlefield as no soldiers ever had.",
+              "bounds": {
+                "x": 50.969,
+                "y": 803.828,
+                "width": 887.031,
+                "height": 61.594
+              }
+            }
+          ],
+          "scene_id": "prologue-p09-panel02",
+          "lettering_mode": "baked"
         }
       ],
-      "footer": "PROLOGUE · THE SILVER GUARD"
+      "footer": "PROLOGUE · THE SILVER GUARD",
+      "layout_mode": "fixed"
     },
     {
       "Page Number": 10,
       "Title": "Into the Town",
       "panels": [
         {
-          "image_src": "assets/troops-dock-run.png",
+          "image_src": "assets/panels/prologue-p10-panel01.png",
           "caption": "Another town ahead.",
           "narration": "The gangway struck the dock. Boots hammered across it, and the first squad ran for the gate.",
           "image_alt": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks.",
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 302.738
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Another town ahead.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 172.344,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The gangway struck the dock. Boots hammered across it, and the first squad ran for the gate.",
+              "bounds": {
+                "x": 318.844,
+                "y": 247.938,
+                "width": 619.156,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p10-panel01",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/troops-gate-charge.png",
+          "image_src": "assets/panels/prologue-p10-panel02.png",
           "caption": "Through the arch.",
           "narration": "“Keep moving! Cover the stairs!”\nTesla fire snapped against the stone as the veterans pulled the rest of the squad through.",
           "image_alt": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs.",
           "priority": 5,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 312.738,
+            "width": 952,
+            "height": 703.262
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Through the arch.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 151.5,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "speech",
+              "text": "“Keep moving! Cover the stairs!”",
+              "bounds": {
+                "x": 352.391,
+                "y": 585.656,
+                "width": 261.422,
+                "height": 44.797
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Tesla fire snapped against the stone as the veterans pulled the rest of the squad through.",
+              "bounds": {
+                "x": 352.391,
+                "y": 648.453,
+                "width": 585.609,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p10-panel02",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/troops-street-advance.png",
+          "image_src": "assets/panels/prologue-p10-panel03.png",
           "caption": "Uphill.",
           "narration": "At the fountain, the squads split. Beyond the next bend, the town guard was waiting behind a barricade.",
           "image_alt": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade.",
           "priority": 2,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 1026,
+            "width": 952,
+            "height": 242
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Uphill.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 69.828,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "At the fountain, the squads split. Beyond the next bend, the town guard was waiting behind a barricade.",
+              "bounds": {
+                "x": 249.484,
+                "y": 187.203,
+                "width": 688.516,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p10-panel03",
+          "lettering_mode": "baked"
         }
       ],
-      "footer": "PROLOGUE · INTO THE TOWN"
+      "footer": "PROLOGUE · INTO THE TOWN",
+      "layout_mode": "fixed"
     },
     {
       "Page Number": 11,
       "Title": "The Five Take the City",
       "panels": [
         {
-          "image_src": "assets/type-c-lance-assault-heraldic.png",
+          "image_src": "assets/panels/prologue-p11-panel01.png",
           "caption": "The lance fired first.",
           "narration": "Magnetic lines tightened around its tip. Then the gathered force struck the guard’s position like a cannon shot.",
           "image_alt": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
           "full_size_link": true,
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 242
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The lance fired first.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 166.547,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Magnetic lines tightened around its tip. Then the gathered force struck the guard’s position like a cannon shot.",
+              "bounds": {
+                "x": 208.031,
+                "y": 187.203,
+                "width": 729.969,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p11-panel01",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/type-c-broadsword-breach-heraldic.png",
+          "image_src": "assets/panels/prologue-p11-panel02.png",
           "caption": "Steel gave way.",
           "narration": "The broadsword’s field swelled beyond its blade. One swing opened the ship’s hull, and Rovan’s soldiers rushed the breach.",
           "image_alt": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
           "full_size_link": true,
           "priority": 5,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 252,
+            "width": 662,
+            "height": 524.046
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Steel gave way.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 133.797,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The broadsword’s field swelled beyond its blade. One swing opened the ship’s hull, and Rovan’s soldiers rushed the breach.",
+              "bounds": {
+                "x": 39.375,
+                "y": 448.438,
+                "width": 608.625,
+                "height": 61.594
+              }
+            }
+          ],
+          "scene_id": "prologue-p11-panel02",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/type-c-twin-sword-flight-heraldic.png",
+          "image_src": "assets/panels/prologue-p11-panel03.png",
           "caption": "Above the streets.",
           "narration": "The twin-blade captain climbed on the magnetic wind, turned in the air, and swept down over the guards.",
           "image_alt": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
           "full_size_link": true,
           "priority": 2,
-          "image_fit": "contain"
+          "holder": {
+            "x": 672,
+            "y": 252,
+            "width": 280,
+            "height": 524.046
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Above the streets.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 154.047,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The twin-blade captain climbed on the magnetic wind, turned in the air, and swept down over the guards.",
+              "bounds": {
+                "x": 24.094,
+                "y": 406.844,
+                "width": 241.906,
+                "height": 103.188
+              }
+            }
+          ],
+          "scene_id": "prologue-p11-panel03",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/type-c-warhammer-shield-heraldic.png",
+          "image_src": "assets/panels/prologue-p11-panel04.png",
           "caption": "Behind the hammer.",
           "narration": "The hammer hit the paving. A field rose around the advancing troops, and the guards’ Tesla fire broke against it.",
           "image_alt": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
           "full_size_link": true,
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 786.046,
+            "width": 361.267,
+            "height": 481.954
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Behind the hammer.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 167.375,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The hammer hit the paving. A field rose around the advancing troops, and the guards’ Tesla fire broke against it.",
+              "bounds": {
+                "x": 27.344,
+                "y": 385.563,
+                "width": 319.922,
+                "height": 82.391
+              }
+            }
+          ],
+          "scene_id": "prologue-p11-panel04",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/type-c-scythe-city-seized-heraldic.png",
+          "image_src": "assets/panels/prologue-p11-panel05.png",
           "caption": "The last leap.",
           "narration": "Two points of magnetic energy flared. The scythe captain stepped between them and stood on the command terrace. Below, the guards began laying down their guns. The town was Rovan’s.",
           "image_alt": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
           "full_size_link": true,
           "priority": 4,
-          "image_fit": "contain"
+          "holder": {
+            "x": 371.267,
+            "y": 786.046,
+            "width": 580.733,
+            "height": 481.954
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The last leap.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 119.047,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Two points of magnetic energy flared. The scythe captain stepped between them and stood on the command terrace. Below, the guards began laying down their guns. The town was Rovan’s.",
+              "bounds": {
+                "x": 36.109,
+                "y": 385.563,
+                "width": 530.609,
+                "height": 82.391
+              }
+            }
+          ],
+          "scene_id": "prologue-p11-panel05",
+          "lettering_mode": "baked"
         }
       ],
-      "footer": "PROLOGUE · THE FIVE TAKE THE CITY"
+      "footer": "PROLOGUE · THE FIVE TAKE THE CITY",
+      "layout_mode": "fixed"
     },
     {
       "Page Number": 12,
       "Title": "The next move",
       "panels": [
         {
-          "image_src": "assets/council-next-steps.png",
+          "image_src": "assets/panels/prologue-p12-panel01.png",
           "caption": "After the fighting.",
           "narration": "Grievous: “We’ve taken the town. Holding it will be another matter.”\nRovan: “Then get the repair yards working. Keep the recruits training. We start there.”",
           "image_alt": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room",
           "priority": 3,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 622.929,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "After the fighting.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 148.984,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Grievous: “We’ve taken the town. Holding it will be another matter.”",
+              "bounds": {
+                "x": 37.797,
+                "y": 343.625,
+                "width": 504.813,
+                "height": 44.797
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “Then get the repair yards working. Keep the recruits training. We start there.”",
+              "bounds": {
+                "x": 37.797,
+                "y": 406.422,
+                "width": 571.125,
+                "height": 65.594
+              }
+            }
+          ],
+          "scene_id": "prologue-p12-panel01",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/auric-counterorder.png",
+          "image_src": "assets/panels/prologue-p12-panel02.png",
           "caption": "In Auric Reach.",
           "narration": "The ruler of Auric Reach: “Three capital ships. Send them after Rovan.”",
           "image_alt": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner",
           "priority": 2,
-          "image_fit": "contain"
+          "holder": {
+            "x": 632.929,
+            "y": 0,
+            "width": 319.071,
+            "height": 496.025
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "In Auric Reach.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 132.641,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "speech",
+              "text": "The ruler of Auric Reach: “Three capital ships. Send them after Rovan.”",
+              "bounds": {
+                "x": 25.656,
+                "y": 385.625,
+                "width": 279.406,
+                "height": 86.391
+              }
+            }
+          ],
+          "scene_id": "prologue-p12-panel02",
+          "lettering_mode": "baked"
         },
         {
-          "image_src": "assets/three-capital-ships.png",
+          "image_src": "assets/panels/prologue-p12-panel03.png",
           "caption": "Orders already given.",
           "narration": "Three great hulls slipped their moorings. While Rovan planned his next move, the ships sent to stop him were already on their way.",
           "image_alt": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan",
           "priority": 5,
-          "image_fit": "contain"
+          "holder": {
+            "x": 0,
+            "y": 506.025,
+            "width": 952,
+            "height": 761.975
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Orders already given.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 177.406,
+                "height": 36.594
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Three great hulls slipped their moorings. While Rovan planned his next move, the ships sent to stop him were already on their way.",
+              "bounds": {
+                "x": 71.297,
+                "y": 707.172,
+                "width": 866.703,
+                "height": 40.797
+              }
+            }
+          ],
+          "scene_id": "prologue-p12-panel03",
+          "lettering_mode": "baked"
         }
       ],
-      "footer": "PROLOGUE · THE NEXT MOVE"
+      "footer": "PROLOGUE · THE NEXT MOVE",
+      "layout_mode": "fixed"
     }
   ]
 }

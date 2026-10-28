@@ -32,6 +32,8 @@ assert [{key: d[key] for key in palette[0]} for d in duchies] == palette, 'Duchy
 classes = {c['id'] for c in world['ship_classes']}
 for ship in world['ship_designs']:
     assert ship['class_id'] in classes and ship['asset_id'] in assets, 'Broken ship reference'
+    assert assets[ship['asset_id']]['file'].startswith('assets/')
+assert world['objects_file'] == 'objects.json' and (ROOT / 'objects.json').is_file()
 assert 'characters' not in world, 'Character records belong in character.json'
 assert world['characters_file'] == 'character.json', 'Wrong character source'
 characters = json.loads((ROOT / world['characters_file']).read_text())['characters']
@@ -83,4 +85,10 @@ for story in stories:
     sources = [panel['image_src'] for page in chapter['pages'] for panel in page['panels']]
     assert sources == [assets[p['asset_id']]['file'] for p in panels], 'Chapter and world image paths differ'
 
+for page in ROOT.glob('*.html'):
+    for target in re.findall(r'(?:href|src)="([^"#]+)', page.read_text()):
+        if target.startswith(('http:', 'https:', 'mailto:', 'data:')):
+            continue
+        local=target.split('#')[0].split('?')[0]
+        assert not local or (ROOT / local).is_file(), f'Broken local link in {page.name}: {local}'
 print(f"Validated {len(characters)} character records, {len(stories)} story, {len(duchies)} duchies, {len(world['ship_designs'])} ship designs and {len(assets)} assets.")

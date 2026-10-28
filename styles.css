@@ -856,3 +856,7 @@ h1 { font-size: clamp(48px, 11.8vw, 146px); }
 .panel-caption + .panel-story { margin-top: 16px; }
 .panel-story .panel-narration { max-width: 100%; }
 .panel-copy.copy-measure .panel-story { margin-left: auto; }
+
+/* Generated panel art includes its own lettering; keep its fixed holder unchanged. */
+.page-panel[data-lettering="baked"] .panel-copy { display: none; }
+.comic-page .page-panel[data-lettering="baked"] .panel-art { width: 100%; height: 100%; object-fit: cover; transform: none; }

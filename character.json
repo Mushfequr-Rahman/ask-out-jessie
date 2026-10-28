@@ -24,7 +24,10 @@
         "status": "provisional artwork, not established biography",
         "appearance": "Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf"
       },
-      "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+      "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.",
+      "reference_images": [
+        "references/panels/duke-seizure-crimson.png"
+      ]
     },
     {
       "id": "general-grievous",
@@ -36,7 +39,10 @@
         "status": "provisional project artwork, not established species or biography",
         "appearance": "Older bald human officer with a grey moustache, dark olive coat and bronze epaulettes"
       },
-      "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+      "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.",
+      "reference_images": [
+        "references/panels/duke-seizure-crimson.png"
+      ]
     },
     {
       "id": "honour-guard",
@@ -60,7 +66,7 @@
         "house_badge_duchy_id": "veymarch"
       },
       "mobility": "Drift along magnetic fields and leap between ships",
-      "source_asset_id": "type-c-seamless-five-heraldic",
+      "source_asset_id": "prologue-p09-panel02",
       "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal.",
       "visual_profiles": [
         {
@@ -88,6 +94,9 @@
           "build": "Tall and slender",
           "helmet": "Elongated plain closed hood-like shell"
         }
+      ],
+      "reference_images": [
+        "references/panels/type-c-seamless-five-heraldic.png"
       ]
     },
     {
@@ -100,7 +109,10 @@
       "visual_concept": {
         "status": "provisional artwork; name and biography are unestablished",
         "appearance": "An adult ruler in gold and navy, partly shadowed, beneath the Auric Reach balance banner"
-      }
+      },
+      "reference_images": [
+        "references/panels/auric-counterorder.png"
+      ]
     }
   ]
 }

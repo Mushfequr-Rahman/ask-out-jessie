@@ -2,6 +2,7 @@
 from pathlib import Path
 import json
 import re
+import math
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -16,10 +17,20 @@ def validate_chapter(chapter):
         assert isinstance(page.get('Title'), str) and page['Title'].strip(), 'Page needs a Title'
         assert isinstance(page.get('panels'), list) and 1 <= len(page['panels']) <= 5, 'Each page needs 1–5 panels'
         assert 'footer' not in page or isinstance(page['footer'], str), 'Invalid footer'
+        holders=[]
         for panel in page['panels']:
             assert isinstance(panel, dict), 'Panel must be an object'
             assert isinstance(panel.get('image_src'), str) and re.fullmatch(r'assets/[a-zA-Z0-9_/-]+\.(png|jpe?g|webp|svg)', panel['image_src']), 'Invalid image_src'
             assert isinstance(panel.get('caption'), str), 'Panel needs a caption string (may be empty)'
+            if 'holder' in panel:
+                h=panel['holder']
+                assert isinstance(h, dict) and all(type(h.get(k)) in [int,float] and math.isfinite(h[k]) for k in ['x','y','width','height']), 'Invalid holder dimensions'
+                assert h['x']>=0 and h['y']>=0 and h['width']>0 and h['height']>0 and h['x']+h['width']<=952.01 and h['y']+h['height']<=1268.01, 'Holder outside canvas'
+                for other in holders:
+                    assert h['x']+h['width']<=other['x']+.01 or other['x']+other['width']<=h['x']+.01 or h['y']+h['height']<=other['y']+.01 or other['y']+other['height']<=h['y']+.01, 'Fixed holders overlap'
+                holders.append(h)
+            assert page.get('layout_mode')!='fixed' or 'holder' in panel, 'Missing fixed holder'
+            assert 'lettering_mode' not in panel or panel['lettering_mode'] in ['baked','editable_html'], 'Invalid lettering mode'
             assert 'priority' not in panel or type(panel['priority']) is int and 1 <= panel['priority'] <= 5, 'Priority must be 1–5'
             assert 'image_fit' not in panel or panel['image_fit'] == 'contain', 'Invalid image fit'
             for field in ['narration', 'image_alt']:
@@ -37,7 +48,8 @@ def chapter_pages(chapter):
             {'number': number, 'asset_id': Path(panel['image_src']).stem,
              'caption': panel['caption'], 'narration': panel.get('narration', ''),
              'priority': panel.get('priority', 3),
-             'image_description': panel.get('image_alt', panel['caption'])}
+             'image_description': panel.get('image_alt', panel['caption']),
+             **{key: panel[key] for key in ['holder','scene_id','lettering_mode'] if key in panel}}
             for number, panel in enumerate(page['panels'], 1)]}
         for page in chapter['pages']]
 
@@ -49,7 +61,8 @@ def sync_chapters(world):
         chapter = json.loads(source.read_text())
         pages = chapter_pages(chapter)
         for page in chapter['pages']:
-            for panel in page['panels']:
+            holders=[]
+        for panel in page['panels']:
                 assert (ROOT / panel['image_src']).is_file(), f"Missing image: {panel['image_src']}"
         story.update(pages=pages, page_count=len(pages),
                      panel_count=sum(len(page['panels']) for page in pages))

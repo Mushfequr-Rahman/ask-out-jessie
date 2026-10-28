@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "purpose": "Reusable visual object bible; world_reference points to authoritative world lore.",
+  "objects": [
+    {
+      "id": "type-a",
+      "kind": "material",
+      "name": "Magneton Type A",
+      "description": "Bronze-like metal. Very durable",
+      "reference_images": [
+        "assets/magneton-types.png"
+      ],
+      "world_reference": "/metals/0"
+    },
+    {
+      "id": "type-b",
+      "kind": "material",
+      "name": "Magneton Type B",
+      "description": "Glowing green in both polarities. Found in opposite magnetic polarities",
+      "reference_images": [
+        "assets/magneton-types.png"
+      ],
+      "world_reference": "/metals/1"
+    },
+    {
+      "id": "type-c",
+      "kind": "material",
+      "name": "Magneton Type C",
+      "description": "Silvery metal. Most malleable of the Magneton types; Impenetrable and impervious to any weapons; Can drift along magnetic fields",
+      "reference_images": [
+        "assets/magneton-types.png"
+      ],
+      "world_reference": "/metals/2"
+    },
+    {
+      "id": "mining-mole",
+      "kind": "ship",
+      "name": "Mole",
+      "description": "Squat mining tug with detachable deep ore cassette, loading arms, and forward drill. Close-site positioning",
+      "reference_images": [
+        "assets/mining-mole.png"
+      ],
+      "world_reference": "/ship_designs/0",
+      "constraints": [
+        "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+      ]
+    },
+    {
+      "id": "schooner-needle",
+      "kind": "ship",
+      "name": "Needle",
+      "description": "Light teardrop commuter hull, compact cockpit, and articulated engine outriggers. Very high mobility",
+      "reference_images": [
+        "assets/schooner-needle.png"
+      ],
+      "world_reference": "/ship_designs/1",
+      "constraints": [
+        "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+      ]
+    },
+    {
+      "id": "schooner-kestrel",
+      "kind": "ship",
+      "name": "Kestrel",
+      "description": "Small swept open-deck commuter with glass forward cabin, boarding deck, and hull-edge magnetic rings. High mobility",
+      "reference_images": [
+        "assets/schooner-kestrel.png"
+      ],
+      "world_reference": "/ship_designs/2",
+      "constraints": [
+        "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+      ]
+    },
+    {
+      "id": "trader-caravan",
+      "kind": "ship",
+      "name": "Caravan",
+      "description": "Large twin parallel Zeppelin hulls connected by cargo bridges, freight modules and passenger space. Cumbersome turns",
+      "reference_images": [
+        "assets/trader-caravan.png"
+      ],
+      "world_reference": "/ship_designs/3",
+      "constraints": [
+        "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+      ]
+    },
+    {
+      "id": "trader-terrace",
+      "kind": "ship",
+      "name": "Terrace",
+      "description": "Broad trader with terraced passenger decks, forward saloon, enclosed freight holds, and raised aft bridge. Slow and cumbersome",
+      "reference_images": [
+        "assets/trader-terrace.png"
+      ],
+      "world_reference": "/ship_designs/4",
+      "constraints": [
+        "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+      ]
+    },
+    {
+      "id": "capital-bastion",
+      "kind": "ship",
+      "name": "Bastion",
+      "description": "Broad armoured three-keel fortress with command citadel, gun decks, and large magnetic engines. Limited maneuverability",
+      "reference_images": [
+        "assets/capital-bastion.png"
+      ],
+      "world_reference": "/ship_designs/5",
+      "constraints": [
+        "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+      ]
+    },
+    {
+      "id": "condenser-lance",
+      "kind": "weapon",
+      "name": "Magnetic lance",
+      "description": "Condenses magnetic fields and fires the concentrated energy like a cannon.",
+      "reference_images": [
+        "references/panels/type-c-lance-assault-heraldic.png"
+      ],
+      "world_reference": "/weapons/0"
+    },
+    {
+      "id": "field-broadsword",
+      "kind": "weapon",
+      "name": "Field broadsword",
+      "description": "Condenses magnetic fields into a larger blade capable of cutting through a ship’s hull.",
+      "reference_images": [
+        "references/panels/type-c-broadsword-breach-heraldic.png"
+      ],
+      "world_reference": "/weapons/1"
+    },
+    {
+      "id": "wind-twin-swords",
+      "kind": "weapon",
+      "name": "Twin wind swords",
+      "description": "A pair of wind-like swords that lets the wielder fly like a bird.",
+      "reference_images": [
+        "references/panels/type-c-twin-sword-flight-heraldic.png"
+      ],
+      "world_reference": "/weapons/2"
+    },
+    {
+      "id": "shield-warhammer",
+      "kind": "weapon",
+      "name": "Shield war hammer",
+      "description": "Creates its own magnetic field when slammed down, forming a shield against Tesla guns.",
+      "reference_images": [
+        "references/panels/type-c-warhammer-shield-heraldic.png"
+      ],
+      "world_reference": "/weapons/3"
+    },
+    {
+      "id": "point-scythe",
+      "kind": "weapon",
+      "name": "Magnetic scythe",
+      "description": "Lets the wielder jump between two concentrated points of magnetic energy.",
+      "reference_images": [
+        "references/panels/type-c-scythe-city-seized-heraldic.png"
+      ],
+      "world_reference": "/weapons/4"
+    },
+    {
+      "id": "tesla-gun",
+      "kind": "weapon",
+      "name": "Tesla gun",
+      "description": "Copper-coiled fictional electrical rifle with green-lit charge. Cannot pierce silver Type C.",
+      "reference_images": [],
+      "world_reference": "/technology/tesla_guns"
+    },
+    {
+      "id": "magnetic-motor",
+      "kind": "machine",
+      "name": "Magneton motor",
+      "description": "Opposite-polarity glowing GREEN Type B cores in a mechanical motor; powers the floating cities and ships. Both polarities are GREEN.",
+      "reference_images": [
+        "references/panels/polarity-engine.png"
+      ],
+      "world_reference": "/technology/magnetic_motors"
+    },
+    {
+      "id": "veymarch-infantry",
+      "kind": "uniform",
+      "name": "Veymarch infantry kit",
+      "description": "BRONZE armour over crimson cloth and red capes; green Tesla rifles. Ordinary troops are never silver Type C.",
+      "reference_images": []
+    },
+    {
+      "id": "auric-town-guard",
+      "kind": "uniform",
+      "name": "Auric Reach town guard kit",
+      "description": "Navy-and-gold cloth, BRASS helmets, green Tesla guns. No silver armour.",
+      "reference_images": []
+    },
+    {
+      "id": "banner-veymarch",
+      "kind": "heraldry",
+      "name": "Veymarch banner",
+      "description": "Crimson field; Silver broken shield and star",
+      "reference_images": [
+        "assets/banner-veymarch.png"
+      ],
+      "duchy_id": "veymarch",
+      "world_reference": "/duchies/0"
+    },
+    {
+      "id": "banner-auric-reach",
+      "kind": "heraldry",
+      "name": "Auric Reach banner",
+      "description": "Gold field; Merchant’s balance within a coin",
+      "reference_images": [
+        "assets/banner-auric-reach.png"
+      ],
+      "duchy_id": "auric-reach",
+      "world_reference": "/duchies/1"
+    },
+    {
+      "id": "banner-ironveil",
+      "kind": "heraldry",
+      "name": "Ironveil banner",
+      "description": "Steel field; Silver hammer and anvil",
+      "reference_images": [
+        "assets/banner-ironveil.png"
+      ],
+      "duchy_id": "ironveil",
+      "world_reference": "/duchies/2"
+    },
+    {
+      "id": "banner-glassmere",
+      "kind": "heraldry",
+      "name": "Glassmere banner",
+      "description": "Cyan field; White crystal prism",
+      "reference_images": [
+        "assets/banner-glassmere.png"
+      ],
+      "duchy_id": "glassmere",
+      "world_reference": "/duchies/3"
+    },
+    {
+      "id": "banner-stormholt",
+      "kind": "heraldry",
+      "name": "Stormholt banner",
+      "description": "Violet field; Silver lightning bolt and ring",
+      "reference_images": [
+        "assets/banner-stormholt.png"
+      ],
+      "duchy_id": "stormholt",
+      "world_reference": "/duchies/4"
+    },
+    {
+      "id": "banner-emberfall",
+      "kind": "heraldry",
+      "name": "Emberfall banner",
+      "description": "Orange field; Dark flame and golden ember",
+      "reference_images": [
+        "assets/banner-emberfall.png"
+      ],
+      "duchy_id": "emberfall",
+      "world_reference": "/duchies/5"
+    },
+    {
+      "id": "banner-verdant-crown",
+      "kind": "heraldry",
+      "name": "Verdant Crown banner",
+      "description": "Emerald field; Golden crown of leaves",
+      "reference_images": [
+        "assets/banner-verdant-crown.png"
+      ],
+      "duchy_id": "verdant-crown",
+      "world_reference": "/duchies/6"
+    },
+    {
+      "id": "banner-pale-meridian",
+      "kind": "heraldry",
+      "name": "Pale Meridian banner",
+      "description": "Ivory field; Midnight compass star",
+      "reference_images": [
+        "assets/banner-pale-meridian.png"
+      ],
+      "duchy_id": "pale-meridian",
+      "world_reference": "/duchies/7"
+    }
+  ]
+}

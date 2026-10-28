@@ -1,0 +1,2085 @@
+{
+  "schema_version": "1.0",
+  "metadata": {
+    "project_name": "comicbook",
+    "world_title": "Magneton",
+    "title_status": "working title",
+    "reference_language": "en",
+    "last_updated": "2026-10-27",
+    "scope": "Structured reference for all established world lore, published story panels, current visual designs, and repository artwork.",
+    "sources": [
+      "STORY.md",
+      "STORYBOARD-IDEAS.md",
+      "prologue.html",
+      "glossary.html",
+      "data/duchies.json"
+    ],
+    "unknown_value_policy": "null or open_questions means not established; do not invent missing statistics or character history.",
+    "canon_policy": {
+      "author_directions": "Author-supplied setting and plot facts are established.",
+      "visual_concepts": "Character appearances, ship variant names/layouts, map placements, colours and heraldry are current project designs; they do not imply unrecorded history or numeric specifications.",
+      "unselected_story_directions": [
+        "The Sealed Hold mining-worker protagonist opening",
+        "The manifest dispute after the Caravan seizure",
+        "The return-by-dawn ultimatum"
+      ],
+      "unselected_directions_are_story_events": false
+    }
+  },
+  "setting": {
+    "genre": [
+      "post-apocalyptic",
+      "science fantasy",
+      "feudal political adventure"
+    ],
+    "planet": "Earth",
+    "catastrophe": {
+      "name": "The Fracture",
+      "cause": "Nuclear war shattered Earth into floating islands.",
+      "date": null,
+      "instigators": null
+    },
+    "geography": {
+      "landform": "Fractured continents and floating rock islands above an atmospheric void",
+      "duchy_count": 8,
+      "atlas_asset_id": "shattered-earth-atlas",
+      "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+      "exact_distances": null
+    },
+    "magnetic_fields": {
+      "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+      "world_function": "Hold the fractured landmasses together.",
+      "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+      "safe_route_rules": null
+    },
+    "humanity": {
+      "survival": "Humanity was nearly extinguished.",
+      "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+      "new_attributes_exist": true,
+      "specific_attributes": null
+    },
+    "gravity_and_energy": {
+      "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+      "local_gravity": "Generated local fields reproduce the experience of the old Earth’s gravity.",
+      "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+      "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+      "technical_limits": null
+    }
+  },
+  "society": {
+    "political_system": "Feudal duchies with ruling dukes and barons.",
+    "duchy_count": 8,
+    "origins_of_power": "Magneton miners built mining and trading fleets. Control of extraction, ships and trade turned them into the ruling class.",
+    "economy": {
+      "central_resource": "Magneton",
+      "dependencies": [
+        "city power",
+        "island stabilization",
+        "local gravity",
+        "ship construction",
+        "ship propulsion",
+        "mining and trade"
+      ],
+      "routes": "Cities and duchies depend on ships moving between settlements and Magneton mining sites."
+    },
+    "protection_and_wealth": "While Rovan protected merchant and mining ships from pirates, other rulers traded and grew wealthier. His own fleet and resources dwindled.",
+    "formal_duke_baron_relationship": null,
+    "current_conflict": {
+      "opponent_duchy_id": "auric-reach",
+      "target_character_id": "rovan-vey",
+      "capital_ships_dispatched": 3,
+      "status": "departed toward Rovan",
+      "battle_outcome": null,
+      "opponent_total_capital_ship_count": null
+    }
+  },
+  "metals": [
+    {
+      "id": "type-a",
+      "name": "Magneton Type A",
+      "appearance": "Bronze-like metal",
+      "properties": [
+        "Very durable"
+      ],
+      "availability": "Most common type",
+      "established_uses": [
+        "Ship hulls"
+      ],
+      "specimen_asset_id": "magneton-types"
+    },
+    {
+      "id": "type-b",
+      "name": "Magneton Type B",
+      "appearance": "Glowing green in both polarities",
+      "properties": [
+        "Found in opposite magnetic polarities"
+      ],
+      "polarity_forms": [
+        "positive",
+        "negative"
+      ],
+      "availability": null,
+      "established_uses": [
+        "Delicate machinery",
+        "Hull components",
+        "Opposite-polarity motor cores"
+      ],
+      "ambiguity": "The exact division between Type A hull structures and the author-described Type B hull components has not been defined.",
+      "core_asset_id": "polarity-engine"
+    },
+    {
+      "id": "type-c",
+      "name": "Magneton Type C",
+      "appearance": "Silvery metal",
+      "properties": [
+        "Most malleable of the Magneton types",
+        "Impenetrable and impervious to any weapons",
+        "Can drift along magnetic fields"
+      ],
+      "availability": "Most difficult to find; recently discovered",
+      "established_uses": [
+        "Seamless armour",
+        "Magnetic lance",
+        "Field broadsword",
+        "Twin wind swords",
+        "Shield war hammer",
+        "Magnetic scythe"
+      ],
+      "known_crafting": {
+        "exclusive_expert_id": "rovan-vey",
+        "knowledge_origin": "Rovan’s own experience",
+        "process": null,
+        "material_source": "Type C taken from the seized Auric Reach Caravan",
+        "honour_guard_count": 5,
+        "material_for_sixth_set": false,
+        "advantage": "The crafted equipment enables the honour guard to drift along magnetic fields and leap between ships.",
+        "weapon_vulnerability": null,
+        "weapon_vulnerability_status": "None established; the author specifies imperviousness to any weapons.",
+        "complete_armour_and_weapon_sets": 5,
+        "armour_construction": "Practical workshop-made brushed silver armour with tool marks, no ceremonial filigree. Continuous coverage without joints or gaps; crimson cloth worn externally.",
+        "weapon_ids": [
+          "condenser-lance",
+          "field-broadsword",
+          "wind-twin-swords",
+          "shield-warhammer",
+          "point-scythe"
+        ]
+      }
+    }
+  ],
+  "technology": {
+    "magnetic_motors": {
+      "components": "Oppositely polarized Magneton components",
+      "uses": [
+        "city energy",
+        "island stabilization",
+        "local gravity",
+        "airship propulsion"
+      ],
+      "exact_engineering": null
+    },
+    "tesla_guns": {
+      "description": "Fictional electrical weapons carried by armoured soldiers.",
+      "visual_design": "Copper coils with green-lit charges; no technical construction recipe is established.",
+      "effect_on_type_c": "Cannot penetrate the silver armour."
+    },
+    "airship_design_language": {
+      "initial_reference": "Long rigid metal Zeppelin-shaped hulls, rounded noses, ribs, portholes, exposed machinery and tail fins.",
+      "additional_reference": "Swept lower hulls, open decks, aft superstructures and hull-edge engine machinery.",
+      "propulsion": "Magneton-powered magnetic motors",
+      "balloon_lift_established": false
+    }
+  },
+  "ship_classes": [
+    {
+      "id": "mining",
+      "name": "Mining ships",
+      "size": "small",
+      "purpose": "Extract and transport Magneton ore",
+      "cargo": "Large holds relative to compact hulls",
+      "passenger_capacity": null,
+      "maneuverability": null
+    },
+    {
+      "id": "schooner",
+      "name": "Schooners",
+      "size": "small",
+      "purpose": "Commuter travel within a city or duchy",
+      "cargo": "Light luggage; not primarily freight",
+      "passenger_capacity": null,
+      "maneuverability": "Highly mobile"
+    },
+    {
+      "id": "trading",
+      "name": "Trading ships",
+      "size": "large",
+      "purpose": "Trade between cities and duchies; freight and passengers",
+      "cargo": "Large freight space with passenger accommodation",
+      "passenger_capacity": null,
+      "maneuverability": "Difficult to navigate; cumbersome"
+    },
+    {
+      "id": "capital",
+      "name": "Men-of-war",
+      "size": "capital",
+      "purpose": "Military capital ships",
+      "cargo": null,
+      "passenger_capacity": null,
+      "maneuverability": null,
+      "rarity": "The most expensive and rarest class. Many duchies possess no more than three in total, across all variants."
+    }
+  ],
+  "ship_designs": [
+    {
+      "id": "mining-mole",
+      "name": "Mole",
+      "class_id": "mining",
+      "asset_id": "mining-mole",
+      "status": "current visual design",
+      "design_notes": "Squat mining tug with detachable deep ore cassette, loading arms, and forward drill",
+      "handling_concept": "Close-site positioning",
+      "exact_dimensions": null,
+      "crew_count": null,
+      "cargo_tonnage": null
+    },
+    {
+      "id": "schooner-needle",
+      "name": "Needle",
+      "class_id": "schooner",
+      "asset_id": "schooner-needle",
+      "status": "current visual design",
+      "design_notes": "Light teardrop commuter hull, compact cockpit, and articulated engine outriggers",
+      "handling_concept": "Very high mobility",
+      "exact_dimensions": null,
+      "crew_count": null,
+      "cargo_tonnage": null
+    },
+    {
+      "id": "schooner-kestrel",
+      "name": "Kestrel",
+      "class_id": "schooner",
+      "asset_id": "schooner-kestrel",
+      "status": "current visual design",
+      "design_notes": "Small swept open-deck commuter with glass forward cabin, boarding deck, and hull-edge magnetic rings",
+      "handling_concept": "High mobility",
+      "exact_dimensions": null,
+      "crew_count": null,
+      "cargo_tonnage": null
+    },
+    {
+      "id": "trader-caravan",
+      "name": "Caravan",
+      "class_id": "trading",
+      "asset_id": "trader-caravan",
+      "status": "current visual design",
+      "design_notes": "Large twin parallel Zeppelin hulls connected by cargo bridges, freight modules and passenger space",
+      "handling_concept": "Cumbersome turns",
+      "exact_dimensions": null,
+      "crew_count": null,
+      "cargo_tonnage": null
+    },
+    {
+      "id": "trader-terrace",
+      "name": "Terrace",
+      "class_id": "trading",
+      "asset_id": "trader-terrace",
+      "status": "current visual design",
+      "design_notes": "Broad trader with terraced passenger decks, forward saloon, enclosed freight holds, and raised aft bridge",
+      "handling_concept": "Slow and cumbersome",
+      "exact_dimensions": null,
+      "crew_count": null,
+      "cargo_tonnage": null
+    },
+    {
+      "id": "capital-bastion",
+      "name": "Bastion",
+      "class_id": "capital",
+      "asset_id": "capital-bastion",
+      "status": "current visual design",
+      "design_notes": "Broad armoured three-keel fortress with command citadel, gun decks, and large magnetic engines",
+      "handling_concept": "Limited maneuverability",
+      "exact_dimensions": null,
+      "crew_count": null,
+      "cargo_tonnage": null
+    }
+  ],
+  "duchies": [
+    {
+      "id": "veymarch",
+      "name": "Veymarch",
+      "x": 49,
+      "y": 27,
+      "color": "#E56B73",
+      "colour": "Crimson",
+      "emblem": "Silver broken shield and star",
+      "description": "Rovan Vey’s small island seat. His fleet begins the campaign with one capital ship.",
+      "banner_asset_id": "banner-veymarch",
+      "banner_path": "assets/banner-veymarch.png",
+      "map_position": {
+        "x_percent": 49,
+        "y_percent": 27,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": "rovan-vey",
+      "political_history": "Rovan Vey’s small island seat. His fleet begins the campaign with one capital ship.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "auric-reach",
+      "name": "Auric Reach",
+      "x": 64,
+      "y": 36,
+      "color": "#E8BE57",
+      "colour": "Gold",
+      "emblem": "Merchant’s balance within a coin",
+      "description": "A wealthy neighbouring trading duchy. Rovan seizes its Caravan and captures one of its barons’ cities.",
+      "banner_asset_id": "banner-auric-reach",
+      "banner_path": "assets/banner-auric-reach.png",
+      "map_position": {
+        "x_percent": 64,
+        "y_percent": 36,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": "auric-ruler",
+      "political_history": "A wealthy neighbouring trading duchy. Rovan seizes its Caravan and captures one of its barons’ cities. Its ruler dispatches three capital ships toward Rovan.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "ironveil",
+      "name": "Ironveil",
+      "x": 20,
+      "y": 27,
+      "color": "#99ACBE",
+      "colour": "Steel",
+      "emblem": "Silver hammer and anvil",
+      "description": "A duchy among the northern western fragments.",
+      "banner_asset_id": "banner-ironveil",
+      "banner_path": "assets/banner-ironveil.png",
+      "map_position": {
+        "x_percent": 20,
+        "y_percent": 27,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": null,
+      "political_history": "A duchy among the northern western fragments.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "glassmere",
+      "name": "Glassmere",
+      "x": 31,
+      "y": 64,
+      "color": "#57CDD5",
+      "colour": "Cyan",
+      "emblem": "White crystal prism",
+      "description": "A duchy spread across the southern western fragments.",
+      "banner_asset_id": "banner-glassmere",
+      "banner_path": "assets/banner-glassmere.png",
+      "map_position": {
+        "x_percent": 31,
+        "y_percent": 64,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": null,
+      "political_history": "A duchy spread across the southern western fragments.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "stormholt",
+      "name": "Stormholt",
+      "x": 76,
+      "y": 19,
+      "color": "#B099EF",
+      "colour": "Violet",
+      "emblem": "Silver lightning bolt and ring",
+      "description": "A duchy among the far northern eastern fragments.",
+      "banner_asset_id": "banner-stormholt",
+      "banner_path": "assets/banner-stormholt.png",
+      "map_position": {
+        "x_percent": 76,
+        "y_percent": 19,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": null,
+      "political_history": "A duchy among the far northern eastern fragments.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "emberfall",
+      "name": "Emberfall",
+      "x": 52,
+      "y": 61,
+      "color": "#EE965B",
+      "colour": "Orange",
+      "emblem": "Dark flame and golden ember",
+      "description": "A duchy among the central southern fragments.",
+      "banner_asset_id": "banner-emberfall",
+      "banner_path": "assets/banner-emberfall.png",
+      "map_position": {
+        "x_percent": 52,
+        "y_percent": 61,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": null,
+      "political_history": "A duchy among the central southern fragments.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "verdant-crown",
+      "name": "Verdant Crown",
+      "x": 85,
+      "y": 67,
+      "color": "#79C792",
+      "colour": "Emerald",
+      "emblem": "Golden crown of leaves",
+      "description": "A duchy across the southeastern island chains.",
+      "banner_asset_id": "banner-verdant-crown",
+      "banner_path": "assets/banner-verdant-crown.png",
+      "map_position": {
+        "x_percent": 85,
+        "y_percent": 67,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": null,
+      "political_history": "A duchy across the southeastern island chains.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "pale-meridian",
+      "name": "Pale Meridian",
+      "x": 58,
+      "y": 88,
+      "color": "#E7E1CF",
+      "colour": "Ivory",
+      "emblem": "Midnight compass star",
+      "description": "A duchy among the far southern fragments.",
+      "banner_asset_id": "banner-pale-meridian",
+      "banner_path": "assets/banner-pale-meridian.png",
+      "map_position": {
+        "x_percent": 58,
+        "y_percent": 88,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": null,
+      "political_history": "A duchy among the far southern fragments.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    }
+  ],
+  "locations": [
+    {
+      "id": "veymarch-seat",
+      "name": null,
+      "description": "Rovan’s small island city in Veymarch",
+      "duchy_id": "veymarch",
+      "role": "His resource-poor seat, depleted fleet docks, and recruiting base."
+    },
+    {
+      "id": "auric-captured-city",
+      "name": null,
+      "description": "A city belonging to an unnamed baron of Auric Reach",
+      "duchy_id": "auric-reach",
+      "role": "Rovan’s first city conquest",
+      "current_control": "Captured by Rovan; this does not mean all Auric Reach is conquered."
+    }
+  ],
+  "characters_file": "character.json",
+  "story_timeline": [
+    {
+      "order": 1,
+      "event": "Nuclear war fractures Earth and nearly extinguishes humanity."
+    },
+    {
+      "order": 2,
+      "event": "Survivors adapt across generations; Magneton emerges from fused nuclear materials."
+    },
+    {
+      "order": 3,
+      "event": "Magneton power, stabilization, local gravity and transport allow floating cities to grow."
+    },
+    {
+      "order": 4,
+      "event": "Mining and trade wealth forms the new feudal duchies and barons."
+    },
+    {
+      "order": 5,
+      "event": "Rovan protects shipping from pirates; other rulers grow rich while his own fleet dwindles."
+    },
+    {
+      "order": 6,
+      "event": "Rovan and Grievous discuss the city, unpaid soldiers and depleted accounts."
+    },
+    {
+      "order": 7,
+      "event": "Armoured soldiers board an Auric Reach Caravan with Tesla guns aimed at unarmed sailors. Rovan seizes the ship for unpaid protection fees; his soldiers cheer.",
+      "shots_fired": false
+    },
+    {
+      "order": 8,
+      "event": "Rovan declares his own future. Seized resources fund recruits and equipment; trained veterans drill the new soldiers. He departs with one capital ship."
+    },
+    {
+      "order": 9,
+      "event": "He raids an Auric Reach baron, seizes ships and captures a city easily through superior training and surprise.",
+      "war_context": "First organised inter-duchy war since the Fracture; earlier nuclear war and fighting pirates still occurred.",
+      "silver_guard_present": false
+    },
+    {
+      "order": 10,
+      "event": "Rovan crafts exactly five practical man-made Type C armour-and-weapon sets with distinct helmet shapes and builds, without joints or gaps."
+    },
+    {
+      "order": 11,
+      "event": "Bronze-armoured troops with crimson base layers run from the fleet onto the docks, through the gate and into the town streets."
+    },
+    {
+      "order": 12,
+      "event": "Rovan’s fleet and five silver captains attack another small Auric Reach city, fight the town guard with their distinct magnetic weapons and seize the town.",
+      "first_capture_is_separate": true
+    },
+    {
+      "order": 13,
+      "event": "Rovan and General Grievous discuss holding the captured city, repairing seized ships, and training recruits."
+    },
+    {
+      "order": 14,
+      "event": "Meanwhile the unnamed ruler of Auric Reach orders and dispatches three capital ships toward Rovan.",
+      "time_relation": "Parallel cutaway to the command-room discussion",
+      "capital_ship_count": 3,
+      "battle_outcome": null
+    }
+  ],
+  "publication": {
+    "navigation": [
+      "Chapters",
+      "Glossary"
+    ],
+    "story_count": 1,
+    "chapters_menu": "chapters.html",
+    "glossary": "glossary.html",
+    "stories": [
+      {
+        "id": "prologue",
+        "title": "Prologue",
+        "status": "available",
+        "reader": "prologue.html",
+        "page_count": 12,
+        "panel_count": 37,
+        "pages": [
+          {
+            "number": 1,
+            "title": "The fracture",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "fracture",
+                "caption": "The last war.",
+                "narration": "By the time the guns fell silent, the Earth had broken apart.",
+                "priority": 5,
+                "image_description": "Fractured landmasses suspended in a glowing magnetic field"
+              },
+              {
+                "number": 2,
+                "asset_id": "magnetic-islands",
+                "caption": "Fragments of home.",
+                "narration": "Continents hung in pieces. Magnetic storms lashed the gaps, but beneath the violence ran patterns the survivors could learn.",
+                "priority": 3,
+                "image_description": "Magnetic currents arc between the exposed undersides of floating islands"
+              },
+              {
+                "number": 3,
+                "asset_id": "survivors",
+                "caption": "The people who remained.",
+                "narration": "They made their homes on whatever ground was left, and learned to watch the sky.",
+                "priority": 2,
+                "image_description": "A small human silhouette standing on a floating island"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "title": "Adaptation",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "human-adaptation",
+                "caption": "Generations later.",
+                "narration": "Children grew up inside the magnetic fields. Their children did too. Slowly, the fields changed them.",
+                "priority": 2,
+                "image_description": "Three generations of survivors study a magnetic sensing instrument in their settlement"
+              },
+              {
+                "number": 2,
+                "asset_id": "ore",
+                "caption": "Something in the wreckage.",
+                "narration": "Nuclear materials had fused into a metal no one had seen before.",
+                "priority": 3,
+                "image_description": "Luminous Magneton ore embedded in fractured rock"
+              },
+              {
+                "number": 3,
+                "asset_id": "polarity-engine",
+                "caption": "Magneton.",
+                "narration": "At first it was a discovery. In time, it would become the one thing no city could live without.",
+                "priority": 5,
+                "image_description": "Two glowing green Type B Magneton cores of opposite polarity inside a precision motor"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "title": "The cities",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "city",
+                "caption": "A way to keep going.",
+                "narration": "Opposite-polarity Type B cores drove the new motors. For the first time in generations, there was power to spare.",
+                "priority": 3,
+                "image_description": "A floating city built above a glowing Magneton engine"
+              },
+              {
+                "number": 2,
+                "asset_id": "gravity-chamber",
+                "caption": "Under the city.",
+                "narration": "The engines steadied the islands and restored a familiar pull beneath people’s feet.",
+                "priority": 2,
+                "image_description": "People stand upright inside a city gravity-control chamber while fragments float outside"
+              },
+              {
+                "number": 3,
+                "asset_id": "city-street",
+                "caption": "Home, above the clouds.",
+                "narration": "Streets filled again. Workshops opened. Somewhere below every city, Magneton kept the engines turning.",
+                "priority": 5,
+                "image_description": "A market street powered by green conduits beneath the floating city’s towers"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "title": "The barons",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "mining-mole",
+                "caption": "The men who found the metal.",
+                "narration": "The first barons were miners. They dug out Magneton, built ships and carried it across the broken world.",
+                "priority": 3,
+                "image_description": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines"
+              },
+              {
+                "number": 2,
+                "asset_id": "mining-dock",
+                "caption": "Routes worth owning.",
+                "narration": "Trade made them wealthy. Control of the mines made them powerful.",
+                "priority": 5,
+                "image_description": "Ore is unloaded at a mining dock as a proprietor oversees trade"
+              },
+              {
+                "number": 3,
+                "asset_id": "ducal-assembly",
+                "caption": "Eight duchies.",
+                "narration": "Cities gathered under their banners. The old world was gone, but people had found their way back to lords and subjects.",
+                "priority": 2,
+                "image_description": "Mining barons gather in a council chamber overlooking floating cities"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "title": "A duke in name",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "rovan-city-crimson",
+                "caption": "Veymarch.",
+                "narration": "From above, Rovan’s city looked peaceful. He knew how little it would take to lose it.",
+                "priority": 3,
+                "image_description": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson"
+              },
+              {
+                "number": 2,
+                "asset_id": "unpaid-ledger-crimson",
+                "caption": "The accounts.",
+                "narration": "Grievous: “The soldiers’ pay is overdue, Your Grace. The repair yards are still waiting too.”",
+                "priority": 2,
+                "image_description": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson"
+              },
+              {
+                "number": 3,
+                "asset_id": "duke-resolve-crimson",
+                "caption": "What protection had cost him.",
+                "narration": "Rovan: “Their ships got through because ours stood in the way. Now they have full vaults, and I have men waiting for their pay.”",
+                "priority": 5,
+                "image_description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson"
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "title": "The Duke’s Due",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "caravan-boarding-crimson",
+                "caption": "An Auric Reach Caravan.",
+                "narration": "The sailors stopped where they stood. Across the deck, green light gathered in the soldiers’ Tesla guns.",
+                "priority": 3,
+                "image_description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson"
+              },
+              {
+                "number": 2,
+                "asset_id": "duke-seizure-crimson",
+                "caption": "A debt comes due.",
+                "narration": "Rovan: “You sailed under our protection. My soldiers are still waiting to be paid. Until that debt is settled, this ship is mine.”",
+                "priority": 5,
+                "image_description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson"
+              },
+              {
+                "number": 3,
+                "asset_id": "soldiers-cheer-crimson",
+                "caption": "The answer.",
+                "narration": "His soldiers cheered. The sailors said nothing. Grievous watched both sides of the deck.",
+                "priority": 2,
+                "image_description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson"
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "title": "His Own Future",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "rovan-future-crimson",
+                "caption": "His own future.",
+                "narration": "Rovan: “I’ll define my own future. Set a course for Auric Reach. I’m done waiting for what we’re owed.”",
+                "priority": 5,
+                "image_description": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson"
+              },
+              {
+                "number": 2,
+                "asset_id": "recruit-drill-crimson",
+                "caption": "Pay. Equipment. Recruits.",
+                "narration": "The seized cargo gave Rovan something he had been running out of: time. His veterans put it to work on the drill ground.",
+                "priority": 2,
+                "image_description": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson"
+              },
+              {
+                "number": 3,
+                "asset_id": "single-bastion-departure",
+                "caption": "One capital ship.",
+                "narration": "The Bastion led them out. Beside it sailed the seized Caravan, still a merchant vessel, now carrying Rovan’s supplies.",
+                "priority": 3,
+                "image_description": "A single Bastion capital ship departs with the seized merchant Caravan nearby"
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "title": "The First War",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "auric-raid-crimson",
+                "caption": "They had fought pirates before.",
+                "narration": "An army was different. Since the Fracture, no duchy had faced an organised invasion from another.",
+                "priority": 3,
+                "image_description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson"
+              },
+              {
+                "number": 2,
+                "asset_id": "ships-confiscated-crimson",
+                "caption": "The harbour.",
+                "narration": "Rovan’s veterans moved before the defenders could settle into their positions. One dock after another changed hands.",
+                "priority": 2,
+                "image_description": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson"
+              },
+              {
+                "number": 3,
+                "asset_id": "city-captured-crimson",
+                "caption": "The first city.",
+                "narration": "It fell faster than Rovan had expected. Training and surprise had won him a harbour, ships and a foothold in Auric Reach.",
+                "priority": 5,
+                "image_description": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson"
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "title": "Meet the Silver Guard",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "type-c-seamless-forge-heraldic",
+                "caption": "In the workshop.",
+                "narration": "Rovan worked the stolen silver himself. When he finished, there were five sealed suits, five weapon sets, and no metal left for a sixth.",
+                "priority": 3,
+                "image_description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+              },
+              {
+                "number": 2,
+                "asset_id": "type-c-seamless-five-heraldic",
+                "caption": "The Silver Guard.",
+                "narration": "A lance. A broadsword. Twin blades. A hammer. A scythe. The five captains wore Veymarch’s broken shield over their silver. They were still his soldiers; now they could cross a battlefield as no soldiers ever had.",
+                "priority": 5,
+                "image_description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "title": "Into the Town",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "troops-dock-run",
+                "caption": "Another town ahead.",
+                "narration": "The gangway struck the dock. Boots hammered across it, and the first squad ran for the gate.",
+                "priority": 3,
+                "image_description": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks."
+              },
+              {
+                "number": 2,
+                "asset_id": "troops-gate-charge",
+                "caption": "Through the arch.",
+                "narration": "“Keep moving! Cover the stairs!”\nTesla fire snapped against the stone as the veterans pulled the rest of the squad through.",
+                "priority": 5,
+                "image_description": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs."
+              },
+              {
+                "number": 3,
+                "asset_id": "troops-street-advance",
+                "caption": "Uphill.",
+                "narration": "At the fountain, the squads split. Beyond the next bend, the town guard was waiting behind a barricade.",
+                "priority": 2,
+                "image_description": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade."
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "title": "The Five Take the City",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "type-c-lance-assault-heraldic",
+                "caption": "The lance fired first.",
+                "narration": "Magnetic lines tightened around its tip. Then the gathered force struck the guard’s position like a cannon shot.",
+                "priority": 3,
+                "image_description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+              },
+              {
+                "number": 2,
+                "asset_id": "type-c-broadsword-breach-heraldic",
+                "caption": "Steel gave way.",
+                "narration": "The broadsword’s field swelled beyond its blade. One swing opened the ship’s hull, and Rovan’s soldiers rushed the breach.",
+                "priority": 5,
+                "image_description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+              },
+              {
+                "number": 3,
+                "asset_id": "type-c-twin-sword-flight-heraldic",
+                "caption": "Above the streets.",
+                "narration": "The twin-blade captain climbed on the magnetic wind, turned in the air, and swept down over the guards.",
+                "priority": 2,
+                "image_description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+              },
+              {
+                "number": 4,
+                "asset_id": "type-c-warhammer-shield-heraldic",
+                "caption": "Behind the hammer.",
+                "narration": "The hammer hit the paving. A field rose around the advancing troops, and the guards’ Tesla fire broke against it.",
+                "priority": 3,
+                "image_description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+              },
+              {
+                "number": 5,
+                "asset_id": "type-c-scythe-city-seized-heraldic",
+                "caption": "The last leap.",
+                "narration": "Two points of magnetic energy flared. The scythe captain stepped between them and stood on the command terrace. Below, the guards began laying down their guns. The town was Rovan’s.",
+                "priority": 4,
+                "image_description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+              }
+            ]
+          },
+          {
+            "number": 12,
+            "title": "The next move",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "council-next-steps",
+                "caption": "After the fighting.",
+                "narration": "Grievous: “We’ve taken the town. Holding it will be another matter.”\nRovan: “Then get the repair yards working. Keep the recruits training. We start there.”",
+                "priority": 3,
+                "image_description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room"
+              },
+              {
+                "number": 2,
+                "asset_id": "auric-counterorder",
+                "caption": "In Auric Reach.",
+                "narration": "The ruler of Auric Reach: “Three capital ships. Send them after Rovan.”",
+                "priority": 2,
+                "image_description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner"
+              },
+              {
+                "number": 3,
+                "asset_id": "three-capital-ships",
+                "caption": "Orders already given.",
+                "narration": "Three great hulls slipped their moorings. While Rovan planned his next move, the ships sent to stop him were already on their way.",
+                "priority": 5,
+                "image_description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan"
+              }
+            ]
+          }
+        ],
+        "json_file": "chapters/prologue.json"
+      }
+    ],
+    "asset_catalogue": "assets.html",
+    "repository_asset_catalogue": "ASSETS.md",
+    "site_version": "fit-five-1",
+    "page_canvas": {
+      "width": 1000,
+      "height": 1400,
+      "units": "logical pixels",
+      "layout": "Priority-weighted ordered comic rows with a maximum of five images. Each image is uniformly scaled and translated into the space between the text overlays, preserving its aspect ratio without cropping or distortion."
+    },
+    "panel_priority": {
+      "minimum": 1,
+      "maximum": 5,
+      "default": 3,
+      "meaning": "Higher values request larger panels. Reading order remains the JSON order."
+    },
+    "max_panels_per_page": 5
+  },
+  "terms": {
+    "Magneton": "Family of metals formed from nuclear materials after the Fracture.",
+    "Duchy": "Grouping of floating cities within the new feudal order.",
+    "Baron": "A ruler whose power grew from Magneton extraction, ships and trade.",
+    "Capital ship": "The rarest and most expensive military airship class.",
+    "Magnetic motor": "An engine using opposing polarities in city and transport systems."
+  },
+  "open_questions": [
+    "Exact dates and elapsed generations",
+    "Specific evolved human attributes",
+    "Exact magnetic route rules, engine limits and fictional energy mechanics",
+    "The formal powers and relationships of dukes and barons",
+    "The other six duchies’ rulers, economies and alliances",
+    "The captured cities’ names and their barons’ names",
+    "Honour guard names and personalities",
+    "Ship dimensions, crews, cargo tonnages and armaments",
+    "Other duchies’ responses beyond Auric Reach’s three dispatched capital ships",
+    "Any further Type C supply or technical crafting details"
+  ],
+  "assets": [
+    {
+      "id": "auric-counterorder",
+      "file": "assets/auric-counterorder.png",
+      "title": "Auric Reach issues its orders",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3208315,
+      "sha256": "c684a314c28250772ca40a016a8138fba4a28ac22156f6d200885b7c32b138b0",
+      "status": "current",
+      "origin": "Generated for the next Prologue section.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 12,
+          "panel": 2,
+          "description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner"
+        }
+      ]
+    },
+    {
+      "id": "auric-raid-crimson",
+      "file": "assets/auric-raid-crimson.png",
+      "title": "The raid on Auric Reach",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2768472,
+      "sha256": "32c06547425dd76f131b82c01eb4cfd040814fc75a78f32b0738fa94fe68c996",
+      "status": "current",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 8,
+          "panel": 1,
+          "description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "banner-auric-reach",
+      "file": "assets/banner-auric-reach.png",
+      "title": "Auric Reach banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 1988431,
+      "sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-emberfall",
+      "file": "assets/banner-emberfall.png",
+      "title": "Emberfall banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 2054639,
+      "sha256": "a3c07ee15c9919d1bc45819bd79eaed2186dd494c2410cf098f5a43b17c7f5ad",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-glassmere",
+      "file": "assets/banner-glassmere.png",
+      "title": "Glassmere banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 1879271,
+      "sha256": "d2baeaf6472880b93bd61b66e7f46c377a73d84bb5947792df563b1306e7919b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-ironveil",
+      "file": "assets/banner-ironveil.png",
+      "title": "Ironveil banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 2240973,
+      "sha256": "a7eb764a17b18535904eb26ec04ffb36c2b3ce5deb9c08ca2e5d4149a199f7d4",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-pale-meridian",
+      "file": "assets/banner-pale-meridian.png",
+      "title": "Pale Meridian banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 2230434,
+      "sha256": "7a971f23908e0e861a557803d2cd6a54a133dbbb6ef049b5e3710f928677c0da",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-stormholt",
+      "file": "assets/banner-stormholt.png",
+      "title": "Stormholt banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 2133068,
+      "sha256": "a4f6c28ce85e39155753c23cb1729998bd139febc2362b6eccd0221fd0c97210",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-verdant-crown",
+      "file": "assets/banner-verdant-crown.png",
+      "title": "Verdant Crown banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 2209597,
+      "sha256": "e9a0784dbb380b9ecfcb2b0483a0a3168fbcc482285bba24a77862a4c012a81d",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-veymarch",
+      "file": "assets/banner-veymarch.png",
+      "title": "Veymarch banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 2215697,
+      "sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "capital-bastion",
+      "file": "assets/capital-bastion.png",
+      "title": "Bastion",
+      "category": "ships",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3381673,
+      "sha256": "7641f0eb52883d70c0ec1e7c3d0b3a68605624fdf7e697d6bf5ac1d5473ffb14",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "caravan-boarding-crimson",
+      "file": "assets/caravan-boarding-crimson.png",
+      "title": "Boarding the Caravan",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2962805,
+      "sha256": "8679db7b3c09e9cf84892e34dfb0c6807406fa0561dbe1122048e1b06025cd83",
+      "status": "current",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 6,
+          "panel": 1,
+          "description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "city-captured-crimson",
+      "file": "assets/city-captured-crimson.png",
+      "title": "The captured city",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2804940,
+      "sha256": "5de8ff3fd5004a98c344934c270143135176a66603f70aad1a4a0cd5fc5f7a3a",
+      "status": "current",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 8,
+          "panel": 3,
+          "description": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "city-street",
+      "file": "assets/city-street.png",
+      "title": "Life in the city",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3687767,
+      "sha256": "45a1f8b60ea5bda763e2212f6d46b478220450c0e6e537b80a29f6c8d1706e5a",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 3,
+          "panel": 3,
+          "description": "A market street powered by green conduits beneath the floating city’s towers"
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "file": "assets/city.png",
+      "title": "A floating city",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2946896,
+      "sha256": "4a6b9f155e867ce956a67e7757f2ab37953adb3640d142256d603412f0f77d50",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 3,
+          "panel": 1,
+          "description": "A floating city built above a glowing Magneton engine"
+        }
+      ]
+    },
+    {
+      "id": "council-next-steps",
+      "file": "assets/council-next-steps.png",
+      "title": "Rovan and Grievous plan ahead",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2872269,
+      "sha256": "9fee81de70094c26e1252b5d21f04e7c42b591b01e730e48cc80cdde3c5ee88c",
+      "status": "current",
+      "origin": "Generated for the next Prologue section.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 12,
+          "panel": 1,
+          "description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room"
+        }
+      ]
+    },
+    {
+      "id": "ducal-assembly",
+      "file": "assets/ducal-assembly.png",
+      "title": "The mining barons",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3026018,
+      "sha256": "b5b61c6063a849dad17c5a82bd6419823d39ab7a08fff8834f5128af1a011ca9",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 4,
+          "panel": 3,
+          "description": "Mining barons gather in a council chamber overlooking floating cities"
+        }
+      ]
+    },
+    {
+      "id": "duke-resolve-crimson",
+      "file": "assets/duke-resolve-crimson.png",
+      "title": "Rovan’s resolve",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2759029,
+      "sha256": "84eeef1bee7bc5a67bfbcaeb1bee3ecadf3229b2f1e7aa37956d8984347a3e89",
+      "status": "current",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 5,
+          "panel": 3,
+          "description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "duke-seizure-crimson",
+      "file": "assets/duke-seizure-crimson.png",
+      "title": "The duke’s claim",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2564319,
+      "sha256": "a99f42ef8138f70fca9b39f9b4a2165203ea3d7a608ebf00406039667c7531a6",
+      "status": "current",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 6,
+          "panel": 2,
+          "description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "fracture",
+      "file": "assets/fracture.png",
+      "title": "The Fracture",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3004913,
+      "sha256": "32b44df461bb47e8e7af2efc236c5344866ebabe80981cca250a615cc017a2de",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 1,
+          "panel": 1,
+          "description": "Fractured landmasses suspended in a glowing magnetic field"
+        }
+      ]
+    },
+    {
+      "id": "gravity-chamber",
+      "file": "assets/gravity-chamber.png",
+      "title": "The gravity chamber",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3153333,
+      "sha256": "e7ce63f8bb9d26d6ed97da27c85bf411f60b0bf6487f3f873313cfc84932e8ec",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 3,
+          "panel": 2,
+          "description": "People stand upright inside a city gravity-control chamber while fragments float outside"
+        }
+      ]
+    },
+    {
+      "id": "human-adaptation",
+      "file": "assets/human-adaptation.png",
+      "title": "Generations adapt",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3057828,
+      "sha256": "8b28c801e9678f60930d64a623283407b985f167bfbc5f6e16aa97794bb57659",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 2,
+          "panel": 1,
+          "description": "Three generations of survivors study a magnetic sensing instrument in their settlement"
+        }
+      ]
+    },
+    {
+      "id": "magnetic-islands",
+      "file": "assets/magnetic-islands.png",
+      "title": "Magnetic currents",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3116480,
+      "sha256": "91330a0fee5a176424adb40b0fba6363a99697fdd9c32f3aff8fff7ec3950f67",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 1,
+          "panel": 2,
+          "description": "Magnetic currents arc between the exposed undersides of floating islands"
+        }
+      ]
+    },
+    {
+      "id": "magneton-types",
+      "file": "assets/magneton-types.png",
+      "title": "Magneton metal specimens",
+      "category": "world",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3156899,
+      "sha256": "b5526d9caed49b353afccef52a4ff34c998b94883f400a1d3dcddb6a4e07190c",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "mining-dock",
+      "file": "assets/mining-dock.png",
+      "title": "Mining and trade",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3515603,
+      "sha256": "787ba09dda13220a4635f0a62bad5403113ba40c6003005665ff88cabdb46173",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 4,
+          "panel": 2,
+          "description": "Ore is unloaded at a mining dock as a proprietor oversees trade"
+        }
+      ]
+    },
+    {
+      "id": "mining-mole",
+      "file": "assets/mining-mole.png",
+      "title": "Mole",
+      "category": "ships",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3310506,
+      "sha256": "6079ec2542109ca1cd24dd12c567296b6aee8ce57fd71a0b128900fcca8d416d",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 4,
+          "panel": 1,
+          "description": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines"
+        }
+      ]
+    },
+    {
+      "id": "ore",
+      "file": "assets/ore.png",
+      "title": "Magneton discovery",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3206359,
+      "sha256": "809de1a6d6c160c3eac6b9e896715a935bc99a94c622831e0aadcd493a7c068a",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 2,
+          "panel": 2,
+          "description": "Luminous Magneton ore embedded in fractured rock"
+        }
+      ]
+    },
+    {
+      "id": "polarity-engine",
+      "file": "assets/polarity-engine.png",
+      "title": "Type B polarity engine",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3066443,
+      "sha256": "e05bd5f73c0f0fc9fa3abf81068f144061c3628e587ab2fa64f51d1d41869b58",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 2,
+          "panel": 3,
+          "description": "Two glowing green Type B Magneton cores of opposite polarity inside a precision motor"
+        }
+      ]
+    },
+    {
+      "id": "recruit-drill-crimson",
+      "file": "assets/recruit-drill-crimson.png",
+      "title": "Training the recruits",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2700733,
+      "sha256": "dd88125a3d5f2287e61ef58f758577474095019d8dc52e58b4b982d0c4be347c",
+      "status": "current",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 7,
+          "panel": 2,
+          "description": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "rovan-city-crimson",
+      "file": "assets/rovan-city-crimson.png",
+      "title": "Rovan’s island city",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2813118,
+      "sha256": "002030fef9b64fb19e80692a42f0f11f6dad749a4e582663e941d96d2263b321",
+      "status": "current",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 5,
+          "panel": 1,
+          "description": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "rovan-future-crimson",
+      "file": "assets/rovan-future-crimson.png",
+      "title": "His own future",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2732613,
+      "sha256": "bf58f139acd5ad8d6c68feecaa6aea8d467295857cf53374bd102c5152d05427",
+      "status": "current",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 7,
+          "panel": 1,
+          "description": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "schooner-kestrel",
+      "file": "assets/schooner-kestrel.png",
+      "title": "Kestrel",
+      "category": "ships",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3417925,
+      "sha256": "77c5c443f13fb64db169946f9a6317ba3c5e3533e6c13df1bc14cfafcf1f4fb0",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "schooner-needle",
+      "file": "assets/schooner-needle.png",
+      "title": "Needle",
+      "category": "ships",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2603164,
+      "sha256": "fad9a33a7f10a83f718ba5cdf4b9a530dcd16237eb6f5b35be4a5284b3123890",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "shattered-earth-atlas",
+      "file": "assets/shattered-earth-atlas.png",
+      "title": "Shattered Earth atlas",
+      "category": "world",
+      "dimensions": {
+        "width": 1586,
+        "height": 992
+      },
+      "byte_size": 3405782,
+      "sha256": "57e4355e83a8e54d975a52a20db475c19cccf64d2a003245a2b1bc79e6f0eeee",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "ships-confiscated-crimson",
+      "file": "assets/ships-confiscated-crimson.png",
+      "title": "Seizing the ships",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2863593,
+      "sha256": "8517ce0534e665b1ccac688347b8065cf1d216249adb4608e5e10595856b8cef",
+      "status": "current",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 8,
+          "panel": 2,
+          "description": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "single-bastion-departure",
+      "file": "assets/single-bastion-departure.png",
+      "title": "One Bastion departs",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3081715,
+      "sha256": "c93c691e2e75eb5d92929b28886fca7d700a91a2e19ae1acb1743580014ea8c6",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 7,
+          "panel": 3,
+          "description": "A single Bastion capital ship departs with the seized merchant Caravan nearby"
+        }
+      ]
+    },
+    {
+      "id": "soldiers-cheer-crimson",
+      "file": "assets/soldiers-cheer-crimson.png",
+      "title": "The soldiers cheer",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2747636,
+      "sha256": "d4a488f632fca958200f13744062e24402225cd9c2ebb4b9146dee1bfecf2917",
+      "status": "current",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 6,
+          "panel": 3,
+          "description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "survivors",
+      "file": "assets/survivors.png",
+      "title": "The first survivors",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3350182,
+      "sha256": "4d650bf1521e6e413b128346579cb26b8ba0d65ff22c24c0c60ea6844d6781b9",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 1,
+          "panel": 3,
+          "description": "A small human silhouette standing on a floating island"
+        }
+      ]
+    },
+    {
+      "id": "three-capital-ships",
+      "file": "assets/three-capital-ships.png",
+      "title": "Three capital ships depart",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3102424,
+      "sha256": "909f58f096d771142aba09e4953930fe65f5a4e25a11d8064e1972eba9914acc",
+      "status": "current",
+      "origin": "Generated for the next Prologue section.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 12,
+          "panel": 3,
+          "description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan"
+        }
+      ]
+    },
+    {
+      "id": "trader-caravan",
+      "file": "assets/trader-caravan.png",
+      "title": "Caravan",
+      "category": "ships",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3317699,
+      "sha256": "803dab0e0bb251d4c949fe8bfc30f0a00c9e779d35b240d9e580960d2d7dddcb",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "trader-terrace",
+      "file": "assets/trader-terrace.png",
+      "title": "Terrace",
+      "category": "ships",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3346271,
+      "sha256": "f7987154bb024f90b870ab879b3aab9d667b62ba94ebe3e294bbb63d70fa1b57",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "troops-dock-run",
+      "file": "assets/troops-dock-run.png",
+      "title": "The fleet closes on another small auric reach city.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3567028,
+      "sha256": "537dc2c29984fae0d4fc9d76be3ff53651aad2e39d0c09bc88665f508a0f9677",
+      "status": "current",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 1,
+          "description": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks."
+        }
+      ]
+    },
+    {
+      "id": "troops-gate-charge",
+      "file": "assets/troops-gate-charge.png",
+      "title": "Through the gate. keep moving.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3700097,
+      "sha256": "fe30d2e5e11da1ce4b3864cca346f307758229ec20c1f5aec5d106e71a51f7e8",
+      "status": "current",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 2,
+          "description": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs."
+        }
+      ]
+    },
+    {
+      "id": "troops-street-advance",
+      "file": "assets/troops-street-advance.png",
+      "title": "The streets lead uphill to the guard’s line.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3700893,
+      "sha256": "39fa71acf0139f8eb6bac31b995fa4a460684b726a29a50495d6365240b4ab3a",
+      "status": "current",
+      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 3,
+          "description": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade."
+        }
+      ]
+    },
+    {
+      "id": "type-c-broadsword-breach-heraldic",
+      "file": "assets/type-c-broadsword-breach-heraldic.png",
+      "title": "Steel gave way.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3252775,
+      "sha256": "618aa4e7ac5dda018419955e45d339dd0ad0f2177c86166094d7aaeb309305b6",
+      "status": "current",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 2,
+          "description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "type-c-lance-assault-heraldic",
+      "file": "assets/type-c-lance-assault-heraldic.png",
+      "title": "The lance fired first.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3289118,
+      "sha256": "0fc5ecf0fcf7e9d32bcc5a6579fa10fc63a00277e1500260e39c9e428dde3595",
+      "status": "current",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 1,
+          "description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "type-c-scythe-city-seized-heraldic",
+      "file": "assets/type-c-scythe-city-seized-heraldic.png",
+      "title": "The last leap.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3244863,
+      "sha256": "797051c33a257fe4cb7ed88db580590ea7d8def42d05f52d2aadc90fb2a4c085",
+      "status": "current",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 5,
+          "description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "type-c-seamless-five-heraldic",
+      "file": "assets/type-c-seamless-five-heraldic.png",
+      "title": "The Silver Guard.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3083046,
+      "sha256": "78a6d2164515a5c864c6cbe69d13c5827c4caca316faef8c96fa97707bf7d034",
+      "status": "current",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 2,
+          "description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "type-c-seamless-forge-heraldic",
+      "file": "assets/type-c-seamless-forge-heraldic.png",
+      "title": "In the workshop.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3008879,
+      "sha256": "aa28a59a988d90e56b8ee1ff72fabaf2dc126868dc6356b0beb4dd026b882a51",
+      "status": "current",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 1,
+          "description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "type-c-twin-sword-flight-heraldic",
+      "file": "assets/type-c-twin-sword-flight-heraldic.png",
+      "title": "Above the streets.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3308161,
+      "sha256": "89700fe6cf78a8f6c412a7e8272b0d51483beed6a6432238afe466e482e3a1ee",
+      "status": "current",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 3,
+          "description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "type-c-warhammer-shield-heraldic",
+      "file": "assets/type-c-warhammer-shield-heraldic.png",
+      "title": "Behind the hammer.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3200960,
+      "sha256": "08358bf45f4da2acf27e4eb6d35316a5034dd1587823f423dcf64f2a5781bc96",
+      "status": "current",
+      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 4,
+          "description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "unpaid-ledger-crimson",
+      "file": "assets/unpaid-ledger-crimson.png",
+      "title": "The unpaid soldiers",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2812669,
+      "sha256": "de13d8901393b32b1b8024480b9e72697e8b47570e31e2eed572e39ade393612",
+      "status": "current",
+      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 5,
+          "panel": 2,
+          "description": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    }
+  ],
+  "canon_constraints": [
+    "There are exactly eight duchies.",
+    "There is one available story entry, Prologue, with twelve pages and 37 distinct panel images.",
+    "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
+    "The first city capture precedes the crafting of silver honour-guard equipment.",
+    "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
+    "Type C is impervious to any weapons; no weapon vulnerability or armour-piercing exception is established.",
+    "Only Rovan knows the crafting secret through his experience.",
+    "Veymarch soldiers wear crimson red cloth base layers under bronze or silver armour.",
+    "The three newly dispatched capital ships belong to Auric Reach, not Rovan. No result of their encounter is established.",
+    "The five honour-guard captains have practical, man-made continuous silver armour with no joints or gaps. Crimson cloth rests over the sealed metal.",
+    "Each captain has one distinct loadout: magnetic lance, field broadsword, twin wind swords, shield war hammer or magnetic scythe.",
+    "Page 11 shows a second Auric Reach town seized after Type C is crafted; page 8’s first capture still occurs before the crafting.",
+    "Page 9 introduces the five Silver Guard captains; page 10 shows ordinary troops running into the town; page 11 shows the captains’ assault and capture.",
+    "All comic pages use the same 1000 by 1400 logical canvas and a maximum of five panels.",
+    "The Silver Guard wear Veymarch’s established broken-shield-and-star crest; restrained brass trim does not replace the silver Type C material."
+  ],
+  "military_livery": {
+    "veymarch": {
+      "base_layer": "crimson red",
+      "duchy_id": "veymarch",
+      "ordinary_armour": "bronze",
+      "honour_guard_armour": "Practical man-made brushed silver Type C, distinct helmet/body silhouettes, sealed without joints or gaps, external crimson cloth",
+      "honour_guard_count": 5,
+      "officer_outer_coats": "Rovan navy; General Grievous dark olive",
+      "honour_guard_badge": "Crimson enamel bearing the silver broken shield and eight-point star, on chest and visible shoulder cloth."
+    },
+    "auric-reach": {
+      "identity_colours": [
+        "gold",
+        "navy"
+      ],
+      "capital_ships_in_dispatched_force": 3
+    }
+  },
+  "weapons": [
+    {
+      "id": "condenser-lance",
+      "name": "Magnetic lance",
+      "ability": "Condenses magnetic fields and fires the concentrated energy like a cannon.",
+      "asset_id": "type-c-lance-assault-heraldic"
+    },
+    {
+      "id": "field-broadsword",
+      "name": "Field broadsword",
+      "ability": "Condenses magnetic fields into a larger blade capable of cutting through a ship’s hull.",
+      "asset_id": "type-c-broadsword-breach-heraldic"
+    },
+    {
+      "id": "wind-twin-swords",
+      "name": "Twin wind swords",
+      "ability": "A pair of wind-like swords that lets the wielder fly like a bird.",
+      "asset_id": "type-c-twin-sword-flight-heraldic"
+    },
+    {
+      "id": "shield-warhammer",
+      "name": "Shield war hammer",
+      "ability": "Creates its own magnetic field when slammed down, forming a shield against Tesla guns.",
+      "asset_id": "type-c-warhammer-shield-heraldic"
+    },
+    {
+      "id": "point-scythe",
+      "name": "Magnetic scythe",
+      "ability": "Lets the wielder jump between two concentrated points of magnetic energy.",
+      "asset_id": "type-c-scythe-city-seized-heraldic"
+    }
+  ],
+  "objects_file": "objects.json"
+}

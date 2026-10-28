@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "id": "prologue-p12-panel02",
+  "parameters": {
+    "scene": "prologue-p12-panel02",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 632.929,
+    "y": 0,
+    "width": 319.071,
+    "height": 496.025
+  },
+  "target": {
+    "width": 816,
+    "height": 1264,
+    "size": "816x1264",
+    "visible_window": {
+      "x": 0.0017920111948815376,
+      "y": 0,
+      "width": 0.9964159776102369,
+      "height": 1
+    }
+  },
+  "output_file": "assets/panels/prologue-p12-panel02.png",
+  "reference_images": [
+    {
+      "path": "references/panels/auric-counterorder.png",
+      "role": "Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder.",
+      "index": 1
+    },
+    {
+      "path": "assets/banner-auric-reach.png",
+      "role": "Auric Reach banner appearance only; include only objects required by the scene.",
+      "index": 2
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "In Auric Reach.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 132.641,
+          "height": 36.594
+        },
+        "render_text": "In Auric Reach.",
+        "normalized_bounds": {
+          "x": 0.0439,
+          "y": 0.0282,
+          "width": 0.4157,
+          "height": 0.0738
+        },
+        "source_bounds": {
+          "x": 0.0455,
+          "y": 0.0282,
+          "width": 0.4142,
+          "height": 0.0738
+        }
+      },
+      {
+        "type": "speech",
+        "text": "The ruler of Auric Reach: “Three capital ships. Send them after Rovan.”",
+        "bounds": {
+          "x": 25.656,
+          "y": 385.625,
+          "width": 279.406,
+          "height": 86.391
+        },
+        "render_text": "Three capital ships. Send them after Rovan.",
+        "normalized_bounds": {
+          "x": 0.0804,
+          "y": 0.7774,
+          "width": 0.8757,
+          "height": 0.1742
+        },
+        "source_bounds": {
+          "x": 0.0819,
+          "y": 0.7774,
+          "width": 0.8726,
+          "height": 0.1742
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth’s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "auric-reach",
+          "name": "Auric Reach",
+          "color": "#E8BE57",
+          "emblem": "Merchant’s balance within a coin"
+        }
+      ]
+    },
+    "characters": [
+      {
+        "id": "auric-ruler",
+        "name": null,
+        "visual_concept": {
+          "status": "provisional artwork; name and biography are unestablished",
+          "appearance": "An adult ruler in gold and navy, partly shadowed, beneath the Auric Reach balance banner"
+        }
+      }
+    ],
+    "objects": [
+      {
+        "id": "banner-auric-reach",
+        "name": "Auric Reach banner",
+        "description": "Gold field; Merchant’s balance within a coin"
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Rovan has ONE capital ship, not three. The three-capital-ship formation appears only in the final Auric Reach departure scene.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "prompt": "PURPOSE: Regenerate ONE comic illustration for FIXED holder 319.07 by 496.02 logical pixels, aspect 0.6433:1. PORTRAIT / VERTICAL. Requested output 816x1264. Do NOT resize or redesign the holder. Paint a NEW composition for it, not a framed photo.\n\nSCENE: The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner\nCAMERA: Re-stage the action vertically, main figure or object stacked with the setting behind, keep head, hands and entire weapon visible.\n\nSTYLE: Magneton graphic novel: painted ink, tactile bronze machinery, silver Type C, crimson Veymarch cloth, navy/gold Auric Reach uniforms; atmospheric floating islands. Consistent with supplied scene references, not photorealistic.\n\nWORLD CONTEXT FROM world.json: {\"setting\":{\"genre\":[\"post-apocalyptic\",\"science fantasy\",\"feudal political adventure\"],\"planet\":\"Earth\",\"catastrophe\":{\"name\":\"The Fracture\",\"cause\":\"Nuclear war shattered Earth into floating islands.\",\"date\":null,\"instigators\":null},\"geography\":{\"landform\":\"Fractured continents and floating rock islands above an atmospheric void\",\"duchy_count\":8,\"atlas_asset_id\":\"shattered-earth-atlas\",\"boundaries\":\"Map labels mark regions of influence, not surveyed borders.\",\"exact_distances\":null},\"magnetic_fields\":{\"behavior\":\"Erratic and turbulent in motion, but their patterns are predictable.\",\"world_function\":\"Hold the fractured landmasses together.\",\"navigation\":\"Ships use magnetic motors to travel through the fields between cities and mining sites.\",\"safe_route_rules\":null},\"humanity\":{\"survival\":\"Humanity was nearly extinguished.\",\"adaptation\":\"Survivors evolved over generations under the influence of the magnetic fields.\",\"new_attributes_exist\":true,\"specific_attributes\":null},\"gravity_and_energy\":{\"city_support\":\"Magneton technology stabilizes floating cities and islands, preventing them from falling.\",\"local_gravity\":\"Generated local fields reproduce the experience of the old Earth’s gravity.\",\"power\":\"Oppositely polarized metal components move in magnetic motors, powering city and transport systems.\",\"fictional_physics\":\"These are rules of the setting; no real-world scientific mechanism is established.\",\"technical_limits\":null}},\"metals\":[{\"id\":\"type-a\",\"appearance\":\"Bronze-like metal\",\"properties\":[\"Very durable\"]},{\"id\":\"type-b\",\"appearance\":\"Glowing green in both polarities\",\"properties\":[\"Found in opposite magnetic polarities\"]},{\"id\":\"type-c\",\"appearance\":\"Silvery metal\",\"properties\":[\"Most malleable of the Magneton types\",\"Impenetrable and impervious to any weapons\",\"Can drift along magnetic fields\"]}],\"duchies\":[{\"id\":\"auric-reach\",\"name\":\"Auric Reach\",\"color\":\"#E8BE57\",\"emblem\":\"Merchant’s balance within a coin\"}]} Preserve the source scene’s era and events; do not add unrelated world elements.\n\nCHARACTERS (immutable identity and costume): [{\"id\":\"auric-ruler\",\"name\":null,\"visual_concept\":{\"status\":\"provisional artwork; name and biography are unestablished\",\"appearance\":\"An adult ruler in gold and navy, partly shadowed, beneath the Auric Reach balance banner\"}}]\n\nOBJECTS (only those belonging in this scene): [{\"id\":\"banner-auric-reach\",\"name\":\"Auric Reach banner\",\"description\":\"Gold field; Merchant’s balance within a coin\"}]\n\nREFERENCES: [{\"path\":\"references/panels/auric-counterorder.png\",\"role\":\"Previous version of this scene; preserve identities, action and palette, but RECOMPOSE for the fixed holder.\",\"index\":1},{\"path\":\"assets/banner-auric-reach.png\",\"role\":\"Auric Reach banner appearance only; include only objects required by the scene.\",\"index\":2}]\n\nLETTERING: Draw the speech balloons, cream caption/narration boxes and ALL their text directly INTO the artwork. Use a professional clear comic lettering font, dark ink on pale cream/white, readable contrast. Reproduce each render_text EXACTLY, preserving punctuation; do not print speaker labels or JSON keys. Speech tails point to the speaking person. No other words, labels, signs or gibberish. The visible crop-safe aperture in FULL SOURCE coordinates is {\"x\":0.0017920111948815376,\"y\":0,\"width\":0.9964159776102369,\"height\":1}. Place ALL text wholly inside it. The following bounding boxes are normalized to the FULL SOURCE image (not to the holder); use these adjusted positions exactly: [{\"type\":\"caption\",\"render_text\":\"In Auric Reach.\",\"bounds_in_full_source_image\":{\"x\":0.0455,\"y\":0.0282,\"width\":0.4142,\"height\":0.0738}},{\"type\":\"speech\",\"render_text\":\"Three capital ships. Send them after Rovan.\",\"bounds_in_full_source_image\":{\"x\":0.0819,\"y\":0.7774,\"width\":0.8726,\"height\":0.1742}}]\n\nINVARIANTS: One image per request; no multi-panel collage or embedded borders. Compose for the fixed holder. Do not letterbox or paste the old wide image. Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts. Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones. No unsupported new lore, extra Type C suits, extra capital ships or invented character names. Rovan has ONE capital ship, not three. The three-capital-ship formation appears only in the final Auric Reach departure scene. All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions.\n\nDELIVERY: Edge-to-edge painted scene with finished comic lettering, no blank borders, no letterboxing, no collage. If native output ratio differs from the holder, keep ALL important content inside its central crop-safe aperture; only expendable background may extend beyond. For a wide strip, put the main figures and action in the central horizontal band, leaving substantial sky/floor outside that band.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording"
+  ],
+  "source_hashes": {
+    "world.json": "1c8163ab3421afb731d2789b0be583bd3d3e79ef417746d6fbb1324325886193",
+    "character.json": "ee00180ba38184a31ac4753151af91b1079acb66fc56b13af625ab0c8b63d686",
+    "objects.json": "4c18256bc3c680c9442d5babc2116451f12b58ba0e318cd875c475b83b7136db",
+    "scene": "5c5f8a5c038e8eb44970975b23941acf533e3c7f697cf988aa0ec9e014bc395b"
+  }
+}

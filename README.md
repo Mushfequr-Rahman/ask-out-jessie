@@ -7,10 +7,10 @@ A dependency-free HTML comic project featuring **Magneton**.
 - [Chapters](https://mushfequr-rahman.github.io/ask-out-jessie/chapters.html): one available story, **Prologue**.
 - [Read Prologue](https://mushfequr-rahman.github.io/ask-out-jessie/prologue.html): all twelve existing illustrated pages, including Rovan's rise, the five silver honour guards, and Auric Reach's response on page 12.
 - [Glossary](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html): metals, ships, eight duchies and banners, people, and world terms.
-- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 52 current artwork files; linked from the glossary.
+- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 53 current artwork files; linked from the glossary.
 - [Repository asset catalogue](ASSETS.md), [world.json](world.json) and [character.json](character.json): artwork inventory, world reference and character records.
 
-Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's twelve pages retain all 37 unique panel illustrations.
+Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's twelve pages contain 37 unique regenerated panel illustrations.
 
 ## Run locally
 
@@ -71,7 +71,7 @@ Check the two shared navigation links and active states on all pages, the single
 
 ## World and asset maintenance
 
-Edit comic pages in `chapters/prologue.json`; `script.js` renders their images and text at runtime. Both the browser and repository checks reject pages containing more than five panels. Keep `world.json` current when author-established lore changes. It separates established facts from provisional visual designs and explicitly records unknown details. Its story pages, captions, narration and asset references are derived from chapter JSON by the asset script. The glossary remains checked-in HTML; lore edits should also be reflected there and in `STORY.md`.
+Edit comic pages in `chapters/prologue.json`; `script.js` renders their images at runtime and keeps the full source text in an accessible transcript. Both the browser and repository checks reject pages containing more than five panels. Keep `world.json` current when author-established lore changes. It separates established facts from provisional visual designs and explicitly records unknown details. Its story pages, captions, narration and asset references are derived from chapter JSON by the asset script. The glossary remains checked-in HTML; lore edits should also be reflected there and in `STORY.md`.
 
 After changing artwork, refresh the metadata and catalogues:
 
@@ -87,7 +87,7 @@ The asset script first validates and syncs each chapter JSON into the world refe
 
 Every page has a 1,000 × 1,400 logical canvas. Each panel in chapter JSON has a `priority` from 1 to 5. `panel-layout.js` evaluates ordered row arrangements, allocates space by priority, measures the story text, and balances image proportions against the requested emphasis. Major reveals and action shots receive more area; smaller beats connect them without changing reading order. The algorithm supports up to five images on a page.
 
-Every image is proportionally resized and centred within its assigned panel, with space left for cream narration boxes and dialogue balloons. A uniform scale-and-translate transform preserves the entire illustration without cropping or stretching. **Full size** shows the native canvas in a scrollable viewport; **Read page text** provides the complete story at normal text sizes. Click any panel image to open its uncropped original.
+The current chapter stores fixed `holder` rectangles before generation. New artwork is composed for those rectangles, including its speech bubbles and lettering. The renderer fills each holder proportionally; a planned central aperture protects lettering where a provider cannot output the exact aspect ratio. Image loading never changes the holders. **Full size** shows the native canvas in a scrollable viewport; **Read page text** provides the complete story at normal text sizes. Click any panel image to open its uncropped original.
 
 The Silver Guard have their own introduction on page 9. Page 10 follows the troops entering town, page 11 shows the captains’ assault, and page 12 contains the rival’s response.
 
@@ -98,3 +98,15 @@ The Silver Guard’s current armour includes restrained brass fittings and Veyma
 Edit character identities, appearances, motivations and equipment in `character.json`. It contains a `characters` array with stable IDs. `world.json` points to it through `characters_file`; references such as `ruler_id`, `target_character_id` and `exclusive_expert_id` still use those IDs. Character records are not duplicated in the world file. The Silver Guard remain one group record containing five visual profiles; their individual names have not been established.
 
 Run `python3 scripts/validate_world.py` after editing either file to check character IDs, duchy links, crafting experts, weapon references and artwork references.
+
+## Image requests and visual references
+
+`objects.json` stores 26 reusable visual specifications for metals, ships, uniforms, weapons and banners. `scenes/prologue.json` supplies individual shots, references and lettering. Build reviewable image requests with:
+
+```sh
+python3 scripts/build_image_requests.py
+python3 scripts/test_image_requests.py
+python3 scripts/validate_generation.py --require-outputs
+```
+
+The request builder takes scene + world.json + character.json + objects.json. It writes prompts rather than calling a paid API. All 37 selected outputs are already committed under `assets/panels/`. Earlier anchors are retained under `references/`; generation requests and run metadata record provenance. See [the generation workflow and official research sources](docs/image-generation.md) for reference conditioning, exact lettering, fixed apertures and the MongoDB assessment. JSON remains the storage layer for this static site.

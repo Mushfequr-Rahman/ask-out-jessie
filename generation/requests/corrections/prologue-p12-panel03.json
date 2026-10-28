@@ -1,0 +1,10 @@
+{
+  "id": "prologue-p12-panel03",
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p12-panel03-first-pass.png",
+      "role": "Focused continuity correction"
+    }
+  ],
+  "prompt": "Precise continuity correction of this finished comic panel. It currently has FOUR ships, but the story requires EXACTLY THREE. DELETE the LOWER-CENTRE foreground ship (the medium ship below and in front of the giant left ship, with a green ring near image centre). Replace that entire lower-centre ship with matching clouds and distant floating-rock scenery. PRESERVE the giant LEFT ship, the UPPER-CENTRE ship behind it, and the RIGHT-HAND small ship: exactly those THREE ships remain, each fully distinct and countable. Do not add or duplicate any vessel. Keep ALL lettering EXACTLY unchanged, same positions, same image aspect ratio and style. Only remove that fourth lower-centre foreground vessel."
+}

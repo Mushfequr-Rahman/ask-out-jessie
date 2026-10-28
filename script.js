@@ -31,6 +31,9 @@ function validateChapter(chapter) {
       if (!panel || typeof panel.image_src !== 'string' ||
           !/^assets\/[a-zA-Z0-9_/-]+\.(png|jpe?g|webp|svg)$/.test(panel.image_src) ||
           typeof panel.caption !== 'string') throw Error('Invalid panel');
+      if (panel.lettering_mode !== undefined && !['baked', 'editable_html'].includes(panel.lettering_mode)) throw Error('Invalid lettering mode');
+      if (panel.holder !== undefined && (!['x','y','width','height'].every(k => typeof panel.holder[k] === 'number' && Number.isFinite(panel.holder[k])) || panel.holder.x < 0 || panel.holder.y < 0 || panel.holder.width <= 0 || panel.holder.height <= 0 || panel.holder.x + panel.holder.width > CANVAS.panelWidth + .01 || panel.holder.y + panel.holder.height > CANVAS.panelHeight + .01)) throw Error('Invalid fixed holder');
+      if (page.layout_mode === 'fixed' && !panel.holder) throw Error('Fixed page needs holders');
       if (panel.priority !== undefined && (!Number.isInteger(panel.priority) || panel.priority < 1 || panel.priority > 5)) throw Error('Priority must be 1–5');
       if (panel.image_fit !== undefined && panel.image_fit !== 'contain') throw Error('Invalid image fit');
       for (const field of ['narration', 'image_alt']) {
@@ -60,6 +63,8 @@ function renderChapter(chapter) {
     page.panels.forEach(panel => {
       const box = element('div', 'page-panel');
       box.dataset.priority = String(panel.priority ?? 3);
+      box.dataset.lettering = panel.lettering_mode ?? 'editable_html';
+      if (panel.holder) box.dataset.holder = JSON.stringify(panel.holder);
       const image = element('img', 'panel-art');
       image.src = panel.image_src;
       image.alt = panel.image_alt ?? panel.caption;
@@ -76,6 +81,7 @@ function renderChapter(chapter) {
       link.setAttribute('aria-label', `Open full-size illustration: ${image.alt} (opens a new tab)`);
       link.append(image);
       const copy = element('div', 'panel-copy');
+      copy.hidden = panel.lettering_mode === 'baked';
       if (panel.caption) copy.append(element('p', 'panel-caption', panel.caption));
       if (panel.narration) {
         const story = element('div', 'panel-story');
@@ -136,6 +142,16 @@ function showPage(index) {
 function layoutPage(article) {
   if (article.hidden) return;
   const boxes = [...article.querySelectorAll('.page-panel')];
+  if (boxes.every(box => box.dataset.holder)) {
+    boxes.forEach(box => {
+      const h = JSON.parse(box.dataset.holder);
+      Object.assign(box.style, {left: `${h.x}px`, top: `${h.y}px`, width: `${h.width}px`, height: `${h.height}px`});
+      fitPanelImage(box);
+    });
+    article.dataset.layout = 'fixed';
+    scalePage(article);
+    return;
+  }
   const panels = boxes.map(box => {
     const img = box.querySelector('img');
     return {aspectRatio: img.naturalWidth && img.naturalHeight ? img.naturalWidth / img.naturalHeight : 1.5, priority: Number(box.dataset.priority)};
@@ -175,6 +191,11 @@ function layoutPage(article) {
 
 function fitPanelImage(box) {
   const image = box.querySelector('img');
+  if (box.dataset.lettering === 'baked') {
+    // The artwork was generated for this immutable aperture, including its lettering.
+    Object.assign(image.style, {width: '100%', height: '100%', transform: 'none', objectFit: 'cover'});
+    return;
+  }
   const illustration = box.querySelector('.panel-illustration');
   const caption = box.querySelector('.panel-caption');
   const story = box.querySelector('.panel-story');

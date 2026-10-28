@@ -1,0 +1,8 @@
+{
+  "id": "prologue-p02-panel02",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/corrections/prologue-p02-panel02.json",
+  "output_file": "assets/panels/prologue-p02-panel02.png",
+  "generated_original": "/workspace/generated_images/exec-c16e7a20-f6a9-4f98-ba4b-d67b0699b5bb.png",
+  "reason": "No flying ships before their invention."
+}

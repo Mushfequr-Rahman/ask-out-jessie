@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "input_parameters": [
+    "scene",
+    "world.json",
+    "character.json",
+    "objects.json"
+  ],
+  "style": "Magneton graphic novel: painted ink, tactile bronze machinery, silver Type C, crimson Veymarch cloth, navy/gold Auric Reach uniforms; atmospheric floating islands. Consistent with supplied scene references, not photorealistic.",
+  "sections": [
+    "purpose_and_fixed_aperture",
+    "scene_and_camera",
+    "selected_world_context",
+    "selected_character_context",
+    "selected_object_context",
+    "reference_roles",
+    "lettering_safe_zones",
+    "invariants_and_exclusions"
+  ],
+  "lettering": {
+    "mode": "baked",
+    "include_exact_text_in_request": true,
+    "render_text_in_image": true,
+    "reserve_background_for_bubbles": true
+  },
+  "constraints": [
+    "One image per request; no multi-panel collage or embedded borders.",
+    "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+    "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+    "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+    "No unsupported new lore, extra Type C suits, extra capital ships or invented character names."
+  ]
+}

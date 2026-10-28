@@ -1,0 +1,8 @@
+{
+  "id": "prologue-p09-panel01",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/corrections/prologue-p09-panel01.json",
+  "output_file": "assets/panels/prologue-p09-panel01.png",
+  "generated_original": "/workspace/generated_images/exec-661c9a77-e2bb-4047-95e3-1b5511da34a9.png",
+  "reason": "Exactly five armour suits, never six."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "prologue-p11-panel01",
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p11-panel01-lettering-pass.png",
+      "role": "Move lettering further inside aperture"
+    }
+  ],
+  "prompt": "Edit only the TWO cream lettering boxes in this finished panoramic image. KEEP the same native image dimensions and aspect ratio (roughly 3:1). The displayed holder crops away the top 12% and bottom 12% of this native image. MOVE the TOP box DOWN so its entire box occupies native y=20% through 29%. MOVE the BOTTOM narration box UP so its entire box occupies native y=68% through 78%. This leaves both boxes comfortably inside the central visible aperture. Do not leave either old box behind: repaint the old locations with the scene. Preserve the entire action, lone silver lance captain, bronze/crimson troops, enemy guards, ships and colours. Exact top text: \"The lance fired first.\" Exact bottom text: \"Magnetic lines tightened around its tip. Then the gathered force struck the guard\u2019s position like a cannon shot.\" All letters fully inside their relocated boxes, with padding. Use smaller lettering if necessary to keep the narration on one line. NO text above 20% or below 78% of full source image height. No duplicate captions, no outer border or blank bars. Only reposition the boxes and their existing text, do not restage the combat."
+}

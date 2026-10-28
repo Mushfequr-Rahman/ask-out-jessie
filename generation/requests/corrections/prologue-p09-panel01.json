@@ -1,0 +1,10 @@
+{
+  "id": "prologue-p09-panel01",
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p09-panel01-first-pass.png",
+      "role": "Remove only sixth background suit"
+    }
+  ],
+  "prompt": "Precise continuity correction to this finished comic panel. There are SIX empty silver armour suits on stands behind Rovan, but the story allows only FIVE. DELETE the FAR-RIGHT complete suit and its stand, replacing that area with the existing workshop/sky background. Leave EXACTLY FIVE empty complete silver armour suits on FIVE stands. Do not duplicate any suit or add another body elsewhere. Preserve Rovan, his face and clothing, his forging action, the five distinct weapon loadouts on the bench, all remaining background, and ALL existing lettering EXACTLY as it is. Caption: In the workshop. Narration: Rovan worked the stolen silver himself. When he finished, there were five sealed suits, five weapon sets, and no metal left for a sixth. Preserve canvas aspect ratio and text positions. This is only removal of the sixth background suit, no other change."
+}

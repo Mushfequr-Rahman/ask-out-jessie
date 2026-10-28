@@ -125,7 +125,7 @@
         "Opposite-polarity motor cores"
       ],
       "ambiguity": "The exact division between Type A hull structures and the author-described Type B hull components has not been defined.",
-      "core_asset_id": "polarity-engine"
+      "core_asset_id": "prologue-p02-panel03"
     },
     {
       "id": "type-c",
@@ -571,27 +571,51 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "fracture",
+                "asset_id": "prologue-p01-panel01",
                 "caption": "The last war.",
                 "narration": "By the time the guns fell silent, the Earth had broken apart.",
                 "priority": 5,
-                "image_description": "Fractured landmasses suspended in a glowing magnetic field"
+                "image_description": "Fractured landmasses suspended in a glowing magnetic field",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p01-panel01",
+                "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "magnetic-islands",
+                "asset_id": "prologue-p01-panel02",
                 "caption": "Fragments of home.",
                 "narration": "Continents hung in pieces. Magnetic storms lashed the gaps, but beneath the violence ran patterns the survivors could learn.",
                 "priority": 3,
-                "image_description": "Magnetic currents arc between the exposed undersides of floating islands"
+                "image_description": "Magnetic currents arc between the exposed undersides of floating islands",
+                "holder": {
+                  "x": 0,
+                  "y": 771.975,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p01-panel02",
+                "lettering_mode": "baked"
               },
               {
                 "number": 3,
-                "asset_id": "survivors",
+                "asset_id": "prologue-p01-panel03",
                 "caption": "The people who remained.",
                 "narration": "They made their homes on whatever ground was left, and learned to watch the sky.",
                 "priority": 2,
-                "image_description": "A small human silhouette standing on a floating island"
+                "image_description": "A small human silhouette standing on a floating island",
+                "holder": {
+                  "x": 632.929,
+                  "y": 771.975,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p01-panel03",
+                "lettering_mode": "baked"
               }
             ]
           },
@@ -601,27 +625,51 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "human-adaptation",
+                "asset_id": "prologue-p02-panel01",
                 "caption": "Generations later.",
                 "narration": "Children grew up inside the magnetic fields. Their children did too. Slowly, the fields changed them.",
                 "priority": 2,
-                "image_description": "Three generations of survivors study a magnetic sensing instrument in their settlement"
+                "image_description": "Three generations of survivors study a magnetic sensing instrument in their settlement",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p02-panel01",
+                "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "ore",
+                "asset_id": "prologue-p02-panel02",
                 "caption": "Something in the wreckage.",
                 "narration": "Nuclear materials had fused into a metal no one had seen before.",
                 "priority": 3,
-                "image_description": "Luminous Magneton ore embedded in fractured rock"
+                "image_description": "Luminous Magneton ore embedded in fractured rock",
+                "holder": {
+                  "x": 329.071,
+                  "y": 0,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p02-panel02",
+                "lettering_mode": "baked"
               },
               {
                 "number": 3,
-                "asset_id": "polarity-engine",
+                "asset_id": "prologue-p02-panel03",
                 "caption": "Magneton.",
                 "narration": "At first it was a discovery. In time, it would become the one thing no city could live without.",
                 "priority": 5,
-                "image_description": "Two glowing green Type B Magneton cores of opposite polarity inside a precision motor"
+                "image_description": "Two glowing green Type B Magneton cores of opposite polarity inside a precision motor",
+                "holder": {
+                  "x": 0,
+                  "y": 506.025,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p02-panel03",
+                "lettering_mode": "baked"
               }
             ]
           },
@@ -631,27 +679,51 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "city",
+                "asset_id": "prologue-p03-panel01",
                 "caption": "A way to keep going.",
                 "narration": "Opposite-polarity Type B cores drove the new motors. For the first time in generations, there was power to spare.",
                 "priority": 3,
-                "image_description": "A floating city built above a glowing Magneton engine"
+                "image_description": "A floating city built above a glowing Magneton engine",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p03-panel01",
+                "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "gravity-chamber",
+                "asset_id": "prologue-p03-panel02",
                 "caption": "Under the city.",
                 "narration": "The engines steadied the islands and restored a familiar pull beneath people’s feet.",
                 "priority": 2,
-                "image_description": "People stand upright inside a city gravity-control chamber while fragments float outside"
+                "image_description": "People stand upright inside a city gravity-control chamber while fragments float outside",
+                "holder": {
+                  "x": 632.929,
+                  "y": 0,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p03-panel02",
+                "lettering_mode": "baked"
               },
               {
                 "number": 3,
-                "asset_id": "city-street",
+                "asset_id": "prologue-p03-panel03",
                 "caption": "Home, above the clouds.",
                 "narration": "Streets filled again. Workshops opened. Somewhere below every city, Magneton kept the engines turning.",
                 "priority": 5,
-                "image_description": "A market street powered by green conduits beneath the floating city’s towers"
+                "image_description": "A market street powered by green conduits beneath the floating city’s towers",
+                "holder": {
+                  "x": 0,
+                  "y": 506.025,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p03-panel03",
+                "lettering_mode": "baked"
               }
             ]
           },
@@ -661,27 +733,51 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "mining-mole",
+                "asset_id": "prologue-p04-panel01",
                 "caption": "The men who found the metal.",
                 "narration": "The first barons were miners. They dug out Magneton, built ships and carried it across the broken world.",
                 "priority": 3,
-                "image_description": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines"
+                "image_description": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 302.738
+                },
+                "scene_id": "prologue-p04-panel01",
+                "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "mining-dock",
+                "asset_id": "prologue-p04-panel02",
                 "caption": "Routes worth owning.",
                 "narration": "Trade made them wealthy. Control of the mines made them powerful.",
                 "priority": 5,
-                "image_description": "Ore is unloaded at a mining dock as a proprietor oversees trade"
+                "image_description": "Ore is unloaded at a mining dock as a proprietor oversees trade",
+                "holder": {
+                  "x": 0,
+                  "y": 312.738,
+                  "width": 952,
+                  "height": 703.262
+                },
+                "scene_id": "prologue-p04-panel02",
+                "lettering_mode": "baked"
               },
               {
                 "number": 3,
-                "asset_id": "ducal-assembly",
+                "asset_id": "prologue-p04-panel03",
                 "caption": "Eight duchies.",
                 "narration": "Cities gathered under their banners. The old world was gone, but people had found their way back to lords and subjects.",
                 "priority": 2,
-                "image_description": "Mining barons gather in a council chamber overlooking floating cities"
+                "image_description": "Mining barons gather in a council chamber overlooking floating cities",
+                "holder": {
+                  "x": 0,
+                  "y": 1026,
+                  "width": 952,
+                  "height": 242
+                },
+                "scene_id": "prologue-p04-panel03",
+                "lettering_mode": "baked"
               }
             ]
           },
@@ -691,27 +787,51 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "rovan-city-crimson",
+                "asset_id": "prologue-p05-panel01",
                 "caption": "Veymarch.",
                 "narration": "From above, Rovan’s city looked peaceful. He knew how little it would take to lose it.",
                 "priority": 3,
-                "image_description": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson"
+                "image_description": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p05-panel01",
+                "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "unpaid-ledger-crimson",
+                "asset_id": "prologue-p05-panel02",
                 "caption": "The accounts.",
                 "narration": "Grievous: “The soldiers’ pay is overdue, Your Grace. The repair yards are still waiting too.”",
                 "priority": 2,
-                "image_description": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson"
+                "image_description": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 632.929,
+                  "y": 0,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p05-panel02",
+                "lettering_mode": "baked"
               },
               {
                 "number": 3,
-                "asset_id": "duke-resolve-crimson",
+                "asset_id": "prologue-p05-panel03",
                 "caption": "What protection had cost him.",
                 "narration": "Rovan: “Their ships got through because ours stood in the way. Now they have full vaults, and I have men waiting for their pay.”",
                 "priority": 5,
-                "image_description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson"
+                "image_description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 506.025,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p05-panel03",
+                "lettering_mode": "baked"
               }
             ]
           },
@@ -721,27 +841,51 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "caravan-boarding-crimson",
+                "asset_id": "prologue-p06-panel01",
                 "caption": "An Auric Reach Caravan.",
                 "narration": "The sailors stopped where they stood. Across the deck, green light gathered in the soldiers’ Tesla guns.",
                 "priority": 3,
-                "image_description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson"
+                "image_description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 302.738
+                },
+                "scene_id": "prologue-p06-panel01",
+                "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "duke-seizure-crimson",
+                "asset_id": "prologue-p06-panel02",
                 "caption": "A debt comes due.",
                 "narration": "Rovan: “You sailed under our protection. My soldiers are still waiting to be paid. Until that debt is settled, this ship is mine.”",
                 "priority": 5,
-                "image_description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson"
+                "image_description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 312.738,
+                  "width": 952,
+                  "height": 703.262
+                },
+                "scene_id": "prologue-p06-panel02",
+                "lettering_mode": "baked"
               },
               {
                 "number": 3,
-                "asset_id": "soldiers-cheer-crimson",
+                "asset_id": "prologue-p06-panel03",
                 "caption": "The answer.",
                 "narration": "His soldiers cheered. The sailors said nothing. Grievous watched both sides of the deck.",
                 "priority": 2,
-                "image_description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson"
+                "image_description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 1026,
+                  "width": 952,
+                  "height": 242
+                },
+                "scene_id": "prologue-p06-panel03",
+                "lettering_mode": "baked"
               }
             ]
           },
@@ -751,27 +895,51 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "rovan-future-crimson",
+                "asset_id": "prologue-p07-panel01",
                 "caption": "His own future.",
                 "narration": "Rovan: “I’ll define my own future. Set a course for Auric Reach. I’m done waiting for what we’re owed.”",
                 "priority": 5,
-                "image_description": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson"
+                "image_description": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p07-panel01",
+                "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "recruit-drill-crimson",
+                "asset_id": "prologue-p07-panel02",
                 "caption": "Pay. Equipment. Recruits.",
                 "narration": "The seized cargo gave Rovan something he had been running out of: time. His veterans put it to work on the drill ground.",
                 "priority": 2,
-                "image_description": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson"
+                "image_description": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 771.975,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p07-panel02",
+                "lettering_mode": "baked"
               },
               {
                 "number": 3,
-                "asset_id": "single-bastion-departure",
+                "asset_id": "prologue-p07-panel03",
                 "caption": "One capital ship.",
                 "narration": "The Bastion led them out. Beside it sailed the seized Caravan, still a merchant vessel, now carrying Rovan’s supplies.",
                 "priority": 3,
-                "image_description": "A single Bastion capital ship departs with the seized merchant Caravan nearby"
+                "image_description": "A single Bastion capital ship departs with the seized merchant Caravan nearby",
+                "holder": {
+                  "x": 329.071,
+                  "y": 771.975,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p07-panel03",
+                "lettering_mode": "baked"
               }
             ]
           },
@@ -781,27 +949,51 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "auric-raid-crimson",
+                "asset_id": "prologue-p08-panel01",
                 "caption": "They had fought pirates before.",
                 "narration": "An army was different. Since the Fracture, no duchy had faced an organised invasion from another.",
                 "priority": 3,
-                "image_description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson"
+                "image_description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p08-panel01",
+                "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "ships-confiscated-crimson",
+                "asset_id": "prologue-p08-panel02",
                 "caption": "The harbour.",
                 "narration": "Rovan’s veterans moved before the defenders could settle into their positions. One dock after another changed hands.",
                 "priority": 2,
-                "image_description": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson"
+                "image_description": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 632.929,
+                  "y": 0,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p08-panel02",
+                "lettering_mode": "baked"
               },
               {
                 "number": 3,
-                "asset_id": "city-captured-crimson",
+                "asset_id": "prologue-p08-panel03",
                 "caption": "The first city.",
                 "narration": "It fell faster than Rovan had expected. Training and surprise had won him a harbour, ships and a foothold in Auric Reach.",
                 "priority": 5,
-                "image_description": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson"
+                "image_description": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 506.025,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p08-panel03",
+                "lettering_mode": "baked"
               }
             ]
           },
@@ -811,19 +1003,35 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "type-c-seamless-forge-heraldic",
+                "asset_id": "prologue-p09-panel01",
                 "caption": "In the workshop.",
                 "narration": "Rovan worked the stolen silver himself. When he finished, there were five sealed suits, five weapon sets, and no metal left for a sixth.",
                 "priority": 3,
-                "image_description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+                "image_description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 378.573
+                },
+                "scene_id": "prologue-p09-panel01",
+                "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "type-c-seamless-five-heraldic",
+                "asset_id": "prologue-p09-panel02",
                 "caption": "The Silver Guard.",
                 "narration": "A lance. A broadsword. Twin blades. A hammer. A scythe. The five captains wore Veymarch’s broken shield over their silver. They were still his soldiers; now they could cross a battlefield as no soldiers ever had.",
                 "priority": 5,
-                "image_description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+                "image_description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 0,
+                  "y": 388.573,
+                  "width": 952,
+                  "height": 879.427
+                },
+                "scene_id": "prologue-p09-panel02",
+                "lettering_mode": "baked"
               }
             ]
           },
@@ -833,27 +1041,51 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "troops-dock-run",
+                "asset_id": "prologue-p10-panel01",
                 "caption": "Another town ahead.",
                 "narration": "The gangway struck the dock. Boots hammered across it, and the first squad ran for the gate.",
                 "priority": 3,
-                "image_description": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks."
+                "image_description": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 302.738
+                },
+                "scene_id": "prologue-p10-panel01",
+                "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "troops-gate-charge",
+                "asset_id": "prologue-p10-panel02",
                 "caption": "Through the arch.",
                 "narration": "“Keep moving! Cover the stairs!”\nTesla fire snapped against the stone as the veterans pulled the rest of the squad through.",
                 "priority": 5,
-                "image_description": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs."
+                "image_description": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs.",
+                "holder": {
+                  "x": 0,
+                  "y": 312.738,
+                  "width": 952,
+                  "height": 703.262
+                },
+                "scene_id": "prologue-p10-panel02",
+                "lettering_mode": "baked"
               },
               {
                 "number": 3,
-                "asset_id": "troops-street-advance",
+                "asset_id": "prologue-p10-panel03",
                 "caption": "Uphill.",
                 "narration": "At the fountain, the squads split. Beyond the next bend, the town guard was waiting behind a barricade.",
                 "priority": 2,
-                "image_description": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade."
+                "image_description": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade.",
+                "holder": {
+                  "x": 0,
+                  "y": 1026,
+                  "width": 952,
+                  "height": 242
+                },
+                "scene_id": "prologue-p10-panel03",
+                "lettering_mode": "baked"
               }
             ]
           },
@@ -863,43 +1095,83 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "type-c-lance-assault-heraldic",
+                "asset_id": "prologue-p11-panel01",
                 "caption": "The lance fired first.",
                 "narration": "Magnetic lines tightened around its tip. Then the gathered force struck the guard’s position like a cannon shot.",
                 "priority": 3,
-                "image_description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+                "image_description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 242
+                },
+                "scene_id": "prologue-p11-panel01",
+                "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "type-c-broadsword-breach-heraldic",
+                "asset_id": "prologue-p11-panel02",
                 "caption": "Steel gave way.",
                 "narration": "The broadsword’s field swelled beyond its blade. One swing opened the ship’s hull, and Rovan’s soldiers rushed the breach.",
                 "priority": 5,
-                "image_description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+                "image_description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 0,
+                  "y": 252,
+                  "width": 662,
+                  "height": 524.046
+                },
+                "scene_id": "prologue-p11-panel02",
+                "lettering_mode": "baked"
               },
               {
                 "number": 3,
-                "asset_id": "type-c-twin-sword-flight-heraldic",
+                "asset_id": "prologue-p11-panel03",
                 "caption": "Above the streets.",
                 "narration": "The twin-blade captain climbed on the magnetic wind, turned in the air, and swept down over the guards.",
                 "priority": 2,
-                "image_description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+                "image_description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 672,
+                  "y": 252,
+                  "width": 280,
+                  "height": 524.046
+                },
+                "scene_id": "prologue-p11-panel03",
+                "lettering_mode": "baked"
               },
               {
                 "number": 4,
-                "asset_id": "type-c-warhammer-shield-heraldic",
+                "asset_id": "prologue-p11-panel04",
                 "caption": "Behind the hammer.",
                 "narration": "The hammer hit the paving. A field rose around the advancing troops, and the guards’ Tesla fire broke against it.",
                 "priority": 3,
-                "image_description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+                "image_description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 0,
+                  "y": 786.046,
+                  "width": 361.267,
+                  "height": 481.954
+                },
+                "scene_id": "prologue-p11-panel04",
+                "lettering_mode": "baked"
               },
               {
                 "number": 5,
-                "asset_id": "type-c-scythe-city-seized-heraldic",
+                "asset_id": "prologue-p11-panel05",
                 "caption": "The last leap.",
                 "narration": "Two points of magnetic energy flared. The scythe captain stepped between them and stood on the command terrace. Below, the guards began laying down their guns. The town was Rovan’s.",
                 "priority": 4,
-                "image_description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+                "image_description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 371.267,
+                  "y": 786.046,
+                  "width": 580.733,
+                  "height": 481.954
+                },
+                "scene_id": "prologue-p11-panel05",
+                "lettering_mode": "baked"
               }
             ]
           },
@@ -909,27 +1181,51 @@
             "panels": [
               {
                 "number": 1,
-                "asset_id": "council-next-steps",
+                "asset_id": "prologue-p12-panel01",
                 "caption": "After the fighting.",
                 "narration": "Grievous: “We’ve taken the town. Holding it will be another matter.”\nRovan: “Then get the repair yards working. Keep the recruits training. We start there.”",
                 "priority": 3,
-                "image_description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room"
+                "image_description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p12-panel01",
+                "lettering_mode": "baked"
               },
               {
                 "number": 2,
-                "asset_id": "auric-counterorder",
+                "asset_id": "prologue-p12-panel02",
                 "caption": "In Auric Reach.",
                 "narration": "The ruler of Auric Reach: “Three capital ships. Send them after Rovan.”",
                 "priority": 2,
-                "image_description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner"
+                "image_description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner",
+                "holder": {
+                  "x": 632.929,
+                  "y": 0,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p12-panel02",
+                "lettering_mode": "baked"
               },
               {
                 "number": 3,
-                "asset_id": "three-capital-ships",
+                "asset_id": "prologue-p12-panel03",
                 "caption": "Orders already given.",
                 "narration": "Three great hulls slipped their moorings. While Rovan planned his next move, the ships sent to stop him were already on their way.",
                 "priority": 5,
-                "image_description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan"
+                "image_description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan",
+                "holder": {
+                  "x": 0,
+                  "y": 506.025,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p12-panel03",
+                "lettering_mode": "baked"
               }
             ]
           }
@@ -939,12 +1235,12 @@
     ],
     "asset_catalogue": "assets.html",
     "repository_asset_catalogue": "ASSETS.md",
-    "site_version": "fit-five-1",
+    "site_version": "holder-art-1",
     "page_canvas": {
       "width": 1000,
       "height": 1400,
       "units": "logical pixels",
-      "layout": "Priority-weighted ordered comic rows with a maximum of five images. Each image is uniformly scaled and translated into the space between the text overlays, preserving its aspect ratio without cropping or distortion."
+      "layout": "Priority-weighted ordered comic rows authored before generation, maximum five panels. Current holders are fixed; artwork and lettering are generated for each aperture. Image loads never change panel geometry."
     },
     "panel_priority": {
       "minimum": 1,
@@ -952,7 +1248,15 @@
       "default": 3,
       "meaning": "Higher values request larger panels. Reading order remains the JSON order."
     },
-    "max_panels_per_page": 5
+    "max_panels_per_page": 5,
+    "image_pipeline": {
+      "scene_file": "scenes/prologue.json",
+      "objects_file": "objects.json",
+      "request_template": "templates/image-request.json",
+      "layout_lock": "generation/layout-lock.json",
+      "lettering": "Generated directly in artwork; chapter transcript retains exact source text.",
+      "layout": "Fixed holders authored before generation; artwork composed for their apertures."
+    }
   },
   "terms": {
     "Magneton": "Family of metals formed from nuclear materials after the Fracture.",
@@ -974,50 +1278,6 @@
     "Any further Type C supply or technical crafting details"
   ],
   "assets": [
-    {
-      "id": "auric-counterorder",
-      "file": "assets/auric-counterorder.png",
-      "title": "Auric Reach issues its orders",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3208315,
-      "sha256": "c684a314c28250772ca40a016a8138fba4a28ac22156f6d200885b7c32b138b0",
-      "status": "current",
-      "origin": "Generated for the next Prologue section.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 12,
-          "panel": 2,
-          "description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner"
-        }
-      ]
-    },
-    {
-      "id": "auric-raid-crimson",
-      "file": "assets/auric-raid-crimson.png",
-      "title": "The raid on Auric Reach",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2768472,
-      "sha256": "32c06547425dd76f131b82c01eb4cfd040814fc75a78f32b0738fa94fe68c996",
-      "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 8,
-          "panel": 1,
-          "description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson"
-        }
-      ]
-    },
     {
       "id": "banner-auric-reach",
       "file": "assets/banner-auric-reach.png",
@@ -1154,270 +1414,6 @@
       "comic_usage": []
     },
     {
-      "id": "caravan-boarding-crimson",
-      "file": "assets/caravan-boarding-crimson.png",
-      "title": "Boarding the Caravan",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2962805,
-      "sha256": "8679db7b3c09e9cf84892e34dfb0c6807406fa0561dbe1122048e1b06025cd83",
-      "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 6,
-          "panel": 1,
-          "description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson"
-        }
-      ]
-    },
-    {
-      "id": "city-captured-crimson",
-      "file": "assets/city-captured-crimson.png",
-      "title": "The captured city",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2804940,
-      "sha256": "5de8ff3fd5004a98c344934c270143135176a66603f70aad1a4a0cd5fc5f7a3a",
-      "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 8,
-          "panel": 3,
-          "description": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson"
-        }
-      ]
-    },
-    {
-      "id": "city-street",
-      "file": "assets/city-street.png",
-      "title": "Life in the city",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3687767,
-      "sha256": "45a1f8b60ea5bda763e2212f6d46b478220450c0e6e537b80a29f6c8d1706e5a",
-      "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 3,
-          "panel": 3,
-          "description": "A market street powered by green conduits beneath the floating city’s towers"
-        }
-      ]
-    },
-    {
-      "id": "city",
-      "file": "assets/city.png",
-      "title": "A floating city",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2946896,
-      "sha256": "4a6b9f155e867ce956a67e7757f2ab37953adb3640d142256d603412f0f77d50",
-      "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 3,
-          "panel": 1,
-          "description": "A floating city built above a glowing Magneton engine"
-        }
-      ]
-    },
-    {
-      "id": "council-next-steps",
-      "file": "assets/council-next-steps.png",
-      "title": "Rovan and Grievous plan ahead",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2872269,
-      "sha256": "9fee81de70094c26e1252b5d21f04e7c42b591b01e730e48cc80cdde3c5ee88c",
-      "status": "current",
-      "origin": "Generated for the next Prologue section.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 12,
-          "panel": 1,
-          "description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room"
-        }
-      ]
-    },
-    {
-      "id": "ducal-assembly",
-      "file": "assets/ducal-assembly.png",
-      "title": "The mining barons",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3026018,
-      "sha256": "b5b61c6063a849dad17c5a82bd6419823d39ab7a08fff8834f5128af1a011ca9",
-      "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 4,
-          "panel": 3,
-          "description": "Mining barons gather in a council chamber overlooking floating cities"
-        }
-      ]
-    },
-    {
-      "id": "duke-resolve-crimson",
-      "file": "assets/duke-resolve-crimson.png",
-      "title": "Rovan’s resolve",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2759029,
-      "sha256": "84eeef1bee7bc5a67bfbcaeb1bee3ecadf3229b2f1e7aa37956d8984347a3e89",
-      "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 5,
-          "panel": 3,
-          "description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson"
-        }
-      ]
-    },
-    {
-      "id": "duke-seizure-crimson",
-      "file": "assets/duke-seizure-crimson.png",
-      "title": "The duke’s claim",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2564319,
-      "sha256": "a99f42ef8138f70fca9b39f9b4a2165203ea3d7a608ebf00406039667c7531a6",
-      "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 6,
-          "panel": 2,
-          "description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson"
-        }
-      ]
-    },
-    {
-      "id": "fracture",
-      "file": "assets/fracture.png",
-      "title": "The Fracture",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3004913,
-      "sha256": "32b44df461bb47e8e7af2efc236c5344866ebabe80981cca250a615cc017a2de",
-      "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 1,
-          "panel": 1,
-          "description": "Fractured landmasses suspended in a glowing magnetic field"
-        }
-      ]
-    },
-    {
-      "id": "gravity-chamber",
-      "file": "assets/gravity-chamber.png",
-      "title": "The gravity chamber",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3153333,
-      "sha256": "e7ce63f8bb9d26d6ed97da27c85bf411f60b0bf6487f3f873313cfc84932e8ec",
-      "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 3,
-          "panel": 2,
-          "description": "People stand upright inside a city gravity-control chamber while fragments float outside"
-        }
-      ]
-    },
-    {
-      "id": "human-adaptation",
-      "file": "assets/human-adaptation.png",
-      "title": "Generations adapt",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3057828,
-      "sha256": "8b28c801e9678f60930d64a623283407b985f167bfbc5f6e16aa97794bb57659",
-      "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 2,
-          "panel": 1,
-          "description": "Three generations of survivors study a magnetic sensing instrument in their settlement"
-        }
-      ]
-    },
-    {
-      "id": "magnetic-islands",
-      "file": "assets/magnetic-islands.png",
-      "title": "Magnetic currents",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3116480,
-      "sha256": "91330a0fee5a176424adb40b0fba6363a99697fdd9c32f3aff8fff7ec3950f67",
-      "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 1,
-          "panel": 2,
-          "description": "Magnetic currents arc between the exposed undersides of floating islands"
-        }
-      ]
-    },
-    {
       "id": "magneton-types",
       "file": "assets/magneton-types.png",
       "title": "Magneton metal specimens",
@@ -1433,28 +1429,6 @@
       "comic_usage": []
     },
     {
-      "id": "mining-dock",
-      "file": "assets/mining-dock.png",
-      "title": "Mining and trade",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3515603,
-      "sha256": "787ba09dda13220a4635f0a62bad5403113ba40c6003005665ff88cabdb46173",
-      "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 4,
-          "panel": 2,
-          "description": "Ore is unloaded at a mining dock as a proprietor oversees trade"
-        }
-      ]
-    },
-    {
       "id": "mining-mole",
       "file": "assets/mining-mole.png",
       "title": "Mole",
@@ -1467,26 +1441,107 @@
       "sha256": "6079ec2542109ca1cd24dd12c567296b6aee8ce57fd71a0b128900fcca8d416d",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "prologue-p01-panel01",
+      "file": "assets/panels/prologue-p01-panel01.png",
+      "title": "Prologue P01 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 3216884,
+      "sha256": "19e85078cf56803820f6cebe0669be4608db65de2af6c51f7a4113d578275e4f",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
         {
           "story_id": "prologue",
-          "page": 4,
+          "page": 1,
           "panel": 1,
-          "description": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines"
+          "description": "Fractured landmasses suspended in a glowing magnetic field"
         }
       ]
     },
     {
-      "id": "ore",
-      "file": "assets/ore.png",
-      "title": "Magneton discovery",
+      "id": "prologue-p01-panel02",
+      "file": "assets/panels/prologue-p01-panel02.png",
+      "title": "Prologue P01 Panel02",
       "category": "comic",
       "dimensions": {
-        "width": 1536,
-        "height": 1024
+        "width": 1409,
+        "height": 1116
       },
-      "byte_size": 3206359,
-      "sha256": "809de1a6d6c160c3eac6b9e896715a935bc99a94c622831e0aadcd493a7c068a",
+      "byte_size": 3491962,
+      "sha256": "bc672dd4c19a7207eb166142fbe097784d7caadfc923d38743616f9a0a3687b1",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 1,
+          "panel": 2,
+          "description": "Magnetic currents arc between the exposed undersides of floating islands"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p01-panel03",
+      "file": "assets/panels/prologue-p01-panel03.png",
+      "title": "Prologue P01 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1008,
+        "height": 1560
+      },
+      "byte_size": 3027902,
+      "sha256": "65a599f9ee13001e9a63711cd9c0cb6b1d2f430e0ea4beea7efc10d0422ad651",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 1,
+          "panel": 3,
+          "description": "A small human silhouette standing on a floating island"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p02-panel01",
+      "file": "assets/panels/prologue-p02-panel01.png",
+      "title": "Prologue P02 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1007,
+        "height": 1561
+      },
+      "byte_size": 3202173,
+      "sha256": "0256cfd5b2ede2d4c8c0db820d7e86e08685876fde70daeaa446aad7f80118a6",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 2,
+          "panel": 1,
+          "description": "Three generations of survivors study a magnetic sensing instrument in their settlement"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p02-panel02",
+      "file": "assets/panels/prologue-p02-panel02.png",
+      "title": "Prologue P02 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "byte_size": 2965696,
+      "sha256": "dc86a5fe02415149e16eb730d3eee2d53fe867577bb7e227df4a3699c8d1392c",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
@@ -1499,16 +1554,16 @@
       ]
     },
     {
-      "id": "polarity-engine",
-      "file": "assets/polarity-engine.png",
-      "title": "Type B polarity engine",
+      "id": "prologue-p02-panel03",
+      "file": "assets/panels/prologue-p02-panel03.png",
+      "title": "Prologue P02 Panel03",
       "category": "comic",
       "dimensions": {
-        "width": 1536,
-        "height": 1024
+        "width": 1397,
+        "height": 1126
       },
-      "byte_size": 3066443,
-      "sha256": "e05bd5f73c0f0fc9fa3abf81068f144061c3628e587ab2fa64f51d1d41869b58",
+      "byte_size": 3216889,
+      "sha256": "666e80bc08cc7b6b86e1f6347aabcc14528b18b4af956a4e2ea780a9bb93a2f0",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
@@ -1521,40 +1576,150 @@
       ]
     },
     {
-      "id": "recruit-drill-crimson",
-      "file": "assets/recruit-drill-crimson.png",
-      "title": "Training the recruits",
+      "id": "prologue-p03-panel01",
+      "file": "assets/panels/prologue-p03-panel01.png",
+      "title": "Prologue P03 Panel01",
       "category": "comic",
       "dimensions": {
-        "width": 1536,
-        "height": 1024
+        "width": 1410,
+        "height": 1116
       },
-      "byte_size": 2700733,
-      "sha256": "dd88125a3d5f2287e61ef58f758577474095019d8dc52e58b4b982d0c4be347c",
+      "byte_size": 3332142,
+      "sha256": "94d71f1bab4b4420b9b2accf2ada3997689c0450ae6947a787b4afbb72275685",
       "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
         {
           "story_id": "prologue",
-          "page": 7,
-          "panel": 2,
-          "description": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson"
+          "page": 3,
+          "panel": 1,
+          "description": "A floating city built above a glowing Magneton engine"
         }
       ]
     },
     {
-      "id": "rovan-city-crimson",
-      "file": "assets/rovan-city-crimson.png",
-      "title": "Rovan’s island city",
+      "id": "prologue-p03-panel02",
+      "file": "assets/panels/prologue-p03-panel02.png",
+      "title": "Prologue P03 Panel02",
       "category": "comic",
       "dimensions": {
-        "width": 1536,
-        "height": 1024
+        "width": 1008,
+        "height": 1561
       },
-      "byte_size": 2813118,
-      "sha256": "002030fef9b64fb19e80692a42f0f11f6dad749a4e582663e941d96d2263b321",
+      "byte_size": 3348918,
+      "sha256": "8339893c2b61534389b629e908909167de8580f7d2e8d1989c9b51708ff83ddb",
       "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 3,
+          "panel": 2,
+          "description": "People stand upright inside a city gravity-control chamber while fragments float outside"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p03-panel03",
+      "file": "assets/panels/prologue-p03-panel03.png",
+      "title": "Prologue P03 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 3538457,
+      "sha256": "2a1da7993586ed6cd6a35747dc8f60c9e9e6fa671907f3cdf1013a5bd5cc7121",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 3,
+          "panel": 3,
+          "description": "A market street powered by green conduits beneath the floating city’s towers"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p04-panel01",
+      "file": "assets/panels/prologue-p04-panel01.png",
+      "title": "Mole",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3519757,
+      "sha256": "f1ec3d1264273d7fc8c6b05392b08a6749aa239c6c60f5c1f244746c810a2d4b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 4,
+          "panel": 1,
+          "description": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p04-panel02",
+      "file": "assets/panels/prologue-p04-panel02.png",
+      "title": "Prologue P04 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1454,
+        "height": 1082
+      },
+      "byte_size": 3496787,
+      "sha256": "a7b0f095780b6475abc90a0cabd1ba0e1a6e28af146cbb66a89494f014c92254",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 4,
+          "panel": 2,
+          "description": "Ore is unloaded at a mining dock as a proprietor oversees trade"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p04-panel03",
+      "file": "assets/panels/prologue-p04-panel03.png",
+      "title": "Prologue P04 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3115369,
+      "sha256": "c19e5bb365405d27d030abcc40a0a6f7e1ad3e5eef0d383fa127f934aa0d1d45",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 4,
+          "panel": 3,
+          "description": "Mining barons gather in a council chamber overlooking floating cities"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p05-panel01",
+      "file": "assets/panels/prologue-p05-panel01.png",
+      "title": "Prologue P05 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "byte_size": 3038301,
+      "sha256": "4110094fae4a134c9d107d0afbe33e6b403a79c1d62bc9fb8aea3db337c65276",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
         {
           "story_id": "prologue",
@@ -1565,24 +1730,530 @@
       ]
     },
     {
-      "id": "rovan-future-crimson",
-      "file": "assets/rovan-future-crimson.png",
-      "title": "His own future",
+      "id": "prologue-p05-panel02",
+      "file": "assets/panels/prologue-p05-panel02.png",
+      "title": "Prologue P05 Panel02",
       "category": "comic",
       "dimensions": {
-        "width": 1536,
-        "height": 1024
+        "width": 1008,
+        "height": 1561
       },
-      "byte_size": 2732613,
-      "sha256": "bf58f139acd5ad8d6c68feecaa6aea8d467295857cf53374bd102c5152d05427",
+      "byte_size": 2864545,
+      "sha256": "f1ad68479f892a7df95233cee7619d6ed75e941b5bb9dcf4998172e00c763b30",
       "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 5,
+          "panel": 2,
+          "description": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p05-panel03",
+      "file": "assets/panels/prologue-p05-panel03.png",
+      "title": "Prologue P05 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 2926900,
+      "sha256": "f5a9d460a6ee32ef5d9325327e726f1964489992f68f1c526998ff89e7e1c726",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 5,
+          "panel": 3,
+          "description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p06-panel01",
+      "file": "assets/panels/prologue-p06-panel01.png",
+      "title": "Prologue P06 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3255554,
+      "sha256": "02cede6337b8e9a8b8690b956702ba13c0544357e6fde7505fe42e836562e67a",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 6,
+          "panel": 1,
+          "description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p06-panel02",
+      "file": "assets/panels/prologue-p06-panel02.png",
+      "title": "Prologue P06 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1454,
+        "height": 1082
+      },
+      "byte_size": 2756179,
+      "sha256": "35c77166a7381d3a4be28f60c2524f58d21be56c5bc0c0bb977b5b9982c80130",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 6,
+          "panel": 2,
+          "description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p06-panel03",
+      "file": "assets/panels/prologue-p06-panel03.png",
+      "title": "Prologue P06 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3100884,
+      "sha256": "67578d4176294578f46fcc1eea6073cd87241e77a625067ffeed32ba8a19e6f1",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 6,
+          "panel": 3,
+          "description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p07-panel01",
+      "file": "assets/panels/prologue-p07-panel01.png",
+      "title": "Prologue P07 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 3002567,
+      "sha256": "3176d05106083385b68b5a1d8803d2a6d4050f4a992a980df793dea0d0d7c0d6",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
         {
           "story_id": "prologue",
           "page": 7,
           "panel": 1,
           "description": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p07-panel02",
+      "file": "assets/panels/prologue-p07-panel02.png",
+      "title": "Prologue P07 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1008,
+        "height": 1560
+      },
+      "byte_size": 2836486,
+      "sha256": "3e59fa5d107402531d9c8e7ac3a9dfcd2ea6ef61c648b3fbce60162f8862a955",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 7,
+          "panel": 2,
+          "description": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p07-panel03",
+      "file": "assets/panels/prologue-p07-panel03.png",
+      "title": "Prologue P07 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "byte_size": 3456895,
+      "sha256": "827391becb737fbdbf01c1cbff741c8ed4c2e6030b79ffec44acc665fb98d509",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 7,
+          "panel": 3,
+          "description": "A single Bastion capital ship departs with the seized merchant Caravan nearby"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p08-panel01",
+      "file": "assets/panels/prologue-p08-panel01.png",
+      "title": "Prologue P08 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "byte_size": 2936629,
+      "sha256": "5732162a3e973e4d15225837c7de4c65bf8b77691475bcc850f298518756928e",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 8,
+          "panel": 1,
+          "description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p08-panel02",
+      "file": "assets/panels/prologue-p08-panel02.png",
+      "title": "Prologue P08 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1008,
+        "height": 1560
+      },
+      "byte_size": 3264540,
+      "sha256": "be0975aa044c5345a82c790cdd9abeb3cedc25d6e7c26850b552ae53a82f378d",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 8,
+          "panel": 2,
+          "description": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p08-panel03",
+      "file": "assets/panels/prologue-p08-panel03.png",
+      "title": "Prologue P08 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 3115136,
+      "sha256": "a2e927ce4bfb416aa8831f631d93237749bef66d041c71d28b97873194964633",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 8,
+          "panel": 3,
+          "description": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p09-panel01",
+      "file": "assets/panels/prologue-p09-panel01.png",
+      "title": "Prologue P09 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1994,
+        "height": 789
+      },
+      "byte_size": 3049347,
+      "sha256": "82fac74f870a13fd6768279219c4ce2c3bdf9b625501a823601c612f4df80352",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 1,
+          "description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p09-panel02",
+      "file": "assets/panels/prologue-p09-panel02.png",
+      "title": "Prologue P09 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1304,
+        "height": 1206
+      },
+      "byte_size": 3428574,
+      "sha256": "574c46c4e04b6ad1ea532b98ce1d707e27af5350ec8daace87367ed2a7bab846",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 2,
+          "description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p10-panel01",
+      "file": "assets/panels/prologue-p10-panel01.png",
+      "title": "Prologue P10 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3493189,
+      "sha256": "e50b9ae5ab08d9e3e0ec631337b1a4dc5d3cc5a5b799e12b28ad86a34042c87b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 1,
+          "description": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p10-panel02",
+      "file": "assets/panels/prologue-p10-panel02.png",
+      "title": "Prologue P10 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1454,
+        "height": 1082
+      },
+      "byte_size": 3505838,
+      "sha256": "060bcd9b740e5b6721032ff71901d7feea539079d85fe5f0e34cc8625fa3fb93",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 2,
+          "description": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p10-panel03",
+      "file": "assets/panels/prologue-p10-panel03.png",
+      "title": "Prologue P10 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 2167,
+        "height": 726
+      },
+      "byte_size": 3373109,
+      "sha256": "c49eff4ef887f96b20071bf02965cf5d7c525cdb1b1dd97dedc9123c5a7a2e2f",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 3,
+          "description": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p11-panel01",
+      "file": "assets/panels/prologue-p11-panel01.png",
+      "title": "Prologue P11 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2169,
+        "height": 725
+      },
+      "byte_size": 3356095,
+      "sha256": "91355ec0eb4e4f3c22662745cad784792662f8879fda3e3cf4c2235746f83fe9",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 1,
+          "description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p11-panel02",
+      "file": "assets/panels/prologue-p11-panel02.png",
+      "title": "Prologue P11 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "byte_size": 3242711,
+      "sha256": "2e5db5ab182e1159ff18f66c8eba02e6140552ae0eeac8e6e7a3049ac8f84cf8",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 2,
+          "description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p11-panel03",
+      "file": "assets/panels/prologue-p11-panel03.png",
+      "title": "Prologue P11 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 917,
+        "height": 1716
+      },
+      "byte_size": 3393005,
+      "sha256": "3073e3645788d67c5494cbf0fe5710bf47c093ce8918fae2948b8777ea3a1ead",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 3,
+          "description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p11-panel04",
+      "file": "assets/panels/prologue-p11-panel04.png",
+      "title": "Prologue P11 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1088,
+        "height": 1445
+      },
+      "byte_size": 3353013,
+      "sha256": "3aa357148fee9271bbee87ca06c04979922c44a033272b3e3a31e2f68159b384",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 4,
+          "description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p11-panel05",
+      "file": "assets/panels/prologue-p11-panel05.png",
+      "title": "Prologue P11 Panel05",
+      "category": "comic",
+      "dimensions": {
+        "width": 1378,
+        "height": 1142
+      },
+      "byte_size": 3280777,
+      "sha256": "767b3801cad59af07c3aed6320fbb5b2eb369ae3a4e31c893171f24141d1d548",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 5,
+          "description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p12-panel01",
+      "file": "assets/panels/prologue-p12-panel01.png",
+      "title": "Prologue P12 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "byte_size": 2908096,
+      "sha256": "0a81fba53eb3aa23d10380afc7cbb97e191f094a36c39bb7dd69f7ef81a7d1c9",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 12,
+          "panel": 1,
+          "description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p12-panel02",
+      "file": "assets/panels/prologue-p12-panel02.png",
+      "title": "Prologue P12 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1008,
+        "height": 1561
+      },
+      "byte_size": 3242703,
+      "sha256": "1a2042c28c1b26981b81520c038d7212c5e61774664c777d2c9279d5d4f12f8e",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 12,
+          "panel": 2,
+          "description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p12-panel03",
+      "file": "assets/panels/prologue-p12-panel03.png",
+      "title": "Prologue P12 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 2995217,
+      "sha256": "e70a630eb34776d444c3987c1ad3719a63b8d83fd59cf4b8721830b641e283d9",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 12,
+          "panel": 3,
+          "description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan"
         }
       ]
     },
@@ -1632,116 +2303,6 @@
       "comic_usage": []
     },
     {
-      "id": "ships-confiscated-crimson",
-      "file": "assets/ships-confiscated-crimson.png",
-      "title": "Seizing the ships",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2863593,
-      "sha256": "8517ce0534e665b1ccac688347b8065cf1d216249adb4608e5e10595856b8cef",
-      "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 8,
-          "panel": 2,
-          "description": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson"
-        }
-      ]
-    },
-    {
-      "id": "single-bastion-departure",
-      "file": "assets/single-bastion-departure.png",
-      "title": "One Bastion departs",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3081715,
-      "sha256": "c93c691e2e75eb5d92929b28886fca7d700a91a2e19ae1acb1743580014ea8c6",
-      "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 7,
-          "panel": 3,
-          "description": "A single Bastion capital ship departs with the seized merchant Caravan nearby"
-        }
-      ]
-    },
-    {
-      "id": "soldiers-cheer-crimson",
-      "file": "assets/soldiers-cheer-crimson.png",
-      "title": "The soldiers cheer",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2747636,
-      "sha256": "d4a488f632fca958200f13744062e24402225cd9c2ebb4b9146dee1bfecf2917",
-      "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 6,
-          "panel": 3,
-          "description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson"
-        }
-      ]
-    },
-    {
-      "id": "survivors",
-      "file": "assets/survivors.png",
-      "title": "The first survivors",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3350182,
-      "sha256": "4d650bf1521e6e413b128346579cb26b8ba0d65ff22c24c0c60ea6844d6781b9",
-      "status": "current",
-      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 1,
-          "panel": 3,
-          "description": "A small human silhouette standing on a floating island"
-        }
-      ]
-    },
-    {
-      "id": "three-capital-ships",
-      "file": "assets/three-capital-ships.png",
-      "title": "Three capital ships depart",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3102424,
-      "sha256": "909f58f096d771142aba09e4953930fe65f5a4e25a11d8064e1972eba9914acc",
-      "status": "current",
-      "origin": "Generated for the next Prologue section.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 12,
-          "panel": 3,
-          "description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan"
-        }
-      ]
-    },
-    {
       "id": "trader-caravan",
       "file": "assets/trader-caravan.png",
       "title": "Caravan",
@@ -1770,248 +2331,6 @@
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": []
-    },
-    {
-      "id": "troops-dock-run",
-      "file": "assets/troops-dock-run.png",
-      "title": "The fleet closes on another small auric reach city.",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3567028,
-      "sha256": "537dc2c29984fae0d4fc9d76be3ff53651aad2e39d0c09bc88665f508a0f9677",
-      "status": "current",
-      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 10,
-          "panel": 1,
-          "description": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks."
-        }
-      ]
-    },
-    {
-      "id": "troops-gate-charge",
-      "file": "assets/troops-gate-charge.png",
-      "title": "Through the gate. keep moving.",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3700097,
-      "sha256": "fe30d2e5e11da1ce4b3864cca346f307758229ec20c1f5aec5d106e71a51f7e8",
-      "status": "current",
-      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 10,
-          "panel": 2,
-          "description": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs."
-        }
-      ]
-    },
-    {
-      "id": "troops-street-advance",
-      "file": "assets/troops-street-advance.png",
-      "title": "The streets lead uphill to the guard’s line.",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3700893,
-      "sha256": "39fa71acf0139f8eb6bac31b995fa4a460684b726a29a50495d6365240b4ab3a",
-      "status": "current",
-      "origin": "Generated for practical industrial Silver Guard individuality and troops entering the town.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 10,
-          "panel": 3,
-          "description": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade."
-        }
-      ]
-    },
-    {
-      "id": "type-c-broadsword-breach-heraldic",
-      "file": "assets/type-c-broadsword-breach-heraldic.png",
-      "title": "Steel gave way.",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3252775,
-      "sha256": "618aa4e7ac5dda018419955e45d339dd0ad0f2177c86166094d7aaeb309305b6",
-      "status": "current",
-      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 11,
-          "panel": 2,
-          "description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
-        }
-      ]
-    },
-    {
-      "id": "type-c-lance-assault-heraldic",
-      "file": "assets/type-c-lance-assault-heraldic.png",
-      "title": "The lance fired first.",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3289118,
-      "sha256": "0fc5ecf0fcf7e9d32bcc5a6579fa10fc63a00277e1500260e39c9e428dde3595",
-      "status": "current",
-      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 11,
-          "panel": 1,
-          "description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
-        }
-      ]
-    },
-    {
-      "id": "type-c-scythe-city-seized-heraldic",
-      "file": "assets/type-c-scythe-city-seized-heraldic.png",
-      "title": "The last leap.",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3244863,
-      "sha256": "797051c33a257fe4cb7ed88db580590ea7d8def42d05f52d2aadc90fb2a4c085",
-      "status": "current",
-      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 11,
-          "panel": 5,
-          "description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
-        }
-      ]
-    },
-    {
-      "id": "type-c-seamless-five-heraldic",
-      "file": "assets/type-c-seamless-five-heraldic.png",
-      "title": "The Silver Guard.",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3083046,
-      "sha256": "78a6d2164515a5c864c6cbe69d13c5827c4caca316faef8c96fa97707bf7d034",
-      "status": "current",
-      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 9,
-          "panel": 2,
-          "description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
-        }
-      ]
-    },
-    {
-      "id": "type-c-seamless-forge-heraldic",
-      "file": "assets/type-c-seamless-forge-heraldic.png",
-      "title": "In the workshop.",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3008879,
-      "sha256": "aa28a59a988d90e56b8ee1ff72fabaf2dc126868dc6356b0beb4dd026b882a51",
-      "status": "current",
-      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 9,
-          "panel": 1,
-          "description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
-        }
-      ]
-    },
-    {
-      "id": "type-c-twin-sword-flight-heraldic",
-      "file": "assets/type-c-twin-sword-flight-heraldic.png",
-      "title": "Above the streets.",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3308161,
-      "sha256": "89700fe6cf78a8f6c412a7e8272b0d51483beed6a6432238afe466e482e3a1ee",
-      "status": "current",
-      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 11,
-          "panel": 3,
-          "description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
-        }
-      ]
-    },
-    {
-      "id": "type-c-warhammer-shield-heraldic",
-      "file": "assets/type-c-warhammer-shield-heraldic.png",
-      "title": "Behind the hammer.",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 3200960,
-      "sha256": "08358bf45f4da2acf27e4eb6d35316a5034dd1587823f423dcf64f2a5781bc96",
-      "status": "current",
-      "origin": "Existing scene edited with restrained brass fittings and Veymarch’s crimson broken-shield-and-star house badge.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 11,
-          "panel": 4,
-          "description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
-        }
-      ]
-    },
-    {
-      "id": "unpaid-ledger-crimson",
-      "file": "assets/unpaid-ledger-crimson.png",
-      "title": "The unpaid soldiers",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2812669,
-      "sha256": "de13d8901393b32b1b8024480b9e72697e8b47570e31e2eed572e39ade393612",
-      "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 5,
-          "panel": 2,
-          "description": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson"
-        }
-      ]
     }
   ],
   "canon_constraints": [
@@ -2054,31 +2373,32 @@
       "id": "condenser-lance",
       "name": "Magnetic lance",
       "ability": "Condenses magnetic fields and fires the concentrated energy like a cannon.",
-      "asset_id": "type-c-lance-assault-heraldic"
+      "asset_id": "prologue-p11-panel01"
     },
     {
       "id": "field-broadsword",
       "name": "Field broadsword",
       "ability": "Condenses magnetic fields into a larger blade capable of cutting through a ship’s hull.",
-      "asset_id": "type-c-broadsword-breach-heraldic"
+      "asset_id": "prologue-p11-panel02"
     },
     {
       "id": "wind-twin-swords",
       "name": "Twin wind swords",
       "ability": "A pair of wind-like swords that lets the wielder fly like a bird.",
-      "asset_id": "type-c-twin-sword-flight-heraldic"
+      "asset_id": "prologue-p11-panel03"
     },
     {
       "id": "shield-warhammer",
       "name": "Shield war hammer",
       "ability": "Creates its own magnetic field when slammed down, forming a shield against Tesla guns.",
-      "asset_id": "type-c-warhammer-shield-heraldic"
+      "asset_id": "prologue-p11-panel04"
     },
     {
       "id": "point-scythe",
       "name": "Magnetic scythe",
       "ability": "Lets the wielder jump between two concentrated points of magnetic energy.",
-      "asset_id": "type-c-scythe-city-seized-heraldic"
+      "asset_id": "prologue-p11-panel05"
     }
-  ]
+  ],
+  "objects_file": "objects.json"
 }

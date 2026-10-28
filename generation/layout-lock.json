@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "source_commit": "cdae6fdaa75acf8217147d147bcc33bf957e06c3",
+  "canvas": {
+    "width": 1000,
+    "height": 1400
+  },
+  "panel_area": {
+    "width": 952,
+    "height": 1268
+  },
+  "max_panels_per_page": 5,
+  "holders": {
+    "prologue-p01-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 761.975
+    },
+    "prologue-p01-panel02": {
+      "x": 0,
+      "y": 771.975,
+      "width": 622.929,
+      "height": 496.025
+    },
+    "prologue-p01-panel03": {
+      "x": 632.929,
+      "y": 771.975,
+      "width": 319.071,
+      "height": 496.025
+    },
+    "prologue-p02-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 319.071,
+      "height": 496.025
+    },
+    "prologue-p02-panel02": {
+      "x": 329.071,
+      "y": 0,
+      "width": 622.929,
+      "height": 496.025
+    },
+    "prologue-p02-panel03": {
+      "x": 0,
+      "y": 506.025,
+      "width": 952,
+      "height": 761.975
+    },
+    "prologue-p03-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 622.929,
+      "height": 496.025
+    },
+    "prologue-p03-panel02": {
+      "x": 632.929,
+      "y": 0,
+      "width": 319.071,
+      "height": 496.025
+    },
+    "prologue-p03-panel03": {
+      "x": 0,
+      "y": 506.025,
+      "width": 952,
+      "height": 761.975
+    },
+    "prologue-p04-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 302.738
+    },
+    "prologue-p04-panel02": {
+      "x": 0,
+      "y": 312.738,
+      "width": 952,
+      "height": 703.262
+    },
+    "prologue-p04-panel03": {
+      "x": 0,
+      "y": 1026,
+      "width": 952,
+      "height": 242
+    },
+    "prologue-p05-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 622.929,
+      "height": 496.025
+    },
+    "prologue-p05-panel02": {
+      "x": 632.929,
+      "y": 0,
+      "width": 319.071,
+      "height": 496.025
+    },
+    "prologue-p05-panel03": {
+      "x": 0,
+      "y": 506.025,
+      "width": 952,
+      "height": 761.975
+    },
+    "prologue-p06-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 302.738
+    },
+    "prologue-p06-panel02": {
+      "x": 0,
+      "y": 312.738,
+      "width": 952,
+      "height": 703.262
+    },
+    "prologue-p06-panel03": {
+      "x": 0,
+      "y": 1026,
+      "width": 952,
+      "height": 242
+    },
+    "prologue-p07-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 761.975
+    },
+    "prologue-p07-panel02": {
+      "x": 0,
+      "y": 771.975,
+      "width": 319.071,
+      "height": 496.025
+    },
+    "prologue-p07-panel03": {
+      "x": 329.071,
+      "y": 771.975,
+      "width": 622.929,
+      "height": 496.025
+    },
+    "prologue-p08-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 622.929,
+      "height": 496.025
+    },
+    "prologue-p08-panel02": {
+      "x": 632.929,
+      "y": 0,
+      "width": 319.071,
+      "height": 496.025
+    },
+    "prologue-p08-panel03": {
+      "x": 0,
+      "y": 506.025,
+      "width": 952,
+      "height": 761.975
+    },
+    "prologue-p09-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 378.573
+    },
+    "prologue-p09-panel02": {
+      "x": 0,
+      "y": 388.573,
+      "width": 952,
+      "height": 879.427
+    },
+    "prologue-p10-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 302.738
+    },
+    "prologue-p10-panel02": {
+      "x": 0,
+      "y": 312.738,
+      "width": 952,
+      "height": 703.262
+    },
+    "prologue-p10-panel03": {
+      "x": 0,
+      "y": 1026,
+      "width": 952,
+      "height": 242
+    },
+    "prologue-p11-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 242
+    },
+    "prologue-p11-panel02": {
+      "x": 0,
+      "y": 252,
+      "width": 662,
+      "height": 524.046
+    },
+    "prologue-p11-panel03": {
+      "x": 672,
+      "y": 252,
+      "width": 280,
+      "height": 524.046
+    },
+    "prologue-p11-panel04": {
+      "x": 0,
+      "y": 786.046,
+      "width": 361.267,
+      "height": 481.954
+    },
+    "prologue-p11-panel05": {
+      "x": 371.267,
+      "y": 786.046,
+      "width": 580.733,
+      "height": 481.954
+    },
+    "prologue-p12-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 622.929,
+      "height": 496.025
+    },
+    "prologue-p12-panel02": {
+      "x": 632.929,
+      "y": 0,
+      "width": 319.071,
+      "height": 496.025
+    },
+    "prologue-p12-panel03": {
+      "x": 0,
+      "y": 506.025,
+      "width": 952,
+      "height": 761.975
+    }
+  }
+}

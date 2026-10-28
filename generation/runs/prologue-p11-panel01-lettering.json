@@ -1,0 +1,8 @@
+{
+  "id": "prologue-p11-panel01",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/corrections/prologue-p11-panel01-lettering.json",
+  "output_file": "assets/panels/prologue-p11-panel01.png",
+  "generated_original": "/workspace/generated_images/exec-14f3a5a1-4c8b-4f73-a285-f75a4a04d1d3.png",
+  "reason": "Move all lettering comfortably inside the fixed panoramic aperture."
+}
