@@ -40,6 +40,15 @@ for metal in world['metals']:
     if 'known_crafting' in metal:
         assert metal['known_crafting']['exclusive_expert_id'] in character_ids
 assert world['setting']['geography']['atlas_asset_id'] in assets
+weapons = {weapon['id']: weapon for weapon in world.get('weapons', [])}
+for weapon in weapons.values():
+    assert weapon['asset_id'] in assets and weapon['ability'], 'Broken weapon reference'
+for character in world['characters']:
+    for weapon_id in character.get('equipment', {}).get('weapon_ids', []):
+        assert weapon_id in weapons, 'Unknown character weapon'
+for metal in world['metals']:
+    for weapon_id in metal.get('known_crafting', {}).get('weapon_ids', []):
+        assert weapon_id in weapons, 'Unknown crafted weapon'
 
 stories = world['publication']['stories']
 assert len(stories) == world['publication']['story_count'], 'Wrong story count'

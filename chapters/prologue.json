@@ -283,42 +283,94 @@
     },
     {
       "Page Number": 9,
-      "Title": "The Five",
+      "Title": "The Five Take the City",
       "panels": [
         {
-          "image_src": "assets/secret-type-c-forge-crimson.png",
-          "caption": "THE CARAVAN CARRIED SOMETHING RARER THAN WEALTH.",
-          "narration": "Silvery Type C Magneton. From his own experience, Rovan alone knows the secret of crafting it into armour and swords.",
-          "image_alt": "Rovan privately forges silver Type C taken from the seized Caravan. Veymarch military cloth base layers are crimson",
-          "layout": [
-            "chapter-panel",
-            "wide"
-          ]
-        },
-        {
-          "image_src": "assets/five-honour-guards-crimson.png",
-          "caption": "FIVE SUITS OF ARMOUR. FIVE SWORDS. NO METAL FOR A SIXTH SET.",
-          "narration": "He equips five members of his honour guard. Their silver Type C armour is impenetrable and impervious to weapons.",
-          "image_alt": "Exactly five honour guards stand together in silver Type C armour, each carrying a sword. Veymarch military cloth base layers are crimson",
+          "image_src": "assets/type-c-seamless-forge.png",
+          "caption": "FIVE SUITS. FIVE DIFFERENT WEAPONS.",
+          "narration": "Rovan works the stolen Type C in secret. The intricate silver flows into continuous armour, without joints or gaps. There is no material for a sixth set.",
+          "image_alt": "Rovan privately crafts intricate seamless silver Type C armour and the captains’ five different weapon loadouts.",
           "layout": [
             "chapter-panel",
             "wide",
-            "guard-lineup"
+            "type-c-scene"
           ],
           "full_size_link": true
         },
         {
-          "image_src": "assets/magnetic-boarding-crimson.png",
-          "caption": "THE SILVER GUARD CAN DRIFT ALONG THE MAGNETIC FIELDS.",
-          "narration": "In their first trial, Tesla fire cannot pierce the silver. They drift from ship to ship across the void—an advantage no rival possesses.",
-          "image_alt": "Silver honour guards drift along magnetic fields between airships while weapons fail to penetrate their armour. Veymarch military cloth base layers are crimson",
+          "image_src": "assets/type-c-seamless-five.png",
+          "caption": "THE FIVE CAPTAINS OF THE SILVER GUARD.",
+          "narration": "A lance. A broadsword. Twin swords. A war hammer. A scythe. Each captain wears sealed, weapon-impervious Type C armour; crimson cloth rests over the silver.",
+          "image_alt": "Exactly five captains in intricate, fully sealed silver armour with crimson capes; their weapons are a lance, broadsword, twin swords, war hammer and scythe.",
           "layout": [
             "chapter-panel",
-            "wide"
-          ]
+            "wide",
+            "type-c-scene"
+          ],
+          "full_size_link": true
+        },
+        {
+          "image_src": "assets/type-c-lance-assault.png",
+          "caption": "THE FLEET STRIKES ANOTHER SMALL CITY IN AURIC REACH.",
+          "narration": "Rovan’s single capital ship leads the assault. The lance captain condenses magnetic fields at the weapon’s tip and fires them like a cannon, breaking the town guard’s position.",
+          "image_alt": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city.",
+          "layout": [
+            "chapter-panel",
+            "wide",
+            "type-c-scene"
+          ],
+          "full_size_link": true
+        },
+        {
+          "image_src": "assets/type-c-broadsword-breach.png",
+          "caption": "THE BROADSWORD OPENS THE HARBOUR.",
+          "narration": "Condensed fields make the blade immense. It cuts through a defending ship’s hull, opening a way for Rovan’s soldiers to board while the town guard falls back.",
+          "image_alt": "A seamless silver knight enlarges an ornate broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks.",
+          "layout": [
+            "chapter-panel",
+            "wide",
+            "type-c-scene"
+          ],
+          "full_size_link": true
+        },
+        {
+          "image_src": "assets/type-c-twin-sword-flight.png",
+          "caption": "ABOVE THE STREETS, THE TWIN BLADES RIDE THE WIND.",
+          "narration": "Their captain flies like a bird over the town guard, striking from above as bronze-armoured soldiers push through the streets below.",
+          "image_alt": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets.",
+          "layout": [
+            "chapter-panel",
+            "wide",
+            "type-c-scene"
+          ],
+          "full_size_link": true
+        },
+        {
+          "image_src": "assets/type-c-warhammer-shield.png",
+          "caption": "THE HAMMER FALLS. A SHIELD RISES.",
+          "narration": "The captain slams the war hammer into the paving. Its own magnetic field shields the advancing soldiers from the town guard’s Tesla guns.",
+          "image_alt": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire.",
+          "layout": [
+            "chapter-panel",
+            "wide",
+            "type-c-scene"
+          ],
+          "full_size_link": true
+        },
+        {
+          "image_src": "assets/type-c-scythe-city-seized.png",
+          "caption": "TWO CONCENTRATED POINTS. ONE FINAL LEAP.",
+          "narration": "The scythe captain jumps between two points of magnetic energy into the command terrace. With the docks breached and the streets lost, the town guard lays down its guns. Rovan’s soldiers seize the city.",
+          "image_alt": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control.",
+          "layout": [
+            "chapter-panel",
+            "wide",
+            "type-c-scene"
+          ],
+          "full_size_link": true
         }
       ],
-      "footer": "PROLOGUE · THE FIVE"
+      "footer": "PROLOGUE · THE FIVE TAKE THE CITY"
     },
     {
       "Page Number": 10,

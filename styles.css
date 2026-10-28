@@ -805,3 +805,11 @@ h1 { font-size: clamp(48px, 11.8vw, 146px); }
 
 /* Narration is plain text in the chapter JSON; preserve authored line breaks. */
 .world-note { white-space: pre-line; }
+
+/* Full illustrations and readable captions for the seven-panel Type C assault. */
+.type-c-scene, .type-c-scene.wide { min-height: 0; }
+.type-c-scene .panel-art { position: static; display: block; width: 100%; height: auto; object-fit: contain; }
+.type-c-scene .guard-art-link { aspect-ratio: auto; overflow: visible; }
+.type-c-scene .caption { position: relative; top: auto; left: auto; right: auto; margin: 16px; }
+.type-c-scene .world-note { position: relative; top: auto; bottom: auto; left: auto; right: auto; margin: 12px 16px 16px; }
+.type-c-scene::after { display: none; }

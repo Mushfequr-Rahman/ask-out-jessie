@@ -32,7 +32,7 @@ Earth fractures; humanity adapts; Magneton technology supports floating cities; 
 ### Page 9 — The Five
 
 1. Rovan privately forges the silvery Type C found aboard the seized Caravan, using knowledge acquired through his own experience.
-2. Exactly five complete armour-and-sword sets equip five honour guards. There is no metal for a sixth set. Type C is impervious to weapons.
+2. Exactly five complete armour-and-weapon sets equip five honour guards. There is no metal for a sixth set. Type C is impervious to weapons.
 3. The guard drifts along magnetic fields, leaping from ship to ship. Rovan's unique crafting knowledge gives his forces an unfair advantage.
 
 ## Open decisions
@@ -46,3 +46,7 @@ The honour guards' names, individual personalities, the captured city's name, an
 3. Exactly three Auric Reach capital ships depart. Stop before their arrival or any battle outcome.
 
 All Veymarch military fabric under armour is crimson, including the silver honour guards’ cloth layers and capes. Their metal armour colours do not change.
+
+## Page 9 — The Five Take the City
+
+Seven panels: secret seamless-armour forge; five captains with distinct weapons; lance bombardment and fleet assault; broadsword hull breach; twin-sword flight over the town guard; war-hammer shield against Tesla guns; scythe jump to the command terrace and the guard’s surrender. This is the second town capture, after the Type C equipment is made.

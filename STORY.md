@@ -63,7 +63,7 @@ The newer reference introduces open decks, a swept lower hull, aft superstructur
 | --- | --- | --- | --- |
 | A | Bronze-like metal | Very durable; the most common type | Ship hulls |
 | B | Glowing green, in both opposing polarities | Opposite-polarity forms; availability not yet specified | Delicate machinery and hull components |
-| C | Silvery metal | Most malleable; hardest to find; recently discovered; impenetrable and impervious to weapons; drifts in magnetic fields | Armour and swords, including five sets made by Rovan for his honour guard |
+| C | Silvery metal | Most malleable; hardest to find; recently discovered; impenetrable and impervious to weapons; drifts in magnetic fields | Seamless armour and magnetic weapons, five distinct sets for his honour-guard captains |
 
 Type B's hull-component use is retained from the user's description; the exact division between Type A hull structure and Type B components is not yet defined. Type C is silvery and impervious to weapons. It can drift along magnetic fields. Rovan alone knows the crafting trick, learned through experience, that makes his five honour guards able to leap between ships. The two opposing Type B cores should both appear green, not as different-coloured metals.
 
@@ -104,7 +104,7 @@ The author chose Rovan's campaign over the earlier proposed manifest dispute or 
 - Rovan raids an Auric Reach baron's docks, seizes ships, and captures a city easily through superior training and surprise.
 - This is the first organised war between duchies since the Fracture. It does not erase the earlier nuclear war or previous fighting against pirates.
 - After this initial victory, Rovan privately works the silver Type C taken from the seized Caravan. His experience gives him a crafting secret no rival knows. The technical process is not specified.
-- There is enough Type C for **exactly five complete armour-and-sword sets** for five honour guards, and not enough for a sixth set.
+- There is enough Type C for **exactly five complete armour-and-weapon sets** for five honour guards, and not enough for a sixth set.
 - Type C is impenetrable and impervious to weapons. No weapon vulnerability, armour-piercing exception, or new countermeasure is established.
 - The silver guard can drift along magnetic fields and leap between airships, giving Rovan an unfair advantage. The first city's capture happened before this new equipment was made.
 
@@ -134,3 +134,15 @@ There is currently one published story entry, **Prologue**, containing all ten e
 Veymarch military cloth base layers are crimson red. This includes visible tunics, sleeves, cloth skirts, tabards and capes beneath armour. Bronze armour stays bronze; the five Type C sets stay silver. Rovan’s navy outer officer coat and Grievous’s dark olive outer coat remain recognisable.
 
 After the silver-guard trial, Rovan talks with General Grievous about holding the captured city, repairing seized ships, and training recruits. Meanwhile Auric Reach’s unnamed ruler dispatches **three capital ships toward Rovan**. They are enemy ships: Rovan’s own initial capital-ship count remains one. The coming encounter, its timing, and its outcome have not yet been established.
+
+## The five captains and the second town — page 9
+
+After the first capture on page 8, Rovan secretly crafts five sets of intricate silver Type C armour. The armour is continuous, without joints or gaps; the crimson cloth is worn over it. The new differentiated arsenal replaces the earlier five-identical-swords depiction.
+
+- The lance condenses magnetic fields and fires them like a cannon.
+- The broadsword condenses fields into an enlarged blade capable of cutting a ship’s hull.
+- Twin wind swords let their user fly like a bird.
+- The war hammer creates a magnetic field when slammed down, shielding soldiers against Tesla guns.
+- The scythe lets its user jump between two concentrated points of magnetic energy.
+
+Rovan’s one-capital-ship fleet and the five captains attack another small Auric Reach city, fight its town guard and seize it. This is separate from the earlier capture before Type C crafting. The three Auric Reach capital ships dispatched on page 10 remain the opponent’s force; their encounter with Rovan is still unresolved.

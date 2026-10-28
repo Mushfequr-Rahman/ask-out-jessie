@@ -138,20 +138,32 @@
       ],
       "availability": "Most difficult to find; recently discovered",
       "established_uses": [
-        "Armour",
-        "Swords"
+        "Seamless armour",
+        "Magnetic lance",
+        "Field broadsword",
+        "Twin wind swords",
+        "Shield war hammer",
+        "Magnetic scythe"
       ],
       "known_crafting": {
         "exclusive_expert_id": "rovan-vey",
         "knowledge_origin": "Rovan’s own experience",
         "process": null,
         "material_source": "Type C taken from the seized Auric Reach Caravan",
-        "complete_armour_and_sword_sets": 5,
         "honour_guard_count": 5,
         "material_for_sixth_set": false,
         "advantage": "The crafted equipment enables the honour guard to drift along magnetic fields and leap between ships.",
         "weapon_vulnerability": null,
-        "weapon_vulnerability_status": "None established; the author specifies imperviousness to any weapons."
+        "weapon_vulnerability_status": "None established; the author specifies imperviousness to any weapons.",
+        "complete_armour_and_weapon_sets": 5,
+        "armour_construction": "Intricate continuous silver armour with no joints or gaps; crimson cloth is external to the sealed metal.",
+        "weapon_ids": [
+          "condenser-lance",
+          "field-broadsword",
+          "wind-twin-swords",
+          "shield-warhammer",
+          "point-scythe"
+        ]
       }
     }
   ],
@@ -511,18 +523,26 @@
     },
     {
       "id": "honour-guard",
-      "name": "Rovan’s five honour guards",
+      "name": "Rovan’s five honour-guard captains",
       "member_count": 5,
       "individual_names": null,
       "equipment": {
-        "complete_armour_and_sword_sets": 5,
         "metal_id": "type-c",
         "armour_colour": "silvery",
-        "weapon_protection": "Impenetrable and impervious to weapons"
+        "weapon_protection": "Impenetrable and impervious to weapons",
+        "complete_armour_and_weapon_sets": 5,
+        "armour_construction": "Intricate and seamless, without joints or gaps",
+        "weapon_ids": [
+          "condenser-lance",
+          "field-broadsword",
+          "wind-twin-swords",
+          "shield-warhammer",
+          "point-scythe"
+        ]
       },
       "mobility": "Drift along magnetic fields and leap between ships",
-      "source_asset_id": "five-honour-guards-crimson",
-      "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+      "source_asset_id": "type-c-seamless-five",
+      "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal."
     },
     {
       "id": "auric-ruler",
@@ -579,12 +599,12 @@
     },
     {
       "order": 10,
-      "event": "Rovan crafts the stolen silver Type C into exactly five armour-and-sword sets using his exclusive experience and secret."
+      "event": "Rovan privately crafts exactly five intricate, seamless Type C armour-and-weapon sets: lance, broadsword, twin swords, war hammer and scythe."
     },
     {
       "order": 11,
-      "event": "The five honour guards reveal weapon-impervious armour and magnetic-field drifting for ship-to-ship leaps.",
-      "published_visual_interpretation": "The first trial shows Tesla fire failing to penetrate the armour."
+      "event": "Rovan’s fleet and five silver captains attack another small Auric Reach city, fight the town guard with their distinct magnetic weapons and seize the town.",
+      "first_capture_is_separate": true
     },
     {
       "order": 12,
@@ -613,7 +633,7 @@
         "status": "available",
         "reader": "prologue.html",
         "page_count": 10,
-        "panel_count": 30,
+        "panel_count": 34,
         "pages": [
           {
             "number": 1,
@@ -833,28 +853,56 @@
           },
           {
             "number": 9,
-            "title": "The Five",
+            "title": "The Five Take the City",
             "panels": [
               {
                 "number": 1,
-                "asset_id": "secret-type-c-forge-crimson",
-                "caption": "THE CARAVAN CARRIED SOMETHING RARER THAN WEALTH.",
-                "narration": "Silvery Type C Magneton. From his own experience, Rovan alone knows the secret of crafting it into armour and swords.",
-                "image_description": "Rovan privately forges silver Type C taken from the seized Caravan. Veymarch military cloth base layers are crimson"
+                "asset_id": "type-c-seamless-forge",
+                "caption": "FIVE SUITS. FIVE DIFFERENT WEAPONS.",
+                "narration": "Rovan works the stolen Type C in secret. The intricate silver flows into continuous armour, without joints or gaps. There is no material for a sixth set.",
+                "image_description": "Rovan privately crafts intricate seamless silver Type C armour and the captains’ five different weapon loadouts."
               },
               {
                 "number": 2,
-                "asset_id": "five-honour-guards-crimson",
-                "caption": "FIVE SUITS OF ARMOUR. FIVE SWORDS. NO METAL FOR A SIXTH SET.",
-                "narration": "He equips five members of his honour guard. Their silver Type C armour is impenetrable and impervious to weapons.",
-                "image_description": "Exactly five honour guards stand together in silver Type C armour, each carrying a sword. Veymarch military cloth base layers are crimson"
+                "asset_id": "type-c-seamless-five",
+                "caption": "THE FIVE CAPTAINS OF THE SILVER GUARD.",
+                "narration": "A lance. A broadsword. Twin swords. A war hammer. A scythe. Each captain wears sealed, weapon-impervious Type C armour; crimson cloth rests over the silver.",
+                "image_description": "Exactly five captains in intricate, fully sealed silver armour with crimson capes; their weapons are a lance, broadsword, twin swords, war hammer and scythe."
               },
               {
                 "number": 3,
-                "asset_id": "magnetic-boarding-crimson",
-                "caption": "THE SILVER GUARD CAN DRIFT ALONG THE MAGNETIC FIELDS.",
-                "narration": "In their first trial, Tesla fire cannot pierce the silver. They drift from ship to ship across the void—an advantage no rival possesses.",
-                "image_description": "Silver honour guards drift along magnetic fields between airships while weapons fail to penetrate their armour. Veymarch military cloth base layers are crimson"
+                "asset_id": "type-c-lance-assault",
+                "caption": "THE FLEET STRIKES ANOTHER SMALL CITY IN AURIC REACH.",
+                "narration": "Rovan’s single capital ship leads the assault. The lance captain condenses magnetic fields at the weapon’s tip and fires them like a cannon, breaking the town guard’s position.",
+                "image_description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city."
+              },
+              {
+                "number": 4,
+                "asset_id": "type-c-broadsword-breach",
+                "caption": "THE BROADSWORD OPENS THE HARBOUR.",
+                "narration": "Condensed fields make the blade immense. It cuts through a defending ship’s hull, opening a way for Rovan’s soldiers to board while the town guard falls back.",
+                "image_description": "A seamless silver knight enlarges an ornate broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks."
+              },
+              {
+                "number": 5,
+                "asset_id": "type-c-twin-sword-flight",
+                "caption": "ABOVE THE STREETS, THE TWIN BLADES RIDE THE WIND.",
+                "narration": "Their captain flies like a bird over the town guard, striking from above as bronze-armoured soldiers push through the streets below.",
+                "image_description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets."
+              },
+              {
+                "number": 6,
+                "asset_id": "type-c-warhammer-shield",
+                "caption": "THE HAMMER FALLS. A SHIELD RISES.",
+                "narration": "The captain slams the war hammer into the paving. Its own magnetic field shields the advancing soldiers from the town guard’s Tesla guns.",
+                "image_description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire."
+              },
+              {
+                "number": 7,
+                "asset_id": "type-c-scythe-city-seized",
+                "caption": "TWO CONCENTRATED POINTS. ONE FINAL LEAP.",
+                "narration": "The scythe captain jumps between two points of magnetic energy into the command terrace. With the docks breached and the streets lost, the town guard lays down its guns. Rovan’s soldiers seize the city.",
+                "image_description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control."
               }
             ]
           },
@@ -891,7 +939,7 @@
     ],
     "asset_catalogue": "assets.html",
     "repository_asset_catalogue": "ASSETS.md",
-    "site_version": "chapter-json-1"
+    "site_version": "seamless-five-1"
   },
   "terms": {
     "Magneton": "Family of metals formed from nuclear materials after the Fracture.",
@@ -906,7 +954,7 @@
     "Exact magnetic route rules, engine limits and fictional energy mechanics",
     "The formal powers and relationships of dukes and barons",
     "The other six duchies’ rulers, economies and alliances",
-    "The captured city’s name and its baron’s name",
+    "The captured cities’ names and their barons’ names",
     "Honour guard names and personalities",
     "Ship dimensions, crews, cargo tonnages and armaments",
     "Other duchies’ responses beyond Auric Reach’s three dispatched capital ships",
@@ -1269,28 +1317,6 @@
       ]
     },
     {
-      "id": "five-honour-guards-crimson",
-      "file": "assets/five-honour-guards-crimson.png",
-      "title": "The five honour guards",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2701847,
-      "sha256": "6845b42eeb6e581da37a15794762fdefff11d163f6ed29fe3e2221b215a86e23",
-      "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 9,
-          "panel": 2,
-          "description": "Exactly five honour guards stand together in silver Type C armour, each carrying a sword. Veymarch military cloth base layers are crimson"
-        }
-      ]
-    },
-    {
       "id": "fracture",
       "file": "assets/fracture.png",
       "title": "The Fracture",
@@ -1353,28 +1379,6 @@
           "page": 2,
           "panel": 1,
           "description": "Three generations of survivors study a magnetic sensing instrument in their settlement"
-        }
-      ]
-    },
-    {
-      "id": "magnetic-boarding-crimson",
-      "file": "assets/magnetic-boarding-crimson.png",
-      "title": "Magnetic-field drifting",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2900349,
-      "sha256": "b8516d5d05c33c20c3545f97bf46138bf3690e0c3a6b180156e98249a8ef3c3f",
-      "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 9,
-          "panel": 3,
-          "description": "Silver honour guards drift along magnetic fields between airships while weapons fail to penetrate their armour. Veymarch military cloth base layers are crimson"
         }
       ]
     },
@@ -1600,28 +1604,6 @@
       "comic_usage": []
     },
     {
-      "id": "secret-type-c-forge-crimson",
-      "file": "assets/secret-type-c-forge-crimson.png",
-      "title": "The secret forge",
-      "category": "comic",
-      "dimensions": {
-        "width": 1536,
-        "height": 1024
-      },
-      "byte_size": 2845659,
-      "sha256": "9d6d8f3a82378738834fb29e2eb4c240d0f06e96686b458696975c422ca4d2a4",
-      "status": "current",
-      "origin": "Existing comic illustration edited to match Veymarch crimson military cloth; bronze and silver armour colours retained.",
-      "comic_usage": [
-        {
-          "story_id": "prologue",
-          "page": 9,
-          "panel": 1,
-          "description": "Rovan privately forges silver Type C taken from the seized Caravan. Veymarch military cloth base layers are crimson"
-        }
-      ]
-    },
-    {
       "id": "shattered-earth-atlas",
       "file": "assets/shattered-earth-atlas.png",
       "title": "Shattered Earth atlas",
@@ -1777,6 +1759,160 @@
       "comic_usage": []
     },
     {
+      "id": "type-c-broadsword-breach",
+      "file": "assets/type-c-broadsword-breach.png",
+      "title": "The broadsword opens the harbour.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3740406,
+      "sha256": "f242c67299dd5b427c81f0d4d0a557735f94335cff622195243df68ea4123401",
+      "status": "current",
+      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 4,
+          "description": "A seamless silver knight enlarges an ornate broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks."
+        }
+      ]
+    },
+    {
+      "id": "type-c-lance-assault",
+      "file": "assets/type-c-lance-assault.png",
+      "title": "The fleet strikes another small city in auric reach.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3830381,
+      "sha256": "638aeb9abb8ee4a78c5ce27227ba27078bcb8c0f9b7de51250019abcd09e173c",
+      "status": "current",
+      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 3,
+          "description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city."
+        }
+      ]
+    },
+    {
+      "id": "type-c-scythe-city-seized",
+      "file": "assets/type-c-scythe-city-seized.png",
+      "title": "Two concentrated points. one final leap.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3733936,
+      "sha256": "5b127f42b98b42a6ace9f80059c71dc4cb97c11972a80288258da5254fba1682",
+      "status": "current",
+      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 7,
+          "description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control."
+        }
+      ]
+    },
+    {
+      "id": "type-c-seamless-five",
+      "file": "assets/type-c-seamless-five.png",
+      "title": "The five captains of the silver guard.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3320097,
+      "sha256": "b4479352cd03ce6c691eb8c9115f37081d817f3e24507d8b850af73694c43bde",
+      "status": "current",
+      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 2,
+          "description": "Exactly five captains in intricate, fully sealed silver armour with crimson capes; their weapons are a lance, broadsword, twin swords, war hammer and scythe."
+        }
+      ]
+    },
+    {
+      "id": "type-c-seamless-forge",
+      "file": "assets/type-c-seamless-forge.png",
+      "title": "Five suits. five different weapons.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3319324,
+      "sha256": "77e7ce4c1301d8999918c936152ad6130174fd7b10af86188955fec4b405d6be",
+      "status": "current",
+      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 1,
+          "description": "Rovan privately crafts intricate seamless silver Type C armour and the captains’ five different weapon loadouts."
+        }
+      ]
+    },
+    {
+      "id": "type-c-twin-sword-flight",
+      "file": "assets/type-c-twin-sword-flight.png",
+      "title": "Above the streets, the twin blades ride the wind.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3831663,
+      "sha256": "df5a2cf8ef561ab84a6528a7074fecd54267c3895b249a7907de0a7d1758b61d",
+      "status": "current",
+      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 5,
+          "description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets."
+        }
+      ]
+    },
+    {
+      "id": "type-c-warhammer-shield",
+      "file": "assets/type-c-warhammer-shield.png",
+      "title": "The hammer falls. a shield rises.",
+      "category": "comic",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3663813,
+      "sha256": "c6cdb9cc78a89a86c31c2a186d91189f727d97eef52c04e04e2b1b1ed3ff52b2",
+      "status": "current",
+      "origin": "Generated for the author’s seamless Type C armour and five distinct magnetic-weapon city-assault scenes.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 6,
+          "description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire."
+        }
+      ]
+    },
+    {
       "id": "unpaid-ledger-crimson",
       "file": "assets/unpaid-ledger-crimson.png",
       "title": "The unpaid soldiers",
@@ -1801,21 +1937,24 @@
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with ten pages and 30 distinct panel images.",
+    "There is one available story entry, Prologue, with ten pages and 34 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
-    "There are exactly five complete Type C armour-and-sword sets and no material for a sixth.",
+    "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
     "Type C is impervious to any weapons; no weapon vulnerability or armour-piercing exception is established.",
     "Only Rovan knows the crafting secret through his experience.",
     "Veymarch soldiers wear crimson red cloth base layers under bronze or silver armour.",
-    "The three newly dispatched capital ships belong to Auric Reach, not Rovan. No result of their encounter is established."
+    "The three newly dispatched capital ships belong to Auric Reach, not Rovan. No result of their encounter is established.",
+    "The five honour-guard captains have intricate continuous silver armour with no joints or gaps. Crimson cloth rests over the sealed metal.",
+    "Each captain has one distinct loadout: magnetic lance, field broadsword, twin wind swords, shield war hammer or magnetic scythe.",
+    "Page 9 shows a second Auric Reach town seized after Type C is crafted; page 8’s first capture still occurs before the crafting."
   ],
   "military_livery": {
     "veymarch": {
       "base_layer": "crimson red",
       "duchy_id": "veymarch",
       "ordinary_armour": "bronze",
-      "honour_guard_armour": "silver Type C",
+      "honour_guard_armour": "Intricate seamless silver Type C, no joints or gaps, crimson cloth worn externally",
       "honour_guard_count": 5,
       "officer_outer_coats": "Rovan navy; General Grievous dark olive"
     },
@@ -1826,5 +1965,37 @@
       ],
       "capital_ships_in_dispatched_force": 3
     }
-  }
+  },
+  "weapons": [
+    {
+      "id": "condenser-lance",
+      "name": "Magnetic lance",
+      "ability": "Condenses magnetic fields and fires the concentrated energy like a cannon.",
+      "asset_id": "type-c-lance-assault"
+    },
+    {
+      "id": "field-broadsword",
+      "name": "Field broadsword",
+      "ability": "Condenses magnetic fields into a larger blade capable of cutting through a ship’s hull.",
+      "asset_id": "type-c-broadsword-breach"
+    },
+    {
+      "id": "wind-twin-swords",
+      "name": "Twin wind swords",
+      "ability": "A pair of wind-like swords that lets the wielder fly like a bird.",
+      "asset_id": "type-c-twin-sword-flight"
+    },
+    {
+      "id": "shield-warhammer",
+      "name": "Shield war hammer",
+      "ability": "Creates its own magnetic field when slammed down, forming a shield against Tesla guns.",
+      "asset_id": "type-c-warhammer-shield"
+    },
+    {
+      "id": "point-scythe",
+      "name": "Magnetic scythe",
+      "ability": "Lets the wielder jump between two concentrated points of magnetic energy.",
+      "asset_id": "type-c-scythe-city-seized"
+    }
+  ]
 }
