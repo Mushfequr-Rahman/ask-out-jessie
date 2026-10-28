@@ -630,6 +630,57 @@
         "height": 761.975
       },
       "review": "Visual lettering/continuity review and rendered-aperture review; complete transcript retained."
+    },
+    {
+      "id": "prologue-p13-panel01",
+      "output_file": "assets/panels/prologue-p13-panel01.png",
+      "selected_run": "generation/runs/prologue-p13-panel01.json",
+      "sha256": "ecb0c5f9e66358e950027f936c1e381a8538148b3c991b23af82a0fd7e5611cf",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 288.688
+      },
+      "review": "Exact lettering and Veymarch crimson/silver banner checked; council corrected to exactly five silver captains plus two officers."
+    },
+    {
+      "id": "prologue-p13-panel02",
+      "output_file": "assets/panels/prologue-p13-panel02.png",
+      "selected_run": "generation/runs/prologue-p13-panel02-correction.json",
+      "sha256": "f762740457e03c1484ea3bf5d7db8d9200685a46f93ab10902230e1151f8f346",
+      "dimensions": {
+        "width": 1489,
+        "height": 1056
+      },
+      "holder": {
+        "x": 0,
+        "y": 298.688,
+        "width": 952,
+        "height": 670.624
+      },
+      "review": "Exact lettering and Veymarch crimson/silver banner checked; council corrected to exactly five silver captains plus two officers."
+    },
+    {
+      "id": "prologue-p13-panel03",
+      "output_file": "assets/panels/prologue-p13-panel03.png",
+      "selected_run": "generation/runs/prologue-p13-panel03.json",
+      "sha256": "fcb4f2d22a63042b843f6784623c5508c04d8c4470fd6456199c8d0ac2109263",
+      "dimensions": {
+        "width": 2171,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 979.312,
+        "width": 952,
+        "height": 288.688
+      },
+      "review": "Exact lettering and Veymarch crimson/silver banner checked; council corrected to exactly five silver captains plus two officers."
     }
   ]
 }

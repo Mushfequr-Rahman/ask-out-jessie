@@ -61,8 +61,7 @@ def sync_chapters(world):
         chapter = json.loads(source.read_text())
         pages = chapter_pages(chapter)
         for page in chapter['pages']:
-            holders=[]
-        for panel in page['panels']:
+            for panel in page['panels']:
                 assert (ROOT / panel['image_src']).is_file(), f"Missing image: {panel['image_src']}"
         story.update(pages=pages, page_count=len(pages),
                      panel_count=sum(len(page['panels']) for page in pages))

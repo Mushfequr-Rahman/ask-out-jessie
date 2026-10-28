@@ -112,7 +112,7 @@ The city capture does not yet establish that Rovan controls all of Auric Reach. 
 
 ## Publication structure and duchy heraldry
 
-There is currently one published story entry, **Prologue**, containing all twelve existing pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
+There is currently one published story entry, **Prologue**, containing all thirteen published pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
 
 | Duchy | Colour | Banner emblem |
 | --- | --- | --- |
@@ -127,7 +127,7 @@ There is currently one published story entry, **Prologue**, containing all twelv
 
 ## Structured reference and artwork catalogue
 
-`world.json` contains the structured world reference; character records live in `character.json`. The world reference includes open details, the twelve published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.
+`world.json` contains the structured world reference; character records live in `character.json`. The world reference includes open details, the thirteen published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.
 
 ## Current uniforms and the next move
 
@@ -156,3 +156,7 @@ Page 9 introduces the five captains in the workshop. Page 10 follows ordinary br
 ## House insignia and comic presentation
 
 The silver armour now has narrow aged-brass edging, small mechanical fittings and crimson enamel badges bearing Veymarch’s silver broken shield and eight-point star. The five distinct helmet/body silhouettes and weapon abilities remain unchanged. Each published panel has a priority from 1 to 5; the comic layout gives larger story beats more space and overlays narration/dialogue on the artwork. All 37 panels have revised prose and dialogue.
+
+## Three Bastions — page 13
+
+A Veymarch schooner brings an unnamed courier to Rovan with news of three approaching Bastions. Rovan calls General Grievous and his five silver captains to the planning table. They decide to face the three enemy capital ships head-on. The page ends with orders to ready Rovan’s single Bastion; no battle or outcome is shown yet.

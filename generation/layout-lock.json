@@ -232,6 +232,31 @@
       "y": 506.025,
       "width": 952,
       "height": 761.975
+    },
+    "prologue-p13-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 288.688
+    },
+    "prologue-p13-panel02": {
+      "x": 0,
+      "y": 298.688,
+      "width": 952,
+      "height": 670.624
+    },
+    "prologue-p13-panel03": {
+      "x": 0,
+      "y": 979.312,
+      "width": 952,
+      "height": 288.688
     }
-  }
+  },
+  "extensions": [
+    {
+      "page": 13,
+      "source_commit": "c14ad29",
+      "method": "panel-layout.js fitPanels; priorities 3/5/3, frozen before generation."
+    }
+  ]
 }

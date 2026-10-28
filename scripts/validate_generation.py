@@ -66,7 +66,7 @@ def validate(require_outputs=False, banner_review=None):
         assert len({hashlib.sha256(local_file(s['output_file']).read_bytes()).hexdigest() for s in scenes})==len(scenes), 'Repeated generated image'
         reviewed=load('generation/review.json')['selected_outputs']
         assert {r['id'] for r in reviewed}=={s['id'] for s in scenes}, 'Incomplete publication review'
-        new_banner_review_required=False
+        new_banner_scenes=set()
         for record in reviewed:
             raw=local_file(record['output_file']).read_bytes()
             assert hashlib.sha256(raw).hexdigest()==record['sha256'], 'Changed artwork after review'
@@ -75,12 +75,12 @@ def validate(require_outputs=False, banner_review=None):
             assert selected['status']=='visually_reviewed' and selected['output_file']==record['output_file']
             selected_request=load(selected['request_file'])
             if selected_request.get('schema_version',1)>=2 and selected_request.get('heraldry',{}).get('banner_ids'):
-                new_banner_review_required=True
-        assert not new_banner_review_required or banner_review, 'New heraldry-aware artwork requires --banner-review with exported decisions'
+                new_banner_scenes.add(record['id'])
+        assert not new_banner_scenes or banner_review, 'New heraldry-aware artwork requires --banner-review with exported decisions'
     if banner_review:
         from build_banner_review import manifest
         from validate_banner_review import validate_report
-        validate_report(json.loads(Path(banner_review).read_text()),manifest())
+        validate_report(json.loads(Path(banner_review).read_text()),manifest(),new_banner_scenes if require_outputs else None)
     print(f'Validated {len(objects)} visual objects, {len(scenes)} locked holders and baked-lettering requests'+(' with selected outputs.' if require_outputs else '.'))
 
 

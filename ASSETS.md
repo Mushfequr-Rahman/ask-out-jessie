@@ -1,6 +1,6 @@
 # Asset catalogue
 
-All **53 current illustrations** in the repository, grouped below. The comic uses 37 unique panel images, generated for fixed holders with lettering inside the artwork. Earlier visual anchors live separately in references/.
+All **56 current illustrations** in the repository, grouped below. The comic uses 40 unique panel images, generated for fixed holders with lettering inside the artwork. Earlier visual anchors live separately in references/.
 
 [Browse the hosted asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html) · [World reference JSON](world.json) · [Banner comparison review](generation/banner-review.html)
 
@@ -47,6 +47,9 @@ Select a preview or filename to open the original. Dimensions and sizes refer to
 | [<img src="assets/panels/prologue-p12-panel01.png" alt="Prologue P12 Panel01" width="110">](assets/panels/prologue-p12-panel01.png) | **Prologue P12 Panel01**<br>[assets/panels/prologue-p12-panel01.png](assets/panels/prologue-p12-panel01.png) | 1409 × 1116 · 2.8 MB | Page 12, panel 1 |
 | [<img src="assets/panels/prologue-p12-panel02.png" alt="Prologue P12 Panel02" width="110">](assets/panels/prologue-p12-panel02.png) | **Prologue P12 Panel02**<br>[assets/panels/prologue-p12-panel02.png](assets/panels/prologue-p12-panel02.png) | 1008 × 1561 · 3.1 MB | Page 12, panel 2 |
 | [<img src="assets/panels/prologue-p12-panel03.png" alt="Prologue P12 Panel03" width="110">](assets/panels/prologue-p12-panel03.png) | **Prologue P12 Panel03**<br>[assets/panels/prologue-p12-panel03.png](assets/panels/prologue-p12-panel03.png) | 1397 × 1126 · 2.9 MB | Page 12, panel 3 |
+| [<img src="assets/panels/prologue-p13-panel01.png" alt="Prologue P13 Panel01" width="110">](assets/panels/prologue-p13-panel01.png) | **Prologue P13 Panel01**<br>[assets/panels/prologue-p13-panel01.png](assets/panels/prologue-p13-panel01.png) | 2172 × 724 · 3.2 MB | Page 13, panel 1 |
+| [<img src="assets/panels/prologue-p13-panel02.png" alt="Prologue P13 Panel02" width="110">](assets/panels/prologue-p13-panel02.png) | **Prologue P13 Panel02**<br>[assets/panels/prologue-p13-panel02.png](assets/panels/prologue-p13-panel02.png) | 1489 × 1056 · 2.9 MB | Page 13, panel 2 |
+| [<img src="assets/panels/prologue-p13-panel03.png" alt="Prologue P13 Panel03" width="110">](assets/panels/prologue-p13-panel03.png) | **Prologue P13 Panel03**<br>[assets/panels/prologue-p13-panel03.png](assets/panels/prologue-p13-panel03.png) | 2171 × 724 · 2.7 MB | Page 13, panel 3 |
 
 ## Ships
 

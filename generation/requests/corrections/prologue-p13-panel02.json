@@ -1,0 +1,16 @@
+{
+  "id": "prologue-p13-panel02",
+  "schema_version": 2,
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch"
+    ]
+  },
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p13-panel02-first-pass.png",
+      "role": "Focused correction of missing fifth captain"
+    }
+  ],
+  "prompt": "Precisely correct this finished council panel. There are currently only FOUR silver helmeted captains plus Rovan and the general. ADD ONE FIFTH SILVER CAPTAIN: the heavy, barrel-chested war-hammer captain with a LOW ROUND CLOSED DOME helmet. Place this additional captain STANDING IN THE BACK ROW in the clear window space BETWEEN the stocky rectangular-helmet captain and the streamlined pointed-helmet twin-sword captain, with a clearly separate round silver head above their shoulders, visible torso and crimson cape. Do not replace any existing person. Final total must be exactly SEVEN clearly distinct people: TWO bare-headed human officers at left and FIVE helmeted silver captains to their right. Keep the four existing silver captains, all five weapon loadouts on/around the table, all table tokens, officers faces, and ALL dialogue and caption text exactly unchanged. Change the small PURPLE cloth on the stocky captain near the centre to CRIMSON RED, matching all other capes. All silver captains have sealed brushed silver armour, restrained brass fittings and silver broken-shield/star on crimson badges. Preserve canonical crimson banner with SILVER emblem. Preserve aspect ratio, framing, lighting and lettering positions. Only add the one missing round-helmet hammer captain in the back row and correct the purple cloth to crimson."
+}

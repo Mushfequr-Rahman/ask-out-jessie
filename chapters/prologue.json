@@ -1492,6 +1492,145 @@
       ],
       "footer": "PROLOGUE · THE NEXT MOVE",
       "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 13,
+      "Title": "Three Bastions",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p13-panel01.png",
+          "caption": "A schooner at the quay.",
+          "narration": "Courier: “Your Grace—three Bastions. They’re coming for us.”",
+          "image_alt": "A crimson-clad courier steps from a Needle schooner to warn Rovan.",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 288.688
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "A schooner at the quay.",
+              "bounds": {
+                "x": 20,
+                "y": 20,
+                "width": 260,
+                "height": 42
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Courier: “Your Grace—three Bastions. They’re coming for us.”",
+              "bounds": {
+                "x": 278,
+                "y": 192.688,
+                "width": 650,
+                "height": 60
+              }
+            }
+          ],
+          "scene_id": "prologue-p13-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p13-panel02.png",
+          "caption": "The council.",
+          "narration": "Grievous: “Three Bastions against our one.”\nRovan: “Then we don’t fight their way.”",
+          "image_alt": "Rovan and General Grievous plan around a chart table with five sealed silver captains.",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 298.688,
+            "width": 952,
+            "height": 670.624
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The council.",
+              "bounds": {
+                "x": 20,
+                "y": 20,
+                "width": 260,
+                "height": 42
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Grievous: “Three Bastions against our one.”",
+              "bounds": {
+                "x": 318,
+                "y": 502.624,
+                "width": 610,
+                "height": 60
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “Then we don’t fight their way.”",
+              "bounds": {
+                "x": 24,
+                "y": 574.624,
+                "width": 610,
+                "height": 60
+              }
+            }
+          ],
+          "scene_id": "prologue-p13-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p13-panel03.png",
+          "caption": "The decision.",
+          "narration": "Rovan: “We face them head-on. The five captains sail with me.”\nGrievous: “I’ll ready the ship.”",
+          "image_alt": "Rovan orders a head-on meeting with the three approaching enemy Bastions.",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 979.312,
+            "width": 952,
+            "height": 288.688
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The decision.",
+              "bounds": {
+                "x": 20,
+                "y": 20,
+                "width": 260,
+                "height": 42
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “We face them head-on. The five captains sail with me.”",
+              "bounds": {
+                "x": 278,
+                "y": 120.688,
+                "width": 650,
+                "height": 60
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Grievous: “I’ll ready the ship.”",
+              "bounds": {
+                "x": 24,
+                "y": 192.688,
+                "width": 650,
+                "height": 60
+              }
+            }
+          ],
+          "scene_id": "prologue-p13-panel03",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · THREE BASTIONS",
+      "layout_mode": "fixed"
     }
   ]
 }

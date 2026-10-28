@@ -1940,6 +1940,210 @@
       "output_file": "assets/panels/prologue-p12-panel03.png",
       "silver_guard_count": 0,
       "silver_guard_weapon_id": null
+    },
+    {
+      "id": "prologue-p13-panel01",
+      "chapter_id": "prologue",
+      "page_number": 13,
+      "panel_number": 1,
+      "description": "A Veymarch Needle schooner has just pulled alongside the quay of the captured Auric Reach city. Its SMALL rigid mechanical bronze teardrop Zeppelin hull, articulated motor outriggers and open boarding hatch are visible beside the dock. Rovan stands on the dock facing the young courier who has just stepped off the schooner and urgently gives the warning. Exactly TWO foreground people: Rovan and the courier. The courier speaks, with balloon tail to courier. No enemy warships are in sight yet. Banner, if visible, is Veymarch crimson with SILVER broken shield and eight-point star. Do not use a gold star or gold emblem.",
+      "character_ids": [
+        "rovan-vey",
+        "veymarch-courier"
+      ],
+      "object_ids": [
+        "schooner-needle",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 288.688
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "A schooner at the quay.",
+          "bounds": {
+            "x": 20,
+            "y": 20,
+            "width": 260,
+            "height": 42
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Courier: “Your Grace—three Bastions. They’re coming for us.”",
+          "bounds": {
+            "x": 278,
+            "y": 192.688,
+            "width": 650,
+            "height": 60
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "assets/schooner-needle.png",
+          "role": "Design/identity reference only. This is a NEW scene; do not copy old dialogue, captions or event."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p13-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Only the explicitly named foreground people; no silver knights visible in this shot.",
+        "All Veymarch emblems are SILVER on CRIMSON; aged brass is restricted to equipment fittings and must not recolour the emblem.",
+        "The approaching enemy is reported, not shown. No battle has started on this page."
+      ]
+    },
+    {
+      "id": "prologue-p13-panel02",
+      "chapter_id": "prologue",
+      "page_number": 13,
+      "panel_number": 2,
+      "description": "Inside Rovan’s chart room, exactly SEVEN people meet around a plain wooden-and-bronze planning table: Rovan, the bald human General Grievous, and exactly FIVE silver Type C captains. Stage all seven distinct heads clearly and visibly countable, with Rovan at left head of table, general beside him, captains arranged around the remaining sides. No other people, suits or reflections resembling extra people. Five distinct sealed practical helmets and builds match the captain reference. Their five identifiable weapons are secured beside each captain: lance, broad sword, paired twin swords count as ONE loadout, hammer and scythe. General speaks first, Rovan replies. The map is unlabeled with exactly three enemy ship tokens and one friendly token; no writing or invented ship names. Crimson Veymarch banner with SILVER broken shield/star in background. Keep the seven heads away from the speech boxes.",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous",
+        "honour-guard"
+      ],
+      "object_ids": [
+        "banner-veymarch",
+        "type-c",
+        "condenser-lance",
+        "field-broadsword",
+        "wind-twin-swords",
+        "shield-warhammer",
+        "point-scythe"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 298.688,
+        "width": 952,
+        "height": 670.624
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The council.",
+          "bounds": {
+            "x": 20,
+            "y": 20,
+            "width": 260,
+            "height": 42
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Grievous: “Three Bastions against our one.”",
+          "bounds": {
+            "x": 318,
+            "y": 502.624,
+            "width": 610,
+            "height": 60
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “Then we don’t fight their way.”",
+          "bounds": {
+            "x": 24,
+            "y": 574.624,
+            "width": 610,
+            "height": 60
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "assets/panels/prologue-p12-panel01.png",
+          "role": "Design/identity reference only. This is a NEW scene; do not copy old dialogue, captions or event."
+        },
+        {
+          "path": "assets/panels/prologue-p09-panel02.png",
+          "role": "Design/identity reference only. This is a NEW scene; do not copy old dialogue, captions or event."
+        }
+      ],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p13-panel02.png",
+      "silver_guard_count": 5,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "No extra people in this scene. Exactly five silver captains and two unhelmeted officers in the council; never a sixth silver suit.",
+        "All Veymarch emblems are SILVER on CRIMSON; aged brass is restricted to equipment fittings and must not recolour the emblem.",
+        "The approaching enemy is reported, not shown. No battle has started on this page."
+      ]
+    },
+    {
+      "id": "prologue-p13-panel03",
+      "chapter_id": "prologue",
+      "page_number": 13,
+      "panel_number": 3,
+      "description": "A new close three-quarter view of Rovan and General Grievous on the bridge, the decision just made. Exactly TWO people visible; the five captains remain off-camera. Rovan, navy coat over crimson scarf, looks steadily toward open sky and rests his gloved hand on the wheel; the older bald human general in olive/crimson turns to ready the ship. Rovan speaks first; General replies. No battle or firing yet, no enemy ships visible, no extra capital ships. The deck and machinery belong to Rovan’s one bronze Bastion. A small crimson Veymarch pennant carries a SILVER broken shield/star, not gold.",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "capital-bastion",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 979.312,
+        "width": 952,
+        "height": 288.688
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The decision.",
+          "bounds": {
+            "x": 20,
+            "y": 20,
+            "width": 260,
+            "height": 42
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “We face them head-on. The five captains sail with me.”",
+          "bounds": {
+            "x": 278,
+            "y": 120.688,
+            "width": 650,
+            "height": 60
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Grievous: “I’ll ready the ship.”",
+          "bounds": {
+            "x": 24,
+            "y": 192.688,
+            "width": 650,
+            "height": 60
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "assets/panels/prologue-p12-panel01.png",
+          "role": "Design/identity reference only. This is a NEW scene; do not copy old dialogue, captions or event."
+        }
+      ],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p13-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Only the explicitly named foreground people; no silver knights visible in this shot.",
+        "All Veymarch emblems are SILVER on CRIMSON; aged brass is restricted to equipment fittings and must not recolour the emblem.",
+        "The approaching enemy is reported, not shown. No battle has started on this page."
+      ]
     }
   ]
 }

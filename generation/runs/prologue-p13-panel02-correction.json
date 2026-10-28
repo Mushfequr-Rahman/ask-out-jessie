@@ -1,0 +1,8 @@
+{
+  "id": "prologue-p13-panel02",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/corrections/prologue-p13-panel02.json",
+  "output_file": "assets/panels/prologue-p13-panel02.png",
+  "generated_original": "/workspace/generated_images/exec-f86b9e71-3646-47c1-b60f-6e069aa350f3.png",
+  "reason": "Add missing fifth silver captain and correct purple cape to crimson."
+}

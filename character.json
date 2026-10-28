@@ -113,6 +113,17 @@
       "reference_images": [
         "references/panels/auric-counterorder.png"
       ]
+    },
+    {
+      "id": "veymarch-courier",
+      "name": "The schooner courier",
+      "role": "Unnamed Veymarch messenger who warns Rovan that three Auric Reach Bastions are approaching.",
+      "duchy_id": "veymarch",
+      "visual_concept": {
+        "appearance": "Young adult human messenger with short brown hair, flying goggles pushed onto forehead, worn bronze flight jacket over a crimson base layer; no silver armour."
+      },
+      "uniform_standard": "Practical bronze and leather flight gear over crimson cloth; Veymarch affiliation.",
+      "reference_images": []
     }
   ]
 }

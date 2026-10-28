@@ -46,5 +46,12 @@ class BannerReviewTests(unittest.TestCase):
         report['entries'][0]['notes']='No banner or house badge visible in this shot.'
         validate_report(report,self.expected)
 
+    def test_publication_scope_does_not_approve_unchanged_older_images(self):
+        report=self.report()
+        old=report['entries'][0];old['status']='pending'
+        other=next(e['scene_id'] for e in report['entries'] if e['scene_id']!=old['scene_id'])
+        self.assertGreater(validate_report(report,self.expected,{other}),0)
+        with self.assertRaises(AssertionError):validate_report(report,self.expected)
+
 
 if __name__=='__main__':unittest.main()

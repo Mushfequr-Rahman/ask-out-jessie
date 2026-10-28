@@ -59,7 +59,7 @@ def build_request(scene, world, characters, objects, template, files):
         render_text = render_text.strip('“”\"') if block['type']=='speech' else render_text
         speaker=re.match(r'^([^:\n]{1,35}):\s*',block['text']) if block['type']=='speech' else None
         speaker_name=speaker[1] if speaker else None
-        speaker_id={'Rovan':'rovan-vey','Grievous':'general-grievous','The ruler of Auric Reach':'auric-ruler'}.get(speaker_name)
+        speaker_id={'Rovan':'rovan-vey','Grievous':'general-grievous','Courier':'veymarch-courier','The ruler of Auric Reach':'auric-ruler'}.get(speaker_name)
         blocks.append({**block,'speaker_name':speaker_name,'speaker_id':speaker_id,'render_text':render_text,'normalized_bounds':{k:round(bounds[k]/holder['width' if k in ['x','width'] else 'height'],4) for k in bounds}})
     for block in blocks:
         n=block['normalized_bounds']
@@ -75,12 +75,13 @@ def build_request(scene, world, characters, objects, template, files):
     rules=list(template['constraints'])
     early_era = scene['page_number']==1 or (scene['page_number']==2 and scene['panel_number']==2)
     if early_era:rules+=['This is the Fracture/survival/discovery era: ruined land and survivors. NO airships, aircraft, powered vessels, magnetic motors, ducal heraldry or silver knights exist yet. Keep the sky free of flying vehicles.']
-    if scene['page_number']>=5:rules+=['Rovan has ONE capital ship, not three. The three-capital-ship formation appears only in the final Auric Reach departure scene.']
+    if scene['page_number']>=5:rules+=['Rovan commands ONE capital ship. The opposing Auric Reach force has THREE capital ships. Show only ships explicitly required by the scene; a report about them is not permission to add them to the background.']
     if scene['page_number']==12 and scene['panel_number']==3:rules=[r for r in rules if not r.startswith('Rovan has ONE')]+['Exactly THREE Auric Reach capital ships, all fully countable, under gold/navy Auric standards. They are the opponent’s ships.']
     if scene['silver_guard_count']:
         rules += [f'Exactly {scene["silver_guard_count"]} silver Type C captain(s) visible. Do not insert other captains from the reference lineup.', 'All ordinary allied troops are BRONZE over crimson; enemy guards navy/gold with BRASS armour. Silver is exclusive to the named Type C captain(s).', 'Sealed continuous silver coverage, no open joints or gaps. Narrow brass edging, small mechanical fittings and crimson badges bearing the silver broken shield and eight-point star.']
     if scene['page_number']==9 and scene['panel_number']==1:rules+=['The standing Type C suit is empty workshop equipment, not a sixth soldier.']
     if scene['page_number']==9 and scene['panel_number']==2:rules+=['Exactly FIVE full-body captains with FIVE loadouts, left to right lance, broadsword, twin swords, hammer, scythe. All heads, feet and weapons visible.']
+    rules += scene.get('visual_constraints', [])
     if not early_era:
         rules += ['All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions.']
     duchy_ids={c.get('duchy_id') for c in selected_chars}|{o.get('duchy_id') for o in selected_objects}
