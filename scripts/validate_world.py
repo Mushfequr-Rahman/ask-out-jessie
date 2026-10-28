@@ -32,7 +32,19 @@ assert [{key: d[key] for key in palette[0]} for d in duchies] == palette, 'Duchy
 classes = {c['id'] for c in world['ship_classes']}
 for ship in world['ship_designs']:
     assert ship['class_id'] in classes and ship['asset_id'] in assets, 'Broken ship reference'
-character_ids = {character['id'] for character in world['characters']}
+assert 'characters' not in world, 'Character records belong in character.json'
+assert world['characters_file'] == 'character.json', 'Wrong character source'
+characters = json.loads((ROOT / world['characters_file']).read_text())['characters']
+assert isinstance(characters, list) and characters, 'Character source must contain records'
+character_ids = {character['id'] for character in characters}
+assert len(character_ids) == len(characters), 'Duplicate character IDs'
+assert all(isinstance(identifier, str) and identifier for identifier in character_ids), 'Invalid character ID'
+for duchy in duchies:
+    if duchy.get('ruler_id') is not None:
+        assert duchy['ruler_id'] in character_ids, 'Unknown duchy ruler'
+conflict = world['society'].get('current_conflict', {})
+if 'target_character_id' in conflict:
+    assert conflict['target_character_id'] in character_ids, 'Unknown conflict target'
 for metal in world['metals']:
     for field in ['specimen_asset_id', 'core_asset_id']:
         if field in metal:
@@ -43,7 +55,11 @@ assert world['setting']['geography']['atlas_asset_id'] in assets
 weapons = {weapon['id']: weapon for weapon in world.get('weapons', [])}
 for weapon in weapons.values():
     assert weapon['asset_id'] in assets and weapon['ability'], 'Broken weapon reference'
-for character in world['characters']:
+for character in characters:
+    if 'source_asset_id' in character:
+        assert character['source_asset_id'] in assets, 'Unknown character illustration'
+    if 'duchy_id' in character:
+        assert character['duchy_id'] in {duchy['id'] for duchy in duchies}, 'Unknown character duchy'
     for weapon_id in character.get('equipment', {}).get('weapon_ids', []):
         assert weapon_id in weapons, 'Unknown character weapon'
 for metal in world['metals']:
@@ -67,4 +83,4 @@ for story in stories:
     sources = [panel['image_src'] for page in chapter['pages'] for panel in page['panels']]
     assert sources == [assets[p['asset_id']]['file'] for p in panels], 'Chapter and world image paths differ'
 
-print(f"Validated {len(stories)} story, {len(duchies)} duchies, {len(world['ship_designs'])} ship designs and {len(assets)} assets.")
+print(f"Validated {len(characters)} character records, {len(stories)} story, {len(duchies)} duchies, {len(world['ship_designs'])} ship designs and {len(assets)} assets.")

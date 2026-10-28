@@ -8,7 +8,7 @@ A dependency-free HTML comic project featuring **Magneton**.
 - [Read Prologue](https://mushfequr-rahman.github.io/ask-out-jessie/prologue.html): all twelve existing illustrated pages, including Rovan's rise, the five silver honour guards, and Auric Reach's response on page 12.
 - [Glossary](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html): metals, ships, eight duchies and banners, people, and world terms.
 - [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 52 current artwork files; linked from the glossary.
-- [Repository asset catalogue](ASSETS.md) and [world.json](world.json): artwork inventory and structured world reference.
+- [Repository asset catalogue](ASSETS.md), [world.json](world.json) and [character.json](character.json): artwork inventory, world reference and character records.
 
 Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's twelve pages retain all 37 unique panel illustrations.
 
@@ -47,7 +47,8 @@ The map and banner key use the same colour assignments, with names and numbers s
 - `glossary.html`: the consolidated reference page and all eight duchy banners.
 - `magneton.html`: legacy link forwarding to the metals section of the glossary.
 - `assets.html` / `ASSETS.md`: browsable website and repository artwork catalogues.
-- `world.json`: all current lore, metals, ships, duchies, characters, chronology, story panels, unknown details, and asset metadata.
+- `character.json`: all character records, including Rovan, Grievous, the five Silver Guard captains and Auric Reach’s unnamed ruler.
+- `world.json`: world lore, metals, ships, duchies, chronology, story panels, unknown details, asset metadata and a `characters_file` reference to `character.json`.
 - `scripts/build_assets.py`: refreshes asset metadata and both catalogues without changing artwork.
 - `partials/header.html` and `partials/footer.html`: shared site navigation and footer.
 - `scripts/sync_layout.py`: refreshes shared layout in the checked-in static HTML.
@@ -91,3 +92,9 @@ Every image is proportionally resized and centred within its assigned panel, wit
 The Silver Guard have their own introduction on page 9. Page 10 follows the troops entering town, page 11 shows the captains’ assault, and page 12 contains the rival’s response.
 
 The Silver Guard’s current armour includes restrained brass fittings and Veymarch’s silver broken-shield-and-star badge on crimson enamel. Chapter prose is edited for scene progression and natural dialogue; all lore and asset references remain in `world.json`.
+
+## Character records
+
+Edit character identities, appearances, motivations and equipment in `character.json`. It contains a `characters` array with stable IDs. `world.json` points to it through `characters_file`; references such as `ruler_id`, `target_character_id` and `exclusive_expert_id` still use those IDs. Character records are not duplicated in the world file. The Silver Guard remain one group record containing five visual profiles; their individual names have not been established.
+
+Run `python3 scripts/validate_world.py` after editing either file to check character IDs, duchy links, crafting experts, weapon references and artwork references.
