@@ -1055,6 +1055,91 @@
         "height": 501
       },
       "review": "Checked exact lettering, three surrendered prizes, post-capture Veymarch markings, Joseph identity/sentence, and celebration. Opening image redesigned with Argonaut looming above and heavy smoke."
+    },
+    {
+      "id": "prologue-p20-panel01",
+      "output_file": "assets/panels/prologue-p20-panel01.png",
+      "selected_run": "generation/runs/prologue-p20-panel01.json",
+      "sha256": "84c40a7b98ec7806d43081ad268eedfb6e3295f3ec89132513bc58eebb32c836",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 245
+      },
+      "review": "Visual inspection of lettering, fixed-holder crop, Veymarch crimson/silver heraldry, fleet counts and character continuity. New prize captains are ordinary officers; Oram is a destination, not captured."
+    },
+    {
+      "id": "prologue-p20-panel02",
+      "output_file": "assets/panels/prologue-p20-panel02.png",
+      "selected_run": "generation/runs/prologue-p20-panel02.json",
+      "sha256": "0620da56aba661a46a1fd552e2bfd4d87bf46c4a4fdb74a0c2037782eba06af7",
+      "dimensions": {
+        "width": 1344,
+        "height": 1170
+      },
+      "holder": {
+        "x": 0,
+        "y": 255,
+        "width": 582,
+        "height": 502
+      },
+      "review": "Visual inspection of lettering, fixed-holder crop, Veymarch crimson/silver heraldry, fleet counts and character continuity. New prize captains are ordinary officers; Oram is a destination, not captured."
+    },
+    {
+      "id": "prologue-p20-panel03",
+      "output_file": "assets/panels/prologue-p20-panel03.png",
+      "selected_run": "generation/runs/prologue-p20-panel03.json",
+      "sha256": "27909f310f65c8f01adcc3e4f8859dbff7d002e0684e6c8a41a5ece4515bbd54",
+      "dimensions": {
+        "width": 1064,
+        "height": 1478
+      },
+      "holder": {
+        "x": 592,
+        "y": 255,
+        "width": 360,
+        "height": 502
+      },
+      "review": "Visual inspection of lettering, fixed-holder crop, Veymarch crimson/silver heraldry, fleet counts and character continuity. New prize captains are ordinary officers; Oram is a destination, not captured."
+    },
+    {
+      "id": "prologue-p20-panel04",
+      "output_file": "assets/panels/prologue-p20-panel04.png",
+      "selected_run": "generation/runs/prologue-p20-panel04.json",
+      "sha256": "a2e958fe44abb16804225864b049fa5161653362870534c448817f26089cafac",
+      "dimensions": {
+        "width": 1160,
+        "height": 1356
+      },
+      "holder": {
+        "x": 0,
+        "y": 767,
+        "width": 431,
+        "height": 501
+      },
+      "review": "Visual inspection of lettering, fixed-holder crop, Veymarch crimson/silver heraldry, fleet counts and character continuity. New prize captains are ordinary officers; Oram is a destination, not captured."
+    },
+    {
+      "id": "prologue-p20-panel05",
+      "output_file": "assets/panels/prologue-p20-panel05.png",
+      "selected_run": "generation/runs/prologue-p20-panel05.json",
+      "sha256": "67b979e9c0a79342e21f7dd666f8aa91debb204b23508655d8857b2a9eafc9da",
+      "dimensions": {
+        "width": 1264,
+        "height": 1244
+      },
+      "holder": {
+        "x": 441,
+        "y": 767,
+        "width": 511,
+        "height": 501
+      },
+      "review": "Visual inspection of lettering, fixed-holder crop, Veymarch crimson/silver heraldry, fleet counts and character continuity. New prize captains are ordinary officers; Oram is a destination, not captured."
     }
   ]
 }

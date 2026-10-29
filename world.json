@@ -88,7 +88,7 @@
       "opponent_duchy_id": "auric-reach",
       "target_character_id": "rovan-vey",
       "capital_ships_dispatched": 3,
-      "status": "All three Auric Bastions capitulate; crews surrender and Rovan takes the ships.",
+      "status": "Rovan repairs and repaints his prizes at New Frontier, appoints three naval captains, gains volunteers and sails his four-ship fleet for Oram.",
       "battle_outcome": "Rovan captures Josephine, Serenity and Serendipity in one battle.",
       "opponent_total_capital_ship_count": null,
       "planned_battlefield_id": "shattered-plains",
@@ -125,7 +125,15 @@
       "captured_capital_ship_count": 3,
       "owned_capital_ships_after_battle": 4,
       "operational_capital_ships_after_battle": null,
-      "admiral_sentence": "Admiral Joseph is sentenced to be thrown overboard for arrogant, reckless command; the sentence is pronounced on page19."
+      "admiral_sentence": "Admiral Joseph is sentenced to be thrown overboard for arrogant, reckless command; the sentence is pronounced on page19.",
+      "staging_port_id": "auric-latest-captured-city",
+      "next_objective_location_id": "oram",
+      "current_operational_capital_ship_count": 4,
+      "prize_captain_ids": [
+        "mara-voss",
+        "idris-vale",
+        "tomas-kest"
+      ]
     },
     "historical_milestone": {
       "event": "First capture of another duchy’s capital ships in the history of the shattered world.",
@@ -383,7 +391,8 @@
       },
       "ruler_id": "auric-ruler",
       "political_history": "A wealthy neighbouring trading duchy. Rovan seizes its Caravan and captures one of its barons’ cities. Its ruler dispatches three capital ships toward Rovan.",
-      "other_details_status": "Unspecified unless explicitly recorded here."
+      "other_details_status": "Unspecified unless explicitly recorded here.",
+      "capital_location_id": "oram"
     },
     {
       "id": "ironveil",
@@ -532,11 +541,21 @@
     },
     {
       "id": "auric-latest-captured-city",
-      "name": null,
-      "description": "The second small Auric Reach city captured with the five silver captains; the Argonaut’s departure point.",
+      "name": "New Frontier",
+      "description": "The conquered Auric Reach harbour settlement that Rovan renames New Frontier, a foothold for his advance into the Reach.",
       "duchy_id": "auric-reach",
-      "current_control": "Captured by Rovan; its civilian inhabitants expect him to lose against the approaching three Bastions.",
-      "role": "Departure point before the Shattered Plains encounter."
+      "current_control": "Held by Rovan; his fleet returns, repairs and repaints the prizes, and recruits volunteers here.",
+      "role": "Rovan’s new staging harbour for the campaign toward Oram.",
+      "renamed_by_id": "rovan-vey",
+      "naming_meaning": "Rovan calls it his new frontier for conquering Auric Reach."
+    },
+    {
+      "id": "oram",
+      "name": "Oram",
+      "duchy_id": "auric-reach",
+      "role": "Capital city of Auric Reach and next objective of Rovan’s four-ship fleet.",
+      "current_control": "Auric Reach; the fleet has not yet arrived or conquered it.",
+      "exact_coordinates": null
     }
   ],
   "characters_file": "character.json",
@@ -647,6 +666,12 @@
       "event": "Josephine, Serenity and Serendipity capitulate without another fight. Crews lay down arms; Rovan sentences Joseph to be thrown overboard, takes the ships, orders prize crews and repairs, and his troops celebrate the first-ever capture of enemy capital ships—three in one battle.",
       "battle_outcome": "Three enemy capitals captured; four owned including the original Argonaut.",
       "admiral_fate_depicted": "Sentence and escort toward the rail; its execution is not shown."
+    },
+    {
+      "order": 22,
+      "page": 20,
+      "event": "Rovan brings all four ships back to the conquered harbour and renames it New Frontier. He and Grievous resolve to use the opportunity. Volunteers arrive from Auric Reach and Veymarch; the prizes are repaired and repainted. Mara Voss takes Josephine, Idris Vale Serenity, and Tomas Kest Serendipity. All four ships sail toward Oram, Auric Reach’s capital.",
+      "destination_reached": false
     }
   ],
   "publication": {
@@ -663,8 +688,8 @@
         "title": "Prologue",
         "status": "available",
         "reader": "prologue.html",
-        "page_count": 19,
-        "panel_count": 62,
+        "page_count": 20,
+        "panel_count": 67,
         "pages": [
           {
             "number": 1,
@@ -1771,6 +1796,92 @@
                 "lettering_mode": "baked"
               }
             ]
+          },
+          {
+            "number": 20,
+            "title": "New Frontier",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p20-panel01",
+                "caption": "New Frontier.",
+                "narration": "Rovan brought all four ships back to the harbour. This would be his foothold in Auric Reach.",
+                "priority": 2,
+                "image_description": "Rovan’s four capital ships return to the conquered harbour he names New Frontier.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 245
+                },
+                "scene_id": "prologue-p20-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p20-panel02",
+                "caption": "An opening.",
+                "narration": "Rovan: “We’ve never had a chance like this. We can’t let it go.”\nGrievous: “Then we move while the Reach is still reeling.”",
+                "priority": 5,
+                "image_description": "Rovan and General Grievous recognise the opportunity at New Frontier.",
+                "holder": {
+                  "x": 0,
+                  "y": 255,
+                  "width": 582,
+                  "height": 502
+                },
+                "scene_id": "prologue-p20-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p20-panel03",
+                "caption": "They came to enlist.",
+                "narration": "Word of the ships brought volunteers from Auric Reach and Veymarch. Repairs and fresh paint went on around them.",
+                "priority": 3,
+                "image_description": "Volunteers enlist while crews repair and repaint the three captured Bastions.",
+                "holder": {
+                  "x": 592,
+                  "y": 255,
+                  "width": 360,
+                  "height": 502
+                },
+                "scene_id": "prologue-p20-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p20-panel04",
+                "caption": "Three commands.",
+                "narration": "Captain Mara Voss took Josephine; Idris Vale, Serenity; Tomas Kest, Serendipity.",
+                "priority": 4,
+                "image_description": "Rovan appoints three new naval captains, including Captain Mara Voss.",
+                "holder": {
+                  "x": 0,
+                  "y": 767,
+                  "width": 431,
+                  "height": 501
+                },
+                "scene_id": "prologue-p20-panel04",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 5,
+                "asset_id": "prologue-p20-panel05",
+                "caption": "For Oram.",
+                "narration": "Four ships cleared New Frontier. Ahead lay Oram, the capital of Auric Reach.",
+                "priority": 5,
+                "image_description": "The four-ship fleet sails from New Frontier toward Oram.",
+                "holder": {
+                  "x": 441,
+                  "y": 767,
+                  "width": 511,
+                  "height": 501
+                },
+                "scene_id": "prologue-p20-panel05",
+                "lettering_mode": "baked"
+              }
+            ]
           }
         ],
         "json_file": "chapters/prologue.json"
@@ -1807,7 +1918,9 @@
     "Baron": "A ruler whose power grew from Magneton extraction, ships and trade.",
     "Capital ship": "The rarest and most expensive military airship class.",
     "Magnetic motor": "An engine using opposing polarities in city and transport systems.",
-    "Shattered Plains": "Rock-choked sky with strong magnetic fields; difficult flying terrain chosen by Rovan to split the enemy Bastions."
+    "Shattered Plains": "Rock-choked sky with strong magnetic fields; difficult flying terrain chosen by Rovan to split the enemy Bastions.",
+    "New Frontier": "Rovan’s name for the conquered harbour, his new foothold for the Auric Reach campaign.",
+    "Oram": "Capital city of Auric Reach; next destination of Rovan’s fleet."
   },
   "open_questions": [
     "Exact dates and elapsed generations",
@@ -3352,6 +3465,116 @@
       ]
     },
     {
+      "id": "prologue-p20-panel01",
+      "file": "assets/panels/prologue-p20-panel01.png",
+      "title": "Prologue P20 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3270109,
+      "sha256": "84c40a7b98ec7806d43081ad268eedfb6e3295f3ec89132513bc58eebb32c836",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 20,
+          "panel": 1,
+          "description": "Rovan’s four capital ships return to the conquered harbour he names New Frontier."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p20-panel02",
+      "file": "assets/panels/prologue-p20-panel02.png",
+      "title": "Prologue P20 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1344,
+        "height": 1170
+      },
+      "byte_size": 3182317,
+      "sha256": "0620da56aba661a46a1fd552e2bfd4d87bf46c4a4fdb74a0c2037782eba06af7",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 20,
+          "panel": 2,
+          "description": "Rovan and General Grievous recognise the opportunity at New Frontier."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p20-panel03",
+      "file": "assets/panels/prologue-p20-panel03.png",
+      "title": "Prologue P20 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1064,
+        "height": 1478
+      },
+      "byte_size": 3466868,
+      "sha256": "27909f310f65c8f01adcc3e4f8859dbff7d002e0684e6c8a41a5ece4515bbd54",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 20,
+          "panel": 3,
+          "description": "Volunteers enlist while crews repair and repaint the three captured Bastions."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p20-panel04",
+      "file": "assets/panels/prologue-p20-panel04.png",
+      "title": "Prologue P20 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1160,
+        "height": 1356
+      },
+      "byte_size": 2818288,
+      "sha256": "a2e958fe44abb16804225864b049fa5161653362870534c448817f26089cafac",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 20,
+          "panel": 4,
+          "description": "Rovan appoints three new naval captains, including Captain Mara Voss."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p20-panel05",
+      "file": "assets/panels/prologue-p20-panel05.png",
+      "title": "Prologue P20 Panel05",
+      "category": "comic",
+      "dimensions": {
+        "width": 1264,
+        "height": 1244
+      },
+      "byte_size": 3452366,
+      "sha256": "67b979e9c0a79342e21f7dd666f8aa91debb204b23508655d8857b2a9eafc9da",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 20,
+          "panel": 5,
+          "description": "The four-ship fleet sails from New Frontier toward Oram."
+        }
+      ]
+    },
+    {
       "id": "schooner-kestrel",
       "file": "assets/schooner-kestrel.png",
       "title": "Kestrel",
@@ -3429,7 +3652,7 @@
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with nineteen pages and 62 distinct panel images.",
+    "There is one available story entry, Prologue, with twenty pages and 67 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
     "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
@@ -3451,9 +3674,12 @@
     "The five silver captains have titles, not established personal names: Stormlance, Windblade, Bulwark, Riftwalker and Hullbreaker. These are the same five people, not additional Type C sets.",
     "The Bulwark remains aboard Argonaut. Stormlance and Windblade attack Serenity with commandos; Riftwalker and Hullbreaker attack Serendipity.",
     "Serenity and Serendipity are disabled during the boarding attacks; all three Bastions are captured intact after surrender on page19. Repairs are still required.",
-    "Rovan’s original capital-ship count remains one; after capturing three on page19 he owns four. Operational readiness after battle is not established.",
+    "Rovan’s original capital-ship count remains one; after capturing three on page19 he owns four. Immediate post-battle readiness is unspecified on page19; all four are repaired and sailing by page20.",
     "This is the first historical capture of another duchy’s capital ships; Rovan takes three in one battle.",
-    "Joseph’s overboard sentence is pronounced, but its execution is not depicted on page19."
+    "Joseph’s overboard sentence is pronounced, but its execution is not depicted on page19.",
+    "The conquered harbour is renamed New Frontier by Rovan. Oram is Auric Reach’s capital, not yet captured.",
+    "Mara Voss commands Josephine, Idris Vale commands Serenity and Tomas Kest commands Serendipity. These are three new prize-crew officers, not extra Type C captains.",
+    "The three prizes are repainted crimson at New Frontier but retain their original Bastion shapes and standard armament. Only Argonaut has its distinctive wedge prow and huge refit cannons."
   ],
   "military_livery": {
     "veymarch": {
@@ -3545,13 +3771,15 @@
       "design_id": "capital-bastion",
       "class_id": "capital",
       "duchy_id": "veymarch",
-      "commander_id": null,
+      "commander_id": "mara-voss",
       "role": "Largest of the three pursuing Bastions; Joseph’s flagship and the Argonaut’s diversion target.",
-      "battle_status": "Captured intact after surrender; its crew lays down arms.",
+      "battle_status": "Captured on page19; damaged engines repaired at New Frontier before sailing on page20.",
       "original_duchy_id": "auric-reach",
       "former_commander_id": "admiral-joseph",
       "fleet_commander_id": "rovan-vey",
-      "ownership_status": "Surrendered to Rovan on page19; prize crew assigned."
+      "ownership_status": "Held by Rovan; prize captain commissioned at New Frontier.",
+      "current_livery": "Fresh crimson repaint with bronze structure and silver Veymarch shield/star insignia; original round-prowed Bastion geometry retained.",
+      "current_status": "Repaired and re-crewed at New Frontier; sails for Oram on page20."
     },
     {
       "id": "serenity",
@@ -3559,13 +3787,15 @@
       "design_id": "capital-bastion",
       "class_id": "capital",
       "duchy_id": "veymarch",
-      "commander_id": null,
+      "commander_id": "idris-vale",
       "fleet_commander_id": "rovan-vey",
       "role": "Bastion ambushed by the Stormlance, Windblade and Veymarch commandos.",
-      "battle_status": "Captured intact after surrender; engine damage still needs repair.",
+      "battle_status": "Captured on page19; damaged engines repaired at New Frontier before sailing on page20.",
       "original_duchy_id": "auric-reach",
       "former_commander_id": null,
-      "ownership_status": "Surrendered to Rovan on page19; prize crew assigned."
+      "ownership_status": "Held by Rovan; prize captain commissioned at New Frontier.",
+      "current_livery": "Fresh crimson repaint with bronze structure and silver Veymarch shield/star insignia; original round-prowed Bastion geometry retained.",
+      "current_status": "Repaired and re-crewed at New Frontier; sails for Oram on page20."
     },
     {
       "id": "serendipity",
@@ -3573,13 +3803,15 @@
       "design_id": "capital-bastion",
       "class_id": "capital",
       "duchy_id": "veymarch",
-      "commander_id": null,
+      "commander_id": "tomas-kest",
       "fleet_commander_id": "rovan-vey",
       "role": "Bastion attacked by the Riftwalker and Hullbreaker.",
-      "battle_status": "Captured intact after surrender; engine damage still needs repair.",
+      "battle_status": "Captured on page19; damaged engines repaired at New Frontier before sailing on page20.",
       "original_duchy_id": "auric-reach",
       "former_commander_id": null,
-      "ownership_status": "Surrendered to Rovan on page19; prize crew assigned."
+      "ownership_status": "Held by Rovan; prize captain commissioned at New Frontier.",
+      "current_livery": "Fresh crimson repaint with bronze structure and silver Veymarch shield/star insignia; original round-prowed Bastion geometry retained.",
+      "current_status": "Repaired and re-crewed at New Frontier; sails for Oram on page20."
     }
   ]
 }

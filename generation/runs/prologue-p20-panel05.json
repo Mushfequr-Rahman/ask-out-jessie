@@ -1,0 +1,19 @@
+{
+  "id": "prologue-p20-panel05",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/prologue-p20-panel05.json",
+  "output_file": "assets/panels/prologue-p20-panel05.png",
+  "generated_original": "/workspace/generated_images/exec-ced7b34a-7d62-4c66-aec3-f110b774ed16.png",
+  "source_hashes": {
+    "world.json": "b7e112e67aa57dc0b53bf22c40e9e1635f41980473ebe33d48ea7d089e566364",
+    "character.json": "ecd4c98248ac005d429aeb28b8b6270990ee19d67bb9a2656dacf769bd01b7dd",
+    "objects.json": "68465861f758537c4ebabcd53f011d02178a65ad5074c31473934147a6f1d4ac",
+    "scene": "c1eb2dd33d0916d6ae7b8a153eeb6b04651b10537ccb20fb04d65e281a99d3de"
+  },
+  "holder": {
+    "x": 441,
+    "y": 767,
+    "width": 511,
+    "height": 501
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "characters": [
+    {
+      "id": "rovan-vey",
+      "name": "Rovan Vey",
+      "title": "Duke",
+      "duchy_id": "veymarch",
+      "status": "A duke in name only at the opening",
+      "rise_to_power": "Protected other cities and their ships from pirates.",
+      "initial_condition": "Depleted fleet, few resources, unable to pay his soldiers despite their sacrifices.",
+      "motivation": "Resents wealthy rulers who benefited from his protection and declares he will define his own future and take what is his.",
+      "key_quote": "I will define my own future. We sail for Auric Reach. I will take what is mine.",
+      "military": {
+        "initial_capital_ship_count": 1,
+        "capital_design_id": "capital-bastion",
+        "seized_merchant_design_id": "trader-caravan",
+        "veterans": "Exceptionally well trained",
+        "recruitment": "Funded and equipped from seized resources; veterans drill recruits",
+        "total_soldier_count": null,
+        "captured_ship_count": null,
+        "flagship_id": "argonaut",
+        "captured_capital_ship_count": 3,
+        "current_owned_capital_ship_count": 4,
+        "current_operational_capital_ship_count": 4
+      },
+      "exclusive_knowledge": "Secret Type C crafting knowledge gained through experience",
+      "visual_concept": {
+        "status": "provisional artwork, not established biography",
+        "appearance": "Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf"
+      },
+      "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.",
+      "reference_images": [
+        "references/panels/duke-seizure-crimson.png"
+      ]
+    },
+    {
+      "id": "general-grievous",
+      "name": "General Grievous",
+      "role": "Rovan’s right-hand man",
+      "relationship_to_rovan": "Shares the fleet accounts, hears his frustration, and accompanies his seizure and campaign.",
+      "origin_and_history": null,
+      "visual_concept": {
+        "status": "provisional project artwork, not established species or biography",
+        "appearance": "Older bald human officer with a grey moustache, dark olive coat and bronze epaulettes"
+      },
+      "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.",
+      "reference_images": [
+        "references/panels/duke-seizure-crimson.png"
+      ]
+    },
+    {
+      "id": "honour-guard",
+      "name": "Rovan’s five honour-guard captains",
+      "member_count": 5,
+      "individual_names": null,
+      "equipment": {
+        "metal_id": "type-c",
+        "armour_colour": "silvery",
+        "weapon_protection": "Impenetrable and impervious to weapons",
+        "complete_armour_and_weapon_sets": 5,
+        "armour_construction": "Practical man-made brushed silver with tool marks and restrained machined details; sealed continuous coverage with no joints or gaps.",
+        "weapon_ids": [
+          "condenser-lance",
+          "field-broadsword",
+          "wind-twin-swords",
+          "shield-warhammer",
+          "point-scythe"
+        ],
+        "armour_detail": "Brushed silver shells with narrow aged brass edging, small fittings and chased geometric details. Crimson enamel badges show Veymarch’s silver broken shield and eight-point star.",
+        "house_badge_duchy_id": "veymarch"
+      },
+      "mobility": "Drift along magnetic fields and leap between ships",
+      "source_asset_id": "prologue-p09-panel02",
+      "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal.",
+      "visual_profiles": [
+        {
+          "weapon_id": "condenser-lance",
+          "build": "Tall and lean",
+          "helmet": "Narrow, round-topped closed welding-mask shape",
+          "captain_id": "captain-stormlance",
+          "title": "The Stormlance"
+        },
+        {
+          "weapon_id": "field-broadsword",
+          "build": "Broad and stocky",
+          "helmet": "Blunt rectangular closed helmet",
+          "captain_id": "captain-hullbreaker",
+          "title": "The Hullbreaker"
+        },
+        {
+          "weapon_id": "wind-twin-swords",
+          "build": "Slight and agile",
+          "helmet": "Streamlined closed flight helmet",
+          "captain_id": "captain-windblade",
+          "title": "The Windblade"
+        },
+        {
+          "weapon_id": "shield-warhammer",
+          "build": "Heavy, barrel-chested",
+          "helmet": "Low rounded closed dome",
+          "captain_id": "captain-bulwark",
+          "title": "The Bulwark"
+        },
+        {
+          "weapon_id": "point-scythe",
+          "build": "Tall and slender",
+          "helmet": "Elongated plain closed hood-like shell",
+          "captain_id": "captain-riftwalker",
+          "title": "The Riftwalker"
+        }
+      ],
+      "reference_images": [
+        "references/panels/type-c-seamless-five-heraldic.png"
+      ],
+      "member_ids": [
+        "captain-stormlance",
+        "captain-hullbreaker",
+        "captain-windblade",
+        "captain-bulwark",
+        "captain-riftwalker"
+      ]
+    },
+    {
+      "id": "auric-ruler",
+      "name": null,
+      "title": "Ruler of Auric Reach",
+      "duchy_id": "auric-reach",
+      "role": "Rovan’s opponent",
+      "current_action": "Dispatches three capital ships toward Rovan",
+      "visual_concept": {
+        "status": "provisional artwork; name and biography are unestablished",
+        "appearance": "An adult ruler in gold and navy, partly shadowed, beneath the Auric Reach balance banner"
+      },
+      "reference_images": [
+        "references/panels/auric-counterorder.png"
+      ]
+    },
+    {
+      "id": "veymarch-courier",
+      "name": "The schooner courier",
+      "role": "Unnamed Veymarch messenger who warns Rovan that three Auric Reach Bastions are approaching.",
+      "duchy_id": "veymarch",
+      "visual_concept": {
+        "appearance": "Young adult human messenger with short brown hair, flying goggles pushed onto forehead, worn bronze flight jacket over a crimson base layer; no silver armour."
+      },
+      "uniform_standard": "Practical bronze and leather flight gear over crimson cloth; Veymarch affiliation.",
+      "reference_images": []
+    },
+    {
+      "id": "auric-city-onlookers",
+      "name": "The conquered city’s onlookers",
+      "role": "Unnamed civilian inhabitants who watch the Argonaut depart and assume Rovan will lose.",
+      "visual_concept": {
+        "appearance": "A small mixed group of adult civilians in plain worn work coats, wool scarves and everyday clothes; no military uniforms or silver armour."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "veymarch-engineers",
+      "name": "Rovan’s engineers",
+      "role": "The engineers and dockworkers who refit the Argonaut in fourteen days using the new resources.",
+      "duchy_id": "veymarch",
+      "visual_concept": {
+        "appearance": "Chief engineer: middle-aged human woman, grey hair tied back, round goggles on forehead, crimson work shirt, brown leather apron, practical gloves. Other engineers wear simple workshop clothes, no silver armour."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "admiral-joseph",
+      "name": "Admiral Joseph",
+      "title": "Admiral",
+      "role": "Arrogant Auric Reach fleet commander pursuing Rovan with three Bastions.",
+      "duchy_id": "auric-reach",
+      "motivation": "Greed: he expects a duchy of his own if he defeats Rovan. This is his ambition, not an established promise by the ruler.",
+      "conduct": "Ignores his sailors’ warnings about the strong magnetic fields and difficult rock passages.",
+      "visual_concept": {
+        "appearance": "Broad, clean-shaven middle-aged human officer with a square jaw, slicked-back iron-grey hair, thick grey eyebrows, a brass monocle over his right eye and a high-collared navy uniform with ornate gold epaulettes. NOT bald, no beard, distinct from Rovan and Grievous."
+      },
+      "uniform_standard": "Auric Reach navy coat and gold trim; no crimson Veymarch clothing.",
+      "reference_images": [
+        "assets/panels/prologue-p16-panel02.png"
+      ],
+      "status": "Defeated and taken prisoner; sentenced by Rovan to be thrown overboard for his arrogant, reckless command.",
+      "sentence_execution": "Not depicted; page19 shows pronouncement and escort toward the rail."
+    },
+    {
+      "id": "auric-sailors",
+      "name": "Auric Reach sailors",
+      "role": "Unnamed crew who warn Admiral Joseph that the Shattered Plains will break their formation.",
+      "duchy_id": "auric-reach",
+      "visual_concept": {
+        "appearance": "Practical human deck crew in worn navy work jackets, muted gold piping and simple caps. No ceremonial officer epaulettes or silver armour."
+      },
+      "reference_images": [],
+      "latest_status": "Crews lay down their weapons and surrender to Rovan on page19."
+    },
+    {
+      "id": "captain-stormlance",
+      "name": "The Stormlance",
+      "title": "The Stormlance",
+      "personal_name": null,
+      "role": "One of Rovan’s five silver honour-guard captains, identified by title rather than a personal name.",
+      "duchy_id": "veymarch",
+      "group_id": "honour-guard",
+      "visual_concept": {
+        "appearance": "Tall and lean; Narrow, round-topped closed welding-mask shape. Practical sealed brushed-silver Type C armour, restrained brass fittings, crimson cape and crimson enamel badges with SILVER broken shield/eight-point star."
+      },
+      "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal.",
+      "equipment": {
+        "metal_id": "type-c",
+        "weapon_ids": [
+          "condenser-lance"
+        ],
+        "armour_protection": "Impervious to weapons; no joints or gaps."
+      },
+      "reference_images": [
+        "assets/panels/prologue-p18-panel02.png"
+      ],
+      "current_assignment": "serenity",
+      "source_asset_id": "prologue-p18-panel02"
+    },
+    {
+      "id": "captain-hullbreaker",
+      "name": "The Hullbreaker",
+      "title": "The Hullbreaker",
+      "personal_name": null,
+      "role": "One of Rovan’s five silver honour-guard captains, identified by title rather than a personal name.",
+      "duchy_id": "veymarch",
+      "group_id": "honour-guard",
+      "visual_concept": {
+        "appearance": "Broad and stocky; Blunt rectangular closed helmet. Practical sealed brushed-silver Type C armour, restrained brass fittings, crimson cape and crimson enamel badges with SILVER broken shield/eight-point star."
+      },
+      "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal.",
+      "equipment": {
+        "metal_id": "type-c",
+        "weapon_ids": [
+          "field-broadsword"
+        ],
+        "armour_protection": "Impervious to weapons; no joints or gaps."
+      },
+      "reference_images": [
+        "assets/panels/prologue-p18-panel05.png"
+      ],
+      "current_assignment": "serendipity",
+      "source_asset_id": "prologue-p18-panel05"
+    },
+    {
+      "id": "captain-windblade",
+      "name": "The Windblade",
+      "title": "The Windblade",
+      "personal_name": null,
+      "role": "One of Rovan’s five silver honour-guard captains, identified by title rather than a personal name.",
+      "duchy_id": "veymarch",
+      "group_id": "honour-guard",
+      "visual_concept": {
+        "appearance": "Slight and agile; Streamlined closed flight helmet. Practical sealed brushed-silver Type C armour, restrained brass fittings, crimson cape and crimson enamel badges with SILVER broken shield/eight-point star."
+      },
+      "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal.",
+      "equipment": {
+        "metal_id": "type-c",
+        "weapon_ids": [
+          "wind-twin-swords"
+        ],
+        "armour_protection": "Impervious to weapons; no joints or gaps."
+      },
+      "reference_images": [
+        "assets/panels/prologue-p18-panel03.png"
+      ],
+      "current_assignment": "serenity",
+      "source_asset_id": "prologue-p18-panel03"
+    },
+    {
+      "id": "captain-bulwark",
+      "name": "The Bulwark",
+      "title": "The Bulwark",
+      "personal_name": null,
+      "role": "One of Rovan’s five silver honour-guard captains, identified by title rather than a personal name.",
+      "duchy_id": "veymarch",
+      "group_id": "honour-guard",
+      "visual_concept": {
+        "appearance": "Heavy, barrel-chested; Low rounded closed dome. Practical sealed brushed-silver Type C armour, restrained brass fittings, crimson cape and crimson enamel badges with SILVER broken shield/eight-point star."
+      },
+      "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal.",
+      "equipment": {
+        "metal_id": "type-c",
+        "weapon_ids": [
+          "shield-warhammer"
+        ],
+        "armour_protection": "Impervious to weapons; no joints or gaps."
+      },
+      "reference_images": [
+        "assets/panels/prologue-p17-panel03.png"
+      ],
+      "current_assignment": "argonaut",
+      "source_asset_id": "prologue-p17-panel03"
+    },
+    {
+      "id": "captain-riftwalker",
+      "name": "The Riftwalker",
+      "title": "The Riftwalker",
+      "personal_name": null,
+      "role": "One of Rovan’s five silver honour-guard captains, identified by title rather than a personal name.",
+      "duchy_id": "veymarch",
+      "group_id": "honour-guard",
+      "visual_concept": {
+        "appearance": "Tall and slender; Elongated plain closed hood-like shell. Practical sealed brushed-silver Type C armour, restrained brass fittings, crimson cape and crimson enamel badges with SILVER broken shield/eight-point star."
+      },
+      "uniform_standard": "Continuous silver coverage with no joints or gaps. Crimson capes, sashes and tabards are worn over the sealed armour; cloth is never a gap in the metal.",
+      "equipment": {
+        "metal_id": "type-c",
+        "weapon_ids": [
+          "point-scythe"
+        ],
+        "armour_protection": "Impervious to weapons; no joints or gaps."
+      },
+      "reference_images": [
+        "assets/panels/prologue-p18-panel04.png"
+      ],
+      "current_assignment": "serendipity",
+      "source_asset_id": "prologue-p18-panel04"
+    },
+    {
+      "id": "veymarch-commandos",
+      "name": "Veymarch commandos",
+      "role": "Bronze-armoured troops who wait on a floating rock and board Serenity with the Stormlance and Windblade.",
+      "duchy_id": "veymarch",
+      "visual_concept": {
+        "appearance": "Practical bronze helmets and armour over crimson work tunics, compact Tesla guns, grapnels and tethered boarding lines. Never silver Type C."
+      },
+      "reference_images": []
+    },
+    {
+      "id": "mara-voss",
+      "name": "Mara Voss",
+      "title": "Captain",
+      "personal_name": "Mara Voss",
+      "gender": "woman",
+      "command_ship_id": "josephine",
+      "visual_concept": {
+        "status": "Provisional original character design",
+        "appearance": "Brown-skinned human woman in her thirties, dark hair in one long braid, composed direct gaze, navy naval coat over crimson shirt, small bronze epaulettes and practical belt. No silver armour."
+      },
+      "duchy_id": "veymarch",
+      "role": "Newly appointed prize-crew naval captain of Josephine. A regular officer, distinct from the five silver honour-guard captains.",
+      "uniform_standard": "Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set.",
+      "reference_images": []
+    },
+    {
+      "id": "idris-vale",
+      "name": "Idris Vale",
+      "title": "Captain",
+      "personal_name": "Idris Vale",
+      "gender": "man",
+      "command_ship_id": "serenity",
+      "visual_concept": {
+        "status": "Provisional original character design",
+        "appearance": "Tall dark-skinned human man, close-cropped black curls, short full black beard, navy naval coat with crimson collar and rolled cuffs, modest bronze fittings. No silver armour."
+      },
+      "duchy_id": "veymarch",
+      "role": "Newly appointed prize-crew naval captain of Serenity. A regular officer, distinct from the five silver honour-guard captains.",
+      "uniform_standard": "Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set.",
+      "reference_images": []
+    },
+    {
+      "id": "tomas-kest",
+      "name": "Tomas Kest",
+      "title": "Captain",
+      "personal_name": "Tomas Kest",
+      "gender": "man",
+      "command_ship_id": "serendipity",
+      "visual_concept": {
+        "status": "Provisional original character design",
+        "appearance": "Stocky light-tan-skinned human man, straight cropped black hair with grey temples, clean-shaven face, square brass-framed spectacles, navy naval coat over crimson and practical leather gloves. No monocle or silver armour."
+      },
+      "duchy_id": "veymarch",
+      "role": "Newly appointed prize-crew naval captain of Serendipity. A regular officer, distinct from the five silver honour-guard captains.",
+      "uniform_standard": "Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set.",
+      "reference_images": []
+    },
+    {
+      "id": "new-frontier-recruits",
+      "name": "New Frontier volunteers",
+      "duchy_id": "veymarch",
+      "origin_duchy_ids": [
+        "auric-reach",
+        "veymarch"
+      ],
+      "role": "People from Auric Reach and Rovan’s home duchy who come to join him after seeing his captured fleet.",
+      "visual_concept": {
+        "appearance": "A varied crowd of human women and men in ordinary travelling clothes and work coats, carrying small packs and lining up to enlist. Recruits are not prisoners; no silver armour."
+      },
+      "reference_images": []
+    }
+  ]
+}

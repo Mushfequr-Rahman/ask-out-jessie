@@ -2545,6 +2545,209 @@
       ],
       "footer": "PROLOGUE · THREE PRIZES",
       "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 20,
+      "Title": "New Frontier",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p20-panel01.png",
+          "caption": "New Frontier.",
+          "narration": "Rovan brought all four ships back to the harbour. This would be his foothold in Auric Reach.",
+          "image_alt": "Rovan’s four capital ships return to the conquered harbour he names New Frontier.",
+          "priority": 2,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 245
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "New Frontier.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Rovan brought all four ships back to the harbour. This would be his foothold in Auric Reach.",
+              "bounds": {
+                "x": 250,
+                "y": 153,
+                "width": 682,
+                "height": 64
+              }
+            }
+          ],
+          "scene_id": "prologue-p20-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p20-panel02.png",
+          "caption": "An opening.",
+          "narration": "Rovan: “We’ve never had a chance like this. We can’t let it go.”\nGrievous: “Then we move while the Reach is still reeling.”",
+          "image_alt": "Rovan and General Grievous recognise the opportunity at New Frontier.",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 255,
+            "width": 582,
+            "height": 502
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "An opening.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “We’ve never had a chance like this. We can’t let it go.”",
+              "bounds": {
+                "x": 14,
+                "y": 300,
+                "width": 554,
+                "height": 82
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Grievous: “Then we move while the Reach is still reeling.”",
+              "bounds": {
+                "x": 14,
+                "y": 392,
+                "width": 554,
+                "height": 82
+              }
+            }
+          ],
+          "scene_id": "prologue-p20-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p20-panel03.png",
+          "caption": "They came to enlist.",
+          "narration": "Word of the ships brought volunteers from Auric Reach and Veymarch. Repairs and fresh paint went on around them.",
+          "image_alt": "Volunteers enlist while crews repair and repaint the three captured Bastions.",
+          "priority": 3,
+          "holder": {
+            "x": 592,
+            "y": 255,
+            "width": 360,
+            "height": 502
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "They came to enlist.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 200,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Word of the ships brought volunteers from Auric Reach and Veymarch. Repairs and fresh paint went on around them.",
+              "bounds": {
+                "x": 14,
+                "y": 360,
+                "width": 332,
+                "height": 114
+              }
+            }
+          ],
+          "scene_id": "prologue-p20-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p20-panel04.png",
+          "caption": "Three commands.",
+          "narration": "Captain Mara Voss took Josephine; Idris Vale, Serenity; Tomas Kest, Serendipity.",
+          "image_alt": "Rovan appoints three new naval captains, including Captain Mara Voss.",
+          "priority": 4,
+          "holder": {
+            "x": 0,
+            "y": 767,
+            "width": 431,
+            "height": 501
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Three commands.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Captain Mara Voss took Josephine; Idris Vale, Serenity; Tomas Kest, Serendipity.",
+              "bounds": {
+                "x": 14,
+                "y": 359,
+                "width": 403,
+                "height": 114
+              }
+            }
+          ],
+          "scene_id": "prologue-p20-panel04",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p20-panel05.png",
+          "caption": "For Oram.",
+          "narration": "Four ships cleared New Frontier. Ahead lay Oram, the capital of Auric Reach.",
+          "image_alt": "The four-ship fleet sails from New Frontier toward Oram.",
+          "priority": 5,
+          "holder": {
+            "x": 441,
+            "y": 767,
+            "width": 511,
+            "height": 501
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "For Oram.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Four ships cleared New Frontier. Ahead lay Oram, the capital of Auric Reach.",
+              "bounds": {
+                "x": 14,
+                "y": 391,
+                "width": 483,
+                "height": 82
+              }
+            }
+          ],
+          "scene_id": "prologue-p20-panel05",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · NEW FRONTIER",
+      "layout_mode": "fixed"
     }
   ]
 }

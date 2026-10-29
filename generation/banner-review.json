@@ -347,6 +347,41 @@
           "panel": 5,
           "file": "assets/panels/prologue-p19-panel05.png",
           "sha256": "70ecccbc8b719a1c7beecf28786ae83d0cff39ca82c8f017a0bb23e25bc7a99d"
+        },
+        {
+          "id": "prologue-p20-panel01",
+          "page": 20,
+          "panel": 1,
+          "file": "assets/panels/prologue-p20-panel01.png",
+          "sha256": "84c40a7b98ec7806d43081ad268eedfb6e3295f3ec89132513bc58eebb32c836"
+        },
+        {
+          "id": "prologue-p20-panel02",
+          "page": 20,
+          "panel": 2,
+          "file": "assets/panels/prologue-p20-panel02.png",
+          "sha256": "0620da56aba661a46a1fd552e2bfd4d87bf46c4a4fdb74a0c2037782eba06af7"
+        },
+        {
+          "id": "prologue-p20-panel03",
+          "page": 20,
+          "panel": 3,
+          "file": "assets/panels/prologue-p20-panel03.png",
+          "sha256": "27909f310f65c8f01adcc3e4f8859dbff7d002e0684e6c8a41a5ece4515bbd54"
+        },
+        {
+          "id": "prologue-p20-panel04",
+          "page": 20,
+          "panel": 4,
+          "file": "assets/panels/prologue-p20-panel04.png",
+          "sha256": "a2e958fe44abb16804225864b049fa5161653362870534c448817f26089cafac"
+        },
+        {
+          "id": "prologue-p20-panel05",
+          "page": 20,
+          "panel": 5,
+          "file": "assets/panels/prologue-p20-panel05.png",
+          "sha256": "67b979e9c0a79342e21f7dd666f8aa91debb204b23508655d8857b2a9eafc9da"
         }
       ]
     },
@@ -720,5 +755,5 @@
     "Check cloth hue, emblem and trim separately under the scene lighting",
     "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
   ],
-  "revision": "09710c69c3cb3ea9650b59c972e38251fdf11a48ff4c779db72ba337a932f29a"
+  "revision": "73f737e7fbd8d99d3e7cc8bbdc917ac33b2eba6fa7fabd4a72bd1895d9caf7a6"
 }

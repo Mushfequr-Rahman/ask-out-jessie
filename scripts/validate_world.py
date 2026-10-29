@@ -58,9 +58,22 @@ for character in characters:
 location_ids={location['id'] for location in world['locations']}
 assert len(location_ids)==len(world['locations']), 'Duplicate location IDs'
 for duchy in duchies:
+    if duchy.get('capital_location_id'):
+        assert duchy['capital_location_id'] in location_ids, 'Unknown duchy capital'
     if duchy.get('ruler_id') is not None:
         assert duchy['ruler_id'] in character_ids, 'Unknown duchy ruler'
 conflict = world['society'].get('current_conflict', {})
+for field in ['staging_port_id', 'next_objective_location_id']:
+    if conflict.get(field):
+        assert conflict[field] in location_ids, 'Unknown campaign location'
+if conflict.get('prize_captain_ids'):
+    captains = conflict['prize_captain_ids']
+    assert len(set(captains)) == len(captains) == 3, 'Exactly three prize captains'
+    officers = [c for c in characters if c['id'] in captains]
+    assert len(officers) == 3 and all(c.get('group_id') != 'honour-guard' for c in officers), 'Prize captains are separate naval officers'
+    assert {c['command_ship_id'] for c in officers} == set(conflict['captured_ship_ids']), 'Each prize needs one captain'
+    for c in officers:
+        assert next(s for s in named_ships if s['id'] == c['command_ship_id'])['commander_id'] == c['id'], 'Captain and ship command disagree'
 if 'target_character_id' in conflict:
     assert conflict['target_character_id'] in character_ids, 'Unknown conflict target'
 if 'opponent_commander_id' in conflict:

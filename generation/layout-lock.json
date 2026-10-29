@@ -382,6 +382,36 @@
       "y": 767,
       "width": 511,
       "height": 501
+    },
+    "prologue-p20-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 245
+    },
+    "prologue-p20-panel02": {
+      "x": 0,
+      "y": 255,
+      "width": 582,
+      "height": 502
+    },
+    "prologue-p20-panel03": {
+      "x": 592,
+      "y": 255,
+      "width": 360,
+      "height": 502
+    },
+    "prologue-p20-panel04": {
+      "x": 0,
+      "y": 767,
+      "width": 431,
+      "height": 501
+    },
+    "prologue-p20-panel05": {
+      "x": 441,
+      "y": 767,
+      "width": 511,
+      "height": 501
     }
   },
   "extensions": [
@@ -418,6 +448,13 @@
       ],
       "source_commit": "19babf3",
       "method": "Reuse the fixed five-panel template for surrender, disarmament, sentence, prize command and celebration; frozen before generation."
+    },
+    {
+      "pages": [
+        20
+      ],
+      "source_commit": "154a1f7",
+      "method": "Fixed five-panel page for return, opportunity, volunteers/repaint, commissions and four-ship departure; apertures frozen before generation."
     }
   ]
 }

@@ -3429,6 +3429,282 @@
         "This is the same three captured ships, not three additional ships. Rovan owns four capitals total including Argonaut; operational repairs are still needed.",
         "The overboard sentence is shown as spoken and escorted toward the rail, not as a graphic execution."
       ]
+    },
+    {
+      "id": "prologue-p20-panel01",
+      "chapter_id": "prologue",
+      "page_number": 20,
+      "panel_number": 1,
+      "description": "Rovan’s four capital ships return to the conquered harbour he names New Frontier. TECHNICAL: Wide establishing view of a floating industrial harbour with bronze mooring towers, cranes and layered stone quays. Exactly FOUR capital ships arrive: one dominant crimson wedge-prowed Argonaut with its huge heavy cannons, and THREE standard bronze round-prowed captured Bastions still awaiting crimson hull repainting. All four carry CRIMSON flags with SILVER Veymarch shield/star. No fifth vessel or extra background airships. This is the SAME previously conquered small port, now a staging base, not Oram. No white surrender flags remain aloft. Keep all four hulls/flags inside the central horizontal aperture; caption and narration must be fully crop-safe.",
+      "character_ids": [],
+      "object_ids": [
+        "argonaut",
+        "captured-bastions",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 245
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "New Frontier.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Rovan brought all four ships back to the harbour. This would be his foothold in Auric Reach.",
+          "bounds": {
+            "x": 250,
+            "y": 153,
+            "width": 682,
+            "height": 64
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p20-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Only FOUR owned capital ships exist in this fleet: Argonaut plus the three captured prizes. Respect the smaller count of ships requested for close-up shots.",
+        "The new prize captains are three ordinary naval officers, not additional silver knights. No Type C armour in these shots.",
+        "All raised house flags are Veymarch CRIMSON with SILVER shield/star. Fresh paint does not turn the standard prizes into Argonaut duplicates.",
+        "New Frontier is the conquered harbour. Oram is the next destination and is not yet reached or captured."
+      ]
+    },
+    {
+      "id": "prologue-p20-panel02",
+      "chapter_id": "prologue",
+      "page_number": 20,
+      "panel_number": 2,
+      "description": "Rovan and General Grievous recognise the opportunity at New Frontier. TECHNICAL: Exactly TWO foreground officers overlooking their newly occupied dock. Rovan black hair/silver streak, short beard, navy coat/crimson base; Grievous older bald HUMAN with grey moustache, olive officer coat/crimson base. They speak quietly and urgently beside the harbour chart table. Exactly ONE Argonaut may be visible moored in background, not a whole fleet crammed behind the faces. Crimson/silver Veymarch banner. Rovan speaks first, general answers, tails to correct faces. Show ambition and practical urgency. No silver captains in this shot, no new officers.",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "argonaut",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 255,
+        "width": 582,
+        "height": 502
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "An opening.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “We’ve never had a chance like this. We can’t let it go.”",
+          "bounds": {
+            "x": 14,
+            "y": 300,
+            "width": 554,
+            "height": 82
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Grievous: “Then we move while the Reach is still reeling.”",
+          "bounds": {
+            "x": 14,
+            "y": 392,
+            "width": 554,
+            "height": 82
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p20-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Only FOUR owned capital ships exist in this fleet: Argonaut plus the three captured prizes. Respect the smaller count of ships requested for close-up shots.",
+        "The new prize captains are three ordinary naval officers, not additional silver knights. No Type C armour in these shots.",
+        "All raised house flags are Veymarch CRIMSON with SILVER shield/star. Fresh paint does not turn the standard prizes into Argonaut duplicates.",
+        "New Frontier is the conquered harbour. Oram is the next destination and is not yet reached or captured."
+      ]
+    },
+    {
+      "id": "prologue-p20-panel03",
+      "chapter_id": "prologue",
+      "page_number": 20,
+      "panel_number": 3,
+      "description": "Volunteers enlist while crews repair and repaint the three captured Bastions. TECHNICAL: Vertical dock montage composed as ONE continuous scene. Foreground: a varied crowd of civilian women and men arriving with packs, willingly lining up at a simple enlistment desk staffed by bronze/crimson troops. They are NOT bound prisoners. Behind them, workers on hanging gantries brush bright CRIMSON paint over old navy/bronze hull panels of a round-prowed prize Bastion, fit repaired green engine components and raise SILVER shield/star markings. Two other prizes recede into the dock depth with similar paint scaffolds; three prize ships total, no Argonaut in this shot. Keep their STANDARD guns and rounded bows, do not give them Argonaut’s wedge prow or gigantic twin turrets. No extra silver armour or knights, no invented writing on signs.",
+      "character_ids": [
+        "new-frontier-recruits"
+      ],
+      "object_ids": [
+        "repainted-bastions",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 592,
+        "y": 255,
+        "width": 360,
+        "height": 502
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "They came to enlist.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 200,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Word of the ships brought volunteers from Auric Reach and Veymarch. Repairs and fresh paint went on around them.",
+          "bounds": {
+            "x": 14,
+            "y": 360,
+            "width": 332,
+            "height": 114
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p20-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Only FOUR owned capital ships exist in this fleet: Argonaut plus the three captured prizes. Respect the smaller count of ships requested for close-up shots.",
+        "The new prize captains are three ordinary naval officers, not additional silver knights. No Type C armour in these shots.",
+        "All raised house flags are Veymarch CRIMSON with SILVER shield/star. Fresh paint does not turn the standard prizes into Argonaut duplicates.",
+        "New Frontier is the conquered harbour. Oram is the next destination and is not yet reached or captured."
+      ]
+    },
+    {
+      "id": "prologue-p20-panel04",
+      "chapter_id": "prologue",
+      "page_number": 20,
+      "panel_number": 4,
+      "description": "Rovan appoints three new naval captains, including Captain Mara Voss. TECHNICAL: Exactly FOUR foreground officers in a dockside commissioning scene: Rovan at left in three-quarter profile and THREE newly appointed prize captains facing him. Mara Voss is a brown-skinned WOMAN with one long dark braid and a composed gaze, centrally visible. Idris Vale is a tall dark-skinned man with short black curls and a short full beard. Tomas Kest is a stocky light-tan man with clean-shaven face, cropped black/grey hair and SQUARE brass-framed spectacles, not a monocle. Each wears a practical navy coat over crimson with small bronze fittings, NO silver Type C armour, NO weapons of the five knights. All four heads clear and distinct. Rovan hands over folded commission papers without any legible extra writing. Crimson Veymarch banner with SILVER crest. No General Grievous and no other officers in frame. Narration prints their three exact names and assignments.",
+      "character_ids": [
+        "rovan-vey",
+        "mara-voss",
+        "idris-vale",
+        "tomas-kest"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 767,
+        "width": 431,
+        "height": 501
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Three commands.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Captain Mara Voss took Josephine; Idris Vale, Serenity; Tomas Kest, Serendipity.",
+          "bounds": {
+            "x": 14,
+            "y": 359,
+            "width": 403,
+            "height": 114
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p20-panel04.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Only FOUR owned capital ships exist in this fleet: Argonaut plus the three captured prizes. Respect the smaller count of ships requested for close-up shots.",
+        "The new prize captains are three ordinary naval officers, not additional silver knights. No Type C armour in these shots.",
+        "All raised house flags are Veymarch CRIMSON with SILVER shield/star. Fresh paint does not turn the standard prizes into Argonaut duplicates.",
+        "New Frontier is the conquered harbour. Oram is the next destination and is not yet reached or captured."
+      ]
+    },
+    {
+      "id": "prologue-p20-panel05",
+      "chapter_id": "prologue",
+      "page_number": 20,
+      "panel_number": 5,
+      "description": "The four-ship fleet sails from New Frontier toward Oram. TECHNICAL: Dramatic departure aerial view with exactly FOUR operational capital ships under CRIMSON flags and SILVER shield/star. At front left the ONE Argonaut retains wedge prow, crimson heavy armour and its distinctive FOUR enormous cannon barrels. Behind it exactly THREE REPAINTED prizes with rounded standard Bastion bows and smaller conventional guns, green engines working after dock repair: tall-towered Josephine, slimmer Serenity and triple-engine Serendipity. Their panels are now CRIMSON but their shapes remain different from Argonaut. New Frontier’s floating dock recedes behind; open sky ahead. Do not show Oram itself or claim its conquest. No fifth vessel, no white surrender flags, no Auric gold/navy banners remaining on these repainted ships. Keep all four ship silhouettes distinct, countable and fully within the holder.",
+      "character_ids": [],
+      "object_ids": [
+        "argonaut",
+        "repainted-bastions",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 441,
+        "y": 767,
+        "width": 511,
+        "height": 501
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "For Oram.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Four ships cleared New Frontier. Ahead lay Oram, the capital of Auric Reach.",
+          "bounds": {
+            "x": 14,
+            "y": 391,
+            "width": 483,
+            "height": 82
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p20-panel05.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Only FOUR owned capital ships exist in this fleet: Argonaut plus the three captured prizes. Respect the smaller count of ships requested for close-up shots.",
+        "The new prize captains are three ordinary naval officers, not additional silver knights. No Type C armour in these shots.",
+        "All raised house flags are Veymarch CRIMSON with SILVER shield/star. Fresh paint does not turn the standard prizes into Argonaut duplicates.",
+        "New Frontier is the conquered harbour. Oram is the next destination and is not yet reached or captured."
+      ]
     }
   ]
 }

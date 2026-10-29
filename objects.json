@@ -534,7 +534,23 @@
       "constraints": [
         "Earlier fleet image supplies hull geometry only; replace old Auric flags with current Veymarch flags where capture is complete.",
         "No instant repair or new Type C hull armour. White surrender flags may coexist with lowered former house standards."
-      ]
+      ],
+      "depicted_period": "Page19 capture and the page20 arrival before dock repainting; later use repainted-bastions."
+    },
+    {
+      "id": "repainted-bastions",
+      "kind": "ship",
+      "name": "New Frontier’s repainted prizes",
+      "duchy_id": "veymarch",
+      "description": "Josephine, Serenity and Serendipity AFTER the page20 dock repairs and quick recolouring. Three standard round-prowed Bastion capital ships, now with CRIMSON painted hull panels, bronze structural ribs and SILVER Veymarch broken-shield/star insignia. They keep their original hull shapes, standard guns and distinguishing tower/engine arrangements; do NOT become three wedge-prowed Argonaut copies or gain its huge refit cannons. Fresh paint/repair crews can be shown during the dock montage.",
+      "reference_images": [
+        "assets/panels/prologue-p20-panel05.png"
+      ],
+      "constraints": [
+        "Exactly three prizes, plus the original Argonaut only if the shot explicitly calls for the whole fleet of FOUR.",
+        "The old fleet reference supplies hull geometry only; replace Auric gold/navy flags with crimson/silver Veymarch flags after repainting."
+      ],
+      "canonical_reference": "assets/panels/prologue-p20-panel05.png"
     }
   ]
 }
