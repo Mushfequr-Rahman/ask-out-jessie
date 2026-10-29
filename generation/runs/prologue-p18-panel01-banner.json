@@ -1,0 +1,8 @@
+{
+  "id": "prologue-p18-panel01",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/corrections/prologue-p18-panel01-banner.json",
+  "output_file": "assets/panels/prologue-p18-panel01.png",
+  "generated_original": "/workspace/generated_images/exec-be68d8d3-b9aa-45d7-b650-bfb246d14c05.png",
+  "reason": "Canonical Auric gold/navy scales and crop-safe lettering."
+}

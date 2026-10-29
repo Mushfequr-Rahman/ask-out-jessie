@@ -475,6 +475,48 @@
       "constraints": [
         "Exactly three enemy Bastions. Never a fourth enemy ship. No Veymarch banners on enemy ships."
       ]
+    },
+    {
+      "id": "josephine",
+      "kind": "ship",
+      "name": "Josephine",
+      "duchy_id": "auric-reach",
+      "description": "Largest standard bronze round-prowed Bastion, tall central command citadel and two narrow NAVY hull bands. GOLD flags with NAVY balance scales. No crimson plating or wedge prow. This is ONE named member of the three enemy Bastions, not another vessel.",
+      "reference_images": [
+        "assets/panels/prologue-p12-panel03.png"
+      ],
+      "world_reference": "/named_ships/1",
+      "constraints": [
+        "Show only the ship count specified by the scene. Generic fleet reference gives class ancestry; do not insert all three ships into a single-target scene."
+      ]
+    },
+    {
+      "id": "serenity",
+      "kind": "ship",
+      "name": "Serenity",
+      "duchy_id": "auric-reach",
+      "description": "Standard bronze round-prowed Bastion, slimmer hull with two large exposed green engine nacelles and a PALE IVORY identification stripe along a navy hull panel. GOLD/NAVY house banners stay unchanged. This is ONE named member of the three enemy Bastions, not another vessel.",
+      "reference_images": [
+        "assets/panels/prologue-p12-panel03.png"
+      ],
+      "world_reference": "/named_ships/2",
+      "constraints": [
+        "Show only the ship count specified by the scene. Generic fleet reference gives class ancestry; do not insert all three ships into a single-target scene."
+      ]
+    },
+    {
+      "id": "serendipity",
+      "kind": "ship",
+      "name": "Serendipity",
+      "duchy_id": "auric-reach",
+      "description": "Broad low bronze round-prowed Bastion with a very heavy aft engine bank, three green magnetic engine rings and gold cowls marked with dark navy chevrons. GOLD/NAVY house banners stay unchanged. This is ONE named member of the three enemy Bastions, not another vessel.",
+      "reference_images": [
+        "assets/panels/prologue-p12-panel03.png"
+      ],
+      "world_reference": "/named_ships/3",
+      "constraints": [
+        "Show only the ship count specified by the scene. Generic fleet reference gives class ancestry; do not insert all three ships into a single-target scene."
+      ]
     }
   ]
 }

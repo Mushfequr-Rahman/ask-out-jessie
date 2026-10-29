@@ -256,6 +256,62 @@
           "panel": 3,
           "file": "assets/panels/prologue-p16-panel03.png",
           "sha256": "8e6fa93a5846c3efabb8124e16ffced3fed767cb953c12e3a3484ac427bd2c37"
+        },
+        {
+          "id": "prologue-p17-panel01",
+          "page": 17,
+          "panel": 1,
+          "file": "assets/panels/prologue-p17-panel01.png",
+          "sha256": "63993385d83f3ba0d8c08e63d9a1c0cd7a10a4a126ca6072542988655922a07b"
+        },
+        {
+          "id": "prologue-p17-panel03",
+          "page": 17,
+          "panel": 3,
+          "file": "assets/panels/prologue-p17-panel03.png",
+          "sha256": "f629a60fbf4b63a405e6da2faaee353ec705c51c07a9914be172fc34bd67ae0e"
+        },
+        {
+          "id": "prologue-p17-panel04",
+          "page": 17,
+          "panel": 4,
+          "file": "assets/panels/prologue-p17-panel04.png",
+          "sha256": "65fbda801d7e54bb2e3005ac189f437ae010165d91879b9ca7692cefa90fc11d"
+        },
+        {
+          "id": "prologue-p18-panel01",
+          "page": 18,
+          "panel": 1,
+          "file": "assets/panels/prologue-p18-panel01.png",
+          "sha256": "e78eadefd1695cd7d42ef55067fa2ae1e1295e6695466b3ccd021fb717c02eb1"
+        },
+        {
+          "id": "prologue-p18-panel02",
+          "page": 18,
+          "panel": 2,
+          "file": "assets/panels/prologue-p18-panel02.png",
+          "sha256": "3e849e265267935c4bd2808b30c82c08986350e042f31b009c3b6144606d50e3"
+        },
+        {
+          "id": "prologue-p18-panel03",
+          "page": 18,
+          "panel": 3,
+          "file": "assets/panels/prologue-p18-panel03.png",
+          "sha256": "a200798130d97383249e01fe03cef62b3313c0cd5c8726b3aa7d8ea408b61a2e"
+        },
+        {
+          "id": "prologue-p18-panel04",
+          "page": 18,
+          "panel": 4,
+          "file": "assets/panels/prologue-p18-panel04.png",
+          "sha256": "27d73a798f4303cb6eb3776ebb9441c5ed861565f265b16c640d11c8d57c92b6"
+        },
+        {
+          "id": "prologue-p18-panel05",
+          "page": 18,
+          "panel": 5,
+          "file": "assets/panels/prologue-p18-panel05.png",
+          "sha256": "80c04b8f79ce0a40e7c1b4d9a7eab6e70b0f1cba2db1f945086f1b656e2dfe91"
         }
       ]
     },
@@ -394,6 +450,55 @@
           "panel": 3,
           "file": "assets/panels/prologue-p16-panel03.png",
           "sha256": "8e6fa93a5846c3efabb8124e16ffced3fed767cb953c12e3a3484ac427bd2c37"
+        },
+        {
+          "id": "prologue-p17-panel02",
+          "page": 17,
+          "panel": 2,
+          "file": "assets/panels/prologue-p17-panel02.png",
+          "sha256": "5571146b888ccc00b8596764856b422bfcd6ac6d37550e0cd62fbe777ffdd809"
+        },
+        {
+          "id": "prologue-p17-panel04",
+          "page": 17,
+          "panel": 4,
+          "file": "assets/panels/prologue-p17-panel04.png",
+          "sha256": "65fbda801d7e54bb2e3005ac189f437ae010165d91879b9ca7692cefa90fc11d"
+        },
+        {
+          "id": "prologue-p18-panel01",
+          "page": 18,
+          "panel": 1,
+          "file": "assets/panels/prologue-p18-panel01.png",
+          "sha256": "e78eadefd1695cd7d42ef55067fa2ae1e1295e6695466b3ccd021fb717c02eb1"
+        },
+        {
+          "id": "prologue-p18-panel02",
+          "page": 18,
+          "panel": 2,
+          "file": "assets/panels/prologue-p18-panel02.png",
+          "sha256": "3e849e265267935c4bd2808b30c82c08986350e042f31b009c3b6144606d50e3"
+        },
+        {
+          "id": "prologue-p18-panel03",
+          "page": 18,
+          "panel": 3,
+          "file": "assets/panels/prologue-p18-panel03.png",
+          "sha256": "a200798130d97383249e01fe03cef62b3313c0cd5c8726b3aa7d8ea408b61a2e"
+        },
+        {
+          "id": "prologue-p18-panel04",
+          "page": 18,
+          "panel": 4,
+          "file": "assets/panels/prologue-p18-panel04.png",
+          "sha256": "27d73a798f4303cb6eb3776ebb9441c5ed861565f265b16c640d11c8d57c92b6"
+        },
+        {
+          "id": "prologue-p18-panel05",
+          "page": 18,
+          "panel": 5,
+          "file": "assets/panels/prologue-p18-panel05.png",
+          "sha256": "80c04b8f79ce0a40e7c1b4d9a7eab6e70b0f1cba2db1f945086f1b656e2dfe91"
         }
       ]
     },
@@ -559,5 +664,5 @@
     "Check cloth hue, emblem and trim separately under the scene lighting",
     "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
   ],
-  "revision": "847bf21087fa21848915fbe3e8ae8b64601ced2212d9ce361646191acd41f69c"
+  "revision": "3481ef09834a08fa7e967c2b205f139e143b83cdcaa1a7a62995908180dd3b5a"
 }

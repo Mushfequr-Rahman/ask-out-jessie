@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p17-panel03",
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch"
+    ]
+  },
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p17-panel03-background-first-pass.png",
+      "role": "Only fix battle terrain background"
+    }
+  ],
+  "prompt": "Focused background correction to this finished comic panel. Preserve Rovan, the ONE silver hammer captain, his blue shield dome, bronze/crimson crew, ship deck, huge cannon barrels, all crimson/silver banners, and ALL lettering EXACTLY unchanged. The background currently shows city towers, inhabited islands and small airships. REMOVE every city building, tower, settlement and other flying vessel from the SKY BEHIND THE DECK, replacing those areas with huge BARE jagged floating boulders and rock slabs, threaded by strong GREEN magnetic arcs. This scene is inside the Shattered Plains, not a city dock. Keep the Argonaut’s OWN railings, cannon turrets, masts and deck machinery intact; remove only DISTANT background city structures and airships. Preserve canvas ratio, composition and lettering positions. Exactly one silver captain and Rovan remain foreground, no additional people or ships."
+}

@@ -67,11 +67,12 @@ def build_request(scene, world, characters, objects, template, files):
     for block in blocks:
         n=block['normalized_bounds']
         block['source_bounds']={'x':round(visible['x']+n['x']*visible['width'],4),'y':round(visible['y']+n['y']*visible['height'],4),'width':round(n['width']*visible['width'],4),'height':round(n['height']*visible['height'],4)}
-    char_context = [{k:c[k] for k in ['id','name','visual_concept','uniform_standard','visual_profiles','equipment'] if k in c} for c in selected_chars]
+    char_context = [{k:c[k] for k in ['id','name','title','group_id','visual_concept','uniform_standard','visual_profiles','equipment'] if k in c} for c in selected_chars]
     object_context = [{k:o[k] for k in ['id','name','description','constraints','canonical_reference','palette'] if k in o} for o in selected_objects]
     if scene['silver_guard_weapon_id']:
-        group=next(c for c in char_context if c['id']=='honour-guard')
-        group['visual_profiles']=[p for p in group.get('visual_profiles',[]) if p['weapon_id']==scene['silver_guard_weapon_id']]
+        for group in char_context:
+            if group['id']=='honour-guard':
+                group['visual_profiles']=[p for p in group.get('visual_profiles',[]) if p['weapon_id']==scene['silver_guard_weapon_id']]
     orientation='PORTRAIT / VERTICAL' if ratio < .85 else 'EXTRA WIDE HORIZONTAL STRIP' if ratio > 2.7 else 'LANDSCAPE' if ratio > 1.15 else 'NEAR SQUARE'
     camera='Re-stage the action vertically, main figure or object stacked with the setting behind, keep head, hands and entire weapon visible.' if ratio < .85 else 'Use a panoramic, low-height composition. Align all essential heads, hands, weapons and action across a central horizontal band; scenery above/below may be trimmed.' if ratio>2.7 else 'Use a clear, tightly composed shot with the important action filling the aperture; do not copy the old wide framing.'
     zones=[{'type':b['type'],'bounds':b['normalized_bounds']} for b in blocks]

@@ -2628,6 +2628,516 @@
         "No silver Type C hull or extra capital ship. The fleet battle has no outcome yet.",
         "Veymarch cloth and plating are CRIMSON with SILVER shield/star; Auric cloth is GOLD with NAVY balance scales."
       ]
+    },
+    {
+      "id": "prologue-p17-panel01",
+      "chapter_id": "prologue",
+      "page_number": 17,
+      "panel_number": 1,
+      "description": "The upgraded Argonaut navigates the Shattered Plains smoothly. TECHNICAL: Exactly ONE crimson-and-bronze wedge-prowed Argonaut, full hull visible in a new front three-quarter view, smoothly banking through a narrow gap between huge bare floating rocks. Its paired green stabiliser rings and articulated thrusters visibly counter strong green magnetic arcs. The four enormous heavy cannon barrels are fully inside the frame, no cropped muzzle tips. Calm, controlled flight wake. No enemies or people visible.",
+      "character_ids": [],
+      "object_ids": [
+        "argonaut"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 471,
+        "height": 375
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "A different ship.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 180,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The new stabilisers held the Argonaut steady through the shifting currents.",
+          "bounds": {
+            "x": 14,
+            "y": 265,
+            "width": 443,
+            "height": 82
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p17-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Show ONLY the named ship(s) and captains required by this scene, not the whole fleet or five-captain lineup.",
+        "The same FIVE Type C captains are split 2+2+1. No extra silver suits or new personal names.",
+        "Veymarch troops use bronze over crimson; enemy guards use brass/navy/gold. Only the titled captains are silver.",
+        "Shattered Plains contain enormous BARE floating rocks and strong magnetic currents; no city skylines in the battle terrain.",
+        "Rovan’s Argonaut has the canonical huge foredeck cannons. Enemy Bastions have rounded bronze bows and gold/navy standards, never crimson hulls."
+      ]
+    },
+    {
+      "id": "prologue-p17-panel02",
+      "chapter_id": "prologue",
+      "page_number": 17,
+      "panel_number": 2,
+      "description": "The three enemy Bastions struggle and split into separate rock channels. TECHNICAL: Exactly THREE individually countable bronze round-prowed enemy Bastions with gold cloth/navy balance-scale banners. Largest Josephine high centre with tall command tower and navy bands; slimmer Serenity left channel with pale ivory hull stripe and two green nacelles; broad Serendipity right/lower channel with triple aft rings and navy chevrons. Massive BARE rocks divide them and green magnetic currents pull their wakes sideways. No Argonaut in this shot. No ship sinking or collision. Composition staged vertically enough for the near-square holder.",
+      "character_ids": [],
+      "object_ids": [
+        "josephine",
+        "serenity",
+        "serendipity"
+      ],
+      "holder": {
+        "x": 481,
+        "y": 0,
+        "width": 471,
+        "height": 375
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The formation breaks.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 210,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Josephine, Serenity and Serendipity drifted into separate channels. None could bring its guns to bear.",
+          "bounds": {
+            "x": 14,
+            "y": 265,
+            "width": 443,
+            "height": 82
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p17-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Show ONLY the named ship(s) and captains required by this scene, not the whole fleet or five-captain lineup.",
+        "The same FIVE Type C captains are split 2+2+1. No extra silver suits or new personal names.",
+        "Veymarch troops use bronze over crimson; enemy guards use brass/navy/gold. Only the titled captains are silver.",
+        "Shattered Plains contain enormous BARE floating rocks and strong magnetic currents; no city skylines in the battle terrain.",
+        "Rovan’s Argonaut has the canonical huge foredeck cannons. Enemy Bastions have rounded bronze bows and gold/navy standards, never crimson hulls."
+      ]
+    },
+    {
+      "id": "prologue-p17-panel03",
+      "chapter_id": "prologue",
+      "page_number": 17,
+      "panel_number": 3,
+      "description": "The hammer captain stays aboard to protect the Argonaut. TECHNICAL: New wide deck scene with exactly TWO prominent people: bare-headed Rovan in navy/crimson, and the Bulwark, ONE heavy barrel-chested silver captain with low round closed dome helmet. Bulwark plants the huge war hammer on the bronze deck, raising a visible blue magnetic shield around the ship’s deck stations. No incoming capital cannon impact; do not imply invulnerability for the hull. Background crew, if any, are bronze/crimson, not silver. Crimson banner with silver shield/star. Four other silver captains are OFF CAMERA on their assigned rocks. Rovan speaks the short command to Bulwark.",
+      "character_ids": [
+        "rovan-vey",
+        "captain-bulwark"
+      ],
+      "object_ids": [
+        "argonaut",
+        "shield-warhammer",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 385,
+        "width": 952,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The Bulwark.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 180,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “Hold the Argonaut.”",
+          "bounds": {
+            "x": 250,
+            "y": 184,
+            "width": 682,
+            "height": 64
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The Bulwark stayed aboard. The other four captains were already in position.",
+          "bounds": {
+            "x": 250,
+            "y": 258,
+            "width": 682,
+            "height": 64
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p17-panel03.png",
+      "silver_guard_count": 1,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Show ONLY the named ship(s) and captains required by this scene, not the whole fleet or five-captain lineup.",
+        "The same FIVE Type C captains are split 2+2+1. No extra silver suits or new personal names.",
+        "Veymarch troops use bronze over crimson; enemy guards use brass/navy/gold. Only the titled captains are silver.",
+        "Shattered Plains contain enormous BARE floating rocks and strong magnetic currents; no city skylines in the battle terrain.",
+        "Rovan’s Argonaut has the canonical huge foredeck cannons. Enemy Bastions have rounded bronze bows and gold/navy standards, never crimson hulls."
+      ]
+    },
+    {
+      "id": "prologue-p17-panel04",
+      "chapter_id": "prologue",
+      "page_number": 17,
+      "panel_number": 4,
+      "description": "The Argonaut turns head-on toward Josephine and shatters nearby rocks with its huge cannons. TECHNICAL: Exactly TWO real ships. At left, crimson wedge-prowed Argonaut faces RIGHT with its four huge cannon barrels firing orange-white muzzle flashes. At right, larger-in-perspective standard bronze JOSEPHINE faces LEFT, gold/navy banners and tall central citadel with navy hull bands. Heavy cannon shells hit a huge floating boulder immediately beside Josephine, exploding rock fragments into open sky near but NOT through its hull. The Josephine is startled and threatened, not destroyed or sunk. No other Bastions in frame, no captain boarding teams visible. Clearly a deliberate cannon diversion. Keep both ships, cannon muzzles and rock impacts clear of lettering.",
+      "character_ids": [],
+      "object_ids": [
+        "argonaut",
+        "josephine",
+        "banner-veymarch",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 745,
+        "width": 952,
+        "height": 523
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The Josephine.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 180,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Rovan turned on the largest Bastion. His cannon fire smashed the rocks beside it. He wanted every eye on the Argonaut.",
+          "bounds": {
+            "x": 250,
+            "y": 431,
+            "width": 682,
+            "height": 64
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p17-panel04.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Show ONLY the named ship(s) and captains required by this scene, not the whole fleet or five-captain lineup.",
+        "The same FIVE Type C captains are split 2+2+1. No extra silver suits or new personal names.",
+        "Veymarch troops use bronze over crimson; enemy guards use brass/navy/gold. Only the titled captains are silver.",
+        "Shattered Plains contain enormous BARE floating rocks and strong magnetic currents; no city skylines in the battle terrain.",
+        "Rovan’s Argonaut has the canonical huge foredeck cannons. Enemy Bastions have rounded bronze bows and gold/navy standards, never crimson hulls."
+      ]
+    },
+    {
+      "id": "prologue-p18-panel01",
+      "chapter_id": "prologue",
+      "page_number": 18,
+      "panel_number": 1,
+      "description": "Two silver captains and commandos wait on a floating rock above Serenity. TECHNICAL: Extra-wide panorama, exactly TWO silver captains crouched on a bare floating rock ledge: tall lean Stormlance with narrow round closed welding helmet and long coil lance; slight Windblade with streamlined closed helmet and TWO swords. Beside them exactly FOUR ordinary commandos in BRONZE armour over crimson, low behind cover with coiled boarding lines and compact Tesla guns. ONE enemy Serenity passes below at right, round bronze hull, pale ivory identification stripe, two large green engine nacelles, GOLD/NAVY banners. NO Argonaut and no other captains or Bastions. Keep all six heads, weapons and important actions in central horizontal crop-safe band.",
+      "character_ids": [
+        "captain-stormlance",
+        "captain-windblade",
+        "veymarch-commandos"
+      ],
+      "object_ids": [
+        "serenity",
+        "condenser-lance",
+        "wind-twin-swords",
+        "banner-veymarch",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 245
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The Serenity.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 180,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The Stormlance and the Windblade waited above the channel. The commandos stayed low.",
+          "bounds": {
+            "x": 250,
+            "y": 153,
+            "width": 682,
+            "height": 64
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p18-panel01.png",
+      "silver_guard_count": 2,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Show ONLY the named ship(s) and captains required by this scene, not the whole fleet or five-captain lineup.",
+        "The same FIVE Type C captains are split 2+2+1. No extra silver suits or new personal names.",
+        "Veymarch troops use bronze over crimson; enemy guards use brass/navy/gold. Only the titled captains are silver.",
+        "Shattered Plains contain enormous BARE floating rocks and strong magnetic currents; no city skylines in the battle terrain.",
+        "Rovan’s Argonaut has the canonical huge foredeck cannons. Enemy Bastions have rounded bronze bows and gold/navy standards, never crimson hulls."
+      ]
+    },
+    {
+      "id": "prologue-p18-panel02",
+      "chapter_id": "prologue",
+      "page_number": 18,
+      "panel_number": 2,
+      "description": "The Stormlance disables Serenity with a concentrated magnetic lance shot. TECHNICAL: Exactly ONE silver captain, tall lean closed welding-mask helmet, braced on the floating rock. His long coil lance shoots one concentrated BLUE magnetic cannon beam into the engine coupling of ONE nearby Serenity, pale ivory hull stripe, gold/navy banner. An exposed green engine ring flickers DARK amid local sparks and torn bronze brackets, disabling flight control; ship is not exploded or sunk. Any nearby commandos are bronze/crimson, not silver. Windblade is off-camera for this shot. Show clear connection lance muzzle→engine target, one visual beat.",
+      "character_ids": [
+        "captain-stormlance"
+      ],
+      "object_ids": [
+        "serenity",
+        "condenser-lance",
+        "banner-veymarch",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 255,
+        "width": 582,
+        "height": 502
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The Stormlance.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 180,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "One shot tore through Serenity’s engine mount. Its field rings faltered.",
+          "bounds": {
+            "x": 14,
+            "y": 410,
+            "width": 554,
+            "height": 64
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p18-panel02.png",
+      "silver_guard_count": 1,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Show ONLY the named ship(s) and captains required by this scene, not the whole fleet or five-captain lineup.",
+        "The same FIVE Type C captains are split 2+2+1. No extra silver suits or new personal names.",
+        "Veymarch troops use bronze over crimson; enemy guards use brass/navy/gold. Only the titled captains are silver.",
+        "Shattered Plains contain enormous BARE floating rocks and strong magnetic currents; no city skylines in the battle terrain.",
+        "Rovan’s Argonaut has the canonical huge foredeck cannons. Enemy Bastions have rounded bronze bows and gold/navy standards, never crimson hulls."
+      ]
+    },
+    {
+      "id": "prologue-p18-panel03",
+      "chapter_id": "prologue",
+      "page_number": 18,
+      "panel_number": 3,
+      "description": "The twin-sword captain flies onto Serenity with commandos boarding behind. TECHNICAL: Vertical action shot, exactly ONE slight silver Windblade with streamlined sealed flight helmet, TWO distinct swords in hand, flying freely along pale blue magnetic wind onto the BRONZE deck of ONE Serenity. Behind, ordinary bronze/crimson commandos cross on taut tethered boarding lines from a floating rock; they do NOT have silver armour or twin-sword flight powers. Enemy guards are brass helmets/navy/gold, distinct. Gold/navy house flag on enemy rail. Preserve full captain, helmet, hands and both blades in vertical framing. No other silver captains.",
+      "character_ids": [
+        "captain-windblade",
+        "veymarch-commandos"
+      ],
+      "object_ids": [
+        "serenity",
+        "wind-twin-swords",
+        "banner-veymarch",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 592,
+        "y": 255,
+        "width": 360,
+        "height": 502
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The Windblade.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 180,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The Windblade swept onto the deck. Commandos followed on their boarding lines.",
+          "bounds": {
+            "x": 14,
+            "y": 392,
+            "width": 332,
+            "height": 82
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p18-panel03.png",
+      "silver_guard_count": 1,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Show ONLY the named ship(s) and captains required by this scene, not the whole fleet or five-captain lineup.",
+        "The same FIVE Type C captains are split 2+2+1. No extra silver suits or new personal names.",
+        "Veymarch troops use bronze over crimson; enemy guards use brass/navy/gold. Only the titled captains are silver.",
+        "Shattered Plains contain enormous BARE floating rocks and strong magnetic currents; no city skylines in the battle terrain.",
+        "Rovan’s Argonaut has the canonical huge foredeck cannons. Enemy Bastions have rounded bronze bows and gold/navy standards, never crimson hulls."
+      ]
+    },
+    {
+      "id": "prologue-p18-panel04",
+      "chapter_id": "prologue",
+      "page_number": 18,
+      "panel_number": 4,
+      "description": "The scythe and broadsword captains attack Serendipity from two magnetic points. TECHNICAL: Exactly TWO silver captains near ONE Serendipity’s heavy aft engine bank, three green rings under gold cowls with navy chevrons. Tall slender Riftwalker has elongated closed hood-shaped helmet and a SCYTHE, stepping between TWO concentrated BLUE magnetic energy points, one at a rock ledge and one near the ship. Broad stocky Hullbreaker with blunt rectangular closed helmet and ONE broad sword makes a separate magnetic drift LEAP toward the engine housing. Do not depict the scythe teleporting another person; each captain uses his own established mobility. Gold/navy enemy flag, crimson capes/silver badges. No other captains, no extra ships, no magical portal architecture.",
+      "character_ids": [
+        "captain-riftwalker",
+        "captain-hullbreaker"
+      ],
+      "object_ids": [
+        "serendipity",
+        "point-scythe",
+        "field-broadsword",
+        "banner-veymarch",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 767,
+        "width": 431,
+        "height": 501
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The Riftwalker.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 180,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The Riftwalker crossed between two field points. The Hullbreaker jumped for the engines.",
+          "bounds": {
+            "x": 14,
+            "y": 391,
+            "width": 403,
+            "height": 82
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p18-panel04.png",
+      "silver_guard_count": 2,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Show ONLY the named ship(s) and captains required by this scene, not the whole fleet or five-captain lineup.",
+        "The same FIVE Type C captains are split 2+2+1. No extra silver suits or new personal names.",
+        "Veymarch troops use bronze over crimson; enemy guards use brass/navy/gold. Only the titled captains are silver.",
+        "Shattered Plains contain enormous BARE floating rocks and strong magnetic currents; no city skylines in the battle terrain.",
+        "Rovan’s Argonaut has the canonical huge foredeck cannons. Enemy Bastions have rounded bronze bows and gold/navy standards, never crimson hulls."
+      ]
+    },
+    {
+      "id": "prologue-p18-panel05",
+      "chapter_id": "prologue",
+      "page_number": 18,
+      "panel_number": 5,
+      "description": "The broadsword captain disables Serendipity’s engines. TECHNICAL: Exactly ONE silver captain, broad stocky Hullbreaker, blunt rectangular sealed helmet, stands on the heavy aft engine casing of ONE Serendipity. His broadsword condenses a much larger BLUE magnetic cutting blade and severs a bronze engine ring coupling; green machinery flickers dark with local sparks. The engine bank has gold cowls/navy chevrons, gold/navy ship banner. This is engine disablement, not whole-ship explosion or sinking. The Riftwalker is OFF CAMERA. No Argonaut or Josephine visible, no extra silver captains. Keep sword, hands and cut machinery fully readable above the narration box.",
+      "character_ids": [
+        "captain-hullbreaker"
+      ],
+      "object_ids": [
+        "serendipity",
+        "field-broadsword",
+        "banner-veymarch",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 441,
+        "y": 767,
+        "width": 511,
+        "height": 501
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The Hullbreaker.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 180,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "An engine ring split beneath the blade. Two Bastions were crippled. The Josephine remained.",
+          "bounds": {
+            "x": 14,
+            "y": 409,
+            "width": 483,
+            "height": 64
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p18-panel05.png",
+      "silver_guard_count": 1,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Show ONLY the named ship(s) and captains required by this scene, not the whole fleet or five-captain lineup.",
+        "The same FIVE Type C captains are split 2+2+1. No extra silver suits or new personal names.",
+        "Veymarch troops use bronze over crimson; enemy guards use brass/navy/gold. Only the titled captains are silver.",
+        "Shattered Plains contain enormous BARE floating rocks and strong magnetic currents; no city skylines in the battle terrain.",
+        "Rovan’s Argonaut has the canonical huge foredeck cannons. Enemy Bastions have rounded bronze bows and gold/navy standards, never crimson hulls."
+      ]
     }
   ]
 }

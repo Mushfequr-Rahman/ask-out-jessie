@@ -1,0 +1,8 @@
+{
+  "id": "prologue-p17-panel03",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/corrections/prologue-p17-panel03-background.json",
+  "output_file": "assets/panels/prologue-p17-panel03.png",
+  "generated_original": "/workspace/generated_images/exec-da8ac85e-d82e-441d-9a40-43a220478011.png",
+  "reason": "Replace distant city with Shattered Plains rock field."
+}

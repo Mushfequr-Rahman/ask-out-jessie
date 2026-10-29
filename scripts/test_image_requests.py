@@ -81,6 +81,14 @@ class RequestTests(unittest.TestCase):
     def test_no_house_invented_in_early_era(self):
         self.assertEqual(self.request(self.scenes[0])['heraldry']['banner_ids'],[])
 
+    def test_individual_titled_captain_does_not_require_a_group_in_shot(self):
+        scene=copy.deepcopy(next(s for s in self.scenes if s['id']=='prologue-p18-panel02'))
+        scene['silver_guard_weapon_id']='condenser-lance'
+        q=self.request(scene)
+        self.assertEqual([c['id'] for c in q['resolved_context']['characters']],['captain-stormlance'])
+        self.assertEqual(q['resolved_context']['characters'][0]['title'],'The Stormlance')
+        self.assertEqual(q['resolved_context']['characters'][0]['equipment']['weapon_ids'],['condenser-lance'])
+
     def test_refitted_argonaut_anchor_survives_crowded_scene_references(self):
         scene=copy.deepcopy(next(s for s in self.scenes if s['id']=='prologue-p14-panel01'))
         scene['reference_images']=[{'path':s['reference_images'][0]['path'],'role':'Old scene'} for s in self.scenes[:4]]

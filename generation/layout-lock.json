@@ -298,6 +298,60 @@
       "y": 979.312,
       "width": 952,
       "height": 288.688
+    },
+    "prologue-p17-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 471,
+      "height": 375
+    },
+    "prologue-p17-panel02": {
+      "x": 481,
+      "y": 0,
+      "width": 471,
+      "height": 375
+    },
+    "prologue-p17-panel03": {
+      "x": 0,
+      "y": 385,
+      "width": 952,
+      "height": 350
+    },
+    "prologue-p17-panel04": {
+      "x": 0,
+      "y": 745,
+      "width": 952,
+      "height": 523
+    },
+    "prologue-p18-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 245
+    },
+    "prologue-p18-panel02": {
+      "x": 0,
+      "y": 255,
+      "width": 582,
+      "height": 502
+    },
+    "prologue-p18-panel03": {
+      "x": 592,
+      "y": 255,
+      "width": 360,
+      "height": 502
+    },
+    "prologue-p18-panel04": {
+      "x": 0,
+      "y": 767,
+      "width": 431,
+      "height": 501
+    },
+    "prologue-p18-panel05": {
+      "x": 441,
+      "y": 767,
+      "width": 511,
+      "height": 501
     }
   },
   "extensions": [
@@ -319,6 +373,14 @@
       ],
       "source_commit": "feb711c",
       "method": "Insert two fixed 629px rows on new page14; old page14 moves unchanged to15; page16 uses priority-driven3/5/3 plan. All holders frozen before generation."
+    },
+    {
+      "pages": [
+        17,
+        18
+      ],
+      "source_commit": "f3004ae",
+      "method": "Four ordered beats on17, five on18, with emphasis for the Josephine diversion and boarding strikes. All apertures frozen before generation."
     }
   ]
 }

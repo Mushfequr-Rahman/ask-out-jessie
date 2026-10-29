@@ -47,7 +47,9 @@ assert len(named_ship_ids)==len(named_ships), 'Duplicate named ships'
 designs={ship['id']:ship for ship in world['ship_designs']}
 for ship in named_ships:
     assert ship['design_id'] in designs and ship['class_id']==designs[ship['design_id']]['class_id'], 'Unknown named ship design/class'
-    assert ship['commander_id'] in character_ids and ship['duchy_id'] in {d['id'] for d in duchies}, 'Unknown named ship commander/house'
+    assert (ship.get('commander_id') is None or ship['commander_id'] in character_ids) and ship['duchy_id'] in {d['id'] for d in duchies}, 'Unknown named ship commander/house'
+    if ship.get('fleet_commander_id'):
+        assert ship['fleet_commander_id'] in character_ids, 'Unknown fleet commander'
     if 'refit_asset_id' in ship:
         assert ship['refit_asset_id'] in assets, 'Missing named ship refit illustration'
 for character in characters:
@@ -67,6 +69,9 @@ if 'planned_battlefield_id' in conflict:
     assert conflict['planned_battlefield_id'] in location_ids, 'Unknown battlefield'
 if 'friendly_capital_ship_id' in conflict:
     assert conflict['friendly_capital_ship_id'] in named_ship_ids, 'Unknown friendly capital ship'
+if 'enemy_ship_ids' in conflict:
+    assert len(set(conflict['enemy_ship_ids']))==len(conflict['enemy_ship_ids'])==conflict['capital_ships_dispatched'], 'Enemy ship count mismatch'
+    assert set(conflict['enemy_ship_ids']) <= named_ship_ids, 'Unknown enemy ship'
 for metal in world['metals']:
     for field in ['specimen_asset_id', 'core_asset_id']:
         if field in metal:
@@ -77,6 +82,8 @@ assert world['setting']['geography']['atlas_asset_id'] in assets
 weapons = {weapon['id']: weapon for weapon in world.get('weapons', [])}
 for weapon in weapons.values():
     assert weapon['asset_id'] in assets and weapon['ability'], 'Broken weapon reference'
+    if weapon.get('captain_id'):
+        assert weapon['captain_id'] in character_ids, 'Unknown weapon captain'
 for character in characters:
     if 'source_asset_id' in character:
         assert character['source_asset_id'] in assets, 'Unknown character illustration'
@@ -84,6 +91,24 @@ for character in characters:
         assert character['duchy_id'] in {duchy['id'] for duchy in duchies}, 'Unknown character duchy'
     for weapon_id in character.get('equipment', {}).get('weapon_ids', []):
         assert weapon_id in weapons, 'Unknown character weapon'
+    if character.get('group_id'):
+        assert character['group_id'] in character_ids, 'Unknown character group'
+    if character.get('current_assignment'):
+        assert character['current_assignment'] in named_ship_ids, 'Unknown captain assignment'
+groups={c['id']:c for c in characters if c.get('member_ids')}
+for group in groups.values():
+    members=group['member_ids']
+    assert len(set(members))==len(members)==group['member_count'], 'Captain membership count mismatch'
+    individuals=[next(c for c in characters if c['id']==id) for id in members]
+    assert all(c['group_id']==group['id'] and c.get('personal_name') is None and c.get('title') for c in individuals), 'Captains need titles and group membership'
+    assert {w for c in individuals for w in c['equipment']['weapon_ids']}==set(group['equipment']['weapon_ids']), 'Captain weapon assignments differ from the five sets'
+if 'captain_assignments' in conflict:
+    assignments=conflict['captain_assignments'];assigned=[id for ids in assignments.values() for id in ids]
+    assert set(assignments)<=named_ship_ids, 'Unknown captain target ship'
+    assert len(set(assigned))==len(assigned)==5 and set(assigned)==set(groups['honour-guard']['member_ids']), 'Captain assignments must partition the same five people'
+    by_weapon={weapon:character['id'] for character in characters if character.get('group_id')=='honour-guard' for weapon in character['equipment']['weapon_ids']}
+    expected={'argonaut':{by_weapon['shield-warhammer']},'serenity':{by_weapon['condenser-lance'],by_weapon['wind-twin-swords']},'serendipity':{by_weapon['point-scythe'],by_weapon['field-broadsword']}}
+    assert {ship:set(ids) for ship,ids in assignments.items()}==expected, 'Boarding teams must match the established 2+2+1 plan'
 for metal in world['metals']:
     for weapon_id in metal.get('known_crafting', {}).get('weapon_ids', []):
         assert weapon_id in weapons, 'Unknown crafted weapon'

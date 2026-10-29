@@ -817,6 +817,159 @@
         "height": 288.688
       },
       "review": "Exact lettering, visible complete heavy cannons, house colours, pursuit direction and three-enemy/one-Argonaut ship counts checked as applicable."
+    },
+    {
+      "id": "prologue-p17-panel01",
+      "output_file": "assets/panels/prologue-p17-panel01.png",
+      "selected_run": "generation/runs/prologue-p17-panel01.json",
+      "sha256": "63993385d83f3ba0d8c08e63d9a1c0cd7a10a4a126ca6072542988655922a07b",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 471,
+        "height": 375
+      },
+      "review": "Visual lettering, house colours, named ship target, titled captain count and weapon action checked. Overall battle outcome remains unresolved."
+    },
+    {
+      "id": "prologue-p17-panel02",
+      "output_file": "assets/panels/prologue-p17-panel02.png",
+      "selected_run": "generation/runs/prologue-p17-panel02.json",
+      "sha256": "5571146b888ccc00b8596764856b422bfcd6ac6d37550e0cd62fbe777ffdd809",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "holder": {
+        "x": 481,
+        "y": 0,
+        "width": 471,
+        "height": 375
+      },
+      "review": "Visual lettering, house colours, named ship target, titled captain count and weapon action checked. Overall battle outcome remains unresolved."
+    },
+    {
+      "id": "prologue-p17-panel03",
+      "output_file": "assets/panels/prologue-p17-panel03.png",
+      "selected_run": "generation/runs/prologue-p17-panel03-background.json",
+      "sha256": "f629a60fbf4b63a405e6da2faaee353ec705c51c07a9914be172fc34bd67ae0e",
+      "dimensions": {
+        "width": 2066,
+        "height": 761
+      },
+      "holder": {
+        "x": 0,
+        "y": 385,
+        "width": 952,
+        "height": 350
+      },
+      "review": "Visual lettering, house colours, named ship target, titled captain count and weapon action checked. Overall battle outcome remains unresolved."
+    },
+    {
+      "id": "prologue-p17-panel04",
+      "output_file": "assets/panels/prologue-p17-panel04.png",
+      "selected_run": "generation/runs/prologue-p17-panel04.json",
+      "sha256": "65fbda801d7e54bb2e3005ac189f437ae010165d91879b9ca7692cefa90fc11d",
+      "dimensions": {
+        "width": 1694,
+        "height": 928
+      },
+      "holder": {
+        "x": 0,
+        "y": 745,
+        "width": 952,
+        "height": 523
+      },
+      "review": "Visual lettering, house colours, named ship target, titled captain count and weapon action checked. Overall battle outcome remains unresolved."
+    },
+    {
+      "id": "prologue-p18-panel01",
+      "output_file": "assets/panels/prologue-p18-panel01.png",
+      "selected_run": "generation/runs/prologue-p18-panel01-banner.json",
+      "sha256": "e78eadefd1695cd7d42ef55067fa2ae1e1295e6695466b3ccd021fb717c02eb1",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 245
+      },
+      "review": "Visual lettering, house colours, named ship target, titled captain count and weapon action checked. Overall battle outcome remains unresolved."
+    },
+    {
+      "id": "prologue-p18-panel02",
+      "output_file": "assets/panels/prologue-p18-panel02.png",
+      "selected_run": "generation/runs/prologue-p18-panel02.json",
+      "sha256": "3e849e265267935c4bd2808b30c82c08986350e042f31b009c3b6144606d50e3",
+      "dimensions": {
+        "width": 1345,
+        "height": 1170
+      },
+      "holder": {
+        "x": 0,
+        "y": 255,
+        "width": 582,
+        "height": 502
+      },
+      "review": "Visual lettering, house colours, named ship target, titled captain count and weapon action checked. Overall battle outcome remains unresolved."
+    },
+    {
+      "id": "prologue-p18-panel03",
+      "output_file": "assets/panels/prologue-p18-panel03.png",
+      "selected_run": "generation/runs/prologue-p18-panel03.json",
+      "sha256": "a200798130d97383249e01fe03cef62b3313c0cd5c8726b3aa7d8ea408b61a2e",
+      "dimensions": {
+        "width": 1064,
+        "height": 1478
+      },
+      "holder": {
+        "x": 592,
+        "y": 255,
+        "width": 360,
+        "height": 502
+      },
+      "review": "Visual lettering, house colours, named ship target, titled captain count and weapon action checked. Overall battle outcome remains unresolved."
+    },
+    {
+      "id": "prologue-p18-panel04",
+      "output_file": "assets/panels/prologue-p18-panel04.png",
+      "selected_run": "generation/runs/prologue-p18-panel04.json",
+      "sha256": "27d73a798f4303cb6eb3776ebb9441c5ed861565f265b16c640d11c8d57c92b6",
+      "dimensions": {
+        "width": 1160,
+        "height": 1355
+      },
+      "holder": {
+        "x": 0,
+        "y": 767,
+        "width": 431,
+        "height": 501
+      },
+      "review": "Visual lettering, house colours, named ship target, titled captain count and weapon action checked. Overall battle outcome remains unresolved."
+    },
+    {
+      "id": "prologue-p18-panel05",
+      "output_file": "assets/panels/prologue-p18-panel05.png",
+      "selected_run": "generation/runs/prologue-p18-panel05.json",
+      "sha256": "80c04b8f79ce0a40e7c1b4d9a7eab6e70b0f1cba2db1f945086f1b656e2dfe91",
+      "dimensions": {
+        "width": 1264,
+        "height": 1244
+      },
+      "holder": {
+        "x": 441,
+        "y": 767,
+        "width": 511,
+        "height": 501
+      },
+      "review": "Visual lettering, house colours, named ship target, titled captain count and weapon action checked. Overall battle outcome remains unresolved."
     }
   ]
 }

@@ -112,7 +112,7 @@ The city capture does not yet establish that Rovan controls all of Auric Reach. 
 
 ## Publication structure and duchy heraldry
 
-There is currently one published story entry, **Prologue**, containing all sixteen published pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
+There is currently one published story entry, **Prologue**, containing all eighteen published pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
 
 | Duchy | Colour | Banner emblem |
 | --- | --- | --- |
@@ -127,7 +127,7 @@ There is currently one published story entry, **Prologue**, containing all sixte
 
 ## Structured reference and artwork catalogue
 
-`world.json` contains the structured world reference; character records live in `character.json`. The world reference includes open details, the sixteen published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.
+`world.json` contains the structured world reference; character records live in `character.json`. The world reference includes open details, the eighteen published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.
 
 ## Current uniforms and the next move
 
@@ -174,3 +174,11 @@ Rovan uses his newfound wealth to upgrade his single capital ship before the pag
 Page 14 shows Rovan and his engineers refitting the Argonaut with captured ore, trade silver and machinery. The legendary work takes fourteen days and adds two twin heavy-cannon turrets with enormous barrels. The departure and choice of terrain move to page 15.
 
 Page 16 introduces Admiral Joseph, the arrogant Auric Reach officer commanding the three enemy Bastions. He covets a duchy of his own if he defeats Rovan and ignores his sailors’ warning about the fields breaking formation. The page closes with all three Bastions following the Argonaut into the Shattered Plains. No battle result or reward has yet been established.
+
+## Divide the Fleet — page 17
+
+The Argonaut’s upgrades make the magnetic currents manageable, while the Josephine, Serenity and Serendipity separate and cannot attack it together. The Bulwark stays aboard to protect the ship. Rovan turns on the largest enemy, Josephine, smashing rocks beside it to draw attention from the boarding parties.
+
+## Two Boarding Parties — page 18
+
+The Stormlance and Windblade wait on a floating rock with bronze-and-crimson commandos. Stormlance’s concentrated magnetic shot disables Serenity’s engine mount; Windblade flies onto the deck as commandos cross on their lines. Meanwhile the Riftwalker crosses between magnetic points at Serendipity, while the Hullbreaker jumps to its engines and cuts through their machinery. Both Bastions are crippled; Josephine remains, and no overall victory or complete capture is established. The titles refer to the same five silver captains, not new armour sets.

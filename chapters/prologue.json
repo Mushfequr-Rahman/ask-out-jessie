@@ -1983,6 +1983,365 @@
       ],
       "footer": "PROLOGUE · ADMIRAL JOSEPH",
       "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 17,
+      "Title": "Divide the Fleet",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p17-panel01.png",
+          "caption": "A different ship.",
+          "narration": "The new stabilisers held the Argonaut steady through the shifting currents.",
+          "image_alt": "The upgraded Argonaut navigates the Shattered Plains smoothly.",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 471,
+            "height": 375
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "A different ship.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 180,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The new stabilisers held the Argonaut steady through the shifting currents.",
+              "bounds": {
+                "x": 14,
+                "y": 265,
+                "width": 443,
+                "height": 82
+              }
+            }
+          ],
+          "scene_id": "prologue-p17-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p17-panel02.png",
+          "caption": "The formation breaks.",
+          "narration": "Josephine, Serenity and Serendipity drifted into separate channels. None could bring its guns to bear.",
+          "image_alt": "The three enemy Bastions struggle and split into separate rock channels.",
+          "priority": 3,
+          "holder": {
+            "x": 481,
+            "y": 0,
+            "width": 471,
+            "height": 375
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The formation breaks.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 210,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Josephine, Serenity and Serendipity drifted into separate channels. None could bring its guns to bear.",
+              "bounds": {
+                "x": 14,
+                "y": 265,
+                "width": 443,
+                "height": 82
+              }
+            }
+          ],
+          "scene_id": "prologue-p17-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p17-panel03.png",
+          "caption": "The Bulwark.",
+          "narration": "Rovan: “Hold the Argonaut.”\nThe Bulwark stayed aboard. The other four captains were already in position.",
+          "image_alt": "The hammer captain stays aboard to protect the Argonaut.",
+          "priority": 2,
+          "holder": {
+            "x": 0,
+            "y": 385,
+            "width": 952,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The Bulwark.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 180,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “Hold the Argonaut.”",
+              "bounds": {
+                "x": 250,
+                "y": 184,
+                "width": 682,
+                "height": 64
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The Bulwark stayed aboard. The other four captains were already in position.",
+              "bounds": {
+                "x": 250,
+                "y": 258,
+                "width": 682,
+                "height": 64
+              }
+            }
+          ],
+          "scene_id": "prologue-p17-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p17-panel04.png",
+          "caption": "The Josephine.",
+          "narration": "Rovan turned on the largest Bastion. His cannon fire smashed the rocks beside it. He wanted every eye on the Argonaut.",
+          "image_alt": "The Argonaut turns head-on toward Josephine and shatters nearby rocks with its huge cannons.",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 745,
+            "width": 952,
+            "height": 523
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The Josephine.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 180,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Rovan turned on the largest Bastion. His cannon fire smashed the rocks beside it. He wanted every eye on the Argonaut.",
+              "bounds": {
+                "x": 250,
+                "y": 431,
+                "width": 682,
+                "height": 64
+              }
+            }
+          ],
+          "scene_id": "prologue-p17-panel04",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · DIVIDE THE FLEET",
+      "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 18,
+      "Title": "Two Boarding Parties",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p18-panel01.png",
+          "caption": "The Serenity.",
+          "narration": "The Stormlance and the Windblade waited above the channel. The commandos stayed low.",
+          "image_alt": "Two silver captains and commandos wait on a floating rock above Serenity.",
+          "priority": 2,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 245
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The Serenity.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 180,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The Stormlance and the Windblade waited above the channel. The commandos stayed low.",
+              "bounds": {
+                "x": 250,
+                "y": 153,
+                "width": 682,
+                "height": 64
+              }
+            }
+          ],
+          "scene_id": "prologue-p18-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p18-panel02.png",
+          "caption": "The Stormlance.",
+          "narration": "One shot tore through Serenity’s engine mount. Its field rings faltered.",
+          "image_alt": "The Stormlance disables Serenity with a concentrated magnetic lance shot.",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 255,
+            "width": 582,
+            "height": 502
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The Stormlance.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 180,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "One shot tore through Serenity’s engine mount. Its field rings faltered.",
+              "bounds": {
+                "x": 14,
+                "y": 410,
+                "width": 554,
+                "height": 64
+              }
+            }
+          ],
+          "scene_id": "prologue-p18-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p18-panel03.png",
+          "caption": "The Windblade.",
+          "narration": "The Windblade swept onto the deck. Commandos followed on their boarding lines.",
+          "image_alt": "The twin-sword captain flies onto Serenity with commandos boarding behind.",
+          "priority": 3,
+          "holder": {
+            "x": 592,
+            "y": 255,
+            "width": 360,
+            "height": 502
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The Windblade.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 180,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The Windblade swept onto the deck. Commandos followed on their boarding lines.",
+              "bounds": {
+                "x": 14,
+                "y": 392,
+                "width": 332,
+                "height": 82
+              }
+            }
+          ],
+          "scene_id": "prologue-p18-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p18-panel04.png",
+          "caption": "The Riftwalker.",
+          "narration": "The Riftwalker crossed between two field points. The Hullbreaker jumped for the engines.",
+          "image_alt": "The scythe and broadsword captains attack Serendipity from two magnetic points.",
+          "priority": 4,
+          "holder": {
+            "x": 0,
+            "y": 767,
+            "width": 431,
+            "height": 501
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The Riftwalker.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 180,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The Riftwalker crossed between two field points. The Hullbreaker jumped for the engines.",
+              "bounds": {
+                "x": 14,
+                "y": 391,
+                "width": 403,
+                "height": 82
+              }
+            }
+          ],
+          "scene_id": "prologue-p18-panel04",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p18-panel05.png",
+          "caption": "The Hullbreaker.",
+          "narration": "An engine ring split beneath the blade. Two Bastions were crippled. The Josephine remained.",
+          "image_alt": "The broadsword captain disables Serendipity’s engines.",
+          "priority": 5,
+          "holder": {
+            "x": 441,
+            "y": 767,
+            "width": 511,
+            "height": 501
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The Hullbreaker.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 180,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "An engine ring split beneath the blade. Two Bastions were crippled. The Josephine remained.",
+              "bounds": {
+                "x": 14,
+                "y": 409,
+                "width": 483,
+                "height": 64
+              }
+            }
+          ],
+          "scene_id": "prologue-p18-panel05",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · TWO BOARDING PARTIES",
+      "layout_mode": "fixed"
     }
   ]
 }

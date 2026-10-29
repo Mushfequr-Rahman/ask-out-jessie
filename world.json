@@ -88,12 +88,35 @@
       "opponent_duchy_id": "auric-reach",
       "target_character_id": "rovan-vey",
       "capital_ships_dispatched": 3,
-      "status": "Joseph ignores the warnings and leads three Bastions into the Shattered Plains after the Argonaut.",
+      "status": "The three Bastions separate in the Shattered Plains. Argonaut distracts Josephine while two captain pairs disable Serenity and Serendipity.",
       "battle_outcome": null,
       "opponent_total_capital_ship_count": null,
       "planned_battlefield_id": "shattered-plains",
       "friendly_capital_ship_id": "argonaut",
-      "opponent_commander_id": "admiral-joseph"
+      "opponent_commander_id": "admiral-joseph",
+      "enemy_ship_ids": [
+        "josephine",
+        "serenity",
+        "serendipity"
+      ],
+      "captain_assignments": {
+        "argonaut": [
+          "captain-bulwark"
+        ],
+        "serenity": [
+          "captain-stormlance",
+          "captain-windblade"
+        ],
+        "serendipity": [
+          "captain-riftwalker",
+          "captain-hullbreaker"
+        ]
+      },
+      "partial_results": {
+        "serenity": "disabled and boarded",
+        "serendipity": "engines disabled",
+        "josephine": "still opposed to the Argonaut; overall result unresolved"
+      }
     }
   },
   "metals": [
@@ -591,6 +614,17 @@
       "page": 16,
       "event": "Admiral Joseph pursues the Argonaut with three Auric Reach Bastions. Driven by his ambition to gain his own duchy, he ignores sailors’ warnings and follows Rovan into the Shattered Plains.",
       "battle_outcome": null
+    },
+    {
+      "order": 19,
+      "page": 17,
+      "event": "Argonaut’s upgraded stabilisers handle the fields easily; Josephine, Serenity and Serendipity separate. The Bulwark stays aboard while Rovan turns on Josephine and shatters nearby rocks with cannon fire as a diversion."
+    },
+    {
+      "order": 20,
+      "page": 18,
+      "event": "The Stormlance and Windblade lead commandos from a floating rock onto Serenity; the lance disables it and Windblade boards. The Riftwalker uses two magnetic points while Hullbreaker jumps to Serendipity’s engines and disables them.",
+      "battle_outcome": null
     }
   ],
   "publication": {
@@ -607,8 +641,8 @@
         "title": "Prologue",
         "status": "available",
         "reader": "prologue.html",
-        "page_count": 16,
-        "panel_count": 48,
+        "page_count": 18,
+        "panel_count": 57,
         "pages": [
           {
             "number": 1,
@@ -1473,6 +1507,162 @@
                 "lettering_mode": "baked"
               }
             ]
+          },
+          {
+            "number": 17,
+            "title": "Divide the Fleet",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p17-panel01",
+                "caption": "A different ship.",
+                "narration": "The new stabilisers held the Argonaut steady through the shifting currents.",
+                "priority": 3,
+                "image_description": "The upgraded Argonaut navigates the Shattered Plains smoothly.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 471,
+                  "height": 375
+                },
+                "scene_id": "prologue-p17-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p17-panel02",
+                "caption": "The formation breaks.",
+                "narration": "Josephine, Serenity and Serendipity drifted into separate channels. None could bring its guns to bear.",
+                "priority": 3,
+                "image_description": "The three enemy Bastions struggle and split into separate rock channels.",
+                "holder": {
+                  "x": 481,
+                  "y": 0,
+                  "width": 471,
+                  "height": 375
+                },
+                "scene_id": "prologue-p17-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p17-panel03",
+                "caption": "The Bulwark.",
+                "narration": "Rovan: “Hold the Argonaut.”\nThe Bulwark stayed aboard. The other four captains were already in position.",
+                "priority": 2,
+                "image_description": "The hammer captain stays aboard to protect the Argonaut.",
+                "holder": {
+                  "x": 0,
+                  "y": 385,
+                  "width": 952,
+                  "height": 350
+                },
+                "scene_id": "prologue-p17-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p17-panel04",
+                "caption": "The Josephine.",
+                "narration": "Rovan turned on the largest Bastion. His cannon fire smashed the rocks beside it. He wanted every eye on the Argonaut.",
+                "priority": 5,
+                "image_description": "The Argonaut turns head-on toward Josephine and shatters nearby rocks with its huge cannons.",
+                "holder": {
+                  "x": 0,
+                  "y": 745,
+                  "width": 952,
+                  "height": 523
+                },
+                "scene_id": "prologue-p17-panel04",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 18,
+            "title": "Two Boarding Parties",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p18-panel01",
+                "caption": "The Serenity.",
+                "narration": "The Stormlance and the Windblade waited above the channel. The commandos stayed low.",
+                "priority": 2,
+                "image_description": "Two silver captains and commandos wait on a floating rock above Serenity.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 245
+                },
+                "scene_id": "prologue-p18-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p18-panel02",
+                "caption": "The Stormlance.",
+                "narration": "One shot tore through Serenity’s engine mount. Its field rings faltered.",
+                "priority": 5,
+                "image_description": "The Stormlance disables Serenity with a concentrated magnetic lance shot.",
+                "holder": {
+                  "x": 0,
+                  "y": 255,
+                  "width": 582,
+                  "height": 502
+                },
+                "scene_id": "prologue-p18-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p18-panel03",
+                "caption": "The Windblade.",
+                "narration": "The Windblade swept onto the deck. Commandos followed on their boarding lines.",
+                "priority": 3,
+                "image_description": "The twin-sword captain flies onto Serenity with commandos boarding behind.",
+                "holder": {
+                  "x": 592,
+                  "y": 255,
+                  "width": 360,
+                  "height": 502
+                },
+                "scene_id": "prologue-p18-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p18-panel04",
+                "caption": "The Riftwalker.",
+                "narration": "The Riftwalker crossed between two field points. The Hullbreaker jumped for the engines.",
+                "priority": 4,
+                "image_description": "The scythe and broadsword captains attack Serendipity from two magnetic points.",
+                "holder": {
+                  "x": 0,
+                  "y": 767,
+                  "width": 431,
+                  "height": 501
+                },
+                "scene_id": "prologue-p18-panel04",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 5,
+                "asset_id": "prologue-p18-panel05",
+                "caption": "The Hullbreaker.",
+                "narration": "An engine ring split beneath the blade. Two Bastions were crippled. The Josephine remained.",
+                "priority": 5,
+                "image_description": "The broadsword captain disables Serendipity’s engines.",
+                "holder": {
+                  "x": 441,
+                  "y": 767,
+                  "width": 511,
+                  "height": 501
+                },
+                "scene_id": "prologue-p18-panel05",
+                "lettering_mode": "baked"
+              }
+            ]
           }
         ],
         "json_file": "chapters/prologue.json"
@@ -1518,7 +1708,7 @@
     "The formal powers and relationships of dukes and barons",
     "The other six duchies’ rulers, economies and alliances",
     "The captured cities’ names and their barons’ names",
-    "Honour guard names and personalities",
+    "Honour guard personal names and individual histories; weapon titles are now established",
     "Exact ship dimensions, crews, cargo tonnages and armaments beyond the Argonaut’s established enlarged heavy cannons",
     "Other duchies’ responses beyond Auric Reach’s three dispatched capital ships",
     "Any further Type C supply or technical crafting details"
@@ -2746,6 +2936,204 @@
       ]
     },
     {
+      "id": "prologue-p17-panel01",
+      "file": "assets/panels/prologue-p17-panel01.png",
+      "title": "Prologue P17 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "byte_size": 3641600,
+      "sha256": "63993385d83f3ba0d8c08e63d9a1c0cd7a10a4a126ca6072542988655922a07b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 17,
+          "panel": 1,
+          "description": "The upgraded Argonaut navigates the Shattered Plains smoothly."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p17-panel02",
+      "file": "assets/panels/prologue-p17-panel02.png",
+      "title": "Prologue P17 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "byte_size": 3601205,
+      "sha256": "5571146b888ccc00b8596764856b422bfcd6ac6d37550e0cd62fbe777ffdd809",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 17,
+          "panel": 2,
+          "description": "The three enemy Bastions struggle and split into separate rock channels."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p17-panel03",
+      "file": "assets/panels/prologue-p17-panel03.png",
+      "title": "Prologue P17 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 2066,
+        "height": 761
+      },
+      "byte_size": 3136506,
+      "sha256": "f629a60fbf4b63a405e6da2faaee353ec705c51c07a9914be172fc34bd67ae0e",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 17,
+          "panel": 3,
+          "description": "The hammer captain stays aboard to protect the Argonaut."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p17-panel04",
+      "file": "assets/panels/prologue-p17-panel04.png",
+      "title": "Prologue P17 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1694,
+        "height": 928
+      },
+      "byte_size": 3511405,
+      "sha256": "65fbda801d7e54bb2e3005ac189f437ae010165d91879b9ca7692cefa90fc11d",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 17,
+          "panel": 4,
+          "description": "The Argonaut turns head-on toward Josephine and shatters nearby rocks with its huge cannons."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p18-panel01",
+      "file": "assets/panels/prologue-p18-panel01.png",
+      "title": "Prologue P18 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3251290,
+      "sha256": "e78eadefd1695cd7d42ef55067fa2ae1e1295e6695466b3ccd021fb717c02eb1",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 18,
+          "panel": 1,
+          "description": "Two silver captains and commandos wait on a floating rock above Serenity."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p18-panel02",
+      "file": "assets/panels/prologue-p18-panel02.png",
+      "title": "Prologue P18 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1345,
+        "height": 1170
+      },
+      "byte_size": 3482471,
+      "sha256": "3e849e265267935c4bd2808b30c82c08986350e042f31b009c3b6144606d50e3",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 18,
+          "panel": 2,
+          "description": "The Stormlance disables Serenity with a concentrated magnetic lance shot."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p18-panel03",
+      "file": "assets/panels/prologue-p18-panel03.png",
+      "title": "Prologue P18 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1064,
+        "height": 1478
+      },
+      "byte_size": 3409052,
+      "sha256": "a200798130d97383249e01fe03cef62b3313c0cd5c8726b3aa7d8ea408b61a2e",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 18,
+          "panel": 3,
+          "description": "The twin-sword captain flies onto Serenity with commandos boarding behind."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p18-panel04",
+      "file": "assets/panels/prologue-p18-panel04.png",
+      "title": "Prologue P18 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1160,
+        "height": 1355
+      },
+      "byte_size": 3320782,
+      "sha256": "27d73a798f4303cb6eb3776ebb9441c5ed861565f265b16c640d11c8d57c92b6",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 18,
+          "panel": 4,
+          "description": "The scythe and broadsword captains attack Serendipity from two magnetic points."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p18-panel05",
+      "file": "assets/panels/prologue-p18-panel05.png",
+      "title": "Prologue P18 Panel05",
+      "category": "comic",
+      "dimensions": {
+        "width": 1264,
+        "height": 1244
+      },
+      "byte_size": 3150519,
+      "sha256": "80c04b8f79ce0a40e7c1b4d9a7eab6e70b0f1cba2db1f945086f1b656e2dfe91",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 18,
+          "panel": 5,
+          "description": "The broadsword captain disables Serendipity’s engines."
+        }
+      ]
+    },
+    {
       "id": "schooner-kestrel",
       "file": "assets/schooner-kestrel.png",
       "title": "Kestrel",
@@ -2823,7 +3211,7 @@
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with sixteen pages and 48 distinct panel images.",
+    "There is one available story entry, Prologue, with eighteen pages and 57 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
     "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
@@ -2841,7 +3229,10 @@
     "Rovan chooses the Shattered Plains to force the three enemy Bastions to separate; no result of the fleet battle is established.",
     "The Argonaut is refitted using Rovan’s newfound wealth; its upgraded hull remains Type A bronze and its machinery uses Type B. Type C is reserved for the five honour guards.",
     "The Argonaut’s refit takes fourteen days and adds enlarged heavy cannons.",
-    "Admiral Joseph leads exactly three Auric Reach Bastions and greedily hopes to gain a duchy by defeating Rovan; no reward or battle outcome has been established."
+    "Admiral Joseph leads exactly three Auric Reach Bastions and greedily hopes to gain a duchy by defeating Rovan; no reward or battle outcome has been established.",
+    "The five silver captains have titles, not established personal names: Stormlance, Windblade, Bulwark, Riftwalker and Hullbreaker. These are the same five people, not additional Type C sets.",
+    "The Bulwark remains aboard Argonaut. Stormlance and Windblade attack Serenity with commandos; Riftwalker and Hullbreaker attack Serendipity.",
+    "Serenity and Serendipity are disabled, not established as sunk or fully captured. Josephine and the overall battle remain unresolved."
   ],
   "military_livery": {
     "veymarch": {
@@ -2866,31 +3257,36 @@
       "id": "condenser-lance",
       "name": "Magnetic lance",
       "ability": "Condenses magnetic fields and fires the concentrated energy like a cannon.",
-      "asset_id": "prologue-p11-panel01"
+      "asset_id": "prologue-p11-panel01",
+      "captain_id": "captain-stormlance"
     },
     {
       "id": "field-broadsword",
       "name": "Field broadsword",
       "ability": "Condenses magnetic fields into a larger blade capable of cutting through a ship’s hull.",
-      "asset_id": "prologue-p11-panel02"
+      "asset_id": "prologue-p11-panel02",
+      "captain_id": "captain-hullbreaker"
     },
     {
       "id": "wind-twin-swords",
       "name": "Twin wind swords",
       "ability": "A pair of wind-like swords that lets the wielder fly like a bird.",
-      "asset_id": "prologue-p11-panel03"
+      "asset_id": "prologue-p11-panel03",
+      "captain_id": "captain-windblade"
     },
     {
       "id": "shield-warhammer",
       "name": "Shield war hammer",
       "ability": "Creates its own magnetic field when slammed down, forming a shield against Tesla guns.",
-      "asset_id": "prologue-p11-panel04"
+      "asset_id": "prologue-p11-panel04",
+      "captain_id": "captain-bulwark"
     },
     {
       "id": "point-scythe",
       "name": "Magnetic scythe",
       "ability": "Lets the wielder jump between two concentrated points of magnetic energy.",
-      "asset_id": "prologue-p11-panel05"
+      "asset_id": "prologue-p11-panel05",
+      "captain_id": "captain-riftwalker"
     }
   ],
   "objects_file": "objects.json",
@@ -2921,6 +3317,38 @@
         "duration_days": 14
       },
       "refit_asset_id": "argonaut-refit"
+    },
+    {
+      "id": "josephine",
+      "name": "Josephine",
+      "design_id": "capital-bastion",
+      "class_id": "capital",
+      "duchy_id": "auric-reach",
+      "commander_id": "admiral-joseph",
+      "role": "Largest of the three pursuing Bastions; Joseph’s flagship and the Argonaut’s diversion target.",
+      "battle_status": "Argonaut closes and fires into nearby rocks to draw attention; not established as disabled."
+    },
+    {
+      "id": "serenity",
+      "name": "Serenity",
+      "design_id": "capital-bastion",
+      "class_id": "capital",
+      "duchy_id": "auric-reach",
+      "commander_id": null,
+      "fleet_commander_id": "admiral-joseph",
+      "role": "Bastion ambushed by the Stormlance, Windblade and Veymarch commandos.",
+      "battle_status": "Disabled by a concentrated magnetic lance shot; Windblade and commandos board it. Full capture not yet established."
+    },
+    {
+      "id": "serendipity",
+      "name": "Serendipity",
+      "design_id": "capital-bastion",
+      "class_id": "capital",
+      "duchy_id": "auric-reach",
+      "commander_id": null,
+      "fleet_commander_id": "admiral-joseph",
+      "role": "Bastion attacked by the Riftwalker and Hullbreaker.",
+      "battle_status": "Engines disabled when the Hullbreaker jumps onto them and cuts through their mechanism. Full capture not yet established."
     }
   ]
 }

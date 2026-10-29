@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p18-panel01",
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch",
+      "banner-auric-reach"
+    ]
+  },
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p18-panel01-banner-first-pass.png",
+      "role": "Target ambush panel; preserve six people and one ship"
+    },
+    {
+      "path": "assets/banner-auric-reach.png",
+      "role": "Canonical Auric flag cloth and emblem"
+    }
+  ],
+  "prompt": "Precise banner correction to the target comic image (image 1). The ONE enemy ship at right is Serenity of Auric Reach. Its TWO hanging hull banners currently have BLUE cloth and gold sun symbols, which are WRONG. Replace BOTH ship banners with the canonical design in image 2: GOLD/YELLOW CLOTH with the NAVY BLUE merchant balance scales inside a coin outline. No blue-background flag, no gold sun, no red enemy flag. Preserve the ship, rocks, skies, exactly TWO silver captains and FOUR bronze/crimson commandos, all weapon poses, and ALL existing words EXACTLY. Do not add anyone or any vessel. Keep canvas ratio. For the fixed panoramic holder, move the top cream caption slightly DOWN and the bottom narration slightly UP so BOTH boxes and all lettering lie comfortably between y=16% and y=84% of FULL IMAGE height, without covering heads. Exact top caption: The Serenity. Exact bottom narration: The Stormlance and the Windblade waited above the channel. The commandos stayed low. The only changes are correcting the two enemy banners and giving the existing lettering safe vertical margins."
+}
