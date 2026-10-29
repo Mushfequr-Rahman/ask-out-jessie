@@ -3710,6 +3710,212 @@
         "New Frontier is the conquered harbour. Oram is the next destination and is not yet reached or captured.",
         "Background art direction: At upper left behind the fleet, New Frontier is ONE HUGE LONG LOW fractured rust-coloured MESA with terraced warehouses, cranes, irregular stepped cliffs and horizontal strata. To the right beyond the four ships: ONE thin leaning basalt needle, ONE distant broad flat green meadow slab with no city, and scattered tiny angular rubble. Mostly open sky/cloud sea; asymmetric shapes at different altitudes, no repeating inverted-cone castle islands, no rows of identical cities or waterfalls. No destination city ahead; Oram has not been reached."
       ]
+    },
+    {
+      "id": "prologue-p21-panel01",
+      "chapter_id": "prologue",
+      "page_number": 21,
+      "panel_number": 1,
+      "description": "Oram under siege: expansive aerial panorama, exactly FOUR countable capital ships overlooking the largest city in the world, the distant single broad metropolis with extensive green/gold PATCHWORK FARMLAND and orchards on enormous uneven shelves. Foreground one crimson wedge Argonaut with four huge cannon barrels, three crimson ROUND-prowed Bastion prizes with standard guns. All ship flags crimson/SILVER Veymarch. City far behind uses GOLD/NAVY Auric banners. No fifth ship in this establishing shot. Cannons begin with thin curling smoke at siege positions; do not obliterate the city or show occupation. Make this city much larger than New Frontier: monumental low horizontal urban sprawl, grain terraces and varied districts, not copied cathedral islands.",
+      "character_ids": [],
+      "object_ids": [
+        "argonaut",
+        "repainted-bastions",
+        "oram-city"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 460
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Oram.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The largest city in the world. The richest, too. Its farmlands had fed that fortune. Now four warships hung above its gates.",
+          "bounds": {
+            "x": 14,
+            "y": 374,
+            "width": 924,
+            "height": 68
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p21-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Oram remains the capital of Auric Reach, not a new duchy. Siege, not victory or surrender.",
+        "Only four owned CAPITAL ships. Smaller supply traders are a separate transport class and only appear when requested.",
+        "Maintain spatial ownership: Veymarch crimson/SILVER ships outside, Auric GOLD/NAVY city inside.",
+        "Unique broad agricultural city geography, varied low districts, irregular cliff shelves and farmland. Never tile identical conical castle islands."
+      ]
+    },
+    {
+      "id": "prologue-p21-panel02",
+      "chapter_id": "prologue",
+      "page_number": 21,
+      "panel_number": 2,
+      "description": "A clear near-square view of exactly THREE SMALLER bronze mechanical TRADING zeppelins on a two-way supply route: two loaded convoy ships head right toward the distant siege haze outside Oram, one returning trader heads left with visibly opposite prow direction. Large external ore/cargo holds, grain sacks and ammunition crates secured to metal racks; no sails or wooden boats. NO capital ships in this close supply-route shot. Tiny crimson/silver Veymarch pennants. New Frontier’s low terraced industrial harbour recedes left; a faint farmland shelf on right hints Oram beyond the siege line. Ships unload at the friendly siege lines OUTSIDE Oram, not inside the enemy city. Angular bare rubble and one flat forested slab, ample open sky, no tiled castles.",
+      "character_ids": [],
+      "object_ids": [
+        "trader-caravan",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 470,
+        "width": 400,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The supply line.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Convoys ran from New Frontier to the siege fleet, then turned for home.",
+          "bounds": {
+            "x": 14,
+            "y": 240,
+            "width": 372,
+            "height": 92
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p21-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Oram remains the capital of Auric Reach, not a new duchy. Siege, not victory or surrender.",
+        "Only four owned CAPITAL ships. Smaller supply traders are a separate transport class and only appear when requested.",
+        "Maintain spatial ownership: Veymarch crimson/SILVER ships outside, Auric GOLD/NAVY city inside.",
+        "Unique broad agricultural city geography, varied low districts, irregular cliff shelves and farmland. Never tile identical conical castle islands."
+      ]
+    },
+    {
+      "id": "prologue-p21-panel03",
+      "chapter_id": "prologue",
+      "page_number": 21,
+      "panel_number": 3,
+      "description": "Dynamic close-up of ONE Argonaut’s TWO giant twin-barrel gun turrets: FOUR heavy cannon barrels, one pair firing toward a distant fortified OUTER city gate and military mooring bastion at Oram, thick gun smoke, orange muzzle flash, visible recoil mechanisms. No new fleet or other foreground capital ship. Keep distinct wedge prow edge and crimson hull armour, SILVER star/shield, bronze mechanics and green engine details. Gold/navy city banner distant. Buildings intact apart from dusty outer defence masonry; no attacks on a visible civilian crowd, no bodies, no graphic injuries. Vast broad farmland shelf in the haze, not repetitive conical castle islands.",
+      "character_ids": [],
+      "object_ids": [
+        "argonaut",
+        "oram-city"
+      ],
+      "holder": {
+        "x": 410,
+        "y": 470,
+        "width": 542,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Then the guns spoke.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 220,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The Argonaut’s guns broke the stillness.",
+          "bounds": {
+            "x": 14,
+            "y": 264,
+            "width": 514,
+            "height": 68
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p21-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Oram remains the capital of Auric Reach, not a new duchy. Siege, not victory or surrender.",
+        "Only four owned CAPITAL ships. Smaller supply traders are a separate transport class and only appear when requested.",
+        "Maintain spatial ownership: Veymarch crimson/SILVER ships outside, Auric GOLD/NAVY city inside.",
+        "Unique broad agricultural city geography, varied low districts, irregular cliff shelves and farmland. Never tile identical conical castle islands."
+      ]
+    },
+    {
+      "id": "prologue-p21-panel04",
+      "chapter_id": "prologue",
+      "page_number": 21,
+      "panel_number": 4,
+      "description": "Street-level wide comic view INSIDE wealthy Oram as civilians panic at the first siege: exactly one coherent market street on a broad landmass, mixed ages and backgrounds, a frightened merchant pulls down wooden shop shutters, a parent leads a child by the hand toward a stone archway, a dropped basket and abandoned handcart of grain sacks, citizens look up confused and run for cover. Expressions fear and disbelief, no stampede injuries, no blood. GOLD cloth/NAVY balance-in-coin Auric civic banner on a wall, no red occupying flag. Fine stone market buildings and grain stores, smoke in far sky, no cannon aimed at civilians in this frame. No ships necessary. Buildings vary in height and function; no skyline of identical floating castle islands.",
+      "character_ids": [
+        "oram-civilians"
+      ],
+      "object_ids": [
+        "oram-city"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 830,
+        "width": 952,
+        "height": 438
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "They had always been safe.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 286,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Nobody knew where to go. Shutters slammed. A cart stood abandoned in the street. Above the roofs, another cannon boomed.",
+          "bounds": {
+            "x": 14,
+            "y": 352,
+            "width": 924,
+            "height": 68
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p21-panel04.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Oram remains the capital of Auric Reach, not a new duchy. Siege, not victory or surrender.",
+        "Only four owned CAPITAL ships. Smaller supply traders are a separate transport class and only appear when requested.",
+        "Maintain spatial ownership: Veymarch crimson/SILVER ships outside, Auric GOLD/NAVY city inside.",
+        "Unique broad agricultural city geography, varied low districts, irregular cliff shelves and farmland. Never tile identical conical castle islands."
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Asset catalogue
 
-All **83 current illustrations** in the repository, grouped below. The comic uses 67 unique panel images, generated for fixed holders with lettering inside the artwork. Earlier visual anchors live separately in references/.
+All **87 current illustrations** in the repository, grouped below. The comic uses 71 unique panel images, generated for fixed holders with lettering inside the artwork. Earlier visual anchors live separately in references/.
 
 [Browse the hosted asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html) · [World reference JSON](world.json) · [Banner comparison review](generation/banner-review.html)
 
@@ -77,6 +77,10 @@ Select a preview or filename to open the original. Dimensions and sizes refer to
 | [<img src="assets/panels/prologue-p20-panel03.png" alt="Prologue P20 Panel03" width="110">](assets/panels/prologue-p20-panel03.png) | **Prologue P20 Panel03**<br>[assets/panels/prologue-p20-panel03.png](assets/panels/prologue-p20-panel03.png) | 1064 × 1478 · 3.0 MB | Page 20, panel 3 |
 | [<img src="assets/panels/prologue-p20-panel04.png" alt="Prologue P20 Panel04" width="110">](assets/panels/prologue-p20-panel04.png) | **Prologue P20 Panel04**<br>[assets/panels/prologue-p20-panel04.png](assets/panels/prologue-p20-panel04.png) | 1159 × 1356 · 2.5 MB | Page 20, panel 4 |
 | [<img src="assets/panels/prologue-p20-panel05.png" alt="Prologue P20 Panel05" width="110">](assets/panels/prologue-p20-panel05.png) | **Prologue P20 Panel05**<br>[assets/panels/prologue-p20-panel05.png](assets/panels/prologue-p20-panel05.png) | 1265 × 1244 · 3.0 MB | Page 20, panel 5 |
+| [<img src="assets/panels/prologue-p21-panel01.png" alt="Prologue P21 Panel01" width="110">](assets/panels/prologue-p21-panel01.png) | **Prologue P21 Panel01**<br>[assets/panels/prologue-p21-panel01.png](assets/panels/prologue-p21-panel01.png) | 1812 × 868 · 3.2 MB | Page 21, panel 1 |
+| [<img src="assets/panels/prologue-p21-panel02.png" alt="Prologue P21 Panel02" width="110">](assets/panels/prologue-p21-panel02.png) | **Prologue P21 Panel02**<br>[assets/panels/prologue-p21-panel02.png](assets/panels/prologue-p21-panel02.png) | 1335 × 1178 · 2.8 MB | Page 21, panel 2 |
+| [<img src="assets/panels/prologue-p21-panel03.png" alt="Prologue P21 Panel03" width="110">](assets/panels/prologue-p21-panel03.png) | **Prologue P21 Panel03**<br>[assets/panels/prologue-p21-panel03.png](assets/panels/prologue-p21-panel03.png) | 1555 × 1011 · 3.3 MB | Page 21, panel 3 |
+| [<img src="assets/panels/prologue-p21-panel04.png" alt="Prologue P21 Panel04" width="110">](assets/panels/prologue-p21-panel04.png) | **Prologue P21 Panel04**<br>[assets/panels/prologue-p21-panel04.png](assets/panels/prologue-p21-panel04.png) | 1854 × 848 · 2.9 MB | Page 21, panel 4 |
 
 ## Ships
 

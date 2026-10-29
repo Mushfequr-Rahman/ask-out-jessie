@@ -2753,6 +2753,162 @@
       ],
       "footer": "PROLOGUE · NEW FRONTIER",
       "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 21,
+      "Title": "The Siege of Oram",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p21-panel01.png",
+          "caption": "Oram.",
+          "narration": "The largest city in the world. The richest, too. Its farmlands had fed that fortune. Now four warships hung above its gates.",
+          "image_alt": "Oram under siege",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 460
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Oram.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The largest city in the world. The richest, too. Its farmlands had fed that fortune. Now four warships hung above its gates.",
+              "bounds": {
+                "x": 14,
+                "y": 374,
+                "width": 924,
+                "height": 68
+              }
+            }
+          ],
+          "scene_id": "prologue-p21-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p21-panel02.png",
+          "caption": "The supply line.",
+          "narration": "Convoys ran from New Frontier to the siege fleet, then turned for home.",
+          "image_alt": "A clear near-square view of exactly THREE SMALLER bronze mechanical TRADING zeppelins on a two-way supply route",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 470,
+            "width": 400,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The supply line.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Convoys ran from New Frontier to the siege fleet, then turned for home.",
+              "bounds": {
+                "x": 14,
+                "y": 240,
+                "width": 372,
+                "height": 92
+              }
+            }
+          ],
+          "scene_id": "prologue-p21-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p21-panel03.png",
+          "caption": "Then the guns spoke.",
+          "narration": "The Argonaut’s guns broke the stillness.",
+          "image_alt": "Dynamic close-up of ONE Argonaut’s TWO giant twin-barrel gun turrets",
+          "priority": 4,
+          "holder": {
+            "x": 410,
+            "y": 470,
+            "width": 542,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Then the guns spoke.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 220,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The Argonaut’s guns broke the stillness.",
+              "bounds": {
+                "x": 14,
+                "y": 264,
+                "width": 514,
+                "height": 68
+              }
+            }
+          ],
+          "scene_id": "prologue-p21-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p21-panel04.png",
+          "caption": "They had always been safe.",
+          "narration": "Nobody knew where to go. Shutters slammed. A cart stood abandoned in the street. Above the roofs, another cannon boomed.",
+          "image_alt": "Street-level wide comic view INSIDE wealthy Oram as civilians panic at the first siege",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 830,
+            "width": 952,
+            "height": 438
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "They had always been safe.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 286,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Nobody knew where to go. Shutters slammed. A cart stood abandoned in the street. Above the roofs, another cannon boomed.",
+              "bounds": {
+                "x": 14,
+                "y": 352,
+                "width": 924,
+                "height": 68
+              }
+            }
+          ],
+          "scene_id": "prologue-p21-panel04",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · THE SIEGE OF ORAM",
+      "layout_mode": "fixed"
     }
   ]
 }

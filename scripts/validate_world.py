@@ -63,9 +63,12 @@ for duchy in duchies:
     if duchy.get('ruler_id') is not None:
         assert duchy['ruler_id'] in character_ids, 'Unknown duchy ruler'
 conflict = world['society'].get('current_conflict', {})
-for field in ['staging_port_id', 'next_objective_location_id']:
+for field in ['staging_port_id', 'next_objective_location_id', 'siege_location_id']:
     if conflict.get(field):
         assert conflict[field] in location_ids, 'Unknown campaign location'
+if conflict.get('supply_route'):
+    route = conflict['supply_route']
+    assert {route['from_location_id'], route['to_location_id']} <= location_ids, 'Unknown convoy endpoint'
 if conflict.get('prize_captain_ids'):
     captains = conflict['prize_captain_ids']
     assert len(set(captains)) == len(captains) == 3, 'Exactly three prize captains'

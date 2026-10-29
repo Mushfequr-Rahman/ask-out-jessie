@@ -551,6 +551,20 @@
         "The old fleet reference supplies hull geometry only; replace Auric gold/navy flags with crimson/silver Veymarch flags after repainting."
       ],
       "canonical_reference": "assets/panels/prologue-p20-panel05.png"
+    },
+    {
+      "id": "oram-city",
+      "name": "Oram and its farmland",
+      "kind": "location",
+      "duchy_id": "auric-reach",
+      "description": "World’s largest and richest floating city, capital of Auric Reach. A vast ASYMMETRIC stratified landmass, broad agricultural shelves with patchwork fields, orchards and terraces, grain stores, dense varied urban districts, long freight gantries and a distant administrative citadel. Wealth comes from access to most farmland. Distinct geology: huge uneven multi-tiered slab with fractured cliffs and farms on lower shelves, not repeated castle-topped inverted cones. City flags GOLD with NAVY balance-in-coin. Keep a single connected metropolitan mass dominant, other fragments sparse and irregular.",
+      "reference_images": [
+        "assets/panels/prologue-p21-panel01.png"
+      ],
+      "constraints": [
+        "Under siege, not captured. No Veymarch flags raised inside Oram.",
+        "Farmland is substantial and recognisable; do not make every fragment another identical city."
+      ]
     }
   ]
 }

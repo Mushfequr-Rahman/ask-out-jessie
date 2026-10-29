@@ -1,0 +1,250 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p21-panel02",
+  "parameters": {
+    "scene": "prologue-p21-panel02",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 0,
+    "y": 470,
+    "width": 400,
+    "height": 350
+  },
+  "target": {
+    "width": 1088,
+    "height": 960,
+    "size": "1088x960",
+    "visible_window": {
+      "x": 0,
+      "y": 0.004166666666666652,
+      "width": 1,
+      "height": 0.9916666666666667
+    }
+  },
+  "output_file": "assets/panels/prologue-p21-panel02.png",
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p21-panel02-before-convoy-direction.png",
+      "role": "Correct convoy travel directions and sparse background; preserve lettering."
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "The supply line.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 190,
+          "height": 44
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "The supply line.",
+        "normalized_bounds": {
+          "x": 0.035,
+          "y": 0.04,
+          "width": 0.475,
+          "height": 0.1257
+        },
+        "source_bounds": {
+          "x": 0.035,
+          "y": 0.0438,
+          "width": 0.475,
+          "height": 0.1247
+        }
+      },
+      {
+        "type": "narration",
+        "text": "Convoys ran from New Frontier to the siege fleet, then turned for home.",
+        "bounds": {
+          "x": 14,
+          "y": 240,
+          "width": 372,
+          "height": 92
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "Convoys ran from New Frontier to the siege fleet, then turned for home.",
+        "normalized_bounds": {
+          "x": 0.035,
+          "y": 0.6857,
+          "width": 0.93,
+          "height": 0.2629
+        },
+        "source_bounds": {
+          "x": 0.035,
+          "y": 0.6842,
+          "width": 0.93,
+          "height": 0.2607
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth\u2019s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "veymarch",
+          "name": "Veymarch",
+          "emblem": "Silver broken shield and star"
+        }
+      ]
+    },
+    "characters": [],
+    "objects": [
+      {
+        "id": "trader-caravan",
+        "name": "Caravan",
+        "description": "Large twin parallel Zeppelin hulls connected by cargo bridges, freight modules and passenger space. Cumbersome turns",
+        "constraints": [
+          "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+        ]
+      },
+      {
+        "id": "banner-veymarch",
+        "name": "Veymarch banner",
+        "description": "Crimson field; Silver broken shield and star",
+        "canonical_reference": "assets/banner-veymarch.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Crimson",
+            "hex": "#991B1B"
+          },
+          "emblem": {
+            "name": "Aged silver",
+            "hex": "#C8C2B0"
+          },
+          "trim": {
+            "name": "Antique silver trim",
+            "hex": "#A89978"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location\u2019s defining geography when changing camera angle.",
+      "Rovan owns FOUR capital ships: wedge-prowed Argonaut and THREE crimson repainted round-prowed Bastion prizes. Oram is now under siege, not conquered. Trading convoys are smaller transport ships, not extra capitals. City standards remain Auric GOLD/NAVY; fleet standards Veymarch CRIMSON/SILVER. Show only ships required by the shot.",
+      "Oram is the SAME Auric Reach capital earlier called Oram, not a new duchy. Siege, not victory or surrender.",
+      "Only four owned CAPITAL ships. Smaller supply traders are a separate transport class and only appear when requested.",
+      "Maintain spatial ownership: Veymarch crimson/SILVER ships outside, Auric GOLD/NAVY city inside.",
+      "Unique broad agricultural city geography, varied low districts, irregular cliff shelves and farmland. Never tile identical conical castle islands.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch"
+    ],
+    "policy": {
+      "reference_precedence": [
+        "Canonical banner reference for emblem geometry and colour placement",
+        "Dedicated material palette in objects.json for neutral-light hues",
+        "Scene and character references for composition and identity only"
+      ],
+      "review_checks": [
+        "Compare every visible banner with its canonical house reference side by side",
+        "Check cloth hue, emblem and trim separately under the scene lighting",
+        "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+      ],
+      "review_required": true
+    }
+  },
+  "prompt": "Edit this completed comic panel. Preserve EXACT canvas size, caption and narration wording, box placement, bronze Zeppelin style, three trading ship count, cargo racks, green engines and crimson/SILVER pennants. Correct the TWO SMALLER ships in the upper centre and upper right: both must FACE RIGHT, with rounded GLASS COCKPIT PROWS on the RIGHT and engines/stern tail structures on the LEFT. They are travelling RIGHT towards the smoke and siege camp. Keep the LARGE left foreground trader facing LEFT exactly as it is: it is returning to New Frontier. The scene must clearly show TWO RIGHT-facing outbound traders and ONE LEFT-facing returning trader. No fourth ship. Maintain their sizes and positions; redraw hull geometry in its opposite heading, do not mirror the whole image or text. Remove the repeated tiny castle-topped cone islands in the central background; replace with a few varied BARE tilted angular rock fragments and open sky. Preserve harbour at lower left and friendly siege camp at lower right. All exact text unchanged, no new text.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording",
+    "Compare every visible banner with its canonical house reference side by side",
+    "Check cloth hue, emblem and trim separately under the scene lighting",
+    "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+  ],
+  "source_hashes": {
+    "world.json": "63e1650e3cbe62372cfbe332f3bb06802ece6c20051f48581cb348d1b6d11bc2",
+    "character.json": "849d62c67bf7ef8ef7976218f4e34f576342c24fd8dac3f63057746a54f822e8",
+    "objects.json": "39d8ca082468cb38c023cf3ce4d55c31c9577326dd675db6395a5691424ac108",
+    "scene": "228c7ba4fa4caf9b10bc69c4523154e9a0e2c60f7274a735d410579ee0552aba"
+  }
+}

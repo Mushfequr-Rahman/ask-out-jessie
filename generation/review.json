@@ -1140,6 +1140,74 @@
         "height": 501
       },
       "review": "Visually inspected background-only edit: distinct irregular geology and sparse settlement silhouettes; foreground identities, ship count, house colours, lettering and fixed crop preserved."
+    },
+    {
+      "id": "prologue-p21-panel01",
+      "output_file": "assets/panels/prologue-p21-panel01.png",
+      "selected_run": "generation/runs/prologue-p21-panel01.json",
+      "sha256": "d1a4b19f86fea6df3c234293ad7d41048d36766747dad1d95d4f965ac2d9dce6",
+      "dimensions": {
+        "width": 1812,
+        "height": 868
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 460
+      },
+      "review": "Visually inspected: exact Oram lettering, fixed holder crop, four-capital count, farmland/wealth setting, two-way three-trader supply traffic, cannon fire and civilian panic. City Auric gold/navy; siege fleet Veymarch crimson/silver. Siege only, no conquest."
+    },
+    {
+      "id": "prologue-p21-panel02",
+      "output_file": "assets/panels/prologue-p21-panel02.png",
+      "selected_run": "generation/runs/prologue-p21-panel02.json",
+      "sha256": "21035954582e76e9de285886213e314ad62558622f61d7842b6bbc321e2327d7",
+      "dimensions": {
+        "width": 1335,
+        "height": 1178
+      },
+      "holder": {
+        "x": 0,
+        "y": 470,
+        "width": 400,
+        "height": 350
+      },
+      "review": "Visually inspected: exact Oram lettering, fixed holder crop, four-capital count, farmland/wealth setting, two-way three-trader supply traffic, cannon fire and civilian panic. City Auric gold/navy; siege fleet Veymarch crimson/silver. Siege only, no conquest."
+    },
+    {
+      "id": "prologue-p21-panel03",
+      "output_file": "assets/panels/prologue-p21-panel03.png",
+      "selected_run": "generation/runs/prologue-p21-panel03.json",
+      "sha256": "00d6c2bc74eee55f061c7411140100d4078c493820f0022a4d856688586fdd8b",
+      "dimensions": {
+        "width": 1555,
+        "height": 1011
+      },
+      "holder": {
+        "x": 410,
+        "y": 470,
+        "width": 542,
+        "height": 350
+      },
+      "review": "Visually inspected: exact Oram lettering, fixed holder crop, four-capital count, farmland/wealth setting, two-way three-trader supply traffic, cannon fire and civilian panic. City Auric gold/navy; siege fleet Veymarch crimson/silver. Siege only, no conquest."
+    },
+    {
+      "id": "prologue-p21-panel04",
+      "output_file": "assets/panels/prologue-p21-panel04.png",
+      "selected_run": "generation/runs/prologue-p21-panel04.json",
+      "sha256": "912f0fe5f4ddef9c85f0661db666ac5f04feb11186bd86cc17524476aa0a2dd6",
+      "dimensions": {
+        "width": 1854,
+        "height": 848
+      },
+      "holder": {
+        "x": 0,
+        "y": 830,
+        "width": 952,
+        "height": 438
+      },
+      "review": "Visually inspected: exact Oram lettering, fixed holder crop, four-capital count, farmland/wealth setting, two-way three-trader supply traffic, cannon fire and civilian panic. City Auric gold/navy; siege fleet Veymarch crimson/silver. Siege only, no conquest."
     }
   ]
 }

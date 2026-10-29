@@ -396,6 +396,18 @@
         "appearance": "A varied crowd of human women and men in ordinary travelling clothes and work coats, carrying small packs and lining up to enlist. Recruits are not prisoners; no silver armour."
       },
       "reference_images": []
+    },
+    {
+      "id": "oram-civilians",
+      "name": "Civilians of Oram",
+      "duchy_id": "auric-reach",
+      "role": "People of the richest and largest city, who have always felt safe and panic as the siege begins.",
+      "visual_concept": {
+        "appearance": "Human civilians of varied ages and backgrounds in practical, prosperous city clothes: market workers, families and merchants. Fear, confusion and urgent movement; no silver armour. No graphic injuries."
+      },
+      "reference_images": [
+        "assets/panels/prologue-p21-panel04.png"
+      ]
     }
   ]
 }

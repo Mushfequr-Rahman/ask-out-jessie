@@ -382,6 +382,27 @@
           "panel": 5,
           "file": "assets/panels/prologue-p20-panel05.png",
           "sha256": "0bc10f84149ce9041023d23f918197f7439c2c0bb5a68a790e801e025646b77b"
+        },
+        {
+          "id": "prologue-p21-panel01",
+          "page": 21,
+          "panel": 1,
+          "file": "assets/panels/prologue-p21-panel01.png",
+          "sha256": "d1a4b19f86fea6df3c234293ad7d41048d36766747dad1d95d4f965ac2d9dce6"
+        },
+        {
+          "id": "prologue-p21-panel02",
+          "page": 21,
+          "panel": 2,
+          "file": "assets/panels/prologue-p21-panel02.png",
+          "sha256": "21035954582e76e9de285886213e314ad62558622f61d7842b6bbc321e2327d7"
+        },
+        {
+          "id": "prologue-p21-panel03",
+          "page": 21,
+          "panel": 3,
+          "file": "assets/panels/prologue-p21-panel03.png",
+          "sha256": "00d6c2bc74eee55f061c7411140100d4078c493820f0022a4d856688586fdd8b"
         }
       ]
     },
@@ -590,6 +611,27 @@
           "panel": 3,
           "file": "assets/panels/prologue-p19-panel03.png",
           "sha256": "c7756864e8e1af9af948a1ffe5aaf750ec82e243b55731379c29fb9ba4a9cbba"
+        },
+        {
+          "id": "prologue-p21-panel01",
+          "page": 21,
+          "panel": 1,
+          "file": "assets/panels/prologue-p21-panel01.png",
+          "sha256": "d1a4b19f86fea6df3c234293ad7d41048d36766747dad1d95d4f965ac2d9dce6"
+        },
+        {
+          "id": "prologue-p21-panel03",
+          "page": 21,
+          "panel": 3,
+          "file": "assets/panels/prologue-p21-panel03.png",
+          "sha256": "00d6c2bc74eee55f061c7411140100d4078c493820f0022a4d856688586fdd8b"
+        },
+        {
+          "id": "prologue-p21-panel04",
+          "page": 21,
+          "panel": 4,
+          "file": "assets/panels/prologue-p21-panel04.png",
+          "sha256": "912f0fe5f4ddef9c85f0661db666ac5f04feb11186bd86cc17524476aa0a2dd6"
         }
       ]
     },
@@ -755,5 +797,5 @@
     "Check cloth hue, emblem and trim separately under the scene lighting",
     "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
   ],
-  "revision": "ef08781e2147ec9352a848010bc244fe8990120c0d1518d620f4a0d1bfd8a1b9"
+  "revision": "e4e498315267438c3fb5bb5e00f5fd501b333c4c477bcaef2144508305daf0d8"
 }

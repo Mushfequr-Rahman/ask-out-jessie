@@ -88,7 +88,7 @@
       "opponent_duchy_id": "auric-reach",
       "target_character_id": "rovan-vey",
       "capital_ships_dispatched": 3,
-      "status": "Rovan repairs and repaints his prizes at New Frontier, appoints three naval captains, gains volunteers and sails his four-ship fleet for Oram.",
+      "status": "Rovan’s four capital ships besiege Oram. Supply convoys link the siege fleet outside Oram with New Frontier. Cannon fire frightens civilians unaccustomed to war.",
       "battle_outcome": "Rovan captures Josephine, Serenity and Serendipity in one battle.",
       "opponent_total_capital_ship_count": null,
       "planned_battlefield_id": "shattered-plains",
@@ -133,7 +133,15 @@
         "mara-voss",
         "idris-vale",
         "tomas-kest"
-      ]
+      ],
+      "siege_location_id": "oram",
+      "capital_captured": false,
+      "supply_route": {
+        "from_location_id": "auric-latest-captured-city",
+        "to_location_id": "oram",
+        "destination": "Rovan’s siege lines outside Oram, not an occupied city dock",
+        "traffic": "Trading convoy ships carry supplies toward the fleet and return to New Frontier."
+      }
     },
     "historical_milestone": {
       "event": "First capture of another duchy’s capital ships in the history of the shattered world.",
@@ -553,9 +561,11 @@
       "id": "oram",
       "name": "Oram",
       "duchy_id": "auric-reach",
-      "role": "Capital city of Auric Reach and next objective of Rovan’s four-ship fleet.",
-      "current_control": "Auric Reach; the fleet has not yet arrived or conquered it.",
-      "exact_coordinates": null
+      "role": "Capital of Auric Reach; the largest and richest city in the shattered world, with access to the most farmland.",
+      "current_control": "Auric Reach; under siege by Rovan’s four capital ships, not captured.",
+      "exact_coordinates": null,
+      "geography": "A broad, irregular agricultural landmass with terraced urban districts and large surrounding farmland shelves, unlike the small New Frontier harbour.",
+      "wealth_source": "Access to most farmland in the shattered world; agricultural wealth supports its unrivalled size and prosperity."
     }
   ],
   "characters_file": "character.json",
@@ -672,6 +682,12 @@
       "page": 20,
       "event": "Rovan brings all four ships back to the conquered harbour and renames it New Frontier. He and Grievous resolve to use the opportunity. Volunteers arrive from Auric Reach and Veymarch; the prizes are repaired and repainted. Mara Voss takes Josephine, Idris Vale Serenity, and Tomas Kest Serendipity. All four ships sail toward Oram, Auric Reach’s capital.",
       "destination_reached": false
+    },
+    {
+      "order": 23,
+      "page": 21,
+      "event": "The four capital ships overlook Oram, Auric Reach’s capital and the largest, richest city in the world through access to most farmland. Supply convoys run between New Frontier and the siege lines outside Oram. The cannons fire and civilians who have always felt safe panic.",
+      "capital_captured": false
     }
   ],
   "publication": {
@@ -688,8 +704,8 @@
         "title": "Prologue",
         "status": "available",
         "reader": "prologue.html",
-        "page_count": 20,
-        "panel_count": 67,
+        "page_count": 21,
+        "panel_count": 71,
         "pages": [
           {
             "number": 1,
@@ -1882,6 +1898,76 @@
                 "lettering_mode": "baked"
               }
             ]
+          },
+          {
+            "number": 21,
+            "title": "The Siege of Oram",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p21-panel01",
+                "caption": "Oram.",
+                "narration": "The largest city in the world. The richest, too. Its farmlands had fed that fortune. Now four warships hung above its gates.",
+                "priority": 5,
+                "image_description": "Oram under siege",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 460
+                },
+                "scene_id": "prologue-p21-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p21-panel02",
+                "caption": "The supply line.",
+                "narration": "Convoys ran from New Frontier to the siege fleet, then turned for home.",
+                "priority": 3,
+                "image_description": "A clear near-square view of exactly THREE SMALLER bronze mechanical TRADING zeppelins on a two-way supply route",
+                "holder": {
+                  "x": 0,
+                  "y": 470,
+                  "width": 400,
+                  "height": 350
+                },
+                "scene_id": "prologue-p21-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p21-panel03",
+                "caption": "Then the guns spoke.",
+                "narration": "The Argonaut’s guns broke the stillness.",
+                "priority": 4,
+                "image_description": "Dynamic close-up of ONE Argonaut’s TWO giant twin-barrel gun turrets",
+                "holder": {
+                  "x": 410,
+                  "y": 470,
+                  "width": 542,
+                  "height": 350
+                },
+                "scene_id": "prologue-p21-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p21-panel04",
+                "caption": "They had always been safe.",
+                "narration": "Nobody knew where to go. Shutters slammed. A cart stood abandoned in the street. Above the roofs, another cannon boomed.",
+                "priority": 5,
+                "image_description": "Street-level wide comic view INSIDE wealthy Oram as civilians panic at the first siege",
+                "holder": {
+                  "x": 0,
+                  "y": 830,
+                  "width": 952,
+                  "height": 438
+                },
+                "scene_id": "prologue-p21-panel04",
+                "lettering_mode": "baked"
+              }
+            ]
           }
         ],
         "json_file": "chapters/prologue.json"
@@ -1920,7 +2006,7 @@
     "Magnetic motor": "An engine using opposing polarities in city and transport systems.",
     "Shattered Plains": "Rock-choked sky with strong magnetic fields; difficult flying terrain chosen by Rovan to split the enemy Bastions.",
     "New Frontier": "Rovan’s name for the conquered harbour, his new foothold for the Auric Reach campaign.",
-    "Oram": "Capital city of Auric Reach; next destination of Rovan’s fleet."
+    "Oram": "Capital of Auric Reach: the largest and richest city in the shattered world because it has access to most farmland. Under siege by Rovan on page21, not captured."
   },
   "open_questions": [
     "Exact dates and elapsed generations",
@@ -3575,6 +3661,94 @@
       ]
     },
     {
+      "id": "prologue-p21-panel01",
+      "file": "assets/panels/prologue-p21-panel01.png",
+      "title": "Prologue P21 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1812,
+        "height": 868
+      },
+      "byte_size": 3398336,
+      "sha256": "d1a4b19f86fea6df3c234293ad7d41048d36766747dad1d95d4f965ac2d9dce6",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 21,
+          "panel": 1,
+          "description": "Oram under siege"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p21-panel02",
+      "file": "assets/panels/prologue-p21-panel02.png",
+      "title": "Prologue P21 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1335,
+        "height": 1178
+      },
+      "byte_size": 2923530,
+      "sha256": "21035954582e76e9de285886213e314ad62558622f61d7842b6bbc321e2327d7",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 21,
+          "panel": 2,
+          "description": "A clear near-square view of exactly THREE SMALLER bronze mechanical TRADING zeppelins on a two-way supply route"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p21-panel03",
+      "file": "assets/panels/prologue-p21-panel03.png",
+      "title": "Prologue P21 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1555,
+        "height": 1011
+      },
+      "byte_size": 3455396,
+      "sha256": "00d6c2bc74eee55f061c7411140100d4078c493820f0022a4d856688586fdd8b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 21,
+          "panel": 3,
+          "description": "Dynamic close-up of ONE Argonaut’s TWO giant twin-barrel gun turrets"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p21-panel04",
+      "file": "assets/panels/prologue-p21-panel04.png",
+      "title": "Prologue P21 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1854,
+        "height": 848
+      },
+      "byte_size": 3082575,
+      "sha256": "912f0fe5f4ddef9c85f0661db666ac5f04feb11186bd86cc17524476aa0a2dd6",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 21,
+          "panel": 4,
+          "description": "Street-level wide comic view INSIDE wealthy Oram as civilians panic at the first siege"
+        }
+      ]
+    },
+    {
       "id": "schooner-kestrel",
       "file": "assets/schooner-kestrel.png",
       "title": "Kestrel",
@@ -3652,7 +3826,7 @@
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with twenty pages and 67 distinct panel images.",
+    "There is one available story entry, Prologue, with twenty-one pages and 71 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
     "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
@@ -3677,9 +3851,11 @@
     "Rovan’s original capital-ship count remains one; after capturing three on page19 he owns four. Immediate post-battle readiness is unspecified on page19; all four are repaired and sailing by page20.",
     "This is the first historical capture of another duchy’s capital ships; Rovan takes three in one battle.",
     "Joseph’s overboard sentence is pronounced, but its execution is not depicted on page19.",
-    "The conquered harbour is renamed New Frontier by Rovan. Oram is Auric Reach’s capital, not yet captured.",
+    "The conquered harbour is renamed New Frontier by Rovan. Oram is Auric Reach’s capital, under siege but not captured on page21.",
     "Mara Voss commands Josephine, Idris Vale commands Serenity and Tomas Kest commands Serendipity. These are three new prize-crew officers, not extra Type C captains.",
-    "The three prizes are repainted crimson at New Frontier but retain their original Bastion shapes and standard armament. Only Argonaut has its distinctive wedge prow and huge refit cannons."
+    "The three prizes are repainted crimson at New Frontier but retain their original Bastion shapes and standard armament. Only Argonaut has its distinctive wedge prow and huge refit cannons.",
+    "Oram is the world’s largest and richest city because it has access to most farmland. The four-ship siege does not establish its conquest.",
+    "Supply convoys travel between New Frontier and Rovan’s siege lines at Oram; convoy traders are not additional capital ships and do not imply entry through hostile city defences."
   ],
   "military_livery": {
     "veymarch": {
@@ -3763,7 +3939,8 @@
         "limits": "A refit of the same single capital ship, not a second ship or an invulnerable Type C hull. No new weapon abilities or performance statistics established.",
         "duration_days": 14
       },
-      "refit_asset_id": "argonaut-refit"
+      "refit_asset_id": "argonaut-refit",
+      "current_status": "At siege stations outside Oram on page21; part of Rovan’s four-capital fleet."
     },
     {
       "id": "josephine",
@@ -3779,7 +3956,7 @@
       "fleet_commander_id": "rovan-vey",
       "ownership_status": "Held by Rovan; prize captain commissioned at New Frontier.",
       "current_livery": "Fresh crimson repaint with bronze structure and silver Veymarch shield/star insignia; original round-prowed Bastion geometry retained.",
-      "current_status": "Repaired and re-crewed at New Frontier; sails for Oram on page20."
+      "current_status": "At siege stations outside Oram on page21; part of Rovan’s four-capital fleet."
     },
     {
       "id": "serenity",
@@ -3795,7 +3972,7 @@
       "former_commander_id": null,
       "ownership_status": "Held by Rovan; prize captain commissioned at New Frontier.",
       "current_livery": "Fresh crimson repaint with bronze structure and silver Veymarch shield/star insignia; original round-prowed Bastion geometry retained.",
-      "current_status": "Repaired and re-crewed at New Frontier; sails for Oram on page20."
+      "current_status": "At siege stations outside Oram on page21; part of Rovan’s four-capital fleet."
     },
     {
       "id": "serendipity",
@@ -3811,7 +3988,7 @@
       "former_commander_id": null,
       "ownership_status": "Held by Rovan; prize captain commissioned at New Frontier.",
       "current_livery": "Fresh crimson repaint with bronze structure and silver Veymarch shield/star insignia; original round-prowed Bastion geometry retained.",
-      "current_status": "Repaired and re-crewed at New Frontier; sails for Oram on page20."
+      "current_status": "At siege stations outside Oram on page21; part of Rovan’s four-capital fleet."
     }
   ]
 }
