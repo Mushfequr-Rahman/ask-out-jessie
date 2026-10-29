@@ -3473,8 +3473,8 @@
         "width": 2172,
         "height": 724
       },
-      "byte_size": 3270109,
-      "sha256": "84c40a7b98ec7806d43081ad268eedfb6e3295f3ec89132513bc58eebb32c836",
+      "byte_size": 3144580,
+      "sha256": "eae09a8c5ad408cb9ad71f146660dc53b1e1497b851b5a99e456b20b955d54a7",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
@@ -3495,8 +3495,8 @@
         "width": 1344,
         "height": 1170
       },
-      "byte_size": 3182317,
-      "sha256": "0620da56aba661a46a1fd552e2bfd4d87bf46c4a4fdb74a0c2037782eba06af7",
+      "byte_size": 2731145,
+      "sha256": "93c61e5e68e4e481f75bf8aaaed608954eead58d836a083a4ee0f02dc3330fd4",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
@@ -3517,8 +3517,8 @@
         "width": 1064,
         "height": 1478
       },
-      "byte_size": 3466868,
-      "sha256": "27909f310f65c8f01adcc3e4f8859dbff7d002e0684e6c8a41a5ece4515bbd54",
+      "byte_size": 3161982,
+      "sha256": "037954ed6d77e1aa39f4479ef395eaee1f1176551a02477eda501b17ee4caa43",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
@@ -3536,11 +3536,11 @@
       "title": "Prologue P20 Panel04",
       "category": "comic",
       "dimensions": {
-        "width": 1160,
+        "width": 1159,
         "height": 1356
       },
-      "byte_size": 2818288,
-      "sha256": "a2e958fe44abb16804225864b049fa5161653362870534c448817f26089cafac",
+      "byte_size": 2627266,
+      "sha256": "91737188c1b54b5a1cb4927054b380bbf18f2e7411bd375441f826eb8b41f308",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
@@ -3558,11 +3558,11 @@
       "title": "Prologue P20 Panel05",
       "category": "comic",
       "dimensions": {
-        "width": 1264,
+        "width": 1265,
         "height": 1244
       },
-      "byte_size": 3452366,
-      "sha256": "67b979e9c0a79342e21f7dd666f8aa91debb204b23508655d8857b2a9eafc9da",
+      "byte_size": 3098125,
+      "sha256": "0bc10f84149ce9041023d23f918197f7439c2c0bb5a68a790e801e025646b77b",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [

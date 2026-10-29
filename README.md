@@ -106,7 +106,7 @@ Run `python3 scripts/validate_world.py` after editing either file to check chara
 ```sh
 python3 scripts/build_image_requests.py
 python3 scripts/test_image_requests.py
-python3 scripts/validate_generation.py --require-outputs --banner-review generation/new-frontier-banner-review.json
+python3 scripts/validate_generation.py --require-outputs --banner-review generation/island-variation-banner-review.json
 ```
 
 The request builder takes scene + world.json + character.json + objects.json. It writes prompts rather than calling a paid API. All 67 selected outputs are already committed under `assets/`. Earlier anchors are retained under `references/`; generation requests and run metadata record provenance. See [the generation workflow and official research sources](docs/image-generation.md) for reference conditioning, exact lettering, fixed apertures and the MongoDB assessment. JSON remains the storage layer for this static site.

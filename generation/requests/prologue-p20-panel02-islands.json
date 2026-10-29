@@ -1,0 +1,301 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p20-panel02",
+  "parameters": {
+    "scene": "prologue-p20-panel02",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 0,
+    "y": 255,
+    "width": 582,
+    "height": 502
+  },
+  "target": {
+    "width": 1104,
+    "height": 960,
+    "size": "1104x960",
+    "visible_window": {
+      "x": 0,
+      "y": 0.00403780068728532,
+      "width": 1,
+      "height": 0.9919243986254294
+    }
+  },
+  "output_file": "assets/panels/prologue-p20-panel02.png",
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p20-panel02-before-island-variation.png",
+      "role": "Edit background geology only. Preserve foreground and exact lettering."
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "An opening.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 190,
+          "height": 44
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "An opening.",
+        "normalized_bounds": {
+          "x": 0.0241,
+          "y": 0.0279,
+          "width": 0.3265,
+          "height": 0.0876
+        },
+        "source_bounds": {
+          "x": 0.0241,
+          "y": 0.0317,
+          "width": 0.3265,
+          "height": 0.0869
+        }
+      },
+      {
+        "type": "speech",
+        "text": "Rovan: “We’ve never had a chance like this. We can’t let it go.”",
+        "bounds": {
+          "x": 14,
+          "y": 300,
+          "width": 554,
+          "height": 82
+        },
+        "speaker_name": "Rovan",
+        "speaker_id": "rovan-vey",
+        "render_text": "We’ve never had a chance like this. We can’t let it go.",
+        "normalized_bounds": {
+          "x": 0.0241,
+          "y": 0.5976,
+          "width": 0.9519,
+          "height": 0.1633
+        },
+        "source_bounds": {
+          "x": 0.0241,
+          "y": 0.5968,
+          "width": 0.9519,
+          "height": 0.162
+        }
+      },
+      {
+        "type": "speech",
+        "text": "Grievous: “Then we move while the Reach is still reeling.”",
+        "bounds": {
+          "x": 14,
+          "y": 392,
+          "width": 554,
+          "height": 82
+        },
+        "speaker_name": "Grievous",
+        "speaker_id": "general-grievous",
+        "render_text": "Then we move while the Reach is still reeling.",
+        "normalized_bounds": {
+          "x": 0.0241,
+          "y": 0.7809,
+          "width": 0.9519,
+          "height": 0.1633
+        },
+        "source_bounds": {
+          "x": 0.0241,
+          "y": 0.7786,
+          "width": 0.9519,
+          "height": 0.162
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth’s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "veymarch",
+          "name": "Veymarch",
+          "emblem": "Silver broken shield and star"
+        }
+      ]
+    },
+    "characters": [
+      {
+        "id": "rovan-vey",
+        "name": "Rovan Vey",
+        "title": "Duke",
+        "visual_concept": {
+          "status": "provisional artwork, not established biography",
+          "appearance": "Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf"
+        },
+        "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+      },
+      {
+        "id": "general-grievous",
+        "name": "General Grievous",
+        "visual_concept": {
+          "status": "provisional project artwork, not established species or biography",
+          "appearance": "Older bald human officer with a grey moustache, dark olive coat and bronze epaulettes"
+        },
+        "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+      }
+    ],
+    "objects": [
+      {
+        "id": "argonaut",
+        "name": "Argonaut",
+        "description": "Rovan’s ONE Bastion-derived Argonaut, refitted with his newfound wealth. UNIQUE silhouette: elongated rigid bronze Zeppelin central hull, two shorter side gun hulls, wedge-shaped armoured ram prow and reinforced lower keel; crimson lacquer side armour between bronze ribs, low protected command citadel, TWO exposed green magnetic stabiliser rings near the stern, FOUR articulated bronze vectoring thruster pods with green Type B glow, rebuilt gun positions. Veymarch SILVER broken shield/eight-point star on crimson banners. Workshop-built industrial machinery, not ornate fantasy gold or a generic round-nosed Bastion. HEAVY CANNON UPGRADE: two prominent twin-barrel heavy gun turrets on the upper foredeck, four huge long bronze-and-black cannon barrels, much thicker and longer than standard Bastion deck guns, with reinforced recoil cradles and visible mechanical breeches. Keep the wedge prow and crimson plating. These are conventional heavy cannons, not new magical weapons.",
+        "constraints": [
+          "Exactly one Argonaut. The three captured Bastions may appear alongside it only in explicitly post-surrender fleet scenes. No wooden hulls, sails or extra vessels.",
+          "Same ship after a refit, never an additional capital ship.",
+          "All hull armour is bronze Type A; machinery is green Type B. No silver Type C hull or invulnerability.",
+          "Canonical Argonaut refit design controls hull geometry; older generic Bastion art supplies ancestry only.",
+          "Keep the wedge prow, crimson side armour, paired green stern stabiliser rings and vectoring pods recognisable in every new exterior view.",
+          "The enlarged heavy cannons must be conspicuous in exterior views; do not shrink them to decorative small deck guns.",
+          "The refit takes a legendary FOURTEEN DAYS, using captured resources; it is the same existing ship."
+        ],
+        "canonical_reference": "assets/argonaut-refit.png"
+      },
+      {
+        "id": "banner-veymarch",
+        "name": "Veymarch banner",
+        "description": "Crimson field; Silver broken shield and star",
+        "canonical_reference": "assets/banner-veymarch.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Crimson",
+            "hex": "#991B1B"
+          },
+          "emblem": {
+            "name": "Aged silver",
+            "hex": "#C8C2B0"
+          },
+          "trim": {
+            "name": "Antique silver trim",
+            "hex": "#A89978"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Rovan owns FOUR capital ships: the original wedge-prowed Argonaut and THREE round-prowed prizes, Josephine, Serenity and Serendipity. Repairs and crimson repainting occur at New Frontier on page20 before the four sail for Oram. Do not show four copies of Argonaut or add a fifth ship. The three new prize captains are ordinary naval officers, not additional silver Type C knights.",
+      "Only FOUR owned capital ships exist in this fleet: Argonaut plus the three captured prizes. Respect the smaller count of ships requested for close-up shots.",
+      "The new prize captains are three ordinary naval officers, not additional silver knights. No Type C armour in these shots.",
+      "All raised house flags are Veymarch CRIMSON with SILVER shield/star. Fresh paint does not turn the standard prizes into Argonaut duplicates.",
+      "New Frontier is the conquered harbour. Oram is the next destination and is not yet reached or captured.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch"
+    ],
+    "policy": {
+      "reference_precedence": [
+        "Canonical banner reference for emblem geometry and colour placement",
+        "Dedicated material palette in objects.json for neutral-light hues",
+        "Scene and character references for composition and identity only"
+      ],
+      "review_checks": [
+        "Compare every visible banner with its canonical house reference side by side",
+        "Check cloth hue, emblem and trim separately under the scene lighting",
+        "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+      ],
+      "review_required": true
+    }
+  },
+  "prompt": "Edit ONLY the distant floating-island landscape and sky in this finished comic panel. Preserve the image dimensions, camera framing, all foreground ships and guns, every person and face, clothing, dock structures, all crimson flags and SILVER shield/star emblems, and ALL existing lettering and box/bubble positions EXACTLY. Do not redraw or move those foreground elements. Keep the same painted-ink graphic novel style and lighting. Replace the repetitive island/castle background with the following varied landscape: Behind the Argonaut put open blue sky and the cropped end of ONE broad stratified sandstone shelf, with low terraced warehouses rather than towers. One small distant needle of bare basalt is enough. Sparse horizon; absolutely NO rows of repeated islands, identical castles or waterfalls. Avoid copy-paste repetition: each fragment must have different mass, direction, edge profile, geology and land use. Do not introduce extra ships, new people, new flags, readable signs or borders. Four capital ships remain exactly four where present. Important: preserve original canvas and lettering placement, especially all text inside the central crop-safe aperture. No watercraft or wooden boats. This is a background-only edit, not a new scene.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording",
+    "Compare every visible banner with its canonical house reference side by side",
+    "Check cloth hue, emblem and trim separately under the scene lighting",
+    "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+  ],
+  "source_hashes": {
+    "world.json": "b7e112e67aa57dc0b53bf22c40e9e1635f41980473ebe33d48ea7d089e566364",
+    "character.json": "ecd4c98248ac005d429aeb28b8b6270990ee19d67bb9a2656dacf769bd01b7dd",
+    "objects.json": "68465861f758537c4ebabcd53f011d02178a65ad5074c31473934147a6f1d4ac",
+    "scene": "c642c384b399f231b088a799f0ac31e6626e562ba5f6b8ef7068238339565935"
+  }
+}

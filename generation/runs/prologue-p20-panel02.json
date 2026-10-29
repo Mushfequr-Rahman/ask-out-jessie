@@ -1,9 +1,9 @@
 {
   "id": "prologue-p20-panel02",
   "status": "visually_reviewed",
-  "request_file": "generation/requests/prologue-p20-panel02.json",
+  "request_file": "generation/requests/prologue-p20-panel02-islands.json",
   "output_file": "assets/panels/prologue-p20-panel02.png",
-  "generated_original": "/workspace/generated_images/exec-a13f173c-ed11-4270-80d7-c6b584f2996f.png",
+  "generated_original": "/workspace/generated_images/exec-81d0e12c-f934-4570-bda2-190b03e2a672.png",
   "source_hashes": {
     "world.json": "b7e112e67aa57dc0b53bf22c40e9e1635f41980473ebe33d48ea7d089e566364",
     "character.json": "ecd4c98248ac005d429aeb28b8b6270990ee19d67bb9a2656dacf769bd01b7dd",

@@ -2585,7 +2585,8 @@
             }
           ],
           "scene_id": "prologue-p20-panel01",
-          "lettering_mode": "baked"
+          "lettering_mode": "baked",
+          "image_revision": "eae09a8c5ad4"
         },
         {
           "image_src": "assets/panels/prologue-p20-panel02.png",
@@ -2632,7 +2633,8 @@
             }
           ],
           "scene_id": "prologue-p20-panel02",
-          "lettering_mode": "baked"
+          "lettering_mode": "baked",
+          "image_revision": "93c61e5e68e4"
         },
         {
           "image_src": "assets/panels/prologue-p20-panel03.png",
@@ -2669,7 +2671,8 @@
             }
           ],
           "scene_id": "prologue-p20-panel03",
-          "lettering_mode": "baked"
+          "lettering_mode": "baked",
+          "image_revision": "037954ed6d77"
         },
         {
           "image_src": "assets/panels/prologue-p20-panel04.png",
@@ -2706,7 +2709,8 @@
             }
           ],
           "scene_id": "prologue-p20-panel04",
-          "lettering_mode": "baked"
+          "lettering_mode": "baked",
+          "image_revision": "91737188c1b5"
         },
         {
           "image_src": "assets/panels/prologue-p20-panel05.png",
@@ -2743,7 +2747,8 @@
             }
           ],
           "scene_id": "prologue-p20-panel05",
-          "lettering_mode": "baked"
+          "lettering_mode": "baked",
+          "image_revision": "0bc10f84149c"
         }
       ],
       "footer": "PROLOGUE · NEW FRONTIER",

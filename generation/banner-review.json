@@ -353,35 +353,35 @@
           "page": 20,
           "panel": 1,
           "file": "assets/panels/prologue-p20-panel01.png",
-          "sha256": "84c40a7b98ec7806d43081ad268eedfb6e3295f3ec89132513bc58eebb32c836"
+          "sha256": "eae09a8c5ad408cb9ad71f146660dc53b1e1497b851b5a99e456b20b955d54a7"
         },
         {
           "id": "prologue-p20-panel02",
           "page": 20,
           "panel": 2,
           "file": "assets/panels/prologue-p20-panel02.png",
-          "sha256": "0620da56aba661a46a1fd552e2bfd4d87bf46c4a4fdb74a0c2037782eba06af7"
+          "sha256": "93c61e5e68e4e481f75bf8aaaed608954eead58d836a083a4ee0f02dc3330fd4"
         },
         {
           "id": "prologue-p20-panel03",
           "page": 20,
           "panel": 3,
           "file": "assets/panels/prologue-p20-panel03.png",
-          "sha256": "27909f310f65c8f01adcc3e4f8859dbff7d002e0684e6c8a41a5ece4515bbd54"
+          "sha256": "037954ed6d77e1aa39f4479ef395eaee1f1176551a02477eda501b17ee4caa43"
         },
         {
           "id": "prologue-p20-panel04",
           "page": 20,
           "panel": 4,
           "file": "assets/panels/prologue-p20-panel04.png",
-          "sha256": "a2e958fe44abb16804225864b049fa5161653362870534c448817f26089cafac"
+          "sha256": "91737188c1b54b5a1cb4927054b380bbf18f2e7411bd375441f826eb8b41f308"
         },
         {
           "id": "prologue-p20-panel05",
           "page": 20,
           "panel": 5,
           "file": "assets/panels/prologue-p20-panel05.png",
-          "sha256": "67b979e9c0a79342e21f7dd666f8aa91debb204b23508655d8857b2a9eafc9da"
+          "sha256": "0bc10f84149ce9041023d23f918197f7439c2c0bb5a68a790e801e025646b77b"
         }
       ]
     },
@@ -755,5 +755,5 @@
     "Check cloth hue, emblem and trim separately under the scene lighting",
     "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
   ],
-  "revision": "73f737e7fbd8d99d3e7cc8bbdc917ac33b2eba6fa7fabd4a72bd1895d9caf7a6"
+  "revision": "ef08781e2147ec9352a848010bc244fe8990120c0d1518d620f4a0d1bfd8a1b9"
 }

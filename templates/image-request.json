@@ -38,7 +38,8 @@
     "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
     "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
     "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
-    "No unsupported new lore, extra Type C suits, extra capital ships or invented character names."
+    "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+    "Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location’s defining geography when changing camera angle."
   ],
   "heraldry": {
     "reference_precedence": [
