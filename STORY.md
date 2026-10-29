@@ -112,7 +112,7 @@ The city capture does not yet establish that Rovan controls all of Auric Reach. 
 
 ## Publication structure and duchy heraldry
 
-There is currently one published story entry, **Prologue**, containing all eighteen published pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
+There is currently one published story entry, **Prologue**, containing all nineteen published pages. The earlier scene-group names are parts of that story, not separate stories in the Chapters menu. There are exactly eight duchies.
 
 | Duchy | Colour | Banner emblem |
 | --- | --- | --- |
@@ -127,7 +127,7 @@ There is currently one published story entry, **Prologue**, containing all eight
 
 ## Structured reference and artwork catalogue
 
-`world.json` contains the structured world reference; character records live in `character.json`. The world reference includes open details, the eighteen published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.
+`world.json` contains the structured world reference; character records live in `character.json`. The world reference includes open details, the nineteen published story pages, colour/banner assignments, and asset references. `ASSETS.md` and `assets.html` catalogue the actual artwork files. Keep these references in sync when the author changes the world.
 
 ## Current uniforms and the next move
 
@@ -182,3 +182,9 @@ The Argonaut’s upgrades make the magnetic currents manageable, while the Josep
 ## Two Boarding Parties — page 18
 
 The Stormlance and Windblade wait on a floating rock with bronze-and-crimson commandos. Stormlance’s concentrated magnetic shot disables Serenity’s engine mount; Windblade flies onto the deck as commandos cross on their lines. Meanwhile the Riftwalker crosses between magnetic points at Serendipity, while the Hullbreaker jumps to its engines and cuts through their machinery. Both Bastions are crippled; Josephine remains, and no overall victory or complete capture is established. The titles refer to the same five silver captains, not new armour sets.
+
+## Three Prizes — page 19
+
+Josephine, Serenity and Serendipity capitulate without another fight. Their crews lay down their guns before Rovan and his bronze-and-crimson troops. Rovan condemns Joseph for gambling his men’s lives on the hope of a title and orders him thrown overboard. The panel shows the sentence and escort toward the rail; it does not show the sentence being carried out.
+
+Prize crews take the bridges and turn the ships while repair gangs work on the damaged engines. The soldiers celebrate: nobody has captured another duchy’s capital ship in the shattered world before, and Rovan has taken three in one battle. His original Argonaut plus three prizes makes four owned capital ships; operational readiness after repairs remains unspecified.

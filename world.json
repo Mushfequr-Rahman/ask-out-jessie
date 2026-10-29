@@ -88,8 +88,8 @@
       "opponent_duchy_id": "auric-reach",
       "target_character_id": "rovan-vey",
       "capital_ships_dispatched": 3,
-      "status": "The three Bastions separate in the Shattered Plains. Argonaut distracts Josephine while two captain pairs disable Serenity and Serendipity.",
-      "battle_outcome": null,
+      "status": "All three Auric Bastions capitulate; crews surrender and Rovan takes the ships.",
+      "battle_outcome": "Rovan captures Josephine, Serenity and Serendipity in one battle.",
       "opponent_total_capital_ship_count": null,
       "planned_battlefield_id": "shattered-plains",
       "friendly_capital_ship_id": "argonaut",
@@ -113,10 +113,25 @@
         ]
       },
       "partial_results": {
-        "serenity": "disabled and boarded",
-        "serendipity": "engines disabled",
-        "josephine": "still opposed to the Argonaut; overall result unresolved"
-      }
+        "josephine": "surrendered and captured",
+        "serenity": "surrendered and captured",
+        "serendipity": "surrendered and captured"
+      },
+      "captured_ship_ids": [
+        "josephine",
+        "serenity",
+        "serendipity"
+      ],
+      "captured_capital_ship_count": 3,
+      "owned_capital_ships_after_battle": 4,
+      "operational_capital_ships_after_battle": null,
+      "admiral_sentence": "Admiral Joseph is sentenced to be thrown overboard for arrogant, reckless command; the sentence is pronounced on page19."
+    },
+    "historical_milestone": {
+      "event": "First capture of another duchy’s capital ships in the history of the shattered world.",
+      "captured_in_one_battle": 3,
+      "victor_id": "rovan-vey",
+      "page": 19
     }
   },
   "metals": [
@@ -625,6 +640,13 @@
       "page": 18,
       "event": "The Stormlance and Windblade lead commandos from a floating rock onto Serenity; the lance disables it and Windblade boards. The Riftwalker uses two magnetic points while Hullbreaker jumps to Serendipity’s engines and disables them.",
       "battle_outcome": null
+    },
+    {
+      "order": 21,
+      "page": 19,
+      "event": "Josephine, Serenity and Serendipity capitulate without another fight. Crews lay down arms; Rovan sentences Joseph to be thrown overboard, takes the ships, orders prize crews and repairs, and his troops celebrate the first-ever capture of enemy capital ships—three in one battle.",
+      "battle_outcome": "Three enemy capitals captured; four owned including the original Argonaut.",
+      "admiral_fate_depicted": "Sentence and escort toward the rail; its execution is not shown."
     }
   ],
   "publication": {
@@ -641,8 +663,8 @@
         "title": "Prologue",
         "status": "available",
         "reader": "prologue.html",
-        "page_count": 18,
-        "panel_count": 57,
+        "page_count": 19,
+        "panel_count": 62,
         "pages": [
           {
             "number": 1,
@@ -1660,6 +1682,92 @@
                   "height": 501
                 },
                 "scene_id": "prologue-p18-panel05",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 19,
+            "title": "Three Prizes",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p19-panel01",
+                "caption": "Three white flags.",
+                "narration": "The Josephine yielded. Serenity and Serendipity followed without another fight.",
+                "priority": 2,
+                "image_description": "The Argonaut looms over three surrendered Bastions, their white flags visible through thick engine smoke.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 245
+                },
+                "scene_id": "prologue-p19-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p19-panel02",
+                "caption": "Arms down.",
+                "narration": "Rovan: “Weapons on the deck. All of them.”",
+                "priority": 5,
+                "image_description": "Serenity’s crew lays down its weapons before Rovan and his troops.",
+                "holder": {
+                  "x": 0,
+                  "y": 255,
+                  "width": 582,
+                  "height": 502
+                },
+                "scene_id": "prologue-p19-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p19-panel03",
+                "caption": "Joseph’s sentence.",
+                "narration": "Rovan: “You gambled their lives for a title. Throw him overboard.”",
+                "priority": 3,
+                "image_description": "Rovan sentences Admiral Joseph to be thrown overboard for his arrogance.",
+                "holder": {
+                  "x": 592,
+                  "y": 255,
+                  "width": 360,
+                  "height": 502
+                },
+                "scene_id": "prologue-p19-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p19-panel04",
+                "caption": "His ships now.",
+                "narration": "Rovan: “Bring them round. All three.”\nPrize crews took the bridges. Repair gangs went straight to the engines.",
+                "priority": 4,
+                "image_description": "Rovan takes the captured ships in hand and orders them turned around.",
+                "holder": {
+                  "x": 0,
+                  "y": 767,
+                  "width": 431,
+                  "height": 501
+                },
+                "scene_id": "prologue-p19-panel04",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 5,
+                "asset_id": "prologue-p19-panel05",
+                "caption": "Three in one battle.",
+                "narration": "No one had ever taken an enemy capital ship. Rovan had taken three.",
+                "priority": 5,
+                "image_description": "Rovan’s soldiers celebrate an unprecedented capture of three enemy capital ships.",
+                "holder": {
+                  "x": 441,
+                  "y": 767,
+                  "width": 511,
+                  "height": 501
+                },
+                "scene_id": "prologue-p19-panel05",
                 "lettering_mode": "baked"
               }
             ]
@@ -3134,6 +3242,116 @@
       ]
     },
     {
+      "id": "prologue-p19-panel01",
+      "file": "assets/panels/prologue-p19-panel01.png",
+      "title": "Prologue P19 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3153463,
+      "sha256": "61cc5ceb5fe298fc5d71beb41d0843dbfc658bfed6e7ea0f74df003aefa025ad",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 19,
+          "panel": 1,
+          "description": "The Argonaut looms over three surrendered Bastions, their white flags visible through thick engine smoke."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p19-panel02",
+      "file": "assets/panels/prologue-p19-panel02.png",
+      "title": "Prologue P19 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1344,
+        "height": 1170
+      },
+      "byte_size": 3018061,
+      "sha256": "4e2e0e062fa5606b4b326215a2273c4eb4db421dd300e2c971a5f386b82df254",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 19,
+          "panel": 2,
+          "description": "Serenity’s crew lays down its weapons before Rovan and his troops."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p19-panel03",
+      "file": "assets/panels/prologue-p19-panel03.png",
+      "title": "Prologue P19 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1064,
+        "height": 1478
+      },
+      "byte_size": 2861975,
+      "sha256": "c7756864e8e1af9af948a1ffe5aaf750ec82e243b55731379c29fb9ba4a9cbba",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 19,
+          "panel": 3,
+          "description": "Rovan sentences Admiral Joseph to be thrown overboard for his arrogance."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p19-panel04",
+      "file": "assets/panels/prologue-p19-panel04.png",
+      "title": "Prologue P19 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1160,
+        "height": 1356
+      },
+      "byte_size": 2984010,
+      "sha256": "46ce6fc1b96b8d79816bc1dc337e13e77a038e27814d52cd75109749b5abc4f1",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 19,
+          "panel": 4,
+          "description": "Rovan takes the captured ships in hand and orders them turned around."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p19-panel05",
+      "file": "assets/panels/prologue-p19-panel05.png",
+      "title": "Prologue P19 Panel05",
+      "category": "comic",
+      "dimensions": {
+        "width": 1277,
+        "height": 1232
+      },
+      "byte_size": 3216727,
+      "sha256": "70ecccbc8b719a1c7beecf28786ae83d0cff39ca82c8f017a0bb23e25bc7a99d",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 19,
+          "panel": 5,
+          "description": "Rovan’s soldiers celebrate an unprecedented capture of three enemy capital ships."
+        }
+      ]
+    },
+    {
       "id": "schooner-kestrel",
       "file": "assets/schooner-kestrel.png",
       "title": "Kestrel",
@@ -3211,28 +3429,31 @@
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with eighteen pages and 57 distinct panel images.",
+    "There is one available story entry, Prologue, with nineteen pages and 62 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
     "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
     "Type C is impervious to any weapons; no weapon vulnerability or armour-piercing exception is established.",
     "Only Rovan knows the crafting secret through his experience.",
     "Veymarch soldiers wear crimson red cloth base layers under bronze or silver armour.",
-    "The three newly dispatched capital ships belong to Auric Reach, not Rovan. No result of their encounter is established.",
+    "The three dispatched capital ships begin as Auric Reach vessels; all three surrender to Rovan on page19.",
     "The five honour-guard captains have practical, man-made continuous silver armour with no joints or gaps. Crimson cloth rests over the sealed metal.",
     "Each captain has one distinct loadout: magnetic lance, field broadsword, twin wind swords, shield war hammer or magnetic scythe.",
     "Page 11 shows a second Auric Reach town seized after Type C is crafted; page 8’s first capture still occurs before the crafting.",
     "Page 9 introduces the five Silver Guard captains; page 10 shows ordinary troops running into the town; page 11 shows the captains’ assault and capture.",
     "All comic pages use the same 1000 by 1400 logical canvas and a maximum of five panels.",
     "The Silver Guard wear Veymarch’s established broken-shield-and-star crest; restrained brass trim does not replace the silver Type C material.",
-    "Rovan’s single capital ship is named Argonaut; Bastion remains a capital-ship design, not its personal name.",
-    "Rovan chooses the Shattered Plains to force the three enemy Bastions to separate; no result of the fleet battle is established.",
+    "Rovan’s original capital ship is named Argonaut; Bastion remains a design, not its personal name. After page19 he also owns three captured Bastions.",
+    "Rovan chooses the Shattered Plains to split the enemy fleet and captures all three Bastions on page19.",
     "The Argonaut is refitted using Rovan’s newfound wealth; its upgraded hull remains Type A bronze and its machinery uses Type B. Type C is reserved for the five honour guards.",
     "The Argonaut’s refit takes fourteen days and adds enlarged heavy cannons.",
-    "Admiral Joseph leads exactly three Auric Reach Bastions and greedily hopes to gain a duchy by defeating Rovan; no reward or battle outcome has been established.",
+    "Admiral Joseph leads three Auric Bastions and covets a duchy. His fleet surrenders; he receives no duchy and is sentenced to be thrown overboard.",
     "The five silver captains have titles, not established personal names: Stormlance, Windblade, Bulwark, Riftwalker and Hullbreaker. These are the same five people, not additional Type C sets.",
     "The Bulwark remains aboard Argonaut. Stormlance and Windblade attack Serenity with commandos; Riftwalker and Hullbreaker attack Serendipity.",
-    "Serenity and Serendipity are disabled, not established as sunk or fully captured. Josephine and the overall battle remain unresolved."
+    "Serenity and Serendipity are disabled during the boarding attacks; all three Bastions are captured intact after surrender on page19. Repairs are still required.",
+    "Rovan’s original capital-ship count remains one; after capturing three on page19 he owns four. Operational readiness after battle is not established.",
+    "This is the first historical capture of another duchy’s capital ships; Rovan takes three in one battle.",
+    "Joseph’s overboard sentence is pronounced, but its execution is not depicted on page19."
   ],
   "military_livery": {
     "veymarch": {
@@ -3298,7 +3519,7 @@
       "class_id": "capital",
       "duchy_id": "veymarch",
       "commander_id": "rovan-vey",
-      "role": "Rovan’s single capital ship; departs the recently conquered Auric Reach city toward the Shattered Plains.",
+      "role": "Rovan’s original capital ship and flagship; after page19 three captured Bastions join his ownership.",
       "departure_location_id": "auric-latest-captured-city",
       "refit": {
         "funding": "Rovan uses his newfound wealth from conquest to upgrade his existing capital ship.",
@@ -3323,32 +3544,42 @@
       "name": "Josephine",
       "design_id": "capital-bastion",
       "class_id": "capital",
-      "duchy_id": "auric-reach",
-      "commander_id": "admiral-joseph",
+      "duchy_id": "veymarch",
+      "commander_id": null,
       "role": "Largest of the three pursuing Bastions; Joseph’s flagship and the Argonaut’s diversion target.",
-      "battle_status": "Argonaut closes and fires into nearby rocks to draw attention; not established as disabled."
+      "battle_status": "Captured intact after surrender; its crew lays down arms.",
+      "original_duchy_id": "auric-reach",
+      "former_commander_id": "admiral-joseph",
+      "fleet_commander_id": "rovan-vey",
+      "ownership_status": "Surrendered to Rovan on page19; prize crew assigned."
     },
     {
       "id": "serenity",
       "name": "Serenity",
       "design_id": "capital-bastion",
       "class_id": "capital",
-      "duchy_id": "auric-reach",
+      "duchy_id": "veymarch",
       "commander_id": null,
-      "fleet_commander_id": "admiral-joseph",
+      "fleet_commander_id": "rovan-vey",
       "role": "Bastion ambushed by the Stormlance, Windblade and Veymarch commandos.",
-      "battle_status": "Disabled by a concentrated magnetic lance shot; Windblade and commandos board it. Full capture not yet established."
+      "battle_status": "Captured intact after surrender; engine damage still needs repair.",
+      "original_duchy_id": "auric-reach",
+      "former_commander_id": null,
+      "ownership_status": "Surrendered to Rovan on page19; prize crew assigned."
     },
     {
       "id": "serendipity",
       "name": "Serendipity",
       "design_id": "capital-bastion",
       "class_id": "capital",
-      "duchy_id": "auric-reach",
+      "duchy_id": "veymarch",
       "commander_id": null,
-      "fleet_commander_id": "admiral-joseph",
+      "fleet_commander_id": "rovan-vey",
       "role": "Bastion attacked by the Riftwalker and Hullbreaker.",
-      "battle_status": "Engines disabled when the Hullbreaker jumps onto them and cuts through their mechanism. Full capture not yet established."
+      "battle_status": "Captured intact after surrender; engine damage still needs repair.",
+      "original_duchy_id": "auric-reach",
+      "former_commander_id": null,
+      "ownership_status": "Surrendered to Rovan on page19; prize crew assigned."
     }
   ]
 }

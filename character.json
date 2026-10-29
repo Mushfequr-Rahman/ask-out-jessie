@@ -18,7 +18,10 @@
         "recruitment": "Funded and equipped from seized resources; veterans drill recruits",
         "total_soldier_count": null,
         "captured_ship_count": null,
-        "flagship_id": "argonaut"
+        "flagship_id": "argonaut",
+        "captured_capital_ship_count": 3,
+        "current_owned_capital_ship_count": 4,
+        "current_operational_capital_ship_count": null
       },
       "exclusive_knowledge": "Secret Type C crafting knowledge gained through experience",
       "visual_concept": {
@@ -176,7 +179,9 @@
       "uniform_standard": "Auric Reach navy coat and gold trim; no crimson Veymarch clothing.",
       "reference_images": [
         "assets/panels/prologue-p16-panel02.png"
-      ]
+      ],
+      "status": "Defeated and taken prisoner; sentenced by Rovan to be thrown overboard for his arrogant, reckless command.",
+      "sentence_execution": "Not depicted; page19 shows pronouncement and escort toward the rail."
     },
     {
       "id": "auric-sailors",
@@ -186,7 +191,8 @@
       "visual_concept": {
         "appearance": "Practical human deck crew in worn navy work jackets, muted gold piping and simple caps. No ceremonial officer epaulettes or silver armour."
       },
-      "reference_images": []
+      "reference_images": [],
+      "latest_status": "Crews lay down their weapons and surrender to Rovan on page19."
     },
     {
       "id": "captain-stormlance",

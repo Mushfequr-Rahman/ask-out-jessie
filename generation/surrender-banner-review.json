@@ -1,0 +1,583 @@
+{
+  "schema_version": 1,
+  "revision": "09710c69c3cb3ea9650b59c972e38251fdf11a48ff4c779db72ba337a932f29a",
+  "reviewer": "Codex visual inspection; unchanged decisions retained by exact content/reference hashes",
+  "entries": [
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p04-panel03",
+      "image_sha256": "c19e5bb365405d27d030abcc40a0a6f7e1ad3e5eef0d383fa127f934aa0d1d45",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p05-panel01",
+      "image_sha256": "4110094fae4a134c9d107d0afbe33e6b403a79c1d62bc9fb8aea3db337c65276",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p05-panel02",
+      "image_sha256": "f1ad68479f892a7df95233cee7619d6ed75e941b5bb9dcf4998172e00c763b30",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p05-panel03",
+      "image_sha256": "f5a9d460a6ee32ef5d9325327e726f1964489992f68f1c526998ff89e7e1c726",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p06-panel01",
+      "image_sha256": "02cede6337b8e9a8b8690b956702ba13c0544357e6fde7505fe42e836562e67a",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p06-panel02",
+      "image_sha256": "35c77166a7381d3a4be28f60c2524f58d21be56c5bc0c0bb977b5b9982c80130",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p06-panel03",
+      "image_sha256": "67578d4176294578f46fcc1eea6073cd87241e77a625067ffeed32ba8a19e6f1",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p07-panel01",
+      "image_sha256": "3176d05106083385b68b5a1d8803d2a6d4050f4a992a980df793dea0d0d7c0d6",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p07-panel02",
+      "image_sha256": "3e59fa5d107402531d9c8e7ac3a9dfcd2ea6ef61c648b3fbce60162f8862a955",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p08-panel01",
+      "image_sha256": "5732162a3e973e4d15225837c7de4c65bf8b77691475bcc850f298518756928e",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p08-panel02",
+      "image_sha256": "be0975aa044c5345a82c790cdd9abeb3cedc25d6e7c26850b552ae53a82f378d",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p08-panel03",
+      "image_sha256": "a2e927ce4bfb416aa8831f631d93237749bef66d041c71d28b97873194964633",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p09-panel01",
+      "image_sha256": "82fac74f870a13fd6768279219c4ce2c3bdf9b625501a823601c612f4df80352",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p09-panel02",
+      "image_sha256": "574c46c4e04b6ad1ea532b98ce1d707e27af5350ec8daace87367ed2a7bab846",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p10-panel01",
+      "image_sha256": "e50b9ae5ab08d9e3e0ec631337b1a4dc5d3cc5a5b799e12b28ad86a34042c87b",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p10-panel02",
+      "image_sha256": "060bcd9b740e5b6721032ff71901d7feea539079d85fe5f0e34cc8625fa3fb93",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p10-panel03",
+      "image_sha256": "c49eff4ef887f96b20071bf02965cf5d7c525cdb1b1dd97dedc9123c5a7a2e2f",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p11-panel01",
+      "image_sha256": "91355ec0eb4e4f3c22662745cad784792662f8879fda3e3cf4c2235746f83fe9",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p11-panel02",
+      "image_sha256": "2e5db5ab182e1159ff18f66c8eba02e6140552ae0eeac8e6e7a3049ac8f84cf8",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p11-panel03",
+      "image_sha256": "3073e3645788d67c5494cbf0fe5710bf47c093ce8918fae2948b8777ea3a1ead",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p11-panel04",
+      "image_sha256": "3aa357148fee9271bbee87ca06c04979922c44a033272b3e3a31e2f68159b384",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p11-panel05",
+      "image_sha256": "767b3801cad59af07c3aed6320fbb5b2eb369ae3a4e31c893171f24141d1d548",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p12-panel01",
+      "image_sha256": "0a81fba53eb3aa23d10380afc7cbb97e191f094a36c39bb7dd69f7ef81a7d1c9",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p13-panel01",
+      "image_sha256": "ecb0c5f9e66358e950027f936c1e381a8538148b3c991b23af82a0fd7e5611cf",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually compared canonical crimson cloth, silver broken shield/star and trim with final full-size and rendered panel. All lettering fits."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p13-panel02",
+      "image_sha256": "f762740457e03c1484ea3bf5d7db8d9200685a46f93ab10902230e1151f8f346",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually compared canonical crimson cloth, silver broken shield/star and trim with final full-size and rendered panel. All lettering fits."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p13-panel03",
+      "image_sha256": "fcb4f2d22a63042b843f6784623c5508c04d8c4470fd6456199c8d0ac2109263",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually compared canonical crimson cloth, silver broken shield/star and trim with final full-size and rendered panel. All lettering fits."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p14-panel01",
+      "image_sha256": "43bc6d59ae4b77b823489d44a5493a7c327ec6a642bec467716f2bf83ddd19f8",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually checked final house cloth, emblem and trim: Veymarch crimson/silver; Auric gold/navy. Pursuit counts three enemy Bastions plus one Argonaut, with distinct standards."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p14-panel02",
+      "image_sha256": "13f8aaaa315cfccfc30b08dad82a5be2b18b24f8093987da7a460fd0730f9545",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually checked final house cloth, emblem and trim: Veymarch crimson/silver; Auric gold/navy. Pursuit counts three enemy Bastions plus one Argonaut, with distinct standards."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p15-panel01",
+      "image_sha256": "9e340d08b3a8dc05b61d253baff908bd231b7520bf93de1610aaa52d276a1d4e",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually checked final house cloth, emblem and trim: Veymarch crimson/silver; Auric gold/navy. Pursuit counts three enemy Bastions plus one Argonaut, with distinct standards."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p15-panel02",
+      "image_sha256": "aa53714d48622594632db7f84c01fee590f0a5ca80d07943d7459ff0d8bf923c",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually checked final house cloth, emblem and trim: Veymarch crimson/silver; Auric gold/navy. Pursuit counts three enemy Bastions plus one Argonaut, with distinct standards."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p15-panel03",
+      "image_sha256": "286656a02ad3cd7b110dfd04da43872a5607fdeae98057d59084783f6a3c1132",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually compared final full-size banner to the canonical reference: crimson cloth, silver broken shield and star, muted trim. No swapped house colours."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p16-panel01",
+      "image_sha256": "7fa56a856a0b195d174a2c31d084edbd29f37e248887ee7e4aeb8eb6787efefc",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually checked final house cloth, emblem and trim: Veymarch crimson/silver; Auric gold/navy. Pursuit counts three enemy Bastions plus one Argonaut, with distinct standards."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p16-panel03",
+      "image_sha256": "8e6fa93a5846c3efabb8124e16ffced3fed767cb953c12e3a3484ac427bd2c37",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually checked final house cloth, emblem and trim: Veymarch crimson/silver; Auric gold/navy. Pursuit counts three enemy Bastions plus one Argonaut, with distinct standards."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p17-panel01",
+      "image_sha256": "63993385d83f3ba0d8c08e63d9a1c0cd7a10a4a126ca6072542988655922a07b",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p17-panel03",
+      "image_sha256": "f629a60fbf4b63a405e6da2faaee353ec705c51c07a9914be172fc34bd67ae0e",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p17-panel04",
+      "image_sha256": "65fbda801d7e54bb2e3005ac189f437ae010165d91879b9ca7692cefa90fc11d",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p18-panel01",
+      "image_sha256": "e78eadefd1695cd7d42ef55067fa2ae1e1295e6695466b3ccd021fb717c02eb1",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p18-panel02",
+      "image_sha256": "3e849e265267935c4bd2808b30c82c08986350e042f31b009c3b6144606d50e3",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p18-panel03",
+      "image_sha256": "a200798130d97383249e01fe03cef62b3313c0cd5c8726b3aa7d8ea408b61a2e",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p18-panel04",
+      "image_sha256": "27d73a798f4303cb6eb3776ebb9441c5ed861565f265b16c640d11c8d57c92b6",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p18-panel05",
+      "image_sha256": "80c04b8f79ce0a40e7c1b4d9a7eab6e70b0f1cba2db1f945086f1b656e2dfe91",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p19-panel01",
+      "image_sha256": "61cc5ceb5fe298fc5d71beb41d0843dbfc658bfed6e7ea0f74df003aefa025ad",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Looming Argonaut uses crimson cloth/armour with silver shield/star; three prizes below carry plain white surrender flags. Heavy smoke preserves visible flag count."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p19-panel02",
+      "image_sha256": "4e2e0e062fa5606b4b326215a2273c4eb4db421dd300e2c971a5f386b82df254",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually checked canonical raised Veymarch crimson/silver flags, Auric navy/gold uniforms and insignia, with plain white surrender signals where applicable."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p19-panel03",
+      "image_sha256": "c7756864e8e1af9af948a1ffe5aaf750ec82e243b55731379c29fb9ba4a9cbba",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually checked canonical raised Veymarch crimson/silver flags, Auric navy/gold uniforms and insignia, with plain white surrender signals where applicable."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p19-panel04",
+      "image_sha256": "46ce6fc1b96b8d79816bc1dc337e13e77a038e27814d52cd75109749b5abc4f1",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually checked canonical raised Veymarch crimson/silver flags, Auric navy/gold uniforms and insignia, with plain white surrender signals where applicable."
+    },
+    {
+      "banner_id": "banner-veymarch",
+      "scene_id": "prologue-p19-panel05",
+      "image_sha256": "70ecccbc8b719a1c7beecf28786ae83d0cff39ca82c8f017a0bb23e25bc7a99d",
+      "reference_sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "pass",
+      "notes": "Visually checked canonical raised Veymarch crimson/silver flags, Auric navy/gold uniforms and insignia, with plain white surrender signals where applicable."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p04-panel03",
+      "image_sha256": "c19e5bb365405d27d030abcc40a0a6f7e1ad3e5eef0d383fa127f934aa0d1d45",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p08-panel01",
+      "image_sha256": "5732162a3e973e4d15225837c7de4c65bf8b77691475bcc850f298518756928e",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p08-panel03",
+      "image_sha256": "a2e927ce4bfb416aa8831f631d93237749bef66d041c71d28b97873194964633",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p10-panel01",
+      "image_sha256": "e50b9ae5ab08d9e3e0ec631337b1a4dc5d3cc5a5b799e12b28ad86a34042c87b",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p10-panel02",
+      "image_sha256": "060bcd9b740e5b6721032ff71901d7feea539079d85fe5f0e34cc8625fa3fb93",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p10-panel03",
+      "image_sha256": "c49eff4ef887f96b20071bf02965cf5d7c525cdb1b1dd97dedc9123c5a7a2e2f",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p11-panel01",
+      "image_sha256": "91355ec0eb4e4f3c22662745cad784792662f8879fda3e3cf4c2235746f83fe9",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p11-panel02",
+      "image_sha256": "2e5db5ab182e1159ff18f66c8eba02e6140552ae0eeac8e6e7a3049ac8f84cf8",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p11-panel03",
+      "image_sha256": "3073e3645788d67c5494cbf0fe5710bf47c093ce8918fae2948b8777ea3a1ead",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p11-panel04",
+      "image_sha256": "3aa357148fee9271bbee87ca06c04979922c44a033272b3e3a31e2f68159b384",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p11-panel05",
+      "image_sha256": "767b3801cad59af07c3aed6320fbb5b2eb369ae3a4e31c893171f24141d1d548",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p12-panel02",
+      "image_sha256": "1a2042c28c1b26981b81520c038d7212c5e61774664c777d2c9279d5d4f12f8e",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p12-panel03",
+      "image_sha256": "e70a630eb34776d444c3987c1ad3719a63b8d83fd59cf4b8721830b641e283d9",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pending",
+      "notes": "Earlier unchanged artwork not reassessed by this surrender review."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p16-panel01",
+      "image_sha256": "7fa56a856a0b195d174a2c31d084edbd29f37e248887ee7e4aeb8eb6787efefc",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pass",
+      "notes": "Visually checked final house cloth, emblem and trim: Veymarch crimson/silver; Auric gold/navy. Pursuit counts three enemy Bastions plus one Argonaut, with distinct standards."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p16-panel02",
+      "image_sha256": "b974c10d948b482bdc41a8bbf43d5666c9d0c7629e18048f77904e83565f24b5",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pass",
+      "notes": "Visually checked final house cloth, emblem and trim: Veymarch crimson/silver; Auric gold/navy. Pursuit counts three enemy Bastions plus one Argonaut, with distinct standards."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p16-panel03",
+      "image_sha256": "8e6fa93a5846c3efabb8124e16ffced3fed767cb953c12e3a3484ac427bd2c37",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pass",
+      "notes": "Visually checked final house cloth, emblem and trim: Veymarch crimson/silver; Auric gold/navy. Pursuit counts three enemy Bastions plus one Argonaut, with distinct standards."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p17-panel02",
+      "image_sha256": "5571146b888ccc00b8596764856b422bfcd6ac6d37550e0cd62fbe777ffdd809",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p17-panel04",
+      "image_sha256": "65fbda801d7e54bb2e3005ac189f437ae010165d91879b9ca7692cefa90fc11d",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p18-panel01",
+      "image_sha256": "e78eadefd1695cd7d42ef55067fa2ae1e1295e6695466b3ccd021fb717c02eb1",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p18-panel02",
+      "image_sha256": "3e849e265267935c4bd2808b30c82c08986350e042f31b009c3b6144606d50e3",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p18-panel03",
+      "image_sha256": "a200798130d97383249e01fe03cef62b3313c0cd5c8726b3aa7d8ea408b61a2e",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p18-panel04",
+      "image_sha256": "27d73a798f4303cb6eb3776ebb9441c5ed861565f265b16c640d11c8d57c92b6",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p18-panel05",
+      "image_sha256": "80c04b8f79ce0a40e7c1b4d9a7eab6e70b0f1cba2db1f945086f1b656e2dfe91",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pass",
+      "notes": "Compared actual final panel to canonical house cloth/emblem: Veymarch crimson with silver shield/star; Auric gold with navy balance scales. Checked correct captain and ship target; ambush banners corrected."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p19-panel01",
+      "image_sha256": "61cc5ceb5fe298fc5d71beb41d0843dbfc658bfed6e7ea0f74df003aefa025ad",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "not_visible",
+      "notes": "Three WHITE flags are surrender signals; former Auric standards lowered, not recoloured. No raised Auric house flag in this image."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p19-panel02",
+      "image_sha256": "4e2e0e062fa5606b4b326215a2273c4eb4db421dd300e2c971a5f386b82df254",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pass",
+      "notes": "Visually checked canonical raised Veymarch crimson/silver flags, Auric navy/gold uniforms and insignia, with plain white surrender signals where applicable."
+    },
+    {
+      "banner_id": "banner-auric-reach",
+      "scene_id": "prologue-p19-panel03",
+      "image_sha256": "c7756864e8e1af9af948a1ffe5aaf750ec82e243b55731379c29fb9ba4a9cbba",
+      "reference_sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "pass",
+      "notes": "Visually checked canonical raised Veymarch crimson/silver flags, Auric navy/gold uniforms and insignia, with plain white surrender signals where applicable."
+    }
+  ]
+}

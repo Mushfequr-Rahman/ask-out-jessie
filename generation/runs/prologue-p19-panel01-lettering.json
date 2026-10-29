@@ -1,0 +1,8 @@
+{
+  "id": "prologue-p19-panel01",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/corrections/prologue-p19-panel01-lettering.json",
+  "output_file": "assets/panels/prologue-p19-panel01.png",
+  "generated_original": "/workspace/generated_images/exec-03e7f583-490d-4cd7-b5ae-7fd5413da96f.png",
+  "reason": "Move surrender narration safely inside the wide comic aperture."
+}

@@ -451,7 +451,7 @@
       "world_reference": "/named_ships/0",
       "duchy_id": "veymarch",
       "constraints": [
-        "Exactly one Argonaut. No extra friendly capital ship. Do not add wooden hulls, sails, balloons or other vessels from references.",
+        "Exactly one Argonaut. The three captured Bastions may appear alongside it only in explicitly post-surrender fleet scenes. No wooden hulls, sails or extra vessels.",
         "Same ship after a refit, never an additional capital ship.",
         "All hull armour is bronze Type A; machinery is green Type B. No silver Type C hull or invulnerability.",
         "Canonical Argonaut refit design controls hull geometry; older generic Bastion art supplies ancestry only.",
@@ -474,7 +474,8 @@
       "world_reference": "/ship_designs/5",
       "constraints": [
         "Exactly three enemy Bastions. Never a fourth enemy ship. No Veymarch banners on enemy ships."
-      ]
+      ],
+      "depicted_period": "Before the page19 surrender; gold/navy identifies Auric service in earlier scenes."
     },
     {
       "id": "josephine",
@@ -488,7 +489,8 @@
       "world_reference": "/named_ships/1",
       "constraints": [
         "Show only the ship count specified by the scene. Generic fleet reference gives class ancestry; do not insert all three ships into a single-target scene."
-      ]
+      ],
+      "depicted_period": "Before the page19 surrender; gold/navy identifies Auric service in earlier scenes."
     },
     {
       "id": "serenity",
@@ -502,7 +504,8 @@
       "world_reference": "/named_ships/2",
       "constraints": [
         "Show only the ship count specified by the scene. Generic fleet reference gives class ancestry; do not insert all three ships into a single-target scene."
-      ]
+      ],
+      "depicted_period": "Before the page19 surrender; gold/navy identifies Auric service in earlier scenes."
     },
     {
       "id": "serendipity",
@@ -516,6 +519,21 @@
       "world_reference": "/named_ships/3",
       "constraints": [
         "Show only the ship count specified by the scene. Generic fleet reference gives class ancestry; do not insert all three ships into a single-target scene."
+      ],
+      "depicted_period": "Before the page19 surrender; gold/navy identifies Auric service in earlier scenes."
+    },
+    {
+      "id": "captured-bastions",
+      "kind": "ship",
+      "name": "Rovan’s three captured Bastions",
+      "duchy_id": "veymarch",
+      "description": "Josephine, Serenity and Serendipity after their page19 surrender. Same THREE bronze round-prowed hulls, original navy identification bands/ivory stripe/gold engine cowls, now under Veymarch CRIMSON flags with SILVER broken shield/star. No instant crimson hull repaint or Argonaut wedge-prow conversion. Two ships still need engine repair; prize crews take their bridges. Argonaut is a separate fourth owned capital ship, only show it when the scene explicitly calls for it.",
+      "reference_images": [
+        "assets/panels/prologue-p17-panel02.png"
+      ],
+      "constraints": [
+        "Earlier fleet image supplies hull geometry only; replace old Auric flags with current Veymarch flags where capture is complete.",
+        "No instant repair or new Type C hull armour. White surrender flags may coexist with lowered former house standards."
       ]
     }
   ]

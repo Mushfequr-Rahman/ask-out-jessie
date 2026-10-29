@@ -72,6 +72,14 @@ if 'friendly_capital_ship_id' in conflict:
 if 'enemy_ship_ids' in conflict:
     assert len(set(conflict['enemy_ship_ids']))==len(conflict['enemy_ship_ids'])==conflict['capital_ships_dispatched'], 'Enemy ship count mismatch'
     assert set(conflict['enemy_ship_ids']) <= named_ship_ids, 'Unknown enemy ship'
+if 'captured_ship_ids' in conflict:
+    captured=conflict['captured_ship_ids']
+    assert len(set(captured))==len(captured)==conflict['captured_capital_ship_count'], 'Captured ship count mismatch'
+    assert set(captured)==set(conflict['enemy_ship_ids']), 'The surrendered prizes must be the three engaged Bastions'
+    rovan=next(c for c in characters if c['id']=='rovan-vey')
+    owned={s['id'] for s in named_ships if s['duchy_id']==rovan['duchy_id'] and s['class_id']=='capital'}
+    assert set(captured)<=owned and len(owned)==conflict['owned_capital_ships_after_battle']==rovan['military']['current_owned_capital_ship_count'], 'Owned fleet count differs after surrender'
+    assert rovan['military']['initial_capital_ship_count']+len(captured)==len(owned), 'Keep original and captured capital counts distinct'
 for metal in world['metals']:
     for field in ['specimen_asset_id', 'core_asset_id']:
         if field in metal:

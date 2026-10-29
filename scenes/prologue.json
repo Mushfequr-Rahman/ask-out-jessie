@@ -3138,6 +3138,297 @@
         "Shattered Plains contain enormous BARE floating rocks and strong magnetic currents; no city skylines in the battle terrain.",
         "Rovan’s Argonaut has the canonical huge foredeck cannons. Enemy Bastions have rounded bronze bows and gold/navy standards, never crimson hulls."
       ]
+    },
+    {
+      "id": "prologue-p19-panel01",
+      "chapter_id": "prologue",
+      "page_number": 19,
+      "panel_number": 1,
+      "description": "The Argonaut looms above three surrendered Bastions amid thick engine smoke. TECHNICAL: Completely REDESIGN this one panoramic surrender image, not a small flag edit. Exactly FOUR real vessels: ONE intact, imposing CRIMSON-and-bronze wedge-prowed ARGONAUT with enormous heavy foredeck cannons above/behind, and exactly THREE beaten bronze round-prowed prizes below it: Josephine centre, ivory-striped Serenity left, triple-ring Serendipity right. Argonaut is nearer the camera and dominates the upper part of the CENTRAL aperture, looming over the three smaller-in-perspective surrendered hulls. Keep enough open sky between silhouettes to COUNT all four. The three prizes EACH show ONE clearly visible plain WHITE surrender flag, three WHITE flags total; Argonaut retains its CRIMSON flag with SILVER broken shield/star, never a fourth white flag. Thick DARK GREY engine smoke pours from damaged Serenity and Serendipity and drifts across the lower sky, with lighter smoke around Josephine. Smoky battered-engine aftermath, NOT new firing, not sinking, no broken hulls or debris implying destruction. All three prize hulls remain recognisable and salvageable. Their former GOLD/NAVY Auric flags are lowered. Dramatic late-sunset smoke and the shadow of the victorious Argonaut make the capitulation unmistakable. Important hulls, ALL three white flags, Argonaut’s bow/cannons, and ALL lettering fit in full native y=17% to84% because the holder is very wide. No important flag or gun cut at the top. No people necessary. Preserve the exact caption and narration, but compose the scene anew. Bare floating rock scenery, no large city skylines.",
+      "character_ids": [],
+      "object_ids": [
+        "josephine",
+        "serenity",
+        "serendipity",
+        "argonaut",
+        "banner-veymarch",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 245
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Three white flags.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The Josephine yielded. Serenity and Serendipity followed without another fight.",
+          "bounds": {
+            "x": 250,
+            "y": 153,
+            "width": 682,
+            "height": 64
+          }
+        }
+      ],
+      "reference_images": [
+        {
+          "path": "references/iterations/prologue-p19-panel01-flags-first-pass.png",
+          "role": "Old surrender image: retain identities of the three bronze prizes and plain white flags, but REPLACE its layout with the Argonaut looming above them and MUCH MORE engine smoke."
+        }
+      ],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p19-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "No silver captains in these shots; ordinary guards and celebrating soldiers wear BRONZE over CRIMSON.",
+        "White pennants signal surrender; canonical house cloth/emblems otherwise stay unchanged.",
+        "This is the same three captured ships, not three additional ships. Rovan owns four capitals total including Argonaut; operational repairs are still needed.",
+        "The overboard sentence is shown as spoken and escorted toward the rail, not as a graphic execution.",
+        "User-requested redesign: imposing Argonaut ABOVE three smoky surrendered Bastions; exactly three white flags below and one crimson Argonaut banner above.",
+        "Keep smoke dense enough to suggest damage, but never obscure a white flag or merge the four ship silhouettes.",
+        "Do not copy dock scaffolds, workers or text from the Argonaut design reference."
+      ]
+    },
+    {
+      "id": "prologue-p19-panel02",
+      "chapter_id": "prologue",
+      "page_number": 19,
+      "panel_number": 2,
+      "description": "Serenity’s crew lays down its weapons before Rovan and his troops. TECHNICAL: On the bronze deck of captured Serenity, pale ivory hull stripe visible on a rail bulkhead, Rovan stands left, black hair/silver streak/short beard/navy/crimson. To right a small group of human sailors in worn NAVY work jackets and gold piping places Tesla guns in a pile, hands open or raised in surrender. Veymarch guards are BRONZE armour over CRIMSON cloth, calm and in control. No prisoners being harmed. No silver captains in frame. Plain white surrender pennant above lowered gold/navy flag; crimson Veymarch pennant carried by the prize party. Rovan speaks the single exact line. Floating rock scenery, no city.",
+      "character_ids": [
+        "rovan-vey",
+        "auric-sailors"
+      ],
+      "object_ids": [
+        "serenity",
+        "veymarch-infantry",
+        "banner-veymarch",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 255,
+        "width": 582,
+        "height": 502
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Arms down.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “Weapons on the deck. All of them.”",
+          "bounds": {
+            "x": 14,
+            "y": 392,
+            "width": 554,
+            "height": 82
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p19-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "No silver captains in these shots; ordinary guards and celebrating soldiers wear BRONZE over CRIMSON.",
+        "White pennants signal surrender; canonical house cloth/emblems otherwise stay unchanged.",
+        "This is the same three captured ships, not three additional ships. Rovan owns four capitals total including Argonaut; operational repairs are still needed.",
+        "The overboard sentence is shown as spoken and escorted toward the rail, not as a graphic execution."
+      ]
+    },
+    {
+      "id": "prologue-p19-panel03",
+      "chapter_id": "prologue",
+      "page_number": 19,
+      "panel_number": 3,
+      "description": "Rovan sentences Admiral Joseph to be thrown overboard for his arrogance. TECHNICAL: Vertical deck scene at the captured Josephine’s outer rail. Rovan faces Joseph, stern and controlled, navy/crimson coat and familiar face. Joseph is recognisably the same broad clean-shaven man with slicked iron-grey hair, a BRASS MONOCLE over his RIGHT eye and ornate navy/gold uniform. His wrists are bound; two bronze/crimson guards escort him TOWARD the rail. Rovan pronounces the sentence. Joseph looks shaken and stripped of arrogance. This panel shows sentence and escort, NOT the fall or impact. No blood or corpse. Only CRIMSON Veymarch banners with SILVER shield/star are raised on the captured deck; Joseph’s own navy/gold clothing is unchanged, not permission to put an Auric flag behind Rovan. Strong rock-field sky beyond the rail. Keep both faces and speech fully inside the portrait frame.",
+      "character_ids": [
+        "rovan-vey",
+        "admiral-joseph"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 592,
+        "y": 255,
+        "width": 360,
+        "height": 502
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Joseph’s sentence.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “You gambled their lives for a title. Throw him overboard.”",
+          "bounds": {
+            "x": 14,
+            "y": 374,
+            "width": 332,
+            "height": 100
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p19-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "No silver captains in these shots; ordinary guards and celebrating soldiers wear BRONZE over CRIMSON.",
+        "White pennants signal surrender; canonical house cloth/emblems otherwise stay unchanged.",
+        "This is the same three captured ships, not three additional ships. Rovan owns four capitals total including Argonaut; operational repairs are still needed.",
+        "The overboard sentence is shown as spoken and escorted toward the rail, not as a graphic execution."
+      ]
+    },
+    {
+      "id": "prologue-p19-panel04",
+      "chapter_id": "prologue",
+      "page_number": 19,
+      "panel_number": 4,
+      "description": "Rovan takes the captured ships in hand and orders them turned around. TECHNICAL: Inside Josephine’s captured bridge, Rovan stands beside the great bronze helm with two Veymarch prize sailors in simple crimson/bronze gear turning the wheel. A CRIMSON pennant with SILVER shield/star is raised beside the windows. Through the windows, show exactly TWO OTHER captured bronze Bastions, Serenity and Serendipity, beginning to swing around among rocks. Their hulls keep old navy bands/ivory stripe/gold cowls but their flags are now CRIMSON/SILVER; repair teams work on still-damaged engine housings, do not imply instantly restored full power. The bridge they occupy is the THIRD captured ship, Josephine: do not add three more ships outside. No Argonaut in this shot. Rovan’s command and narration are exact.",
+      "character_ids": [
+        "rovan-vey"
+      ],
+      "object_ids": [
+        "captured-bastions",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 767,
+        "width": 431,
+        "height": 501
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "His ships now.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “Bring them round. All three.”",
+          "bounds": {
+            "x": 14,
+            "y": 263,
+            "width": 403,
+            "height": 100
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Prize crews took the bridges. Repair gangs went straight to the engines.",
+          "bounds": {
+            "x": 14,
+            "y": 373,
+            "width": 403,
+            "height": 100
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p19-panel04.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "No silver captains in these shots; ordinary guards and celebrating soldiers wear BRONZE over CRIMSON.",
+        "White pennants signal surrender; canonical house cloth/emblems otherwise stay unchanged.",
+        "This is the same three captured ships, not three additional ships. Rovan owns four capitals total including Argonaut; operational repairs are still needed.",
+        "The overboard sentence is shown as spoken and escorted toward the rail, not as a graphic execution."
+      ]
+    },
+    {
+      "id": "prologue-p19-panel05",
+      "chapter_id": "prologue",
+      "page_number": 19,
+      "panel_number": 5,
+      "description": "Rovan’s soldiers celebrate an unprecedented capture of three enemy capital ships. TECHNICAL: New celebratory shot on the Argonaut’s bronze deck. Rovan and General Grievous stand among cheering ordinary soldiers in BRONZE armour over CRIMSON, arms and caps raised, relieved broad smiles, no weapons firing. Rovan black hair/silver streak/navy coat/crimson; Grievous older bald HUMAN with grey moustache/olive coat/crimson. No silver Type C captains visible in this shot. Crimson Veymarch banners carry SILVER broken shield/star. Bare floating rocks and green currents in the distance, no buildings or extra vessels necessary. The focus is collective joy and the historic achievement. All faces and exact lettering remain clear.",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous",
+        "veymarch-commandos"
+      ],
+      "object_ids": [
+        "argonaut",
+        "veymarch-infantry",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 441,
+        "y": 767,
+        "width": 511,
+        "height": 501
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Three in one battle.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 200,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "No one had ever taken an enemy capital ship. Rovan had taken three.",
+          "bounds": {
+            "x": 14,
+            "y": 391,
+            "width": 483,
+            "height": 82
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p19-panel05.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "No silver captains in these shots; ordinary guards and celebrating soldiers wear BRONZE over CRIMSON.",
+        "White pennants signal surrender; canonical house cloth/emblems otherwise stay unchanged.",
+        "This is the same three captured ships, not three additional ships. Rovan owns four capitals total including Argonaut; operational repairs are still needed.",
+        "The overboard sentence is shown as spoken and escorted toward the rail, not as a graphic execution."
+      ]
     }
   ]
 }

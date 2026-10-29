@@ -970,6 +970,91 @@
         "height": 501
       },
       "review": "Visual lettering, house colours, named ship target, titled captain count and weapon action checked. Overall battle outcome remains unresolved."
+    },
+    {
+      "id": "prologue-p19-panel01",
+      "output_file": "assets/panels/prologue-p19-panel01.png",
+      "selected_run": "generation/runs/prologue-p19-panel01-lettering.json",
+      "sha256": "61cc5ceb5fe298fc5d71beb41d0843dbfc658bfed6e7ea0f74df003aefa025ad",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 245
+      },
+      "review": "Checked exact lettering, three surrendered prizes, post-capture Veymarch markings, Joseph identity/sentence, and celebration. Opening image redesigned with Argonaut looming above and heavy smoke."
+    },
+    {
+      "id": "prologue-p19-panel02",
+      "output_file": "assets/panels/prologue-p19-panel02.png",
+      "selected_run": "generation/runs/prologue-p19-panel02.json",
+      "sha256": "4e2e0e062fa5606b4b326215a2273c4eb4db421dd300e2c971a5f386b82df254",
+      "dimensions": {
+        "width": 1344,
+        "height": 1170
+      },
+      "holder": {
+        "x": 0,
+        "y": 255,
+        "width": 582,
+        "height": 502
+      },
+      "review": "Checked exact lettering, three surrendered prizes, post-capture Veymarch markings, Joseph identity/sentence, and celebration. Opening image redesigned with Argonaut looming above and heavy smoke."
+    },
+    {
+      "id": "prologue-p19-panel03",
+      "output_file": "assets/panels/prologue-p19-panel03.png",
+      "selected_run": "generation/runs/prologue-p19-panel03.json",
+      "sha256": "c7756864e8e1af9af948a1ffe5aaf750ec82e243b55731379c29fb9ba4a9cbba",
+      "dimensions": {
+        "width": 1064,
+        "height": 1478
+      },
+      "holder": {
+        "x": 592,
+        "y": 255,
+        "width": 360,
+        "height": 502
+      },
+      "review": "Checked exact lettering, three surrendered prizes, post-capture Veymarch markings, Joseph identity/sentence, and celebration. Opening image redesigned with Argonaut looming above and heavy smoke."
+    },
+    {
+      "id": "prologue-p19-panel04",
+      "output_file": "assets/panels/prologue-p19-panel04.png",
+      "selected_run": "generation/runs/prologue-p19-panel04.json",
+      "sha256": "46ce6fc1b96b8d79816bc1dc337e13e77a038e27814d52cd75109749b5abc4f1",
+      "dimensions": {
+        "width": 1160,
+        "height": 1356
+      },
+      "holder": {
+        "x": 0,
+        "y": 767,
+        "width": 431,
+        "height": 501
+      },
+      "review": "Checked exact lettering, three surrendered prizes, post-capture Veymarch markings, Joseph identity/sentence, and celebration. Opening image redesigned with Argonaut looming above and heavy smoke."
+    },
+    {
+      "id": "prologue-p19-panel05",
+      "output_file": "assets/panels/prologue-p19-panel05.png",
+      "selected_run": "generation/runs/prologue-p19-panel05.json",
+      "sha256": "70ecccbc8b719a1c7beecf28786ae83d0cff39ca82c8f017a0bb23e25bc7a99d",
+      "dimensions": {
+        "width": 1277,
+        "height": 1232
+      },
+      "holder": {
+        "x": 441,
+        "y": 767,
+        "width": 511,
+        "height": 501
+      },
+      "review": "Checked exact lettering, three surrendered prizes, post-capture Veymarch markings, Joseph identity/sentence, and celebration. Opening image redesigned with Argonaut looming above and heavy smoke."
     }
   ]
 }

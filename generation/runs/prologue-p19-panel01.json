@@ -1,0 +1,19 @@
+{
+  "id": "prologue-p19-panel01",
+  "status": "generated_pending_visual_review",
+  "request_file": "generation/requests/archives/prologue-p19-panel01-before-smoke-redesign.json",
+  "output_file": "assets/panels/prologue-p19-panel01.png",
+  "generated_original": "/workspace/generated_images/exec-bfb66bc5-d8b8-4deb-9f0e-170ec1a08327.png",
+  "source_hashes": {
+    "world.json": "9b43b5deccb0d76d95e4a997d5a06a5104aeedb1a4bda165589646a56969e465",
+    "character.json": "fb674d95cad7cda568dcdb41827ca6eb64375bf63d62d34fb33a08d652443dd7",
+    "objects.json": "e23e34cc1447316c2131380a8c909f38359e2b4215cb211d1244d5d644bb47bf",
+    "scene": "797b071fb268e3b838e63e7180712f7782b3e9781df1c10a7e1dd2b68db0f7fc"
+  },
+  "holder": {
+    "x": 0,
+    "y": 0,
+    "width": 952,
+    "height": 245
+  }
+}

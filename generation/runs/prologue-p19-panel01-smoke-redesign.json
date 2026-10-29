@@ -1,0 +1,20 @@
+{
+  "id": "prologue-p19-panel01",
+  "status": "visually_reviewed",
+  "request_file": "generation/requests/prologue-p19-panel01.json",
+  "output_file": "assets/panels/prologue-p19-panel01.png",
+  "generated_original": "/workspace/generated_images/exec-0a3952a5-972f-4263-801a-cd164f880ed4.png",
+  "source_hashes": {
+    "world.json": "93f6fefa9150b908a518138f237880e7d63a3070938194fdb8473fe3cdef274f",
+    "character.json": "fb674d95cad7cda568dcdb41827ca6eb64375bf63d62d34fb33a08d652443dd7",
+    "objects.json": "e23e34cc1447316c2131380a8c909f38359e2b4215cb211d1244d5d644bb47bf",
+    "scene": "a598bb7a68cf80281ee20e8374016d59fd43e94e0763e307fc08f773fcad1b00"
+  },
+  "holder": {
+    "x": 0,
+    "y": 0,
+    "width": 952,
+    "height": 245
+  },
+  "reason": "User requested heavier smoke and Argonaut looming above three surrendered Bastions."
+}

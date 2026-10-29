@@ -2342,6 +2342,209 @@
       ],
       "footer": "PROLOGUE · TWO BOARDING PARTIES",
       "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 19,
+      "Title": "Three Prizes",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p19-panel01.png",
+          "caption": "Three white flags.",
+          "narration": "The Josephine yielded. Serenity and Serendipity followed without another fight.",
+          "image_alt": "The Argonaut looms over three surrendered Bastions, their white flags visible through thick engine smoke.",
+          "priority": 2,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 245
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Three white flags.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The Josephine yielded. Serenity and Serendipity followed without another fight.",
+              "bounds": {
+                "x": 250,
+                "y": 153,
+                "width": 682,
+                "height": 64
+              }
+            }
+          ],
+          "scene_id": "prologue-p19-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p19-panel02.png",
+          "caption": "Arms down.",
+          "narration": "Rovan: “Weapons on the deck. All of them.”",
+          "image_alt": "Serenity’s crew lays down its weapons before Rovan and his troops.",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 255,
+            "width": 582,
+            "height": 502
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Arms down.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “Weapons on the deck. All of them.”",
+              "bounds": {
+                "x": 14,
+                "y": 392,
+                "width": 554,
+                "height": 82
+              }
+            }
+          ],
+          "scene_id": "prologue-p19-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p19-panel03.png",
+          "caption": "Joseph’s sentence.",
+          "narration": "Rovan: “You gambled their lives for a title. Throw him overboard.”",
+          "image_alt": "Rovan sentences Admiral Joseph to be thrown overboard for his arrogance.",
+          "priority": 3,
+          "holder": {
+            "x": 592,
+            "y": 255,
+            "width": 360,
+            "height": 502
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Joseph’s sentence.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “You gambled their lives for a title. Throw him overboard.”",
+              "bounds": {
+                "x": 14,
+                "y": 374,
+                "width": 332,
+                "height": 100
+              }
+            }
+          ],
+          "scene_id": "prologue-p19-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p19-panel04.png",
+          "caption": "His ships now.",
+          "narration": "Rovan: “Bring them round. All three.”\nPrize crews took the bridges. Repair gangs went straight to the engines.",
+          "image_alt": "Rovan takes the captured ships in hand and orders them turned around.",
+          "priority": 4,
+          "holder": {
+            "x": 0,
+            "y": 767,
+            "width": 431,
+            "height": 501
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "His ships now.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “Bring them round. All three.”",
+              "bounds": {
+                "x": 14,
+                "y": 263,
+                "width": 403,
+                "height": 100
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Prize crews took the bridges. Repair gangs went straight to the engines.",
+              "bounds": {
+                "x": 14,
+                "y": 373,
+                "width": 403,
+                "height": 100
+              }
+            }
+          ],
+          "scene_id": "prologue-p19-panel04",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p19-panel05.png",
+          "caption": "Three in one battle.",
+          "narration": "No one had ever taken an enemy capital ship. Rovan had taken three.",
+          "image_alt": "Rovan’s soldiers celebrate an unprecedented capture of three enemy capital ships.",
+          "priority": 5,
+          "holder": {
+            "x": 441,
+            "y": 767,
+            "width": 511,
+            "height": 501
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Three in one battle.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 200,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "No one had ever taken an enemy capital ship. Rovan had taken three.",
+              "bounds": {
+                "x": 14,
+                "y": 391,
+                "width": 483,
+                "height": 82
+              }
+            }
+          ],
+          "scene_id": "prologue-p19-panel05",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · THREE PRIZES",
+      "layout_mode": "fixed"
     }
   ]
 }

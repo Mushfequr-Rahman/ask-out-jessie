@@ -284,6 +284,31 @@
       "id": "prologue-p18-panel05",
       "request_file": "generation/requests/prologue-p18-panel05.json",
       "output_file": "assets/panels/prologue-p18-panel05.png"
+    },
+    {
+      "id": "prologue-p19-panel01",
+      "request_file": "generation/requests/prologue-p19-panel01.json",
+      "output_file": "assets/panels/prologue-p19-panel01.png"
+    },
+    {
+      "id": "prologue-p19-panel02",
+      "request_file": "generation/requests/prologue-p19-panel02.json",
+      "output_file": "assets/panels/prologue-p19-panel02.png"
+    },
+    {
+      "id": "prologue-p19-panel03",
+      "request_file": "generation/requests/prologue-p19-panel03.json",
+      "output_file": "assets/panels/prologue-p19-panel03.png"
+    },
+    {
+      "id": "prologue-p19-panel04",
+      "request_file": "generation/requests/prologue-p19-panel04.json",
+      "output_file": "assets/panels/prologue-p19-panel04.png"
+    },
+    {
+      "id": "prologue-p19-panel05",
+      "request_file": "generation/requests/prologue-p19-panel05.json",
+      "output_file": "assets/panels/prologue-p19-panel05.png"
     }
   ]
 }

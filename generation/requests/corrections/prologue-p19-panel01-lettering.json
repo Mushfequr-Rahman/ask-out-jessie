@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p19-panel01",
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch",
+      "banner-auric-reach"
+    ]
+  },
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p19-panel01-smoke-before-lettering.png",
+      "role": "Preserve smoke/looming composition; move bottom narration into aperture"
+    }
+  ],
+  "prompt": "Edit ONLY the bottom cream narration box and its position in this finished panoramic image. The picture of the red Argonaut looming above three white-flag ships with heavy smoke is approved: preserve ALL FOUR ships, all THREE WHITE FLAGS, smoke, sunset, top caption and everything else. The BOTTOM narration box is too low and gets cropped. REMOVE it from the very bottom and repaint that old area with matching sky/smoke. Re-draw the SAME cream box and SAME exact text HIGHER in the LOWER CENTRE, across the smoke just below the three ship bows, at FULL SOURCE y=62% through72% (for a 724px high image, top about449px and bottom about521px). Keep its existing horizontal span or extend across the lower centre if needed. It is okay to overlay the low edge of the middle/right engine housings, but do not cover any white flag or any ship’s bow. Use compact readable dark comic lettering. EXACT text: The Josephine yielded. Serenity and Serendipity followed without another fight. ALL lettering and the ENTIRE box must be ABOVE y=74% of full source height, never at the bottom edge. Top caption Three white flags. remains EXACTLY unchanged. Same image aspect ratio, no other changes."
+}

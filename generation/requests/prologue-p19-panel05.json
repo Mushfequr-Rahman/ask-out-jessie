@@ -1,0 +1,299 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p19-panel05",
+  "parameters": {
+    "scene": "prologue-p19-panel05",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 441,
+    "y": 767,
+    "width": 511,
+    "height": 501
+  },
+  "target": {
+    "width": 1040,
+    "height": 1024,
+    "size": "1040x1024",
+    "visible_window": {
+      "x": 0,
+      "y": 0.0021251223091977023,
+      "width": 1,
+      "height": 0.9957497553816046
+    }
+  },
+  "output_file": "assets/panels/prologue-p19-panel05.png",
+  "reference_images": [
+    {
+      "path": "assets/banner-veymarch.png",
+      "role": "AUTHORITATIVE banner colours, emblem and trim for veymarch. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.",
+      "index": 1
+    },
+    {
+      "path": "assets/argonaut-refit.png",
+      "role": "AUTHORITATIVE ship geometry for argonaut. Overrides older generic ship silhouettes in scene references; preserve this design in the new pose. Do not copy its background, people or lettering.",
+      "index": 2
+    },
+    {
+      "path": "references/panels/duke-seizure-crimson.png",
+      "role": "Character identity/wardrobe anchor for rovan-vey; not extra people to insert.",
+      "index": 3
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "Three in one battle.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 200,
+          "height": 44
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "Three in one battle.",
+        "normalized_bounds": {
+          "x": 0.0274,
+          "y": 0.0279,
+          "width": 0.3914,
+          "height": 0.0878
+        },
+        "source_bounds": {
+          "x": 0.0274,
+          "y": 0.0299,
+          "width": 0.3914,
+          "height": 0.0874
+        }
+      },
+      {
+        "type": "narration",
+        "text": "No one had ever taken an enemy capital ship. Rovan had taken three.",
+        "bounds": {
+          "x": 14,
+          "y": 391,
+          "width": 483,
+          "height": 82
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "No one had ever taken an enemy capital ship. Rovan had taken three.",
+        "normalized_bounds": {
+          "x": 0.0274,
+          "y": 0.7804,
+          "width": 0.9452,
+          "height": 0.1637
+        },
+        "source_bounds": {
+          "x": 0.0274,
+          "y": 0.7792,
+          "width": 0.9452,
+          "height": 0.163
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth’s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "veymarch",
+          "name": "Veymarch",
+          "emblem": "Silver broken shield and star"
+        }
+      ]
+    },
+    "characters": [
+      {
+        "id": "rovan-vey",
+        "name": "Rovan Vey",
+        "title": "Duke",
+        "visual_concept": {
+          "status": "provisional artwork, not established biography",
+          "appearance": "Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf"
+        },
+        "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+      },
+      {
+        "id": "general-grievous",
+        "name": "General Grievous",
+        "visual_concept": {
+          "status": "provisional project artwork, not established species or biography",
+          "appearance": "Older bald human officer with a grey moustache, dark olive coat and bronze epaulettes"
+        },
+        "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+      },
+      {
+        "id": "veymarch-commandos",
+        "name": "Veymarch commandos",
+        "visual_concept": {
+          "appearance": "Practical bronze helmets and armour over crimson work tunics, compact Tesla guns, grapnels and tethered boarding lines. Never silver Type C."
+        }
+      }
+    ],
+    "objects": [
+      {
+        "id": "argonaut",
+        "name": "Argonaut",
+        "description": "Rovan’s ONE Bastion-derived Argonaut, refitted with his newfound wealth. UNIQUE silhouette: elongated rigid bronze Zeppelin central hull, two shorter side gun hulls, wedge-shaped armoured ram prow and reinforced lower keel; crimson lacquer side armour between bronze ribs, low protected command citadel, TWO exposed green magnetic stabiliser rings near the stern, FOUR articulated bronze vectoring thruster pods with green Type B glow, rebuilt gun positions. Veymarch SILVER broken shield/eight-point star on crimson banners. Workshop-built industrial machinery, not ornate fantasy gold or a generic round-nosed Bastion. HEAVY CANNON UPGRADE: two prominent twin-barrel heavy gun turrets on the upper foredeck, four huge long bronze-and-black cannon barrels, much thicker and longer than standard Bastion deck guns, with reinforced recoil cradles and visible mechanical breeches. Keep the wedge prow and crimson plating. These are conventional heavy cannons, not new magical weapons.",
+        "constraints": [
+          "Exactly one Argonaut. The three captured Bastions may appear alongside it only in explicitly post-surrender fleet scenes. No wooden hulls, sails or extra vessels.",
+          "Same ship after a refit, never an additional capital ship.",
+          "All hull armour is bronze Type A; machinery is green Type B. No silver Type C hull or invulnerability.",
+          "Canonical Argonaut refit design controls hull geometry; older generic Bastion art supplies ancestry only.",
+          "Keep the wedge prow, crimson side armour, paired green stern stabiliser rings and vectoring pods recognisable in every new exterior view.",
+          "The enlarged heavy cannons must be conspicuous in exterior views; do not shrink them to decorative small deck guns.",
+          "The refit takes a legendary FOURTEEN DAYS, using captured resources; it is the same existing ship."
+        ],
+        "canonical_reference": "assets/argonaut-refit.png"
+      },
+      {
+        "id": "veymarch-infantry",
+        "name": "Veymarch infantry kit",
+        "description": "BRONZE armour over crimson cloth and red capes; green Tesla rifles. Ordinary troops are never silver Type C."
+      },
+      {
+        "id": "banner-veymarch",
+        "name": "Veymarch banner",
+        "description": "Crimson field; Silver broken shield and star",
+        "canonical_reference": "assets/banner-veymarch.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Crimson",
+            "hex": "#991B1B"
+          },
+          "emblem": {
+            "name": "Aged silver",
+            "hex": "#C8C2B0"
+          },
+          "trim": {
+            "name": "Antique silver trim",
+            "hex": "#A89978"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "The three enemy Bastions surrender on page19. Rovan began with ONE Argonaut and gains THREE captured capital ships; four owned in total, not four new prizes. Damaged ships still require repairs. Show only ships explicitly required by this shot. Plain WHITE surrender flags are signals, not changed duchy colours.",
+      "No silver captains in these shots; ordinary guards and celebrating soldiers wear BRONZE over CRIMSON.",
+      "White pennants signal surrender; canonical house cloth/emblems otherwise stay unchanged.",
+      "This is the same three captured ships, not three additional ships. Rovan owns four capitals total including Argonaut; operational repairs are still needed.",
+      "The overboard sentence is shown as spoken and escorted toward the rail, not as a graphic execution.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch"
+    ],
+    "policy": {
+      "reference_precedence": [
+        "Canonical banner reference for emblem geometry and colour placement",
+        "Dedicated material palette in objects.json for neutral-light hues",
+        "Scene and character references for composition and identity only"
+      ],
+      "review_checks": [
+        "Compare every visible banner with its canonical house reference side by side",
+        "Check cloth hue, emblem and trim separately under the scene lighting",
+        "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+      ],
+      "review_required": true
+    }
+  },
+  "prompt": "PURPOSE: Regenerate ONE comic illustration for FIXED holder 511.00 by 501.00 logical pixels, aspect 1.0200:1. NEAR SQUARE. Requested output 1040x1024. Do NOT resize or redesign the holder. Paint a NEW composition for it, not a framed photo.\n\nSCENE: Rovan’s soldiers celebrate an unprecedented capture of three enemy capital ships. TECHNICAL: New celebratory shot on the Argonaut’s bronze deck. Rovan and General Grievous stand among cheering ordinary soldiers in BRONZE armour over CRIMSON, arms and caps raised, relieved broad smiles, no weapons firing. Rovan black hair/silver streak/navy coat/crimson; Grievous older bald HUMAN with grey moustache/olive coat/crimson. No silver Type C captains visible in this shot. Crimson Veymarch banners carry SILVER broken shield/star. Bare floating rocks and green currents in the distance, no buildings or extra vessels necessary. The focus is collective joy and the historic achievement. All faces and exact lettering remain clear.\nCAMERA: Use a clear, tightly composed shot with the important action filling the aperture; do not copy the old wide framing.\n\nSTYLE: Magneton graphic novel: painted ink, tactile bronze machinery, silver Type C, crimson Veymarch cloth, navy/gold Auric Reach uniforms; atmospheric floating islands. Consistent with supplied scene references, not photorealistic.\n\nWORLD CONTEXT FROM world.json: {\"setting\":{\"genre\":[\"post-apocalyptic\",\"science fantasy\",\"feudal political adventure\"],\"planet\":\"Earth\",\"catastrophe\":{\"name\":\"The Fracture\",\"cause\":\"Nuclear war shattered Earth into floating islands.\",\"date\":null,\"instigators\":null},\"geography\":{\"landform\":\"Fractured continents and floating rock islands above an atmospheric void\",\"duchy_count\":8,\"atlas_asset_id\":\"shattered-earth-atlas\",\"boundaries\":\"Map labels mark regions of influence, not surveyed borders.\",\"exact_distances\":null},\"magnetic_fields\":{\"behavior\":\"Erratic and turbulent in motion, but their patterns are predictable.\",\"world_function\":\"Hold the fractured landmasses together.\",\"navigation\":\"Ships use magnetic motors to travel through the fields between cities and mining sites.\",\"safe_route_rules\":null},\"humanity\":{\"survival\":\"Humanity was nearly extinguished.\",\"adaptation\":\"Survivors evolved over generations under the influence of the magnetic fields.\",\"new_attributes_exist\":true,\"specific_attributes\":null},\"gravity_and_energy\":{\"city_support\":\"Magneton technology stabilizes floating cities and islands, preventing them from falling.\",\"local_gravity\":\"Generated local fields reproduce the experience of the old Earth’s gravity.\",\"power\":\"Oppositely polarized metal components move in magnetic motors, powering city and transport systems.\",\"fictional_physics\":\"These are rules of the setting; no real-world scientific mechanism is established.\",\"technical_limits\":null}},\"metals\":[{\"id\":\"type-a\",\"appearance\":\"Bronze-like metal\",\"properties\":[\"Very durable\"]},{\"id\":\"type-b\",\"appearance\":\"Glowing green in both polarities\",\"properties\":[\"Found in opposite magnetic polarities\"]},{\"id\":\"type-c\",\"appearance\":\"Silvery metal\",\"properties\":[\"Most malleable of the Magneton types\",\"Impenetrable and impervious to any weapons\",\"Can drift along magnetic fields\"]}],\"duchies\":[{\"id\":\"veymarch\",\"name\":\"Veymarch\",\"emblem\":\"Silver broken shield and star\"}]} Preserve the source scene’s era and events; do not add unrelated world elements.\n\nCHARACTERS (immutable identity and costume): [{\"id\":\"rovan-vey\",\"name\":\"Rovan Vey\",\"title\":\"Duke\",\"visual_concept\":{\"status\":\"provisional artwork, not established biography\",\"appearance\":\"Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf\"},\"uniform_standard\":\"Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.\"},{\"id\":\"general-grievous\",\"name\":\"General Grievous\",\"visual_concept\":{\"status\":\"provisional project artwork, not established species or biography\",\"appearance\":\"Older bald human officer with a grey moustache, dark olive coat and bronze epaulettes\"},\"uniform_standard\":\"Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.\"},{\"id\":\"veymarch-commandos\",\"name\":\"Veymarch commandos\",\"visual_concept\":{\"appearance\":\"Practical bronze helmets and armour over crimson work tunics, compact Tesla guns, grapnels and tethered boarding lines. Never silver Type C.\"}}]\n\nOBJECTS (only those belonging in this scene): [{\"id\":\"argonaut\",\"name\":\"Argonaut\",\"description\":\"Rovan’s ONE Bastion-derived Argonaut, refitted with his newfound wealth. UNIQUE silhouette: elongated rigid bronze Zeppelin central hull, two shorter side gun hulls, wedge-shaped armoured ram prow and reinforced lower keel; crimson lacquer side armour between bronze ribs, low protected command citadel, TWO exposed green magnetic stabiliser rings near the stern, FOUR articulated bronze vectoring thruster pods with green Type B glow, rebuilt gun positions. Veymarch SILVER broken shield/eight-point star on crimson banners. Workshop-built industrial machinery, not ornate fantasy gold or a generic round-nosed Bastion. HEAVY CANNON UPGRADE: two prominent twin-barrel heavy gun turrets on the upper foredeck, four huge long bronze-and-black cannon barrels, much thicker and longer than standard Bastion deck guns, with reinforced recoil cradles and visible mechanical breeches. Keep the wedge prow and crimson plating. These are conventional heavy cannons, not new magical weapons.\",\"constraints\":[\"Exactly one Argonaut. The three captured Bastions may appear alongside it only in explicitly post-surrender fleet scenes. No wooden hulls, sails or extra vessels.\",\"Same ship after a refit, never an additional capital ship.\",\"All hull armour is bronze Type A; machinery is green Type B. No silver Type C hull or invulnerability.\",\"Canonical Argonaut refit design controls hull geometry; older generic Bastion art supplies ancestry only.\",\"Keep the wedge prow, crimson side armour, paired green stern stabiliser rings and vectoring pods recognisable in every new exterior view.\",\"The enlarged heavy cannons must be conspicuous in exterior views; do not shrink them to decorative small deck guns.\",\"The refit takes a legendary FOURTEEN DAYS, using captured resources; it is the same existing ship.\"],\"canonical_reference\":\"assets/argonaut-refit.png\"},{\"id\":\"veymarch-infantry\",\"name\":\"Veymarch infantry kit\",\"description\":\"BRONZE armour over crimson cloth and red capes; green Tesla rifles. Ordinary troops are never silver Type C.\"},{\"id\":\"banner-veymarch\",\"name\":\"Veymarch banner\",\"description\":\"Crimson field; Silver broken shield and star\",\"canonical_reference\":\"assets/banner-veymarch.png\",\"palette\":{\"color_space\":\"sRGB\",\"basis\":\"neutral-light art direction\",\"note\":\"Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.\",\"cloth\":{\"name\":\"Crimson\",\"hex\":\"#991B1B\"},\"emblem\":{\"name\":\"Aged silver\",\"hex\":\"#C8C2B0\"},\"trim\":{\"name\":\"Antique silver trim\",\"hex\":\"#A89978\"},\"lighting_rule\":\"Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette.\"}}]\n\nREFERENCES: [{\"path\":\"assets/banner-veymarch.png\",\"role\":\"AUTHORITATIVE banner colours, emblem and trim for veymarch. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.\",\"index\":1},{\"path\":\"assets/argonaut-refit.png\",\"role\":\"AUTHORITATIVE ship geometry for argonaut. Overrides older generic ship silhouettes in scene references; preserve this design in the new pose. Do not copy its background, people or lettering.\",\"index\":2},{\"path\":\"references/panels/duke-seizure-crimson.png\",\"role\":\"Character identity/wardrobe anchor for rovan-vey; not extra people to insert.\",\"index\":3}]\n\nBANNER AUTHORITY: {\"reference_precedence\":[\"Canonical banner reference for emblem geometry and colour placement\",\"Dedicated material palette in objects.json for neutral-light hues\",\"Scene and character references for composition and identity only\"],\"review_checks\":[\"Compare every visible banner with its canonical house reference side by side\",\"Check cloth hue, emblem and trim separately under the scene lighting\",\"Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection\"],\"review_required\":true} Dedicated objects.json palettes describe neutral-light materials. Map/UI colours from world.json are not fabric colours. Canonical banner images control heraldic geometry; palette swatches control intended material hues. Older scene/character palettes never override these. Apply the palette lighting rule, keeping each house recognisable. Palette hex values are targets, not a guarantee of identical generated pixels.\n\nLETTERING: Draw the speech balloons, cream caption/narration boxes and ALL their text directly INTO the artwork. Use a professional clear comic lettering font, dark ink on pale cream/white, readable contrast. Reproduce each render_text EXACTLY, preserving punctuation; do not print speaker labels or JSON keys. Speech tails point to the speaking person. No other words, labels, signs or gibberish. The visible crop-safe aperture in FULL SOURCE coordinates is {\"x\":0,\"y\":0.0021251223091977023,\"width\":1,\"height\":0.9957497553816046}. Place ALL text wholly inside it. The following bounding boxes are normalized to the FULL SOURCE image (not to the holder); use these adjusted positions exactly: [{\"type\":\"caption\",\"render_text\":\"Three in one battle.\",\"bounds_in_full_source_image\":{\"x\":0.0274,\"y\":0.0299,\"width\":0.3914,\"height\":0.0874}},{\"type\":\"narration\",\"render_text\":\"No one had ever taken an enemy capital ship. Rovan had taken three.\",\"bounds_in_full_source_image\":{\"x\":0.0274,\"y\":0.7792,\"width\":0.9452,\"height\":0.163}}]\n\nINVARIANTS: One image per request; no multi-panel collage or embedded borders. Compose for the fixed holder. Do not letterbox or paste the old wide image. Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts. Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones. No unsupported new lore, extra Type C suits, extra capital ships or invented character names. The three enemy Bastions surrender on page19. Rovan began with ONE Argonaut and gains THREE captured capital ships; four owned in total, not four new prizes. Damaged ships still require repairs. Show only ships explicitly required by this shot. Plain WHITE surrender flags are signals, not changed duchy colours. No silver captains in these shots; ordinary guards and celebrating soldiers wear BRONZE over CRIMSON. White pennants signal surrender; canonical house cloth/emblems otherwise stay unchanged. This is the same three captured ships, not three additional ships. Rovan owns four capitals total including Argonaut; operational repairs are still needed. The overboard sentence is shown as spoken and escorted toward the rail, not as a graphic execution. All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions.\n\nDELIVERY: Edge-to-edge painted scene with finished comic lettering, no blank borders, no letterboxing, no collage. If native output ratio differs from the holder, keep ALL important content inside its central crop-safe aperture; only expendable background may extend beyond. For a wide strip, put the main figures and action in the central horizontal band, leaving substantial sky/floor outside that band.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording",
+    "Compare every visible banner with its canonical house reference side by side",
+    "Check cloth hue, emblem and trim separately under the scene lighting",
+    "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+  ],
+  "source_hashes": {
+    "world.json": "9b43b5deccb0d76d95e4a997d5a06a5104aeedb1a4bda165589646a56969e465",
+    "character.json": "fb674d95cad7cda568dcdb41827ca6eb64375bf63d62d34fb33a08d652443dd7",
+    "objects.json": "e23e34cc1447316c2131380a8c909f38359e2b4215cb211d1244d5d644bb47bf",
+    "scene": "47dc2bfbadcad7a116aba47b50e79a8593e133a5c6c10291676fc6d9a464391f"
+  }
+}

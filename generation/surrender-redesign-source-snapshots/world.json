@@ -1,0 +1,3389 @@
+{
+  "schema_version": "1.0",
+  "metadata": {
+    "project_name": "comicbook",
+    "world_title": "Magneton",
+    "title_status": "working title",
+    "reference_language": "en",
+    "last_updated": "2026-10-27",
+    "scope": "Structured reference for all established world lore, published story panels, current visual designs, and repository artwork.",
+    "sources": [
+      "STORY.md",
+      "STORYBOARD-IDEAS.md",
+      "prologue.html",
+      "glossary.html",
+      "data/duchies.json"
+    ],
+    "unknown_value_policy": "null or open_questions means not established; do not invent missing statistics or character history.",
+    "canon_policy": {
+      "author_directions": "Author-supplied setting and plot facts are established.",
+      "visual_concepts": "Character appearances, ship variant names/layouts, map placements, colours and heraldry are current project designs; they do not imply unrecorded history or numeric specifications.",
+      "unselected_story_directions": [
+        "The Sealed Hold mining-worker protagonist opening",
+        "The manifest dispute after the Caravan seizure",
+        "The return-by-dawn ultimatum"
+      ],
+      "unselected_directions_are_story_events": false
+    }
+  },
+  "setting": {
+    "genre": [
+      "post-apocalyptic",
+      "science fantasy",
+      "feudal political adventure"
+    ],
+    "planet": "Earth",
+    "catastrophe": {
+      "name": "The Fracture",
+      "cause": "Nuclear war shattered Earth into floating islands.",
+      "date": null,
+      "instigators": null
+    },
+    "geography": {
+      "landform": "Fractured continents and floating rock islands above an atmospheric void",
+      "duchy_count": 8,
+      "atlas_asset_id": "shattered-earth-atlas",
+      "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+      "exact_distances": null
+    },
+    "magnetic_fields": {
+      "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+      "world_function": "Hold the fractured landmasses together.",
+      "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+      "safe_route_rules": null
+    },
+    "humanity": {
+      "survival": "Humanity was nearly extinguished.",
+      "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+      "new_attributes_exist": true,
+      "specific_attributes": null
+    },
+    "gravity_and_energy": {
+      "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+      "local_gravity": "Generated local fields reproduce the experience of the old Earth’s gravity.",
+      "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+      "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+      "technical_limits": null
+    }
+  },
+  "society": {
+    "political_system": "Feudal duchies with ruling dukes and barons.",
+    "duchy_count": 8,
+    "origins_of_power": "Magneton miners built mining and trading fleets. Control of extraction, ships and trade turned them into the ruling class.",
+    "economy": {
+      "central_resource": "Magneton",
+      "dependencies": [
+        "city power",
+        "island stabilization",
+        "local gravity",
+        "ship construction",
+        "ship propulsion",
+        "mining and trade"
+      ],
+      "routes": "Cities and duchies depend on ships moving between settlements and Magneton mining sites."
+    },
+    "protection_and_wealth": "While Rovan protected merchant and mining ships from pirates, other rulers traded and grew wealthier. His own fleet and resources dwindled.",
+    "formal_duke_baron_relationship": null,
+    "current_conflict": {
+      "opponent_duchy_id": "auric-reach",
+      "target_character_id": "rovan-vey",
+      "capital_ships_dispatched": 3,
+      "status": "All three Auric Bastions capitulate; crews surrender and Rovan takes the ships.",
+      "battle_outcome": "Rovan captures Josephine, Serenity and Serendipity in one battle.",
+      "opponent_total_capital_ship_count": null,
+      "planned_battlefield_id": "shattered-plains",
+      "friendly_capital_ship_id": "argonaut",
+      "opponent_commander_id": "admiral-joseph",
+      "enemy_ship_ids": [
+        "josephine",
+        "serenity",
+        "serendipity"
+      ],
+      "captain_assignments": {
+        "argonaut": [
+          "captain-bulwark"
+        ],
+        "serenity": [
+          "captain-stormlance",
+          "captain-windblade"
+        ],
+        "serendipity": [
+          "captain-riftwalker",
+          "captain-hullbreaker"
+        ]
+      },
+      "partial_results": {
+        "josephine": "surrendered and captured",
+        "serenity": "surrendered and captured",
+        "serendipity": "surrendered and captured"
+      },
+      "captured_ship_ids": [
+        "josephine",
+        "serenity",
+        "serendipity"
+      ],
+      "captured_capital_ship_count": 3,
+      "owned_capital_ships_after_battle": 4,
+      "operational_capital_ships_after_battle": null,
+      "admiral_sentence": "Admiral Joseph is sentenced to be thrown overboard for arrogant, reckless command; the sentence is pronounced on page19."
+    },
+    "historical_milestone": {
+      "event": "First capture of another duchy’s capital ships in the history of the shattered world.",
+      "captured_in_one_battle": 3,
+      "victor_id": "rovan-vey",
+      "page": 19
+    }
+  },
+  "metals": [
+    {
+      "id": "type-a",
+      "name": "Magneton Type A",
+      "appearance": "Bronze-like metal",
+      "properties": [
+        "Very durable"
+      ],
+      "availability": "Most common type",
+      "established_uses": [
+        "Ship hulls"
+      ],
+      "specimen_asset_id": "magneton-types"
+    },
+    {
+      "id": "type-b",
+      "name": "Magneton Type B",
+      "appearance": "Glowing green in both polarities",
+      "properties": [
+        "Found in opposite magnetic polarities"
+      ],
+      "polarity_forms": [
+        "positive",
+        "negative"
+      ],
+      "availability": null,
+      "established_uses": [
+        "Delicate machinery",
+        "Hull components",
+        "Opposite-polarity motor cores"
+      ],
+      "ambiguity": "The exact division between Type A hull structures and the author-described Type B hull components has not been defined.",
+      "core_asset_id": "prologue-p02-panel03"
+    },
+    {
+      "id": "type-c",
+      "name": "Magneton Type C",
+      "appearance": "Silvery metal",
+      "properties": [
+        "Most malleable of the Magneton types",
+        "Impenetrable and impervious to any weapons",
+        "Can drift along magnetic fields"
+      ],
+      "availability": "Most difficult to find; recently discovered",
+      "established_uses": [
+        "Seamless armour",
+        "Magnetic lance",
+        "Field broadsword",
+        "Twin wind swords",
+        "Shield war hammer",
+        "Magnetic scythe"
+      ],
+      "known_crafting": {
+        "exclusive_expert_id": "rovan-vey",
+        "knowledge_origin": "Rovan’s own experience",
+        "process": null,
+        "material_source": "Type C taken from the seized Auric Reach Caravan",
+        "honour_guard_count": 5,
+        "material_for_sixth_set": false,
+        "advantage": "The crafted equipment enables the honour guard to drift along magnetic fields and leap between ships.",
+        "weapon_vulnerability": null,
+        "weapon_vulnerability_status": "None established; the author specifies imperviousness to any weapons.",
+        "complete_armour_and_weapon_sets": 5,
+        "armour_construction": "Practical workshop-made brushed silver armour with tool marks, no ceremonial filigree. Continuous coverage without joints or gaps; crimson cloth worn externally.",
+        "weapon_ids": [
+          "condenser-lance",
+          "field-broadsword",
+          "wind-twin-swords",
+          "shield-warhammer",
+          "point-scythe"
+        ]
+      }
+    }
+  ],
+  "technology": {
+    "magnetic_motors": {
+      "components": "Oppositely polarized Magneton components",
+      "uses": [
+        "city energy",
+        "island stabilization",
+        "local gravity",
+        "airship propulsion"
+      ],
+      "exact_engineering": null
+    },
+    "tesla_guns": {
+      "description": "Fictional electrical weapons carried by armoured soldiers.",
+      "visual_design": "Copper coils with green-lit charges; no technical construction recipe is established.",
+      "effect_on_type_c": "Cannot penetrate the silver armour."
+    },
+    "airship_design_language": {
+      "initial_reference": "Long rigid metal Zeppelin-shaped hulls, rounded noses, ribs, portholes, exposed machinery and tail fins.",
+      "additional_reference": "Swept lower hulls, open decks, aft superstructures and hull-edge engine machinery.",
+      "propulsion": "Magneton-powered magnetic motors",
+      "balloon_lift_established": false
+    }
+  },
+  "ship_classes": [
+    {
+      "id": "mining",
+      "name": "Mining ships",
+      "size": "small",
+      "purpose": "Extract and transport Magneton ore",
+      "cargo": "Large holds relative to compact hulls",
+      "passenger_capacity": null,
+      "maneuverability": null
+    },
+    {
+      "id": "schooner",
+      "name": "Schooners",
+      "size": "small",
+      "purpose": "Commuter travel within a city or duchy",
+      "cargo": "Light luggage; not primarily freight",
+      "passenger_capacity": null,
+      "maneuverability": "Highly mobile"
+    },
+    {
+      "id": "trading",
+      "name": "Trading ships",
+      "size": "large",
+      "purpose": "Trade between cities and duchies; freight and passengers",
+      "cargo": "Large freight space with passenger accommodation",
+      "passenger_capacity": null,
+      "maneuverability": "Difficult to navigate; cumbersome"
+    },
+    {
+      "id": "capital",
+      "name": "Men-of-war",
+      "size": "capital",
+      "purpose": "Military capital ships",
+      "cargo": null,
+      "passenger_capacity": null,
+      "maneuverability": null,
+      "rarity": "The most expensive and rarest class. Many duchies possess no more than three in total, across all variants."
+    }
+  ],
+  "ship_designs": [
+    {
+      "id": "mining-mole",
+      "name": "Mole",
+      "class_id": "mining",
+      "asset_id": "mining-mole",
+      "status": "current visual design",
+      "design_notes": "Squat mining tug with detachable deep ore cassette, loading arms, and forward drill",
+      "handling_concept": "Close-site positioning",
+      "exact_dimensions": null,
+      "crew_count": null,
+      "cargo_tonnage": null
+    },
+    {
+      "id": "schooner-needle",
+      "name": "Needle",
+      "class_id": "schooner",
+      "asset_id": "schooner-needle",
+      "status": "current visual design",
+      "design_notes": "Light teardrop commuter hull, compact cockpit, and articulated engine outriggers",
+      "handling_concept": "Very high mobility",
+      "exact_dimensions": null,
+      "crew_count": null,
+      "cargo_tonnage": null
+    },
+    {
+      "id": "schooner-kestrel",
+      "name": "Kestrel",
+      "class_id": "schooner",
+      "asset_id": "schooner-kestrel",
+      "status": "current visual design",
+      "design_notes": "Small swept open-deck commuter with glass forward cabin, boarding deck, and hull-edge magnetic rings",
+      "handling_concept": "High mobility",
+      "exact_dimensions": null,
+      "crew_count": null,
+      "cargo_tonnage": null
+    },
+    {
+      "id": "trader-caravan",
+      "name": "Caravan",
+      "class_id": "trading",
+      "asset_id": "trader-caravan",
+      "status": "current visual design",
+      "design_notes": "Large twin parallel Zeppelin hulls connected by cargo bridges, freight modules and passenger space",
+      "handling_concept": "Cumbersome turns",
+      "exact_dimensions": null,
+      "crew_count": null,
+      "cargo_tonnage": null
+    },
+    {
+      "id": "trader-terrace",
+      "name": "Terrace",
+      "class_id": "trading",
+      "asset_id": "trader-terrace",
+      "status": "current visual design",
+      "design_notes": "Broad trader with terraced passenger decks, forward saloon, enclosed freight holds, and raised aft bridge",
+      "handling_concept": "Slow and cumbersome",
+      "exact_dimensions": null,
+      "crew_count": null,
+      "cargo_tonnage": null
+    },
+    {
+      "id": "capital-bastion",
+      "name": "Bastion",
+      "class_id": "capital",
+      "asset_id": "capital-bastion",
+      "status": "current visual design",
+      "design_notes": "Broad armoured three-keel fortress with command citadel, gun decks, and large magnetic engines",
+      "handling_concept": "Limited maneuverability",
+      "exact_dimensions": null,
+      "crew_count": null,
+      "cargo_tonnage": null
+    }
+  ],
+  "duchies": [
+    {
+      "id": "veymarch",
+      "name": "Veymarch",
+      "x": 49,
+      "y": 27,
+      "color": "#E56B73",
+      "colour": "Crimson",
+      "emblem": "Silver broken shield and star",
+      "description": "Rovan Vey’s small island seat. His fleet begins the campaign with one capital ship.",
+      "banner_asset_id": "banner-veymarch",
+      "banner_path": "assets/banner-veymarch.png",
+      "map_position": {
+        "x_percent": 49,
+        "y_percent": 27,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": "rovan-vey",
+      "political_history": "Rovan Vey’s small island seat. His fleet begins the campaign with one capital ship.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "auric-reach",
+      "name": "Auric Reach",
+      "x": 64,
+      "y": 36,
+      "color": "#E8BE57",
+      "colour": "Gold",
+      "emblem": "Merchant’s balance within a coin",
+      "description": "A wealthy neighbouring trading duchy. Rovan seizes its Caravan and captures one of its barons’ cities.",
+      "banner_asset_id": "banner-auric-reach",
+      "banner_path": "assets/banner-auric-reach.png",
+      "map_position": {
+        "x_percent": 64,
+        "y_percent": 36,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": "auric-ruler",
+      "political_history": "A wealthy neighbouring trading duchy. Rovan seizes its Caravan and captures one of its barons’ cities. Its ruler dispatches three capital ships toward Rovan.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "ironveil",
+      "name": "Ironveil",
+      "x": 20,
+      "y": 27,
+      "color": "#99ACBE",
+      "colour": "Steel",
+      "emblem": "Silver hammer and anvil",
+      "description": "A duchy among the northern western fragments.",
+      "banner_asset_id": "banner-ironveil",
+      "banner_path": "assets/banner-ironveil.png",
+      "map_position": {
+        "x_percent": 20,
+        "y_percent": 27,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": null,
+      "political_history": "A duchy among the northern western fragments.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "glassmere",
+      "name": "Glassmere",
+      "x": 31,
+      "y": 64,
+      "color": "#57CDD5",
+      "colour": "Cyan",
+      "emblem": "White crystal prism",
+      "description": "A duchy spread across the southern western fragments.",
+      "banner_asset_id": "banner-glassmere",
+      "banner_path": "assets/banner-glassmere.png",
+      "map_position": {
+        "x_percent": 31,
+        "y_percent": 64,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": null,
+      "political_history": "A duchy spread across the southern western fragments.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "stormholt",
+      "name": "Stormholt",
+      "x": 76,
+      "y": 19,
+      "color": "#B099EF",
+      "colour": "Violet",
+      "emblem": "Silver lightning bolt and ring",
+      "description": "A duchy among the far northern eastern fragments.",
+      "banner_asset_id": "banner-stormholt",
+      "banner_path": "assets/banner-stormholt.png",
+      "map_position": {
+        "x_percent": 76,
+        "y_percent": 19,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": null,
+      "political_history": "A duchy among the far northern eastern fragments.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "emberfall",
+      "name": "Emberfall",
+      "x": 52,
+      "y": 61,
+      "color": "#EE965B",
+      "colour": "Orange",
+      "emblem": "Dark flame and golden ember",
+      "description": "A duchy among the central southern fragments.",
+      "banner_asset_id": "banner-emberfall",
+      "banner_path": "assets/banner-emberfall.png",
+      "map_position": {
+        "x_percent": 52,
+        "y_percent": 61,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": null,
+      "political_history": "A duchy among the central southern fragments.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "verdant-crown",
+      "name": "Verdant Crown",
+      "x": 85,
+      "y": 67,
+      "color": "#79C792",
+      "colour": "Emerald",
+      "emblem": "Golden crown of leaves",
+      "description": "A duchy across the southeastern island chains.",
+      "banner_asset_id": "banner-verdant-crown",
+      "banner_path": "assets/banner-verdant-crown.png",
+      "map_position": {
+        "x_percent": 85,
+        "y_percent": 67,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": null,
+      "political_history": "A duchy across the southeastern island chains.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    },
+    {
+      "id": "pale-meridian",
+      "name": "Pale Meridian",
+      "x": 58,
+      "y": 88,
+      "color": "#E7E1CF",
+      "colour": "Ivory",
+      "emblem": "Midnight compass star",
+      "description": "A duchy among the far southern fragments.",
+      "banner_asset_id": "banner-pale-meridian",
+      "banner_path": "assets/banner-pale-meridian.png",
+      "map_position": {
+        "x_percent": 58,
+        "y_percent": 88,
+        "meaning": "region of influence; not surveyed borders"
+      },
+      "ruler_id": null,
+      "political_history": "A duchy among the far southern fragments.",
+      "other_details_status": "Unspecified unless explicitly recorded here."
+    }
+  ],
+  "locations": [
+    {
+      "id": "veymarch-seat",
+      "name": null,
+      "description": "Rovan’s small island city in Veymarch",
+      "duchy_id": "veymarch",
+      "role": "His resource-poor seat, depleted fleet docks, and recruiting base."
+    },
+    {
+      "id": "auric-captured-city",
+      "name": null,
+      "description": "A city belonging to an unnamed baron of Auric Reach",
+      "duchy_id": "auric-reach",
+      "role": "Rovan’s first city conquest",
+      "current_control": "Captured by Rovan; this does not mean all Auric Reach is conquered."
+    },
+    {
+      "id": "shattered-plains",
+      "name": "Shattered Plains",
+      "description": "A stretch of sky blotted with large floating rocks and very strong magnetic fields, making it difficult to fly.",
+      "strategic_role": "Rovan chooses this terrain so the three enemy Bastions cannot hold formation and must separate to engage him.",
+      "duchy_id": null,
+      "exact_coordinates": null
+    },
+    {
+      "id": "auric-latest-captured-city",
+      "name": null,
+      "description": "The second small Auric Reach city captured with the five silver captains; the Argonaut’s departure point.",
+      "duchy_id": "auric-reach",
+      "current_control": "Captured by Rovan; its civilian inhabitants expect him to lose against the approaching three Bastions.",
+      "role": "Departure point before the Shattered Plains encounter."
+    }
+  ],
+  "characters_file": "character.json",
+  "story_timeline": [
+    {
+      "order": 1,
+      "event": "Nuclear war fractures Earth and nearly extinguishes humanity."
+    },
+    {
+      "order": 2,
+      "event": "Survivors adapt across generations; Magneton emerges from fused nuclear materials."
+    },
+    {
+      "order": 3,
+      "event": "Magneton power, stabilization, local gravity and transport allow floating cities to grow."
+    },
+    {
+      "order": 4,
+      "event": "Mining and trade wealth forms the new feudal duchies and barons."
+    },
+    {
+      "order": 5,
+      "event": "Rovan protects shipping from pirates; other rulers grow rich while his own fleet dwindles."
+    },
+    {
+      "order": 6,
+      "event": "Rovan and Grievous discuss the city, unpaid soldiers and depleted accounts."
+    },
+    {
+      "order": 7,
+      "event": "Armoured soldiers board an Auric Reach Caravan with Tesla guns aimed at unarmed sailors. Rovan seizes the ship for unpaid protection fees; his soldiers cheer.",
+      "shots_fired": false
+    },
+    {
+      "order": 8,
+      "event": "Rovan declares his own future. Seized resources fund recruits and equipment; trained veterans drill the new soldiers. He departs with one capital ship."
+    },
+    {
+      "order": 9,
+      "event": "He raids an Auric Reach baron, seizes ships and captures a city easily through superior training and surprise.",
+      "war_context": "First organised inter-duchy war since the Fracture; earlier nuclear war and fighting pirates still occurred.",
+      "silver_guard_present": false
+    },
+    {
+      "order": 10,
+      "event": "Rovan crafts exactly five practical man-made Type C armour-and-weapon sets with distinct helmet shapes and builds, without joints or gaps."
+    },
+    {
+      "order": 11,
+      "event": "Bronze-armoured troops with crimson base layers run from the fleet onto the docks, through the gate and into the town streets."
+    },
+    {
+      "order": 12,
+      "event": "Rovan’s fleet and five silver captains attack another small Auric Reach city, fight the town guard with their distinct magnetic weapons and seize the town.",
+      "first_capture_is_separate": true
+    },
+    {
+      "order": 13,
+      "event": "Rovan and General Grievous discuss holding the captured city, repairing seized ships, and training recruits."
+    },
+    {
+      "order": 14,
+      "event": "Meanwhile the unnamed ruler of Auric Reach orders and dispatches three capital ships toward Rovan.",
+      "time_relation": "Parallel cutaway to the command-room discussion",
+      "capital_ship_count": 3,
+      "battle_outcome": null
+    },
+    {
+      "id": "three-bastions-council",
+      "page": 13,
+      "event": "A schooner courier warns Rovan that three Auric Reach Bastions are en route. Rovan meets General Grievous and all five Type C captains, then decides to face the enemy head-on. No engagement or outcome has been shown.",
+      "order": 15,
+      "time_relation": "After Auric Reach dispatches its three capital ships; before the first fleet engagement."
+    },
+    {
+      "order": 16,
+      "event": "Rovan and his engineers refit the Argonaut in a legendary fourteen days using captured resources, including much larger heavy cannons.",
+      "time_relation": "After the city conquests; the refit occupies page14, before the departure on page15.",
+      "ship_id": "argonaut",
+      "page": 14
+    },
+    {
+      "order": 17,
+      "event": "The Argonaut leaves the recently conquered city. Its inhabitants expect Rovan to lose. He chooses the Shattered Plains, where floating rocks and strong magnetic fields will force the three enemy Bastions to separate.",
+      "page": 15,
+      "battle_outcome": null
+    },
+    {
+      "order": 18,
+      "page": 16,
+      "event": "Admiral Joseph pursues the Argonaut with three Auric Reach Bastions. Driven by his ambition to gain his own duchy, he ignores sailors’ warnings and follows Rovan into the Shattered Plains.",
+      "battle_outcome": null
+    },
+    {
+      "order": 19,
+      "page": 17,
+      "event": "Argonaut’s upgraded stabilisers handle the fields easily; Josephine, Serenity and Serendipity separate. The Bulwark stays aboard while Rovan turns on Josephine and shatters nearby rocks with cannon fire as a diversion."
+    },
+    {
+      "order": 20,
+      "page": 18,
+      "event": "The Stormlance and Windblade lead commandos from a floating rock onto Serenity; the lance disables it and Windblade boards. The Riftwalker uses two magnetic points while Hullbreaker jumps to Serendipity’s engines and disables them.",
+      "battle_outcome": null
+    },
+    {
+      "order": 21,
+      "page": 19,
+      "event": "Josephine, Serenity and Serendipity capitulate without another fight. Crews lay down arms; Rovan sentences Joseph to be thrown overboard, takes the ships, orders prize crews and repairs, and his troops celebrate the first-ever capture of enemy capital ships—three in one battle.",
+      "battle_outcome": "Three enemy capitals captured; four owned including the original Argonaut.",
+      "admiral_fate_depicted": "Sentence and escort toward the rail; its execution is not shown."
+    }
+  ],
+  "publication": {
+    "navigation": [
+      "Chapters",
+      "Glossary"
+    ],
+    "story_count": 1,
+    "chapters_menu": "chapters.html",
+    "glossary": "glossary.html",
+    "stories": [
+      {
+        "id": "prologue",
+        "title": "Prologue",
+        "status": "available",
+        "reader": "prologue.html",
+        "page_count": 18,
+        "panel_count": 57,
+        "pages": [
+          {
+            "number": 1,
+            "title": "The fracture",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p01-panel01",
+                "caption": "The last war.",
+                "narration": "By the time the guns fell silent, the Earth had broken apart.",
+                "priority": 5,
+                "image_description": "Fractured landmasses suspended in a glowing magnetic field",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p01-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p01-panel02",
+                "caption": "Fragments of home.",
+                "narration": "Continents hung in pieces. Magnetic storms lashed the gaps, but beneath the violence ran patterns the survivors could learn.",
+                "priority": 3,
+                "image_description": "Magnetic currents arc between the exposed undersides of floating islands",
+                "holder": {
+                  "x": 0,
+                  "y": 771.975,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p01-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p01-panel03",
+                "caption": "The people who remained.",
+                "narration": "They made their homes on whatever ground was left, and learned to watch the sky.",
+                "priority": 2,
+                "image_description": "A small human silhouette standing on a floating island",
+                "holder": {
+                  "x": 632.929,
+                  "y": 771.975,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p01-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "title": "Adaptation",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p02-panel01",
+                "caption": "Generations later.",
+                "narration": "Children grew up inside the magnetic fields. Their children did too. Slowly, the fields changed them.",
+                "priority": 2,
+                "image_description": "Three generations of survivors study a magnetic sensing instrument in their settlement",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p02-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p02-panel02",
+                "caption": "Something in the wreckage.",
+                "narration": "Nuclear materials had fused into a metal no one had seen before.",
+                "priority": 3,
+                "image_description": "Luminous Magneton ore embedded in fractured rock",
+                "holder": {
+                  "x": 329.071,
+                  "y": 0,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p02-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p02-panel03",
+                "caption": "Magneton.",
+                "narration": "At first it was a discovery. In time, it would become the one thing no city could live without.",
+                "priority": 5,
+                "image_description": "Two glowing green Type B Magneton cores of opposite polarity inside a precision motor",
+                "holder": {
+                  "x": 0,
+                  "y": 506.025,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p02-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "title": "The cities",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p03-panel01",
+                "caption": "A way to keep going.",
+                "narration": "Opposite-polarity Type B cores drove the new motors. For the first time in generations, there was power to spare.",
+                "priority": 3,
+                "image_description": "A floating city built above a glowing Magneton engine",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p03-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p03-panel02",
+                "caption": "Under the city.",
+                "narration": "The engines steadied the islands and restored a familiar pull beneath people’s feet.",
+                "priority": 2,
+                "image_description": "People stand upright inside a city gravity-control chamber while fragments float outside",
+                "holder": {
+                  "x": 632.929,
+                  "y": 0,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p03-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p03-panel03",
+                "caption": "Home, above the clouds.",
+                "narration": "Streets filled again. Workshops opened. Somewhere below every city, Magneton kept the engines turning.",
+                "priority": 5,
+                "image_description": "A market street powered by green conduits beneath the floating city’s towers",
+                "holder": {
+                  "x": 0,
+                  "y": 506.025,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p03-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "title": "The barons",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p04-panel01",
+                "caption": "The men who found the metal.",
+                "narration": "The first barons were miners. They dug out Magneton, built ships and carried it across the broken world.",
+                "priority": 3,
+                "image_description": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 302.738
+                },
+                "scene_id": "prologue-p04-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p04-panel02",
+                "caption": "Routes worth owning.",
+                "narration": "Trade made them wealthy. Control of the mines made them powerful.",
+                "priority": 5,
+                "image_description": "Ore is unloaded at a mining dock as a proprietor oversees trade",
+                "holder": {
+                  "x": 0,
+                  "y": 312.738,
+                  "width": 952,
+                  "height": 703.262
+                },
+                "scene_id": "prologue-p04-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p04-panel03",
+                "caption": "Eight duchies.",
+                "narration": "Cities gathered under their banners. The old world was gone, but people had found their way back to lords and subjects.",
+                "priority": 2,
+                "image_description": "Mining barons gather in a council chamber overlooking floating cities",
+                "holder": {
+                  "x": 0,
+                  "y": 1026,
+                  "width": 952,
+                  "height": 242
+                },
+                "scene_id": "prologue-p04-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "title": "A duke in name",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p05-panel01",
+                "caption": "Veymarch.",
+                "narration": "From above, Rovan’s city looked peaceful. He knew how little it would take to lose it.",
+                "priority": 3,
+                "image_description": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p05-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p05-panel02",
+                "caption": "The accounts.",
+                "narration": "Grievous: “The soldiers’ pay is overdue, Your Grace. The repair yards are still waiting too.”",
+                "priority": 2,
+                "image_description": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 632.929,
+                  "y": 0,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p05-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p05-panel03",
+                "caption": "What protection had cost him.",
+                "narration": "Rovan: “Their ships got through because ours stood in the way. Now they have full vaults, and I have men waiting for their pay.”",
+                "priority": 5,
+                "image_description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 506.025,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p05-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "title": "The Duke’s Due",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p06-panel01",
+                "caption": "An Auric Reach Caravan.",
+                "narration": "The sailors stopped where they stood. Across the deck, green light gathered in the soldiers’ Tesla guns.",
+                "priority": 3,
+                "image_description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 302.738
+                },
+                "scene_id": "prologue-p06-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p06-panel02",
+                "caption": "A debt comes due.",
+                "narration": "Rovan: “You sailed under our protection. My soldiers are still waiting to be paid. Until that debt is settled, this ship is mine.”",
+                "priority": 5,
+                "image_description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 312.738,
+                  "width": 952,
+                  "height": 703.262
+                },
+                "scene_id": "prologue-p06-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p06-panel03",
+                "caption": "The answer.",
+                "narration": "His soldiers cheered. The sailors said nothing. Grievous watched both sides of the deck.",
+                "priority": 2,
+                "image_description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 1026,
+                  "width": 952,
+                  "height": 242
+                },
+                "scene_id": "prologue-p06-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "title": "His Own Future",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p07-panel01",
+                "caption": "His own future.",
+                "narration": "Rovan: “I’ll define my own future. Set a course for Auric Reach. I’m done waiting for what we’re owed.”",
+                "priority": 5,
+                "image_description": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p07-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p07-panel02",
+                "caption": "Pay. Equipment. Recruits.",
+                "narration": "The seized cargo gave Rovan something he had been running out of: time. His veterans put it to work on the drill ground.",
+                "priority": 2,
+                "image_description": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 771.975,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p07-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p07-panel03",
+                "caption": "One capital ship.",
+                "narration": "The Bastion led them out. Beside it sailed the seized Caravan, still a merchant vessel, now carrying Rovan’s supplies.",
+                "priority": 3,
+                "image_description": "A single Bastion capital ship departs with the seized merchant Caravan nearby",
+                "holder": {
+                  "x": 329.071,
+                  "y": 771.975,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p07-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "title": "The First War",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p08-panel01",
+                "caption": "They had fought pirates before.",
+                "narration": "An army was different. Since the Fracture, no duchy had faced an organised invasion from another.",
+                "priority": 3,
+                "image_description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p08-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p08-panel02",
+                "caption": "The harbour.",
+                "narration": "Rovan’s veterans moved before the defenders could settle into their positions. One dock after another changed hands.",
+                "priority": 2,
+                "image_description": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 632.929,
+                  "y": 0,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p08-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p08-panel03",
+                "caption": "The first city.",
+                "narration": "It fell faster than Rovan had expected. Training and surprise had won him a harbour, ships and a foothold in Auric Reach.",
+                "priority": 5,
+                "image_description": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson",
+                "holder": {
+                  "x": 0,
+                  "y": 506.025,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p08-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "title": "Meet the Silver Guard",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p09-panel01",
+                "caption": "In the workshop.",
+                "narration": "Rovan worked the stolen silver himself. When he finished, there were five sealed suits, five weapon sets, and no metal left for a sixth.",
+                "priority": 3,
+                "image_description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 378.573
+                },
+                "scene_id": "prologue-p09-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p09-panel02",
+                "caption": "The Silver Guard.",
+                "narration": "A lance. A broadsword. Twin blades. A hammer. A scythe. The five captains wore Veymarch’s broken shield over their silver. They were still his soldiers; now they could cross a battlefield as no soldiers ever had.",
+                "priority": 5,
+                "image_description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 0,
+                  "y": 388.573,
+                  "width": 952,
+                  "height": 879.427
+                },
+                "scene_id": "prologue-p09-panel02",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "title": "Into the Town",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p10-panel01",
+                "caption": "Another town ahead.",
+                "narration": "The gangway struck the dock. Boots hammered across it, and the first squad ran for the gate.",
+                "priority": 3,
+                "image_description": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 302.738
+                },
+                "scene_id": "prologue-p10-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p10-panel02",
+                "caption": "Through the arch.",
+                "narration": "“Keep moving! Cover the stairs!”\nTesla fire snapped against the stone as the veterans pulled the rest of the squad through.",
+                "priority": 5,
+                "image_description": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs.",
+                "holder": {
+                  "x": 0,
+                  "y": 312.738,
+                  "width": 952,
+                  "height": 703.262
+                },
+                "scene_id": "prologue-p10-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p10-panel03",
+                "caption": "Uphill.",
+                "narration": "At the fountain, the squads split. Beyond the next bend, the town guard was waiting behind a barricade.",
+                "priority": 2,
+                "image_description": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade.",
+                "holder": {
+                  "x": 0,
+                  "y": 1026,
+                  "width": 952,
+                  "height": 242
+                },
+                "scene_id": "prologue-p10-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 11,
+            "title": "The Five Take the City",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p11-panel01",
+                "caption": "The lance fired first.",
+                "narration": "Magnetic lines tightened around its tip. Then the gathered force struck the guard’s position like a cannon shot.",
+                "priority": 3,
+                "image_description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 242
+                },
+                "scene_id": "prologue-p11-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p11-panel02",
+                "caption": "Steel gave way.",
+                "narration": "The broadsword’s field swelled beyond its blade. One swing opened the ship’s hull, and Rovan’s soldiers rushed the breach.",
+                "priority": 5,
+                "image_description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 0,
+                  "y": 252,
+                  "width": 662,
+                  "height": 524.046
+                },
+                "scene_id": "prologue-p11-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p11-panel03",
+                "caption": "Above the streets.",
+                "narration": "The twin-blade captain climbed on the magnetic wind, turned in the air, and swept down over the guards.",
+                "priority": 2,
+                "image_description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 672,
+                  "y": 252,
+                  "width": 280,
+                  "height": 524.046
+                },
+                "scene_id": "prologue-p11-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p11-panel04",
+                "caption": "Behind the hammer.",
+                "narration": "The hammer hit the paving. A field rose around the advancing troops, and the guards’ Tesla fire broke against it.",
+                "priority": 3,
+                "image_description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 0,
+                  "y": 786.046,
+                  "width": 361.267,
+                  "height": 481.954
+                },
+                "scene_id": "prologue-p11-panel04",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 5,
+                "asset_id": "prologue-p11-panel05",
+                "caption": "The last leap.",
+                "narration": "Two points of magnetic energy flared. The scythe captain stepped between them and stood on the command terrace. Below, the guards began laying down their guns. The town was Rovan’s.",
+                "priority": 4,
+                "image_description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour.",
+                "holder": {
+                  "x": 371.267,
+                  "y": 786.046,
+                  "width": 580.733,
+                  "height": 481.954
+                },
+                "scene_id": "prologue-p11-panel05",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 12,
+            "title": "The next move",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p12-panel01",
+                "caption": "After the fighting.",
+                "narration": "Grievous: “We’ve taken the town. Holding it will be another matter.”\nRovan: “Then get the repair yards working. Keep the recruits training. We start there.”",
+                "priority": 3,
+                "image_description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 622.929,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p12-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p12-panel02",
+                "caption": "In Auric Reach.",
+                "narration": "The ruler of Auric Reach: “Three capital ships. Send them after Rovan.”",
+                "priority": 2,
+                "image_description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner",
+                "holder": {
+                  "x": 632.929,
+                  "y": 0,
+                  "width": 319.071,
+                  "height": 496.025
+                },
+                "scene_id": "prologue-p12-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p12-panel03",
+                "caption": "Orders already given.",
+                "narration": "Three great hulls slipped their moorings. While Rovan planned his next move, the ships sent to stop him were already on their way.",
+                "priority": 5,
+                "image_description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan",
+                "holder": {
+                  "x": 0,
+                  "y": 506.025,
+                  "width": 952,
+                  "height": 761.975
+                },
+                "scene_id": "prologue-p12-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 13,
+            "title": "Three Bastions",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p13-panel01",
+                "caption": "A schooner at the quay.",
+                "narration": "Courier: “Your Grace—three Bastions. They’re coming for us.”",
+                "priority": 3,
+                "image_description": "A crimson-clad courier steps from a Needle schooner to warn Rovan.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 288.688
+                },
+                "scene_id": "prologue-p13-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p13-panel02",
+                "caption": "The council.",
+                "narration": "Grievous: “Three Bastions against our one.”\nRovan: “Then we don’t fight their way.”",
+                "priority": 5,
+                "image_description": "Rovan and General Grievous plan around a chart table with five sealed silver captains.",
+                "holder": {
+                  "x": 0,
+                  "y": 298.688,
+                  "width": 952,
+                  "height": 670.624
+                },
+                "scene_id": "prologue-p13-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p13-panel03",
+                "caption": "The decision.",
+                "narration": "Rovan: “We face them head-on. The five captains sail with me.”\nGrievous: “I’ll ready the ship.”",
+                "priority": 3,
+                "image_description": "Rovan orders a head-on meeting with the three approaching enemy Bastions.",
+                "holder": {
+                  "x": 0,
+                  "y": 979.312,
+                  "width": 952,
+                  "height": 288.688
+                },
+                "scene_id": "prologue-p13-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 14,
+            "title": "Fourteen Days",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p14-panel01",
+                "caption": "The first day.",
+                "narration": "Rovan: “Use what we took. Armour, engines—and bigger guns.”\nEngineer: “Fourteen days. Keep the docks supplied.”",
+                "priority": 4,
+                "image_description": "Rovan and his chief engineer plan the Argonaut’s refit amid captured supplies.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 629
+                },
+                "scene_id": "prologue-p14-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "argonaut-refit",
+                "caption": "Fourteen days.",
+                "narration": "In fourteen days, they rebuilt the Argonaut. The dockworkers would tell that story for years.",
+                "priority": 4,
+                "image_description": "The Argonaut emerges from a legendary fourteen-day refit with huge new cannons.",
+                "holder": {
+                  "x": 0,
+                  "y": 639,
+                  "width": 952,
+                  "height": 629
+                },
+                "scene_id": "prologue-p14-panel02",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 15,
+            "title": "The Shattered Plains",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p15-panel01",
+                "caption": "The Argonaut, refitted.",
+                "narration": "Onlooker: “One ship against three? He’s not coming back.”",
+                "priority": 3,
+                "image_description": "Civilians watch the refitted Argonaut depart, its wedge prow and crimson armour displaying Rovan’s investment.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 288.688
+                },
+                "scene_id": "prologue-p15-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p15-panel02",
+                "caption": "The Shattered Plains.",
+                "narration": "Huge rocks crowded the sky. Between them, magnetic currents dragged at every hull.",
+                "priority": 5,
+                "image_description": "The refitted Argonaut threads the Shattered Plains, with crimson hull armour and upgraded green magnetic machinery.",
+                "holder": {
+                  "x": 0,
+                  "y": 298.688,
+                  "width": 952,
+                  "height": 670.624
+                },
+                "scene_id": "prologue-p15-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p15-panel03",
+                "caption": "His choice.",
+                "narration": "Rovan: “We’ll face them here. They can’t hold formation between those rocks.”\nGrievous: “They’ll have to split up.”",
+                "priority": 3,
+                "image_description": "Rovan and Grievous plan to split the three enemy Bastions among separate rock channels.",
+                "holder": {
+                  "x": 0,
+                  "y": 979.312,
+                  "width": 952,
+                  "height": 288.688
+                },
+                "scene_id": "prologue-p15-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 16,
+            "title": "Admiral Joseph",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p16-panel01",
+                "caption": "The pursuit.",
+                "narration": "Three Bastions followed the Argonaut’s wake.",
+                "priority": 3,
+                "image_description": "Three Auric Reach Bastions pursue the Argonaut toward the Shattered Plains.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 288.688
+                },
+                "scene_id": "prologue-p16-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p16-panel02",
+                "caption": "Admiral Joseph.",
+                "narration": "Sailor: “Admiral, those fields will break our formation.”\nJoseph: “Beat Rovan and I’ll have a duchy of my own. Full speed.”",
+                "priority": 5,
+                "image_description": "Admiral Joseph dismisses his sailors’ warning, imagining his own duchy.",
+                "holder": {
+                  "x": 0,
+                  "y": 298.688,
+                  "width": 952,
+                  "height": 670.624
+                },
+                "scene_id": "prologue-p16-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p16-panel03",
+                "caption": "Into the plains.",
+                "narration": "The Argonaut slipped between the rocks. Joseph sent all three Bastions in after it.",
+                "priority": 3,
+                "image_description": "All three enemy Bastions follow the Argonaut into the Shattered Plains.",
+                "holder": {
+                  "x": 0,
+                  "y": 979.312,
+                  "width": 952,
+                  "height": 288.688
+                },
+                "scene_id": "prologue-p16-panel03",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 17,
+            "title": "Divide the Fleet",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p17-panel01",
+                "caption": "A different ship.",
+                "narration": "The new stabilisers held the Argonaut steady through the shifting currents.",
+                "priority": 3,
+                "image_description": "The upgraded Argonaut navigates the Shattered Plains smoothly.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 471,
+                  "height": 375
+                },
+                "scene_id": "prologue-p17-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p17-panel02",
+                "caption": "The formation breaks.",
+                "narration": "Josephine, Serenity and Serendipity drifted into separate channels. None could bring its guns to bear.",
+                "priority": 3,
+                "image_description": "The three enemy Bastions struggle and split into separate rock channels.",
+                "holder": {
+                  "x": 481,
+                  "y": 0,
+                  "width": 471,
+                  "height": 375
+                },
+                "scene_id": "prologue-p17-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p17-panel03",
+                "caption": "The Bulwark.",
+                "narration": "Rovan: “Hold the Argonaut.”\nThe Bulwark stayed aboard. The other four captains were already in position.",
+                "priority": 2,
+                "image_description": "The hammer captain stays aboard to protect the Argonaut.",
+                "holder": {
+                  "x": 0,
+                  "y": 385,
+                  "width": 952,
+                  "height": 350
+                },
+                "scene_id": "prologue-p17-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p17-panel04",
+                "caption": "The Josephine.",
+                "narration": "Rovan turned on the largest Bastion. His cannon fire smashed the rocks beside it. He wanted every eye on the Argonaut.",
+                "priority": 5,
+                "image_description": "The Argonaut turns head-on toward Josephine and shatters nearby rocks with its huge cannons.",
+                "holder": {
+                  "x": 0,
+                  "y": 745,
+                  "width": 952,
+                  "height": 523
+                },
+                "scene_id": "prologue-p17-panel04",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 18,
+            "title": "Two Boarding Parties",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p18-panel01",
+                "caption": "The Serenity.",
+                "narration": "The Stormlance and the Windblade waited above the channel. The commandos stayed low.",
+                "priority": 2,
+                "image_description": "Two silver captains and commandos wait on a floating rock above Serenity.",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 245
+                },
+                "scene_id": "prologue-p18-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p18-panel02",
+                "caption": "The Stormlance.",
+                "narration": "One shot tore through Serenity’s engine mount. Its field rings faltered.",
+                "priority": 5,
+                "image_description": "The Stormlance disables Serenity with a concentrated magnetic lance shot.",
+                "holder": {
+                  "x": 0,
+                  "y": 255,
+                  "width": 582,
+                  "height": 502
+                },
+                "scene_id": "prologue-p18-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p18-panel03",
+                "caption": "The Windblade.",
+                "narration": "The Windblade swept onto the deck. Commandos followed on their boarding lines.",
+                "priority": 3,
+                "image_description": "The twin-sword captain flies onto Serenity with commandos boarding behind.",
+                "holder": {
+                  "x": 592,
+                  "y": 255,
+                  "width": 360,
+                  "height": 502
+                },
+                "scene_id": "prologue-p18-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p18-panel04",
+                "caption": "The Riftwalker.",
+                "narration": "The Riftwalker crossed between two field points. The Hullbreaker jumped for the engines.",
+                "priority": 4,
+                "image_description": "The scythe and broadsword captains attack Serendipity from two magnetic points.",
+                "holder": {
+                  "x": 0,
+                  "y": 767,
+                  "width": 431,
+                  "height": 501
+                },
+                "scene_id": "prologue-p18-panel04",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 5,
+                "asset_id": "prologue-p18-panel05",
+                "caption": "The Hullbreaker.",
+                "narration": "An engine ring split beneath the blade. Two Bastions were crippled. The Josephine remained.",
+                "priority": 5,
+                "image_description": "The broadsword captain disables Serendipity’s engines.",
+                "holder": {
+                  "x": 441,
+                  "y": 767,
+                  "width": 511,
+                  "height": 501
+                },
+                "scene_id": "prologue-p18-panel05",
+                "lettering_mode": "baked"
+              }
+            ]
+          }
+        ],
+        "json_file": "chapters/prologue.json"
+      }
+    ],
+    "asset_catalogue": "assets.html",
+    "repository_asset_catalogue": "ASSETS.md",
+    "site_version": "holder-art-1",
+    "page_canvas": {
+      "width": 1000,
+      "height": 1400,
+      "units": "logical pixels",
+      "layout": "Priority-weighted ordered comic rows authored before generation, maximum five panels. Current holders are fixed; artwork and lettering are generated for each aperture. Image loads never change panel geometry."
+    },
+    "panel_priority": {
+      "minimum": 1,
+      "maximum": 5,
+      "default": 3,
+      "meaning": "Higher values request larger panels. Reading order remains the JSON order."
+    },
+    "max_panels_per_page": 5,
+    "image_pipeline": {
+      "scene_file": "scenes/prologue.json",
+      "objects_file": "objects.json",
+      "request_template": "templates/image-request.json",
+      "layout_lock": "generation/layout-lock.json",
+      "lettering": "Generated directly in artwork; chapter transcript retains exact source text.",
+      "layout": "Fixed holders authored before generation; artwork composed for their apertures."
+    }
+  },
+  "terms": {
+    "Magneton": "Family of metals formed from nuclear materials after the Fracture.",
+    "Duchy": "Grouping of floating cities within the new feudal order.",
+    "Baron": "A ruler whose power grew from Magneton extraction, ships and trade.",
+    "Capital ship": "The rarest and most expensive military airship class.",
+    "Magnetic motor": "An engine using opposing polarities in city and transport systems.",
+    "Shattered Plains": "Rock-choked sky with strong magnetic fields; difficult flying terrain chosen by Rovan to split the enemy Bastions."
+  },
+  "open_questions": [
+    "Exact dates and elapsed generations",
+    "Specific evolved human attributes",
+    "Exact magnetic route rules, engine limits and fictional energy mechanics",
+    "The formal powers and relationships of dukes and barons",
+    "The other six duchies’ rulers, economies and alliances",
+    "The captured cities’ names and their barons’ names",
+    "Honour guard personal names and individual histories; weapon titles are now established",
+    "Exact ship dimensions, crews, cargo tonnages and armaments beyond the Argonaut’s established enlarged heavy cannons",
+    "Other duchies’ responses beyond Auric Reach’s three dispatched capital ships",
+    "Any further Type C supply or technical crafting details"
+  ],
+  "assets": [
+    {
+      "id": "argonaut-refit",
+      "file": "assets/argonaut-refit.png",
+      "title": "The Argonaut refit",
+      "category": "comic",
+      "dimensions": {
+        "width": 1543,
+        "height": 1019
+      },
+      "byte_size": 3769778,
+      "sha256": "13f8aaaa315cfccfc30b08dad82a5be2b18b24f8093987da7a460fd0730f9545",
+      "status": "current",
+      "origin": "Generated illustration of Rovan investing captured wealth in an industrial Type A/Type B refit.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 14,
+          "panel": 2,
+          "description": "The Argonaut emerges from a legendary fourteen-day refit with huge new cannons."
+        }
+      ]
+    },
+    {
+      "id": "banner-auric-reach",
+      "file": "assets/banner-auric-reach.png",
+      "title": "Auric Reach banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 1988431,
+      "sha256": "1720ac5fbd73091d0958da4e3b7028cee707f7ace97b3599d545fe850fe8e155",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-emberfall",
+      "file": "assets/banner-emberfall.png",
+      "title": "Emberfall banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 2054639,
+      "sha256": "a3c07ee15c9919d1bc45819bd79eaed2186dd494c2410cf098f5a43b17c7f5ad",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-glassmere",
+      "file": "assets/banner-glassmere.png",
+      "title": "Glassmere banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 1879271,
+      "sha256": "d2baeaf6472880b93bd61b66e7f46c377a73d84bb5947792df563b1306e7919b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-ironveil",
+      "file": "assets/banner-ironveil.png",
+      "title": "Ironveil banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 2240973,
+      "sha256": "a7eb764a17b18535904eb26ec04ffb36c2b3ce5deb9c08ca2e5d4149a199f7d4",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-pale-meridian",
+      "file": "assets/banner-pale-meridian.png",
+      "title": "Pale Meridian banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 2230434,
+      "sha256": "7a971f23908e0e861a557803d2cd6a54a133dbbb6ef049b5e3710f928677c0da",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-stormholt",
+      "file": "assets/banner-stormholt.png",
+      "title": "Stormholt banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 2133068,
+      "sha256": "a4f6c28ce85e39155753c23cb1729998bd139febc2362b6eccd0221fd0c97210",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-verdant-crown",
+      "file": "assets/banner-verdant-crown.png",
+      "title": "Verdant Crown banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 2209597,
+      "sha256": "e9a0784dbb380b9ecfcb2b0483a0a3168fbcc482285bba24a77862a4c012a81d",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "banner-veymarch",
+      "file": "assets/banner-veymarch.png",
+      "title": "Veymarch banner",
+      "category": "banners",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "byte_size": 2215697,
+      "sha256": "754e1e3e1f33bf1c141ba6c5e7dc0a4fe4818754f67a37ac0ec3edb1de24e6cf",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "capital-bastion",
+      "file": "assets/capital-bastion.png",
+      "title": "Bastion",
+      "category": "ships",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3381673,
+      "sha256": "7641f0eb52883d70c0ec1e7c3d0b3a68605624fdf7e697d6bf5ac1d5473ffb14",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "magneton-types",
+      "file": "assets/magneton-types.png",
+      "title": "Magneton metal specimens",
+      "category": "world",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3156899,
+      "sha256": "b5526d9caed49b353afccef52a4ff34c998b94883f400a1d3dcddb6a4e07190c",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "mining-mole",
+      "file": "assets/mining-mole.png",
+      "title": "Mole",
+      "category": "ships",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3310506,
+      "sha256": "6079ec2542109ca1cd24dd12c567296b6aee8ce57fd71a0b128900fcca8d416d",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "prologue-p01-panel01",
+      "file": "assets/panels/prologue-p01-panel01.png",
+      "title": "Prologue P01 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 3216884,
+      "sha256": "19e85078cf56803820f6cebe0669be4608db65de2af6c51f7a4113d578275e4f",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 1,
+          "panel": 1,
+          "description": "Fractured landmasses suspended in a glowing magnetic field"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p01-panel02",
+      "file": "assets/panels/prologue-p01-panel02.png",
+      "title": "Prologue P01 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "byte_size": 3491962,
+      "sha256": "bc672dd4c19a7207eb166142fbe097784d7caadfc923d38743616f9a0a3687b1",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 1,
+          "panel": 2,
+          "description": "Magnetic currents arc between the exposed undersides of floating islands"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p01-panel03",
+      "file": "assets/panels/prologue-p01-panel03.png",
+      "title": "Prologue P01 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1008,
+        "height": 1560
+      },
+      "byte_size": 3027902,
+      "sha256": "65a599f9ee13001e9a63711cd9c0cb6b1d2f430e0ea4beea7efc10d0422ad651",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 1,
+          "panel": 3,
+          "description": "A small human silhouette standing on a floating island"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p02-panel01",
+      "file": "assets/panels/prologue-p02-panel01.png",
+      "title": "Prologue P02 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1007,
+        "height": 1561
+      },
+      "byte_size": 3202173,
+      "sha256": "0256cfd5b2ede2d4c8c0db820d7e86e08685876fde70daeaa446aad7f80118a6",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 2,
+          "panel": 1,
+          "description": "Three generations of survivors study a magnetic sensing instrument in their settlement"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p02-panel02",
+      "file": "assets/panels/prologue-p02-panel02.png",
+      "title": "Prologue P02 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "byte_size": 2965696,
+      "sha256": "dc86a5fe02415149e16eb730d3eee2d53fe867577bb7e227df4a3699c8d1392c",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 2,
+          "panel": 2,
+          "description": "Luminous Magneton ore embedded in fractured rock"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p02-panel03",
+      "file": "assets/panels/prologue-p02-panel03.png",
+      "title": "Prologue P02 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 3216889,
+      "sha256": "666e80bc08cc7b6b86e1f6347aabcc14528b18b4af956a4e2ea780a9bb93a2f0",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 2,
+          "panel": 3,
+          "description": "Two glowing green Type B Magneton cores of opposite polarity inside a precision motor"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p03-panel01",
+      "file": "assets/panels/prologue-p03-panel01.png",
+      "title": "Prologue P03 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "byte_size": 3332142,
+      "sha256": "94d71f1bab4b4420b9b2accf2ada3997689c0450ae6947a787b4afbb72275685",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 3,
+          "panel": 1,
+          "description": "A floating city built above a glowing Magneton engine"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p03-panel02",
+      "file": "assets/panels/prologue-p03-panel02.png",
+      "title": "Prologue P03 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1008,
+        "height": 1561
+      },
+      "byte_size": 3348918,
+      "sha256": "8339893c2b61534389b629e908909167de8580f7d2e8d1989c9b51708ff83ddb",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 3,
+          "panel": 2,
+          "description": "People stand upright inside a city gravity-control chamber while fragments float outside"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p03-panel03",
+      "file": "assets/panels/prologue-p03-panel03.png",
+      "title": "Prologue P03 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 3538457,
+      "sha256": "2a1da7993586ed6cd6a35747dc8f60c9e9e6fa671907f3cdf1013a5bd5cc7121",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 3,
+          "panel": 3,
+          "description": "A market street powered by green conduits beneath the floating city’s towers"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p04-panel01",
+      "file": "assets/panels/prologue-p04-panel01.png",
+      "title": "Mole",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3519757,
+      "sha256": "f1ec3d1264273d7fc8c6b05392b08a6749aa239c6c60f5c1f244746c810a2d4b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 4,
+          "panel": 1,
+          "description": "A squat Mole mining ship with an ore cassette, drill, and magnetic engines"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p04-panel02",
+      "file": "assets/panels/prologue-p04-panel02.png",
+      "title": "Prologue P04 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1454,
+        "height": 1082
+      },
+      "byte_size": 3496787,
+      "sha256": "a7b0f095780b6475abc90a0cabd1ba0e1a6e28af146cbb66a89494f014c92254",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 4,
+          "panel": 2,
+          "description": "Ore is unloaded at a mining dock as a proprietor oversees trade"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p04-panel03",
+      "file": "assets/panels/prologue-p04-panel03.png",
+      "title": "Prologue P04 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3115369,
+      "sha256": "c19e5bb365405d27d030abcc40a0a6f7e1ad3e5eef0d383fa127f934aa0d1d45",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 4,
+          "panel": 3,
+          "description": "Mining barons gather in a council chamber overlooking floating cities"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p05-panel01",
+      "file": "assets/panels/prologue-p05-panel01.png",
+      "title": "Prologue P05 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "byte_size": 3038301,
+      "sha256": "4110094fae4a134c9d107d0afbe33e6b403a79c1d62bc9fb8aea3db337c65276",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 5,
+          "panel": 1,
+          "description": "Rovan and his general look over a small island city with battered ships. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p05-panel02",
+      "file": "assets/panels/prologue-p05-panel02.png",
+      "title": "Prologue P05 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1008,
+        "height": 1561
+      },
+      "byte_size": 2864545,
+      "sha256": "f1ad68479f892a7df95233cee7619d6ed75e941b5bb9dcf4998172e00c763b30",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 5,
+          "panel": 2,
+          "description": "General Grievous presents the fleet accounts and an almost empty pay chest. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p05-panel03",
+      "file": "assets/panels/prologue-p05-panel03.png",
+      "title": "Prologue P05 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 2926900,
+      "sha256": "f5a9d460a6ee32ef5d9325327e726f1964489992f68f1c526998ff89e7e1c726",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 5,
+          "panel": 3,
+          "description": "Duke Rovan Vey turns toward a wealthy Caravan with a decision taking shape. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p06-panel01",
+      "file": "assets/panels/prologue-p06-panel01.png",
+      "title": "Prologue P06 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3255554,
+      "sha256": "02cede6337b8e9a8b8690b956702ba13c0544357e6fde7505fe42e836562e67a",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 6,
+          "panel": 1,
+          "description": "Bronze-armoured soldiers board a twin-hull Caravan and aim Tesla guns at unarmed sailors. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p06-panel02",
+      "file": "assets/panels/prologue-p06-panel02.png",
+      "title": "Prologue P06 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1454,
+        "height": 1082
+      },
+      "byte_size": 2756179,
+      "sha256": "35c77166a7381d3a4be28f60c2524f58d21be56c5bc0c0bb977b5b9982c80130",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 6,
+          "panel": 2,
+          "description": "Rovan announces the seizure to the merchant captain while his soldiers guard the sailors. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p06-panel03",
+      "file": "assets/panels/prologue-p06-panel03.png",
+      "title": "Prologue P06 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3100884,
+      "sha256": "67578d4176294578f46fcc1eea6073cd87241e77a625067ffeed32ba8a19e6f1",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 6,
+          "panel": 3,
+          "description": "Soldiers cheer with their Tesla guns raised safely while the civilian crew stands silent. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p07-panel01",
+      "file": "assets/panels/prologue-p07-panel01.png",
+      "title": "Prologue P07 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 3002567,
+      "sha256": "3176d05106083385b68b5a1d8803d2a6d4050f4a992a980df793dea0d0d7c0d6",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 7,
+          "panel": 1,
+          "description": "Rovan declares his own future at the seized Caravan’s chart table. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p07-panel02",
+      "file": "assets/panels/prologue-p07-panel02.png",
+      "title": "Prologue P07 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1008,
+        "height": 1560
+      },
+      "byte_size": 2836486,
+      "sha256": "3e59fa5d107402531d9c8e7ac3a9dfcd2ea6ef61c648b3fbce60162f8862a955",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 7,
+          "panel": 2,
+          "description": "Bronze-armoured veterans train new recruits equipped from seized resources. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p07-panel03",
+      "file": "assets/panels/prologue-p07-panel03.png",
+      "title": "Prologue P07 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "byte_size": 3456895,
+      "sha256": "827391becb737fbdbf01c1cbff741c8ed4c2e6030b79ffec44acc665fb98d509",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 7,
+          "panel": 3,
+          "description": "A single Bastion capital ship departs with the seized merchant Caravan nearby"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p08-panel01",
+      "file": "assets/panels/prologue-p08-panel01.png",
+      "title": "Prologue P08 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "byte_size": 2936629,
+      "sha256": "5732162a3e973e4d15225837c7de4c65bf8b77691475bcc850f298518756928e",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 8,
+          "panel": 1,
+          "description": "Rovan’s trained bronze-armoured troops surprise an Auric Reach baron’s docks. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p08-panel02",
+      "file": "assets/panels/prologue-p08-panel02.png",
+      "title": "Prologue P08 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1008,
+        "height": 1560
+      },
+      "byte_size": 3264540,
+      "sha256": "be0975aa044c5345a82c790cdd9abeb3cedc25d6e7c26850b552ae53a82f378d",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 8,
+          "panel": 2,
+          "description": "Veteran troops secure captured merchant airships at the baron’s harbour. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p08-panel03",
+      "file": "assets/panels/prologue-p08-panel03.png",
+      "title": "Prologue P08 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 3115136,
+      "sha256": "a2e927ce4bfb416aa8831f631d93237749bef66d041c71d28b97873194964633",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 8,
+          "panel": 3,
+          "description": "Rovan receives the surrender of the captured city alongside disciplined troops. Veymarch military cloth base layers are crimson"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p09-panel01",
+      "file": "assets/panels/prologue-p09-panel01.png",
+      "title": "Prologue P09 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1994,
+        "height": 789
+      },
+      "byte_size": 3049347,
+      "sha256": "82fac74f870a13fd6768279219c4ce2c3bdf9b625501a823601c612f4df80352",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 1,
+          "description": "Rovan privately crafts practical, workshop-made seamless silver Type C armour and the captains’ five different weapon loadouts. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p09-panel02",
+      "file": "assets/panels/prologue-p09-panel02.png",
+      "title": "Prologue P09 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1304,
+        "height": 1206
+      },
+      "byte_size": 3428574,
+      "sha256": "574c46c4e04b6ad1ea532b98ce1d707e27af5350ec8daace87367ed2a7bab846",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 9,
+          "panel": 2,
+          "description": "Exactly five practical, man-made silver-armoured captains, with distinct helmet shapes and builds, carrying a lance, broadsword, twin swords, war hammer and scythe. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p10-panel01",
+      "file": "assets/panels/prologue-p10-panel01.png",
+      "title": "Prologue P10 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3493189,
+      "sha256": "e50b9ae5ab08d9e3e0ec631337b1a4dc5d3cc5a5b799e12b28ad86a34042c87b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 1,
+          "description": "Bronze-armoured Veymarch troops in crimson run across an airship gangway onto the town docks."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p10-panel02",
+      "file": "assets/panels/prologue-p10-panel02.png",
+      "title": "Prologue P10 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1454,
+        "height": 1082
+      },
+      "byte_size": 3505838,
+      "sha256": "060bcd9b740e5b6721032ff71901d7feea539079d85fe5f0e34cc8625fa3fb93",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 2,
+          "description": "Veymarch troops charge through an arched gate while Auric Reach’s navy-and-gold town guards defend the stairs."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p10-panel03",
+      "file": "assets/panels/prologue-p10-panel03.png",
+      "title": "Prologue P10 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 2167,
+        "height": 726
+      },
+      "byte_size": 3373109,
+      "sha256": "c49eff4ef887f96b20071bf02965cf5d7c525cdb1b1dd97dedc9123c5a7a2e2f",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 10,
+          "panel": 3,
+          "description": "An overhead view of bronze-and-crimson troops running uphill through town toward a guarded barricade."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p11-panel01",
+      "file": "assets/panels/prologue-p11-panel01.png",
+      "title": "Prologue P11 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2169,
+        "height": 725
+      },
+      "byte_size": 3356095,
+      "sha256": "91355ec0eb4e4f3c22662745cad784792662f8879fda3e3cf4c2235746f83fe9",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 1,
+          "description": "A silver captain fires a magnetic condenser lance at a fortified town-guard emplacement as Rovan’s one capital ship and smaller vessels attack the floating city. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p11-panel02",
+      "file": "assets/panels/prologue-p11-panel02.png",
+      "title": "Prologue P11 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "byte_size": 3242711,
+      "sha256": "2e5db5ab182e1159ff18f66c8eba02e6140552ae0eeac8e6e7a3049ac8f84cf8",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 2,
+          "description": "A seamless silver knight enlarges an machined broadsword with condensed magnetic fields and cuts a defending ship’s bronze hull as infantry fight for the docks. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p11-panel03",
+      "file": "assets/panels/prologue-p11-panel03.png",
+      "title": "Prologue P11 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 917,
+        "height": 1716
+      },
+      "byte_size": 3393005,
+      "sha256": "3073e3645788d67c5494cbf0fe5710bf47c093ce8918fae2948b8777ea3a1ead",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 3,
+          "description": "A silver captain flies above the town guard with one curved wind sword in each hand, trailing magnetic currents over the occupied streets. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p11-panel04",
+      "file": "assets/panels/prologue-p11-panel04.png",
+      "title": "Prologue P11 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1088,
+        "height": 1445
+      },
+      "byte_size": 3353013,
+      "sha256": "3aa357148fee9271bbee87ca06c04979922c44a033272b3e3a31e2f68159b384",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 4,
+          "description": "A seamless silver captain strikes the street with a war hammer, raising a magnetic dome that shields crimson-clad troops from the town guard’s green Tesla fire. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p11-panel05",
+      "file": "assets/panels/prologue-p11-panel05.png",
+      "title": "Prologue P11 Panel05",
+      "category": "comic",
+      "dimensions": {
+        "width": 1378,
+        "height": 1142
+      },
+      "byte_size": 3280777,
+      "sha256": "767b3801cad59af07c3aed6320fbb5b2eb369ae3a4e31c893171f24141d1d548",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 11,
+          "panel": 5,
+          "description": "A silver scythe captain jumps between two concentrated magnetic nodes into the command terrace while the town guard surrenders and Veymarch soldiers take control. Restrained brass edging and a crimson Veymarch broken-shield-and-star badge mark the silver armour."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p12-panel01",
+      "file": "assets/panels/prologue-p12-panel01.png",
+      "title": "Prologue P12 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "byte_size": 2908096,
+      "sha256": "0a81fba53eb3aa23d10380afc7cbb97e191f094a36c39bb7dd69f7ef81a7d1c9",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 12,
+          "panel": 1,
+          "description": "Rovan and General Grievous plan their next steps, with crimson-clad Veymarch soldiers at the captured city’s command room"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p12-panel02",
+      "file": "assets/panels/prologue-p12-panel02.png",
+      "title": "Prologue P12 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1008,
+        "height": 1561
+      },
+      "byte_size": 3242703,
+      "sha256": "1a2042c28c1b26981b81520c038d7212c5e61774664c777d2c9279d5d4f12f8e",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 12,
+          "panel": 2,
+          "description": "The unnamed ruler of Auric Reach orders three capital ships toward Rovan beneath the gold banner"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p12-panel03",
+      "file": "assets/panels/prologue-p12-panel03.png",
+      "title": "Prologue P12 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1397,
+        "height": 1126
+      },
+      "byte_size": 2995217,
+      "sha256": "e70a630eb34776d444c3987c1ad3719a63b8d83fd59cf4b8721830b641e283d9",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 12,
+          "panel": 3,
+          "description": "Exactly three Auric Reach capital ships depart together under gold and navy standards, heading toward Rovan"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p13-panel01",
+      "file": "assets/panels/prologue-p13-panel01.png",
+      "title": "Prologue P13 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3332093,
+      "sha256": "ecb0c5f9e66358e950027f936c1e381a8538148b3c991b23af82a0fd7e5611cf",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 13,
+          "panel": 1,
+          "description": "A crimson-clad courier steps from a Needle schooner to warn Rovan."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p13-panel02",
+      "file": "assets/panels/prologue-p13-panel02.png",
+      "title": "Prologue P13 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1489,
+        "height": 1056
+      },
+      "byte_size": 3015317,
+      "sha256": "f762740457e03c1484ea3bf5d7db8d9200685a46f93ab10902230e1151f8f346",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 13,
+          "panel": 2,
+          "description": "Rovan and General Grievous plan around a chart table with five sealed silver captains."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p13-panel03",
+      "file": "assets/panels/prologue-p13-panel03.png",
+      "title": "Prologue P13 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 2171,
+        "height": 724
+      },
+      "byte_size": 2848381,
+      "sha256": "fcb4f2d22a63042b843f6784623c5508c04d8c4470fd6456199c8d0ac2109263",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 13,
+          "panel": 3,
+          "description": "Rovan orders a head-on meeting with the three approaching enemy Bastions."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p14-panel01",
+      "file": "assets/panels/prologue-p14-panel01.png",
+      "title": "Prologue P14 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1544,
+        "height": 1018
+      },
+      "byte_size": 3497259,
+      "sha256": "43bc6d59ae4b77b823489d44a5493a7c327ec6a642bec467716f2bf83ddd19f8",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 14,
+          "panel": 1,
+          "description": "Rovan and his chief engineer plan the Argonaut’s refit amid captured supplies."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p15-panel01",
+      "file": "assets/panels/prologue-p15-panel01.png",
+      "title": "Prologue P15 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2169,
+        "height": 725
+      },
+      "byte_size": 3063281,
+      "sha256": "9e340d08b3a8dc05b61d253baff908bd231b7520bf93de1610aaa52d276a1d4e",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 15,
+          "panel": 1,
+          "description": "Civilians watch the refitted Argonaut depart, its wedge prow and crimson armour displaying Rovan’s investment."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p15-panel02",
+      "file": "assets/panels/prologue-p15-panel02.png",
+      "title": "Prologue P15 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1487,
+        "height": 1058
+      },
+      "byte_size": 3972976,
+      "sha256": "aa53714d48622594632db7f84c01fee590f0a5ca80d07943d7459ff0d8bf923c",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 15,
+          "panel": 2,
+          "description": "The refitted Argonaut threads the Shattered Plains, with crimson hull armour and upgraded green magnetic machinery."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p15-panel03",
+      "file": "assets/panels/prologue-p15-panel03.png",
+      "title": "Prologue P15 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 2955710,
+      "sha256": "286656a02ad3cd7b110dfd04da43872a5607fdeae98057d59084783f6a3c1132",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 15,
+          "panel": 3,
+          "description": "Rovan and Grievous plan to split the three enemy Bastions among separate rock channels."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p16-panel01",
+      "file": "assets/panels/prologue-p16-panel01.png",
+      "title": "Prologue P16 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3145853,
+      "sha256": "7fa56a856a0b195d174a2c31d084edbd29f37e248887ee7e4aeb8eb6787efefc",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 16,
+          "panel": 1,
+          "description": "Three Auric Reach Bastions pursue the Argonaut toward the Shattered Plains."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p16-panel02",
+      "file": "assets/panels/prologue-p16-panel02.png",
+      "title": "Prologue P16 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1487,
+        "height": 1058
+      },
+      "byte_size": 2853755,
+      "sha256": "b974c10d948b482bdc41a8bbf43d5666c9d0c7629e18048f77904e83565f24b5",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 16,
+          "panel": 2,
+          "description": "Admiral Joseph dismisses his sailors’ warning, imagining his own duchy."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p16-panel03",
+      "file": "assets/panels/prologue-p16-panel03.png",
+      "title": "Prologue P16 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3507546,
+      "sha256": "8e6fa93a5846c3efabb8124e16ffced3fed767cb953c12e3a3484ac427bd2c37",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 16,
+          "panel": 3,
+          "description": "All three enemy Bastions follow the Argonaut into the Shattered Plains."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p17-panel01",
+      "file": "assets/panels/prologue-p17-panel01.png",
+      "title": "Prologue P17 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1410,
+        "height": 1116
+      },
+      "byte_size": 3641600,
+      "sha256": "63993385d83f3ba0d8c08e63d9a1c0cd7a10a4a126ca6072542988655922a07b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 17,
+          "panel": 1,
+          "description": "The upgraded Argonaut navigates the Shattered Plains smoothly."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p17-panel02",
+      "file": "assets/panels/prologue-p17-panel02.png",
+      "title": "Prologue P17 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1409,
+        "height": 1116
+      },
+      "byte_size": 3601205,
+      "sha256": "5571146b888ccc00b8596764856b422bfcd6ac6d37550e0cd62fbe777ffdd809",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 17,
+          "panel": 2,
+          "description": "The three enemy Bastions struggle and split into separate rock channels."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p17-panel03",
+      "file": "assets/panels/prologue-p17-panel03.png",
+      "title": "Prologue P17 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 2066,
+        "height": 761
+      },
+      "byte_size": 3136506,
+      "sha256": "f629a60fbf4b63a405e6da2faaee353ec705c51c07a9914be172fc34bd67ae0e",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 17,
+          "panel": 3,
+          "description": "The hammer captain stays aboard to protect the Argonaut."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p17-panel04",
+      "file": "assets/panels/prologue-p17-panel04.png",
+      "title": "Prologue P17 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1694,
+        "height": 928
+      },
+      "byte_size": 3511405,
+      "sha256": "65fbda801d7e54bb2e3005ac189f437ae010165d91879b9ca7692cefa90fc11d",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 17,
+          "panel": 4,
+          "description": "The Argonaut turns head-on toward Josephine and shatters nearby rocks with its huge cannons."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p18-panel01",
+      "file": "assets/panels/prologue-p18-panel01.png",
+      "title": "Prologue P18 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3251290,
+      "sha256": "e78eadefd1695cd7d42ef55067fa2ae1e1295e6695466b3ccd021fb717c02eb1",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 18,
+          "panel": 1,
+          "description": "Two silver captains and commandos wait on a floating rock above Serenity."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p18-panel02",
+      "file": "assets/panels/prologue-p18-panel02.png",
+      "title": "Prologue P18 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1345,
+        "height": 1170
+      },
+      "byte_size": 3482471,
+      "sha256": "3e849e265267935c4bd2808b30c82c08986350e042f31b009c3b6144606d50e3",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 18,
+          "panel": 2,
+          "description": "The Stormlance disables Serenity with a concentrated magnetic lance shot."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p18-panel03",
+      "file": "assets/panels/prologue-p18-panel03.png",
+      "title": "Prologue P18 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1064,
+        "height": 1478
+      },
+      "byte_size": 3409052,
+      "sha256": "a200798130d97383249e01fe03cef62b3313c0cd5c8726b3aa7d8ea408b61a2e",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 18,
+          "panel": 3,
+          "description": "The twin-sword captain flies onto Serenity with commandos boarding behind."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p18-panel04",
+      "file": "assets/panels/prologue-p18-panel04.png",
+      "title": "Prologue P18 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1160,
+        "height": 1355
+      },
+      "byte_size": 3320782,
+      "sha256": "27d73a798f4303cb6eb3776ebb9441c5ed861565f265b16c640d11c8d57c92b6",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 18,
+          "panel": 4,
+          "description": "The scythe and broadsword captains attack Serendipity from two magnetic points."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p18-panel05",
+      "file": "assets/panels/prologue-p18-panel05.png",
+      "title": "Prologue P18 Panel05",
+      "category": "comic",
+      "dimensions": {
+        "width": 1264,
+        "height": 1244
+      },
+      "byte_size": 3150519,
+      "sha256": "80c04b8f79ce0a40e7c1b4d9a7eab6e70b0f1cba2db1f945086f1b656e2dfe91",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 18,
+          "panel": 5,
+          "description": "The broadsword captain disables Serendipity’s engines."
+        }
+      ]
+    },
+    {
+      "id": "schooner-kestrel",
+      "file": "assets/schooner-kestrel.png",
+      "title": "Kestrel",
+      "category": "ships",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3417925,
+      "sha256": "77c5c443f13fb64db169946f9a6317ba3c5e3533e6c13df1bc14cfafcf1f4fb0",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "schooner-needle",
+      "file": "assets/schooner-needle.png",
+      "title": "Needle",
+      "category": "ships",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 2603164,
+      "sha256": "fad9a33a7f10a83f718ba5cdf4b9a530dcd16237eb6f5b35be4a5284b3123890",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "shattered-earth-atlas",
+      "file": "assets/shattered-earth-atlas.png",
+      "title": "Shattered Earth atlas",
+      "category": "world",
+      "dimensions": {
+        "width": 1586,
+        "height": 992
+      },
+      "byte_size": 3405782,
+      "sha256": "57e4355e83a8e54d975a52a20db475c19cccf64d2a003245a2b1bc79e6f0eeee",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "trader-caravan",
+      "file": "assets/trader-caravan.png",
+      "title": "Caravan",
+      "category": "ships",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3317699,
+      "sha256": "803dab0e0bb251d4c949fe8bfc30f0a00c9e779d35b240d9e580960d2d7dddcb",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    },
+    {
+      "id": "trader-terrace",
+      "file": "assets/trader-terrace.png",
+      "title": "Terrace",
+      "category": "ships",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "byte_size": 3346271,
+      "sha256": "f7987154bb024f90b870ab879b3aab9d667b62ba94ebe3e294bbb63d70fa1b57",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": []
+    }
+  ],
+  "canon_constraints": [
+    "There are exactly eight duchies.",
+    "There is one available story entry, Prologue, with nineteen pages and 62 distinct panel images.",
+    "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
+    "The first city capture precedes the crafting of silver honour-guard equipment.",
+    "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
+    "Type C is impervious to any weapons; no weapon vulnerability or armour-piercing exception is established.",
+    "Only Rovan knows the crafting secret through his experience.",
+    "Veymarch soldiers wear crimson red cloth base layers under bronze or silver armour.",
+    "The three dispatched capital ships begin as Auric Reach vessels; all three surrender to Rovan on page19.",
+    "The five honour-guard captains have practical, man-made continuous silver armour with no joints or gaps. Crimson cloth rests over the sealed metal.",
+    "Each captain has one distinct loadout: magnetic lance, field broadsword, twin wind swords, shield war hammer or magnetic scythe.",
+    "Page 11 shows a second Auric Reach town seized after Type C is crafted; page 8’s first capture still occurs before the crafting.",
+    "Page 9 introduces the five Silver Guard captains; page 10 shows ordinary troops running into the town; page 11 shows the captains’ assault and capture.",
+    "All comic pages use the same 1000 by 1400 logical canvas and a maximum of five panels.",
+    "The Silver Guard wear Veymarch’s established broken-shield-and-star crest; restrained brass trim does not replace the silver Type C material.",
+    "Rovan’s original capital ship is named Argonaut; Bastion remains a design, not its personal name. After page19 he also owns three captured Bastions.",
+    "Rovan chooses the Shattered Plains to split the enemy fleet and captures all three Bastions on page19.",
+    "The Argonaut is refitted using Rovan’s newfound wealth; its upgraded hull remains Type A bronze and its machinery uses Type B. Type C is reserved for the five honour guards.",
+    "The Argonaut’s refit takes fourteen days and adds enlarged heavy cannons.",
+    "Admiral Joseph leads three Auric Bastions and covets a duchy. His fleet surrenders; he receives no duchy and is sentenced to be thrown overboard.",
+    "The five silver captains have titles, not established personal names: Stormlance, Windblade, Bulwark, Riftwalker and Hullbreaker. These are the same five people, not additional Type C sets.",
+    "The Bulwark remains aboard Argonaut. Stormlance and Windblade attack Serenity with commandos; Riftwalker and Hullbreaker attack Serendipity.",
+    "Serenity and Serendipity are disabled during the boarding attacks; all three Bastions are captured intact after surrender on page19. Repairs are still required.",
+    "Rovan’s original capital-ship count remains one; after capturing three on page19 he owns four. Operational readiness after battle is not established.",
+    "This is the first historical capture of another duchy’s capital ships; Rovan takes three in one battle.",
+    "Joseph’s overboard sentence is pronounced, but its execution is not depicted on page19."
+  ],
+  "military_livery": {
+    "veymarch": {
+      "base_layer": "crimson red",
+      "duchy_id": "veymarch",
+      "ordinary_armour": "bronze",
+      "honour_guard_armour": "Practical man-made brushed silver Type C, distinct helmet/body silhouettes, sealed without joints or gaps, external crimson cloth",
+      "honour_guard_count": 5,
+      "officer_outer_coats": "Rovan navy; General Grievous dark olive",
+      "honour_guard_badge": "Crimson enamel bearing the silver broken shield and eight-point star, on chest and visible shoulder cloth."
+    },
+    "auric-reach": {
+      "identity_colours": [
+        "gold",
+        "navy"
+      ],
+      "capital_ships_in_dispatched_force": 3
+    }
+  },
+  "weapons": [
+    {
+      "id": "condenser-lance",
+      "name": "Magnetic lance",
+      "ability": "Condenses magnetic fields and fires the concentrated energy like a cannon.",
+      "asset_id": "prologue-p11-panel01",
+      "captain_id": "captain-stormlance"
+    },
+    {
+      "id": "field-broadsword",
+      "name": "Field broadsword",
+      "ability": "Condenses magnetic fields into a larger blade capable of cutting through a ship’s hull.",
+      "asset_id": "prologue-p11-panel02",
+      "captain_id": "captain-hullbreaker"
+    },
+    {
+      "id": "wind-twin-swords",
+      "name": "Twin wind swords",
+      "ability": "A pair of wind-like swords that lets the wielder fly like a bird.",
+      "asset_id": "prologue-p11-panel03",
+      "captain_id": "captain-windblade"
+    },
+    {
+      "id": "shield-warhammer",
+      "name": "Shield war hammer",
+      "ability": "Creates its own magnetic field when slammed down, forming a shield against Tesla guns.",
+      "asset_id": "prologue-p11-panel04",
+      "captain_id": "captain-bulwark"
+    },
+    {
+      "id": "point-scythe",
+      "name": "Magnetic scythe",
+      "ability": "Lets the wielder jump between two concentrated points of magnetic energy.",
+      "asset_id": "prologue-p11-panel05",
+      "captain_id": "captain-riftwalker"
+    }
+  ],
+  "objects_file": "objects.json",
+  "named_ships": [
+    {
+      "id": "argonaut",
+      "name": "Argonaut",
+      "design_id": "capital-bastion",
+      "class_id": "capital",
+      "duchy_id": "veymarch",
+      "commander_id": "rovan-vey",
+      "role": "Rovan’s original capital ship and flagship; after page19 three captured Bastions join his ownership.",
+      "departure_location_id": "auric-latest-captured-city",
+      "refit": {
+        "funding": "Rovan uses his newfound wealth from conquest to upgrade his existing capital ship.",
+        "timing": "Shown on page 14; completed before the departure on page 15.",
+        "hull_material": "Magneton Type A; reinforced bronze armour, not Type C.",
+        "upgrades": [
+          "Wedge-shaped armoured ram prow with a reinforced lower keel",
+          "Crimson lacquered side armour panels with bronze ribs",
+          "Two exposed green magnetic stabiliser rings near the stern",
+          "Four articulated vectoring thruster pods using green Type B machinery",
+          "Rebuilt gun positions and a low protected command citadel",
+          "Two twin-barrel heavy cannon turrets with enlarged barrels, reinforced recoil mounts and mechanical breeches"
+        ],
+        "visual_identity": "One elongated central Zeppelin hull with two shorter side gun hulls; industrial bronze and crimson, restrained silver Veymarch emblems.",
+        "limits": "A refit of the same single capital ship, not a second ship or an invulnerable Type C hull. No new weapon abilities or performance statistics established.",
+        "duration_days": 14
+      },
+      "refit_asset_id": "argonaut-refit"
+    },
+    {
+      "id": "josephine",
+      "name": "Josephine",
+      "design_id": "capital-bastion",
+      "class_id": "capital",
+      "duchy_id": "veymarch",
+      "commander_id": null,
+      "role": "Largest of the three pursuing Bastions; Joseph’s flagship and the Argonaut’s diversion target.",
+      "battle_status": "Captured intact after surrender; its crew lays down arms.",
+      "original_duchy_id": "auric-reach",
+      "former_commander_id": "admiral-joseph",
+      "fleet_commander_id": "rovan-vey",
+      "ownership_status": "Surrendered to Rovan on page19; prize crew assigned."
+    },
+    {
+      "id": "serenity",
+      "name": "Serenity",
+      "design_id": "capital-bastion",
+      "class_id": "capital",
+      "duchy_id": "veymarch",
+      "commander_id": null,
+      "fleet_commander_id": "rovan-vey",
+      "role": "Bastion ambushed by the Stormlance, Windblade and Veymarch commandos.",
+      "battle_status": "Captured intact after surrender; engine damage still needs repair.",
+      "original_duchy_id": "auric-reach",
+      "former_commander_id": null,
+      "ownership_status": "Surrendered to Rovan on page19; prize crew assigned."
+    },
+    {
+      "id": "serendipity",
+      "name": "Serendipity",
+      "design_id": "capital-bastion",
+      "class_id": "capital",
+      "duchy_id": "veymarch",
+      "commander_id": null,
+      "fleet_commander_id": "rovan-vey",
+      "role": "Bastion attacked by the Riftwalker and Hullbreaker.",
+      "battle_status": "Captured intact after surrender; engine damage still needs repair.",
+      "original_duchy_id": "auric-reach",
+      "former_commander_id": null,
+      "ownership_status": "Surrendered to Rovan on page19; prize crew assigned."
+    }
+  ]
+}

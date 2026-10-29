@@ -352,6 +352,36 @@
       "y": 767,
       "width": 511,
       "height": 501
+    },
+    "prologue-p19-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 245
+    },
+    "prologue-p19-panel02": {
+      "x": 0,
+      "y": 255,
+      "width": 582,
+      "height": 502
+    },
+    "prologue-p19-panel03": {
+      "x": 592,
+      "y": 255,
+      "width": 360,
+      "height": 502
+    },
+    "prologue-p19-panel04": {
+      "x": 0,
+      "y": 767,
+      "width": 431,
+      "height": 501
+    },
+    "prologue-p19-panel05": {
+      "x": 441,
+      "y": 767,
+      "width": 511,
+      "height": 501
     }
   },
   "extensions": [
@@ -381,6 +411,13 @@
       ],
       "source_commit": "f3004ae",
       "method": "Four ordered beats on17, five on18, with emphasis for the Josephine diversion and boarding strikes. All apertures frozen before generation."
+    },
+    {
+      "pages": [
+        19
+      ],
+      "source_commit": "19babf3",
+      "method": "Reuse the fixed five-panel template for surrender, disarmament, sentence, prize command and celebration; frozen before generation."
     }
   ]
 }
