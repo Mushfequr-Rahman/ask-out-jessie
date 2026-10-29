@@ -122,29 +122,32 @@
     },
     {
       "id": "auric-ruler",
-      "name": null,
-      "title": "Ruler of Auric Reach",
+      "name": "Ferdinand",
+      "title": "Duke",
       "duchy_id": "auric-reach",
-      "role": "Rovan’s opponent",
-      "current_action": "Dispatches three capital ships toward Rovan",
+      "role": "Duke Ferdinand, ruler of Auric Reach; confers with his barons and surrenders Oram under bombardment.",
+      "current_action": "Surrenders the city of Oram after conferring with the barons on page22.",
       "visual_concept": {
-        "status": "provisional artwork; name and biography are unestablished",
-        "appearance": "An adult ruler in gold and navy, partly shadowed, beneath the Auric Reach balance banner"
+        "status": "Existing shadowed ruler is now named Duke Ferdinand; retain the earlier human face, gold/navy wardrobe and court setting.",
+        "appearance": "Middle-aged human man with swept-back dark hair greying at temples, short dark beard and moustache, lined face, heavy gold mantle and ceremonial chain over navy coat embroidered in gold. Not Rovan and not Admiral Joseph; no monocle. Looks exhausted and cornered during the council."
       },
       "reference_images": [
-        "references/panels/auric-counterorder.png"
-      ]
+        "assets/panels/prologue-p22-panel03.png"
+      ],
+      "personal_name": "Ferdinand"
     },
     {
       "id": "veymarch-courier",
       "name": "The schooner courier",
-      "role": "Unnamed Veymarch messenger who warns Rovan that three Auric Reach Bastions are approaching.",
+      "role": "Unnamed Veymarch messenger; first warns Rovan of the three approaching Bastions and later carries Rovan’s demand to Oram on page22.",
       "duchy_id": "veymarch",
       "visual_concept": {
         "appearance": "Young adult human messenger with short brown hair, flying goggles pushed onto forehead, worn bronze flight jacket over a crimson base layer; no silver armour."
       },
       "uniform_standard": "Practical bronze and leather flight gear over crimson cloth; Veymarch affiliation.",
-      "reference_images": []
+      "reference_images": [
+        "assets/panels/prologue-p22-panel02.png"
+      ]
     },
     {
       "id": "auric-city-onlookers",
@@ -407,6 +410,18 @@
       },
       "reference_images": [
         "assets/panels/prologue-p21-panel04.png"
+      ]
+    },
+    {
+      "id": "auric-barons",
+      "name": "Barons of Auric Reach",
+      "duchy_id": "auric-reach",
+      "role": "The barons confer with Duke Ferdinand during the bombardment of Oram, with no choice but to surrender the city. Individual names are not established.",
+      "visual_concept": {
+        "appearance": "Three adult human nobles of varied ages in individual navy court coats with restrained gold trim; one older silver-haired woman, one bald bearded man, one younger dark-haired man. Distinct from the duke and from Admiral Joseph. Worried expressions, ordinary court dress, no Type C armour."
+      },
+      "reference_images": [
+        "assets/panels/prologue-p22-panel03.png"
       ]
     }
   ]

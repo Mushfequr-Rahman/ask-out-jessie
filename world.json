@@ -88,7 +88,7 @@
       "opponent_duchy_id": "auric-reach",
       "target_character_id": "rovan-vey",
       "capital_ships_dispatched": 3,
-      "status": "Rovan’s four capital ships besiege Oram. Supply convoys link the siege fleet outside Oram with New Frontier. Cannon fire frightens civilians unaccustomed to war.",
+      "status": "The four ships continue bombarding Oram. Rovan dispatches a messenger; Duke Ferdinand and his barons confer, then surrender the city.",
       "battle_outcome": "Rovan captures Josephine, Serenity and Serendipity in one battle.",
       "opponent_total_capital_ship_count": null,
       "planned_battlefield_id": "shattered-plains",
@@ -135,13 +135,17 @@
         "tomas-kest"
       ],
       "siege_location_id": "oram",
-      "capital_captured": false,
+      "capital_captured": true,
       "supply_route": {
         "from_location_id": "auric-latest-captured-city",
         "to_location_id": "oram",
         "destination": "Rovan’s siege lines outside Oram, not an occupied city dock",
         "traffic": "Trading convoy ships carry supplies toward the fleet and return to New Frontier."
-      }
+      },
+      "capital_capture_method": "Surrender by Duke Ferdinand after bombardment and a messenger from Rovan, page22.",
+      "opponent_ruler_id": "auric-ruler",
+      "city_surrender_page": 22,
+      "duchy_annexed": null
     },
     "historical_milestone": {
       "event": "First capture of another duchy’s capital ships in the history of the shattered world.",
@@ -398,7 +402,7 @@
         "meaning": "region of influence; not surveyed borders"
       },
       "ruler_id": "auric-ruler",
-      "political_history": "A wealthy neighbouring trading duchy. Rovan seizes its Caravan and captures one of its barons’ cities. Its ruler dispatches three capital ships toward Rovan.",
+      "political_history": "A wealthy neighbouring trading duchy. Rovan seizes its Caravan and captures one of its barons’ cities. Its ruler dispatches three capital ships toward Rovan. Its ruler is Duke Ferdinand. On page22, he confers with his barons and surrenders Oram under continued bombardment; the fate of the rest of the duchy is not established.",
       "other_details_status": "Unspecified unless explicitly recorded here.",
       "capital_location_id": "oram"
     },
@@ -562,10 +566,11 @@
       "name": "Oram",
       "duchy_id": "auric-reach",
       "role": "Capital of Auric Reach; the largest and richest city in the shattered world, with access to the most farmland.",
-      "current_control": "Auric Reach; under siege by Rovan’s four capital ships, not captured.",
+      "current_control": "Surrendered by Duke Ferdinand to Rovan on page22 after continued bombardment; no later occupation terms established.",
       "exact_coordinates": null,
       "geography": "A broad, irregular agricultural landmass with terraced urban districts and large surrounding farmland shelves, unlike the small New Frontier harbour.",
-      "wealth_source": "Access to most farmland in the shattered world; agricultural wealth supports its unrivalled size and prosperity."
+      "wealth_source": "Access to most farmland in the shattered world; agricultural wealth supports its unrivalled size and prosperity.",
+      "surrender_page": 22
     }
   ],
   "characters_file": "character.json",
@@ -688,6 +693,13 @@
       "page": 21,
       "event": "The four capital ships overlook Oram, Auric Reach’s capital and the largest, richest city in the world through access to most farmland. Supply convoys run between New Frontier and the siege lines outside Oram. The cannons fire and civilians who have always felt safe panic.",
       "capital_captured": false
+    },
+    {
+      "order": 24,
+      "page": 22,
+      "event": "The four capital ships spread out above Oram and continue firing, with explosions and smoke in the city. Rovan dispatches a messenger. Duke Ferdinand, the now-named ruler of Auric Reach, confers with his barons and surrenders Oram.",
+      "city_surrendered": true,
+      "duchy_annexed": null
     }
   ],
   "publication": {
@@ -704,8 +716,8 @@
         "title": "Prologue",
         "status": "available",
         "reader": "prologue.html",
-        "page_count": 21,
-        "panel_count": 71,
+        "page_count": 22,
+        "panel_count": 75,
         "pages": [
           {
             "number": 1,
@@ -1968,6 +1980,76 @@
                 "lettering_mode": "baked"
               }
             ]
+          },
+          {
+            "number": 22,
+            "title": "The Fall of Oram",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p22-panel01",
+                "caption": "The guns did not stop.",
+                "narration": "The four ships spread out above Oram. Shells burst among its towers. Smoke rolled across the city.",
+                "priority": 5,
+                "image_description": "Elevated distant wide BATTLE MAP composition in a continuous painted scene, not a diagram",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 520
+                },
+                "scene_id": "prologue-p22-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p22-panel02",
+                "caption": "A message for the duke.",
+                "narration": "Rovan: “Take this to Duke Ferdinand. Tell him we’re waiting for his answer.”",
+                "priority": 3,
+                "image_description": "Exactly TWO foreground people on Argonaut’s deck",
+                "holder": {
+                  "x": 0,
+                  "y": 530,
+                  "width": 400,
+                  "height": 350
+                },
+                "scene_id": "prologue-p22-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p22-panel03",
+                "caption": "Duke Ferdinand’s council.",
+                "narration": "Ferdinand: “We cannot hold the city. We have to surrender.”",
+                "priority": 4,
+                "image_description": "Inside Oram’s court chamber",
+                "holder": {
+                  "x": 410,
+                  "y": 530,
+                  "width": 542,
+                  "height": 350
+                },
+                "scene_id": "prologue-p22-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p22-panel04",
+                "caption": "Oram surrendered.",
+                "narration": "The answer came beneath a white flag. Ferdinand and his barons yielded the city.",
+                "priority": 5,
+                "image_description": "Wide cinematic shot at Oram’s damaged outer gate",
+                "holder": {
+                  "x": 0,
+                  "y": 890,
+                  "width": 952,
+                  "height": 378
+                },
+                "scene_id": "prologue-p22-panel04",
+                "lettering_mode": "baked"
+              }
+            ]
           }
         ],
         "json_file": "chapters/prologue.json"
@@ -2006,7 +2088,8 @@
     "Magnetic motor": "An engine using opposing polarities in city and transport systems.",
     "Shattered Plains": "Rock-choked sky with strong magnetic fields; difficult flying terrain chosen by Rovan to split the enemy Bastions.",
     "New Frontier": "Rovan’s name for the conquered harbour, his new foothold for the Auric Reach campaign.",
-    "Oram": "Capital of Auric Reach: the largest and richest city in the shattered world because it has access to most farmland. Under siege by Rovan on page21, not captured."
+    "Oram": "Largest and richest city in the world, capital of Auric Reach, with access to most farmland. Besieged on page21 and surrendered by Duke Ferdinand on page22.",
+    "Duke Ferdinand": "Ruler of Auric Reach, previously unnamed; confers with the barons and surrenders Oram to Rovan on page22."
   },
   "open_questions": [
     "Exact dates and elapsed generations",
@@ -3749,6 +3832,94 @@
       ]
     },
     {
+      "id": "prologue-p22-panel01",
+      "file": "assets/panels/prologue-p22-panel01.png",
+      "title": "Prologue P22 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1688,
+        "height": 932
+      },
+      "byte_size": 3463331,
+      "sha256": "65e9b5986dd7032c5e9b7a10c387d5128cac49acc7af616c3650a9eed12a5d1b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 22,
+          "panel": 1,
+          "description": "Elevated distant wide BATTLE MAP composition in a continuous painted scene, not a diagram"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p22-panel02",
+      "file": "assets/panels/prologue-p22-panel02.png",
+      "title": "Prologue P22 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1335,
+        "height": 1178
+      },
+      "byte_size": 3036452,
+      "sha256": "583362e3c5b3b290d9ca9ac3112ef9f172b267b6b7288cd659fa95e3b00c34ee",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 22,
+          "panel": 2,
+          "description": "Exactly TWO foreground people on Argonaut’s deck"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p22-panel03",
+      "file": "assets/panels/prologue-p22-panel03.png",
+      "title": "Prologue P22 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1555,
+        "height": 1012
+      },
+      "byte_size": 3173925,
+      "sha256": "7d4fa7dd232cdd3aa0a044c4a0bad1404e9a7727d9e69c50605baa33fbc043d0",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 22,
+          "panel": 3,
+          "description": "Inside Oram’s court chamber"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p22-panel04",
+      "file": "assets/panels/prologue-p22-panel04.png",
+      "title": "Prologue P22 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 2003,
+        "height": 785
+      },
+      "byte_size": 3153886,
+      "sha256": "d893c3b908c91450d643e8920832fa5502a6e53cf4e274889642c9d21cc04f4b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 22,
+          "panel": 4,
+          "description": "Wide cinematic shot at Oram’s damaged outer gate"
+        }
+      ]
+    },
+    {
       "id": "schooner-kestrel",
       "file": "assets/schooner-kestrel.png",
       "title": "Kestrel",
@@ -3826,7 +3997,7 @@
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with twenty-one pages and 71 distinct panel images.",
+    "There is one available story entry, Prologue, with twenty-two pages and 75 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
     "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
@@ -3851,11 +4022,14 @@
     "Rovan’s original capital-ship count remains one; after capturing three on page19 he owns four. Immediate post-battle readiness is unspecified on page19; all four are repaired and sailing by page20.",
     "This is the first historical capture of another duchy’s capital ships; Rovan takes three in one battle.",
     "Joseph’s overboard sentence is pronounced, but its execution is not depicted on page19.",
-    "The conquered harbour is renamed New Frontier by Rovan. Oram is Auric Reach’s capital, under siege but not captured on page21.",
+    "The conquered harbour is renamed New Frontier by Rovan. Oram is Auric Reach’s capital, under siege on page21 and surrendered by Duke Ferdinand on page22.",
     "Mara Voss commands Josephine, Idris Vale commands Serenity and Tomas Kest commands Serendipity. These are three new prize-crew officers, not extra Type C captains.",
     "The three prizes are repainted crimson at New Frontier but retain their original Bastion shapes and standard armament. Only Argonaut has its distinctive wedge prow and huge refit cannons.",
     "Oram is the world’s largest and richest city because it has access to most farmland. The four-ship siege does not establish its conquest.",
-    "Supply convoys travel between New Frontier and Rovan’s siege lines at Oram; convoy traders are not additional capital ships and do not imply entry through hostile city defences."
+    "Supply convoys travel between New Frontier and Rovan’s siege lines at Oram; convoy traders are not additional capital ships and do not imply entry through hostile city defences.",
+    "Duke Ferdinand is the same previously unnamed auric-ruler, not a new duke or a replacement for Admiral Joseph.",
+    "Oram surrenders on page22 after bombardment, a messenger and a council of Ferdinand and his barons. No annexation of the whole duchy, surrender terms, new captured ships or executions are established.",
+    "White surrender or parley flags are signals; Auric Reach’s identity remains gold/navy, Veymarch crimson/silver."
   ],
   "military_livery": {
     "veymarch": {

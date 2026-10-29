@@ -79,6 +79,8 @@ if conflict.get('prize_captain_ids'):
         assert next(s for s in named_ships if s['id'] == c['command_ship_id'])['commander_id'] == c['id'], 'Captain and ship command disagree'
 if 'target_character_id' in conflict:
     assert conflict['target_character_id'] in character_ids, 'Unknown conflict target'
+if conflict.get('opponent_ruler_id'):
+    assert conflict['opponent_ruler_id'] in character_ids, 'Unknown opposing ruler'
 if 'opponent_commander_id' in conflict:
     assert conflict['opponent_commander_id'] in character_ids, 'Unknown opposing commander'
 if 'planned_battlefield_id' in conflict:

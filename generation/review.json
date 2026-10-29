@@ -1208,6 +1208,74 @@
         "height": 438
       },
       "review": "Visually inspected: exact Oram lettering, fixed holder crop, four-capital count, farmland/wealth setting, two-way three-trader supply traffic, cannon fire and civilian panic. City Auric gold/navy; siege fleet Veymarch crimson/silver. Siege only, no conquest."
+    },
+    {
+      "id": "prologue-p22-panel01",
+      "output_file": "assets/panels/prologue-p22-panel01.png",
+      "selected_run": "generation/runs/prologue-p22-panel01.json",
+      "sha256": "65e9b5986dd7032c5e9b7a10c387d5128cac49acc7af616c3650a9eed12a5d1b",
+      "dimensions": {
+        "width": 1688,
+        "height": 932
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 520
+      },
+      "review": "Visually inspected: exactly four ships to city’s left firing toward explosions in Oram, messenger handoff, Ferdinand/three-barons council, surrender beneath white signal flag. Lettering, fixed-holder crop, character continuity and Auric gold/navy versus Veymarch crimson/silver reviewed. City surrender only."
+    },
+    {
+      "id": "prologue-p22-panel02",
+      "output_file": "assets/panels/prologue-p22-panel02.png",
+      "selected_run": "generation/runs/prologue-p22-panel02.json",
+      "sha256": "583362e3c5b3b290d9ca9ac3112ef9f172b267b6b7288cd659fa95e3b00c34ee",
+      "dimensions": {
+        "width": 1335,
+        "height": 1178
+      },
+      "holder": {
+        "x": 0,
+        "y": 530,
+        "width": 400,
+        "height": 350
+      },
+      "review": "Visually inspected: exactly four ships to city’s left firing toward explosions in Oram, messenger handoff, Ferdinand/three-barons council, surrender beneath white signal flag. Lettering, fixed-holder crop, character continuity and Auric gold/navy versus Veymarch crimson/silver reviewed. City surrender only."
+    },
+    {
+      "id": "prologue-p22-panel03",
+      "output_file": "assets/panels/prologue-p22-panel03.png",
+      "selected_run": "generation/runs/prologue-p22-panel03.json",
+      "sha256": "7d4fa7dd232cdd3aa0a044c4a0bad1404e9a7727d9e69c50605baa33fbc043d0",
+      "dimensions": {
+        "width": 1555,
+        "height": 1012
+      },
+      "holder": {
+        "x": 410,
+        "y": 530,
+        "width": 542,
+        "height": 350
+      },
+      "review": "Visually inspected: exactly four ships to city’s left firing toward explosions in Oram, messenger handoff, Ferdinand/three-barons council, surrender beneath white signal flag. Lettering, fixed-holder crop, character continuity and Auric gold/navy versus Veymarch crimson/silver reviewed. City surrender only."
+    },
+    {
+      "id": "prologue-p22-panel04",
+      "output_file": "assets/panels/prologue-p22-panel04.png",
+      "selected_run": "generation/runs/prologue-p22-panel04.json",
+      "sha256": "d893c3b908c91450d643e8920832fa5502a6e53cf4e274889642c9d21cc04f4b",
+      "dimensions": {
+        "width": 2003,
+        "height": 785
+      },
+      "holder": {
+        "x": 0,
+        "y": 890,
+        "width": 952,
+        "height": 378
+      },
+      "review": "Visually inspected: exactly four ships to city’s left firing toward explosions in Oram, messenger handoff, Ferdinand/three-barons council, surrender beneath white signal flag. Lettering, fixed-holder crop, character continuity and Auric gold/navy versus Veymarch crimson/silver reviewed. City surrender only."
     }
   ]
 }

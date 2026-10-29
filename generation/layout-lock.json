@@ -436,6 +436,30 @@
       "y": 830,
       "width": 952,
       "height": 438
+    },
+    "prologue-p22-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 520
+    },
+    "prologue-p22-panel02": {
+      "x": 0,
+      "y": 530,
+      "width": 400,
+      "height": 350
+    },
+    "prologue-p22-panel03": {
+      "x": 410,
+      "y": 530,
+      "width": 542,
+      "height": 350
+    },
+    "prologue-p22-panel04": {
+      "x": 0,
+      "y": 890,
+      "width": 952,
+      "height": 378
     }
   },
   "extensions": [
@@ -486,6 +510,13 @@
       ],
       "source_commit": "9547ed2",
       "method": "Four fixed apertures: agricultural capital/four-ship blockade, two-way convoy, firing guns, frightened civilians. Frozen before generation."
+    },
+    {
+      "pages": [
+        22
+      ],
+      "source_commit": "a396c3c",
+      "method": "Four fixed apertures for spread four-ship bombardment, messenger dispatch, Ferdinand’s council and city surrender. Frozen before generation."
     }
   ]
 }

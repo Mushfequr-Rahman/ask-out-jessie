@@ -2909,6 +2909,162 @@
       ],
       "footer": "PROLOGUE · THE SIEGE OF ORAM",
       "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 22,
+      "Title": "The Fall of Oram",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p22-panel01.png",
+          "caption": "The guns did not stop.",
+          "narration": "The four ships spread out above Oram. Shells burst among its towers. Smoke rolled across the city.",
+          "image_alt": "Elevated distant wide BATTLE MAP composition in a continuous painted scene, not a diagram",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 520
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The guns did not stop.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 242,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The four ships spread out above Oram. Shells burst among its towers. Smoke rolled across the city.",
+              "bounds": {
+                "x": 14,
+                "y": 434,
+                "width": 924,
+                "height": 68
+              }
+            }
+          ],
+          "scene_id": "prologue-p22-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p22-panel02.png",
+          "caption": "A message for the duke.",
+          "narration": "Rovan: “Take this to Duke Ferdinand. Tell him we’re waiting for his answer.”",
+          "image_alt": "Exactly TWO foreground people on Argonaut’s deck",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 530,
+            "width": 400,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "A message for the duke.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 253,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “Take this to Duke Ferdinand. Tell him we’re waiting for his answer.”",
+              "bounds": {
+                "x": 14,
+                "y": 234,
+                "width": 372,
+                "height": 98
+              }
+            }
+          ],
+          "scene_id": "prologue-p22-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p22-panel03.png",
+          "caption": "Duke Ferdinand’s council.",
+          "narration": "Ferdinand: “We cannot hold the city. We have to surrender.”",
+          "image_alt": "Inside Oram’s court chamber",
+          "priority": 4,
+          "holder": {
+            "x": 410,
+            "y": 530,
+            "width": 542,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Duke Ferdinand’s council.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 275,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Ferdinand: “We cannot hold the city. We have to surrender.”",
+              "bounds": {
+                "x": 14,
+                "y": 256,
+                "width": 514,
+                "height": 76
+              }
+            }
+          ],
+          "scene_id": "prologue-p22-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p22-panel04.png",
+          "caption": "Oram surrendered.",
+          "narration": "The answer came beneath a white flag. Ferdinand and his barons yielded the city.",
+          "image_alt": "Wide cinematic shot at Oram’s damaged outer gate",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 890,
+            "width": 952,
+            "height": 378
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Oram surrendered.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The answer came beneath a white flag. Ferdinand and his barons yielded the city.",
+              "bounds": {
+                "x": 14,
+                "y": 292,
+                "width": 924,
+                "height": 68
+              }
+            }
+          ],
+          "scene_id": "prologue-p22-panel04",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · THE FALL OF ORAM",
+      "layout_mode": "fixed"
     }
   ]
 }

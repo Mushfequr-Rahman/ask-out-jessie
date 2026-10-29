@@ -3916,6 +3916,220 @@
         "Maintain spatial ownership: Veymarch crimson/SILVER ships outside, Auric GOLD/NAVY city inside.",
         "Unique broad agricultural city geography, varied low districts, irregular cliff shelves and farmland. Never tile identical conical castle islands."
       ]
+    },
+    {
+      "id": "prologue-p22-panel01",
+      "chapter_id": "prologue",
+      "page_number": 22,
+      "panel_number": 1,
+      "description": "Elevated distant wide BATTLE MAP composition in a continuous painted scene, not a diagram: EXACTLY FOUR countable complete ships clustered but SPREAD APART in the UPPER LEFT half, with the enormous city of Oram in the UPPER RIGHT and right half. One crimson wedge-prowed Argonaut with FOUR enormous cannon barrels, and THREE ROUND-prowed crimson Bastion prizes with standard guns. All four are firing to the RIGHT at the city: muzzle flashes, clearly directed shell smoke streaks from ships toward Oram and several DISTINCT bright explosions amid city rooftops, defensive towers and gate district, rising heavy grey smoke. Make the city still recognisable as one massive irregular stratified farmland metropolis, golden fields on low shelves, dense low districts and citadel; not cloned cone islands. Vast open sky/void lower left gives breathing space. All four hulls fully within crop; do NOT hide a fifth hull in smoke, do NOT make four wedge Argonauts. Ship flags Veymarch CRIMSON/SILVER; city banners Auric GOLD/NAVY. No bodies or graphic injuries. Keep bombardment visibly active and explosions INSIDE the urban city district, not just empty rocks.",
+      "character_ids": [],
+      "object_ids": [
+        "argonaut",
+        "repainted-bastions",
+        "oram-city"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 520
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The guns did not stop.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 242,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The four ships spread out above Oram. Shells burst among its towers. Smoke rolled across the city.",
+          "bounds": {
+            "x": 14,
+            "y": 434,
+            "width": 924,
+            "height": 68
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p22-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Four capital ships total; one upgraded wedge Argonaut and three round-prowed repainted prizes. Only include ships explicitly requested.",
+        "Oram surrenders at the END of this page, not during the opening bombardment. No whole-duchy annexation or invented surrender terms.",
+        "Duke Ferdinand is the existing auric-ruler, distinct from Rovan and Admiral Joseph. Gold/navy court; bronze/crimson Veymarch messenger.",
+        "Preserve unique asymmetric farmland metropolis; avoid copying repeated conical castle islands."
+      ]
+    },
+    {
+      "id": "prologue-p22-panel02",
+      "chapter_id": "prologue",
+      "page_number": 22,
+      "panel_number": 2,
+      "description": "Exactly TWO foreground people on Argonaut’s deck: Rovan, established black hair with silver streak, short beard, navy coat/crimson scarf, passes a folded sealed parchment to ONE young brown-haired human messenger wearing goggles pushed onto forehead, bronze leather flight jacket over CRIMSON. Courier’s small bronze schooner is partially visible moored at the rail, no capital ship background. Rovan looks controlled, messenger urgent. Smoke from distant city behind, one Veymarch crimson/silver pennant. No general or extra officers. Show an actual handoff of parchment. Two distinct faces clear of the lettering, no additional readable writing on parchment.",
+      "character_ids": [
+        "rovan-vey",
+        "veymarch-courier"
+      ],
+      "object_ids": [
+        "banner-veymarch",
+        "schooner-needle"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 530,
+        "width": 400,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "A message for the duke.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 253,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “Take this to Duke Ferdinand. Tell him we’re waiting for his answer.”",
+          "bounds": {
+            "x": 14,
+            "y": 234,
+            "width": 372,
+            "height": 98
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p22-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Four capital ships total; one upgraded wedge Argonaut and three round-prowed repainted prizes. Only include ships explicitly requested.",
+        "Oram surrenders at the END of this page, not during the opening bombardment. No whole-duchy annexation or invented surrender terms.",
+        "Duke Ferdinand is the existing auric-ruler, distinct from Rovan and Admiral Joseph. Gold/navy court; bronze/crimson Veymarch messenger.",
+        "Preserve unique asymmetric farmland metropolis; avoid copying repeated conical castle islands."
+      ]
+    },
+    {
+      "id": "prologue-p22-panel03",
+      "chapter_id": "prologue",
+      "page_number": 22,
+      "panel_number": 3,
+      "description": "Inside Oram’s court chamber: exactly FOUR foreground nobles around one map table, Duke Ferdinand plus THREE barons, all deliberating urgently with a received folded message on the table. FERDINAND matches prior shadowed Auric ruler reference: swept-back dark hair greying temples, short beard and moustache, gold mantle and chain over navy embroidered coat. Not Rovan, no crimson, no monocle. Three distinct barons: older silver-haired woman, bald bearded man, younger dark-haired man. Worried, cornered, no raised weapons. Windows show city smoke and orange distant blast light, no additional ships necessary. One GOLD cloth/NAVY balance-in-coin Auric banner prominent. Ferdinand speaking surrender line; bubble tail clearly to duke in gold mantle. All four heads visible; avoid crowd of repeated faces.",
+      "character_ids": [
+        "auric-ruler",
+        "auric-barons"
+      ],
+      "object_ids": [
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 410,
+        "y": 530,
+        "width": 542,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Duke Ferdinand’s council.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 275,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Ferdinand: “We cannot hold the city. We have to surrender.”",
+          "bounds": {
+            "x": 14,
+            "y": 256,
+            "width": 514,
+            "height": 76
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p22-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Four capital ships total; one upgraded wedge Argonaut and three round-prowed repainted prizes. Only include ships explicitly requested.",
+        "Oram surrenders at the END of this page, not during the opening bombardment. No whole-duchy annexation or invented surrender terms.",
+        "Duke Ferdinand is the existing auric-ruler, distinct from Rovan and Admiral Joseph. Gold/navy court; bronze/crimson Veymarch messenger.",
+        "Preserve unique asymmetric farmland metropolis; avoid copying repeated conical castle islands."
+      ]
+    },
+    {
+      "id": "prologue-p22-panel04",
+      "chapter_id": "prologue",
+      "page_number": 22,
+      "panel_number": 4,
+      "description": "Wide cinematic shot at Oram’s damaged outer gate: Duke Ferdinand in SAME gold mantle/navy coat, swept-back dark greying hair and short beard, steps forward with THREE distinct barons just behind him, to hand a sealed surrender document to the SAME young brown-haired bronze/crimson goggled Veymarch messenger. ONE plain WHITE flag raised by an Auric guard signals the city’s surrender. Auric civic standards remain GOLD/NAVY balance in coin; messenger’s small crimson/SILVER pennant at waist. No Rovan or General necessary here, no additional capital ships. City gate masonry scorched, smoke behind, tired faces. No execution, no massacre, no new capture or red occupying flags; this is surrender of the city only. Foreground handover unmistakable, all named faces and white flag inside crop-safe band. Same broad stone city architecture, not repetitive floating islands.",
+      "character_ids": [
+        "auric-ruler",
+        "auric-barons",
+        "veymarch-courier"
+      ],
+      "object_ids": [
+        "banner-auric-reach",
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 890,
+        "width": 952,
+        "height": 378
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Oram surrendered.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The answer came beneath a white flag. Ferdinand and his barons yielded the city.",
+          "bounds": {
+            "x": 14,
+            "y": 292,
+            "width": 924,
+            "height": 68
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p22-panel04.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Four capital ships total; one upgraded wedge Argonaut and three round-prowed repainted prizes. Only include ships explicitly requested.",
+        "Oram surrenders at the END of this page, not during the opening bombardment. No whole-duchy annexation or invented surrender terms.",
+        "Duke Ferdinand is the existing auric-ruler, distinct from Rovan and Admiral Joseph. Gold/navy court; bronze/crimson Veymarch messenger.",
+        "Preserve unique asymmetric farmland metropolis; avoid copying repeated conical castle islands."
+      ]
     }
   ]
 }

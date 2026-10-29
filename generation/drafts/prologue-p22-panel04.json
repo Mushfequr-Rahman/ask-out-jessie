@@ -1,0 +1,313 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p22-panel04",
+  "parameters": {
+    "scene": "prologue-p22-panel04",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 0,
+    "y": 890,
+    "width": 952,
+    "height": 378
+  },
+  "target": {
+    "width": 1632,
+    "height": 640,
+    "size": "1632x640",
+    "visible_window": {
+      "x": 0.006172839506172811,
+      "y": 0,
+      "width": 0.9876543209876544,
+      "height": 1
+    }
+  },
+  "output_file": "assets/panels/prologue-p22-panel04.png",
+  "reference_images": [
+    {
+      "path": "assets/banner-veymarch.png",
+      "role": "AUTHORITATIVE banner colours, emblem and trim for veymarch. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.",
+      "index": 1
+    },
+    {
+      "path": "assets/banner-auric-reach.png",
+      "role": "AUTHORITATIVE banner colours, emblem and trim for auric-reach. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.",
+      "index": 2
+    },
+    {
+      "path": "assets/panels/prologue-p22-panel03.png",
+      "role": "Character identity/wardrobe anchor for auric-ruler; not extra people to insert.",
+      "index": 3
+    },
+    {
+      "path": "assets/panels/prologue-p22-panel02.png",
+      "role": "Character identity/wardrobe anchor for veymarch-courier; not extra people to insert.",
+      "index": 4
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "Oram surrendered.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 190,
+          "height": 44
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "Oram surrendered.",
+        "normalized_bounds": {
+          "x": 0.0147,
+          "y": 0.037,
+          "width": 0.1996,
+          "height": 0.1164
+        },
+        "source_bounds": {
+          "x": 0.0207,
+          "y": 0.037,
+          "width": 0.1971,
+          "height": 0.1164
+        }
+      },
+      {
+        "type": "narration",
+        "text": "The answer came beneath a white flag. Ferdinand and his barons yielded the city.",
+        "bounds": {
+          "x": 14,
+          "y": 292,
+          "width": 924,
+          "height": 68
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "The answer came beneath a white flag. Ferdinand and his barons yielded the city.",
+        "normalized_bounds": {
+          "x": 0.0147,
+          "y": 0.7725,
+          "width": 0.9706,
+          "height": 0.1799
+        },
+        "source_bounds": {
+          "x": 0.0207,
+          "y": 0.7725,
+          "width": 0.9586,
+          "height": 0.1799
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth’s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "veymarch",
+          "name": "Veymarch",
+          "emblem": "Silver broken shield and star"
+        },
+        {
+          "id": "auric-reach",
+          "name": "Auric Reach",
+          "emblem": "Merchant’s balance within a coin"
+        }
+      ]
+    },
+    "characters": [
+      {
+        "id": "auric-ruler",
+        "name": "Ferdinand",
+        "title": "Duke",
+        "visual_concept": {
+          "status": "Existing shadowed ruler is now named Duke Ferdinand; retain the earlier human face, gold/navy wardrobe and court setting.",
+          "appearance": "Middle-aged human man with swept-back dark hair greying at temples, short dark beard and moustache, lined face, heavy gold mantle and ceremonial chain over navy coat embroidered in gold. Not Rovan and not Admiral Joseph; no monocle. Looks exhausted and cornered during the council."
+        }
+      },
+      {
+        "id": "auric-barons",
+        "name": "Barons of Auric Reach",
+        "visual_concept": {
+          "appearance": "Three adult human nobles of varied ages in individual navy court coats with restrained gold trim; one older silver-haired woman, one bald bearded man, one younger dark-haired man. Distinct from the duke and from Admiral Joseph. Worried expressions, ordinary court dress, no Type C armour."
+        }
+      },
+      {
+        "id": "veymarch-courier",
+        "name": "The schooner courier",
+        "visual_concept": {
+          "appearance": "Young adult human messenger with short brown hair, flying goggles pushed onto forehead, worn bronze flight jacket over a crimson base layer; no silver armour."
+        },
+        "uniform_standard": "Practical bronze and leather flight gear over crimson cloth; Veymarch affiliation."
+      }
+    ],
+    "objects": [
+      {
+        "id": "banner-auric-reach",
+        "name": "Auric Reach banner",
+        "description": "Gold field; Merchant’s balance within a coin",
+        "canonical_reference": "assets/banner-auric-reach.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Golden yellow",
+            "hex": "#EDB916"
+          },
+          "emblem": {
+            "name": "Navy blue",
+            "hex": "#142A49"
+          },
+          "trim": {
+            "name": "Antique gold",
+            "hex": "#AA8951"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      },
+      {
+        "id": "banner-veymarch",
+        "name": "Veymarch banner",
+        "description": "Crimson field; Silver broken shield and star",
+        "canonical_reference": "assets/banner-veymarch.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Crimson",
+            "hex": "#991B1B"
+          },
+          "emblem": {
+            "name": "Aged silver",
+            "hex": "#C8C2B0"
+          },
+          "trim": {
+            "name": "Antique silver trim",
+            "hex": "#A89978"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location’s defining geography when changing camera angle.",
+      "Rovan owns FOUR capitals, one wedge Argonaut and three rounded repainted Bastion prizes. Oram’s siege ends with Duke Ferdinand and his barons surrendering the CITY on page22 after a messenger. Gold/navy Auric identities and crimson/silver Veymarch identities remain distinct. White flags are signals, not new house colours. Show only ships requested in this shot; no whole-duchy annexation.",
+      "Four capital ships total; one upgraded wedge Argonaut and three round-prowed repainted prizes. Only include ships explicitly requested.",
+      "Oram surrenders at the END of this page, not during the opening bombardment. No whole-duchy annexation or invented surrender terms.",
+      "Duke Ferdinand is the existing auric-ruler, distinct from Rovan and Admiral Joseph. Gold/navy court; bronze/crimson Veymarch messenger.",
+      "Preserve unique asymmetric farmland metropolis; avoid copying repeated conical castle islands.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch",
+      "banner-auric-reach"
+    ],
+    "policy": {
+      "reference_precedence": [
+        "Canonical banner reference for emblem geometry and colour placement",
+        "Dedicated material palette in objects.json for neutral-light hues",
+        "Scene and character references for composition and identity only"
+      ],
+      "review_checks": [
+        "Compare every visible banner with its canonical house reference side by side",
+        "Check cloth hue, emblem and trim separately under the scene lighting",
+        "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+      ],
+      "review_required": true
+    }
+  },
+  "prompt": "PURPOSE: Regenerate ONE comic illustration for FIXED holder 952.00 by 378.00 logical pixels, aspect 2.5185:1. LANDSCAPE. Requested output 1632x640. Do NOT resize or redesign the holder. Paint a NEW composition for it, not a framed photo.\n\nSCENE: Wide cinematic shot at Oram’s damaged outer gate: Duke Ferdinand in SAME gold mantle/navy coat, swept-back dark greying hair and short beard, steps forward with THREE distinct barons just behind him, to hand a sealed surrender document to the SAME young brown-haired bronze/crimson goggled Veymarch messenger. ONE plain WHITE flag raised by an Auric guard signals the city’s surrender. Auric civic standards remain GOLD/NAVY balance in coin; messenger’s small crimson/SILVER pennant at waist. No Rovan or General necessary here, no additional capital ships. City gate masonry scorched, smoke behind, tired faces. No execution, no massacre, no new capture or red occupying flags; this is surrender of the city only. Foreground handover unmistakable, all named faces and white flag inside crop-safe band. Same broad stone city architecture, not repetitive floating islands.\nCAMERA: Use a clear, tightly composed shot with the important action filling the aperture; do not copy the old wide framing.\n\nSTYLE: Magneton graphic novel: painted ink, tactile bronze machinery, silver Type C, crimson Veymarch cloth, navy/gold Auric Reach uniforms; atmospheric floating islands. Consistent with supplied scene references, not photorealistic.\n\nWORLD CONTEXT FROM world.json: {\"setting\":{\"genre\":[\"post-apocalyptic\",\"science fantasy\",\"feudal political adventure\"],\"planet\":\"Earth\",\"catastrophe\":{\"name\":\"The Fracture\",\"cause\":\"Nuclear war shattered Earth into floating islands.\",\"date\":null,\"instigators\":null},\"geography\":{\"landform\":\"Fractured continents and floating rock islands above an atmospheric void\",\"duchy_count\":8,\"atlas_asset_id\":\"shattered-earth-atlas\",\"boundaries\":\"Map labels mark regions of influence, not surveyed borders.\",\"exact_distances\":null},\"magnetic_fields\":{\"behavior\":\"Erratic and turbulent in motion, but their patterns are predictable.\",\"world_function\":\"Hold the fractured landmasses together.\",\"navigation\":\"Ships use magnetic motors to travel through the fields between cities and mining sites.\",\"safe_route_rules\":null},\"humanity\":{\"survival\":\"Humanity was nearly extinguished.\",\"adaptation\":\"Survivors evolved over generations under the influence of the magnetic fields.\",\"new_attributes_exist\":true,\"specific_attributes\":null},\"gravity_and_energy\":{\"city_support\":\"Magneton technology stabilizes floating cities and islands, preventing them from falling.\",\"local_gravity\":\"Generated local fields reproduce the experience of the old Earth’s gravity.\",\"power\":\"Oppositely polarized metal components move in magnetic motors, powering city and transport systems.\",\"fictional_physics\":\"These are rules of the setting; no real-world scientific mechanism is established.\",\"technical_limits\":null}},\"metals\":[{\"id\":\"type-a\",\"appearance\":\"Bronze-like metal\",\"properties\":[\"Very durable\"]},{\"id\":\"type-b\",\"appearance\":\"Glowing green in both polarities\",\"properties\":[\"Found in opposite magnetic polarities\"]},{\"id\":\"type-c\",\"appearance\":\"Silvery metal\",\"properties\":[\"Most malleable of the Magneton types\",\"Impenetrable and impervious to any weapons\",\"Can drift along magnetic fields\"]}],\"duchies\":[{\"id\":\"veymarch\",\"name\":\"Veymarch\",\"emblem\":\"Silver broken shield and star\"},{\"id\":\"auric-reach\",\"name\":\"Auric Reach\",\"emblem\":\"Merchant’s balance within a coin\"}]} Preserve the source scene’s era and events; do not add unrelated world elements.\n\nCHARACTERS (immutable identity and costume): [{\"id\":\"auric-ruler\",\"name\":\"Ferdinand\",\"title\":\"Duke\",\"visual_concept\":{\"status\":\"Existing shadowed ruler is now named Duke Ferdinand; retain the earlier human face, gold/navy wardrobe and court setting.\",\"appearance\":\"Middle-aged human man with swept-back dark hair greying at temples, short dark beard and moustache, lined face, heavy gold mantle and ceremonial chain over navy coat embroidered in gold. Not Rovan and not Admiral Joseph; no monocle. Looks exhausted and cornered during the council.\"}},{\"id\":\"auric-barons\",\"name\":\"Barons of Auric Reach\",\"visual_concept\":{\"appearance\":\"Three adult human nobles of varied ages in individual navy court coats with restrained gold trim; one older silver-haired woman, one bald bearded man, one younger dark-haired man. Distinct from the duke and from Admiral Joseph. Worried expressions, ordinary court dress, no Type C armour.\"}},{\"id\":\"veymarch-courier\",\"name\":\"The schooner courier\",\"visual_concept\":{\"appearance\":\"Young adult human messenger with short brown hair, flying goggles pushed onto forehead, worn bronze flight jacket over a crimson base layer; no silver armour.\"},\"uniform_standard\":\"Practical bronze and leather flight gear over crimson cloth; Veymarch affiliation.\"}]\n\nOBJECTS (only those belonging in this scene): [{\"id\":\"banner-auric-reach\",\"name\":\"Auric Reach banner\",\"description\":\"Gold field; Merchant’s balance within a coin\",\"canonical_reference\":\"assets/banner-auric-reach.png\",\"palette\":{\"color_space\":\"sRGB\",\"basis\":\"neutral-light art direction\",\"note\":\"Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.\",\"cloth\":{\"name\":\"Golden yellow\",\"hex\":\"#EDB916\"},\"emblem\":{\"name\":\"Navy blue\",\"hex\":\"#142A49\"},\"trim\":{\"name\":\"Antique gold\",\"hex\":\"#AA8951\"},\"lighting_rule\":\"Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette.\"}},{\"id\":\"banner-veymarch\",\"name\":\"Veymarch banner\",\"description\":\"Crimson field; Silver broken shield and star\",\"canonical_reference\":\"assets/banner-veymarch.png\",\"palette\":{\"color_space\":\"sRGB\",\"basis\":\"neutral-light art direction\",\"note\":\"Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.\",\"cloth\":{\"name\":\"Crimson\",\"hex\":\"#991B1B\"},\"emblem\":{\"name\":\"Aged silver\",\"hex\":\"#C8C2B0\"},\"trim\":{\"name\":\"Antique silver trim\",\"hex\":\"#A89978\"},\"lighting_rule\":\"Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette.\"}}]\n\nREFERENCES: [{\"path\":\"assets/banner-veymarch.png\",\"role\":\"AUTHORITATIVE banner colours, emblem and trim for veymarch. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.\",\"index\":1},{\"path\":\"assets/banner-auric-reach.png\",\"role\":\"AUTHORITATIVE banner colours, emblem and trim for auric-reach. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.\",\"index\":2},{\"path\":\"assets/panels/prologue-p22-panel03.png\",\"role\":\"Character identity/wardrobe anchor for auric-ruler; not extra people to insert.\",\"index\":3},{\"path\":\"assets/panels/prologue-p22-panel02.png\",\"role\":\"Character identity/wardrobe anchor for veymarch-courier; not extra people to insert.\",\"index\":4}]\n\nBANNER AUTHORITY: {\"reference_precedence\":[\"Canonical banner reference for emblem geometry and colour placement\",\"Dedicated material palette in objects.json for neutral-light hues\",\"Scene and character references for composition and identity only\"],\"review_checks\":[\"Compare every visible banner with its canonical house reference side by side\",\"Check cloth hue, emblem and trim separately under the scene lighting\",\"Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection\"],\"review_required\":true} Dedicated objects.json palettes describe neutral-light materials. Map/UI colours from world.json are not fabric colours. Canonical banner images control heraldic geometry; palette swatches control intended material hues. Older scene/character palettes never override these. Apply the palette lighting rule, keeping each house recognisable. Palette hex values are targets, not a guarantee of identical generated pixels.\n\nLETTERING: Draw the speech balloons, cream caption/narration boxes and ALL their text directly INTO the artwork. Use a professional clear comic lettering font, dark ink on pale cream/white, readable contrast. Reproduce each render_text EXACTLY, preserving punctuation; do not print speaker labels or JSON keys. Speech tails point to the speaking person. No other words, labels, signs or gibberish. The visible crop-safe aperture in FULL SOURCE coordinates is {\"x\":0.006172839506172811,\"y\":0,\"width\":0.9876543209876544,\"height\":1}. Place ALL text wholly inside it. The following bounding boxes are normalized to the FULL SOURCE image (not to the holder); use these adjusted positions exactly: [{\"type\":\"caption\",\"render_text\":\"Oram surrendered.\",\"bounds_in_full_source_image\":{\"x\":0.0207,\"y\":0.037,\"width\":0.1971,\"height\":0.1164}},{\"type\":\"narration\",\"render_text\":\"The answer came beneath a white flag. Ferdinand and his barons yielded the city.\",\"bounds_in_full_source_image\":{\"x\":0.0207,\"y\":0.7725,\"width\":0.9586,\"height\":0.1799}}]\n\nINVARIANTS: One image per request; no multi-panel collage or embedded borders. Compose for the fixed holder. Do not letterbox or paste the old wide image. Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts. Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones. No unsupported new lore, extra Type C suits, extra capital ships or invented character names. Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location’s defining geography when changing camera angle. Rovan owns FOUR capitals, one wedge Argonaut and three rounded repainted Bastion prizes. Oram’s siege ends with Duke Ferdinand and his barons surrendering the CITY on page22 after a messenger. Gold/navy Auric identities and crimson/silver Veymarch identities remain distinct. White flags are signals, not new house colours. Show only ships requested in this shot; no whole-duchy annexation. Four capital ships total; one upgraded wedge Argonaut and three round-prowed repainted prizes. Only include ships explicitly requested. Oram surrenders at the END of this page, not during the opening bombardment. No whole-duchy annexation or invented surrender terms. Duke Ferdinand is the existing auric-ruler, distinct from Rovan and Admiral Joseph. Gold/navy court; bronze/crimson Veymarch messenger. Preserve unique asymmetric farmland metropolis; avoid copying repeated conical castle islands. All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions.\n\nDELIVERY: Edge-to-edge painted scene with finished comic lettering, no blank borders, no letterboxing, no collage. If native output ratio differs from the holder, keep ALL important content inside its central crop-safe aperture; only expendable background may extend beyond. For a wide strip, put the main figures and action in the central horizontal band, leaving substantial sky/floor outside that band.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording",
+    "Compare every visible banner with its canonical house reference side by side",
+    "Check cloth hue, emblem and trim separately under the scene lighting",
+    "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+  ],
+  "source_hashes": {
+    "world.json": "f2d451df8f0c9b9a0d7d7167970725168cd2eeca321cf5a0c388b5f00b723d55",
+    "character.json": "5d9dd0d493b5137da815842ac4d6332411e40b02846470d04a77b64b803f945d",
+    "objects.json": "bb0ea5cbc04955329dd0690aee4b1a53588dea50161eef2376945ab83f706472",
+    "scene": "4ae4c0f00f611cf0d8da38406ba1b4c0c91a44bbaea1393d53746e5268b41d3d"
+  }
+}

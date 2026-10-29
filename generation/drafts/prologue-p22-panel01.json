@@ -1,0 +1,322 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p22-panel01",
+  "parameters": {
+    "scene": "prologue-p22-panel01",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 0,
+    "y": 0,
+    "width": 952,
+    "height": 520
+  },
+  "target": {
+    "width": 1392,
+    "height": 768,
+    "size": "1392x768",
+    "visible_window": {
+      "x": 0,
+      "y": 0.00498949579831931,
+      "width": 1,
+      "height": 0.9900210084033614
+    }
+  },
+  "output_file": "assets/panels/prologue-p22-panel01.png",
+  "reference_images": [
+    {
+      "path": "assets/banner-veymarch.png",
+      "role": "AUTHORITATIVE banner colours, emblem and trim for veymarch. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.",
+      "index": 1
+    },
+    {
+      "path": "assets/banner-auric-reach.png",
+      "role": "AUTHORITATIVE banner colours, emblem and trim for auric-reach. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.",
+      "index": 2
+    },
+    {
+      "path": "assets/argonaut-refit.png",
+      "role": "AUTHORITATIVE ship geometry for argonaut. Overrides older generic ship silhouettes in scene references; preserve this design in the new pose. Do not copy its background, people or lettering.",
+      "index": 3
+    },
+    {
+      "path": "assets/panels/prologue-p20-panel05.png",
+      "role": "AUTHORITATIVE ship geometry for repainted-bastions. Overrides older generic ship silhouettes in scene references; preserve this design in the new pose. Do not copy its background, people or lettering.",
+      "index": 4
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "The guns did not stop.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 242,
+          "height": 44
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "The guns did not stop.",
+        "normalized_bounds": {
+          "x": 0.0147,
+          "y": 0.0269,
+          "width": 0.2542,
+          "height": 0.0846
+        },
+        "source_bounds": {
+          "x": 0.0147,
+          "y": 0.0316,
+          "width": 0.2542,
+          "height": 0.0838
+        }
+      },
+      {
+        "type": "narration",
+        "text": "The four ships spread out above Oram. Shells burst among its towers. Smoke rolled across the city.",
+        "bounds": {
+          "x": 14,
+          "y": 434,
+          "width": 924,
+          "height": 68
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "The four ships spread out above Oram. Shells burst among its towers. Smoke rolled across the city.",
+        "normalized_bounds": {
+          "x": 0.0147,
+          "y": 0.8346,
+          "width": 0.9706,
+          "height": 0.1308
+        },
+        "source_bounds": {
+          "x": 0.0147,
+          "y": 0.8313,
+          "width": 0.9706,
+          "height": 0.1295
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth’s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "veymarch",
+          "name": "Veymarch",
+          "emblem": "Silver broken shield and star"
+        },
+        {
+          "id": "auric-reach",
+          "name": "Auric Reach",
+          "emblem": "Merchant’s balance within a coin"
+        }
+      ]
+    },
+    "characters": [],
+    "objects": [
+      {
+        "id": "argonaut",
+        "name": "Argonaut",
+        "description": "Rovan’s ONE Bastion-derived Argonaut, refitted with his newfound wealth. UNIQUE silhouette: elongated rigid bronze Zeppelin central hull, two shorter side gun hulls, wedge-shaped armoured ram prow and reinforced lower keel; crimson lacquer side armour between bronze ribs, low protected command citadel, TWO exposed green magnetic stabiliser rings near the stern, FOUR articulated bronze vectoring thruster pods with green Type B glow, rebuilt gun positions. Veymarch SILVER broken shield/eight-point star on crimson banners. Workshop-built industrial machinery, not ornate fantasy gold or a generic round-nosed Bastion. HEAVY CANNON UPGRADE: two prominent twin-barrel heavy gun turrets on the upper foredeck, four huge long bronze-and-black cannon barrels, much thicker and longer than standard Bastion deck guns, with reinforced recoil cradles and visible mechanical breeches. Keep the wedge prow and crimson plating. These are conventional heavy cannons, not new magical weapons.",
+        "constraints": [
+          "Exactly one Argonaut. The three captured Bastions may appear alongside it only in explicitly post-surrender fleet scenes. No wooden hulls, sails or extra vessels.",
+          "Same ship after a refit, never an additional capital ship.",
+          "All hull armour is bronze Type A; machinery is green Type B. No silver Type C hull or invulnerability.",
+          "Canonical Argonaut refit design controls hull geometry; older generic Bastion art supplies ancestry only.",
+          "Keep the wedge prow, crimson side armour, paired green stern stabiliser rings and vectoring pods recognisable in every new exterior view.",
+          "The enlarged heavy cannons must be conspicuous in exterior views; do not shrink them to decorative small deck guns.",
+          "The refit takes a legendary FOURTEEN DAYS, using captured resources; it is the same existing ship."
+        ],
+        "canonical_reference": "assets/argonaut-refit.png"
+      },
+      {
+        "id": "repainted-bastions",
+        "name": "New Frontier’s repainted prizes",
+        "description": "Josephine, Serenity and Serendipity AFTER the page20 dock repairs and quick recolouring. Three standard round-prowed Bastion capital ships, now with CRIMSON painted hull panels, bronze structural ribs and SILVER Veymarch broken-shield/star insignia. They keep their original hull shapes, standard guns and distinguishing tower/engine arrangements; do NOT become three wedge-prowed Argonaut copies or gain its huge refit cannons. Fresh paint/repair crews can be shown during the dock montage.",
+        "constraints": [
+          "Exactly three prizes, plus the original Argonaut only if the shot explicitly calls for the whole fleet of FOUR.",
+          "The old fleet reference supplies hull geometry only; replace Auric gold/navy flags with crimson/silver Veymarch flags after repainting."
+        ],
+        "canonical_reference": "assets/panels/prologue-p20-panel05.png"
+      },
+      {
+        "id": "oram-city",
+        "name": "Oram and its farmland",
+        "description": "World’s largest and richest floating city, capital of Auric Reach. A vast ASYMMETRIC stratified landmass, broad agricultural shelves with patchwork fields, orchards and terraces, grain stores, dense varied urban districts, long freight gantries and a distant administrative citadel. Wealth comes from access to most farmland. Distinct geology: huge uneven multi-tiered slab with fractured cliffs and farms on lower shelves, not repeated castle-topped inverted cones. City flags GOLD with NAVY balance-in-coin. Keep a single connected metropolitan mass dominant, other fragments sparse and irregular.",
+        "constraints": [
+          "Under siege on page21; the city surrenders on page22. No new occupying banners are required before the surrender.",
+          "Farmland is substantial and recognisable; do not make every fragment another identical city."
+        ]
+      },
+      {
+        "id": "banner-veymarch",
+        "name": "Veymarch banner",
+        "description": "Crimson field; Silver broken shield and star",
+        "canonical_reference": "assets/banner-veymarch.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Crimson",
+            "hex": "#991B1B"
+          },
+          "emblem": {
+            "name": "Aged silver",
+            "hex": "#C8C2B0"
+          },
+          "trim": {
+            "name": "Antique silver trim",
+            "hex": "#A89978"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      },
+      {
+        "id": "banner-auric-reach",
+        "name": "Auric Reach banner",
+        "description": "Gold field; Merchant’s balance within a coin",
+        "canonical_reference": "assets/banner-auric-reach.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Golden yellow",
+            "hex": "#EDB916"
+          },
+          "emblem": {
+            "name": "Navy blue",
+            "hex": "#142A49"
+          },
+          "trim": {
+            "name": "Antique gold",
+            "hex": "#AA8951"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location’s defining geography when changing camera angle.",
+      "Rovan owns FOUR capitals, one wedge Argonaut and three rounded repainted Bastion prizes. Oram’s siege ends with Duke Ferdinand and his barons surrendering the CITY on page22 after a messenger. Gold/navy Auric identities and crimson/silver Veymarch identities remain distinct. White flags are signals, not new house colours. Show only ships requested in this shot; no whole-duchy annexation.",
+      "Four capital ships total; one upgraded wedge Argonaut and three round-prowed repainted prizes. Only include ships explicitly requested.",
+      "Oram surrenders at the END of this page, not during the opening bombardment. No whole-duchy annexation or invented surrender terms.",
+      "Duke Ferdinand is the existing auric-ruler, distinct from Rovan and Admiral Joseph. Gold/navy court; bronze/crimson Veymarch messenger.",
+      "Preserve unique asymmetric farmland metropolis; avoid copying repeated conical castle islands.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch",
+      "banner-auric-reach"
+    ],
+    "policy": {
+      "reference_precedence": [
+        "Canonical banner reference for emblem geometry and colour placement",
+        "Dedicated material palette in objects.json for neutral-light hues",
+        "Scene and character references for composition and identity only"
+      ],
+      "review_checks": [
+        "Compare every visible banner with its canonical house reference side by side",
+        "Check cloth hue, emblem and trim separately under the scene lighting",
+        "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+      ],
+      "review_required": true
+    }
+  },
+  "prompt": "PURPOSE: Regenerate ONE comic illustration for FIXED holder 952.00 by 520.00 logical pixels, aspect 1.8308:1. LANDSCAPE. Requested output 1392x768. Do NOT resize or redesign the holder. Paint a NEW composition for it, not a framed photo.\n\nSCENE: Elevated distant wide BATTLE MAP composition in a continuous painted scene, not a diagram: EXACTLY FOUR countable complete ships clustered but SPREAD APART in the UPPER LEFT half, with the enormous city of Oram in the UPPER RIGHT and right half. One crimson wedge-prowed Argonaut with FOUR enormous cannon barrels, and THREE ROUND-prowed crimson Bastion prizes with standard guns. All four are firing to the RIGHT at the city: muzzle flashes, clearly directed shell smoke streaks from ships toward Oram and several DISTINCT bright explosions amid city rooftops, defensive towers and gate district, rising heavy grey smoke. Make the city still recognisable as one massive irregular stratified farmland metropolis, golden fields on low shelves, dense low districts and citadel; not cloned cone islands. Vast open sky/void lower left gives breathing space. All four hulls fully within crop; do NOT hide a fifth hull in smoke, do NOT make four wedge Argonauts. Ship flags Veymarch CRIMSON/SILVER; city banners Auric GOLD/NAVY. No bodies or graphic injuries. Keep bombardment visibly active and explosions INSIDE the urban city district, not just empty rocks.\nCAMERA: Use a clear, tightly composed shot with the important action filling the aperture; do not copy the old wide framing.\n\nSTYLE: Magneton graphic novel: painted ink, tactile bronze machinery, silver Type C, crimson Veymarch cloth, navy/gold Auric Reach uniforms; atmospheric floating islands. Consistent with supplied scene references, not photorealistic.\n\nWORLD CONTEXT FROM world.json: {\"setting\":{\"genre\":[\"post-apocalyptic\",\"science fantasy\",\"feudal political adventure\"],\"planet\":\"Earth\",\"catastrophe\":{\"name\":\"The Fracture\",\"cause\":\"Nuclear war shattered Earth into floating islands.\",\"date\":null,\"instigators\":null},\"geography\":{\"landform\":\"Fractured continents and floating rock islands above an atmospheric void\",\"duchy_count\":8,\"atlas_asset_id\":\"shattered-earth-atlas\",\"boundaries\":\"Map labels mark regions of influence, not surveyed borders.\",\"exact_distances\":null},\"magnetic_fields\":{\"behavior\":\"Erratic and turbulent in motion, but their patterns are predictable.\",\"world_function\":\"Hold the fractured landmasses together.\",\"navigation\":\"Ships use magnetic motors to travel through the fields between cities and mining sites.\",\"safe_route_rules\":null},\"humanity\":{\"survival\":\"Humanity was nearly extinguished.\",\"adaptation\":\"Survivors evolved over generations under the influence of the magnetic fields.\",\"new_attributes_exist\":true,\"specific_attributes\":null},\"gravity_and_energy\":{\"city_support\":\"Magneton technology stabilizes floating cities and islands, preventing them from falling.\",\"local_gravity\":\"Generated local fields reproduce the experience of the old Earth’s gravity.\",\"power\":\"Oppositely polarized metal components move in magnetic motors, powering city and transport systems.\",\"fictional_physics\":\"These are rules of the setting; no real-world scientific mechanism is established.\",\"technical_limits\":null}},\"metals\":[{\"id\":\"type-a\",\"appearance\":\"Bronze-like metal\",\"properties\":[\"Very durable\"]},{\"id\":\"type-b\",\"appearance\":\"Glowing green in both polarities\",\"properties\":[\"Found in opposite magnetic polarities\"]},{\"id\":\"type-c\",\"appearance\":\"Silvery metal\",\"properties\":[\"Most malleable of the Magneton types\",\"Impenetrable and impervious to any weapons\",\"Can drift along magnetic fields\"]}],\"duchies\":[{\"id\":\"veymarch\",\"name\":\"Veymarch\",\"emblem\":\"Silver broken shield and star\"},{\"id\":\"auric-reach\",\"name\":\"Auric Reach\",\"emblem\":\"Merchant’s balance within a coin\"}]} Preserve the source scene’s era and events; do not add unrelated world elements.\n\nCHARACTERS (immutable identity and costume): []\n\nOBJECTS (only those belonging in this scene): [{\"id\":\"argonaut\",\"name\":\"Argonaut\",\"description\":\"Rovan’s ONE Bastion-derived Argonaut, refitted with his newfound wealth. UNIQUE silhouette: elongated rigid bronze Zeppelin central hull, two shorter side gun hulls, wedge-shaped armoured ram prow and reinforced lower keel; crimson lacquer side armour between bronze ribs, low protected command citadel, TWO exposed green magnetic stabiliser rings near the stern, FOUR articulated bronze vectoring thruster pods with green Type B glow, rebuilt gun positions. Veymarch SILVER broken shield/eight-point star on crimson banners. Workshop-built industrial machinery, not ornate fantasy gold or a generic round-nosed Bastion. HEAVY CANNON UPGRADE: two prominent twin-barrel heavy gun turrets on the upper foredeck, four huge long bronze-and-black cannon barrels, much thicker and longer than standard Bastion deck guns, with reinforced recoil cradles and visible mechanical breeches. Keep the wedge prow and crimson plating. These are conventional heavy cannons, not new magical weapons.\",\"constraints\":[\"Exactly one Argonaut. The three captured Bastions may appear alongside it only in explicitly post-surrender fleet scenes. No wooden hulls, sails or extra vessels.\",\"Same ship after a refit, never an additional capital ship.\",\"All hull armour is bronze Type A; machinery is green Type B. No silver Type C hull or invulnerability.\",\"Canonical Argonaut refit design controls hull geometry; older generic Bastion art supplies ancestry only.\",\"Keep the wedge prow, crimson side armour, paired green stern stabiliser rings and vectoring pods recognisable in every new exterior view.\",\"The enlarged heavy cannons must be conspicuous in exterior views; do not shrink them to decorative small deck guns.\",\"The refit takes a legendary FOURTEEN DAYS, using captured resources; it is the same existing ship.\"],\"canonical_reference\":\"assets/argonaut-refit.png\"},{\"id\":\"repainted-bastions\",\"name\":\"New Frontier’s repainted prizes\",\"description\":\"Josephine, Serenity and Serendipity AFTER the page20 dock repairs and quick recolouring. Three standard round-prowed Bastion capital ships, now with CRIMSON painted hull panels, bronze structural ribs and SILVER Veymarch broken-shield/star insignia. They keep their original hull shapes, standard guns and distinguishing tower/engine arrangements; do NOT become three wedge-prowed Argonaut copies or gain its huge refit cannons. Fresh paint/repair crews can be shown during the dock montage.\",\"constraints\":[\"Exactly three prizes, plus the original Argonaut only if the shot explicitly calls for the whole fleet of FOUR.\",\"The old fleet reference supplies hull geometry only; replace Auric gold/navy flags with crimson/silver Veymarch flags after repainting.\"],\"canonical_reference\":\"assets/panels/prologue-p20-panel05.png\"},{\"id\":\"oram-city\",\"name\":\"Oram and its farmland\",\"description\":\"World’s largest and richest floating city, capital of Auric Reach. A vast ASYMMETRIC stratified landmass, broad agricultural shelves with patchwork fields, orchards and terraces, grain stores, dense varied urban districts, long freight gantries and a distant administrative citadel. Wealth comes from access to most farmland. Distinct geology: huge uneven multi-tiered slab with fractured cliffs and farms on lower shelves, not repeated castle-topped inverted cones. City flags GOLD with NAVY balance-in-coin. Keep a single connected metropolitan mass dominant, other fragments sparse and irregular.\",\"constraints\":[\"Under siege on page21; the city surrenders on page22. No new occupying banners are required before the surrender.\",\"Farmland is substantial and recognisable; do not make every fragment another identical city.\"]},{\"id\":\"banner-veymarch\",\"name\":\"Veymarch banner\",\"description\":\"Crimson field; Silver broken shield and star\",\"canonical_reference\":\"assets/banner-veymarch.png\",\"palette\":{\"color_space\":\"sRGB\",\"basis\":\"neutral-light art direction\",\"note\":\"Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.\",\"cloth\":{\"name\":\"Crimson\",\"hex\":\"#991B1B\"},\"emblem\":{\"name\":\"Aged silver\",\"hex\":\"#C8C2B0\"},\"trim\":{\"name\":\"Antique silver trim\",\"hex\":\"#A89978\"},\"lighting_rule\":\"Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette.\"}},{\"id\":\"banner-auric-reach\",\"name\":\"Auric Reach banner\",\"description\":\"Gold field; Merchant’s balance within a coin\",\"canonical_reference\":\"assets/banner-auric-reach.png\",\"palette\":{\"color_space\":\"sRGB\",\"basis\":\"neutral-light art direction\",\"note\":\"Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.\",\"cloth\":{\"name\":\"Golden yellow\",\"hex\":\"#EDB916\"},\"emblem\":{\"name\":\"Navy blue\",\"hex\":\"#142A49\"},\"trim\":{\"name\":\"Antique gold\",\"hex\":\"#AA8951\"},\"lighting_rule\":\"Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette.\"}}]\n\nREFERENCES: [{\"path\":\"assets/banner-veymarch.png\",\"role\":\"AUTHORITATIVE banner colours, emblem and trim for veymarch. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.\",\"index\":1},{\"path\":\"assets/banner-auric-reach.png\",\"role\":\"AUTHORITATIVE banner colours, emblem and trim for auric-reach. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.\",\"index\":2},{\"path\":\"assets/argonaut-refit.png\",\"role\":\"AUTHORITATIVE ship geometry for argonaut. Overrides older generic ship silhouettes in scene references; preserve this design in the new pose. Do not copy its background, people or lettering.\",\"index\":3},{\"path\":\"assets/panels/prologue-p20-panel05.png\",\"role\":\"AUTHORITATIVE ship geometry for repainted-bastions. Overrides older generic ship silhouettes in scene references; preserve this design in the new pose. Do not copy its background, people or lettering.\",\"index\":4}]\n\nBANNER AUTHORITY: {\"reference_precedence\":[\"Canonical banner reference for emblem geometry and colour placement\",\"Dedicated material palette in objects.json for neutral-light hues\",\"Scene and character references for composition and identity only\"],\"review_checks\":[\"Compare every visible banner with its canonical house reference side by side\",\"Check cloth hue, emblem and trim separately under the scene lighting\",\"Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection\"],\"review_required\":true} Dedicated objects.json palettes describe neutral-light materials. Map/UI colours from world.json are not fabric colours. Canonical banner images control heraldic geometry; palette swatches control intended material hues. Older scene/character palettes never override these. Apply the palette lighting rule, keeping each house recognisable. Palette hex values are targets, not a guarantee of identical generated pixels.\n\nLETTERING: Draw the speech balloons, cream caption/narration boxes and ALL their text directly INTO the artwork. Use a professional clear comic lettering font, dark ink on pale cream/white, readable contrast. Reproduce each render_text EXACTLY, preserving punctuation; do not print speaker labels or JSON keys. Speech tails point to the speaking person. No other words, labels, signs or gibberish. The visible crop-safe aperture in FULL SOURCE coordinates is {\"x\":0,\"y\":0.00498949579831931,\"width\":1,\"height\":0.9900210084033614}. Place ALL text wholly inside it. The following bounding boxes are normalized to the FULL SOURCE image (not to the holder); use these adjusted positions exactly: [{\"type\":\"caption\",\"render_text\":\"The guns did not stop.\",\"bounds_in_full_source_image\":{\"x\":0.0147,\"y\":0.0316,\"width\":0.2542,\"height\":0.0838}},{\"type\":\"narration\",\"render_text\":\"The four ships spread out above Oram. Shells burst among its towers. Smoke rolled across the city.\",\"bounds_in_full_source_image\":{\"x\":0.0147,\"y\":0.8313,\"width\":0.9706,\"height\":0.1295}}]\n\nINVARIANTS: One image per request; no multi-panel collage or embedded borders. Compose for the fixed holder. Do not letterbox or paste the old wide image. Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts. Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones. No unsupported new lore, extra Type C suits, extra capital ships or invented character names. Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location’s defining geography when changing camera angle. Rovan owns FOUR capitals, one wedge Argonaut and three rounded repainted Bastion prizes. Oram’s siege ends with Duke Ferdinand and his barons surrendering the CITY on page22 after a messenger. Gold/navy Auric identities and crimson/silver Veymarch identities remain distinct. White flags are signals, not new house colours. Show only ships requested in this shot; no whole-duchy annexation. Four capital ships total; one upgraded wedge Argonaut and three round-prowed repainted prizes. Only include ships explicitly requested. Oram surrenders at the END of this page, not during the opening bombardment. No whole-duchy annexation or invented surrender terms. Duke Ferdinand is the existing auric-ruler, distinct from Rovan and Admiral Joseph. Gold/navy court; bronze/crimson Veymarch messenger. Preserve unique asymmetric farmland metropolis; avoid copying repeated conical castle islands. All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions.\n\nDELIVERY: Edge-to-edge painted scene with finished comic lettering, no blank borders, no letterboxing, no collage. If native output ratio differs from the holder, keep ALL important content inside its central crop-safe aperture; only expendable background may extend beyond. For a wide strip, put the main figures and action in the central horizontal band, leaving substantial sky/floor outside that band.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording",
+    "Compare every visible banner with its canonical house reference side by side",
+    "Check cloth hue, emblem and trim separately under the scene lighting",
+    "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+  ],
+  "source_hashes": {
+    "world.json": "f2d451df8f0c9b9a0d7d7167970725168cd2eeca321cf5a0c388b5f00b723d55",
+    "character.json": "5d9dd0d493b5137da815842ac4d6332411e40b02846470d04a77b64b803f945d",
+    "objects.json": "bb0ea5cbc04955329dd0690aee4b1a53588dea50161eef2376945ab83f706472",
+    "scene": "5f55a56a5a6cbd985e382e84d5164c11d78881bc43f63a0b44064a28f6008f2b"
+  }
+}
