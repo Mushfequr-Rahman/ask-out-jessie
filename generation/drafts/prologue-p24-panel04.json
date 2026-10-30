@@ -1,0 +1,304 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p24-panel04",
+  "parameters": {
+    "scene": "prologue-p24-panel04",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 0,
+    "y": 770,
+    "width": 952,
+    "height": 498
+  },
+  "target": {
+    "width": 1408,
+    "height": 736,
+    "size": "1408x736",
+    "visible_window": {
+      "x": 0.0003650967506389491,
+      "y": 0,
+      "width": 0.9992698064987221,
+      "height": 1
+    }
+  },
+  "output_file": "assets/panels/prologue-p24-panel04.png",
+  "reference_images": [
+    {
+      "path": "assets/banner-veymarch.png",
+      "role": "AUTHORITATIVE banner colours, emblem and trim for veymarch. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.",
+      "index": 1
+    },
+    {
+      "path": "references/panels/duke-seizure-crimson.png",
+      "role": "Character identity/wardrobe anchor for rovan-vey; not extra people to insert.",
+      "index": 2
+    },
+    {
+      "path": "assets/panels/prologue-p20-panel04.png",
+      "role": "Character identity/wardrobe anchor for mara-voss; not extra people to insert.",
+      "index": 3
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "Four ships. A larger problem.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 319,
+          "height": 44
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "Four ships. A larger problem.",
+        "normalized_bounds": {
+          "x": 0.0147,
+          "y": 0.0281,
+          "width": 0.3351,
+          "height": 0.0884
+        },
+        "source_bounds": {
+          "x": 0.0151,
+          "y": 0.0281,
+          "width": 0.3349,
+          "height": 0.0884
+        }
+      },
+      {
+        "type": "speech",
+        "text": "Rovan: “We can’t be everywhere. Tell me what we can hold—and what it will cost.”",
+        "bounds": {
+          "x": 14,
+          "y": 408,
+          "width": 924,
+          "height": 72
+        },
+        "speaker_name": "Rovan",
+        "speaker_id": "rovan-vey",
+        "render_text": "We can’t be everywhere. Tell me what we can hold—and what it will cost.",
+        "normalized_bounds": {
+          "x": 0.0147,
+          "y": 0.8193,
+          "width": 0.9706,
+          "height": 0.1446
+        },
+        "source_bounds": {
+          "x": 0.0151,
+          "y": 0.8193,
+          "width": 0.9699,
+          "height": 0.1446
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth’s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "veymarch",
+          "name": "Veymarch",
+          "emblem": "Silver broken shield and star"
+        }
+      ]
+    },
+    "characters": [
+      {
+        "id": "rovan-vey",
+        "name": "Rovan Vey",
+        "title": "Duke",
+        "visual_concept": {
+          "status": "provisional artwork, not established biography",
+          "appearance": "Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf"
+        },
+        "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+      },
+      {
+        "id": "general-grievous",
+        "name": "General Grievous",
+        "visual_concept": {
+          "status": "provisional project artwork, not established species or biography",
+          "appearance": "Older bald human officer with a grey moustache, dark olive coat and bronze epaulettes"
+        },
+        "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+      },
+      {
+        "id": "mara-voss",
+        "name": "Mara Voss",
+        "title": "Captain",
+        "visual_concept": {
+          "status": "Provisional original character design",
+          "appearance": "Brown-skinned human woman in her thirties, dark hair in one long braid, composed direct gaze, navy naval coat over crimson shirt, small bronze epaulettes and practical belt. No silver armour."
+        },
+        "uniform_standard": "Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set."
+      },
+      {
+        "id": "idris-vale",
+        "name": "Idris Vale",
+        "title": "Captain",
+        "visual_concept": {
+          "status": "Provisional original character design",
+          "appearance": "Tall dark-skinned human man, close-cropped black curls, short full black beard, navy naval coat with crimson collar and rolled cuffs, modest bronze fittings. No silver armour."
+        },
+        "uniform_standard": "Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set."
+      },
+      {
+        "id": "tomas-kest",
+        "name": "Tomas Kest",
+        "title": "Captain",
+        "visual_concept": {
+          "status": "Provisional original character design",
+          "appearance": "Stocky light-tan-skinned human man, straight cropped black hair with grey temples, clean-shaven face, square brass-framed spectacles, navy naval coat over crimson and practical leather gloves. No monocle or silver armour."
+        },
+        "uniform_standard": "Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set."
+      }
+    ],
+    "objects": [
+      {
+        "id": "banner-veymarch",
+        "name": "Veymarch banner",
+        "description": "Crimson field; Silver broken shield and star",
+        "canonical_reference": "assets/banner-veymarch.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Crimson",
+            "hex": "#991B1B"
+          },
+          "emblem": {
+            "name": "Aged silver",
+            "hex": "#C8C2B0"
+          },
+          "trim": {
+            "name": "Antique silver trim",
+            "hex": "#A89978"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location’s defining geography when changing camera angle.",
+      "After Oram’s surrender, Rovan begins local reforms but struggles to govern and defend captured holdings. Exactly FOUR owned capital ships remain. Ironveil and Glassmere move toward exposed Auric outer territory using SMALL craft; no additional capitals or completed whole-duchy annexation. Ordinary naval captains are separate from five Type C knights.",
+      "After Oram’s surrender: no bombardment or surrender replay. Rovan is now struggling to govern.",
+      "Exactly four OWNED capital ships remain, no new prizes; show none unless explicitly requested. Other duchies use small transports/patrol craft in these scenes.",
+      "Elder baron is bald and grey-bearded, exiled not executed; Duke Ferdinand is a different dark-haired gold-mantled man.",
+      "Ordinary officers only in page24 council. Three naval captains are distinct from five silver Type C knights.",
+      "Preserve canonical house palettes, varied geography and the limited scope of the emerging reforms. No ninth duchy or final borders.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch"
+    ],
+    "policy": {
+      "reference_precedence": [
+        "Canonical banner reference for emblem geometry and colour placement",
+        "Dedicated material palette in objects.json for neutral-light hues",
+        "Scene and character references for composition and identity only"
+      ],
+      "review_checks": [
+        "Compare every visible banner with its canonical house reference side by side",
+        "Check cloth hue, emblem and trim separately under the scene lighting",
+        "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+      ],
+      "review_required": true
+    }
+  },
+  "prompt": "PURPOSE: Regenerate ONE comic illustration for FIXED holder 952.00 by 498.00 logical pixels, aspect 1.9116:1. LANDSCAPE. Requested output 1408x736. Do NOT resize or redesign the holder. Paint a NEW composition for it, not a framed photo.\n\nSCENE: Exactly FIVE foreground people around one large map table in Oram: Rovan at head, General Grievous older BALD human grey moustache OLIVE coat/crimson, and THREE NAVAL captains from canonical portrait: woman Mara Voss brown skin long dark braid, Idris Vale tall dark skin close curls short full beard, Tomas Kest stocky light tan clean-shaven SQUARE brass spectacles. Navy/crimson naval coats with bronze fittings, NO silver Type C armour and no five silver knights. All five distinct heads visible. Map has four simple brass ship markers total and three irregular land clusters, NO legible labels or invented borders. Rovan asks for advice, captains lean in with worried/considering expressions. No plan decided, no pointing victory arrow. Plain crimson/SILVER banner behind. Keep all faces, hands and map in aperture outside lettering.\nCAMERA: Use a clear, tightly composed shot with the important action filling the aperture; do not copy the old wide framing.\n\nSTYLE: Magneton graphic novel: painted ink, tactile bronze machinery, silver Type C, crimson Veymarch cloth, navy/gold Auric Reach uniforms; atmospheric floating islands. Consistent with supplied scene references, not photorealistic.\n\nWORLD CONTEXT FROM world.json: {\"setting\":{\"genre\":[\"post-apocalyptic\",\"science fantasy\",\"feudal political adventure\"],\"planet\":\"Earth\",\"catastrophe\":{\"name\":\"The Fracture\",\"cause\":\"Nuclear war shattered Earth into floating islands.\",\"date\":null,\"instigators\":null},\"geography\":{\"landform\":\"Fractured continents and floating rock islands above an atmospheric void\",\"duchy_count\":8,\"atlas_asset_id\":\"shattered-earth-atlas\",\"boundaries\":\"Map labels mark regions of influence, not surveyed borders.\",\"exact_distances\":null},\"magnetic_fields\":{\"behavior\":\"Erratic and turbulent in motion, but their patterns are predictable.\",\"world_function\":\"Hold the fractured landmasses together.\",\"navigation\":\"Ships use magnetic motors to travel through the fields between cities and mining sites.\",\"safe_route_rules\":null},\"humanity\":{\"survival\":\"Humanity was nearly extinguished.\",\"adaptation\":\"Survivors evolved over generations under the influence of the magnetic fields.\",\"new_attributes_exist\":true,\"specific_attributes\":null},\"gravity_and_energy\":{\"city_support\":\"Magneton technology stabilizes floating cities and islands, preventing them from falling.\",\"local_gravity\":\"Generated local fields reproduce the experience of the old Earth’s gravity.\",\"power\":\"Oppositely polarized metal components move in magnetic motors, powering city and transport systems.\",\"fictional_physics\":\"These are rules of the setting; no real-world scientific mechanism is established.\",\"technical_limits\":null}},\"metals\":[{\"id\":\"type-a\",\"appearance\":\"Bronze-like metal\",\"properties\":[\"Very durable\"]},{\"id\":\"type-b\",\"appearance\":\"Glowing green in both polarities\",\"properties\":[\"Found in opposite magnetic polarities\"]},{\"id\":\"type-c\",\"appearance\":\"Silvery metal\",\"properties\":[\"Most malleable of the Magneton types\",\"Impenetrable and impervious to any weapons\",\"Can drift along magnetic fields\"]}],\"duchies\":[{\"id\":\"veymarch\",\"name\":\"Veymarch\",\"emblem\":\"Silver broken shield and star\"}]} Preserve the source scene’s era and events; do not add unrelated world elements.\n\nCHARACTERS (immutable identity and costume): [{\"id\":\"rovan-vey\",\"name\":\"Rovan Vey\",\"title\":\"Duke\",\"visual_concept\":{\"status\":\"provisional artwork, not established biography\",\"appearance\":\"Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf\"},\"uniform_standard\":\"Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.\"},{\"id\":\"general-grievous\",\"name\":\"General Grievous\",\"visual_concept\":{\"status\":\"provisional project artwork, not established species or biography\",\"appearance\":\"Older bald human officer with a grey moustache, dark olive coat and bronze epaulettes\"},\"uniform_standard\":\"Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.\"},{\"id\":\"mara-voss\",\"name\":\"Mara Voss\",\"title\":\"Captain\",\"visual_concept\":{\"status\":\"Provisional original character design\",\"appearance\":\"Brown-skinned human woman in her thirties, dark hair in one long braid, composed direct gaze, navy naval coat over crimson shirt, small bronze epaulettes and practical belt. No silver armour.\"},\"uniform_standard\":\"Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set.\"},{\"id\":\"idris-vale\",\"name\":\"Idris Vale\",\"title\":\"Captain\",\"visual_concept\":{\"status\":\"Provisional original character design\",\"appearance\":\"Tall dark-skinned human man, close-cropped black curls, short full black beard, navy naval coat with crimson collar and rolled cuffs, modest bronze fittings. No silver armour.\"},\"uniform_standard\":\"Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set.\"},{\"id\":\"tomas-kest\",\"name\":\"Tomas Kest\",\"title\":\"Captain\",\"visual_concept\":{\"status\":\"Provisional original character design\",\"appearance\":\"Stocky light-tan-skinned human man, straight cropped black hair with grey temples, clean-shaven face, square brass-framed spectacles, navy naval coat over crimson and practical leather gloves. No monocle or silver armour.\"},\"uniform_standard\":\"Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set.\"}]\n\nOBJECTS (only those belonging in this scene): [{\"id\":\"banner-veymarch\",\"name\":\"Veymarch banner\",\"description\":\"Crimson field; Silver broken shield and star\",\"canonical_reference\":\"assets/banner-veymarch.png\",\"palette\":{\"color_space\":\"sRGB\",\"basis\":\"neutral-light art direction\",\"note\":\"Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.\",\"cloth\":{\"name\":\"Crimson\",\"hex\":\"#991B1B\"},\"emblem\":{\"name\":\"Aged silver\",\"hex\":\"#C8C2B0\"},\"trim\":{\"name\":\"Antique silver trim\",\"hex\":\"#A89978\"},\"lighting_rule\":\"Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette.\"}}]\n\nREFERENCES: [{\"path\":\"assets/banner-veymarch.png\",\"role\":\"AUTHORITATIVE banner colours, emblem and trim for veymarch. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.\",\"index\":1},{\"path\":\"references/panels/duke-seizure-crimson.png\",\"role\":\"Character identity/wardrobe anchor for rovan-vey; not extra people to insert.\",\"index\":2},{\"path\":\"assets/panels/prologue-p20-panel04.png\",\"role\":\"Character identity/wardrobe anchor for mara-voss; not extra people to insert.\",\"index\":3}]\n\nBANNER AUTHORITY: {\"reference_precedence\":[\"Canonical banner reference for emblem geometry and colour placement\",\"Dedicated material palette in objects.json for neutral-light hues\",\"Scene and character references for composition and identity only\"],\"review_checks\":[\"Compare every visible banner with its canonical house reference side by side\",\"Check cloth hue, emblem and trim separately under the scene lighting\",\"Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection\"],\"review_required\":true} Dedicated objects.json palettes describe neutral-light materials. Map/UI colours from world.json are not fabric colours. Canonical banner images control heraldic geometry; palette swatches control intended material hues. Older scene/character palettes never override these. Apply the palette lighting rule, keeping each house recognisable. Palette hex values are targets, not a guarantee of identical generated pixels.\n\nLETTERING: Draw the speech balloons, cream caption/narration boxes and ALL their text directly INTO the artwork. Use a professional clear comic lettering font, dark ink on pale cream/white, readable contrast. Reproduce each render_text EXACTLY, preserving punctuation; do not print speaker labels or JSON keys. Speech tails point to the speaking person. No other words, labels, signs or gibberish. The visible crop-safe aperture in FULL SOURCE coordinates is {\"x\":0.0003650967506389491,\"y\":0,\"width\":0.9992698064987221,\"height\":1}. Place ALL text wholly inside it. The following bounding boxes are normalized to the FULL SOURCE image (not to the holder); use these adjusted positions exactly: [{\"type\":\"caption\",\"render_text\":\"Four ships. A larger problem.\",\"bounds_in_full_source_image\":{\"x\":0.0151,\"y\":0.0281,\"width\":0.3349,\"height\":0.0884}},{\"type\":\"speech\",\"render_text\":\"We can’t be everywhere. Tell me what we can hold—and what it will cost.\",\"bounds_in_full_source_image\":{\"x\":0.0151,\"y\":0.8193,\"width\":0.9699,\"height\":0.1446}}]\n\nINVARIANTS: One image per request; no multi-panel collage or embedded borders. Compose for the fixed holder. Do not letterbox or paste the old wide image. Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts. Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones. No unsupported new lore, extra Type C suits, extra capital ships or invented character names. Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location’s defining geography when changing camera angle. After Oram’s surrender, Rovan begins local reforms but struggles to govern and defend captured holdings. Exactly FOUR owned capital ships remain. Ironveil and Glassmere move toward exposed Auric outer territory using SMALL craft; no additional capitals or completed whole-duchy annexation. Ordinary naval captains are separate from five Type C knights. After Oram’s surrender: no bombardment or surrender replay. Rovan is now struggling to govern. Exactly four OWNED capital ships remain, no new prizes; show none unless explicitly requested. Other duchies use small transports/patrol craft in these scenes. Elder baron is bald and grey-bearded, exiled not executed; Duke Ferdinand is a different dark-haired gold-mantled man. Ordinary officers only in page24 council. Three naval captains are distinct from five silver Type C knights. Preserve canonical house palettes, varied geography and the limited scope of the emerging reforms. No ninth duchy or final borders. All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions.\n\nDELIVERY: Edge-to-edge painted scene with finished comic lettering, no blank borders, no letterboxing, no collage. If native output ratio differs from the holder, keep ALL important content inside its central crop-safe aperture; only expendable background may extend beyond. For a wide strip, put the main figures and action in the central horizontal band, leaving substantial sky/floor outside that band.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording",
+    "Compare every visible banner with its canonical house reference side by side",
+    "Check cloth hue, emblem and trim separately under the scene lighting",
+    "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+  ],
+  "source_hashes": {
+    "world.json": "54740162a645ba20016b6a08ee4c9cd86d2e9371f64e17c8d7669bcb3de91741",
+    "character.json": "a1127833850c0b20a81ad25df3ac24003a3c797ce8ad236b9a398483948d96f8",
+    "objects.json": "bb0ea5cbc04955329dd0690aee4b1a53588dea50161eef2376945ab83f706472",
+    "scene": "75052123ebd968fc87d6ee18cfd027f031b7dff09e4223bd8f2f22c3898777cd"
+  }
+}

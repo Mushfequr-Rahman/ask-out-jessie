@@ -5,12 +5,12 @@ A dependency-free HTML comic project featuring **Magneton**.
 ## Read online
 
 - [Chapters](https://mushfequr-rahman.github.io/ask-out-jessie/chapters.html): one available story, **Prologue**.
-- [Read Prologue](https://mushfequr-rahman.github.io/ask-out-jessie/prologue.html): all twenty-two illustrated pages, including Rovan's rise, the five silver honour guards, and Auric Reach's response on page 12.
+- [Read Prologue](https://mushfequr-rahman.github.io/ask-out-jessie/prologue.html): all twenty-four illustrated pages, including Rovan's rise, the five silver honour guards, and Auric Reach's response on page 12.
 - [Glossary](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html): metals, ships, eight duchies and banners, people, and world terms.
-- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 91 current artwork files; linked from the glossary.
+- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 99 current artwork files; linked from the glossary.
 - [Repository asset catalogue](ASSETS.md), [world.json](world.json) and [character.json](character.json): artwork inventory, world reference and character records.
 
-Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's twenty-two pages contain 75 unique regenerated panel illustrations.
+Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's twenty-four pages contain 83 unique regenerated panel illustrations.
 
 ## Run locally
 
@@ -67,7 +67,7 @@ The shared layout is checked in; chapter content is rendered in the browser from
 
 ## Verification
 
-Check the two shared navigation links and active states on all pages, the single Prologue entry, all twenty reader pages, the page selector, all 75 unique panel images, glossary section links and ship filters, eight distinct colours and banners, and mobile layouts. Old `index.html?page=7#reader`, `index.html#fleet`, and `magneton.html#type-c` bookmarks should forward to the new structure.
+Check the two shared navigation links and active states on all pages, the single Prologue entry, all twenty reader pages, the page selector, all 83 unique panel images, glossary section links and ship filters, eight distinct colours and banners, and mobile layouts. Old `index.html?page=7#reader`, `index.html#fleet`, and `magneton.html#type-c` bookmarks should forward to the new structure.
 
 ## World and asset maintenance
 
@@ -106,10 +106,10 @@ Run `python3 scripts/validate_world.py` after editing either file to check chara
 ```sh
 python3 scripts/build_image_requests.py
 python3 scripts/test_image_requests.py
-python3 scripts/validate_generation.py --require-outputs --banner-review generation/fall-oram-banner-review.json
+python3 scripts/validate_generation.py --require-outputs --banner-review generation/rule-banner-review.json
 ```
 
-The request builder takes scene + world.json + character.json + objects.json. It writes prompts rather than calling a paid API. All 75 selected outputs are already committed under `assets/`. Earlier anchors are retained under `references/`; generation requests and run metadata record provenance. See [the generation workflow and official research sources](docs/image-generation.md) for reference conditioning, exact lettering, fixed apertures and the MongoDB assessment. JSON remains the storage layer for this static site.
+The request builder takes scene + world.json + character.json + objects.json. It writes prompts rather than calling a paid API. All 83 selected outputs are already committed under `assets/`. Earlier anchors are retained under `references/`; generation requests and run metadata record provenance. See [the generation workflow and official research sources](docs/image-generation.md) for reference conditioning, exact lettering, fixed apertures and the MongoDB assessment. JSON remains the storage layer for this static site.
 
 ## Banner consistency
 
@@ -132,3 +132,7 @@ Page 20, **New Frontier**, returns the four-ship fleet to the conquered harbour.
 Page 21, **The Siege of Oram**, introduces Auric Reach’s capital as the largest and richest city in the world, with access to most farmland. Rovan’s four capital ships overlook it while supply convoys run between New Frontier and the siege fleet. The Argonaut opens fire and bewildered civilians take cover. Oram remains under Auric Reach’s control; no surrender or conquest is shown.
 
 Page 22, **The Fall of Oram**, continues the four-ship bombardment, with the ships spread above the city and explosions among its buildings. Rovan sends a messenger to Duke Ferdinand, the previously unnamed ruler of Auric Reach. Ferdinand confers with his barons and surrenders Oram. The surrender is of the city; the fate of the rest of the duchy and any terms remain unestablished.
+
+Page 23, **The Price of Rule**, follows Rovan’s quiet entry into Oram and the handover of keys. He exiles the older bald grey-bearded baron, brings dockworkers and farmers into a local council, and orders grain access, wages and paid repairs. These are first attempts at fairer government, with no guarantee of success.
+
+Page 24, **Too Much to Hold**, shows the administrative strain and Ironveil and Glassmere moving toward exposed Auric mining rocks and trade moorings. Rovan meets Grievous and the three naval captains—Mara Voss, Idris Vale and Tomas Kest—to ask what they can defend. They have four capital ships; no response or new conquest is decided yet.

@@ -4130,6 +4130,444 @@
         "Duke Ferdinand is the existing auric-ruler, distinct from Rovan and Admiral Joseph. Gold/navy court; bronze/crimson Veymarch messenger.",
         "Preserve unique asymmetric farmland metropolis; avoid copying repeated conical castle islands."
       ]
+    },
+    {
+      "id": "prologue-p23-panel01",
+      "chapter_id": "prologue",
+      "page_number": 23,
+      "panel_number": 1,
+      "description": "At Oram’s damaged gate, exactly TWO main figures: Rovan in navy/crimson receives ceremonial keys from Duke Ferdinand in gold mantle/navy embroidery. Quiet citizens behind shuttered windows, no cheering or celebration. A few bronze/crimson allied guards behind Rovan, original Auric gold/navy civic banners. Do not copy prior surrender-document shot: this is key handoff after entry, city scorch marks and restrained daylight. No ships needed.",
+      "character_ids": [
+        "rovan-vey",
+        "auric-ruler"
+      ],
+      "object_ids": [
+        "banner-veymarch",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 400
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "No cheers.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Ferdinand handed over the keys. Behind shuttered windows, Oram watched its new ruler.",
+          "bounds": {
+            "x": 14,
+            "y": 310,
+            "width": 924,
+            "height": 72
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p23-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "After Oram’s surrender: no bombardment or surrender replay. Rovan is now struggling to govern.",
+        "Exactly four OWNED capital ships remain, no new prizes; show none unless explicitly requested. Other duchies use small transports/patrol craft in these scenes.",
+        "Elder baron is bald and grey-bearded, exiled not executed; Duke Ferdinand is a different dark-haired gold-mantled man.",
+        "Ordinary officers only in page24 council. Three naval captains are distinct from five silver Type C knights.",
+        "Preserve canonical house palettes, varied geography and the limited scope of the emerging reforms. No ninth duchy or final borders."
+      ]
+    },
+    {
+      "id": "prologue-p23-panel02",
+      "chapter_id": "prologue",
+      "page_number": 23,
+      "panel_number": 2,
+      "description": "Exactly TWO foreground people on a city departure quay: Rovan gives exile order to the ELDER BALD GREY-BEARDED BARON in navy/gold court coat with one small travelling case. One small bronze mechanical schooner moored behind, ordinary bronze/crimson escort in background. Baron visibly older, bald with full grey beard, NOT dark-haired gold-mantled Ferdinand. Exile and departure, no violence, execution, chains or falling overboard. Rovan speaking; bubble points to him. Keep heads and luggage clear of text.",
+      "character_ids": [
+        "rovan-vey",
+        "elder-auric-baron"
+      ],
+      "object_ids": [
+        "banner-veymarch",
+        "schooner-needle"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 410,
+        "width": 400,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "One baron sent away.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 220,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “You kept your fortune while my soldiers went unpaid. You’ll leave Oram.”",
+          "bounds": {
+            "x": 14,
+            "y": 226,
+            "width": 372,
+            "height": 106
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p23-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "After Oram’s surrender: no bombardment or surrender replay. Rovan is now struggling to govern.",
+        "Exactly four OWNED capital ships remain, no new prizes; show none unless explicitly requested. Other duchies use small transports/patrol craft in these scenes.",
+        "Elder baron is bald and grey-bearded, exiled not executed; Duke Ferdinand is a different dark-haired gold-mantled man.",
+        "Ordinary officers only in page24 council. Three naval captains are distinct from five silver Type C knights.",
+        "Preserve canonical house palettes, varied geography and the limited scope of the emerging reforms. No ninth duchy or final borders."
+      ]
+    },
+    {
+      "id": "prologue-p23-panel03",
+      "chapter_id": "prologue",
+      "page_number": 23,
+      "panel_number": 3,
+      "description": "Rovan sits at a practical council table with exactly TWO civilian delegates: middle-aged woman dockworker with braid and worn dark jacket, older weathered farmer in linen shirt/brown waistcoat. They examine open tax ledger and work lists, no legible invented writing. Ordinary representatives now seated as equals in the discussion, Rovan listens. Small crimson/SILVER banner at Rovan’s side, city’s gold/navy balance banner behind delegates. No royal throne, no crowd of new nobles. Repair scaffolding through window. This is beginning reform, not instant utopia.",
+      "character_ids": [
+        "rovan-vey",
+        "oram-council-delegates"
+      ],
+      "object_ids": [
+        "banner-veymarch",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 410,
+        "y": 410,
+        "width": 542,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "A place at the table.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 231,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Dockworkers and farmers joined the council. Taxes would be recorded, and repairs would be paid work.",
+          "bounds": {
+            "x": 14,
+            "y": 247,
+            "width": 514,
+            "height": 85
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p23-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "After Oram’s surrender: no bombardment or surrender replay. Rovan is now struggling to govern.",
+        "Exactly four OWNED capital ships remain, no new prizes; show none unless explicitly requested. Other duchies use small transports/patrol craft in these scenes.",
+        "Elder baron is bald and grey-bearded, exiled not executed; Duke Ferdinand is a different dark-haired gold-mantled man.",
+        "Ordinary officers only in page24 council. Three naval captains are distinct from five silver Type C knights.",
+        "Preserve canonical house palettes, varied geography and the limited scope of the emerging reforms. No ninth duchy or final borders."
+      ]
+    },
+    {
+      "id": "prologue-p23-panel04",
+      "chapter_id": "prologue",
+      "page_number": 23,
+      "panel_number": 4,
+      "description": "A single continuous Oram granary courtyard, NOT a collage: left side open grain-store doors, sacks and clerk measuring grain for civilian families; right foreground a paymaster hands coins to a dockworker while a bronze/crimson soldier waits his turn. No silver armour. Repairs in progress on wall, plain work clothes and relieved but cautious faces. Banners canonical gold/navy Auric on granary and small crimson/silver Veymarch at pay desk. No identical castles or ships in background. Show actual grain access and payment, not lavish celebration.",
+      "character_ids": [
+        "oram-civilians"
+      ],
+      "object_ids": [
+        "banner-veymarch",
+        "banner-auric-reach"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 770,
+        "width": 952,
+        "height": 498
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Open the grain stores.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 242,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The granaries opened. Workers queued for wages; soldiers received their pay. For a while, there was something to build on.",
+          "bounds": {
+            "x": 14,
+            "y": 408,
+            "width": 924,
+            "height": 72
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p23-panel04.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "After Oram’s surrender: no bombardment or surrender replay. Rovan is now struggling to govern.",
+        "Exactly four OWNED capital ships remain, no new prizes; show none unless explicitly requested. Other duchies use small transports/patrol craft in these scenes.",
+        "Elder baron is bald and grey-bearded, exiled not executed; Duke Ferdinand is a different dark-haired gold-mantled man.",
+        "Ordinary officers only in page24 council. Three naval captains are distinct from five silver Type C knights.",
+        "Preserve canonical house palettes, varied geography and the limited scope of the emerging reforms. No ninth duchy or final borders."
+      ]
+    },
+    {
+      "id": "prologue-p24-panel01",
+      "chapter_id": "prologue",
+      "page_number": 24,
+      "panel_number": 1,
+      "description": "Exactly TWO foreground officers at a cramped administrative desk in Oram: exhausted Rovan black hair/silver streak/short beard navy coat/crimson base, older bald HUMAN General Grievous grey moustache olive coat/crimson base. Rovan faces piles of unlabelled petitions, coin trays and open ledgers, General holds more dispatches. City repair cranes through window, no triumphant throne. Empty food cup, tired posture conveys administrative overload. Small crimson/SILVER banner, no new people or ships. No readable text beyond specified lettering.",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 400
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Every road led to his desk.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 297,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Pay. Grain. Repairs. Patrols. Rovan had won a city; now every district needed an answer.",
+          "bounds": {
+            "x": 14,
+            "y": 310,
+            "width": 924,
+            "height": 72
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p24-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "After Oram’s surrender: no bombardment or surrender replay. Rovan is now struggling to govern.",
+        "Exactly four OWNED capital ships remain, no new prizes; show none unless explicitly requested. Other duchies use small transports/patrol craft in these scenes.",
+        "Elder baron is bald and grey-bearded, exiled not executed; Duke Ferdinand is a different dark-haired gold-mantled man.",
+        "Ordinary officers only in page24 council. Three naval captains are distinct from five silver Type C knights.",
+        "Preserve canonical house palettes, varied geography and the limited scope of the emerging reforms. No ninth duchy or final borders."
+      ]
+    },
+    {
+      "id": "prologue-p24-panel02",
+      "chapter_id": "prologue",
+      "page_number": 24,
+      "panel_number": 2,
+      "description": "A small steel-grey-uniformed patrol on ONE bronze mechanical schooner approaches an abandoned Auric mining rock with idle crane and empty guard post. Canonical IRONVEIL steel-coloured flag with SILVER hammer/anvil on patrol. Do not use crimson or Type C silver armour. No capital ships, no battle, no completed conquest. A broad broken dark mining slab and a distant bare split basalt spire, sparse open sky, no identical conical castle islands. Approaching available territory, not attacking Oram or Rovan directly.",
+      "character_ids": [
+        "ironveil-patrol"
+      ],
+      "object_ids": [
+        "schooner-needle",
+        "banner-ironveil"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 410,
+        "width": 400,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Ironveil moved first.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 231,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "With Auric Reach exposed, Ironveil patrols approached its outer mining islands.",
+          "bounds": {
+            "x": 14,
+            "y": 226,
+            "width": 372,
+            "height": 106
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p24-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "After Oram’s surrender: no bombardment or surrender replay. Rovan is now struggling to govern.",
+        "Exactly four OWNED capital ships remain, no new prizes; show none unless explicitly requested. Other duchies use small transports/patrol craft in these scenes.",
+        "Elder baron is bald and grey-bearded, exiled not executed; Duke Ferdinand is a different dark-haired gold-mantled man.",
+        "Ordinary officers only in page24 council. Three naval captains are distinct from five silver Type C knights.",
+        "Preserve canonical house palettes, varied geography and the limited scope of the emerging reforms. No ninth duchy or final borders."
+      ]
+    },
+    {
+      "id": "prologue-p24-panel03",
+      "chapter_id": "prologue",
+      "page_number": 24,
+      "panel_number": 3,
+      "description": "ONE small bronze mechanical Caravan trader draws alongside an exposed Auric outer freight mooring, a few ordinary human teal-coated armed merchant guards stepping onto the metal gangway. Canonical Glassmere CYAN banner with its exact emblem from reference; do not invent balance scales or Veymarch stars. No capital ships, no Rovan, no silver armour. Abandoned Auric booth, empty watch station, no combat or proclaimed final annexation. Landscape is a thin tilted limestone shelf with scrub and freight gantries, distinct from Ironveil dark mining slab.",
+      "character_ids": [
+        "glassmere-expedition"
+      ],
+      "object_ids": [
+        "trader-caravan",
+        "banner-glassmere"
+      ],
+      "holder": {
+        "x": 410,
+        "y": 410,
+        "width": 542,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Glassmere followed.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 209,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Glassmere crews arrived at the unguarded trade moorings. Everyone could see what was missing: a fleet to stop them.",
+          "bounds": {
+            "x": 14,
+            "y": 247,
+            "width": 514,
+            "height": 85
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p24-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "After Oram’s surrender: no bombardment or surrender replay. Rovan is now struggling to govern.",
+        "Exactly four OWNED capital ships remain, no new prizes; show none unless explicitly requested. Other duchies use small transports/patrol craft in these scenes.",
+        "Elder baron is bald and grey-bearded, exiled not executed; Duke Ferdinand is a different dark-haired gold-mantled man.",
+        "Ordinary officers only in page24 council. Three naval captains are distinct from five silver Type C knights.",
+        "Preserve canonical house palettes, varied geography and the limited scope of the emerging reforms. No ninth duchy or final borders."
+      ]
+    },
+    {
+      "id": "prologue-p24-panel04",
+      "chapter_id": "prologue",
+      "page_number": 24,
+      "panel_number": 4,
+      "description": "Exactly FIVE foreground people around one large map table in Oram: Rovan at head, General Grievous older BALD human grey moustache OLIVE coat/crimson, and THREE NAVAL captains from canonical portrait: woman Mara Voss brown skin long dark braid, Idris Vale tall dark skin close curls short full beard, Tomas Kest stocky light tan clean-shaven SQUARE brass spectacles. Navy/crimson naval coats with bronze fittings, NO silver Type C armour and no five silver knights. All five distinct heads visible. Map has four simple brass ship markers total and three irregular land clusters, NO legible labels or invented borders. Rovan asks for advice, captains lean in with worried/considering expressions. No plan decided, no pointing victory arrow. Plain crimson/SILVER banner behind. Keep all faces, hands and map in aperture outside lettering.",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous",
+        "mara-voss",
+        "idris-vale",
+        "tomas-kest"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 770,
+        "width": 952,
+        "height": 498
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Four ships. A larger problem.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 319,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “We can’t be everywhere. Tell me what we can hold—and what it will cost.”",
+          "bounds": {
+            "x": 14,
+            "y": 408,
+            "width": 924,
+            "height": 72
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p24-panel04.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "After Oram’s surrender: no bombardment or surrender replay. Rovan is now struggling to govern.",
+        "Exactly four OWNED capital ships remain, no new prizes; show none unless explicitly requested. Other duchies use small transports/patrol craft in these scenes.",
+        "Elder baron is bald and grey-bearded, exiled not executed; Duke Ferdinand is a different dark-haired gold-mantled man.",
+        "Ordinary officers only in page24 council. Three naval captains are distinct from five silver Type C knights.",
+        "Preserve canonical house palettes, varied geography and the limited scope of the emerging reforms. No ninth duchy or final borders."
+      ]
     }
   ]
 }

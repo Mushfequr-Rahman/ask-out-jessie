@@ -1,0 +1,259 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p24-panel03",
+  "parameters": {
+    "scene": "prologue-p24-panel03",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 410,
+    "y": 410,
+    "width": 542,
+    "height": 350
+  },
+  "target": {
+    "width": 1280,
+    "height": 832,
+    "size": "1280x832",
+    "visible_window": {
+      "x": 0,
+      "y": 0.0032642634118648095,
+      "width": 1,
+      "height": 0.9934714731762704
+    }
+  },
+  "output_file": "assets/panels/prologue-p24-panel03.png",
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p24-panel03-before-booth-cleanup.png",
+      "role": "Remove invented red/gold booth decoration only; preserve Glassmere cyan banner."
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "Glassmere followed.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 209,
+          "height": 44
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "Glassmere followed.",
+        "normalized_bounds": {
+          "x": 0.0258,
+          "y": 0.04,
+          "width": 0.3856,
+          "height": 0.1257
+        },
+        "source_bounds": {
+          "x": 0.0258,
+          "y": 0.043,
+          "width": 0.3856,
+          "height": 0.1249
+        }
+      },
+      {
+        "type": "narration",
+        "text": "Glassmere crews arrived at the unguarded trade moorings. Everyone could see what was missing: a fleet to stop them.",
+        "bounds": {
+          "x": 14,
+          "y": 247,
+          "width": 514,
+          "height": 85
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "Glassmere crews arrived at the unguarded trade moorings. Everyone could see what was missing: a fleet to stop them.",
+        "normalized_bounds": {
+          "x": 0.0258,
+          "y": 0.7057,
+          "width": 0.9483,
+          "height": 0.2429
+        },
+        "source_bounds": {
+          "x": 0.0258,
+          "y": 0.7044,
+          "width": 0.9483,
+          "height": 0.2413
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth\u2019s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "glassmere",
+          "name": "Glassmere",
+          "emblem": "White crystal prism"
+        }
+      ]
+    },
+    "characters": [
+      {
+        "id": "glassmere-expedition",
+        "name": "Glassmere advance party",
+        "visual_concept": {
+          "appearance": "Human merchant guards in dark teal working coats, ordinary bronze equipment, canonical cyan Glassmere banner. Small mechanical trading Zeppelin, not a capital ship."
+        }
+      }
+    ],
+    "objects": [
+      {
+        "id": "trader-caravan",
+        "name": "Caravan",
+        "description": "Large twin parallel Zeppelin hulls connected by cargo bridges, freight modules and passenger space. Cumbersome turns",
+        "constraints": [
+          "Rigid mechanical metal Zeppelin design; no sailboats or canvas sails."
+        ]
+      },
+      {
+        "id": "banner-glassmere",
+        "name": "Glassmere banner",
+        "description": "Cyan field; White crystal prism",
+        "canonical_reference": "assets/banner-glassmere.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Cyan",
+            "hex": "#129EB3"
+          },
+          "emblem": {
+            "name": "Ivory white",
+            "hex": "#EAE5D6"
+          },
+          "trim": {
+            "name": "Antique silver trim",
+            "hex": "#A89978"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location\u2019s defining geography when changing camera angle.",
+      "After Oram\u2019s surrender, Rovan begins local reforms but struggles to govern and defend captured holdings. Exactly FOUR owned capital ships remain. Ironveil and Glassmere move toward exposed Auric outer territory using SMALL craft; no additional capitals or completed whole-duchy annexation. Ordinary naval captains are separate from five Type C knights.",
+      "After Oram\u2019s surrender: no bombardment or surrender replay. Rovan is now struggling to govern.",
+      "Exactly four OWNED capital ships remain, no new prizes; show none unless explicitly requested. Other duchies use small transports/patrol craft in these scenes.",
+      "Elder baron is bald and grey-bearded, exiled not executed; Duke Ferdinand is a different dark-haired gold-mantled man.",
+      "Ordinary officers only in page24 council. Three naval captains are distinct from five silver Type C knights.",
+      "Preserve canonical house palettes, varied geography and the limited scope of the emerging reforms. No ninth duchy or final borders.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "heraldry": {
+    "banner_ids": [
+      "banner-glassmere"
+    ],
+    "policy": {
+      "reference_precedence": [
+        "Canonical banner reference for emblem geometry and colour placement",
+        "Dedicated material palette in objects.json for neutral-light hues",
+        "Scene and character references for composition and identity only"
+      ],
+      "review_checks": [
+        "Compare every visible banner with its canonical house reference side by side",
+        "Check cloth hue, emblem and trim separately under the scene lighting",
+        "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+      ],
+      "review_required": true
+    }
+  },
+  "prompt": "Edit this finished comic image. Change ONLY the rectangular RED AND GOLD decorative panel on the far-right freight booth beneath its window. Remove the invented red/gold emblem and replace that panel with plain weathered bronze metal matching the surrounding booth, with rivets and scratches but NO emblem, flag or text. Keep the prominent CYAN Glassmere banner and its WHITE faceted crystal EXACTLY unchanged. Preserve everything else: image dimensions and composition, all three people, twin-hulled trading airship, gangway, cliffs, cranes, lighting, all caption and narration wording and box placement. This is removal of one small invented emblem only.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording",
+    "Compare every visible banner with its canonical house reference side by side",
+    "Check cloth hue, emblem and trim separately under the scene lighting",
+    "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+  ],
+  "source_hashes": {
+    "world.json": "bb7c14b2421565416611889ba288646b5bfe17a17f4005630264acfeefa46437",
+    "character.json": "ba97260969d4b32b3ef68fb30f31590640dd18241fdb34884e0a5e4516aa927c",
+    "objects.json": "bb0ea5cbc04955329dd0690aee4b1a53588dea50161eef2376945ab83f706472",
+    "scene": "976237d4f23e8df26b9d60da142eaed94df158390b25d3948df4c92a74d30428"
+  }
+}

@@ -416,12 +416,62 @@
       "id": "auric-barons",
       "name": "Barons of Auric Reach",
       "duchy_id": "auric-reach",
-      "role": "The barons confer with Duke Ferdinand during the bombardment of Oram, with no choice but to surrender the city. Individual names are not established.",
+      "role": "The barons confer with Duke Ferdinand during the bombardment of Oram, with no choice but to surrender the city. Individual names are not established. The bald grey-bearded elder is exiled on page23; the other two barons are not shown exiled.",
       "visual_concept": {
         "appearance": "Three adult human nobles of varied ages in individual navy court coats with restrained gold trim; one older silver-haired woman, one bald bearded man, one younger dark-haired man. Distinct from the duke and from Admiral Joseph. Worried expressions, ordinary court dress, no Type C armour."
       },
       "reference_images": [
         "assets/panels/prologue-p22-panel03.png"
+      ]
+    },
+    {
+      "id": "elder-auric-baron",
+      "name": "The elder baron",
+      "personal_name": null,
+      "title": "Baron",
+      "duchy_id": "auric-reach",
+      "role": "The older bald, grey-bearded man among Ferdinand’s three barons. Rovan exiles him on page23. Not Ferdinand or Admiral Joseph.",
+      "visual_concept": {
+        "appearance": "Older bald human man with full short grey beard, heavy brows, navy court coat with gold trim and chain; same bald baron from Ferdinand’s council. Carries a modest travelling case on departure, no armour or monocle."
+      },
+      "reference_images": [
+        "assets/panels/prologue-p23-panel02.png"
+      ]
+    },
+    {
+      "id": "oram-council-delegates",
+      "name": "Oram’s new council delegates",
+      "duchy_id": "auric-reach",
+      "role": "Dockworkers and farmers invited into Rovan’s first attempts at a fairer local government. Not proof that reform has succeeded.",
+      "visual_concept": {
+        "appearance": "One middle-aged human woman representing dockworkers in a worn dark work jacket and practical braid; one older human farmer with weathered skin in a plain linen shirt and brown waistcoat. Ordinary people, no noble chains or military armour."
+      },
+      "reference_images": [
+        "assets/panels/prologue-p23-panel03.png"
+      ]
+    },
+    {
+      "id": "ironveil-patrol",
+      "name": "Ironveil advance patrol",
+      "duchy_id": "ironveil",
+      "role": "A small patrol moves toward Auric Reach’s undefended outlying mining fragments on page24. No new capital ship count established.",
+      "visual_concept": {
+        "appearance": "Ordinary human patrol crew in steel-grey coats with silver fittings; no Type C armour. One small bronze mechanical schooner, steel-coloured house standard bearing canonical silver hammer/anvil."
+      },
+      "reference_images": [
+        "assets/panels/prologue-p24-panel02.png"
+      ]
+    },
+    {
+      "id": "glassmere-expedition",
+      "name": "Glassmere advance party",
+      "duchy_id": "glassmere",
+      "role": "An armed trading expedition moves into an exposed Auric outer mooring on page24 while Rovan struggles to govern. No wider annexation outcome established.",
+      "visual_concept": {
+        "appearance": "Human merchant guards in dark teal working coats, ordinary bronze equipment, canonical cyan Glassmere banner. Small mechanical trading Zeppelin, not a capital ship."
+      },
+      "reference_images": [
+        "assets/panels/prologue-p24-panel03.png"
       ]
     }
   ]

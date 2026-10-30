@@ -188,3 +188,9 @@ The Stormlance and Windblade wait on a floating rock with bronze-and-crimson com
 Josephine, Serenity and Serendipity capitulate without another fight. Their crews lay down their guns before Rovan and his bronze-and-crimson troops. Rovan condemns Joseph for gambling his men’s lives on the hope of a title and orders him thrown overboard. The panel shows the sentence and escort toward the rail; it does not show the sentence being carried out.
 
 Prize crews take the bridges and turn the ships while repair gangs work on the damaged engines. The soldiers celebrate: nobody has captured another duchy’s capital ship in the shattered world before, and Rovan has taken three in one battle. His original Argonaut plus three prizes makes four owned capital ships; operational readiness after repairs remains unspecified.
+
+## Pages 23–24: taking responsibility
+
+Rovan receives Oram’s keys in silence, exiles Ferdinand’s older bald grey-bearded baron, and begins a fairer local government with dockworker and farmer voices, recorded taxes, wages, grain access and paid repairs. Reform is an attempt, not an established success.
+
+Administration strains him. Ironveil patrols and Glassmere crews move into exposed Auric outer holdings. Rovan and Grievous meet the three naval prize captains, Mara Voss, Idris Vale and Tomas Kest, to discuss defending the larger territory with four capital ships. No response is decided, and no new borders or whole-duchy annexation is established.

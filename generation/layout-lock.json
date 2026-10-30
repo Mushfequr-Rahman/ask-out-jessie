@@ -460,6 +460,54 @@
       "y": 890,
       "width": 952,
       "height": 378
+    },
+    "prologue-p23-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 400
+    },
+    "prologue-p23-panel02": {
+      "x": 0,
+      "y": 410,
+      "width": 400,
+      "height": 350
+    },
+    "prologue-p23-panel03": {
+      "x": 410,
+      "y": 410,
+      "width": 542,
+      "height": 350
+    },
+    "prologue-p23-panel04": {
+      "x": 0,
+      "y": 770,
+      "width": 952,
+      "height": 498
+    },
+    "prologue-p24-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 400
+    },
+    "prologue-p24-panel02": {
+      "x": 0,
+      "y": 410,
+      "width": 400,
+      "height": 350
+    },
+    "prologue-p24-panel03": {
+      "x": 410,
+      "y": 410,
+      "width": 542,
+      "height": 350
+    },
+    "prologue-p24-panel04": {
+      "x": 0,
+      "y": 770,
+      "width": 952,
+      "height": 498
     }
   },
   "extensions": [
@@ -517,6 +565,14 @@
       ],
       "source_commit": "a396c3c",
       "method": "Four fixed apertures for spread four-ship bombardment, messenger dispatch, Ferdinand’s council and city surrender. Frozen before generation."
+    },
+    {
+      "pages": [
+        23,
+        24
+      ],
+      "source_commit": "ad54fbd",
+      "method": "Four frozen apertures per page for entry/exile/reforms/grain, followed by administration/two foreign advances/naval council."
     }
   ]
 }

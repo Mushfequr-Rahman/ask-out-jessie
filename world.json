@@ -88,7 +88,7 @@
       "opponent_duchy_id": "auric-reach",
       "target_character_id": "rovan-vey",
       "capital_ships_dispatched": 3,
-      "status": "The four ships continue bombarding Oram. Rovan dispatches a messenger; Duke Ferdinand and his barons confer, then surrender the city.",
+      "status": "Rovan attempts to govern his enlarged Auric holdings. Ironveil and Glassmere advance into exposed outer territory. He meets Grievous and his three naval captains to discuss how to respond.",
       "battle_outcome": "Rovan captures Josephine, Serenity and Serendipity in one battle.",
       "opponent_total_capital_ship_count": null,
       "planned_battlefield_id": "shattered-plains",
@@ -145,13 +145,30 @@
       "capital_capture_method": "Surrender by Duke Ferdinand after bombardment and a messenger from Rovan, page22.",
       "opponent_ruler_id": "auric-ruler",
       "city_surrender_page": 22,
-      "duchy_annexed": null
+      "duchy_annexed": null,
+      "external_pressure_duchy_ids": [
+        "ironveil",
+        "glassmere"
+      ],
+      "exposed_location_id": "auric-outer-fragments",
+      "response_decided": false
     },
     "historical_milestone": {
       "event": "First capture of another duchy’s capital ships in the history of the shattered world.",
       "captured_in_one_battle": 3,
       "victor_id": "rovan-vey",
       "page": 19
+    },
+    "rovan_reforms": {
+      "introduced_page": 23,
+      "status": "Initial efforts toward fairer government; effectiveness and legitimacy remain unresolved.",
+      "actions": [
+        "Exiles the older bald grey-bearded baron; not Duke Ferdinand.",
+        "Gives dockworkers and farmers a voice in a local council.",
+        "Orders taxes recorded openly and paid work repairing the city.",
+        "Opens grain stores and directs payment to dockworkers and soldiers."
+      ],
+      "limits": "No constitution, election system, universal abolition of feudal titles or completed reform outcome established."
     }
   },
   "metals": [
@@ -566,11 +583,19 @@
       "name": "Oram",
       "duchy_id": "auric-reach",
       "role": "Capital of Auric Reach; the largest and richest city in the shattered world, with access to the most farmland.",
-      "current_control": "Surrendered by Duke Ferdinand to Rovan on page22 after continued bombardment; no later occupation terms established.",
+      "current_control": "Held by Rovan after Ferdinand’s surrender. Rovan begins reforms on page23 and struggles with administration and defence on page24.",
       "exact_coordinates": null,
       "geography": "A broad, irregular agricultural landmass with terraced urban districts and large surrounding farmland shelves, unlike the small New Frontier harbour.",
       "wealth_source": "Access to most farmland in the shattered world; agricultural wealth supports its unrivalled size and prosperity.",
       "surrender_page": 22
+    },
+    {
+      "id": "auric-outer-fragments",
+      "name": "Auric Reach’s outer fragments",
+      "duchy_id": "auric-reach",
+      "role": "Outlying mining rocks and trade moorings left exposed after the defeat of Ferdinand’s fleet.",
+      "current_control": "Disputed and vulnerable: Ironveil patrols and Glassmere advance parties move toward exposed holdings on page24. No final borders established.",
+      "exact_coordinates": null
     }
   ],
   "characters_file": "character.json",
@@ -700,6 +725,17 @@
       "event": "The four capital ships spread out above Oram and continue firing, with explosions and smoke in the city. Rovan dispatches a messenger. Duke Ferdinand, the now-named ruler of Auric Reach, confers with his barons and surrenders Oram.",
       "city_surrendered": true,
       "duchy_annexed": null
+    },
+    {
+      "order": 25,
+      "page": 23,
+      "event": "Rovan enters a silent Oram, receives Ferdinand’s keys, exiles the elder baron, begins a broader local council, and orders the grain stores opened and workers paid.",
+      "reforms_completed": false
+    },
+    {
+      "order": 26,
+      "page": 24,
+      "event": "Administration overwhelms Rovan as exposed Auric holdings draw Ironveil patrols and Glassmere expeditions. He meets Grievous and naval captains Mara Voss, Idris Vale and Tomas Kest. They discuss how four capitals can defend the larger territory; no response is chosen yet."
     }
   ],
   "publication": {
@@ -716,8 +752,8 @@
         "title": "Prologue",
         "status": "available",
         "reader": "prologue.html",
-        "page_count": 22,
-        "panel_count": 75,
+        "page_count": 24,
+        "panel_count": 83,
         "pages": [
           {
             "number": 1,
@@ -2050,6 +2086,146 @@
                 "lettering_mode": "baked"
               }
             ]
+          },
+          {
+            "number": 23,
+            "title": "The Price of Rule",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p23-panel01",
+                "caption": "No cheers.",
+                "narration": "Ferdinand handed over the keys. Behind shuttered windows, Oram watched its new ruler.",
+                "priority": 5,
+                "image_description": "At Oram’s damaged gate, exactly TWO main figures",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 400
+                },
+                "scene_id": "prologue-p23-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p23-panel02",
+                "caption": "One baron sent away.",
+                "narration": "Rovan: “You kept your fortune while my soldiers went unpaid. You’ll leave Oram.”",
+                "priority": 4,
+                "image_description": "Exactly TWO foreground people on a city departure quay",
+                "holder": {
+                  "x": 0,
+                  "y": 410,
+                  "width": 400,
+                  "height": 350
+                },
+                "scene_id": "prologue-p23-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p23-panel03",
+                "caption": "A place at the table.",
+                "narration": "Dockworkers and farmers joined the council. Taxes would be recorded, and repairs would be paid work.",
+                "priority": 4,
+                "image_description": "Rovan sits at a practical council table with exactly TWO civilian delegates",
+                "holder": {
+                  "x": 410,
+                  "y": 410,
+                  "width": 542,
+                  "height": 350
+                },
+                "scene_id": "prologue-p23-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p23-panel04",
+                "caption": "Open the grain stores.",
+                "narration": "The granaries opened. Workers queued for wages; soldiers received their pay. For a while, there was something to build on.",
+                "priority": 5,
+                "image_description": "A single continuous Oram granary courtyard, NOT a collage",
+                "holder": {
+                  "x": 0,
+                  "y": 770,
+                  "width": 952,
+                  "height": 498
+                },
+                "scene_id": "prologue-p23-panel04",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 24,
+            "title": "Too Much to Hold",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p24-panel01",
+                "caption": "Every road led to his desk.",
+                "narration": "Pay. Grain. Repairs. Patrols. Rovan had won a city; now every district needed an answer.",
+                "priority": 5,
+                "image_description": "Exactly TWO foreground officers at a cramped administrative desk in Oram",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 400
+                },
+                "scene_id": "prologue-p24-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p24-panel02",
+                "caption": "Ironveil moved first.",
+                "narration": "With Auric Reach exposed, Ironveil patrols approached its outer mining islands.",
+                "priority": 3,
+                "image_description": "A small steel-grey-uniformed patrol on ONE bronze mechanical schooner approaches an abandoned Auric mining rock with idle crane and empty guard post. Canonical IRONVEIL steel-coloured flag with SILVER hammer/anvil on patrol. Do not use crimson or Type C silver armour. No capital ships, no battle, no completed conquest. A broad broken dark mining slab and a distant bare split basalt spire, sparse open sky, no identical conical castle islands. Approaching available territory, not attacking Oram or Rovan directly.",
+                "holder": {
+                  "x": 0,
+                  "y": 410,
+                  "width": 400,
+                  "height": 350
+                },
+                "scene_id": "prologue-p24-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p24-panel03",
+                "caption": "Glassmere followed.",
+                "narration": "Glassmere crews arrived at the unguarded trade moorings. Everyone could see what was missing: a fleet to stop them.",
+                "priority": 3,
+                "image_description": "ONE small bronze mechanical Caravan trader draws alongside an exposed Auric outer freight mooring, a few ordinary human teal-coated armed merchant guards stepping onto the metal gangway. Canonical Glassmere CYAN banner with its exact emblem from reference; do not invent balance scales or Veymarch stars. No capital ships, no Rovan, no silver armour. Abandoned Auric booth, empty watch station, no combat or proclaimed final annexation. Landscape is a thin tilted limestone shelf with scrub and freight gantries, distinct from Ironveil dark mining slab.",
+                "holder": {
+                  "x": 410,
+                  "y": 410,
+                  "width": 542,
+                  "height": 350
+                },
+                "scene_id": "prologue-p24-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p24-panel04",
+                "caption": "Four ships. A larger problem.",
+                "narration": "Rovan: “We can’t be everywhere. Tell me what we can hold—and what it will cost.”",
+                "priority": 5,
+                "image_description": "Exactly FIVE foreground people around one large map table in Oram",
+                "holder": {
+                  "x": 0,
+                  "y": 770,
+                  "width": 952,
+                  "height": 498
+                },
+                "scene_id": "prologue-p24-panel04",
+                "lettering_mode": "baked"
+              }
+            ]
           }
         ],
         "json_file": "chapters/prologue.json"
@@ -2089,7 +2265,8 @@
     "Shattered Plains": "Rock-choked sky with strong magnetic fields; difficult flying terrain chosen by Rovan to split the enemy Bastions.",
     "New Frontier": "Rovan’s name for the conquered harbour, his new foothold for the Auric Reach campaign.",
     "Oram": "Largest and richest city in the world, capital of Auric Reach, with access to most farmland. Besieged on page21 and surrendered by Duke Ferdinand on page22.",
-    "Duke Ferdinand": "Ruler of Auric Reach, previously unnamed; confers with the barons and surrenders Oram to Rovan on page22."
+    "Duke Ferdinand": "Ruler of Auric Reach, previously unnamed; confers with the barons and surrenders Oram to Rovan on page22.",
+    "The elder baron": "The older bald grey-bearded member of Ferdinand’s council, exiled by Rovan on page23. Personal name unknown."
   },
   "open_questions": [
     "Exact dates and elapsed generations",
@@ -3920,6 +4097,182 @@
       ]
     },
     {
+      "id": "prologue-p23-panel01",
+      "file": "assets/panels/prologue-p23-panel01.png",
+      "title": "Prologue P23 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1926,
+        "height": 817
+      },
+      "byte_size": 3084191,
+      "sha256": "9fee42a11c52f505dd39f780dbd0c9869de7111e86405dabd1bf79aa408289b7",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 23,
+          "panel": 1,
+          "description": "At Oram’s damaged gate, exactly TWO main figures"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p23-panel02",
+      "file": "assets/panels/prologue-p23-panel02.png",
+      "title": "Prologue P23 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1335,
+        "height": 1178
+      },
+      "byte_size": 2884917,
+      "sha256": "8150c448be83b127c7e36ed4fa161d3f49326b7cb2a83d267db6180a54fb75fe",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 23,
+          "panel": 2,
+          "description": "Exactly TWO foreground people on a city departure quay"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p23-panel03",
+      "file": "assets/panels/prologue-p23-panel03.png",
+      "title": "Prologue P23 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1555,
+        "height": 1012
+      },
+      "byte_size": 2907883,
+      "sha256": "1bdc2b30d9a4df78d9b76988e2f435d502644282d2ed3fadc4c8d13a21fb50ce",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 23,
+          "panel": 3,
+          "description": "Rovan sits at a practical council table with exactly TWO civilian delegates"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p23-panel04",
+      "file": "assets/panels/prologue-p23-panel04.png",
+      "title": "Prologue P23 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1734,
+        "height": 907
+      },
+      "byte_size": 2980687,
+      "sha256": "b8c8133d862aed56f55001b469467b32bc3fe057d25493f56abae6e56187f861",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 23,
+          "panel": 4,
+          "description": "A single continuous Oram granary courtyard, NOT a collage"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p24-panel01",
+      "file": "assets/panels/prologue-p24-panel01.png",
+      "title": "Prologue P24 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1926,
+        "height": 817
+      },
+      "byte_size": 2737312,
+      "sha256": "f94952a14d84207913e3cbc6a462cc33cff5eb1d47e7b48147adcb95cb8575ea",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 24,
+          "panel": 1,
+          "description": "Exactly TWO foreground officers at a cramped administrative desk in Oram"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p24-panel02",
+      "file": "assets/panels/prologue-p24-panel02.png",
+      "title": "Prologue P24 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1335,
+        "height": 1178
+      },
+      "byte_size": 3249410,
+      "sha256": "ce97a925aae1d3c4c0f75781c8819a285840f2673bef32efa9c5fc20b3124881",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 24,
+          "panel": 2,
+          "description": "A small steel-grey-uniformed patrol on ONE bronze mechanical schooner approaches an abandoned Auric mining rock with idle crane and empty guard post. Canonical IRONVEIL steel-coloured flag with SILVER hammer/anvil on patrol. Do not use crimson or Type C silver armour. No capital ships, no battle, no completed conquest. A broad broken dark mining slab and a distant bare split basalt spire, sparse open sky, no identical conical castle islands. Approaching available territory, not attacking Oram or Rovan directly."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p24-panel03",
+      "file": "assets/panels/prologue-p24-panel03.png",
+      "title": "Prologue P24 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1558,
+        "height": 1010
+      },
+      "byte_size": 3018074,
+      "sha256": "be7f1969416484722ac496b16395166a846ebd399616af3c7a16b15547123a7b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 24,
+          "panel": 3,
+          "description": "ONE small bronze mechanical Caravan trader draws alongside an exposed Auric outer freight mooring, a few ordinary human teal-coated armed merchant guards stepping onto the metal gangway. Canonical Glassmere CYAN banner with its exact emblem from reference; do not invent balance scales or Veymarch stars. No capital ships, no Rovan, no silver armour. Abandoned Auric booth, empty watch station, no combat or proclaimed final annexation. Landscape is a thin tilted limestone shelf with scrub and freight gantries, distinct from Ironveil dark mining slab."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p24-panel04",
+      "file": "assets/panels/prologue-p24-panel04.png",
+      "title": "Prologue P24 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1734,
+        "height": 907
+      },
+      "byte_size": 2890312,
+      "sha256": "cccacd80dcbae2873c5a3c882aa2160a7562d911c6205ebb8e91aabd303ca9bf",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 24,
+          "panel": 4,
+          "description": "Exactly FIVE foreground people around one large map table in Oram"
+        }
+      ]
+    },
+    {
       "id": "schooner-kestrel",
       "file": "assets/schooner-kestrel.png",
       "title": "Kestrel",
@@ -3997,7 +4350,7 @@
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with twenty-two pages and 75 distinct panel images.",
+    "There is one available story entry, Prologue, with twenty-four pages and 83 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
     "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
@@ -4029,7 +4382,11 @@
     "Supply convoys travel between New Frontier and Rovan’s siege lines at Oram; convoy traders are not additional capital ships and do not imply entry through hostile city defences.",
     "Duke Ferdinand is the same previously unnamed auric-ruler, not a new duke or a replacement for Admiral Joseph.",
     "Oram surrenders on page22 after bombardment, a messenger and a council of Ferdinand and his barons. No annexation of the whole duchy, surrender terms, new captured ships or executions are established.",
-    "White surrender or parley flags are signals; Auric Reach’s identity remains gold/navy, Veymarch crimson/silver."
+    "White surrender or parley flags are signals; Auric Reach’s identity remains gold/navy, Veymarch crimson/silver.",
+    "The elder bald grey-bearded baron is exiled on page23; Ferdinand is not the exile.",
+    "Rovan begins fairer government through local representation, recorded taxes, wages and grain access. These are intentions and early actions, not a proven just regime.",
+    "Ironveil and Glassmere move into exposed Auric outer holdings on page24. No ninth duchy, new owned capital ships, completed annexations or response plan are established.",
+    "The page24 council comprises Rovan, Grievous and three NAVAL prize captains Mara Voss, Idris Vale and Tomas Kest; the five Type C captains remain a separate group."
   ],
   "military_livery": {
     "veymarch": {

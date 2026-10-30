@@ -3065,6 +3065,318 @@
       ],
       "footer": "PROLOGUE · THE FALL OF ORAM",
       "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 23,
+      "Title": "The Price of Rule",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p23-panel01.png",
+          "caption": "No cheers.",
+          "narration": "Ferdinand handed over the keys. Behind shuttered windows, Oram watched its new ruler.",
+          "image_alt": "At Oram’s damaged gate, exactly TWO main figures",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 400
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "No cheers.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Ferdinand handed over the keys. Behind shuttered windows, Oram watched its new ruler.",
+              "bounds": {
+                "x": 14,
+                "y": 310,
+                "width": 924,
+                "height": 72
+              }
+            }
+          ],
+          "scene_id": "prologue-p23-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p23-panel02.png",
+          "caption": "One baron sent away.",
+          "narration": "Rovan: “You kept your fortune while my soldiers went unpaid. You’ll leave Oram.”",
+          "image_alt": "Exactly TWO foreground people on a city departure quay",
+          "priority": 4,
+          "holder": {
+            "x": 0,
+            "y": 410,
+            "width": 400,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "One baron sent away.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 220,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “You kept your fortune while my soldiers went unpaid. You’ll leave Oram.”",
+              "bounds": {
+                "x": 14,
+                "y": 226,
+                "width": 372,
+                "height": 106
+              }
+            }
+          ],
+          "scene_id": "prologue-p23-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p23-panel03.png",
+          "caption": "A place at the table.",
+          "narration": "Dockworkers and farmers joined the council. Taxes would be recorded, and repairs would be paid work.",
+          "image_alt": "Rovan sits at a practical council table with exactly TWO civilian delegates",
+          "priority": 4,
+          "holder": {
+            "x": 410,
+            "y": 410,
+            "width": 542,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "A place at the table.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 231,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Dockworkers and farmers joined the council. Taxes would be recorded, and repairs would be paid work.",
+              "bounds": {
+                "x": 14,
+                "y": 247,
+                "width": 514,
+                "height": 85
+              }
+            }
+          ],
+          "scene_id": "prologue-p23-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p23-panel04.png",
+          "caption": "Open the grain stores.",
+          "narration": "The granaries opened. Workers queued for wages; soldiers received their pay. For a while, there was something to build on.",
+          "image_alt": "A single continuous Oram granary courtyard, NOT a collage",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 770,
+            "width": 952,
+            "height": 498
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Open the grain stores.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 242,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The granaries opened. Workers queued for wages; soldiers received their pay. For a while, there was something to build on.",
+              "bounds": {
+                "x": 14,
+                "y": 408,
+                "width": 924,
+                "height": 72
+              }
+            }
+          ],
+          "scene_id": "prologue-p23-panel04",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · THE PRICE OF RULE",
+      "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 24,
+      "Title": "Too Much to Hold",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p24-panel01.png",
+          "caption": "Every road led to his desk.",
+          "narration": "Pay. Grain. Repairs. Patrols. Rovan had won a city; now every district needed an answer.",
+          "image_alt": "Exactly TWO foreground officers at a cramped administrative desk in Oram",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 400
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Every road led to his desk.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 297,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Pay. Grain. Repairs. Patrols. Rovan had won a city; now every district needed an answer.",
+              "bounds": {
+                "x": 14,
+                "y": 310,
+                "width": 924,
+                "height": 72
+              }
+            }
+          ],
+          "scene_id": "prologue-p24-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p24-panel02.png",
+          "caption": "Ironveil moved first.",
+          "narration": "With Auric Reach exposed, Ironveil patrols approached its outer mining islands.",
+          "image_alt": "A small steel-grey-uniformed patrol on ONE bronze mechanical schooner approaches an abandoned Auric mining rock with idle crane and empty guard post. Canonical IRONVEIL steel-coloured flag with SILVER hammer/anvil on patrol. Do not use crimson or Type C silver armour. No capital ships, no battle, no completed conquest. A broad broken dark mining slab and a distant bare split basalt spire, sparse open sky, no identical conical castle islands. Approaching available territory, not attacking Oram or Rovan directly.",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 410,
+            "width": 400,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Ironveil moved first.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 231,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "With Auric Reach exposed, Ironveil patrols approached its outer mining islands.",
+              "bounds": {
+                "x": 14,
+                "y": 226,
+                "width": 372,
+                "height": 106
+              }
+            }
+          ],
+          "scene_id": "prologue-p24-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p24-panel03.png",
+          "caption": "Glassmere followed.",
+          "narration": "Glassmere crews arrived at the unguarded trade moorings. Everyone could see what was missing: a fleet to stop them.",
+          "image_alt": "ONE small bronze mechanical Caravan trader draws alongside an exposed Auric outer freight mooring, a few ordinary human teal-coated armed merchant guards stepping onto the metal gangway. Canonical Glassmere CYAN banner with its exact emblem from reference; do not invent balance scales or Veymarch stars. No capital ships, no Rovan, no silver armour. Abandoned Auric booth, empty watch station, no combat or proclaimed final annexation. Landscape is a thin tilted limestone shelf with scrub and freight gantries, distinct from Ironveil dark mining slab.",
+          "priority": 3,
+          "holder": {
+            "x": 410,
+            "y": 410,
+            "width": 542,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Glassmere followed.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 209,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Glassmere crews arrived at the unguarded trade moorings. Everyone could see what was missing: a fleet to stop them.",
+              "bounds": {
+                "x": 14,
+                "y": 247,
+                "width": 514,
+                "height": 85
+              }
+            }
+          ],
+          "scene_id": "prologue-p24-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p24-panel04.png",
+          "caption": "Four ships. A larger problem.",
+          "narration": "Rovan: “We can’t be everywhere. Tell me what we can hold—and what it will cost.”",
+          "image_alt": "Exactly FIVE foreground people around one large map table in Oram",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 770,
+            "width": 952,
+            "height": 498
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Four ships. A larger problem.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 319,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “We can’t be everywhere. Tell me what we can hold—and what it will cost.”",
+              "bounds": {
+                "x": 14,
+                "y": 408,
+                "width": 924,
+                "height": 72
+              }
+            }
+          ],
+          "scene_id": "prologue-p24-panel04",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · TOO MUCH TO HOLD",
+      "layout_mode": "fixed"
     }
   ]
 }
