@@ -78,6 +78,10 @@ if world.get('influence_snapshot'):
     snapshot = world['influence_snapshot']
     assert snapshot['base_asset_id'] in assets and snapshot['overlay_asset_id'] in assets, 'Missing influence atlas/base'
     assert snapshot['house_count'] == len(duchies) == 8, 'Influence map must retain eight duchies'
+    if 'estimated_share_of_former_auric_reach_percent' in snapshot:
+        share = snapshot['estimated_share_of_former_auric_reach_percent']
+        assert isinstance(share, (int, float)) and 0 <= share <= 100, 'Invalid territorial estimate'
+        assert conflict['estimated_auric_control_percent'] == share, 'Campaign and atlas control estimates disagree'
     for change in snapshot['changes']:
         assert set(change['locations']) <= location_ids, 'Unknown influence location'
 if conflict.get('external_pressure_duchy_ids'):

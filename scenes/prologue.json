@@ -4627,13 +4627,13 @@
       "chapter_id": "prologue",
       "page_number": 25,
       "panel_number": 2,
-      "description": "ONE round-prowed standard Bastion SERENITY in crimson panels/bronze ribs with SILVER Veymarch shield/star hovers near an outer trade mooring, guns silent, no muzzle flashes or damage. Idris Vale in foreground on mooring receives a small brass mooring key from an ordinary teal-coated Glassmere dock official. Exactly ONE smaller bronze twin-hull Caravan trader in distance withdrawing, cyan/WHITE crystal Glassmere pennant. No fighting, surrender executions, new capital ship capture or wholesale Glassmere conquest. Big Serenity clear but leave room for the peaceful two-person handoff. Sparse irregular limestone slabs, no repeated castle islands.",
+      "description": "ONE round-prowed standard Bastion SERENITY in crimson panels/bronze ribs with SILVER Veymarch shield/star hovers near an outer trade mooring, guns silent, no muzzle flashes or damage. Idris Vale in foreground on mooring receives a small brass mooring key from an ordinary teal-coated Glassmere dock official. Exactly ONE smaller bronze twin-hull Caravan trader in distance withdrawing, cyan/WHITE crystal Glassmere pennant. No fighting, surrender executions, new capital ship capture or wholesale Glassmere conquest. Big Serenity clear but leave room for the peaceful two-person handoff. Sparse irregular limestone slabs, no repeated castle islands. SHIP CORRECTION: Serenity must be a long slender single cylindrical Zeppelin with a fully rounded hemispherical nose, ivory side stripe, compact low bridge, two underslung green engine nacelles and modest short casemate guns. No wedge prow, giant twin-barrel top turrets, side gun hulls or Argonaut stabiliser rings. Argonaut is one of a kind.",
       "character_ids": [
         "idris-vale",
         "glassmere-expedition"
       ],
       "object_ids": [
-        "repainted-bastions",
+        "serenity-repainted",
         "banner-veymarch",
         "banner-glassmere"
       ],
@@ -4784,7 +4784,7 @@
       "chapter_id": "prologue",
       "page_number": 26,
       "panel_number": 1,
-      "description": "Create ONE finished PORTRAIT atlas plate for a comic. Use the attached original world atlas as the GEOGRAPHIC BASE, preserving its recognisable fractured Earth, exact arrangement of continental masses and floating fragments, projection, texture and magnetic ocean. Fit the WHOLE landscape map uncropped across the central-upper portion of a portrait page, with a designed title zone above and readable legend below; background/legend is an intentional cartographic design, not blank letterboxing. No new ships or people. Overlay translucent soft-edged home influence regions using these same relative coordinates WITHIN THE MAP RECTANGLE: Veymarch x49% y27% pink #E56B73; Auric Reach x64% y36% gold #E8BE57; Ironveil x20% y27% steel #99ACBE; Glassmere x31% y64% cyan #57CDD5; Stormholt x76% y19% violet #B099EF; Emberfall x52% y61% orange #EE965B; Verdant Crown x85% y67% green #79C792; Pale Meridian x58% y88% ivory #E7E1CF. Exactly EIGHT labelled duchies, each name printed once at its home region. Keep unrelated region extents modest and unchanged; use organic translucent regions, NOT hard national borders. Add LOCAL pink hatched enclaves near the western/southern fringe of GOLD Auric Reach to represent Rovan’s captured cities and recovered moorings, with a small numbered key 1. Do NOT recolour all Auric Reach. Put a steel-and-gold crosshatched patch near its western approaches with key 2 for disputed Ironveil mining access, not Ironveil annexation. Put a small cyan dashed retreat arrow leading away from one pink mooring mark toward Glassmere, key 3 for local withdrawal, not collapse of the home duchy. Do NOT add exact Oram/New Frontier point coordinates, route lengths, dates or territorial percentages. Legend beneath map prints exactly these three entries: 1 Rovan: cities and recovered moorings; 2 Ironveil: disputed mining approaches; 3 Glassmere: local withdrawal. Smaller note: Other four duchies unchanged. Home duchy names must be readable and correctly spelt. Keep title and full closing narration at their specified fixed-holder locations. Eight houses remain; overlay marks shifts of influence only.",
+      "description": "Create one readable PORTRAIT influence atlas using the original world-map geography. Preserve eight house home regions and their labelled relative positions within the map: Veymarch49%,27% pink; Auric Reach64%,36% gold; Ironveil20%,27% steel; Glassmere31%,64% cyan; Stormholt76%,19% violet; Emberfall52%,61% orange; Verdant Crown85%,67% green; Pale Meridian58%,88% ivory. The map contains exactly8 duchies. Draw a faint dashed GOLD former-Auric outline and overlay about60% of its old territory in connected pink/magenta control hatching for Rovan, with roughly40% remaining gold. Do not encroach on the other home duchies. Veymarch’s home region stays pink. Keep a steel/gold disputed mining patch at Auric’s western edge and cyan local Glassmere withdrawal arrow. Numbered legend: 1 Rovan: about 60% of former Auric Reach; 2 Ironveil: disputed mining approaches; 3 Glassmere: local withdrawal. Note: Other four duchies unchanged. Whole map, eight names, title, legend and full narration fit inside portrait holder; no cropped letters, decorative flags, ships or newly surveyed borders. The60% is an approximate campaign estimate, not exact geography.",
       "character_ids": [],
       "object_ids": [
         "world-influence-atlas"
@@ -4808,7 +4808,7 @@
         },
         {
           "type": "narration",
-          "text": "Rovan held Oram, New Frontier and the recovered moorings. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
+          "text": "Rovan controlled about 60% of the old Auric Reach, including Oram and New Frontier. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
           "bounds": {
             "x": 24,
             "y": 1130,
@@ -4823,9 +4823,10 @@
       "silver_guard_count": 0,
       "silver_guard_weapon_id": null,
       "visual_constraints": [
-        "Cartographic plate: eight home regions plus three numbered LOCAL change keys. Preserve the source atlas geography.",
+        "Cartographic plate: eight home regions plus three numbered campaign change keys. Preserve the source atlas geography.",
         "Map/UI colours, not flags. No people, ships, uniforms, extra duchies, precise city coordinates or surveyed borders.",
-        "Full map must fit uncropped within the portrait page, with legible legend and narration."
+        "Full map must fit uncropped within the portrait page, with legible legend and narration.",
+        "Rovan controls approximately60% of the former Auric Reach. Pink majority inside the old Auric region, gold remainder, eight home labels unchanged."
       ],
       "map_labels": [
         "Veymarch",
@@ -4836,7 +4837,7 @@
         "Emberfall",
         "Verdant Crown",
         "Pale Meridian",
-        "1 Rovan: cities and recovered moorings",
+        "1 Rovan: about 60% of former Auric Reach",
         "2 Ironveil: disputed mining approaches",
         "3 Glassmere: local withdrawal",
         "Other four duchies unchanged."

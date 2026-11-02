@@ -1,7 +1,7 @@
 {
   "id": "prologue-p26-panel01",
   "status": "generated_pending_visual_review",
-  "request_file": "generation/requests/prologue-p26-panel01.json",
+  "request_file": "generation/requests/prologue-p26-panel01-before-majority.json",
   "output_file": "assets/panels/prologue-p26-panel01.png",
   "generated_original": "/workspace/generated_images/exec-8625abc2-bf2c-4a73-a24f-c232b3f8cb56.png",
   "source_hashes": {

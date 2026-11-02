@@ -1,0 +1,299 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p25-panel02",
+  "parameters": {
+    "scene": "prologue-p25-panel02",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 0,
+    "y": 410,
+    "width": 400,
+    "height": 350
+  },
+  "target": {
+    "width": 1088,
+    "height": 960,
+    "size": "1088x960",
+    "visible_window": {
+      "x": 0,
+      "y": 0.004166666666666652,
+      "width": 1,
+      "height": 0.9916666666666667
+    }
+  },
+  "output_file": "assets/panels/prologue-p25-panel02.png",
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p25-panel02-before-serenity.png",
+      "role": "Existing artwork to edit; preserve exact lettering and foreground except the specified correction."
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "Glassmere gave ground.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 242,
+          "height": 44
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "Glassmere gave ground.",
+        "normalized_bounds": {
+          "x": 0.035,
+          "y": 0.04,
+          "width": 0.605,
+          "height": 0.1257
+        },
+        "source_bounds": {
+          "x": 0.035,
+          "y": 0.0438,
+          "width": 0.605,
+          "height": 0.1247
+        }
+      },
+      {
+        "type": "narration",
+        "text": "Serenity arrived. Glassmere’s crews withdrew, and Idris took back the moorings without a shot.",
+        "bounds": {
+          "x": 14,
+          "y": 224,
+          "width": 372,
+          "height": 108
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "Serenity arrived. Glassmere’s crews withdrew, and Idris took back the moorings without a shot.",
+        "normalized_bounds": {
+          "x": 0.035,
+          "y": 0.64,
+          "width": 0.93,
+          "height": 0.3086
+        },
+        "source_bounds": {
+          "x": 0.035,
+          "y": 0.6388,
+          "width": 0.93,
+          "height": 0.306
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth’s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "veymarch",
+          "name": "Veymarch",
+          "emblem": "Silver broken shield and star"
+        },
+        {
+          "id": "glassmere",
+          "name": "Glassmere",
+          "emblem": "White crystal prism"
+        }
+      ]
+    },
+    "characters": [
+      {
+        "id": "idris-vale",
+        "name": "Idris Vale",
+        "title": "Captain",
+        "visual_concept": {
+          "status": "Provisional original character design",
+          "appearance": "Tall dark-skinned human man, close-cropped black curls, short full black beard, navy naval coat with crimson collar and rolled cuffs, modest bronze fittings. No silver armour."
+        },
+        "uniform_standard": "Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set."
+      },
+      {
+        "id": "glassmere-expedition",
+        "name": "Glassmere advance party",
+        "visual_concept": {
+          "appearance": "Human merchant guards in dark teal working coats, ordinary bronze equipment, canonical cyan Glassmere banner. Small mechanical trading Zeppelin, not a capital ship."
+        }
+      }
+    ],
+    "objects": [
+      {
+        "id": "repainted-bastions",
+        "name": "New Frontier’s repainted prizes",
+        "description": "Josephine, Serenity and Serendipity AFTER the page20 dock repairs and quick recolouring. Three standard round-prowed Bastion capital ships, now with CRIMSON painted hull panels, bronze structural ribs and SILVER Veymarch broken-shield/star insignia. They keep their original hull shapes, standard guns and distinguishing tower/engine arrangements; do NOT become three wedge-prowed Argonaut copies or gain its huge refit cannons. Fresh paint/repair crews can be shown during the dock montage.",
+        "constraints": [
+          "Exactly three prizes, plus the original Argonaut only if the shot explicitly calls for the whole fleet of FOUR.",
+          "The old fleet reference supplies hull geometry only; replace Auric gold/navy flags with crimson/silver Veymarch flags after repainting."
+        ],
+        "canonical_reference": "assets/panels/prologue-p20-panel05.png"
+      },
+      {
+        "id": "banner-veymarch",
+        "name": "Veymarch banner",
+        "description": "Crimson field; Silver broken shield and star",
+        "canonical_reference": "assets/banner-veymarch.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Crimson",
+            "hex": "#991B1B"
+          },
+          "emblem": {
+            "name": "Aged silver",
+            "hex": "#C8C2B0"
+          },
+          "trim": {
+            "name": "Antique silver trim",
+            "hex": "#A89978"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      },
+      {
+        "id": "banner-glassmere",
+        "name": "Glassmere banner",
+        "description": "Cyan field; White crystal prism",
+        "canonical_reference": "assets/banner-glassmere.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Cyan",
+            "hex": "#129EB3"
+          },
+          "emblem": {
+            "name": "Ivory white",
+            "hex": "#EAE5D6"
+          },
+          "trim": {
+            "name": "Antique silver trim",
+            "hex": "#A89978"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location’s defining geography when changing camera angle.",
+      "Idris takes ONE Serenity against Glassmere and peacefully recovers some moorings; Tomas takes ONE Serendipity against Ironveil but struggles against fast schooners. Four owned capital ships total, no new ships captured. Show only requested craft.",
+      "One Bastion per dispatch: Idris/Serenity versus Glassmere, Tomas/Serendipity versus Ironveil. Four owned capitals still; only show ships requested in shot.",
+      "Glassmere gives up SOME trading moorings peacefully. Ironveil remains fast and elusive; no final conquest or destroyed capital.",
+      "Flags: Veymarch crimson/SILVER shield star, Glassmere cyan/WHITE crystal, Ironveil steel/SILVER hammer-anvil. No inverted house palettes.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch",
+      "banner-glassmere"
+    ],
+    "policy": {
+      "reference_precedence": [
+        "Canonical banner reference for emblem geometry and colour placement",
+        "Dedicated material palette in objects.json for neutral-light hues",
+        "Scene and character references for composition and identity only"
+      ],
+      "review_checks": [
+        "Compare every visible banner with its canonical house reference side by side",
+        "Check cloth hue, emblem and trim separately under the scene lighting",
+        "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+      ],
+      "review_required": true
+    }
+  },
+  "prompt": "Edit ONLY the large crimson capital ship in the background of this comic panel. Preserve EXACT canvas, framing, both foreground men, faces, clothing, small brass key, dock ropes, crimson/SILVER Veymarch banner, tiny withdrawing Glassmere trader, cyan/white crystal pennant, all background islands, and ALL exact lettering/box positions. The current capital looks too much like Argonaut; replace it with SERENITY, a DISTINCT single-hull cylindrical rigid metal Zeppelin: long SLENDER BRONZE CIGAR hull with a fully ROUNDED HEMISPHERICAL BOW at left, curved small observation windows in nose, broad IVORY identification stripe down crimson sides, bronze ribs, compact LOW dorsal bridge and exactly TWO separate UNDERSLUNG green magnetic engine nacelles. Standard short modest CASEMATE guns along the sides only. Remove ALL enormous top gun turrets, four long cannon barrels, wedge prow, pointed ram, side gun hulls, articulated side pods and giant exposed stern rings. No Argonaut geometry remains. Rounded Zeppelin nose is essential; it must visibly differ from the armoured angular wedge ship. Keep ship scale and background position; only one Serenity and one tiny withdrawing trader total. Keep all house colours: crimson hull plates, bronze structure, ivory stripe, SILVER shield/star; no gold or navy flag. Keep the exact story narration and caption unchanged. Same graphic novel painted-ink style. This is a background SHIP replacement, not a new scene.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording",
+    "Compare every visible banner with its canonical house reference side by side",
+    "Check cloth hue, emblem and trim separately under the scene lighting",
+    "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+  ],
+  "source_hashes": {
+    "world.json": "3da2fa68dcc5f57145196ac597abafe290d2a179c494eb8ca1450d0ad5c2e637",
+    "character.json": "a1127833850c0b20a81ad25df3ac24003a3c797ce8ad236b9a398483948d96f8",
+    "objects.json": "70376deac1981dfbd85a1cb38a65f18fa0d90906d325905b3d6dffe735a51c4b",
+    "scene": "3c1961067082bb7669ed0b20cb84501d6605a43912c53cdb5506b2fb4762601c"
+  }
+}

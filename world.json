@@ -170,7 +170,8 @@
         "argonaut",
         "josephine"
       ],
-      "retained_command": "Rovan and Mara Voss remain with Argonaut and Josephine; no additional capital ships introduced."
+      "retained_command": "Rovan and Mara Voss remain with Argonaut and Josephine; no additional capital ships introduced.",
+      "estimated_auric_control_percent": 60
     },
     "historical_milestone": {
       "event": "First capture of another duchy’s capital ships in the history of the shattered world.",
@@ -780,7 +781,7 @@
     {
       "order": 28,
       "page": 26,
-      "event": "An influence atlas records Rovan’s captured Auric holdings and recovered moorings, Glassmere’s local withdrawal, and the disputed Ironveil mining approaches. Regions are schematic, not surveyed borders or complete annexations."
+      "event": "The influence atlas shows Rovan controlling approximately 60% of the former Auric Reach, alongside Glassmere’s local withdrawal and contested Ironveil mining approaches. Eight duchies remain and borders are schematic."
     }
   ],
   "publication": {
@@ -2350,7 +2351,7 @@
                 "number": 1,
                 "asset_id": "prologue-p26-panel01",
                 "caption": "Influence after the first campaigns.",
-                "narration": "Rovan held Oram, New Frontier and the recovered moorings. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
+                "narration": "Rovan controlled about 60% of the old Auric Reach, including Oram and New Frontier. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
                 "priority": 5,
                 "image_description": "World atlas overlaid with eight duchy influence regions and local changes after the two-front campaign",
                 "holder": {
@@ -4440,8 +4441,8 @@
         "width": 1334,
         "height": 1179
       },
-      "byte_size": 3077929,
-      "sha256": "8bdd6a56af92b1ba8446e3505161d9783058cbcd54f7b18482038ed8dd06075a",
+      "byte_size": 2793904,
+      "sha256": "680df210e36c29212fce75fb73992b9b2003288a951268d12c04ded5dce75b1b",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
@@ -4506,8 +4507,8 @@
         "width": 1086,
         "height": 1448
       },
-      "byte_size": 3070983,
-      "sha256": "d41e3f1317906d7688b153dfa70797fcea29c84f81abc1fb78493e9f40453646",
+      "byte_size": 2783307,
+      "sha256": "8512245ee06e75f58870e9693d05b4f8c7f54e0b4e2f74e84ed80d492e529e36",
       "status": "current",
       "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
       "comic_usage": [
@@ -4636,7 +4637,9 @@
     "The page24 council comprises Rovan, Grievous and three NAVAL prize captains Mara Voss, Idris Vale and Tomas Kest; the five Type C captains remain a separate group.",
     "Page25 dispatches Idris/Serenity against Glassmere, Tomas/Serendipity against Ironveil; Rovan retains Argonaut and Mara/Josephine. Exactly four owned capitals.",
     "Some trading moorings recovered without conflict does not mean all of Glassmere defeated. Ironveil remains mobile; no destruction/capture of Serendipity or decisive mining victory established.",
-    "Page26 reuses the original world atlas as its geographic base with schematic influence overlays. Eight duchies remain; red marks Rovan’s captured sites and recovered moorings, gold surviving Auric claims, hatched steel contested mining approaches, cyan Glassmere influence and local withdrawal. Other four house regions remain unchanged. No exact city coordinates or surveyed new borders established."
+    "Page26 reuses the original world atlas as its geographic base with schematic influence overlays. Eight duchies remain; red marks Rovan’s captured sites and recovered moorings, gold surviving Auric claims, hatched steel contested mining approaches, cyan Glassmere influence and local withdrawal. Other four house regions remain unchanged. No exact city coordinates or surveyed new borders established.",
+    "Argonaut is one of a kind: only it has wedge ram, side gun hulls, enormous refit guns and articulated pods. Serenity is a slender cylindrical round-nosed Zeppelin Bastion with ivory stripe, modest casemate guns and two underslung engine nacelles.",
+    "On page26 Rovan controls ABOUT 60% of the old Auric Reach territory. The pink overlay covers a majority of the former Auric region; gold remains for the rest, with mining approaches disputed. This is approximate, not full annexation or surveyed borders."
   ],
   "military_livery": {
     "veymarch": {
@@ -4753,7 +4756,8 @@
       "former_commander_id": null,
       "ownership_status": "Held by Rovan; prize captain commissioned at New Frontier.",
       "current_livery": "Fresh crimson repaint with bronze structure and silver Veymarch shield/star insignia; original round-prowed Bastion geometry retained.",
-      "current_status": "With Idris Vale at peacefully recovered trade moorings against Glassmere."
+      "current_status": "With Idris Vale at peacefully recovered trade moorings against Glassmere.",
+      "visual_identity": "Serenity is a DISTINCT slender single-hull Zeppelin Bastion: a long cylindrical bronze pressure hull, a fully ROUNDED hemispherical nose with curved small observation glazing, an IVORY horizontal identification stripe across crimson side plates, compact low dorsal bridge and exactly TWO underslung green magnetic engine nacelles. Short modest casemate guns along the flanks, no enormous top turrets. Clearly man-made rigid metal airship. SILVER Veymarch shield/star on crimson standards. It is not Argonaut’s wedge ram, multi-keel side-gun hull arrangement, four enormous gun barrels or large exposed stern stabiliser rings."
     },
     {
       "id": "serendipity",
@@ -4787,7 +4791,7 @@
           "auric-latest-captured-city",
           "reclaimed-auric-moorings"
         ],
-        "status": "Captured holdings and recovered trade moorings, not the entire Auric Reach."
+        "status": "Rovan controls approximately 60% of the former Auric Reach, including Oram, New Frontier and recovered moorings; not the whole duchy."
       },
       {
         "controller_id": "ironveil",
@@ -4809,6 +4813,8 @@
       "emberfall",
       "verdant-crown",
       "pale-meridian"
-    ]
+    ],
+    "estimated_share_of_former_auric_reach_percent": 60,
+    "estimate_precision": "Approximately 60% of Auric Reach’s old territory; campaign estimate, not surveyed borders."
   }
 }

@@ -548,7 +548,8 @@
       ],
       "constraints": [
         "Exactly three prizes, plus the original Argonaut only if the shot explicitly calls for the whole fleet of FOUR.",
-        "The old fleet reference supplies hull geometry only; replace Auric gold/navy flags with crimson/silver Veymarch flags after repainting."
+        "The old fleet reference supplies hull geometry only; replace Auric gold/navy flags with crimson/silver Veymarch flags after repainting.",
+        "Serenity is the slender ROUND hemispherical-bow single-cylinder ship with an ivory stripe and two underslung engine nacelles. Never borrow Argonaut’s wedge ram or heavy turret design. Use serenity-repainted for single-ship post-capture shots."
       ],
       "canonical_reference": "assets/panels/prologue-p20-panel05.png"
     },
@@ -578,6 +579,23 @@
         "Use map/UI colours rather than banner material colours. No invented ninth duchy or precise city coordinates.",
         "Keep eight home regions and add local changes near Auric Reach. Never recolour all Glassmere/Ironveil or all Auric Reach as Rovan’s territory."
       ]
+    },
+    {
+      "id": "serenity-repainted",
+      "kind": "ship",
+      "name": "Serenity after capture",
+      "duchy_id": "veymarch",
+      "description": "Serenity is a DISTINCT slender single-hull Zeppelin Bastion: a long cylindrical bronze pressure hull, a fully ROUNDED hemispherical nose with curved small observation glazing, an IVORY horizontal identification stripe across crimson side plates, compact low dorsal bridge and exactly TWO underslung green magnetic engine nacelles. Short modest casemate guns along the flanks, no enormous top turrets. Clearly man-made rigid metal airship. SILVER Veymarch shield/star on crimson standards. It is not Argonaut’s wedge ram, multi-keel side-gun hull arrangement, four enormous gun barrels or large exposed stern stabiliser rings.",
+      "reference_images": [
+        "assets/panels/prologue-p25-panel02.png"
+      ],
+      "world_reference": "/named_ships/2",
+      "constraints": [
+        "Post-page20 livery is crimson/bronze with ivory stripe and silver Veymarch heraldry. Historical pre-capture navy/gold appearances remain historical.",
+        "Exactly ONE Serenity, commanded by Idris Vale. Never use Argonaut as its ship geometry reference.",
+        "Argonaut alone has wedge armoured ram prow, side gun hulls, huge twin-barrel turrets and articulated refit pods. Serenity keeps a rounded Zeppelin hull with modest casemate guns."
+      ],
+      "canonical_reference": "assets/panels/prologue-p25-panel02.png"
     }
   ]
 }

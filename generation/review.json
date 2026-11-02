@@ -1434,7 +1434,7 @@
       "id": "prologue-p25-panel02",
       "output_file": "assets/panels/prologue-p25-panel02.png",
       "selected_run": "generation/runs/prologue-p25-panel02.json",
-      "sha256": "8bdd6a56af92b1ba8446e3505161d9783058cbcd54f7b18482038ed8dd06075a",
+      "sha256": "680df210e36c29212fce75fb73992b9b2003288a951268d12c04ded5dce75b1b",
       "dimensions": {
         "width": 1334,
         "height": 1179
@@ -1445,7 +1445,7 @@
         "width": 400,
         "height": 350
       },
-      "review": "Visual review of fixed-holder lettering, Idris/Serenity peaceful local recovery, Tomas/Serendipity versus fast schooners, correct house palettes and four owned capitals. Atlas uses original geographic base, eight home regions and local influence keys; no surveyed borders or whole-duchy annexation."
+      "review": "Visually inspected correction: Serenity has a rounded cylindrical ivory-striped single hull, two underslung engines and modest casemate guns, distinct from unique Argonaut. Atlas shows broad pink control across about60% of former Auric Reach, remaining gold and disputed mining patch; eight labels, map geography, caption/narration and fixed crop checked."
     },
     {
       "id": "prologue-p25-panel03",
@@ -1485,7 +1485,7 @@
       "id": "prologue-p26-panel01",
       "output_file": "assets/panels/prologue-p26-panel01.png",
       "selected_run": "generation/runs/prologue-p26-panel01.json",
-      "sha256": "d41e3f1317906d7688b153dfa70797fcea29c84f81abc1fb78493e9f40453646",
+      "sha256": "8512245ee06e75f58870e9693d05b4f8c7f54e0b4e2f74e84ed80d492e529e36",
       "dimensions": {
         "width": 1086,
         "height": 1448
@@ -1496,7 +1496,7 @@
         "width": 952,
         "height": 1268
       },
-      "review": "Visual review of fixed-holder lettering, Idris/Serenity peaceful local recovery, Tomas/Serendipity versus fast schooners, correct house palettes and four owned capitals. Atlas uses original geographic base, eight home regions and local influence keys; no surveyed borders or whole-duchy annexation."
+      "review": "Visually inspected correction: Serenity has a rounded cylindrical ivory-striped single hull, two underslung engines and modest casemate guns, distinct from unique Argonaut. Atlas shows broad pink control across about60% of former Auric Reach, remaining gold and disputed mining patch; eight labels, map geography, caption/narration and fixed crop checked."
     }
   ]
 }

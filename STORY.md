@@ -198,3 +198,5 @@ Administration strains him. Ironveil patrols and Glassmere crews move into expos
 ## Pages 25–26: two fronts and shifting influence
 
 Idris Vale takes Serenity against Glassmere’s advance and recovers some trade moorings without a shot. Tomas Kest takes Serendipity against Ironveil but cannot pin down its fast schooners. Rovan retains Argonaut and Mara Voss’s Josephine; four capital ships remain. The atlas records captured holdings, recovered moorings, disputed mining approaches and Glassmere’s local withdrawal, using the original geography and eight duchies. It sets no exact new borders or final annexations.
+
+Current atlas clarification: Rovan controls approximately 60% of Auric Reach’s former territory. The majority pink overlay is an influence estimate, not surveyed borders or the whole duchy. Serenity is the rounded single-cylinder Bastion with an ivory stripe, two underslung engines and modest side guns; Argonaut’s wedge prow and huge turrets remain unique.

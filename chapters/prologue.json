@@ -3454,7 +3454,8 @@
             }
           ],
           "scene_id": "prologue-p25-panel02",
-          "lettering_mode": "baked"
+          "lettering_mode": "baked",
+          "image_revision": "680df210e36c"
         },
         {
           "image_src": "assets/panels/prologue-p25-panel03.png",
@@ -3541,7 +3542,7 @@
         {
           "image_src": "assets/panels/prologue-p26-panel01.png",
           "caption": "Influence after the first campaigns.",
-          "narration": "Rovan held Oram, New Frontier and the recovered moorings. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
+          "narration": "Rovan controlled about 60% of the old Auric Reach, including Oram and New Frontier. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
           "image_alt": "World atlas overlaid with eight duchy influence regions and local changes after the two-front campaign",
           "priority": 5,
           "holder": {
@@ -3563,7 +3564,7 @@
             },
             {
               "type": "narration",
-              "text": "Rovan held Oram, New Frontier and the recovered moorings. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
+              "text": "Rovan controlled about 60% of the old Auric Reach, including Oram and New Frontier. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
               "bounds": {
                 "x": 24,
                 "y": 1130,
@@ -3573,7 +3574,8 @@
             }
           ],
           "scene_id": "prologue-p26-panel01",
-          "lettering_mode": "baked"
+          "lettering_mode": "baked",
+          "image_revision": "8512245ee06e"
         }
       ],
       "footer": "PROLOGUE · A SHIFTING BALANCE",
