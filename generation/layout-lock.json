@@ -508,6 +508,36 @@
       "y": 770,
       "width": 952,
       "height": 498
+    },
+    "prologue-p25-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 400
+    },
+    "prologue-p25-panel02": {
+      "x": 0,
+      "y": 410,
+      "width": 400,
+      "height": 350
+    },
+    "prologue-p25-panel03": {
+      "x": 410,
+      "y": 410,
+      "width": 542,
+      "height": 350
+    },
+    "prologue-p25-panel04": {
+      "x": 0,
+      "y": 770,
+      "width": 952,
+      "height": 498
+    },
+    "prologue-p26-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 1268
     }
   },
   "extensions": [
@@ -573,6 +603,14 @@
       ],
       "source_commit": "ad54fbd",
       "method": "Four frozen apertures per page for entry/exile/reforms/grain, followed by administration/two foreign advances/naval council."
+    },
+    {
+      "pages": [
+        25,
+        26
+      ],
+      "source_commit": "dcdf1ec",
+      "method": "Page25 four fixed scenes for dispatch, peaceful mooring recovery, schooner chase and bridge report. Page26 one fixed full-page atlas plate preserving original map base with influence overlays."
     }
   ]
 }

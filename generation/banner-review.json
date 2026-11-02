@@ -466,6 +466,34 @@
           "panel": 4,
           "file": "assets/panels/prologue-p24-panel04.png",
           "sha256": "cccacd80dcbae2873c5a3c882aa2160a7562d911c6205ebb8e91aabd303ca9bf"
+        },
+        {
+          "id": "prologue-p25-panel01",
+          "page": 25,
+          "panel": 1,
+          "file": "assets/panels/prologue-p25-panel01.png",
+          "sha256": "51e572ff301e151ff6945e436b33b7386941d81cd8bc4c33f49c866ce11e1ea0"
+        },
+        {
+          "id": "prologue-p25-panel02",
+          "page": 25,
+          "panel": 2,
+          "file": "assets/panels/prologue-p25-panel02.png",
+          "sha256": "8bdd6a56af92b1ba8446e3505161d9783058cbcd54f7b18482038ed8dd06075a"
+        },
+        {
+          "id": "prologue-p25-panel03",
+          "page": 25,
+          "panel": 3,
+          "file": "assets/panels/prologue-p25-panel03.png",
+          "sha256": "eca22eca7d9213380cdfd721cc9b0cb8bcb2e5ef1e7615c1c46d45c4d431af8b"
+        },
+        {
+          "id": "prologue-p25-panel04",
+          "page": 25,
+          "panel": 4,
+          "file": "assets/panels/prologue-p25-panel04.png",
+          "sha256": "57cb993134ce6b3c4510c7b5db2053fc83d9bf79ba09dfadeeb036009f8bd02d"
         }
       ]
     },
@@ -777,6 +805,13 @@
           "panel": 2,
           "file": "assets/panels/prologue-p24-panel02.png",
           "sha256": "ce97a925aae1d3c4c0f75781c8819a285840f2673bef32efa9c5fc20b3124881"
+        },
+        {
+          "id": "prologue-p25-panel03",
+          "page": 25,
+          "panel": 3,
+          "file": "assets/panels/prologue-p25-panel03.png",
+          "sha256": "eca22eca7d9213380cdfd721cc9b0cb8bcb2e5ef1e7615c1c46d45c4d431af8b"
         }
       ]
     },
@@ -810,6 +845,13 @@
           "panel": 3,
           "file": "assets/panels/prologue-p24-panel03.png",
           "sha256": "be7f1969416484722ac496b16395166a846ebd399616af3c7a16b15547123a7b"
+        },
+        {
+          "id": "prologue-p25-panel02",
+          "page": 25,
+          "panel": 2,
+          "file": "assets/panels/prologue-p25-panel02.png",
+          "sha256": "8bdd6a56af92b1ba8446e3505161d9783058cbcd54f7b18482038ed8dd06075a"
         }
       ]
     },
@@ -925,5 +967,5 @@
     "Check cloth hue, emblem and trim separately under the scene lighting",
     "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
   ],
-  "revision": "43aff5bea5fd4140b73d5c395540ad1eac1ab4bf3b75fa41092d5330e927c298"
+  "revision": "4a411f6c0a59e388e35d29cd3fd2e2fc6f3f702d916dc7f48804b251b8be5d1e"
 }

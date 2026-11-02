@@ -194,3 +194,7 @@ Prize crews take the bridges and turn the ships while repair gangs work on the d
 Rovan receives Oram’s keys in silence, exiles Ferdinand’s older bald grey-bearded baron, and begins a fairer local government with dockworker and farmer voices, recorded taxes, wages, grain access and paid repairs. Reform is an attempt, not an established success.
 
 Administration strains him. Ironveil patrols and Glassmere crews move into exposed Auric outer holdings. Rovan and Grievous meet the three naval prize captains, Mara Voss, Idris Vale and Tomas Kest, to discuss defending the larger territory with four capital ships. No response is decided, and no new borders or whole-duchy annexation is established.
+
+## Pages 25–26: two fronts and shifting influence
+
+Idris Vale takes Serenity against Glassmere’s advance and recovers some trade moorings without a shot. Tomas Kest takes Serendipity against Ironveil but cannot pin down its fast schooners. Rovan retains Argonaut and Mara Voss’s Josephine; four capital ships remain. The atlas records captured holdings, recovered moorings, disputed mining approaches and Glassmere’s local withdrawal, using the original geography and eight duchies. It sets no exact new borders or final annexations.

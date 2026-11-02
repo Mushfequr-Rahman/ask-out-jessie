@@ -1,0 +1,283 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p25-panel01",
+  "parameters": {
+    "scene": "prologue-p25-panel01",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 0,
+    "y": 0,
+    "width": 952,
+    "height": 400
+  },
+  "target": {
+    "width": 1584,
+    "height": 672,
+    "size": "1584x672",
+    "visible_window": {
+      "x": 0,
+      "y": 0.004801920768307266,
+      "width": 1,
+      "height": 0.9903961584633855
+    }
+  },
+  "output_file": "assets/panels/prologue-p25-panel01.png",
+  "reference_images": [
+    {
+      "path": "assets/banner-veymarch.png",
+      "role": "AUTHORITATIVE banner colours, emblem and trim for veymarch. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.",
+      "index": 1
+    },
+    {
+      "path": "references/panels/duke-seizure-crimson.png",
+      "role": "Character identity/wardrobe anchor for rovan-vey; not extra people to insert.",
+      "index": 2
+    },
+    {
+      "path": "assets/panels/prologue-p20-panel04.png",
+      "role": "Character identity/wardrobe anchor for idris-vale; not extra people to insert.",
+      "index": 3
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "Two captains. Two fronts.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 275,
+          "height": 44
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "Two captains. Two fronts.",
+        "normalized_bounds": {
+          "x": 0.0147,
+          "y": 0.035,
+          "width": 0.2889,
+          "height": 0.11
+        },
+        "source_bounds": {
+          "x": 0.0147,
+          "y": 0.0395,
+          "width": 0.2889,
+          "height": 0.1089
+        }
+      },
+      {
+        "type": "speech",
+        "text": "Rovan: “Idris, take Serenity to the trade moorings. Tomas, take Serendipity to the mining approaches.”",
+        "bounds": {
+          "x": 14,
+          "y": 306,
+          "width": 924,
+          "height": 76
+        },
+        "speaker_name": "Rovan",
+        "speaker_id": "rovan-vey",
+        "render_text": "Idris, take Serenity to the trade moorings. Tomas, take Serendipity to the mining approaches.",
+        "normalized_bounds": {
+          "x": 0.0147,
+          "y": 0.765,
+          "width": 0.9706,
+          "height": 0.19
+        },
+        "source_bounds": {
+          "x": 0.0147,
+          "y": 0.7625,
+          "width": 0.9706,
+          "height": 0.1882
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth’s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "veymarch",
+          "name": "Veymarch",
+          "emblem": "Silver broken shield and star"
+        }
+      ]
+    },
+    "characters": [
+      {
+        "id": "rovan-vey",
+        "name": "Rovan Vey",
+        "title": "Duke",
+        "visual_concept": {
+          "status": "provisional artwork, not established biography",
+          "appearance": "Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf"
+        },
+        "uniform_standard": "Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct."
+      },
+      {
+        "id": "idris-vale",
+        "name": "Idris Vale",
+        "title": "Captain",
+        "visual_concept": {
+          "status": "Provisional original character design",
+          "appearance": "Tall dark-skinned human man, close-cropped black curls, short full black beard, navy naval coat with crimson collar and rolled cuffs, modest bronze fittings. No silver armour."
+        },
+        "uniform_standard": "Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set."
+      },
+      {
+        "id": "tomas-kest",
+        "name": "Tomas Kest",
+        "title": "Captain",
+        "visual_concept": {
+          "status": "Provisional original character design",
+          "appearance": "Stocky light-tan-skinned human man, straight cropped black hair with grey temples, clean-shaven face, square brass-framed spectacles, navy naval coat over crimson and practical leather gloves. No monocle or silver armour."
+        },
+        "uniform_standard": "Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set."
+      }
+    ],
+    "objects": [
+      {
+        "id": "banner-veymarch",
+        "name": "Veymarch banner",
+        "description": "Crimson field; Silver broken shield and star",
+        "canonical_reference": "assets/banner-veymarch.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Crimson",
+            "hex": "#991B1B"
+          },
+          "emblem": {
+            "name": "Aged silver",
+            "hex": "#C8C2B0"
+          },
+          "trim": {
+            "name": "Antique silver trim",
+            "hex": "#A89978"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location’s defining geography when changing camera angle.",
+      "Idris takes ONE Serenity against Glassmere and peacefully recovers some moorings; Tomas takes ONE Serendipity against Ironveil but struggles against fast schooners. Four owned capital ships total, no new ships captured. Show only requested craft.",
+      "One Bastion per dispatch: Idris/Serenity versus Glassmere, Tomas/Serendipity versus Ironveil. Four owned capitals still; only show ships requested in shot.",
+      "Glassmere gives up SOME trading moorings peacefully. Ironveil remains fast and elusive; no final conquest or destroyed capital.",
+      "Flags: Veymarch crimson/SILVER shield star, Glassmere cyan/WHITE crystal, Ironveil steel/SILVER hammer-anvil. No inverted house palettes.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch"
+    ],
+    "policy": {
+      "reference_precedence": [
+        "Canonical banner reference for emblem geometry and colour placement",
+        "Dedicated material palette in objects.json for neutral-light hues",
+        "Scene and character references for composition and identity only"
+      ],
+      "review_checks": [
+        "Compare every visible banner with its canonical house reference side by side",
+        "Check cloth hue, emblem and trim separately under the scene lighting",
+        "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+      ],
+      "review_required": true
+    }
+  },
+  "prompt": "PURPOSE: Regenerate ONE comic illustration for FIXED holder 952.00 by 400.00 logical pixels, aspect 2.3800:1. LANDSCAPE. Requested output 1584x672. Do NOT resize or redesign the holder. Paint a NEW composition for it, not a framed photo.\n\nSCENE: Exactly THREE foreground officers at dispatch table: Rovan in navy/crimson black hair/silver streak short beard, Idris Vale tall dark-skinned man close curls short full beard, Tomas Kest stocky light-tan clean-shaven SQUARE brass spectacles. Naval captains navy/crimson coats bronze fittings, no silver armour. Rovan points to TWO separate map routes, no legible map labels. No extra ships in the sky; one small crimson/SILVER flag. Mara not dispatched. All three faces and hands clear of lettering.\nCAMERA: Use a clear, tightly composed shot with the important action filling the aperture; do not copy the old wide framing.\n\nSTYLE: Magneton graphic novel: painted ink, tactile bronze machinery, silver Type C, crimson Veymarch cloth, navy/gold Auric Reach uniforms; atmospheric floating islands. Consistent with supplied scene references, not photorealistic.\n\nWORLD CONTEXT FROM world.json: {\"setting\":{\"genre\":[\"post-apocalyptic\",\"science fantasy\",\"feudal political adventure\"],\"planet\":\"Earth\",\"catastrophe\":{\"name\":\"The Fracture\",\"cause\":\"Nuclear war shattered Earth into floating islands.\",\"date\":null,\"instigators\":null},\"geography\":{\"landform\":\"Fractured continents and floating rock islands above an atmospheric void\",\"duchy_count\":8,\"atlas_asset_id\":\"shattered-earth-atlas\",\"boundaries\":\"Map labels mark regions of influence, not surveyed borders.\",\"exact_distances\":null},\"magnetic_fields\":{\"behavior\":\"Erratic and turbulent in motion, but their patterns are predictable.\",\"world_function\":\"Hold the fractured landmasses together.\",\"navigation\":\"Ships use magnetic motors to travel through the fields between cities and mining sites.\",\"safe_route_rules\":null},\"humanity\":{\"survival\":\"Humanity was nearly extinguished.\",\"adaptation\":\"Survivors evolved over generations under the influence of the magnetic fields.\",\"new_attributes_exist\":true,\"specific_attributes\":null},\"gravity_and_energy\":{\"city_support\":\"Magneton technology stabilizes floating cities and islands, preventing them from falling.\",\"local_gravity\":\"Generated local fields reproduce the experience of the old Earth’s gravity.\",\"power\":\"Oppositely polarized metal components move in magnetic motors, powering city and transport systems.\",\"fictional_physics\":\"These are rules of the setting; no real-world scientific mechanism is established.\",\"technical_limits\":null}},\"metals\":[{\"id\":\"type-a\",\"appearance\":\"Bronze-like metal\",\"properties\":[\"Very durable\"]},{\"id\":\"type-b\",\"appearance\":\"Glowing green in both polarities\",\"properties\":[\"Found in opposite magnetic polarities\"]},{\"id\":\"type-c\",\"appearance\":\"Silvery metal\",\"properties\":[\"Most malleable of the Magneton types\",\"Impenetrable and impervious to any weapons\",\"Can drift along magnetic fields\"]}],\"duchies\":[{\"id\":\"veymarch\",\"name\":\"Veymarch\",\"emblem\":\"Silver broken shield and star\"}]} Preserve the source scene’s era and events; do not add unrelated world elements.\n\nCHARACTERS (immutable identity and costume): [{\"id\":\"rovan-vey\",\"name\":\"Rovan Vey\",\"title\":\"Duke\",\"visual_concept\":{\"status\":\"provisional artwork, not established biography\",\"appearance\":\"Adult man, black hair with silver streak, short dark beard, navy officer coat with bronze shoulder armour, muted red scarf\"},\"uniform_standard\":\"Veymarch military base-layer cloth, capes and tabards are crimson red; bronze armour stays bronze, and Type C armour stays silver. Rovan’s navy outer officer coat and the general’s olive outer coat remain distinct.\"},{\"id\":\"idris-vale\",\"name\":\"Idris Vale\",\"title\":\"Captain\",\"visual_concept\":{\"status\":\"Provisional original character design\",\"appearance\":\"Tall dark-skinned human man, close-cropped black curls, short full black beard, navy naval coat with crimson collar and rolled cuffs, modest bronze fittings. No silver armour.\"},\"uniform_standard\":\"Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set.\"},{\"id\":\"tomas-kest\",\"name\":\"Tomas Kest\",\"title\":\"Captain\",\"visual_concept\":{\"status\":\"Provisional original character design\",\"appearance\":\"Stocky light-tan-skinned human man, straight cropped black hair with grey temples, clean-shaven face, square brass-framed spectacles, navy naval coat over crimson and practical leather gloves. No monocle or silver armour.\"},\"uniform_standard\":\"Navy officer coat over crimson cloth, restrained bronze fittings. Ordinary naval officer, not a new Type C armour set.\"}]\n\nOBJECTS (only those belonging in this scene): [{\"id\":\"banner-veymarch\",\"name\":\"Veymarch banner\",\"description\":\"Crimson field; Silver broken shield and star\",\"canonical_reference\":\"assets/banner-veymarch.png\",\"palette\":{\"color_space\":\"sRGB\",\"basis\":\"neutral-light art direction\",\"note\":\"Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.\",\"cloth\":{\"name\":\"Crimson\",\"hex\":\"#991B1B\"},\"emblem\":{\"name\":\"Aged silver\",\"hex\":\"#C8C2B0\"},\"trim\":{\"name\":\"Antique silver trim\",\"hex\":\"#A89978\"},\"lighting_rule\":\"Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette.\"}}]\n\nREFERENCES: [{\"path\":\"assets/banner-veymarch.png\",\"role\":\"AUTHORITATIVE banner colours, emblem and trim for veymarch. Overrides banners in ALL older scene, style and character references. Do not insert a banner unless the scene calls for it.\",\"index\":1},{\"path\":\"references/panels/duke-seizure-crimson.png\",\"role\":\"Character identity/wardrobe anchor for rovan-vey; not extra people to insert.\",\"index\":2},{\"path\":\"assets/panels/prologue-p20-panel04.png\",\"role\":\"Character identity/wardrobe anchor for idris-vale; not extra people to insert.\",\"index\":3}]\n\nBANNER AUTHORITY: {\"reference_precedence\":[\"Canonical banner reference for emblem geometry and colour placement\",\"Dedicated material palette in objects.json for neutral-light hues\",\"Scene and character references for composition and identity only\"],\"review_checks\":[\"Compare every visible banner with its canonical house reference side by side\",\"Check cloth hue, emblem and trim separately under the scene lighting\",\"Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection\"],\"review_required\":true} Dedicated objects.json palettes describe neutral-light materials. Map/UI colours from world.json are not fabric colours. Canonical banner images control heraldic geometry; palette swatches control intended material hues. Older scene/character palettes never override these. Apply the palette lighting rule, keeping each house recognisable. Palette hex values are targets, not a guarantee of identical generated pixels.\n\nLETTERING: Draw the speech balloons, cream caption/narration boxes and ALL their text directly INTO the artwork. Use a professional clear comic lettering font, dark ink on pale cream/white, readable contrast. Reproduce each render_text EXACTLY, preserving punctuation; do not print speaker labels or JSON keys. Speech tails point to the speaking person. No other words, labels, signs or gibberish. The visible crop-safe aperture in FULL SOURCE coordinates is {\"x\":0,\"y\":0.004801920768307266,\"width\":1,\"height\":0.9903961584633855}. Place ALL text wholly inside it. The following bounding boxes are normalized to the FULL SOURCE image (not to the holder); use these adjusted positions exactly: [{\"type\":\"caption\",\"render_text\":\"Two captains. Two fronts.\",\"bounds_in_full_source_image\":{\"x\":0.0147,\"y\":0.0395,\"width\":0.2889,\"height\":0.1089}},{\"type\":\"speech\",\"render_text\":\"Idris, take Serenity to the trade moorings. Tomas, take Serendipity to the mining approaches.\",\"bounds_in_full_source_image\":{\"x\":0.0147,\"y\":0.7625,\"width\":0.9706,\"height\":0.1882}}]\n\nINVARIANTS: One image per request; no multi-panel collage or embedded borders. Compose for the fixed holder. Do not letterbox or paste the old wide image. Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts. Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones. No unsupported new lore, extra Type C suits, extra capital ships or invented character names. Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location’s defining geography when changing camera angle. Idris takes ONE Serenity against Glassmere and peacefully recovers some moorings; Tomas takes ONE Serendipity against Ironveil but struggles against fast schooners. Four owned capital ships total, no new ships captured. Show only requested craft. One Bastion per dispatch: Idris/Serenity versus Glassmere, Tomas/Serendipity versus Ironveil. Four owned capitals still; only show ships requested in shot. Glassmere gives up SOME trading moorings peacefully. Ironveil remains fast and elusive; no final conquest or destroyed capital. Flags: Veymarch crimson/SILVER shield star, Glassmere cyan/WHITE crystal, Ironveil steel/SILVER hammer-anvil. No inverted house palettes. All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions.\n\n\n\nDELIVERY: Edge-to-edge painted scene with finished comic lettering, no blank borders, no letterboxing, no collage. If native output ratio differs from the holder, keep ALL important content inside its central crop-safe aperture; only expendable background may extend beyond. For a wide strip, put the main figures and action in the central horizontal band, leaving substantial sky/floor outside that band.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording",
+    "Compare every visible banner with its canonical house reference side by side",
+    "Check cloth hue, emblem and trim separately under the scene lighting",
+    "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+  ],
+  "source_hashes": {
+    "world.json": "3da2fa68dcc5f57145196ac597abafe290d2a179c494eb8ca1450d0ad5c2e637",
+    "character.json": "a1127833850c0b20a81ad25df3ac24003a3c797ce8ad236b9a398483948d96f8",
+    "objects.json": "70376deac1981dfbd85a1cb38a65f18fa0d90906d325905b3d6dffe735a51c4b",
+    "scene": "f748f0a5ad5108eb9320e90c804c1c19f8c3acbd0ea9cd5c8edfefa8c72b6b13"
+  }
+}

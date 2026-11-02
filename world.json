@@ -88,7 +88,7 @@
       "opponent_duchy_id": "auric-reach",
       "target_character_id": "rovan-vey",
       "capital_ships_dispatched": 3,
-      "status": "Rovan attempts to govern his enlarged Auric holdings. Ironveil and Glassmere advance into exposed outer territory. He meets Grievous and his three naval captains to discuss how to respond.",
+      "status": "Idris Vale takes Serenity against Glassmere and recovers some trading moorings without fighting. Tomas Kest takes Serendipity against Ironveil but cannot pin down its fast schooners.",
       "battle_outcome": "Rovan captures Josephine, Serenity and Serendipity in one battle.",
       "opponent_total_capital_ship_count": null,
       "planned_battlefield_id": "shattered-plains",
@@ -151,7 +151,26 @@
         "glassmere"
       ],
       "exposed_location_id": "auric-outer-fragments",
-      "response_decided": false
+      "response_decided": true,
+      "dispatches": [
+        {
+          "captain_id": "idris-vale",
+          "ship_id": "serenity",
+          "opponent_duchy_id": "glassmere",
+          "result": "Some trade moorings recovered peacefully; Glassmere withdraws locally."
+        },
+        {
+          "captain_id": "tomas-kest",
+          "ship_id": "serendipity",
+          "opponent_duchy_id": "ironveil",
+          "result": "Serendipity struggles to intercept fast schooners; mining approaches remain disputed."
+        }
+      ],
+      "retained_ships": [
+        "argonaut",
+        "josephine"
+      ],
+      "retained_command": "Rovan and Mara Voss remain with Argonaut and Josephine; no additional capital ships introduced."
     },
     "historical_milestone": {
       "event": "First capture of another duchy’s capital ships in the history of the shattered world.",
@@ -596,6 +615,22 @@
       "role": "Outlying mining rocks and trade moorings left exposed after the defeat of Ferdinand’s fleet.",
       "current_control": "Disputed and vulnerable: Ironveil patrols and Glassmere advance parties move toward exposed holdings on page24. No final borders established.",
       "exact_coordinates": null
+    },
+    {
+      "id": "reclaimed-auric-moorings",
+      "name": "Reclaimed Auric trade moorings",
+      "duchy_id": "auric-reach",
+      "role": "Some outer trade moorings reclaimed peacefully by Idris Vale aboard Serenity from Glassmere’s advance on page25.",
+      "current_control": "Rovan’s forces; local recovery, not annexation of Glassmere.",
+      "exact_coordinates": null
+    },
+    {
+      "id": "ironveil-disputed-approaches",
+      "name": "Disputed mining approaches",
+      "duchy_id": "auric-reach",
+      "role": "Outer Auric mining approaches where Tomas Kest’s slow Serendipity struggles against fast Ironveil schooners.",
+      "current_control": "Contested; Ironveil retains mobility and access. No decisive victory or loss of Serendipity established.",
+      "exact_coordinates": null
     }
   ],
   "characters_file": "character.json",
@@ -736,6 +771,16 @@
       "order": 26,
       "page": 24,
       "event": "Administration overwhelms Rovan as exposed Auric holdings draw Ironveil patrols and Glassmere expeditions. He meets Grievous and naval captains Mara Voss, Idris Vale and Tomas Kest. They discuss how four capitals can defend the larger territory; no response is chosen yet."
+    },
+    {
+      "order": 27,
+      "page": 25,
+      "event": "Rovan dispatches Idris Vale with Serenity to Glassmere’s advance and Tomas Kest with Serendipity to Ironveil’s. Idris peacefully recovers some trading moorings. Tomas struggles to catch fast schooners with his slow Bastion. Four owned capital ships remain."
+    },
+    {
+      "order": 28,
+      "page": 26,
+      "event": "An influence atlas records Rovan’s captured Auric holdings and recovered moorings, Glassmere’s local withdrawal, and the disputed Ironveil mining approaches. Regions are schematic, not surveyed borders or complete annexations."
     }
   ],
   "publication": {
@@ -752,8 +797,8 @@
         "title": "Prologue",
         "status": "available",
         "reader": "prologue.html",
-        "page_count": 24,
-        "panel_count": 83,
+        "page_count": 26,
+        "panel_count": 88,
         "pages": [
           {
             "number": 1,
@@ -2223,6 +2268,98 @@
                   "height": 498
                 },
                 "scene_id": "prologue-p24-panel04",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 25,
+            "title": "Two Fronts",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p25-panel01",
+                "caption": "Two captains. Two fronts.",
+                "narration": "Rovan: “Idris, take Serenity to the trade moorings. Tomas, take Serendipity to the mining approaches.”",
+                "priority": 5,
+                "image_description": "Exactly THREE foreground officers at dispatch table",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 400
+                },
+                "scene_id": "prologue-p25-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p25-panel02",
+                "caption": "Glassmere gave ground.",
+                "narration": "Serenity arrived. Glassmere’s crews withdrew, and Idris took back the moorings without a shot.",
+                "priority": 4,
+                "image_description": "ONE round-prowed standard Bastion SERENITY in crimson panels/bronze ribs with SILVER Veymarch shield/star hovers near an outer trade mooring, guns silent, no muzzle flashes or damage. Idris Vale in foreground on mooring receives a small brass mooring key from an ordinary teal-coated Glassmere dock official. Exactly ONE smaller bronze twin-hull Caravan trader in distance withdrawing, cyan/WHITE crystal Glassmere pennant. No fighting, surrender executions, new capital ship capture or wholesale Glassmere conquest. Big Serenity clear but leave room for the peaceful two-person handoff. Sparse irregular limestone slabs, no repeated castle islands.",
+                "holder": {
+                  "x": 0,
+                  "y": 410,
+                  "width": 400,
+                  "height": 350
+                },
+                "scene_id": "prologue-p25-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p25-panel03",
+                "caption": "Ironveil would not stand still.",
+                "narration": "Serendipity had the guns. Ironveil’s schooners had the speed.",
+                "priority": 4,
+                "image_description": "Dynamic wide chase",
+                "holder": {
+                  "x": 410,
+                  "y": 410,
+                  "width": 542,
+                  "height": 350
+                },
+                "scene_id": "prologue-p25-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p25-panel04",
+                "caption": "Too slow to catch them.",
+                "narration": "Tomas: “They’re gone before we can turn. We can’t secure the approaches like this.”",
+                "priority": 5,
+                "image_description": "Tomas Kest on Serendipity’s cramped bronze bridge, stocky light-tan clean-shaven man cropped black/grey hair and SQUARE brass spectacles, navy/crimson coat bronze fittings, grips rail facing windows. One ordinary navy/crimson helmswoman at large wheel nearby, green magnetic instruments, no silver armour. Outside glass exactly TWO tiny fast steel schooners recede behind different bare rock spires; our own capital hull is not duplicated. Frustration, not cowardice or defeat; ship intact. Crimson/SILVER Veymarch banner inside bridge. No extra named character, no map of new borders.",
+                "holder": {
+                  "x": 0,
+                  "y": 770,
+                  "width": 952,
+                  "height": 498
+                },
+                "scene_id": "prologue-p25-panel04",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 26,
+            "title": "A Shifting Balance",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p26-panel01",
+                "caption": "Influence after the first campaigns.",
+                "narration": "Rovan held Oram, New Frontier and the recovered moorings. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
+                "priority": 5,
+                "image_description": "World atlas overlaid with eight duchy influence regions and local changes after the two-front campaign",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 1268
+                },
+                "scene_id": "prologue-p26-panel01",
                 "lettering_mode": "baked"
               }
             ]
@@ -4273,6 +4410,116 @@
       ]
     },
     {
+      "id": "prologue-p25-panel01",
+      "file": "assets/panels/prologue-p25-panel01.png",
+      "title": "Prologue P25 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1926,
+        "height": 817
+      },
+      "byte_size": 2948652,
+      "sha256": "51e572ff301e151ff6945e436b33b7386941d81cd8bc4c33f49c866ce11e1ea0",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 25,
+          "panel": 1,
+          "description": "Exactly THREE foreground officers at dispatch table"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p25-panel02",
+      "file": "assets/panels/prologue-p25-panel02.png",
+      "title": "Prologue P25 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1334,
+        "height": 1179
+      },
+      "byte_size": 3077929,
+      "sha256": "8bdd6a56af92b1ba8446e3505161d9783058cbcd54f7b18482038ed8dd06075a",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 25,
+          "panel": 2,
+          "description": "ONE round-prowed standard Bastion SERENITY in crimson panels/bronze ribs with SILVER Veymarch shield/star hovers near an outer trade mooring, guns silent, no muzzle flashes or damage. Idris Vale in foreground on mooring receives a small brass mooring key from an ordinary teal-coated Glassmere dock official. Exactly ONE smaller bronze twin-hull Caravan trader in distance withdrawing, cyan/WHITE crystal Glassmere pennant. No fighting, surrender executions, new capital ship capture or wholesale Glassmere conquest. Big Serenity clear but leave room for the peaceful two-person handoff. Sparse irregular limestone slabs, no repeated castle islands."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p25-panel03",
+      "file": "assets/panels/prologue-p25-panel03.png",
+      "title": "Prologue P25 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1556,
+        "height": 1011
+      },
+      "byte_size": 3143068,
+      "sha256": "eca22eca7d9213380cdfd721cc9b0cb8bcb2e5ef1e7615c1c46d45c4d431af8b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 25,
+          "panel": 3,
+          "description": "Dynamic wide chase"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p25-panel04",
+      "file": "assets/panels/prologue-p25-panel04.png",
+      "title": "Prologue P25 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1734,
+        "height": 907
+      },
+      "byte_size": 2900510,
+      "sha256": "57cb993134ce6b3c4510c7b5db2053fc83d9bf79ba09dfadeeb036009f8bd02d",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 25,
+          "panel": 4,
+          "description": "Tomas Kest on Serendipity’s cramped bronze bridge, stocky light-tan clean-shaven man cropped black/grey hair and SQUARE brass spectacles, navy/crimson coat bronze fittings, grips rail facing windows. One ordinary navy/crimson helmswoman at large wheel nearby, green magnetic instruments, no silver armour. Outside glass exactly TWO tiny fast steel schooners recede behind different bare rock spires; our own capital hull is not duplicated. Frustration, not cowardice or defeat; ship intact. Crimson/SILVER Veymarch banner inside bridge. No extra named character, no map of new borders."
+        }
+      ]
+    },
+    {
+      "id": "prologue-p26-panel01",
+      "file": "assets/panels/prologue-p26-panel01.png",
+      "title": "Prologue P26 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1086,
+        "height": 1448
+      },
+      "byte_size": 3070983,
+      "sha256": "d41e3f1317906d7688b153dfa70797fcea29c84f81abc1fb78493e9f40453646",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 26,
+          "panel": 1,
+          "description": "World atlas overlaid with eight duchy influence regions and local changes after the two-front campaign"
+        }
+      ]
+    },
+    {
       "id": "schooner-kestrel",
       "file": "assets/schooner-kestrel.png",
       "title": "Kestrel",
@@ -4350,7 +4597,7 @@
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with twenty-four pages and 83 distinct panel images.",
+    "There is one available story entry, Prologue, with twenty-six pages and 88 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
     "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
@@ -4386,7 +4633,10 @@
     "The elder bald grey-bearded baron is exiled on page23; Ferdinand is not the exile.",
     "Rovan begins fairer government through local representation, recorded taxes, wages and grain access. These are intentions and early actions, not a proven just regime.",
     "Ironveil and Glassmere move into exposed Auric outer holdings on page24. No ninth duchy, new owned capital ships, completed annexations or response plan are established.",
-    "The page24 council comprises Rovan, Grievous and three NAVAL prize captains Mara Voss, Idris Vale and Tomas Kest; the five Type C captains remain a separate group."
+    "The page24 council comprises Rovan, Grievous and three NAVAL prize captains Mara Voss, Idris Vale and Tomas Kest; the five Type C captains remain a separate group.",
+    "Page25 dispatches Idris/Serenity against Glassmere, Tomas/Serendipity against Ironveil; Rovan retains Argonaut and Mara/Josephine. Exactly four owned capitals.",
+    "Some trading moorings recovered without conflict does not mean all of Glassmere defeated. Ironveil remains mobile; no destruction/capture of Serendipity or decisive mining victory established.",
+    "Page26 reuses the original world atlas as its geographic base with schematic influence overlays. Eight duchies remain; red marks Rovan’s captured sites and recovered moorings, gold surviving Auric claims, hatched steel contested mining approaches, cyan Glassmere influence and local withdrawal. Other four house regions remain unchanged. No exact city coordinates or surveyed new borders established."
   ],
   "military_livery": {
     "veymarch": {
@@ -4471,7 +4721,7 @@
         "duration_days": 14
       },
       "refit_asset_id": "argonaut-refit",
-      "current_status": "At siege stations outside Oram on page21; part of Rovan’s four-capital fleet."
+      "current_status": "Retained by Rovan at Oram while two captains deploy on page25."
     },
     {
       "id": "josephine",
@@ -4487,7 +4737,7 @@
       "fleet_commander_id": "rovan-vey",
       "ownership_status": "Held by Rovan; prize captain commissioned at New Frontier.",
       "current_livery": "Fresh crimson repaint with bronze structure and silver Veymarch shield/star insignia; original round-prowed Bastion geometry retained.",
-      "current_status": "At siege stations outside Oram on page21; part of Rovan’s four-capital fleet."
+      "current_status": "Retained with Mara Voss while Idris and Tomas deploy."
     },
     {
       "id": "serenity",
@@ -4503,7 +4753,7 @@
       "former_commander_id": null,
       "ownership_status": "Held by Rovan; prize captain commissioned at New Frontier.",
       "current_livery": "Fresh crimson repaint with bronze structure and silver Veymarch shield/star insignia; original round-prowed Bastion geometry retained.",
-      "current_status": "At siege stations outside Oram on page21; part of Rovan’s four-capital fleet."
+      "current_status": "With Idris Vale at peacefully recovered trade moorings against Glassmere."
     },
     {
       "id": "serendipity",
@@ -4519,7 +4769,46 @@
       "former_commander_id": null,
       "ownership_status": "Held by Rovan; prize captain commissioned at New Frontier.",
       "current_livery": "Fresh crimson repaint with bronze structure and silver Veymarch shield/star insignia; original round-prowed Bastion geometry retained.",
-      "current_status": "At siege stations outside Oram on page21; part of Rovan’s four-capital fleet."
+      "current_status": "With Tomas Kest at disputed Ironveil mining approaches; intact but too slow to intercept fast schooners."
     }
-  ]
+  ],
+  "influence_snapshot": {
+    "after_page": 25,
+    "atlas_page": 26,
+    "base_asset_id": "shattered-earth-atlas",
+    "overlay_asset_id": "prologue-p26-panel01",
+    "boundary_precision": "Schematic influence only; uncertain edges. No exact city coordinates.",
+    "house_count": 8,
+    "changes": [
+      {
+        "controller_id": "veymarch",
+        "locations": [
+          "oram",
+          "auric-latest-captured-city",
+          "reclaimed-auric-moorings"
+        ],
+        "status": "Captured holdings and recovered trade moorings, not the entire Auric Reach."
+      },
+      {
+        "controller_id": "ironveil",
+        "locations": [
+          "ironveil-disputed-approaches"
+        ],
+        "status": "Fast patrols contest approaches; no final border."
+      },
+      {
+        "controller_id": "glassmere",
+        "locations": [
+          "reclaimed-auric-moorings"
+        ],
+        "status": "Local peaceful withdrawal; home region unchanged."
+      }
+    ],
+    "unchanged_duchy_ids": [
+      "stormholt",
+      "emberfall",
+      "verdant-crown",
+      "pale-meridian"
+    ]
+  }
 }

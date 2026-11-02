@@ -3377,6 +3377,207 @@
       ],
       "footer": "PROLOGUE · TOO MUCH TO HOLD",
       "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 25,
+      "Title": "Two Fronts",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p25-panel01.png",
+          "caption": "Two captains. Two fronts.",
+          "narration": "Rovan: “Idris, take Serenity to the trade moorings. Tomas, take Serendipity to the mining approaches.”",
+          "image_alt": "Exactly THREE foreground officers at dispatch table",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 400
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Two captains. Two fronts.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 275,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “Idris, take Serenity to the trade moorings. Tomas, take Serendipity to the mining approaches.”",
+              "bounds": {
+                "x": 14,
+                "y": 306,
+                "width": 924,
+                "height": 76
+              }
+            }
+          ],
+          "scene_id": "prologue-p25-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p25-panel02.png",
+          "caption": "Glassmere gave ground.",
+          "narration": "Serenity arrived. Glassmere’s crews withdrew, and Idris took back the moorings without a shot.",
+          "image_alt": "ONE round-prowed standard Bastion SERENITY in crimson panels/bronze ribs with SILVER Veymarch shield/star hovers near an outer trade mooring, guns silent, no muzzle flashes or damage. Idris Vale in foreground on mooring receives a small brass mooring key from an ordinary teal-coated Glassmere dock official. Exactly ONE smaller bronze twin-hull Caravan trader in distance withdrawing, cyan/WHITE crystal Glassmere pennant. No fighting, surrender executions, new capital ship capture or wholesale Glassmere conquest. Big Serenity clear but leave room for the peaceful two-person handoff. Sparse irregular limestone slabs, no repeated castle islands.",
+          "priority": 4,
+          "holder": {
+            "x": 0,
+            "y": 410,
+            "width": 400,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Glassmere gave ground.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 242,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Serenity arrived. Glassmere’s crews withdrew, and Idris took back the moorings without a shot.",
+              "bounds": {
+                "x": 14,
+                "y": 224,
+                "width": 372,
+                "height": 108
+              }
+            }
+          ],
+          "scene_id": "prologue-p25-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p25-panel03.png",
+          "caption": "Ironveil would not stand still.",
+          "narration": "Serendipity had the guns. Ironveil’s schooners had the speed.",
+          "image_alt": "Dynamic wide chase",
+          "priority": 4,
+          "holder": {
+            "x": 410,
+            "y": 410,
+            "width": 542,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Ironveil would not stand still.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 341,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Serendipity had the guns. Ironveil’s schooners had the speed.",
+              "bounds": {
+                "x": 14,
+                "y": 246,
+                "width": 514,
+                "height": 86
+              }
+            }
+          ],
+          "scene_id": "prologue-p25-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p25-panel04.png",
+          "caption": "Too slow to catch them.",
+          "narration": "Tomas: “They’re gone before we can turn. We can’t secure the approaches like this.”",
+          "image_alt": "Tomas Kest on Serendipity’s cramped bronze bridge, stocky light-tan clean-shaven man cropped black/grey hair and SQUARE brass spectacles, navy/crimson coat bronze fittings, grips rail facing windows. One ordinary navy/crimson helmswoman at large wheel nearby, green magnetic instruments, no silver armour. Outside glass exactly TWO tiny fast steel schooners recede behind different bare rock spires; our own capital hull is not duplicated. Frustration, not cowardice or defeat; ship intact. Crimson/SILVER Veymarch banner inside bridge. No extra named character, no map of new borders.",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 770,
+            "width": 952,
+            "height": 498
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Too slow to catch them.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 253,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Tomas: “They’re gone before we can turn. We can’t secure the approaches like this.”",
+              "bounds": {
+                "x": 14,
+                "y": 404,
+                "width": 924,
+                "height": 76
+              }
+            }
+          ],
+          "scene_id": "prologue-p25-panel04",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · TWO FRONTS",
+      "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 26,
+      "Title": "A Shifting Balance",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p26-panel01.png",
+          "caption": "Influence after the first campaigns.",
+          "narration": "Rovan held Oram, New Frontier and the recovered moorings. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
+          "image_alt": "World atlas overlaid with eight duchy influence regions and local changes after the two-front campaign",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 1268
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Influence after the first campaigns.",
+              "bounds": {
+                "x": 24,
+                "y": 24,
+                "width": 904,
+                "height": 72
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Rovan held Oram, New Frontier and the recovered moorings. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
+              "bounds": {
+                "x": 24,
+                "y": 1130,
+                "width": 904,
+                "height": 108
+              }
+            }
+          ],
+          "scene_id": "prologue-p26-panel01",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · A SHIFTING BALANCE",
+      "layout_mode": "fixed"
     }
   ]
 }

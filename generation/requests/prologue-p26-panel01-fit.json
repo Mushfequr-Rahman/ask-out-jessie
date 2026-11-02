@@ -1,0 +1,218 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p26-panel01",
+  "parameters": {
+    "scene": "prologue-p26-panel01",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 0,
+    "y": 0,
+    "width": 952,
+    "height": 1268
+  },
+  "target": {
+    "width": 880,
+    "height": 1168,
+    "size": "880x1168",
+    "visible_window": {
+      "x": 0.0017493547462001935,
+      "y": 0,
+      "width": 0.9965012905075996,
+      "height": 1
+    }
+  },
+  "output_file": "assets/panels/prologue-p26-panel01.png",
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p26-panel01-before-map-fit.png",
+      "role": "Preserve map, eight labels and influence overlays; improve portrait crop safety and remove invented decorative flags."
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "Influence after the first campaigns.",
+        "bounds": {
+          "x": 24,
+          "y": 24,
+          "width": 904,
+          "height": 72
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "Influence after the first campaigns.",
+        "normalized_bounds": {
+          "x": 0.0252,
+          "y": 0.0189,
+          "width": 0.9496,
+          "height": 0.0568
+        },
+        "source_bounds": {
+          "x": 0.0269,
+          "y": 0.0189,
+          "width": 0.9463,
+          "height": 0.0568
+        }
+      },
+      {
+        "type": "narration",
+        "text": "Rovan held Oram, New Frontier and the recovered moorings. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
+        "bounds": {
+          "x": 24,
+          "y": 1130,
+          "width": 904,
+          "height": 108
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "Rovan held Oram, New Frontier and the recovered moorings. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
+        "normalized_bounds": {
+          "x": 0.0252,
+          "y": 0.8912,
+          "width": 0.9496,
+          "height": 0.0852
+        },
+        "source_bounds": {
+          "x": 0.0269,
+          "y": 0.8912,
+          "width": 0.9463,
+          "height": 0.0852
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth\u2019s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": []
+    },
+    "characters": [],
+    "objects": [
+      {
+        "id": "world-influence-atlas",
+        "name": "Shattered Earth influence atlas",
+        "description": "Original world geography as the exact visual base; eight house map colours and schematic overlays after page25. This is a map, not a battle scene. Preserve continents, floating fragments and camera projection.",
+        "constraints": [
+          "Use map/UI colours rather than banner material colours. No invented ninth duchy or precise city coordinates.",
+          "Keep eight home regions and add local changes near Auric Reach. Never recolour all Glassmere/Ironveil or all Auric Reach as Rovan\u2019s territory."
+        ]
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location\u2019s defining geography when changing camera angle.",
+      "Atlas plate only. Preserve original world-map geography and eight duchies. Use schematic influence and a readable local-change legend, not surveyed borders. No invented precise city coordinates or full-duchy conquests.",
+      "Cartographic plate: eight home regions plus three numbered LOCAL change keys. Preserve the source atlas geography.",
+      "Map/UI colours, not flags. No people, ships, uniforms, extra duchies, precise city coordinates or surveyed borders.",
+      "Full map must fit uncropped within the portrait page, with legible legend and narration.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "heraldry": {
+    "banner_ids": [],
+    "policy": {
+      "reference_precedence": [
+        "Canonical banner reference for emblem geometry and colour placement",
+        "Dedicated material palette in objects.json for neutral-light hues",
+        "Scene and character references for composition and identity only"
+      ],
+      "review_checks": [
+        "Compare every visible banner with its canonical house reference side by side",
+        "Check cloth hue, emblem and trim separately under the scene lighting",
+        "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+      ],
+      "review_required": true
+    }
+  },
+  "prompt": "Edit this completed influence atlas. Preserve ALL EXACT words, all EIGHT duchy names, geographic arrangement, home region colours, the three local influence marks and numbered legend. Recompose it into a TALL PORTRAIT 3:4 canvas, suitable for a 952x1268 comic holder, so the WHOLE world map fits without cropping. All map landmasses, ALL eight labels, title, legend and closing narration must be within the CENTRAL 76 PERCENT of canvas WIDTH (x=12% to88%), leaving expendable dark teal sky or bronze framing at outer sides. In particular move/rewrap the ENTIRE bottom narration into a narrower CREAM box within x12%..88%, with comfortable left/right margins, using THREE OR FOUR lines if needed. Exact bottom text: Rovan held Oram, New Frontier and the recovered moorings. The mining approaches remained disputed. These are regions of influence, not surveyed borders. Do NOT shorten, omit or alter any text. Keep title: Influence after the first campaigns. Keep map labels Veymarch, Auric Reach, Ironveil, Glassmere, Stormholt, Emberfall, Verdant Crown, Pale Meridian. Keep all three numbered legend entries and Other four duchies unchanged. Remove ALL three decorative red/gold star banners outside the map, replacing them with plain bronze framing or dark teal sky with NO flags or stars. Remove the tiny decorative airships above the map. Do not remove actual influence colours or map islands. Map and legend must be clear, full and readable; do not invent any new region or colour. Main change: compose full atlas/text safely for fixed portrait holder. Background outside central76percent may be cropped, but no important text or map content.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording",
+    "Compare every visible banner with its canonical house reference side by side",
+    "Check cloth hue, emblem and trim separately under the scene lighting",
+    "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+  ],
+  "source_hashes": {
+    "world.json": "3da2fa68dcc5f57145196ac597abafe290d2a179c494eb8ca1450d0ad5c2e637",
+    "character.json": "a1127833850c0b20a81ad25df3ac24003a3c797ce8ad236b9a398483948d96f8",
+    "objects.json": "70376deac1981dfbd85a1cb38a65f18fa0d90906d325905b3d6dffe735a51c4b",
+    "scene": "81caa219f082ae1d8049479ddd242bd26d9d65931aa0b01e213b953ed647c042"
+  }
+}

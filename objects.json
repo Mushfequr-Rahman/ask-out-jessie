@@ -565,6 +565,19 @@
         "Under siege on page21; the city surrenders on page22. No new occupying banners are required before the surrender.",
         "Farmland is substantial and recognisable; do not make every fragment another identical city."
       ]
+    },
+    {
+      "id": "world-influence-atlas",
+      "name": "Shattered Earth influence atlas",
+      "kind": "map",
+      "description": "Original world geography as the exact visual base; eight house map colours and schematic overlays after page25. This is a map, not a battle scene. Preserve continents, floating fragments and camera projection.",
+      "reference_images": [
+        "assets/shattered-earth-atlas.png"
+      ],
+      "constraints": [
+        "Use map/UI colours rather than banner material colours. No invented ninth duchy or precise city coordinates.",
+        "Keep eight home regions and add local changes near Auric Reach. Never recolour all Glassmere/Ironveil or all Auric Reach as Rovan’s territory."
+      ]
     }
   ]
 }

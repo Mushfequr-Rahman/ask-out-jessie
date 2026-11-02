@@ -66,6 +66,20 @@ conflict = world['society'].get('current_conflict', {})
 for field in ['staging_port_id', 'next_objective_location_id', 'siege_location_id', 'exposed_location_id']:
     if conflict.get(field):
         assert conflict[field] in location_ids, 'Unknown campaign location'
+if conflict.get('dispatches'):
+    deployed = conflict['dispatches']
+    assert len(deployed) == 2 and len({d['ship_id'] for d in deployed}) == 2, 'Two distinct capital dispatches required'
+    for d in deployed:
+        assert d['captain_id'] in character_ids and d['opponent_duchy_id'] in {h['id'] for h in duchies}, 'Unknown dispatch captain/house'
+        assert next(s for s in named_ships if s['id'] == d['ship_id'])['commander_id'] == d['captain_id'], 'Dispatch commander mismatch'
+    assert {d['ship_id'] for d in deployed}.isdisjoint(conflict['retained_ships']), 'Retained ship is also deployed'
+    assert {d['ship_id'] for d in deployed} | set(conflict['retained_ships']) == named_ship_ids, 'Four-ship fleet must be accounted for'
+if world.get('influence_snapshot'):
+    snapshot = world['influence_snapshot']
+    assert snapshot['base_asset_id'] in assets and snapshot['overlay_asset_id'] in assets, 'Missing influence atlas/base'
+    assert snapshot['house_count'] == len(duchies) == 8, 'Influence map must retain eight duchies'
+    for change in snapshot['changes']:
+        assert set(change['locations']) <= location_ids, 'Unknown influence location'
 if conflict.get('external_pressure_duchy_ids'):
     assert set(conflict['external_pressure_duchy_ids']) <= {d['id'] for d in duchies}, 'Unknown advancing duchy'
 if conflict.get('supply_route'):

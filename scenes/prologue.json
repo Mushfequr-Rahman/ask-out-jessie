@@ -4568,6 +4568,279 @@
         "Ordinary officers only in page24 council. Three naval captains are distinct from five silver Type C knights.",
         "Preserve canonical house palettes, varied geography and the limited scope of the emerging reforms. No ninth duchy or final borders."
       ]
+    },
+    {
+      "id": "prologue-p25-panel01",
+      "chapter_id": "prologue",
+      "page_number": 25,
+      "panel_number": 1,
+      "description": "Exactly THREE foreground officers at dispatch table: Rovan in navy/crimson black hair/silver streak short beard, Idris Vale tall dark-skinned man close curls short full beard, Tomas Kest stocky light-tan clean-shaven SQUARE brass spectacles. Naval captains navy/crimson coats bronze fittings, no silver armour. Rovan points to TWO separate map routes, no legible map labels. No extra ships in the sky; one small crimson/SILVER flag. Mara not dispatched. All three faces and hands clear of lettering.",
+      "character_ids": [
+        "rovan-vey",
+        "idris-vale",
+        "tomas-kest"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 400
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Two captains. Two fronts.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 275,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “Idris, take Serenity to the trade moorings. Tomas, take Serendipity to the mining approaches.”",
+          "bounds": {
+            "x": 14,
+            "y": 306,
+            "width": 924,
+            "height": 76
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p25-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "One Bastion per dispatch: Idris/Serenity versus Glassmere, Tomas/Serendipity versus Ironveil. Four owned capitals still; only show ships requested in shot.",
+        "Glassmere gives up SOME trading moorings peacefully. Ironveil remains fast and elusive; no final conquest or destroyed capital.",
+        "Flags: Veymarch crimson/SILVER shield star, Glassmere cyan/WHITE crystal, Ironveil steel/SILVER hammer-anvil. No inverted house palettes."
+      ]
+    },
+    {
+      "id": "prologue-p25-panel02",
+      "chapter_id": "prologue",
+      "page_number": 25,
+      "panel_number": 2,
+      "description": "ONE round-prowed standard Bastion SERENITY in crimson panels/bronze ribs with SILVER Veymarch shield/star hovers near an outer trade mooring, guns silent, no muzzle flashes or damage. Idris Vale in foreground on mooring receives a small brass mooring key from an ordinary teal-coated Glassmere dock official. Exactly ONE smaller bronze twin-hull Caravan trader in distance withdrawing, cyan/WHITE crystal Glassmere pennant. No fighting, surrender executions, new capital ship capture or wholesale Glassmere conquest. Big Serenity clear but leave room for the peaceful two-person handoff. Sparse irregular limestone slabs, no repeated castle islands.",
+      "character_ids": [
+        "idris-vale",
+        "glassmere-expedition"
+      ],
+      "object_ids": [
+        "repainted-bastions",
+        "banner-veymarch",
+        "banner-glassmere"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 410,
+        "width": 400,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Glassmere gave ground.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 242,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Serenity arrived. Glassmere’s crews withdrew, and Idris took back the moorings without a shot.",
+          "bounds": {
+            "x": 14,
+            "y": 224,
+            "width": 372,
+            "height": 108
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p25-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "One Bastion per dispatch: Idris/Serenity versus Glassmere, Tomas/Serendipity versus Ironveil. Four owned capitals still; only show ships requested in shot.",
+        "Glassmere gives up SOME trading moorings peacefully. Ironveil remains fast and elusive; no final conquest or destroyed capital.",
+        "Flags: Veymarch crimson/SILVER shield star, Glassmere cyan/WHITE crystal, Ironveil steel/SILVER hammer-anvil. No inverted house palettes."
+      ]
+    },
+    {
+      "id": "prologue-p25-panel03",
+      "chapter_id": "prologue",
+      "page_number": 25,
+      "panel_number": 3,
+      "description": "Dynamic wide chase: exactly ONE heavy ROUND-prowed standard Bastion Serendipity, bronze/crimson hull SILVER Veymarch markings and THREE green stern magnetic rings, straining through a turn; exactly THREE much SMALLER sleek Needle schooners steel-grey panels and small steel/SILVER Ironveil hammer/anvil pennants darting between bare split basalt spires well ahead. Motion trails and wide turning arc show heavy capital too slow to intercept them. No hits, explosions, sunken ships, extra capitals or decisive victory. Not the wedge Argonaut and no huge refit guns. Make size contrast and faster schooner paths obvious.",
+      "character_ids": [],
+      "object_ids": [
+        "repainted-bastions",
+        "schooner-needle",
+        "banner-veymarch",
+        "banner-ironveil"
+      ],
+      "holder": {
+        "x": 410,
+        "y": 410,
+        "width": 542,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Ironveil would not stand still.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 341,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Serendipity had the guns. Ironveil’s schooners had the speed.",
+          "bounds": {
+            "x": 14,
+            "y": 246,
+            "width": 514,
+            "height": 86
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p25-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "One Bastion per dispatch: Idris/Serenity versus Glassmere, Tomas/Serendipity versus Ironveil. Four owned capitals still; only show ships requested in shot.",
+        "Glassmere gives up SOME trading moorings peacefully. Ironveil remains fast and elusive; no final conquest or destroyed capital.",
+        "Flags: Veymarch crimson/SILVER shield star, Glassmere cyan/WHITE crystal, Ironveil steel/SILVER hammer-anvil. No inverted house palettes."
+      ]
+    },
+    {
+      "id": "prologue-p25-panel04",
+      "chapter_id": "prologue",
+      "page_number": 25,
+      "panel_number": 4,
+      "description": "Tomas Kest on Serendipity’s cramped bronze bridge, stocky light-tan clean-shaven man cropped black/grey hair and SQUARE brass spectacles, navy/crimson coat bronze fittings, grips rail facing windows. One ordinary navy/crimson helmswoman at large wheel nearby, green magnetic instruments, no silver armour. Outside glass exactly TWO tiny fast steel schooners recede behind different bare rock spires; our own capital hull is not duplicated. Frustration, not cowardice or defeat; ship intact. Crimson/SILVER Veymarch banner inside bridge. No extra named character, no map of new borders.",
+      "character_ids": [
+        "tomas-kest"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 770,
+        "width": 952,
+        "height": 498
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Too slow to catch them.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 253,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Tomas: “They’re gone before we can turn. We can’t secure the approaches like this.”",
+          "bounds": {
+            "x": 14,
+            "y": 404,
+            "width": 924,
+            "height": 76
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p25-panel04.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "One Bastion per dispatch: Idris/Serenity versus Glassmere, Tomas/Serendipity versus Ironveil. Four owned capitals still; only show ships requested in shot.",
+        "Glassmere gives up SOME trading moorings peacefully. Ironveil remains fast and elusive; no final conquest or destroyed capital.",
+        "Flags: Veymarch crimson/SILVER shield star, Glassmere cyan/WHITE crystal, Ironveil steel/SILVER hammer-anvil. No inverted house palettes."
+      ]
+    },
+    {
+      "id": "prologue-p26-panel01",
+      "chapter_id": "prologue",
+      "page_number": 26,
+      "panel_number": 1,
+      "description": "Create ONE finished PORTRAIT atlas plate for a comic. Use the attached original world atlas as the GEOGRAPHIC BASE, preserving its recognisable fractured Earth, exact arrangement of continental masses and floating fragments, projection, texture and magnetic ocean. Fit the WHOLE landscape map uncropped across the central-upper portion of a portrait page, with a designed title zone above and readable legend below; background/legend is an intentional cartographic design, not blank letterboxing. No new ships or people. Overlay translucent soft-edged home influence regions using these same relative coordinates WITHIN THE MAP RECTANGLE: Veymarch x49% y27% pink #E56B73; Auric Reach x64% y36% gold #E8BE57; Ironveil x20% y27% steel #99ACBE; Glassmere x31% y64% cyan #57CDD5; Stormholt x76% y19% violet #B099EF; Emberfall x52% y61% orange #EE965B; Verdant Crown x85% y67% green #79C792; Pale Meridian x58% y88% ivory #E7E1CF. Exactly EIGHT labelled duchies, each name printed once at its home region. Keep unrelated region extents modest and unchanged; use organic translucent regions, NOT hard national borders. Add LOCAL pink hatched enclaves near the western/southern fringe of GOLD Auric Reach to represent Rovan’s captured cities and recovered moorings, with a small numbered key 1. Do NOT recolour all Auric Reach. Put a steel-and-gold crosshatched patch near its western approaches with key 2 for disputed Ironveil mining access, not Ironveil annexation. Put a small cyan dashed retreat arrow leading away from one pink mooring mark toward Glassmere, key 3 for local withdrawal, not collapse of the home duchy. Do NOT add exact Oram/New Frontier point coordinates, route lengths, dates or territorial percentages. Legend beneath map prints exactly these three entries: 1 Rovan: cities and recovered moorings; 2 Ironveil: disputed mining approaches; 3 Glassmere: local withdrawal. Smaller note: Other four duchies unchanged. Home duchy names must be readable and correctly spelt. Keep title and full closing narration at their specified fixed-holder locations. Eight houses remain; overlay marks shifts of influence only.",
+      "character_ids": [],
+      "object_ids": [
+        "world-influence-atlas"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 1268
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Influence after the first campaigns.",
+          "bounds": {
+            "x": 24,
+            "y": 24,
+            "width": 904,
+            "height": 72
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Rovan held Oram, New Frontier and the recovered moorings. The mining approaches remained disputed. These are regions of influence, not surveyed borders.",
+          "bounds": {
+            "x": 24,
+            "y": 1130,
+            "width": 904,
+            "height": 108
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p26-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Cartographic plate: eight home regions plus three numbered LOCAL change keys. Preserve the source atlas geography.",
+        "Map/UI colours, not flags. No people, ships, uniforms, extra duchies, precise city coordinates or surveyed borders.",
+        "Full map must fit uncropped within the portrait page, with legible legend and narration."
+      ],
+      "map_labels": [
+        "Veymarch",
+        "Auric Reach",
+        "Ironveil",
+        "Glassmere",
+        "Stormholt",
+        "Emberfall",
+        "Verdant Crown",
+        "Pale Meridian",
+        "1 Rovan: cities and recovered moorings",
+        "2 Ironveil: disputed mining approaches",
+        "3 Glassmere: local withdrawal",
+        "Other four duchies unchanged."
+      ]
     }
   ]
 }
