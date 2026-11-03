@@ -473,6 +473,16 @@
       "reference_images": [
         "assets/panels/prologue-p24-panel03.png"
       ]
+    },
+    {
+      "id": "auric-local-schooner-crews",
+      "name": "Local Auric schooner crews",
+      "duchy_id": "auric-reach",
+      "role": "Local pilots and crews who know the mining passages. Some served the exiled elder baron and distrust Rovan’s new government. Rovan offers paid service on page27; acceptance is not established.",
+      "visual_concept": {
+        "appearance": "Human working pilots of varied ages, women and men in worn brown and dark-teal flight coats, practical goggles and gloves. No noble chains, new house banners or silver Type C armour."
+      },
+      "reference_images": []
     }
   ]
 }

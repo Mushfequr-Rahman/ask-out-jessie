@@ -4842,6 +4842,308 @@
         "3 Glassmere: local withdrawal",
         "Other four duchies unchanged."
       ]
+    },
+    {
+      "id": "prologue-p27-panel01",
+      "chapter_id": "prologue",
+      "page_number": 27,
+      "panel_number": 1,
+      "description": "Wide close dispatch scene at Oram: EXACTLY TWO foreground people, Rovan black hair/silver streak, short beard, navy/crimson coat, receives an urgent sealed report from the established young brown-haired Veymarch courier with flight goggles on forehead, bronze leather jacket/crimson scarf. Table edge, route chart and crimson/SILVER banner. No ships necessary, no battle or new conquest. Tired concern rather than shock. Put all heads and handoff inside the central crop-safe horizontal band. Lettering complete inside visible band; not at native top/bottom edges.",
+      "character_ids": [
+        "rovan-vey",
+        "veymarch-courier"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 280
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "A report from the mines.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 240,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Serendipity held the main dock. Ironveil’s schooners slipped past it and stopped the smaller ore carriers.",
+          "bounds": {
+            "x": 14,
+            "y": 178,
+            "width": 924,
+            "height": 74
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p27-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships still. Show no capital ship in these council/workshop scenes. Serendipity holds the main dock; ore routes remain vulnerable.",
+        "Naval captains are ordinary navy/crimson officers, not five silver knights. Rovan’s streak/beard, Tomas’s square glasses, Mara’s long braid and Idris’s curls/beard remain recognisable.",
+        "Paid-service offer is voluntary and UNANSWERED. No allegiance accepted, new victory, ship loss or territorial change.",
+        "Chronological cuts between dispatch, workshop and a later council; no invented exact elapsed travel times.",
+        "Veymarch crimson cloth with SILVER shield/star. Practical machinery, varied asymmetric city fragments rather than cloned castles."
+      ]
+    },
+    {
+      "id": "prologue-p27-panel02",
+      "chapter_id": "prologue",
+      "page_number": 27,
+      "panel_number": 2,
+      "description": "Single continuous Oram repair workshop: foreground one female engineer in practical brown apron and rolled sleeves studies a stalled open magnetic engine, a FEW bronze Type A offcuts and faint green Type B components on bench, empty material trays, unfinished pipes and idle tools. Behind her through wide open doorway, ordinary repair workers queue at a pay desk where a clerk shows a nearly empty coin tray, no payment being handed out. Worried waiting workers and unfinished reconstruction; no power outage catastrophe established. Small crimson/SILVER Veymarch flag on pay desk. No silver Type C suit, no crystal armour, no ships. Portrait-ish layout, all important faces and machinery above bottom narration.",
+      "character_ids": [
+        "veymarch-engineers",
+        "oram-civilians"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 290,
+        "width": 462,
+        "height": 400
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The delays reached Oram.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 240,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The engineers needed Magneton for repairs and power works. At the pay desk, workers waited again.",
+          "bounds": {
+            "x": 14,
+            "y": 272,
+            "width": 434,
+            "height": 100
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p27-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships still. Show no capital ship in these council/workshop scenes. Serendipity holds the main dock; ore routes remain vulnerable.",
+        "Naval captains are ordinary navy/crimson officers, not five silver knights. Rovan’s streak/beard, Tomas’s square glasses, Mara’s long braid and Idris’s curls/beard remain recognisable.",
+        "Paid-service offer is voluntary and UNANSWERED. No allegiance accepted, new victory, ship loss or territorial change.",
+        "Chronological cuts between dispatch, workshop and a later council; no invented exact elapsed travel times.",
+        "Veymarch crimson cloth with SILVER shield/star. Practical machinery, varied asymmetric city fragments rather than cloned castles."
+      ]
+    },
+    {
+      "id": "prologue-p27-panel03",
+      "chapter_id": "prologue",
+      "page_number": 27,
+      "panel_number": 3,
+      "description": "Later council at Oram, EXACTLY THREE foreground officers around map table: Tomas Kest RIGHT stocky light-tan clean-shaven man with cropped black/grey hair and SQUARE brass spectacles, Mara Voss LEFT brown-skinned woman with one long dark braid, Rovan CENTRE black hair/silver streak/short beard. Naval uniforms navy/crimson with bronze fittings, no Type C silver. Tomas gestures frustrated, Mara gives a measured objection, Rovan listens. Keep three heads clear in upper scene. TWO speech balloons: Tomas speaks first (tail to bespectacled man), Mara replies (tail to braided woman); do not swap speakers. NO General Grievous or extra people. Four small brass ship markers on map, no readable labels or new routes. Small crimson/SILVER banner.",
+      "character_ids": [
+        "rovan-vey",
+        "tomas-kest",
+        "mara-voss"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 472,
+        "y": 290,
+        "width": 480,
+        "height": 400
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "More guns?",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Tomas: “Send me another Bastion.”",
+          "bounds": {
+            "x": 14,
+            "y": 202,
+            "width": 452,
+            "height": 80
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Mara: “Another slow ship won’t make theirs slower.”",
+          "bounds": {
+            "x": 14,
+            "y": 292,
+            "width": 452,
+            "height": 80
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p27-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships still. Show no capital ship in these council/workshop scenes. Serendipity holds the main dock; ore routes remain vulnerable.",
+        "Naval captains are ordinary navy/crimson officers, not five silver knights. Rovan’s streak/beard, Tomas’s square glasses, Mara’s long braid and Idris’s curls/beard remain recognisable.",
+        "Paid-service offer is voluntary and UNANSWERED. No allegiance accepted, new victory, ship loss or territorial change.",
+        "Chronological cuts between dispatch, workshop and a later council; no invented exact elapsed travel times.",
+        "Veymarch crimson cloth with SILVER shield/star. Practical machinery, varied asymmetric city fragments rather than cloned castles."
+      ]
+    },
+    {
+      "id": "prologue-p27-panel04",
+      "chapter_id": "prologue",
+      "page_number": 27,
+      "panel_number": 4,
+      "description": "At the same Oram council, EXACTLY TWO foreground officers: Idris Vale dark-skinned tall man, close black curls and short full beard, navy/crimson coat/bronze epaulettes, speaks to Rovan who listens with one hand on map. Idris points to narrow passages on a schematic chart without legible writing. Through an open window behind them, a few local pilots in worn brown/teal flight coats wait at a distant dock beside ONE small bronze mechanical schooner; pilots have goggles and guarded expressions, not cheering or enlisting. They are background examples, not yet allies. No soldiers threatening them or baron physically present. Small crimson/SILVER Veymarch banner near council, no new house flags. Upper bubble to Idris, bottom narration on distrust.",
+      "character_ids": [
+        "idris-vale",
+        "rovan-vey",
+        "auric-local-schooner-crews"
+      ],
+      "object_ids": [
+        "banner-veymarch",
+        "schooner-needle"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 700,
+        "width": 462,
+        "height": 568
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The crews who know the routes.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 300,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Idris: “Hire the local schooner crews. They know every passage.”",
+          "bounds": {
+            "x": 14,
+            "y": 370,
+            "width": 434,
+            "height": 80
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Some had served the exiled baron. They had little reason to trust Rovan.",
+          "bounds": {
+            "x": 14,
+            "y": 460,
+            "width": 434,
+            "height": 80
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p27-panel04.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships still. Show no capital ship in these council/workshop scenes. Serendipity holds the main dock; ore routes remain vulnerable.",
+        "Naval captains are ordinary navy/crimson officers, not five silver knights. Rovan’s streak/beard, Tomas’s square glasses, Mara’s long braid and Idris’s curls/beard remain recognisable.",
+        "Paid-service offer is voluntary and UNANSWERED. No allegiance accepted, new victory, ship loss or territorial change.",
+        "Chronological cuts between dispatch, workshop and a later council; no invented exact elapsed travel times.",
+        "Veymarch crimson cloth with SILVER shield/star. Practical machinery, varied asymmetric city fragments rather than cloned castles."
+      ]
+    },
+    {
+      "id": "prologue-p27-panel05",
+      "chapter_id": "prologue",
+      "page_number": 27,
+      "panel_number": 5,
+      "description": "Close portrait scene of Rovan at a practical council desk, EXACTLY ONE foreground person: black hair/silver streak, short beard, navy coat over crimson. He presses a bronze seal into crimson wax beside an open parchment offer and a small purse of coins. Show his face, hand, seal and wax clearly above lettering. No legible writing on parchment beyond specified speech/narration. Controlled resolve with traces of exhaustion, not triumphant conquest. Crimson/SILVER Veymarch banner in background, city repairs beyond window, no pilots accepting, no handshake, no recruitment lineup, no new ships. End on the offer, not its success.",
+      "character_ids": [
+        "rovan-vey"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 472,
+        "y": 700,
+        "width": 480,
+        "height": 568
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "A reason to choose.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “Then we give them a reason to choose us.”",
+          "bounds": {
+            "x": 14,
+            "y": 370,
+            "width": 452,
+            "height": 80
+          }
+        },
+        {
+          "type": "narration",
+          "text": "He sealed an offer of paid service. The answer was still theirs to give.",
+          "bounds": {
+            "x": 14,
+            "y": 460,
+            "width": 452,
+            "height": 80
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p27-panel05.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships still. Show no capital ship in these council/workshop scenes. Serendipity holds the main dock; ore routes remain vulnerable.",
+        "Naval captains are ordinary navy/crimson officers, not five silver knights. Rovan’s streak/beard, Tomas’s square glasses, Mara’s long braid and Idris’s curls/beard remain recognisable.",
+        "Paid-service offer is voluntary and UNANSWERED. No allegiance accepted, new victory, ship loss or territorial change.",
+        "Chronological cuts between dispatch, workshop and a later council; no invented exact elapsed travel times.",
+        "Veymarch crimson cloth with SILVER shield/star. Practical machinery, varied asymmetric city fragments rather than cloned castles."
+      ]
     }
   ]
 }

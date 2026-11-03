@@ -88,7 +88,7 @@
       "opponent_duchy_id": "auric-reach",
       "target_character_id": "rovan-vey",
       "capital_ships_dispatched": 3,
-      "status": "Idris Vale takes Serenity against Glassmere and recovers some trading moorings without fighting. Tomas Kest takes Serendipity against Ironveil but cannot pin down its fast schooners.",
+      "status": "Serendipity holds the main mining dock, but Ironveil schooners slip past and intercept smaller ore carriers. Delayed Magneton threatens repairs and power works. At council Tomas requests another Bastion, Mara objects, Idris proposes local pilots and Rovan seals an offer of paid service.",
       "battle_outcome": "Rovan captures Josephine, Serenity and Serendipity in one battle.",
       "opponent_total_capital_ship_count": null,
       "planned_battlefield_id": "shattered-plains",
@@ -171,7 +171,16 @@
         "josephine"
       ],
       "retained_command": "Rovan and Mara Voss remain with Argonaut and Josephine; no additional capital ships introduced.",
-      "estimated_auric_control_percent": 60
+      "estimated_auric_control_percent": 60,
+      "main_mining_dock_held": true,
+      "ore_carriers_intercepted": true,
+      "local_crew_offer": {
+        "page": 27,
+        "terms": "Paid service to local schooner crews who know the passages.",
+        "acceptance": null,
+        "trust_obstacle": "Some served the exiled elder baron and distrust Rovan.",
+        "outcome": "Offer sealed, not accepted yet."
+      }
     },
     "historical_milestone": {
       "event": "First capture of another duchy’s capital ships in the history of the shattered world.",
@@ -630,7 +639,7 @@
       "name": "Disputed mining approaches",
       "duchy_id": "auric-reach",
       "role": "Outer Auric mining approaches where Tomas Kest’s slow Serendipity struggles against fast Ironveil schooners.",
-      "current_control": "Contested; Ironveil retains mobility and access. No decisive victory or loss of Serendipity established.",
+      "current_control": "Serendipity holds the main mining dock, but Ironveil fast schooners bypass it and intercept smaller ore carriers. The surrounding approaches remain disputed.",
       "exact_coordinates": null
     }
   ],
@@ -782,6 +791,13 @@
       "order": 28,
       "page": 26,
       "event": "The influence atlas shows Rovan controlling approximately 60% of the former Auric Reach, alongside Glassmere’s local withdrawal and contested Ironveil mining approaches. Eight duchies remain and borders are schematic."
+    },
+    {
+      "order": 29,
+      "page": 27,
+      "event": "A courier reports Serendipity holds the main dock but Ironveil schooners intercept the smaller ore carriers. Engineers warn of Magneton shortages, and workers wait for pay again. At a later council Tomas requests another Bastion; Mara objects that speed is the issue. Idris proposes hiring local schooner crews, some loyal to the exiled baron. Rovan seals a paid-service offer. Their reply is not yet given.",
+      "local_crew_offer_accepted": null,
+      "elapsed_travel_time": null
     }
   ],
   "publication": {
@@ -798,8 +814,8 @@
         "title": "Prologue",
         "status": "available",
         "reader": "prologue.html",
-        "page_count": 26,
-        "panel_count": 88,
+        "page_count": 27,
+        "panel_count": 93,
         "pages": [
           {
             "number": 1,
@@ -2361,6 +2377,92 @@
                   "height": 1268
                 },
                 "scene_id": "prologue-p26-panel01",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 27,
+            "title": "A Reason to Choose",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p27-panel01",
+                "caption": "A report from the mines.",
+                "narration": "Serendipity held the main dock. Ironveil’s schooners slipped past it and stopped the smaller ore carriers.",
+                "priority": 2,
+                "image_description": "Wide close dispatch scene at Oram",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 280
+                },
+                "scene_id": "prologue-p27-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p27-panel02",
+                "caption": "The delays reached Oram.",
+                "narration": "The engineers needed Magneton for repairs and power works. At the pay desk, workers waited again.",
+                "priority": 3,
+                "image_description": "Single continuous Oram repair workshop",
+                "holder": {
+                  "x": 0,
+                  "y": 290,
+                  "width": 462,
+                  "height": 400
+                },
+                "scene_id": "prologue-p27-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p27-panel03",
+                "caption": "More guns?",
+                "narration": "Tomas: “Send me another Bastion.”\nMara: “Another slow ship won’t make theirs slower.”",
+                "priority": 4,
+                "image_description": "Later council at Oram, EXACTLY THREE foreground officers around map table",
+                "holder": {
+                  "x": 472,
+                  "y": 290,
+                  "width": 480,
+                  "height": 400
+                },
+                "scene_id": "prologue-p27-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p27-panel04",
+                "caption": "The crews who know the routes.",
+                "narration": "Idris: “Hire the local schooner crews. They know every passage.”\nSome had served the exiled baron. They had little reason to trust Rovan.",
+                "priority": 4,
+                "image_description": "At the same Oram council, EXACTLY TWO foreground officers",
+                "holder": {
+                  "x": 0,
+                  "y": 700,
+                  "width": 462,
+                  "height": 568
+                },
+                "scene_id": "prologue-p27-panel04",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 5,
+                "asset_id": "prologue-p27-panel05",
+                "caption": "A reason to choose.",
+                "narration": "Rovan: “Then we give them a reason to choose us.”\nHe sealed an offer of paid service. The answer was still theirs to give.",
+                "priority": 5,
+                "image_description": "Close portrait scene of Rovan at a practical council desk, EXACTLY ONE foreground person",
+                "holder": {
+                  "x": 472,
+                  "y": 700,
+                  "width": 480,
+                  "height": 568
+                },
+                "scene_id": "prologue-p27-panel05",
                 "lettering_mode": "baked"
               }
             ]
@@ -4521,6 +4623,116 @@
       ]
     },
     {
+      "id": "prologue-p27-panel01",
+      "file": "assets/panels/prologue-p27-panel01.png",
+      "title": "Prologue P27 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3082354,
+      "sha256": "44b42055ba80e95ef0172434e1a6773f4a2964241c027bc9a1f17d9a0859531b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 27,
+          "panel": 1,
+          "description": "Wide close dispatch scene at Oram"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p27-panel02",
+      "file": "assets/panels/prologue-p27-panel02.png",
+      "title": "Prologue P27 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1345,
+        "height": 1170
+      },
+      "byte_size": 3248709,
+      "sha256": "c153ea3bbc618236cbab78a1854430ad5e2cf5596915a54fe3b37f650b801af7",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 27,
+          "panel": 2,
+          "description": "Single continuous Oram repair workshop"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p27-panel03",
+      "file": "assets/panels/prologue-p27-panel03.png",
+      "title": "Prologue P27 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1378,
+        "height": 1142
+      },
+      "byte_size": 3121241,
+      "sha256": "3f6a3c1a3fba81ad1fc99791c06dd6aeec28b98782d0d1c18ec47da9bcca7cda",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 27,
+          "panel": 3,
+          "description": "Later council at Oram, EXACTLY THREE foreground officers around map table"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p27-panel04",
+      "file": "assets/panels/prologue-p27-panel04.png",
+      "title": "Prologue P27 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1191,
+        "height": 1321
+      },
+      "byte_size": 2883812,
+      "sha256": "26929cd54623a5d73ca6cd2df61eaa106cb6b6a013f49cd912cc7849ff038fa8",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 27,
+          "panel": 4,
+          "description": "At the same Oram council, EXACTLY TWO foreground officers"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p27-panel05",
+      "file": "assets/panels/prologue-p27-panel05.png",
+      "title": "Prologue P27 Panel05",
+      "category": "comic",
+      "dimensions": {
+        "width": 1199,
+        "height": 1312
+      },
+      "byte_size": 3247294,
+      "sha256": "b3662a9554839e05cc2c49cd69f6d8bd2cc1956d90554795bbdac925f21ada73",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 27,
+          "panel": 5,
+          "description": "Close portrait scene of Rovan at a practical council desk, EXACTLY ONE foreground person"
+        }
+      ]
+    },
+    {
       "id": "schooner-kestrel",
       "file": "assets/schooner-kestrel.png",
       "title": "Kestrel",
@@ -4598,7 +4810,7 @@
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with twenty-six pages and 88 distinct panel images.",
+    "There is one available story entry, Prologue, with twenty-seven pages and 93 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
     "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
@@ -4639,7 +4851,11 @@
     "Some trading moorings recovered without conflict does not mean all of Glassmere defeated. Ironveil remains mobile; no destruction/capture of Serendipity or decisive mining victory established.",
     "Page26 reuses the original world atlas as its geographic base with schematic influence overlays. Eight duchies remain; red marks Rovan’s captured sites and recovered moorings, gold surviving Auric claims, hatched steel contested mining approaches, cyan Glassmere influence and local withdrawal. Other four house regions remain unchanged. No exact city coordinates or surveyed new borders established.",
     "Argonaut is one of a kind: only it has wedge ram, side gun hulls, enormous refit guns and articulated pods. Serenity is a slender cylindrical round-nosed Zeppelin Bastion with ivory stripe, modest casemate guns and two underslung engine nacelles.",
-    "On page26 Rovan controls ABOUT 60% of the old Auric Reach territory. The pink overlay covers a majority of the former Auric region; gold remains for the rest, with mining approaches disputed. This is approximate, not full annexation or surveyed borders."
+    "On page26 Rovan controls ABOUT 60% of the old Auric Reach territory. The pink overlay covers a majority of the former Auric region; gold remains for the rest, with mining approaches disputed. This is approximate, not full annexation or surveyed borders.",
+    "Page27: Ironveil bypasses the held main dock and intercepts smaller ore carriers; Serendipity is not lost. Delayed Magneton threatens repairs and power works, and workers wait for wages again.",
+    "Tomas asks for another Bastion; Mara objects; Idris proposes local schooner crews. Rovan offers paid service, not forced conscription. No new fleet, accepted allegiance, victory or territory change is established.",
+    "Some local crews served the exiled elder baron and distrust Rovan. They are not named captains or Type C knights. The page ends with the sealed offer awaiting an answer.",
+    "The page26 approximate60% territorial estimate is unchanged on page27. Captains meet later in Oram; exact travel times are not established."
   ],
   "military_livery": {
     "veymarch": {
@@ -4756,7 +4972,7 @@
       "former_commander_id": null,
       "ownership_status": "Held by Rovan; prize captain commissioned at New Frontier.",
       "current_livery": "Fresh crimson repaint with bronze structure and silver Veymarch shield/star insignia; original round-prowed Bastion geometry retained.",
-      "current_status": "With Idris Vale at peacefully recovered trade moorings against Glassmere.",
+      "current_status": "Recovered trade moorings remain held; Idris later joins Rovan’s council. No new deployment established.",
       "visual_identity": "Serenity is a DISTINCT slender single-hull Zeppelin Bastion: a long cylindrical bronze pressure hull, a fully ROUNDED hemispherical nose with curved small observation glazing, an IVORY horizontal identification stripe across crimson side plates, compact low dorsal bridge and exactly TWO underslung green magnetic engine nacelles. Short modest casemate guns along the flanks, no enormous top turrets. Clearly man-made rigid metal airship. SILVER Veymarch shield/star on crimson standards. It is not Argonaut’s wedge ram, multi-keel side-gun hull arrangement, four enormous gun barrels or large exposed stern stabiliser rings."
     },
     {
@@ -4773,7 +4989,7 @@
       "former_commander_id": null,
       "ownership_status": "Held by Rovan; prize captain commissioned at New Frontier.",
       "current_livery": "Fresh crimson repaint with bronze structure and silver Veymarch shield/star insignia; original round-prowed Bastion geometry retained.",
-      "current_status": "With Tomas Kest at disputed Ironveil mining approaches; intact but too slow to intercept fast schooners."
+      "current_status": "Last report: holding the main mining dock, unable to stop fast schooners intercepting ore carriers. Tomas later joins Rovan’s council; ship is intact."
     }
   ],
   "influence_snapshot": {

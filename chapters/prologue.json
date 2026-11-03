@@ -3580,6 +3580,229 @@
       ],
       "footer": "PROLOGUE · A SHIFTING BALANCE",
       "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 27,
+      "Title": "A Reason to Choose",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p27-panel01.png",
+          "caption": "A report from the mines.",
+          "narration": "Serendipity held the main dock. Ironveil’s schooners slipped past it and stopped the smaller ore carriers.",
+          "image_alt": "Wide close dispatch scene at Oram",
+          "priority": 2,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 280
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "A report from the mines.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 240,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Serendipity held the main dock. Ironveil’s schooners slipped past it and stopped the smaller ore carriers.",
+              "bounds": {
+                "x": 14,
+                "y": 178,
+                "width": 924,
+                "height": 74
+              }
+            }
+          ],
+          "scene_id": "prologue-p27-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p27-panel02.png",
+          "caption": "The delays reached Oram.",
+          "narration": "The engineers needed Magneton for repairs and power works. At the pay desk, workers waited again.",
+          "image_alt": "Single continuous Oram repair workshop",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 290,
+            "width": 462,
+            "height": 400
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The delays reached Oram.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 240,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The engineers needed Magneton for repairs and power works. At the pay desk, workers waited again.",
+              "bounds": {
+                "x": 14,
+                "y": 272,
+                "width": 434,
+                "height": 100
+              }
+            }
+          ],
+          "scene_id": "prologue-p27-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p27-panel03.png",
+          "caption": "More guns?",
+          "narration": "Tomas: “Send me another Bastion.”\nMara: “Another slow ship won’t make theirs slower.”",
+          "image_alt": "Later council at Oram, EXACTLY THREE foreground officers around map table",
+          "priority": 4,
+          "holder": {
+            "x": 472,
+            "y": 290,
+            "width": 480,
+            "height": 400
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "More guns?",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Tomas: “Send me another Bastion.”",
+              "bounds": {
+                "x": 14,
+                "y": 202,
+                "width": 452,
+                "height": 80
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Mara: “Another slow ship won’t make theirs slower.”",
+              "bounds": {
+                "x": 14,
+                "y": 292,
+                "width": 452,
+                "height": 80
+              }
+            }
+          ],
+          "scene_id": "prologue-p27-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p27-panel04.png",
+          "caption": "The crews who know the routes.",
+          "narration": "Idris: “Hire the local schooner crews. They know every passage.”\nSome had served the exiled baron. They had little reason to trust Rovan.",
+          "image_alt": "At the same Oram council, EXACTLY TWO foreground officers",
+          "priority": 4,
+          "holder": {
+            "x": 0,
+            "y": 700,
+            "width": 462,
+            "height": 568
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The crews who know the routes.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 300,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Idris: “Hire the local schooner crews. They know every passage.”",
+              "bounds": {
+                "x": 14,
+                "y": 370,
+                "width": 434,
+                "height": 80
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Some had served the exiled baron. They had little reason to trust Rovan.",
+              "bounds": {
+                "x": 14,
+                "y": 460,
+                "width": 434,
+                "height": 80
+              }
+            }
+          ],
+          "scene_id": "prologue-p27-panel04",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p27-panel05.png",
+          "caption": "A reason to choose.",
+          "narration": "Rovan: “Then we give them a reason to choose us.”\nHe sealed an offer of paid service. The answer was still theirs to give.",
+          "image_alt": "Close portrait scene of Rovan at a practical council desk, EXACTLY ONE foreground person",
+          "priority": 5,
+          "holder": {
+            "x": 472,
+            "y": 700,
+            "width": 480,
+            "height": 568
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "A reason to choose.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “Then we give them a reason to choose us.”",
+              "bounds": {
+                "x": 14,
+                "y": 370,
+                "width": 452,
+                "height": 80
+              }
+            },
+            {
+              "type": "narration",
+              "text": "He sealed an offer of paid service. The answer was still theirs to give.",
+              "bounds": {
+                "x": 14,
+                "y": 460,
+                "width": 452,
+                "height": 80
+              }
+            }
+          ],
+          "scene_id": "prologue-p27-panel05",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · A REASON TO CHOOSE",
+      "layout_mode": "fixed"
     }
   ]
 }

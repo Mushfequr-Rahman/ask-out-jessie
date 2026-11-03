@@ -1497,6 +1497,91 @@
         "height": 1268
       },
       "review": "Visually inspected correction: Serenity has a rounded cylindrical ivory-striped single hull, two underslung engines and modest casemate guns, distinct from unique Argonaut. Atlas shows broad pink control across about60% of former Auric Reach, remaining gold and disputed mining patch; eight labels, map geography, caption/narration and fixed crop checked."
+    },
+    {
+      "id": "prologue-p27-panel01",
+      "output_file": "assets/panels/prologue-p27-panel01.png",
+      "selected_run": "generation/runs/prologue-p27-panel01.json",
+      "sha256": "44b42055ba80e95ef0172434e1a6773f4a2964241c027bc9a1f17d9a0859531b",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 280
+      },
+      "review": "Visual review of fixed-holder composition and exact lettering, courier/Rovan and naval captain identity, speech tails, workshop/pay queue, voluntary local-pilot proposal and sealed unanswered offer. Correct house palettes and four-capital continuity preserved."
+    },
+    {
+      "id": "prologue-p27-panel02",
+      "output_file": "assets/panels/prologue-p27-panel02.png",
+      "selected_run": "generation/runs/prologue-p27-panel02.json",
+      "sha256": "c153ea3bbc618236cbab78a1854430ad5e2cf5596915a54fe3b37f650b801af7",
+      "dimensions": {
+        "width": 1345,
+        "height": 1170
+      },
+      "holder": {
+        "x": 0,
+        "y": 290,
+        "width": 462,
+        "height": 400
+      },
+      "review": "Visual review of fixed-holder composition and exact lettering, courier/Rovan and naval captain identity, speech tails, workshop/pay queue, voluntary local-pilot proposal and sealed unanswered offer. Correct house palettes and four-capital continuity preserved."
+    },
+    {
+      "id": "prologue-p27-panel03",
+      "output_file": "assets/panels/prologue-p27-panel03.png",
+      "selected_run": "generation/runs/prologue-p27-panel03.json",
+      "sha256": "3f6a3c1a3fba81ad1fc99791c06dd6aeec28b98782d0d1c18ec47da9bcca7cda",
+      "dimensions": {
+        "width": 1378,
+        "height": 1142
+      },
+      "holder": {
+        "x": 472,
+        "y": 290,
+        "width": 480,
+        "height": 400
+      },
+      "review": "Visual review of fixed-holder composition and exact lettering, courier/Rovan and naval captain identity, speech tails, workshop/pay queue, voluntary local-pilot proposal and sealed unanswered offer. Correct house palettes and four-capital continuity preserved."
+    },
+    {
+      "id": "prologue-p27-panel04",
+      "output_file": "assets/panels/prologue-p27-panel04.png",
+      "selected_run": "generation/runs/prologue-p27-panel04.json",
+      "sha256": "26929cd54623a5d73ca6cd2df61eaa106cb6b6a013f49cd912cc7849ff038fa8",
+      "dimensions": {
+        "width": 1191,
+        "height": 1321
+      },
+      "holder": {
+        "x": 0,
+        "y": 700,
+        "width": 462,
+        "height": 568
+      },
+      "review": "Visual review of fixed-holder composition and exact lettering, courier/Rovan and naval captain identity, speech tails, workshop/pay queue, voluntary local-pilot proposal and sealed unanswered offer. Correct house palettes and four-capital continuity preserved."
+    },
+    {
+      "id": "prologue-p27-panel05",
+      "output_file": "assets/panels/prologue-p27-panel05.png",
+      "selected_run": "generation/runs/prologue-p27-panel05.json",
+      "sha256": "b3662a9554839e05cc2c49cd69f6d8bd2cc1956d90554795bbdac925f21ada73",
+      "dimensions": {
+        "width": 1199,
+        "height": 1312
+      },
+      "holder": {
+        "x": 472,
+        "y": 700,
+        "width": 480,
+        "height": 568
+      },
+      "review": "Visual review of fixed-holder composition and exact lettering, courier/Rovan and naval captain identity, speech tails, workshop/pay queue, voluntary local-pilot proposal and sealed unanswered offer. Correct house palettes and four-capital continuity preserved."
     }
   ]
 }

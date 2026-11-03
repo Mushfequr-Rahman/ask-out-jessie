@@ -538,6 +538,36 @@
       "y": 0,
       "width": 952,
       "height": 1268
+    },
+    "prologue-p27-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 280
+    },
+    "prologue-p27-panel02": {
+      "x": 0,
+      "y": 290,
+      "width": 462,
+      "height": 400
+    },
+    "prologue-p27-panel03": {
+      "x": 472,
+      "y": 290,
+      "width": 480,
+      "height": 400
+    },
+    "prologue-p27-panel04": {
+      "x": 0,
+      "y": 700,
+      "width": 462,
+      "height": 568
+    },
+    "prologue-p27-panel05": {
+      "x": 472,
+      "y": 700,
+      "width": 480,
+      "height": 568
     }
   },
   "extensions": [
@@ -611,6 +641,13 @@
       ],
       "source_commit": "dcdf1ec",
       "method": "Page25 four fixed scenes for dispatch, peaceful mooring recovery, schooner chase and bridge report. Page26 one fixed full-page atlas plate preserving original map base with influence overlays."
+    },
+    {
+      "pages": [
+        27
+      ],
+      "source_commit": "fd49e18",
+      "method": "Five frozen apertures for courier report, workshop/pay queue, captain disagreement, local-pilot proposal and sealed offer. No outcome beyond unanswered offer."
     }
   ]
 }
