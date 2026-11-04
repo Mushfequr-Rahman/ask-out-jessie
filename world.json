@@ -88,7 +88,7 @@
       "opponent_duchy_id": "auric-reach",
       "target_character_id": "rovan-vey",
       "capital_ships_dispatched": 3,
-      "status": "Serendipity holds the main mining dock, but Ironveil schooners slip past and intercept smaller ore carriers. Delayed Magneton threatens repairs and power works. At council Tomas requests another Bastion, Mara objects, Idris proposes local pilots and Rovan seals an offer of paid service.",
+      "status": "Local schooners escort ore carriers and raid an Ironveil supply convoy using the refuelling routes. Captured Magneton and a pay chest replenish Oram, buying Rovan time. The duchies arm for a wider war around the Shattered Plains.",
       "battle_outcome": "Rovan captures Josephine, Serenity and Serendipity in one battle.",
       "opponent_total_capital_ship_count": null,
       "planned_battlefield_id": "shattered-plains",
@@ -176,10 +176,31 @@
       "ore_carriers_intercepted": true,
       "local_crew_offer": {
         "page": 27,
-        "terms": "Paid service to local schooner crews who know the passages.",
-        "acceptance": null,
+        "terms": "Pay in advance, compensation for lost ships, protection for families, and promises entered in the new council’s records.",
+        "acceptance": "Limited agreement on page28: one escort operation, keeping their own captains.",
         "trust_obstacle": "Some served the exiled elder baron and distrust Rovan.",
-        "outcome": "Offer sealed, not accepted yet."
+        "outcome": "One mission agreed; no permanent allegiance or proof Rovan will keep all promises yet."
+      },
+      "local_escort_operation": {
+        "page": 29,
+        "result": "One Ironveil trading convoy forced to yield its cargo; Magneton and pay chest recovered. Local pilots outmanoeuvre the convoy using refuelling-route knowledge.",
+        "limits": "Temporary resupply, no new captured capital ship, complete Ironveil defeat or territory change."
+      },
+      "regional_arms_race": {
+        "page": 30,
+        "duchy_ids": [
+          "veymarch",
+          "auric-reach",
+          "ironveil",
+          "glassmere",
+          "stormholt",
+          "emberfall",
+          "verdant-crown",
+          "pale-meridian"
+        ],
+        "status": "Preparations and competing arms orders, not a declared coalition or new battle.",
+        "future_theatre_location_id": "shattered-plains",
+        "war_started": false
       }
     },
     "historical_milestone": {
@@ -798,6 +819,22 @@
       "event": "A courier reports Serendipity holds the main dock but Ironveil schooners intercept the smaller ore carriers. Engineers warn of Magneton shortages, and workers wait for pay again. At a later council Tomas requests another Bastion; Mara objects that speed is the issue. Idris proposes hiring local schooner crews, some loyal to the exiled baron. Rovan seals a paid-service offer. Their reply is not yet given.",
       "local_crew_offer_accepted": null,
       "elapsed_travel_time": null
+    },
+    {
+      "order": 30,
+      "page": 28,
+      "event": "Local schooner crews challenge Rovan’s promise of pay. They negotiate advance wages, ship-loss compensation and protection for their families, with council records. Despite the stretched treasury, Rovan agrees to one escort operation under their own captains. The spokesperson points to Ironveil’s refuelling routes as the key to outmanoeuvring its schooners.",
+      "permanent_allegiance": false
+    },
+    {
+      "order": 31,
+      "page": 29,
+      "event": "During the agreed escort operation, three local schooners screen an ore carrier, outflank an Ironveil ore convoy near its refuelling approach, and force one trading vessel to yield its cargo. Magneton and a convoy pay chest restore repair supplies and wages in Oram. Rovan gains time; no capital ship or new territory is taken."
+    },
+    {
+      "order": 32,
+      "page": 30,
+      "event": "Ironveil expands schooner orders; Glassmere arms its traders. Stormholt and Emberfall place cannon orders; Verdant Crown strengthens escorts and Pale Meridian stockpiles ore and fuel. Remaining Auric holdings rebuild their watchtowers while Rovan reads the reports. The converging routes through the Shattered Plains set up a wider war, which has not yet begun."
     }
   ],
   "publication": {
@@ -814,8 +851,8 @@
         "title": "Prologue",
         "status": "available",
         "reader": "prologue.html",
-        "page_count": 27,
-        "panel_count": 93,
+        "page_count": 30,
+        "panel_count": 107,
         "pages": [
           {
             "number": 1,
@@ -2463,6 +2500,248 @@
                   "height": 568
                 },
                 "scene_id": "prologue-p27-panel05",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 28,
+            "title": "On Their Terms",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p28-panel01",
+                "caption": "Promises.",
+                "narration": "Spokesperson: “The last baron promised us pay, too.”",
+                "priority": 2,
+                "image_description": "EXACTLY TWO foreground figures at a practical Oram council table",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 280
+                },
+                "scene_id": "prologue-p28-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p28-panel02",
+                "caption": "Put it in the records.",
+                "narration": "They asked for pay in advance, compensation for lost ships, and protection for their families. The council would record every promise.",
+                "priority": 3,
+                "image_description": "Close negotiation",
+                "holder": {
+                  "x": 0,
+                  "y": 290,
+                  "width": 462,
+                  "height": 400
+                },
+                "scene_id": "prologue-p28-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p28-panel03",
+                "caption": "The treasury was stretched.",
+                "narration": "Grievous: “We can promise it. Keeping the promise will cost us.”",
+                "priority": 3,
+                "image_description": "EXACTLY TWO foreground officers aside at the same council",
+                "holder": {
+                  "x": 472,
+                  "y": 290,
+                  "width": 480,
+                  "height": 400
+                },
+                "scene_id": "prologue-p28-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p28-panel04",
+                "caption": "One escort.",
+                "narration": "Spokesperson: “One escort. Our ships, our captains.”\nRovan: “Agreed. Put the terms on record.”",
+                "priority": 4,
+                "image_description": "EXACTLY TWO foreground people",
+                "holder": {
+                  "x": 0,
+                  "y": 700,
+                  "width": 462,
+                  "height": 568
+                },
+                "scene_id": "prologue-p28-panel04",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 5,
+                "asset_id": "prologue-p28-panel05",
+                "caption": "Where they refuel.",
+                "narration": "Spokesperson: “You’re watching their schooners. Watch where they refuel.”",
+                "priority": 5,
+                "image_description": "EXACTLY TWO foreground men at a route chart",
+                "holder": {
+                  "x": 472,
+                  "y": 700,
+                  "width": 480,
+                  "height": 568
+                },
+                "scene_id": "prologue-p28-panel05",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 29,
+            "title": "Borrowed Time",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p29-panel01",
+                "caption": "The pilots chose the passage.",
+                "narration": "Three schooners screened the ore carrier. Beyond the rocks, Ironveil was hauling Magneton out of the mines.",
+                "priority": 5,
+                "image_description": "Aerial convoy setup",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 400
+                },
+                "scene_id": "prologue-p29-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p29-panel02",
+                "caption": "Around the guns.",
+                "narration": "The schooners slipped behind the convoy and struck its steering gear. The trading ship could not turn to bring its guns to bear.",
+                "priority": 4,
+                "image_description": "Tight action view",
+                "holder": {
+                  "x": 0,
+                  "y": 410,
+                  "width": 400,
+                  "height": 350
+                },
+                "scene_id": "prologue-p29-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p29-panel03",
+                "caption": "The cargo changed hands.",
+                "narration": "Ironveil’s convoy yielded its ore and pay chest. The local crews had found a way to fight the faster war.",
+                "priority": 4,
+                "image_description": "Boarding/cargo transfer at a small isolated refuelling platform",
+                "holder": {
+                  "x": 410,
+                  "y": 410,
+                  "width": 542,
+                  "height": 350
+                },
+                "scene_id": "prologue-p29-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p29-panel04",
+                "caption": "Enough to breathe.",
+                "narration": "Magneton reached Oram. Repairs resumed, and the pay desk opened again. Rovan had a little time to put his holdings in order.",
+                "priority": 5,
+                "image_description": "Single continuous Oram working courtyard after resupply",
+                "holder": {
+                  "x": 0,
+                  "y": 770,
+                  "width": 952,
+                  "height": 498
+                },
+                "scene_id": "prologue-p29-panel04",
+                "lettering_mode": "baked"
+              }
+            ]
+          },
+          {
+            "number": 30,
+            "title": "The Price of Peace",
+            "panels": [
+              {
+                "number": 1,
+                "asset_id": "prologue-p30-panel01",
+                "caption": "The orders kept coming.",
+                "narration": "Ironveil ordered more schooners. Glassmere bought guns for its trading fleets.",
+                "priority": 3,
+                "image_description": "Wide Ironveil shipyard ONLY",
+                "holder": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 952,
+                  "height": 280
+                },
+                "scene_id": "prologue-p30-panel01",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 2,
+                "asset_id": "prologue-p30-panel02",
+                "caption": "The foundries answered.",
+                "narration": "From Stormholt to Emberfall, cannon orders filled the foundries.",
+                "priority": 3,
+                "image_description": "ONE Emberfall cannon foundry",
+                "holder": {
+                  "x": 0,
+                  "y": 290,
+                  "width": 462,
+                  "height": 400
+                },
+                "scene_id": "prologue-p30-panel02",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 3,
+                "asset_id": "prologue-p30-panel03",
+                "caption": "Escorts. Stockpiles.",
+                "narration": "Verdant Crown strengthened its escorts. Pale Meridian stockpiled ore and fuel.",
+                "priority": 3,
+                "image_description": "ONE Pale Meridian supply depot at an icy floating harbour",
+                "holder": {
+                  "x": 472,
+                  "y": 290,
+                  "width": 480,
+                  "height": 400
+                },
+                "scene_id": "prologue-p30-panel03",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 4,
+                "asset_id": "prologue-p30-panel04",
+                "caption": "Every neighbour was preparing.",
+                "narration": "Even the remaining Auric holdings were rebuilding their watchtowers. Rovan read the reports and called for the charts.",
+                "priority": 4,
+                "image_description": "EXACTLY TWO foreground officers in Oram",
+                "holder": {
+                  "x": 0,
+                  "y": 700,
+                  "width": 462,
+                  "height": 568
+                },
+                "scene_id": "prologue-p30-panel04",
+                "lettering_mode": "baked"
+              },
+              {
+                "number": 5,
+                "asset_id": "prologue-p30-panel05",
+                "caption": "The Shattered Plains.",
+                "narration": "Trade routes. Mining passages. Patrol lines. They all met here. The next war was taking shape.",
+                "priority": 5,
+                "image_description": "Ominous vertical establishing view of EXISTING Shattered Plains",
+                "holder": {
+                  "x": 472,
+                  "y": 700,
+                  "width": 480,
+                  "height": 568
+                },
+                "scene_id": "prologue-p30-panel05",
                 "lettering_mode": "baked"
               }
             ]
@@ -4733,6 +5012,314 @@
       ]
     },
     {
+      "id": "prologue-p28-panel01",
+      "file": "assets/panels/prologue-p28-panel01.png",
+      "title": "Prologue P28 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3029415,
+      "sha256": "8ac08c2457854aecd112a1db412a1cb0f2222ba397c6d1a61106c8b64facb8c1",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 28,
+          "panel": 1,
+          "description": "EXACTLY TWO foreground figures at a practical Oram council table"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p28-panel02",
+      "file": "assets/panels/prologue-p28-panel02.png",
+      "title": "Prologue P28 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1345,
+        "height": 1169
+      },
+      "byte_size": 3092460,
+      "sha256": "88394f888f12a150c462541edf5af7ad6ab847200d0f1de39b4d71873a68a1ce",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 28,
+          "panel": 2,
+          "description": "Close negotiation"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p28-panel03",
+      "file": "assets/panels/prologue-p28-panel03.png",
+      "title": "Prologue P28 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1374,
+        "height": 1145
+      },
+      "byte_size": 3257235,
+      "sha256": "40da88cf33684b29e2742e65ae749314921fd7111250c97ff920a2a0354377e4",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 28,
+          "panel": 3,
+          "description": "EXACTLY TWO foreground officers aside at the same council"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p28-panel04",
+      "file": "assets/panels/prologue-p28-panel04.png",
+      "title": "Prologue P28 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1191,
+        "height": 1321
+      },
+      "byte_size": 3014905,
+      "sha256": "8f933fd0998469fd232a7d7b1a0ede8f4c8c25ec4b35451bd4f90c1e1f79a524",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 28,
+          "panel": 4,
+          "description": "EXACTLY TWO foreground people"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p28-panel05",
+      "file": "assets/panels/prologue-p28-panel05.png",
+      "title": "Prologue P28 Panel05",
+      "category": "comic",
+      "dimensions": {
+        "width": 1151,
+        "height": 1367
+      },
+      "byte_size": 3157774,
+      "sha256": "7168dd53bcc1dcabfb1abecdbc7cb2c8c2bf288fd048f2c09c7614b9e3c0424e",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 28,
+          "panel": 5,
+          "description": "EXACTLY TWO foreground men at a route chart"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p29-panel01",
+      "file": "assets/panels/prologue-p29-panel01.png",
+      "title": "Prologue P29 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 1926,
+        "height": 817
+      },
+      "byte_size": 3539445,
+      "sha256": "dbf88fff0e896942f339c087c36aac8a4253af465023c95f61f6b1db3f265372",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 29,
+          "panel": 1,
+          "description": "Aerial convoy setup"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p29-panel02",
+      "file": "assets/panels/prologue-p29-panel02.png",
+      "title": "Prologue P29 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1334,
+        "height": 1179
+      },
+      "byte_size": 3645783,
+      "sha256": "6c9fd425cee5b5a58a7b8366f4c7adb7722e4752a42b9a135eadc05ae509674b",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 29,
+          "panel": 2,
+          "description": "Tight action view"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p29-panel03",
+      "file": "assets/panels/prologue-p29-panel03.png",
+      "title": "Prologue P29 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1557,
+        "height": 1010
+      },
+      "byte_size": 3126369,
+      "sha256": "3606967f6ef287924e15e1a1319bf11ea4467163488f3aebd5dbd96e22c17297",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 29,
+          "panel": 3,
+          "description": "Boarding/cargo transfer at a small isolated refuelling platform"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p29-panel04",
+      "file": "assets/panels/prologue-p29-panel04.png",
+      "title": "Prologue P29 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1734,
+        "height": 907
+      },
+      "byte_size": 3206011,
+      "sha256": "6c3c744c651f08c00e63f8aaa36d7085bee65ba4c7573ce67edc31f126e0eebc",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 29,
+          "panel": 4,
+          "description": "Single continuous Oram working courtyard after resupply"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p30-panel01",
+      "file": "assets/panels/prologue-p30-panel01.png",
+      "title": "Prologue P30 Panel01",
+      "category": "comic",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "byte_size": 3330923,
+      "sha256": "790fcb0a5d35fb4ba370d3ab49b259e6b2c2b00140fd318d35fa277c10414999",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 30,
+          "panel": 1,
+          "description": "Wide Ironveil shipyard ONLY"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p30-panel02",
+      "file": "assets/panels/prologue-p30-panel02.png",
+      "title": "Prologue P30 Panel02",
+      "category": "comic",
+      "dimensions": {
+        "width": 1346,
+        "height": 1168
+      },
+      "byte_size": 3070920,
+      "sha256": "07eede0fbb1d143cc2aacc75ac69737a3fcdc3f0614d4f17f56e66b166f75f75",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 30,
+          "panel": 2,
+          "description": "ONE Emberfall cannon foundry"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p30-panel03",
+      "file": "assets/panels/prologue-p30-panel03.png",
+      "title": "Prologue P30 Panel03",
+      "category": "comic",
+      "dimensions": {
+        "width": 1378,
+        "height": 1142
+      },
+      "byte_size": 3530785,
+      "sha256": "a24c884b2c811d2c54f447c7d8e3a92d4fe0e0ad10d825861da7633a56671591",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 30,
+          "panel": 3,
+          "description": "ONE Pale Meridian supply depot at an icy floating harbour"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p30-panel04",
+      "file": "assets/panels/prologue-p30-panel04.png",
+      "title": "Prologue P30 Panel04",
+      "category": "comic",
+      "dimensions": {
+        "width": 1191,
+        "height": 1321
+      },
+      "byte_size": 3202450,
+      "sha256": "d5141cc6253ce414d96014bf199cd4471dfd92da469109d542bfcfa81446b923",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 30,
+          "panel": 4,
+          "description": "EXACTLY TWO foreground officers in Oram"
+        }
+      ]
+    },
+    {
+      "id": "prologue-p30-panel05",
+      "file": "assets/panels/prologue-p30-panel05.png",
+      "title": "Prologue P30 Panel05",
+      "category": "comic",
+      "dimensions": {
+        "width": 1199,
+        "height": 1312
+      },
+      "byte_size": 3371375,
+      "sha256": "77c93eb2bf36453f07339af33a526d9e4030831e6985b6cbd600089fba1f6f89",
+      "status": "current",
+      "origin": "Generated artwork created for this project; some designs use user-provided visual references.",
+      "comic_usage": [
+        {
+          "story_id": "prologue",
+          "page": 30,
+          "panel": 5,
+          "description": "Ominous vertical establishing view of EXISTING Shattered Plains"
+        }
+      ]
+    },
+    {
       "id": "schooner-kestrel",
       "file": "assets/schooner-kestrel.png",
       "title": "Kestrel",
@@ -4810,7 +5397,7 @@
   ],
   "canon_constraints": [
     "There are exactly eight duchies.",
-    "There is one available story entry, Prologue, with twenty-seven pages and 93 distinct panel images.",
+    "There is one available story entry, Prologue, with thirty pages and 107 distinct panel images.",
     "Rovan begins the campaign with exactly one capital ship; the seized Caravan is a merchant vessel.",
     "The first city capture precedes the crafting of silver honour-guard equipment.",
     "There are exactly five complete Type C armour-and-weapon sets and no material for a sixth.",
@@ -4855,7 +5442,13 @@
     "Page27: Ironveil bypasses the held main dock and intercepts smaller ore carriers; Serendipity is not lost. Delayed Magneton threatens repairs and power works, and workers wait for wages again.",
     "Tomas asks for another Bastion; Mara objects; Idris proposes local schooner crews. Rovan offers paid service, not forced conscription. No new fleet, accepted allegiance, victory or territory change is established.",
     "Some local crews served the exiled elder baron and distrust Rovan. They are not named captains or Type C knights. The page ends with the sealed offer awaiting an answer.",
-    "The page26 approximate60% territorial estimate is unchanged on page27. Captains meet later in Oram; exact travel times are not established."
+    "The page26 approximate60% territorial estimate is unchanged on page27. Captains meet later in Oram; exact travel times are not established.",
+    "Page28 resolves the unanswered offer with one limited escort operation: advance pay, ship-loss compensation, family protection and council records. Local crews retain their own captains. No exact sums or permanent loyalty established.",
+    "The local crews’ spokesperson is a working schooner captain with patched brown coat, teal scarf and goggles, not a noble or silver knight. Their knowledge of refuelling routes creates a tactical opportunity.",
+    "Page29: the local schooners outmanoeuvre and raid an Ironveil ore convoy during their one agreed escort operation. Recovering Magneton and a pay chest buys Rovan time. No capital ship capture, complete victory, permanent local allegiance or extra territorial control follows.",
+    "The approximately60% Auric control estimate remains unchanged after the convoy raid. Exactly four owned capital ships remain.",
+    "Page30 depicts an arms race among the eight existing duchies, including residual Auric holdings and Rovan’s defensive preparations. No ninth nation, formal alliance, declaration or new battle is established.",
+    "The wider war is being set up around the existing Shattered Plains; Ironveil retains its established name."
   ],
   "military_livery": {
     "veymarch": {

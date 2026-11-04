@@ -3803,6 +3803,558 @@
       ],
       "footer": "PROLOGUE · A REASON TO CHOOSE",
       "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 28,
+      "Title": "On Their Terms",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p28-panel01.png",
+          "caption": "Promises.",
+          "narration": "Spokesperson: “The last baron promised us pay, too.”",
+          "image_alt": "EXACTLY TWO foreground figures at a practical Oram council table",
+          "priority": 2,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 280
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Promises.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Spokesperson: “The last baron promised us pay, too.”",
+              "bounds": {
+                "x": 14,
+                "y": 178,
+                "width": 924,
+                "height": 74
+              }
+            }
+          ],
+          "scene_id": "prologue-p28-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p28-panel02.png",
+          "caption": "Put it in the records.",
+          "narration": "They asked for pay in advance, compensation for lost ships, and protection for their families. The council would record every promise.",
+          "image_alt": "Close negotiation",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 290,
+            "width": 462,
+            "height": 400
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Put it in the records.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 220,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "They asked for pay in advance, compensation for lost ships, and protection for their families. The council would record every promise.",
+              "bounds": {
+                "x": 14,
+                "y": 262,
+                "width": 434,
+                "height": 110
+              }
+            }
+          ],
+          "scene_id": "prologue-p28-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p28-panel03.png",
+          "caption": "The treasury was stretched.",
+          "narration": "Grievous: “We can promise it. Keeping the promise will cost us.”",
+          "image_alt": "EXACTLY TWO foreground officers aside at the same council",
+          "priority": 3,
+          "holder": {
+            "x": 472,
+            "y": 290,
+            "width": 480,
+            "height": 400
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The treasury was stretched.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 270,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Grievous: “We can promise it. Keeping the promise will cost us.”",
+              "bounds": {
+                "x": 14,
+                "y": 262,
+                "width": 452,
+                "height": 110
+              }
+            }
+          ],
+          "scene_id": "prologue-p28-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p28-panel04.png",
+          "caption": "One escort.",
+          "narration": "Spokesperson: “One escort. Our ships, our captains.”\nRovan: “Agreed. Put the terms on record.”",
+          "image_alt": "EXACTLY TWO foreground people",
+          "priority": 4,
+          "holder": {
+            "x": 0,
+            "y": 700,
+            "width": 462,
+            "height": 568
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "One escort.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Spokesperson: “One escort. Our ships, our captains.”",
+              "bounds": {
+                "x": 14,
+                "y": 362,
+                "width": 434,
+                "height": 84
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Rovan: “Agreed. Put the terms on record.”",
+              "bounds": {
+                "x": 14,
+                "y": 456,
+                "width": 434,
+                "height": 84
+              }
+            }
+          ],
+          "scene_id": "prologue-p28-panel04",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p28-panel05.png",
+          "caption": "Where they refuel.",
+          "narration": "Spokesperson: “You’re watching their schooners. Watch where they refuel.”",
+          "image_alt": "EXACTLY TWO foreground men at a route chart",
+          "priority": 5,
+          "holder": {
+            "x": 472,
+            "y": 700,
+            "width": 480,
+            "height": 568
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Where they refuel.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "speech",
+              "text": "Spokesperson: “You’re watching their schooners. Watch where they refuel.”",
+              "bounds": {
+                "x": 14,
+                "y": 430,
+                "width": 452,
+                "height": 110
+              }
+            }
+          ],
+          "scene_id": "prologue-p28-panel05",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · ON THEIR TERMS",
+      "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 29,
+      "Title": "Borrowed Time",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p29-panel01.png",
+          "caption": "The pilots chose the passage.",
+          "narration": "Three schooners screened the ore carrier. Beyond the rocks, Ironveil was hauling Magneton out of the mines.",
+          "image_alt": "Aerial convoy setup",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 400
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The pilots chose the passage.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 290,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Three schooners screened the ore carrier. Beyond the rocks, Ironveil was hauling Magneton out of the mines.",
+              "bounds": {
+                "x": 14,
+                "y": 298,
+                "width": 924,
+                "height": 74
+              }
+            }
+          ],
+          "scene_id": "prologue-p29-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p29-panel02.png",
+          "caption": "Around the guns.",
+          "narration": "The schooners slipped behind the convoy and struck its steering gear. The trading ship could not turn to bring its guns to bear.",
+          "image_alt": "Tight action view",
+          "priority": 4,
+          "holder": {
+            "x": 0,
+            "y": 410,
+            "width": 400,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Around the guns.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "The schooners slipped behind the convoy and struck its steering gear. The trading ship could not turn to bring its guns to bear.",
+              "bounds": {
+                "x": 14,
+                "y": 210,
+                "width": 372,
+                "height": 112
+              }
+            }
+          ],
+          "scene_id": "prologue-p29-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p29-panel03.png",
+          "caption": "The cargo changed hands.",
+          "narration": "Ironveil’s convoy yielded its ore and pay chest. The local crews had found a way to fight the faster war.",
+          "image_alt": "Boarding/cargo transfer at a small isolated refuelling platform",
+          "priority": 4,
+          "holder": {
+            "x": 410,
+            "y": 410,
+            "width": 542,
+            "height": 350
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The cargo changed hands.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 240,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Ironveil’s convoy yielded its ore and pay chest. The local crews had found a way to fight the faster war.",
+              "bounds": {
+                "x": 14,
+                "y": 210,
+                "width": 514,
+                "height": 112
+              }
+            }
+          ],
+          "scene_id": "prologue-p29-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p29-panel04.png",
+          "caption": "Enough to breathe.",
+          "narration": "Magneton reached Oram. Repairs resumed, and the pay desk opened again. Rovan had a little time to put his holdings in order.",
+          "image_alt": "Single continuous Oram working courtyard after resupply",
+          "priority": 5,
+          "holder": {
+            "x": 0,
+            "y": 770,
+            "width": 952,
+            "height": 498
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Enough to breathe.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 190,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Magneton reached Oram. Repairs resumed, and the pay desk opened again. Rovan had a little time to put his holdings in order.",
+              "bounds": {
+                "x": 14,
+                "y": 396,
+                "width": 924,
+                "height": 74
+              }
+            }
+          ],
+          "scene_id": "prologue-p29-panel04",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · BORROWED TIME",
+      "layout_mode": "fixed"
+    },
+    {
+      "Page Number": 30,
+      "Title": "The Price of Peace",
+      "panels": [
+        {
+          "image_src": "assets/panels/prologue-p30-panel01.png",
+          "caption": "The orders kept coming.",
+          "narration": "Ironveil ordered more schooners. Glassmere bought guns for its trading fleets.",
+          "image_alt": "Wide Ironveil shipyard ONLY",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 0,
+            "width": 952,
+            "height": 280
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The orders kept coming.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 230,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Ironveil ordered more schooners. Glassmere bought guns for its trading fleets.",
+              "bounds": {
+                "x": 14,
+                "y": 178,
+                "width": 924,
+                "height": 74
+              }
+            }
+          ],
+          "scene_id": "prologue-p30-panel01",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p30-panel02.png",
+          "caption": "The foundries answered.",
+          "narration": "From Stormholt to Emberfall, cannon orders filled the foundries.",
+          "image_alt": "ONE Emberfall cannon foundry",
+          "priority": 3,
+          "holder": {
+            "x": 0,
+            "y": 290,
+            "width": 462,
+            "height": 400
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The foundries answered.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 230,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "From Stormholt to Emberfall, cannon orders filled the foundries.",
+              "bounds": {
+                "x": 14,
+                "y": 260,
+                "width": 434,
+                "height": 112
+              }
+            }
+          ],
+          "scene_id": "prologue-p30-panel02",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p30-panel03.png",
+          "caption": "Escorts. Stockpiles.",
+          "narration": "Verdant Crown strengthened its escorts. Pale Meridian stockpiled ore and fuel.",
+          "image_alt": "ONE Pale Meridian supply depot at an icy floating harbour",
+          "priority": 3,
+          "holder": {
+            "x": 472,
+            "y": 290,
+            "width": 480,
+            "height": 400
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Escorts. Stockpiles.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 200,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Verdant Crown strengthened its escorts. Pale Meridian stockpiled ore and fuel.",
+              "bounds": {
+                "x": 14,
+                "y": 260,
+                "width": 452,
+                "height": 112
+              }
+            }
+          ],
+          "scene_id": "prologue-p30-panel03",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p30-panel04.png",
+          "caption": "Every neighbour was preparing.",
+          "narration": "Even the remaining Auric holdings were rebuilding their watchtowers. Rovan read the reports and called for the charts.",
+          "image_alt": "EXACTLY TWO foreground officers in Oram",
+          "priority": 4,
+          "holder": {
+            "x": 0,
+            "y": 700,
+            "width": 462,
+            "height": 568
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "Every neighbour was preparing.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 300,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Even the remaining Auric holdings were rebuilding their watchtowers. Rovan read the reports and called for the charts.",
+              "bounds": {
+                "x": 14,
+                "y": 428,
+                "width": 434,
+                "height": 112
+              }
+            }
+          ],
+          "scene_id": "prologue-p30-panel04",
+          "lettering_mode": "baked"
+        },
+        {
+          "image_src": "assets/panels/prologue-p30-panel05.png",
+          "caption": "The Shattered Plains.",
+          "narration": "Trade routes. Mining passages. Patrol lines. They all met here. The next war was taking shape.",
+          "image_alt": "Ominous vertical establishing view of EXISTING Shattered Plains",
+          "priority": 5,
+          "holder": {
+            "x": 472,
+            "y": 700,
+            "width": 480,
+            "height": 568
+          },
+          "lettering": [
+            {
+              "type": "caption",
+              "text": "The Shattered Plains.",
+              "bounds": {
+                "x": 14,
+                "y": 14,
+                "width": 210,
+                "height": 44
+              }
+            },
+            {
+              "type": "narration",
+              "text": "Trade routes. Mining passages. Patrol lines. They all met here. The next war was taking shape.",
+              "bounds": {
+                "x": 14,
+                "y": 428,
+                "width": 452,
+                "height": 112
+              }
+            }
+          ],
+          "scene_id": "prologue-p30-panel05",
+          "lettering_mode": "baked"
+        }
+      ],
+      "footer": "PROLOGUE · THE PRICE OF PEACE",
+      "layout_mode": "fixed"
     }
   ]
 }

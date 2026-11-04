@@ -16,6 +16,13 @@ class RequestTests(unittest.TestCase):
     def request(self,scene):
         return build_request(scene,self.world,self.characters,self.objects,self.template,self.files)
 
+    def test_local_crew_origin_does_not_add_a_third_visible_house(self):
+        scene=next(s for s in self.scenes if s['id']=='prologue-p29-panel03')
+        q=self.request(scene)
+        self.assertEqual(set(q['heraldry']['banner_ids']), {'banner-veymarch','banner-ironveil'})
+        self.assertIn('local-crew-spokesperson', [c['id'] for c in q['resolved_context']['characters']])
+        self.assertNotIn('assets/banner-auric-reach.png', [r['path'] for r in q['reference_images']])
+
     def test_all_three_bibles_control_the_prompt(self):
         scene=next(s for s in self.scenes if s['id']=='prologue-p11-panel01')
         self.world['setting']['test_marker']='WORLD_INPUT_MARKER'

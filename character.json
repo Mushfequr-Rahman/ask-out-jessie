@@ -478,11 +478,25 @@
       "id": "auric-local-schooner-crews",
       "name": "Local Auric schooner crews",
       "duchy_id": "auric-reach",
-      "role": "Local pilots and crews who know the mining passages. Some served the exiled elder baron and distrust Rovan’s new government. Rovan offers paid service on page27; acceptance is not established.",
+      "role": "Local pilots and crews who know the mining passages. Some served the exiled elder baron and distrust Rovan. After an unanswered offer on page27, they agree to one escort operation on page28 under their own captains; trust remains conditional.",
       "visual_concept": {
         "appearance": "Human working pilots of varied ages, women and men in worn brown and dark-teal flight coats, practical goggles and gloves. No noble chains, new house banners or silver Type C armour."
       },
       "reference_images": []
+    },
+    {
+      "id": "local-crew-spokesperson",
+      "name": "The crews’ spokesperson",
+      "personal_name": null,
+      "title": "Crew spokesperson",
+      "duchy_id": "auric-reach",
+      "role": "A local schooner captain speaking for the crews in negotiations with Rovan. Agrees to one escort operation under their own captains, with pay, loss compensation and family protection recorded by the council. No permanent allegiance pledged.",
+      "visual_concept": {
+        "appearance": "Weathered middle-aged human man, light-brown windburned skin, short salt-and-pepper hair and stubble, narrow teal scarf, cracked brass flying goggles on forehead, patched BROWN leather flight coat and working gloves. No noble chains, long beard, monocle, silver armour or officer epaulettes. Distinct from the exiled bald baron."
+      },
+      "reference_images": [
+        "assets/panels/prologue-p28-panel01.png"
+      ]
     }
   ]
 }

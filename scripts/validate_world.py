@@ -66,6 +66,10 @@ conflict = world['society'].get('current_conflict', {})
 for field in ['staging_port_id', 'next_objective_location_id', 'siege_location_id', 'exposed_location_id']:
     if conflict.get(field):
         assert conflict[field] in location_ids, 'Unknown campaign location'
+if conflict.get('regional_arms_race'):
+    race = conflict['regional_arms_race']
+    assert set(race['duchy_ids']) == {d['id'] for d in duchies}, 'Arms race must use the eight existing duchies'
+    assert race['future_theatre_location_id'] in location_ids, 'Unknown future theatre'
 if conflict.get('dispatches'):
     deployed = conflict['dispatches']
     assert len(deployed) == 2 and len({d['ship_id'] for d in deployed}) == 2, 'Two distinct capital dispatches required'

@@ -5144,6 +5144,757 @@
         "Chronological cuts between dispatch, workshop and a later council; no invented exact elapsed travel times.",
         "Veymarch crimson cloth with SILVER shield/star. Practical machinery, varied asymmetric city fragments rather than cloned castles."
       ]
+    },
+    {
+      "id": "prologue-p28-panel01",
+      "chapter_id": "prologue",
+      "page_number": 28,
+      "panel_number": 1,
+      "description": "EXACTLY TWO foreground figures at a practical Oram council table: established Rovan navy/crimson black hair/silver streak short beard, and local crews’ spokesperson in patched BROWN flight coat, narrow TEAL scarf, cracked brass goggles on forehead, short salt/pepper hair and stubble, windburned light-brown skin. Spokesperson places Rovan’s sealed offer on the table and speaks, guarded not aggressive. Small crimson/SILVER Veymarch banner; no captain uniforms on pilot, no noble chains, no baron or extra main officers. Wide strip: all faces, hand and text inside central safe band.",
+      "character_ids": [
+        "rovan-vey",
+        "local-crew-spokesperson"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 280
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Promises.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Spokesperson: “The last baron promised us pay, too.”",
+          "bounds": {
+            "x": 14,
+            "y": 178,
+            "width": 924,
+            "height": 74
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 2,
+      "output_file": "assets/panels/prologue-p28-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Negotiation succeeds only for ONE escort under local captains. No permanent allegiance, extra capitals, silver armour or new territory.",
+        "Spokesperson remains brown-coat working pilot, not a naval officer, baron or silver knight.",
+        "Veymarch crimson cloth/SILVER shield-star; keep practical civilian council records and readable lettering."
+      ]
+    },
+    {
+      "id": "prologue-p28-panel02",
+      "chapter_id": "prologue",
+      "page_number": 28,
+      "panel_number": 2,
+      "description": "Close negotiation: spokesperson brown coat/teal scarf/goggles and one civilian woman council clerk with practical braid/plain work jacket sit opposite Rovan’s visible gloved hand, clerk opens an official ledger and prepares to record terms. Exactly TWO full faces, Rovan need only hand/sleeve, no extra nobles. Some coins, plain ledger ruling but no readable invented words. Serious scrutiny; no cheering or signed acceptance yet. Crimson/SILVER small desk standard.",
+      "character_ids": [
+        "local-crew-spokesperson",
+        "oram-council-delegates"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 290,
+        "width": 462,
+        "height": 400
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Put it in the records.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 220,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "They asked for pay in advance, compensation for lost ships, and protection for their families. The council would record every promise.",
+          "bounds": {
+            "x": 14,
+            "y": 262,
+            "width": 434,
+            "height": 110
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p28-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Negotiation succeeds only for ONE escort under local captains. No permanent allegiance, extra capitals, silver armour or new territory.",
+        "Spokesperson remains brown-coat working pilot, not a naval officer, baron or silver knight.",
+        "Veymarch crimson cloth/SILVER shield-star; keep practical civilian council records and readable lettering."
+      ]
+    },
+    {
+      "id": "prologue-p28-panel03",
+      "chapter_id": "prologue",
+      "page_number": 28,
+      "panel_number": 3,
+      "description": "EXACTLY TWO foreground officers aside at the same council: General Grievous older BALD HUMAN grey moustache OLIVE coat over crimson quietly warns Rovan navy/crimson silver-streak black hair short beard. A nearly empty coin tray and large repair ledger between them. General speaking, correct tail, Rovan listens. No crew captain or Mara/Idris/Tomas inserted from references. Small crimson/SILVER flag, no new ships or armour.",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 472,
+        "y": 290,
+        "width": 480,
+        "height": 400
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The treasury was stretched.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 270,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Grievous: “We can promise it. Keeping the promise will cost us.”",
+          "bounds": {
+            "x": 14,
+            "y": 262,
+            "width": 452,
+            "height": 110
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p28-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Negotiation succeeds only for ONE escort under local captains. No permanent allegiance, extra capitals, silver armour or new territory.",
+        "Spokesperson remains brown-coat working pilot, not a naval officer, baron or silver knight.",
+        "Veymarch crimson cloth/SILVER shield-star; keep practical civilian council records and readable lettering."
+      ]
+    },
+    {
+      "id": "prologue-p28-panel04",
+      "chapter_id": "prologue",
+      "page_number": 28,
+      "panel_number": 4,
+      "description": "EXACTLY TWO foreground people: Rovan and the SAME spokesperson, patched brown flight coat, teal scarf, goggles, short salt/pepper hair/stubble. They exchange a restrained handshake over an open council ledger with coins set aside, not lavish celebration. Two balloons, spokesperson first and Rovan replies, tails correct. Do not print labels. No permanent pledge/kneeling/bow, no recruitment uniforms. Small crimson/SILVER Veymarch banner.",
+      "character_ids": [
+        "rovan-vey",
+        "local-crew-spokesperson"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 700,
+        "width": 462,
+        "height": 568
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "One escort.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Spokesperson: “One escort. Our ships, our captains.”",
+          "bounds": {
+            "x": 14,
+            "y": 362,
+            "width": 434,
+            "height": 84
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Rovan: “Agreed. Put the terms on record.”",
+          "bounds": {
+            "x": 14,
+            "y": 456,
+            "width": 434,
+            "height": 84
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p28-panel04.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Negotiation succeeds only for ONE escort under local captains. No permanent allegiance, extra capitals, silver armour or new territory.",
+        "Spokesperson remains brown-coat working pilot, not a naval officer, baron or silver knight.",
+        "Veymarch crimson cloth/SILVER shield-star; keep practical civilian council records and readable lettering."
+      ]
+    },
+    {
+      "id": "prologue-p28-panel05",
+      "chapter_id": "prologue",
+      "page_number": 28,
+      "panel_number": 5,
+      "description": "EXACTLY TWO foreground men at a route chart: local spokesperson points to a tiny isolated mooring symbol on map, Rovan leans in; same patched brown coat/teal scarf/goggles/stubble, Rovan navy/crimson streak/beard. Close hands and faces, map has bare rock passage shapes and one small refuelling mooring marker, no legible invented labels or new exact borders. Quiet tactical revelation, not a victory shot. Crimson/SILVER flag.",
+      "character_ids": [
+        "rovan-vey",
+        "local-crew-spokesperson"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 472,
+        "y": 700,
+        "width": 480,
+        "height": 568
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Where they refuel.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "speech",
+          "text": "Spokesperson: “You’re watching their schooners. Watch where they refuel.”",
+          "bounds": {
+            "x": 14,
+            "y": 430,
+            "width": 452,
+            "height": 110
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p28-panel05.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Negotiation succeeds only for ONE escort under local captains. No permanent allegiance, extra capitals, silver armour or new territory.",
+        "Spokesperson remains brown-coat working pilot, not a naval officer, baron or silver knight.",
+        "Veymarch crimson cloth/SILVER shield-star; keep practical civilian council records and readable lettering."
+      ]
+    },
+    {
+      "id": "prologue-p29-panel01",
+      "chapter_id": "prologue",
+      "page_number": 29,
+      "panel_number": 1,
+      "description": "Aerial convoy setup: exactly THREE SMALL fast bronze Needle schooners with plain modest CRIMSON/SILVER Veymarch contract pennants screen ONE slow mining transport with external ore bins. Farther behind a broad bare basalt ridge, exactly ONE smaller Ironveil bronze twin-hull trading Caravan with STEEL/SILVER hammer/anvil pennant carries strapped ore crates toward a refuelling mooring. Five vessels total, NONE are capitals, no huge turrets. Local pilots use cover and the passage, not head-on bombardment. Angular bare fractured slabs, open sky, not repetitive castles. Clear foreground3+1 escort and distant1 enemy convoy; no extra background craft.",
+      "character_ids": [],
+      "object_ids": [
+        "schooner-needle",
+        "mining-mole",
+        "trader-caravan",
+        "banner-veymarch",
+        "banner-ironveil"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 400
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The pilots chose the passage.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 290,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Three schooners screened the ore carrier. Beyond the rocks, Ironveil was hauling Magneton out of the mines.",
+          "bounds": {
+            "x": 14,
+            "y": 298,
+            "width": 924,
+            "height": 74
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p29-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships remain; these are small local schooners and trade vessels, never extra capitals or copies of Argonaut.",
+        "Local crews retain their own captains under a limited escort agreement. No permanent allegiance, territorial increase or complete Ironveil defeat.",
+        "The wider war is only being prepared on page30. No coalition, declaration or battle in the Shattered Plains yet.",
+        "Use canonical house colours and emblems. A house named in narration may be offscreen; do not cram every mentioned duchy into one scene.",
+        "Varied rock geology, open sky and distinct working ports, no copy-pasted castle islands. No gore or invented readable background labels."
+      ]
+    },
+    {
+      "id": "prologue-p29-panel02",
+      "chapter_id": "prologue",
+      "page_number": 29,
+      "panel_number": 2,
+      "description": "Tight action view: exactly TWO tiny local Needle schooners with CRIMSON/SILVER contract pennants sweep behind the exposed stern of ONE Ironveil bronze twin-hull Caravan trader. Narrow blue-green Tesla discharges hit the EMPTY external steering linkage and vectoring motor, sparks and steam, trader hull intact. Ironveil STEEL/SILVER hammer/anvil banner. Show outmanoeuvring and disabled machinery, not exploding crew compartment, no blood or destroyed vessels. Third friendly schooner and ore carrier are offscreen, do not add capitals or Argonaut. Bare diagonal rock slab provides cover.",
+      "character_ids": [],
+      "object_ids": [
+        "schooner-needle",
+        "trader-caravan",
+        "banner-veymarch",
+        "banner-ironveil"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 410,
+        "width": 400,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Around the guns.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "The schooners slipped behind the convoy and struck its steering gear. The trading ship could not turn to bring its guns to bear.",
+          "bounds": {
+            "x": 14,
+            "y": 210,
+            "width": 372,
+            "height": 112
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p29-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships remain; these are small local schooners and trade vessels, never extra capitals or copies of Argonaut.",
+        "Local crews retain their own captains under a limited escort agreement. No permanent allegiance, territorial increase or complete Ironveil defeat.",
+        "The wider war is only being prepared on page30. No coalition, declaration or battle in the Shattered Plains yet.",
+        "Use canonical house colours and emblems. A house named in narration may be offscreen; do not cram every mentioned duchy into one scene.",
+        "Varied rock geology, open sky and distinct working ports, no copy-pasted castle islands. No gore or invented readable background labels."
+      ]
+    },
+    {
+      "id": "prologue-p29-panel03",
+      "chapter_id": "prologue",
+      "page_number": 29,
+      "panel_number": 3,
+      "description": "Boarding/cargo transfer at a small isolated refuelling platform: SAME local spokesperson weathered light-brown man salt/pepper stubble, brown patched coat/teal scarf/goggles, oversees Magneton ore crates and one small OPEN COIN CHEST being transferred from a bronze Ironveil TRADING vessel to a local bronze schooner. Ironveil merchant officer ordinary steel-grey coat holds hands away from holstered weapon, one plain WHITE surrender signal on the trader, no execution, no enslaving or massacre. Type A bronze ore and green Type B caged ores, NO silver Type C. Two main human faces, civilian crew hands carry crates. Veymarch crimson/SILVER contract pennant and Ironveil steel/SILVER flag remain different. No capital ship capture; trader is a background partial hull, not huge warship.",
+      "character_ids": [
+        "local-crew-spokesperson"
+      ],
+      "object_ids": [
+        "banner-veymarch",
+        "banner-ironveil"
+      ],
+      "holder": {
+        "x": 410,
+        "y": 410,
+        "width": 542,
+        "height": 350
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The cargo changed hands.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 240,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Ironveil’s convoy yielded its ore and pay chest. The local crews had found a way to fight the faster war.",
+          "bounds": {
+            "x": 14,
+            "y": 210,
+            "width": 514,
+            "height": 112
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p29-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships remain; these are small local schooners and trade vessels, never extra capitals or copies of Argonaut.",
+        "Local crews retain their own captains under a limited escort agreement. No permanent allegiance, territorial increase or complete Ironveil defeat.",
+        "The wider war is only being prepared on page30. No coalition, declaration or battle in the Shattered Plains yet.",
+        "Use canonical house colours and emblems. A house named in narration may be offscreen; do not cram every mentioned duchy into one scene.",
+        "Varied rock geology, open sky and distinct working ports, no copy-pasted castle islands. No gore or invented readable background labels."
+      ],
+      "visible_banner_ids": [
+        "banner-veymarch",
+        "banner-ironveil"
+      ]
+    },
+    {
+      "id": "prologue-p29-panel04",
+      "chapter_id": "prologue",
+      "page_number": 29,
+      "panel_number": 4,
+      "description": "Single continuous Oram working courtyard after resupply: foreground delivered bronze/green Magneton crates and OPEN coin chest at pay desk, ordinary clerk pays a repair worker; behind engineer restarts a repaired green/bronze motor and crews lift pipes. Rovan navy/crimson streak/beard and General Grievous older BALD grey moustache OLIVE/crimson watch without cheering. No fleet or ship needed. Practical relieved faces, ongoing work, no completed utopia. Small Veymarch crimson/SILVER banner at pay desk; no extra Auric emblem unless requested. Show materials and wages arriving, not a new battle or territorial takeover.",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous",
+        "veymarch-engineers"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 770,
+        "width": 952,
+        "height": 498
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Enough to breathe.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 190,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Magneton reached Oram. Repairs resumed, and the pay desk opened again. Rovan had a little time to put his holdings in order.",
+          "bounds": {
+            "x": 14,
+            "y": 396,
+            "width": 924,
+            "height": 74
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p29-panel04.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships remain; these are small local schooners and trade vessels, never extra capitals or copies of Argonaut.",
+        "Local crews retain their own captains under a limited escort agreement. No permanent allegiance, territorial increase or complete Ironveil defeat.",
+        "The wider war is only being prepared on page30. No coalition, declaration or battle in the Shattered Plains yet.",
+        "Use canonical house colours and emblems. A house named in narration may be offscreen; do not cram every mentioned duchy into one scene.",
+        "Varied rock geology, open sky and distinct working ports, no copy-pasted castle islands. No gore or invented readable background labels."
+      ]
+    },
+    {
+      "id": "prologue-p30-panel01",
+      "chapter_id": "prologue",
+      "page_number": 30,
+      "panel_number": 1,
+      "description": "Wide Ironveil shipyard ONLY: two partially built small Needle schooner hulls on jigs, steel-grey-clad workers fitting bronze engines and modest guns, cranes and spare ribs, canonical STEEL cloth/SILVER hammer-anvil Ironveil flag. Glassmere is mentioned in narration but OFFSCREEN: no cyan banners, joint fleet, alliance or embassy. No capital ships, no four new ships count, no Type C armour or superweapons. Working industrial yard on a broad dark slab, sky mostly clear. Keep flags and tools in central strip aperture.",
+      "character_ids": [],
+      "object_ids": [
+        "banner-ironveil",
+        "schooner-needle"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 280
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The orders kept coming.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 230,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Ironveil ordered more schooners. Glassmere bought guns for its trading fleets.",
+          "bounds": {
+            "x": 14,
+            "y": 178,
+            "width": 924,
+            "height": 74
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p30-panel01.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships remain; these are small local schooners and trade vessels, never extra capitals or copies of Argonaut.",
+        "Local crews retain their own captains under a limited escort agreement. No permanent allegiance, territorial increase or complete Ironveil defeat.",
+        "The wider war is only being prepared on page30. No coalition, declaration or battle in the Shattered Plains yet.",
+        "Use canonical house colours and emblems. A house named in narration may be offscreen; do not cram every mentioned duchy into one scene.",
+        "Varied rock geology, open sky and distinct working ports, no copy-pasted castle islands. No gore or invented readable background labels."
+      ]
+    },
+    {
+      "id": "prologue-p30-panel02",
+      "chapter_id": "prologue",
+      "page_number": 30,
+      "panel_number": 2,
+      "description": "ONE Emberfall cannon foundry: orange-clad ordinary workers casting conventional BRONZE Type A gun barrels and assembling green Type B mechanisms, several unmounted standard cannon barrels on low trolleys, furnace light and smoke. Canonical EMBERFALL ORANGE banner and its exact emblem from reference. Stormholt named in text but OFFSCREEN; no violet flags or joint command. No people in silver suits, no magic Type C, no gigantic Argonaut clone turret or new weapons. Portrait-ish ordinary military production, no battle.",
+      "character_ids": [],
+      "object_ids": [
+        "banner-emberfall"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 290,
+        "width": 462,
+        "height": 400
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The foundries answered.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 230,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "From Stormholt to Emberfall, cannon orders filled the foundries.",
+          "bounds": {
+            "x": 14,
+            "y": 260,
+            "width": 434,
+            "height": 112
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p30-panel02.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships remain; these are small local schooners and trade vessels, never extra capitals or copies of Argonaut.",
+        "Local crews retain their own captains under a limited escort agreement. No permanent allegiance, territorial increase or complete Ironveil defeat.",
+        "The wider war is only being prepared on page30. No coalition, declaration or battle in the Shattered Plains yet.",
+        "Use canonical house colours and emblems. A house named in narration may be offscreen; do not cram every mentioned duchy into one scene.",
+        "Varied rock geology, open sky and distinct working ports, no copy-pasted castle islands. No gore or invented readable background labels."
+      ]
+    },
+    {
+      "id": "prologue-p30-panel03",
+      "chapter_id": "prologue",
+      "page_number": 30,
+      "panel_number": 3,
+      "description": "ONE Pale Meridian supply depot at an icy floating harbour: stacked ordinary bronze ore bins and sealed fuel drums, crews in practical pale/grey work coats, a partly visible small merchant airship by gantry, no capital ships or tankers of invented technology. Canonical PALE MERIDIAN IVORY house banner with exact reference emblem. Verdant Crown is in narration but OFFSCREEN, no emerald fleet or alliance. Broad white irregular ice shelf with long horizontal cliffs, not castle cones. Stores accumulating, not combat.",
+      "character_ids": [],
+      "object_ids": [
+        "banner-pale-meridian"
+      ],
+      "holder": {
+        "x": 472,
+        "y": 290,
+        "width": 480,
+        "height": 400
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Escorts. Stockpiles.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 200,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Verdant Crown strengthened its escorts. Pale Meridian stockpiled ore and fuel.",
+          "bounds": {
+            "x": 14,
+            "y": 260,
+            "width": 452,
+            "height": 112
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 3,
+      "output_file": "assets/panels/prologue-p30-panel03.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships remain; these are small local schooners and trade vessels, never extra capitals or copies of Argonaut.",
+        "Local crews retain their own captains under a limited escort agreement. No permanent allegiance, territorial increase or complete Ironveil defeat.",
+        "The wider war is only being prepared on page30. No coalition, declaration or battle in the Shattered Plains yet.",
+        "Use canonical house colours and emblems. A house named in narration may be offscreen; do not cram every mentioned duchy into one scene.",
+        "Varied rock geology, open sky and distinct working ports, no copy-pasted castle islands. No gore or invented readable background labels."
+      ]
+    },
+    {
+      "id": "prologue-p30-panel04",
+      "chapter_id": "prologue",
+      "page_number": 30,
+      "panel_number": 4,
+      "description": "EXACTLY TWO foreground officers in Oram: Rovan navy/crimson streak/beard reads several urgent dispatches, General Grievous older BALD human grey moustache olive/crimson lays a route chart across table. Worried focused faces, no decision to invade or declare war, no smiling victory. Windows show repaired city gantries, not battle. Small Veymarch CRIMSON/SILVER standard. Remaining Auric watchtower reconstruction is narrated offscreen, no fourth baron or claim of total Auric annexation. No legible invented documents or surveyed new borders.",
+      "character_ids": [
+        "rovan-vey",
+        "general-grievous"
+      ],
+      "object_ids": [
+        "banner-veymarch"
+      ],
+      "holder": {
+        "x": 0,
+        "y": 700,
+        "width": 462,
+        "height": 568
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "Every neighbour was preparing.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 300,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Even the remaining Auric holdings were rebuilding their watchtowers. Rovan read the reports and called for the charts.",
+          "bounds": {
+            "x": 14,
+            "y": 428,
+            "width": 434,
+            "height": 112
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 4,
+      "output_file": "assets/panels/prologue-p30-panel04.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships remain; these are small local schooners and trade vessels, never extra capitals or copies of Argonaut.",
+        "Local crews retain their own captains under a limited escort agreement. No permanent allegiance, territorial increase or complete Ironveil defeat.",
+        "The wider war is only being prepared on page30. No coalition, declaration or battle in the Shattered Plains yet.",
+        "Use canonical house colours and emblems. A house named in narration may be offscreen; do not cram every mentioned duchy into one scene.",
+        "Varied rock geology, open sky and distinct working ports, no copy-pasted castle islands. No gore or invented readable background labels."
+      ]
+    },
+    {
+      "id": "prologue-p30-panel05",
+      "chapter_id": "prologue",
+      "page_number": 30,
+      "panel_number": 5,
+      "description": "Ominous vertical establishing view of EXISTING Shattered Plains: huge varied floating basalt spires, thin tilted slabs and broken rock shelves in turbulent green magnetic streams, cloud sea and several converging open-sky navigation corridors. Exactly THREE VERY SMALL distant mechanical trade/scout Zeppelins on different routes, no visible house flags or close people, no capital ship armada, no cannon flashes or battle. Geography is rock-choked dangerous sky, not normal flat grass plains or copied floating castles. Dawn storm light, quiet threat of a future war. Large lettering areas leave essential rocks and three tiny craft visible. No new location or ninth duchy, no alliance flags.",
+      "character_ids": [],
+      "object_ids": [
+        "magnetic-motor"
+      ],
+      "holder": {
+        "x": 472,
+        "y": 700,
+        "width": 480,
+        "height": 568
+      },
+      "lettering": [
+        {
+          "type": "caption",
+          "text": "The Shattered Plains.",
+          "bounds": {
+            "x": 14,
+            "y": 14,
+            "width": 210,
+            "height": 44
+          }
+        },
+        {
+          "type": "narration",
+          "text": "Trade routes. Mining passages. Patrol lines. They all met here. The next war was taking shape.",
+          "bounds": {
+            "x": 14,
+            "y": 428,
+            "width": 452,
+            "height": 112
+          }
+        }
+      ],
+      "reference_images": [],
+      "priority": 5,
+      "output_file": "assets/panels/prologue-p30-panel05.png",
+      "silver_guard_count": 0,
+      "silver_guard_weapon_id": null,
+      "visual_constraints": [
+        "Exactly FOUR owned capital ships remain; these are small local schooners and trade vessels, never extra capitals or copies of Argonaut.",
+        "Local crews retain their own captains under a limited escort agreement. No permanent allegiance, territorial increase or complete Ironveil defeat.",
+        "The wider war is only being prepared on page30. No coalition, declaration or battle in the Shattered Plains yet.",
+        "Use canonical house colours and emblems. A house named in narration may be offscreen; do not cram every mentioned duchy into one scene.",
+        "Varied rock geology, open sky and distinct working ports, no copy-pasted castle islands. No gore or invented readable background labels."
+      ]
     }
   ]
 }

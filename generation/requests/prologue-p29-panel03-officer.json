@@ -1,0 +1,287 @@
+{
+  "schema_version": 2,
+  "id": "prologue-p29-panel03",
+  "parameters": {
+    "scene": "prologue-p29-panel03",
+    "world.json": "world.json",
+    "character.json": "character.json",
+    "objects.json": "objects.json"
+  },
+  "holder": {
+    "x": 410,
+    "y": 410,
+    "width": 542,
+    "height": 350
+  },
+  "target": {
+    "width": 1280,
+    "height": 832,
+    "size": "1280x832",
+    "visible_window": {
+      "x": 0,
+      "y": 0.0032642634118648095,
+      "width": 1,
+      "height": 0.9934714731762704
+    }
+  },
+  "output_file": "assets/panels/prologue-p29-panel03.png",
+  "reference_images": [
+    {
+      "path": "references/iterations/prologue-p29-panel03-before-officer-fix.png",
+      "role": "Change only the left Ironveil merchant officer, who must not resemble Rovan."
+    }
+  ],
+  "lettering": {
+    "mode": "baked",
+    "render_in_image": true,
+    "blocks": [
+      {
+        "type": "caption",
+        "text": "The cargo changed hands.",
+        "bounds": {
+          "x": 14,
+          "y": 14,
+          "width": 240,
+          "height": 44
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "The cargo changed hands.",
+        "normalized_bounds": {
+          "x": 0.0258,
+          "y": 0.04,
+          "width": 0.4428,
+          "height": 0.1257
+        },
+        "source_bounds": {
+          "x": 0.0258,
+          "y": 0.043,
+          "width": 0.4428,
+          "height": 0.1249
+        }
+      },
+      {
+        "type": "narration",
+        "text": "Ironveil\u2019s convoy yielded its ore and pay chest. The local crews had found a way to fight the faster war.",
+        "bounds": {
+          "x": 14,
+          "y": 210,
+          "width": 514,
+          "height": 112
+        },
+        "speaker_name": null,
+        "speaker_id": null,
+        "render_text": "Ironveil\u2019s convoy yielded its ore and pay chest. The local crews had found a way to fight the faster war.",
+        "normalized_bounds": {
+          "x": 0.0258,
+          "y": 0.6,
+          "width": 0.9483,
+          "height": 0.32
+        },
+        "source_bounds": {
+          "x": 0.0258,
+          "y": 0.5993,
+          "width": 0.9483,
+          "height": 0.3179
+        }
+      }
+    ]
+  },
+  "resolved_context": {
+    "world": {
+      "setting": {
+        "genre": [
+          "post-apocalyptic",
+          "science fantasy",
+          "feudal political adventure"
+        ],
+        "planet": "Earth",
+        "catastrophe": {
+          "name": "The Fracture",
+          "cause": "Nuclear war shattered Earth into floating islands.",
+          "date": null,
+          "instigators": null
+        },
+        "geography": {
+          "landform": "Fractured continents and floating rock islands above an atmospheric void",
+          "duchy_count": 8,
+          "atlas_asset_id": "shattered-earth-atlas",
+          "boundaries": "Map labels mark regions of influence, not surveyed borders.",
+          "exact_distances": null
+        },
+        "magnetic_fields": {
+          "behavior": "Erratic and turbulent in motion, but their patterns are predictable.",
+          "world_function": "Hold the fractured landmasses together.",
+          "navigation": "Ships use magnetic motors to travel through the fields between cities and mining sites.",
+          "safe_route_rules": null
+        },
+        "humanity": {
+          "survival": "Humanity was nearly extinguished.",
+          "adaptation": "Survivors evolved over generations under the influence of the magnetic fields.",
+          "new_attributes_exist": true,
+          "specific_attributes": null
+        },
+        "gravity_and_energy": {
+          "city_support": "Magneton technology stabilizes floating cities and islands, preventing them from falling.",
+          "local_gravity": "Generated local fields reproduce the experience of the old Earth\u2019s gravity.",
+          "power": "Oppositely polarized metal components move in magnetic motors, powering city and transport systems.",
+          "fictional_physics": "These are rules of the setting; no real-world scientific mechanism is established.",
+          "technical_limits": null
+        }
+      },
+      "metals": [
+        {
+          "id": "type-a",
+          "appearance": "Bronze-like metal",
+          "properties": [
+            "Very durable"
+          ]
+        },
+        {
+          "id": "type-b",
+          "appearance": "Glowing green in both polarities",
+          "properties": [
+            "Found in opposite magnetic polarities"
+          ]
+        },
+        {
+          "id": "type-c",
+          "appearance": "Silvery metal",
+          "properties": [
+            "Most malleable of the Magneton types",
+            "Impenetrable and impervious to any weapons",
+            "Can drift along magnetic fields"
+          ]
+        }
+      ],
+      "duchies": [
+        {
+          "id": "veymarch",
+          "name": "Veymarch",
+          "emblem": "Silver broken shield and star"
+        },
+        {
+          "id": "auric-reach",
+          "name": "Auric Reach",
+          "emblem": "Merchant\u2019s balance within a coin"
+        },
+        {
+          "id": "ironveil",
+          "name": "Ironveil",
+          "emblem": "Silver hammer and anvil"
+        }
+      ]
+    },
+    "characters": [
+      {
+        "id": "local-crew-spokesperson",
+        "name": "The crews\u2019 spokesperson",
+        "title": "Crew spokesperson",
+        "visual_concept": {
+          "appearance": "Weathered middle-aged human man, light-brown windburned skin, short salt-and-pepper hair and stubble, narrow teal scarf, cracked brass flying goggles on forehead, patched BROWN leather flight coat and working gloves. No noble chains, long beard, monocle, silver armour or officer epaulettes. Distinct from the exiled bald baron."
+        }
+      }
+    ],
+    "objects": [
+      {
+        "id": "banner-veymarch",
+        "name": "Veymarch banner",
+        "description": "Crimson field; Silver broken shield and star",
+        "canonical_reference": "assets/banner-veymarch.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Crimson",
+            "hex": "#991B1B"
+          },
+          "emblem": {
+            "name": "Aged silver",
+            "hex": "#C8C2B0"
+          },
+          "trim": {
+            "name": "Antique silver trim",
+            "hex": "#A89978"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      },
+      {
+        "id": "banner-ironveil",
+        "name": "Ironveil banner",
+        "description": "Steel field; Silver hammer and anvil",
+        "canonical_reference": "assets/banner-ironveil.png",
+        "palette": {
+          "color_space": "sRGB",
+          "basis": "neutral-light art direction",
+          "note": "Material colour targets chosen to match the existing canonical banner; not sampled pixel averages or map/UI swatches.",
+          "cloth": {
+            "name": "Steel blue-grey",
+            "hex": "#455867"
+          },
+          "emblem": {
+            "name": "Aged silver",
+            "hex": "#C8C2B0"
+          },
+          "trim": {
+            "name": "Antique silver trim",
+            "hex": "#A89978"
+          },
+          "lighting_rule": "Allow folds, highlights, shadows and reflected light, but keep the cloth in its named hue family and preserve emblem contrast. Do not replace the house colour with the scene grading or another house palette."
+        }
+      }
+    ],
+    "world_constraints": [
+      "One image per request; no multi-panel collage or embedded borders.",
+      "Compose for the fixed holder. Do not letterbox or paste the old wide image.",
+      "Preserve character faces, outfits, heraldry, weapons, metal colours and scene counts.",
+      "Keep essential faces, bodies and weapons inside the visible crop-safe area and outside lettering zones.",
+      "No unsupported new lore, extra Type C suits, extra capital ships or invented character names.",
+      "Floating-island backgrounds must have deliberately varied asymmetric silhouettes, geology, heights, scale and land use. Mix broad fractured mesas, thin tilted slabs, split rock spires and bare rubble, with open sky between them. Some fragments are uninhabited or vegetated; not every island carries an identical castle. Never tile, mirror or repeat the same inverted-cone island/city silhouette. Preserve a named location\u2019s defining geography when changing camera angle.",
+      "Local schooners raid an Ironveil TRADING convoy during their escort. Recover Magneton and a pay chest; no new capital ship, complete conquest or territorial increase. Four owned capitals remain offscreen.",
+      "Exactly FOUR owned capital ships remain; these are small local schooners and trade vessels, never extra capitals or copies of Argonaut.",
+      "Local crews retain their own captains under a limited escort agreement. No permanent allegiance, territorial increase or complete Ironveil defeat.",
+      "The wider war is only being prepared on page30. No coalition, declaration or battle in the Shattered Plains yet.",
+      "Use canonical house colours and emblems. A house named in narration may be offscreen; do not cram every mentioned duchy into one scene.",
+      "Varied rock geology, open sky and distinct working ports, no copy-pasted castle islands. No gore or invented readable background labels.",
+      "All airborne vessels are rigid mechanical bronze/metal Zeppelin-like ships. ANY wooden sailing boats or cloth sails seen in an old scene reference are obsolete errors: REPLACE them with small bronze Zeppelin commuter hulls, keeping background positions."
+    ]
+  },
+  "heraldry": {
+    "banner_ids": [
+      "banner-veymarch",
+      "banner-ironveil"
+    ],
+    "policy": {
+      "reference_precedence": [
+        "Canonical banner reference for emblem geometry and colour placement",
+        "Dedicated material palette in objects.json for neutral-light hues",
+        "Scene and character references for composition and identity only"
+      ],
+      "review_checks": [
+        "Compare every visible banner with its canonical house reference side by side",
+        "Check cloth hue, emblem and trim separately under the scene lighting",
+        "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+      ],
+      "review_required": true
+    }
+  },
+  "prompt": "Edit ONLY the LEFT foreground man holding both hands up in this finished comic panel. He is an unnamed Ironveil MERCHANT OFFICER, NOT Rovan. Change him to a YOUNG CLEAN-SHAVEN man with SHORT COPPER-RED HAIR, freckles and a narrower worried face. NO black hair, NO silver hair streak, NO beard or moustache, NO crimson scarf. Preserve his ordinary dark STEEL-GREY merchant coat, raised hands and position. Keep the RIGHT local captain exactly unchanged: older stubble, goggles, patched brown coat and teal scarf. Preserve EVERYTHING ELSE exactly: both canonical house banners, plain white signal flag, all crates of bronze and green ore, open coin chest, other crew, ships, scenery, full caption/narration wording and lettering boxes, canvas size and framing. This is a single face/hairstyle correction to prevent mistaken identity.",
+  "review_checks": [
+    "Holder dimensions unchanged",
+    "Faces, costume, metals and heraldry match anchors",
+    "Correct number of ships and silver captains",
+    "No essential content cut by the holder or covered by lettering",
+    "Generated lettering matches every requested render_text exactly; transcript retains source wording",
+    "Compare every visible banner with its canonical house reference side by side",
+    "Check cloth hue, emblem and trim separately under the scene lighting",
+    "Reject swapped house colours or symbols; mark unclear or tiny banners for closer inspection"
+  ],
+  "source_hashes": {
+    "world.json": "3b6a242e3f44178fff4034589bb70d0bfd6ed79159d55f7db00c1948b5e1a964",
+    "character.json": "b6577436a79b46d003b98bc6f163e87925c36764f664cd51620163995885a21c",
+    "objects.json": "4b383626c06d9b7003e8cf011156305053b0431c478484b43bce203ba5c7998d",
+    "scene": "2987efb3164e18ba59877c5474471821be05ecb3b0d128a64d084e1cd1bac89d"
+  }
+}

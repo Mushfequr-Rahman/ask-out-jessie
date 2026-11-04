@@ -568,6 +568,90 @@
       "y": 700,
       "width": 480,
       "height": 568
+    },
+    "prologue-p28-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 280
+    },
+    "prologue-p28-panel02": {
+      "x": 0,
+      "y": 290,
+      "width": 462,
+      "height": 400
+    },
+    "prologue-p28-panel03": {
+      "x": 472,
+      "y": 290,
+      "width": 480,
+      "height": 400
+    },
+    "prologue-p28-panel04": {
+      "x": 0,
+      "y": 700,
+      "width": 462,
+      "height": 568
+    },
+    "prologue-p28-panel05": {
+      "x": 472,
+      "y": 700,
+      "width": 480,
+      "height": 568
+    },
+    "prologue-p29-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 400
+    },
+    "prologue-p29-panel02": {
+      "x": 0,
+      "y": 410,
+      "width": 400,
+      "height": 350
+    },
+    "prologue-p29-panel03": {
+      "x": 410,
+      "y": 410,
+      "width": 542,
+      "height": 350
+    },
+    "prologue-p29-panel04": {
+      "x": 0,
+      "y": 770,
+      "width": 952,
+      "height": 498
+    },
+    "prologue-p30-panel01": {
+      "x": 0,
+      "y": 0,
+      "width": 952,
+      "height": 280
+    },
+    "prologue-p30-panel02": {
+      "x": 0,
+      "y": 290,
+      "width": 462,
+      "height": 400
+    },
+    "prologue-p30-panel03": {
+      "x": 472,
+      "y": 290,
+      "width": 480,
+      "height": 400
+    },
+    "prologue-p30-panel04": {
+      "x": 0,
+      "y": 700,
+      "width": 462,
+      "height": 568
+    },
+    "prologue-p30-panel05": {
+      "x": 472,
+      "y": 700,
+      "width": 480,
+      "height": 568
     }
   },
   "extensions": [
@@ -648,6 +732,21 @@
       ],
       "source_commit": "fd49e18",
       "method": "Five frozen apertures for courier report, workshop/pay queue, captain disagreement, local-pilot proposal and sealed offer. No outcome beyond unanswered offer."
+    },
+    {
+      "pages": [
+        28
+      ],
+      "source_commit": "928574f",
+      "method": "Five frozen apertures: distrust, terms, treasury, limited handshake and refuelling-route insight."
+    },
+    {
+      "pages": [
+        29,
+        30
+      ],
+      "source_commit": "928574f",
+      "method": "Page29 four fixed scenes for escort/raid/cargo/resupply; page30 five frozen scenes of distinct arms orders and future Shattered Plains theatre, no new war begun."
     }
   ]
 }

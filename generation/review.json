@@ -1582,6 +1582,244 @@
         "height": 568
       },
       "review": "Visual review of fixed-holder composition and exact lettering, courier/Rovan and naval captain identity, speech tails, workshop/pay queue, voluntary local-pilot proposal and sealed unanswered offer. Correct house palettes and four-capital continuity preserved."
+    },
+    {
+      "id": "prologue-p28-panel01",
+      "output_file": "assets/panels/prologue-p28-panel01.png",
+      "selected_run": "generation/runs/prologue-p28-panel01.json",
+      "sha256": "8ac08c2457854aecd112a1db412a1cb0f2222ba397c6d1a61106c8b64facb8c1",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 280
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p28-panel02",
+      "output_file": "assets/panels/prologue-p28-panel02.png",
+      "selected_run": "generation/runs/prologue-p28-panel02.json",
+      "sha256": "88394f888f12a150c462541edf5af7ad6ab847200d0f1de39b4d71873a68a1ce",
+      "dimensions": {
+        "width": 1345,
+        "height": 1169
+      },
+      "holder": {
+        "x": 0,
+        "y": 290,
+        "width": 462,
+        "height": 400
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p28-panel03",
+      "output_file": "assets/panels/prologue-p28-panel03.png",
+      "selected_run": "generation/runs/prologue-p28-panel03.json",
+      "sha256": "40da88cf33684b29e2742e65ae749314921fd7111250c97ff920a2a0354377e4",
+      "dimensions": {
+        "width": 1374,
+        "height": 1145
+      },
+      "holder": {
+        "x": 472,
+        "y": 290,
+        "width": 480,
+        "height": 400
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p28-panel04",
+      "output_file": "assets/panels/prologue-p28-panel04.png",
+      "selected_run": "generation/runs/prologue-p28-panel04.json",
+      "sha256": "8f933fd0998469fd232a7d7b1a0ede8f4c8c25ec4b35451bd4f90c1e1f79a524",
+      "dimensions": {
+        "width": 1191,
+        "height": 1321
+      },
+      "holder": {
+        "x": 0,
+        "y": 700,
+        "width": 462,
+        "height": 568
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p28-panel05",
+      "output_file": "assets/panels/prologue-p28-panel05.png",
+      "selected_run": "generation/runs/prologue-p28-panel05.json",
+      "sha256": "7168dd53bcc1dcabfb1abecdbc7cb2c8c2bf288fd048f2c09c7614b9e3c0424e",
+      "dimensions": {
+        "width": 1151,
+        "height": 1367
+      },
+      "holder": {
+        "x": 472,
+        "y": 700,
+        "width": 480,
+        "height": 568
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p29-panel01",
+      "output_file": "assets/panels/prologue-p29-panel01.png",
+      "selected_run": "generation/runs/prologue-p29-panel01.json",
+      "sha256": "dbf88fff0e896942f339c087c36aac8a4253af465023c95f61f6b1db3f265372",
+      "dimensions": {
+        "width": 1926,
+        "height": 817
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 400
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p29-panel02",
+      "output_file": "assets/panels/prologue-p29-panel02.png",
+      "selected_run": "generation/runs/prologue-p29-panel02.json",
+      "sha256": "6c9fd425cee5b5a58a7b8366f4c7adb7722e4752a42b9a135eadc05ae509674b",
+      "dimensions": {
+        "width": 1334,
+        "height": 1179
+      },
+      "holder": {
+        "x": 0,
+        "y": 410,
+        "width": 400,
+        "height": 350
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p29-panel03",
+      "output_file": "assets/panels/prologue-p29-panel03.png",
+      "selected_run": "generation/runs/prologue-p29-panel03.json",
+      "sha256": "3606967f6ef287924e15e1a1319bf11ea4467163488f3aebd5dbd96e22c17297",
+      "dimensions": {
+        "width": 1557,
+        "height": 1010
+      },
+      "holder": {
+        "x": 410,
+        "y": 410,
+        "width": 542,
+        "height": 350
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p29-panel04",
+      "output_file": "assets/panels/prologue-p29-panel04.png",
+      "selected_run": "generation/runs/prologue-p29-panel04.json",
+      "sha256": "6c3c744c651f08c00e63f8aaa36d7085bee65ba4c7573ce67edc31f126e0eebc",
+      "dimensions": {
+        "width": 1734,
+        "height": 907
+      },
+      "holder": {
+        "x": 0,
+        "y": 770,
+        "width": 952,
+        "height": 498
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p30-panel01",
+      "output_file": "assets/panels/prologue-p30-panel01.png",
+      "selected_run": "generation/runs/prologue-p30-panel01.json",
+      "sha256": "790fcb0a5d35fb4ba370d3ab49b259e6b2c2b00140fd318d35fa277c10414999",
+      "dimensions": {
+        "width": 2172,
+        "height": 724
+      },
+      "holder": {
+        "x": 0,
+        "y": 0,
+        "width": 952,
+        "height": 280
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p30-panel02",
+      "output_file": "assets/panels/prologue-p30-panel02.png",
+      "selected_run": "generation/runs/prologue-p30-panel02.json",
+      "sha256": "07eede0fbb1d143cc2aacc75ac69737a3fcdc3f0614d4f17f56e66b166f75f75",
+      "dimensions": {
+        "width": 1346,
+        "height": 1168
+      },
+      "holder": {
+        "x": 0,
+        "y": 290,
+        "width": 462,
+        "height": 400
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p30-panel03",
+      "output_file": "assets/panels/prologue-p30-panel03.png",
+      "selected_run": "generation/runs/prologue-p30-panel03.json",
+      "sha256": "a24c884b2c811d2c54f447c7d8e3a92d4fe0e0ad10d825861da7633a56671591",
+      "dimensions": {
+        "width": 1378,
+        "height": 1142
+      },
+      "holder": {
+        "x": 472,
+        "y": 290,
+        "width": 480,
+        "height": 400
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p30-panel04",
+      "output_file": "assets/panels/prologue-p30-panel04.png",
+      "selected_run": "generation/runs/prologue-p30-panel04.json",
+      "sha256": "d5141cc6253ce414d96014bf199cd4471dfd92da469109d542bfcfa81446b923",
+      "dimensions": {
+        "width": 1191,
+        "height": 1321
+      },
+      "holder": {
+        "x": 0,
+        "y": 700,
+        "width": 462,
+        "height": 568
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
+    },
+    {
+      "id": "prologue-p30-panel05",
+      "output_file": "assets/panels/prologue-p30-panel05.png",
+      "selected_run": "generation/runs/prologue-p30-panel05.json",
+      "sha256": "77c93eb2bf36453f07339af33a526d9e4030831e6985b6cbd600089fba1f6f89",
+      "dimensions": {
+        "width": 1199,
+        "height": 1312
+      },
+      "holder": {
+        "x": 472,
+        "y": 700,
+        "width": 480,
+        "height": 568
+      },
+      "review": "Visual review of fixed-holder text and composition, recurring spokesperson and officer identities, canonical house emblems, small-craft raid/cargo rather than new capital capture, and separate duchy preparations. Limited agreement, temporary resupply and future Shattered Plains war preserve fleet/territorial continuity."
     }
   ]
 }

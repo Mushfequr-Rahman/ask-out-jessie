@@ -18,6 +18,14 @@ def scene_banners(scene, characters, objects):
     items = {o['id']: o for o in objects['objects']}
     selected = [chars[i] for i in scene['character_ids']] + [items[i] for i in scene['object_ids']]
     duchies = {x.get('duchy_id') for x in selected}
+    if 'visible_banner_ids' in scene:
+        ids = scene['visible_banner_ids']
+        assert len(set(ids)) == len(ids), 'Duplicate visible banner IDs'
+        assert all(i in items and items[i]['kind'] == 'heraldry' for i in ids), 'Unknown visible banner'
+        banners = [items[i] for i in ids]
+        for banner in banners:
+            validate_banner(banner)
+        return banners
     banners = [o for o in objects['objects'] if o['kind'] == 'heraldry' and
                (o['id'] in scene['object_ids'] or o['duchy_id'] in duchies)]
     for banner in banners:

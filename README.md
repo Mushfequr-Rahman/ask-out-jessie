@@ -5,12 +5,12 @@ A dependency-free HTML comic project featuring **Magneton**.
 ## Read online
 
 - [Chapters](https://mushfequr-rahman.github.io/ask-out-jessie/chapters.html): one available story, **Prologue**.
-- [Read Prologue](https://mushfequr-rahman.github.io/ask-out-jessie/prologue.html): all twenty-seven illustrated pages, including Rovan's rise, the five silver honour guards, and Auric Reach's response on page 12.
+- [Read Prologue](https://mushfequr-rahman.github.io/ask-out-jessie/prologue.html): all thirty illustrated pages, including Rovan's rise, the five silver honour guards, and Auric Reach's response on page 12.
 - [Glossary](https://mushfequr-rahman.github.io/ask-out-jessie/glossary.html): metals, ships, eight duchies and banners, people, and world terms.
-- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 109 current artwork files; linked from the glossary.
+- [Asset library](https://mushfequr-rahman.github.io/ask-out-jessie/assets.html): all 123 current artwork files; linked from the glossary.
 - [Repository asset catalogue](ASSETS.md), [world.json](world.json) and [character.json](character.json): artwork inventory, world reference and character records.
 
-Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's twenty-seven pages contain 93 unique regenerated panel illustrations.
+Every page uses the same two navigation links: **Chapters** and **Glossary**. The Chapters menu is also the home page. There are no other published story entries yet. The Prologue's thirty pages contain 107 unique regenerated panel illustrations.
 
 ## Run locally
 
@@ -67,7 +67,7 @@ The shared layout is checked in; chapter content is rendered in the browser from
 
 ## Verification
 
-Check the two shared navigation links and active states on all pages, the single Prologue entry, all twenty reader pages, the page selector, all 93 unique panel images, glossary section links and ship filters, eight distinct colours and banners, and mobile layouts. Old `index.html?page=7#reader`, `index.html#fleet`, and `magneton.html#type-c` bookmarks should forward to the new structure.
+Check the two shared navigation links and active states on all pages, the single Prologue entry, all twenty reader pages, the page selector, all 107 unique panel images, glossary section links and ship filters, eight distinct colours and banners, and mobile layouts. Old `index.html?page=7#reader`, `index.html#fleet`, and `magneton.html#type-c` bookmarks should forward to the new structure.
 
 ## World and asset maintenance
 
@@ -106,10 +106,10 @@ Run `python3 scripts/validate_world.py` after editing either file to check chara
 ```sh
 python3 scripts/build_image_requests.py
 python3 scripts/test_image_requests.py
-python3 scripts/validate_generation.py --require-outputs --banner-review generation/reason-banner-review.json
+python3 scripts/validate_generation.py --require-outputs --banner-review generation/raid-arms-banner-review.json
 ```
 
-The request builder takes scene + world.json + character.json + objects.json. It writes prompts rather than calling a paid API. All 93 selected outputs are already committed under `assets/`. Earlier anchors are retained under `references/`; generation requests and run metadata record provenance. See [the generation workflow and official research sources](docs/image-generation.md) for reference conditioning, exact lettering, fixed apertures and the MongoDB assessment. JSON remains the storage layer for this static site.
+The request builder takes scene + world.json + character.json + objects.json. It writes prompts rather than calling a paid API. All 107 selected outputs are already committed under `assets/`. Earlier anchors are retained under `references/`; generation requests and run metadata record provenance. See [the generation workflow and official research sources](docs/image-generation.md) for reference conditioning, exact lettering, fixed apertures and the MongoDB assessment. JSON remains the storage layer for this static site.
 
 ## Banner consistency
 
@@ -144,3 +144,9 @@ Page 26, **A Shifting Balance**, uses the original world atlas as its geographic
 Serenity’s post-capture appearance has its own `serenity-repainted` visual object: one slender cylindrical Zeppelin hull, rounded glazed bow, ivory stripe, compact bridge, two underslung engines and short casemate guns. Argonaut’s wedge prow, multi-keel hull and oversized refit turrets are unique to the flagship.
 
 Page 27, **A Reason to Choose**, follows a report that Ironveil schooners bypass Serendipity’s held dock and stop smaller ore carriers. Delayed Magneton threatens repairs and power works; workers wait for wages again. At council Tomas requests another Bastion, Mara challenges the idea, and Idris proposes local schooner crews who know the passages. Some served the exiled baron and distrust Rovan. He seals an offer of paid service; their answer is still pending. The fleet remains four capitals and the page26 territorial estimate is unchanged.
+
+Page 28, **On Their Terms**, lets the local crews negotiate advance pay, ship-loss compensation and family protection in the council’s records. They accept one escort operation under their own captains and identify Ironveil’s refuelling routes as its weakness.
+
+Page 29, **Borrowed Time**, follows that escort into a raid on an Ironveil ore convoy. The small schooners use the rocks and steering blind spots to recover Magneton and a pay chest, restoring repairs and wages in Oram. No capital ship or territory is gained.
+
+Page 30, **The Price of Peace**, follows arms orders and defensive preparations across the eight duchies, ending on the Shattered Plains as the future theatre of a wider war. The war has not begun; no coalition or declaration is established. Rovan still owns four capitals and controls about60% of former Auric territory.
